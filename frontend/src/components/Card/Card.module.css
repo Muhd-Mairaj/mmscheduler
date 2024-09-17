@@ -1,0 +1,62 @@
+.card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    overflow: hidden;
+  }
+  .card:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+  }
+  .clash {
+    background-color: rgba(128, 128, 128, 0.5); /* translucent grey */
+  }
+  
+  .title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+  }
+  .Card:hover {
+    transform: scale(1.02);
+  }
+  
+  .Header {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 12px;
+  }
+  
+  .Content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Lecture,
+  .Tutorial {
+    flex: 1;
+    margin-right: 16px;
+  }
+  
+  .Lecture:last-child,
+  .Tutorial:last-child {
+    margin-right: 0;
+  }
+  
+  h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  h4 {
+    margin: 8px 0 4px;
+    color: #666;
+  }
+  
+  p {
+    margin: 4px 0;
+    color: #555;
+  }
+  
