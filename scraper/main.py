@@ -19,46 +19,49 @@ def main():
 
 
 def read_data_occ_separated(sheet: my_sheet.MyReadOnlyWorksheet | my_sheet.Worksheet):
-    data = []
+    data = {}
     tracker = {}
     for row in sheet.iter_rows(min_row=sheet.header_row+1, max_row=sheet.end_row, values_only=True):
         module_offering = row[sheet._module_offering_column - 1]
-        code, occurence = parse_module_offering(module_offering)
+        code, occurences = parse_module_offering(module_offering)
 
         module = row[sheet._module_column - 1]
-        activity = row[sheet._activity_column - 1]
+        activity = "tutorial" if row[sheet._activity_column - 1].lower() == "tutorial" else "lecture"
         room = row[sheet._room_column - 1]
         day = row[sheet._day_column - 1]
         begin_time = row[sheet._begin_column - 1]
         end_time = row[sheet._end_column - 1]
 
-        for occ in occurence:
+        if code not in data:
+            data[code] = []
+
+        for occ in occurences:
             if code not in tracker:
                 tracker[code] = {}
-            
-            # if this occ for this code is not found before, track it
+
+            # if this occ for this code is not found before, start tracking it
             if occ not in tracker[code]:
                 tracker[code][occ] = {
                     "module": module,
                     "course_id": code,
                     "occurence": occ,
-                    activity.lower(): {
-                        "day": day,
-                        "room": room,
-                        "begin_time": begin_time,
-                        "end_time": end_time,
-                    } 
+                    # activity.lower(): {
+                    #     "day": day,
+                    #     "room": room,
+                    #     "begin_time": begin_time,
+                    #     "end_time": end_time,
+                    # }
                 }
-            # otherwise, update it and add to data
-            else:
-                tracker[code][occ][activity.lower()] = {
-                    "day": day,
-                        "room": room,
-                        "begin_time": begin_time,
-                        "end_time": end_time,
-                }
-                data.append(tracker[code][occ])
 
+            # update it
+            tracker[code][occ][activity] = {
+                "day": day,
+                    "room": room,
+                    "begin_time": begin_time,
+                    "end_time": end_time,
+            }
+
+    data = {code: sorted(list(occ.values()), key=lambda x: x["occurence"].rjust(2, " ")) for code, occ in tracker.items()}
     return data
 
 
