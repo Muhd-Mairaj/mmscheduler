@@ -50,7 +50,7 @@
 .timetable-grid {
   display: grid;
   grid-template-columns: auto repeat(5, 1fr);
-  grid-template-rows: auto repeat(24, minmax(30px, auto));
+  grid-template-rows: auto repeat(25, minmax(30px, auto));
   border: 1px solid #ccc;
   background-color: #f9f9f9;
   position: relative;
@@ -118,7 +118,8 @@
 }
 
 .room {
-  font-size: clamp(2px, 0.4vw, 7px);
+  /* font-size: clamp(2px, 0.4vw, 7px); */
+  font-size: clamp(12px, 0.4vw, 7px) !important;
   margin-top: auto;
   padding-top: 2px;
   word-break: break-word;
@@ -130,7 +131,10 @@
 }
 
 .lecture-event, .tutorial-event {
-  border-radius: 5px;
+  padding: 10px;
+  margin: 1px;
+  /* border-radius: 5px; */
+  border-radius: 20px;
   font-weight: bold;
   z-index: 3;
 }
@@ -159,9 +163,9 @@
 
 .time-slot {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 15px;
+  justify-content: end;
+  /* align-items: center; */
+  padding: 1px 5px 0 15px;
   font-size: clamp(8px, 1vw, 12px);
   color: #777;
   height: 100%;
