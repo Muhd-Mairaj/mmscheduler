@@ -249,6 +249,42 @@
       }
     }
   ],
+  "WIA2008": [
+    {
+      "module": "TEKNOLOGI RANGKAIAN LANJUTAN",
+      "course_id": "WIA2008",
+      "occurence": "1",
+      "lecture": {
+        "day": "Monday",
+        "room": "MAKMAL CCNA FSKTM",
+        "begin_time": "09:00",
+        "end_time": "11:00"
+      },
+      "tutorial": {
+        "day": "Tuesday",
+        "room": "MAKMAL CCNA FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      }
+    },
+    {
+      "module": "TEKNOLOGI RANGKAIAN LANJUTAN",
+      "course_id": "WIA2008",
+      "occurence": "2",
+      "lecture": {
+        "day": "Monday",
+        "room": "MAKMAL CCNA FSKTM",
+        "begin_time": "09:00",
+        "end_time": "11:00"
+      },
+      "tutorial": {
+        "day": "Tuesday",
+        "room": "MAKMAL CCNA FSKTM",
+        "begin_time": "12:00",
+        "end_time": "14:00"
+      }
+    }
+  ],
   "WIA2001": [
     {
       "module": "PANGKALAN DATA",
@@ -418,6 +454,30 @@
         "room": "MAKMAL MIKRO 2 FSKTM",
         "begin_time": "13:00",
         "end_time": "14:00"
+      }
+    }
+  ],
+  "GLT1033": [
+    {
+      "module": "BAHASA KOREA ASAS 1",
+      "course_id": "GLT1033",
+      "occurence": "1",
+      "lecture": {
+        "day": "Monday",
+        "room": "ONLINE LECTURE",
+        "begin_time": "16:00",
+        "end_time": "18:00"
+      }
+    },
+    {
+      "module": "BAHASA KOREA ASAS 1",
+      "course_id": "GLT1033",
+      "occurence": "2",
+      "lecture": {
+        "day": "Tuesday",
+        "room": "ONLINE LECTURE",
+        "begin_time": "16:00",
+        "end_time": "18:00"
       }
     }
   ],
@@ -754,6 +814,12 @@
         "room": "DEWAN KULIAH 1 FSKTM",
         "begin_time": "16:00",
         "end_time": "18:00"
+      },
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL MIKRO 2 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "11:00"
       }
     },
     {
@@ -994,6 +1060,59 @@
         "room": "BILIK KULIAH FSKTM",
         "begin_time": "12:00",
         "end_time": "13:00"
+      }
+    }
+  ],
+  "WIA1002": [
+    {
+      "module": "STRUKTUR DATA",
+      "course_id": "WIA1002",
+      "occurence": "1",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "12:00",
+        "end_time": "14:00"
+      },
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL MIKRO 6 FSKTM",
+        "begin_time": "14:00",
+        "end_time": "17:00"
+      }
+    },
+    {
+      "module": "STRUKTUR DATA",
+      "course_id": "WIA1002",
+      "occurence": "2",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "12:00",
+        "end_time": "14:00"
+      },
+      "tutorial": {
+        "day": "Friday",
+        "room": "MAKMAL MIKRO 4 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "12:00"
+      }
+    },
+    {
+      "module": "STRUKTUR DATA",
+      "course_id": "WIA1002",
+      "occurence": "3",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "12:00",
+        "end_time": "14:00"
+      },
+      "tutorial": {
+        "day": "Friday",
+        "room": "MAKMAL MIKRO 3 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "12:00"
       }
     }
   ]
