@@ -1,0 +1,1000 @@
+{
+  "WIX2001": [
+    {
+      "module": "KEMAHIRAN BERFIKIR DAN BERKOMUNIKASI",
+      "course_id": "WIX2001",
+      "occurence": "1",
+      "lecture": {
+        "day": "Tuesday",
+        "room": "BILIK KULIAH 2 FSKTM",
+        "begin_time": "13:00",
+        "end_time": "16:00"
+      }
+    },
+    {
+      "module": "KEMAHIRAN BERFIKIR DAN BERKOMUNIKASI",
+      "course_id": "WIX2001",
+      "occurence": "2",
+      "lecture": {
+        "day": "Monday",
+        "room": "BILIK TUTORIAL 2 FSKTM",
+        "begin_time": "11:00",
+        "end_time": "14:00"
+      }
+    },
+    {
+      "module": "KEMAHIRAN BERFIKIR DAN BERKOMUNIKASI",
+      "course_id": "WIX2001",
+      "occurence": "3",
+      "lecture": {
+        "day": "Tuesday",
+        "room": "BILIK KULIAH FSKTM",
+        "begin_time": "13:00",
+        "end_time": "16:00"
+      }
+    },
+    {
+      "module": "KEMAHIRAN BERFIKIR DAN BERKOMUNIKASI",
+      "course_id": "WIX2001",
+      "occurence": "4",
+      "lecture": {
+        "day": "Monday",
+        "room": "BILIK KULIAH 2 FSKTM",
+        "begin_time": "11:00",
+        "end_time": "14:00"
+      }
+    },
+    {
+      "module": "KEMAHIRAN BERFIKIR DAN BERKOMUNIKASI",
+      "course_id": "WIX2001",
+      "occurence": "5",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "BILIK TUTORIAL 1 FSKTM",
+        "begin_time": "14:00",
+        "end_time": "17:00"
+      }
+    },
+    {
+      "module": "KEMAHIRAN BERFIKIR DAN BERKOMUNIKASI",
+      "course_id": "WIX2001",
+      "occurence": "6",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "14:00",
+        "end_time": "17:00"
+      }
+    },
+    {
+      "module": "KEMAHIRAN BERFIKIR DAN BERKOMUNIKASI",
+      "course_id": "WIX2001",
+      "occurence": "7",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "BILIK TUTORIAL 3 FSKTM",
+        "begin_time": "14:00",
+        "end_time": "17:00"
+      }
+    },
+    {
+      "module": "KEMAHIRAN BERFIKIR DAN BERKOMUNIKASI",
+      "course_id": "WIX2001",
+      "occurence": "8",
+      "lecture": {
+        "day": "Monday",
+        "room": "BILIK KULIAH FSKTM",
+        "begin_time": "09:00",
+        "end_time": "12:00"
+      }
+    },
+    {
+      "module": "KEMAHIRAN BERFIKIR DAN BERKOMUNIKASI",
+      "course_id": "WIX2001",
+      "occurence": "9",
+      "lecture": {
+        "day": "Tuesday",
+        "room": "MAKMAL MIKRO 4 FSKTM",
+        "begin_time": "11:00",
+        "end_time": "14:00"
+      }
+    },
+    {
+      "module": "KEMAHIRAN BERFIKIR DAN BERKOMUNIKASI",
+      "course_id": "WIX2001",
+      "occurence": "10",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "BILIK KULIAH 2 FSKTM",
+        "begin_time": "15:00",
+        "end_time": "18:00"
+      }
+    }
+  ],
+  "WIA2007": [
+    {
+      "module": "PEMBANGUNAN APLIKASI MUDAH ALIH",
+      "course_id": "WIA2007",
+      "occurence": "1",
+      "tutorial": {
+        "day": "Tuesday",
+        "room": "MAKMAL MIKRO 3 FSKTM",
+        "begin_time": "11:00",
+        "end_time": "13:00"
+      },
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "08:00",
+        "end_time": "10:00"
+      }
+    },
+    {
+      "module": "PEMBANGUNAN APLIKASI MUDAH ALIH",
+      "course_id": "WIA2007",
+      "occurence": "2",
+      "tutorial": {
+        "day": "Tuesday",
+        "room": "MAKMAL MIKRO 1 FSKTM",
+        "begin_time": "11:00",
+        "end_time": "13:00"
+      },
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "08:00",
+        "end_time": "10:00"
+      }
+    },
+    {
+      "module": "PEMBANGUNAN APLIKASI MUDAH ALIH",
+      "course_id": "WIA2007",
+      "occurence": "3",
+      "tutorial": {
+        "day": "Tuesday",
+        "room": "MAKMAL LANJUTAN FSKTM",
+        "begin_time": "14:00",
+        "end_time": "16:00"
+      },
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "08:00",
+        "end_time": "10:00"
+      }
+    },
+    {
+      "module": "PEMBANGUNAN APLIKASI MUDAH ALIH",
+      "course_id": "WIA2007",
+      "occurence": "4",
+      "tutorial": {
+        "day": "Monday",
+        "room": "MAKMAL MIKRO 3 FSKTM",
+        "begin_time": "12:00",
+        "end_time": "14:00"
+      },
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "08:00",
+        "end_time": "10:00"
+      }
+    },
+    {
+      "module": "PEMBANGUNAN APLIKASI MUDAH ALIH",
+      "course_id": "WIA2007",
+      "occurence": "5",
+      "tutorial": {
+        "day": "Monday",
+        "room": "MAKMAL MIKRO 4 FSKTM",
+        "begin_time": "12:00",
+        "end_time": "14:00"
+      },
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "08:00",
+        "end_time": "10:00"
+      }
+    },
+    {
+      "module": "PEMBANGUNAN APLIKASI MUDAH ALIH",
+      "course_id": "WIA2007",
+      "occurence": "6",
+      "tutorial": {
+        "day": "Monday",
+        "room": "MAKMAL MIKRO 3 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "11:00"
+      },
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "08:00",
+        "end_time": "10:00"
+      }
+    },
+    {
+      "module": "PEMBANGUNAN APLIKASI MUDAH ALIH",
+      "course_id": "WIA2007",
+      "occurence": "7",
+      "tutorial": {
+        "day": "Monday",
+        "room": "MAKMAL MIKRO 6 FSKTM",
+        "begin_time": "12:00",
+        "end_time": "14:00"
+      },
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "08:00",
+        "end_time": "10:00"
+      }
+    },
+    {
+      "module": "PEMBANGUNAN APLIKASI MUDAH ALIH",
+      "course_id": "WIA2007",
+      "occurence": "8",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "08:00",
+        "end_time": "10:00"
+      },
+      "tutorial": {
+        "day": "Wednesday",
+        "room": "MAKMAL MIKRO 1 FSKTM",
+        "begin_time": "15:00",
+        "end_time": "17:00"
+      }
+    }
+  ],
+  "WIA2001": [
+    {
+      "module": "PANGKALAN DATA",
+      "course_id": "WIA2001",
+      "occurence": "1",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "14:00",
+        "end_time": "16:00"
+      },
+      "tutorial": {
+        "day": "Wednesday",
+        "room": "MAKMAL MIKRO 3 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "10:00"
+      }
+    },
+    {
+      "module": "PANGKALAN DATA",
+      "course_id": "WIA2001",
+      "occurence": "2",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "14:00",
+        "end_time": "16:00"
+      },
+      "tutorial": {
+        "day": "Wednesday",
+        "room": "MAKMAL MIKRO 1 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "10:00"
+      }
+    },
+    {
+      "module": "PANGKALAN DATA",
+      "course_id": "WIA2001",
+      "occurence": "3",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "14:00",
+        "end_time": "16:00"
+      },
+      "tutorial": {
+        "day": "Wednesday",
+        "room": "MAKMAL MIKRO 3 FSKTM",
+        "begin_time": "12:00",
+        "end_time": "13:00"
+      }
+    },
+    {
+      "module": "PANGKALAN DATA",
+      "course_id": "WIA2001",
+      "occurence": "4",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "14:00",
+        "end_time": "16:00"
+      },
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL STROUSTRUP FSKTM",
+        "begin_time": "12:00",
+        "end_time": "13:00"
+      }
+    },
+    {
+      "module": "PANGKALAN DATA",
+      "course_id": "WIA2001",
+      "occurence": "5",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "14:00",
+        "end_time": "16:00"
+      },
+      "tutorial": {
+        "day": "Wednesday",
+        "room": "MAKMAL MIKRO 3 FSKTM",
+        "begin_time": "13:00",
+        "end_time": "14:00"
+      }
+    },
+    {
+      "module": "PANGKALAN DATA",
+      "course_id": "WIA2001",
+      "occurence": "6",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "14:00",
+        "end_time": "16:00"
+      },
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL STROUSTRUP FSKTM",
+        "begin_time": "13:00",
+        "end_time": "14:00"
+      }
+    },
+    {
+      "module": "PANGKALAN DATA",
+      "course_id": "WIA2001",
+      "occurence": "7",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "14:00",
+        "end_time": "16:00"
+      },
+      "tutorial": {
+        "day": "Wednesday",
+        "room": "MAKMAL MIKRO 4 FSKTM",
+        "begin_time": "12:00",
+        "end_time": "13:00"
+      }
+    },
+    {
+      "module": "PANGKALAN DATA",
+      "course_id": "WIA2001",
+      "occurence": "8",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "14:00",
+        "end_time": "16:00"
+      },
+      "tutorial": {
+        "day": "Wednesday",
+        "room": "MAKMAL MIKRO 4 FSKTM",
+        "begin_time": "13:00",
+        "end_time": "14:00"
+      }
+    },
+    {
+      "module": "PANGKALAN DATA",
+      "course_id": "WIA2001",
+      "occurence": "9",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "14:00",
+        "end_time": "16:00"
+      },
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL MIKRO 2 FSKTM",
+        "begin_time": "12:00",
+        "end_time": "13:00"
+      }
+    },
+    {
+      "module": "PANGKALAN DATA",
+      "course_id": "WIA2001",
+      "occurence": "10",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "14:00",
+        "end_time": "16:00"
+      },
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL MIKRO 2 FSKTM",
+        "begin_time": "13:00",
+        "end_time": "14:00"
+      }
+    }
+  ],
+  "WIA2003": [
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "1",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "16:00",
+        "end_time": "18:00"
+      },
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL MIKRO 2 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "10:00"
+      }
+    },
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "2",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "16:00",
+        "end_time": "18:00"
+      },
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL MIKRO 4 FSKTM",
+        "begin_time": "12:00",
+        "end_time": "13:00"
+      }
+    },
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "3",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "16:00",
+        "end_time": "18:00"
+      },
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL LANJUTAN FSKTM",
+        "begin_time": "13:00",
+        "end_time": "14:00"
+      }
+    },
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "4",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "16:00",
+        "end_time": "18:00"
+      },
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL MIKRO 4 FSKTM",
+        "begin_time": "13:00",
+        "end_time": "14:00"
+      }
+    },
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "5",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "16:00",
+        "end_time": "18:00"
+      },
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL LANJUTAN FSKTM",
+        "begin_time": "14:00",
+        "end_time": "15:00"
+      }
+    },
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "6",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "16:00",
+        "end_time": "18:00"
+      },
+      "tutorial": {
+        "day": "Wednesday",
+        "room": "MAKMAL MIKRO 4 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "10:00"
+      }
+    },
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "7",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "16:00",
+        "end_time": "18:00"
+      },
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL MIKRO 3 FSKTM",
+        "begin_time": "12:00",
+        "end_time": "13:00"
+      }
+    },
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "8",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "16:00",
+        "end_time": "18:00"
+      },
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL MIKRO 3 FSKTM",
+        "begin_time": "13:00",
+        "end_time": "14:00"
+      }
+    },
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "9",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "16:00",
+        "end_time": "18:00"
+      },
+      "tutorial": {
+        "day": "Wednesday",
+        "room": "MAKMAL MIKRO 2 FSKTM",
+        "begin_time": "12:00",
+        "end_time": "13:00"
+      }
+    },
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "10",
+      "lecture": {
+        "day": "Monday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "16:00",
+        "end_time": "18:00"
+      },
+      "tutorial": {
+        "day": "Wednesday",
+        "room": "MAKMAL MIKRO 1 FSKTM",
+        "begin_time": "12:00",
+        "end_time": "13:00"
+      }
+    }
+  ],
+  "GIG1003": [
+    {
+      "module": "ASAS PEMBUDAYAAN KEUSAHAWANAN",
+      "course_id": "GIG1003",
+      "occurence": "1",
+      "lecture": {
+        "day": "Monday",
+        "room": "ONLINE LECTURE",
+        "begin_time": "17:00",
+        "end_time": "19:00"
+      }
+    }
+  ],
+  "WIA2006": [
+    {
+      "module": "ANALISIS DAN REKABENTUK SISTEM",
+      "course_id": "WIA2006",
+      "occurence": "1",
+      "tutorial": {
+        "day": "Tuesday",
+        "room": "MAKMAL MIKRO 4 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "10:00"
+      },
+      "lecture": {
+        "day": "Thursday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      }
+    },
+    {
+      "module": "ANALISIS DAN REKABENTUK SISTEM",
+      "course_id": "WIA2006",
+      "occurence": "2",
+      "tutorial": {
+        "day": "Tuesday",
+        "room": "MAKMAL MIKRO 3 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "10:00"
+      },
+      "lecture": {
+        "day": "Thursday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      }
+    },
+    {
+      "module": "ANALISIS DAN REKABENTUK SISTEM",
+      "course_id": "WIA2006",
+      "occurence": "3",
+      "tutorial": {
+        "day": "Wednesday",
+        "room": "MAKMAL LANJUTAN FSKTM",
+        "begin_time": "13:00",
+        "end_time": "14:00"
+      },
+      "lecture": {
+        "day": "Thursday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      }
+    },
+    {
+      "module": "ANALISIS DAN REKABENTUK SISTEM",
+      "course_id": "WIA2006",
+      "occurence": "4",
+      "tutorial": {
+        "day": "Tuesday",
+        "room": "MAKMAL MIKRO 3 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "11:00"
+      },
+      "lecture": {
+        "day": "Thursday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      }
+    },
+    {
+      "module": "ANALISIS DAN REKABENTUK SISTEM",
+      "course_id": "WIA2006",
+      "occurence": "5",
+      "tutorial": {
+        "day": "Wednesday",
+        "room": "MAKMAL LANJUTAN FSKTM",
+        "begin_time": "14:00",
+        "end_time": "15:00"
+      },
+      "lecture": {
+        "day": "Thursday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      }
+    },
+    {
+      "module": "ANALISIS DAN REKABENTUK SISTEM",
+      "course_id": "WIA2006",
+      "occurence": "6",
+      "tutorial": {
+        "day": "Tuesday",
+        "room": "MAKMAL MIKRO 6 FSKTM",
+        "begin_time": "16:00",
+        "end_time": "17:00"
+      },
+      "lecture": {
+        "day": "Thursday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      }
+    },
+    {
+      "module": "ANALISIS DAN REKABENTUK SISTEM",
+      "course_id": "WIA2006",
+      "occurence": "7",
+      "tutorial": {
+        "day": "Wednesday",
+        "room": "MAKMAL LANJUTAN FSKTM",
+        "begin_time": "09:00",
+        "end_time": "10:00"
+      },
+      "lecture": {
+        "day": "Thursday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      }
+    },
+    {
+      "module": "ANALISIS DAN REKABENTUK SISTEM",
+      "course_id": "WIA2006",
+      "occurence": "8",
+      "tutorial": {
+        "day": "Tuesday",
+        "room": "MAKMAL MIKRO 6 FSKTM",
+        "begin_time": "17:00",
+        "end_time": "18:00"
+      },
+      "lecture": {
+        "day": "Thursday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      }
+    }
+  ],
+  "WIA2002": [
+    {
+      "module": "PEMODELAN PERISIAN",
+      "course_id": "WIA2002",
+      "occurence": "1",
+      "lecture": {
+        "day": "Tuesday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "16:00",
+        "end_time": "18:00"
+      }
+    },
+    {
+      "module": "PEMODELAN PERISIAN",
+      "course_id": "WIA2002",
+      "occurence": "2",
+      "lecture": {
+        "day": "Tuesday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "16:00",
+        "end_time": "18:00"
+      },
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL MIKRO 2 FSKTM",
+        "begin_time": "11:00",
+        "end_time": "12:00"
+      }
+    },
+    {
+      "module": "PEMODELAN PERISIAN",
+      "course_id": "WIA2002",
+      "occurence": "3",
+      "lecture": {
+        "day": "Tuesday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "16:00",
+        "end_time": "18:00"
+      },
+      "tutorial": {
+        "day": "Friday",
+        "room": "MAKMAL MIKRO 1 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "10:00"
+      }
+    },
+    {
+      "module": "PEMODELAN PERISIAN",
+      "course_id": "WIA2002",
+      "occurence": "4",
+      "lecture": {
+        "day": "Tuesday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "16:00",
+        "end_time": "18:00"
+      },
+      "tutorial": {
+        "day": "Friday",
+        "room": "MAKMAL MIKRO 1 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "11:00"
+      }
+    },
+    {
+      "module": "PEMODELAN PERISIAN",
+      "course_id": "WIA2002",
+      "occurence": "1RL",
+      "lecture": {
+        "day": "Tuesday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "16:00",
+        "end_time": "18:00"
+      },
+      "tutorial": {
+        "day": "Friday",
+        "room": "MAKMAL MIKRO 1 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "11:00"
+      }
+    }
+  ],
+  "WIX2002": [
+    {
+      "module": "PENGURUSAN PROJEK",
+      "course_id": "WIX2002",
+      "occurence": "1",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      },
+      "tutorial": {
+        "day": "Thursday",
+        "room": "BILIK KULIAH FSKTM",
+        "begin_time": "15:00",
+        "end_time": "16:00"
+      }
+    },
+    {
+      "module": "PENGURUSAN PROJEK",
+      "course_id": "WIX2002",
+      "occurence": "2",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      },
+      "tutorial": {
+        "day": "Friday",
+        "room": "MAKMAL MIKRO 6 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "11:00"
+      }
+    },
+    {
+      "module": "PENGURUSAN PROJEK",
+      "course_id": "WIX2002",
+      "occurence": "3",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      },
+      "tutorial": {
+        "day": "Friday",
+        "room": "MAKMAL MIKRO 6 FSKTM",
+        "begin_time": "11:00",
+        "end_time": "12:00"
+      }
+    },
+    {
+      "module": "PENGURUSAN PROJEK",
+      "course_id": "WIX2002",
+      "occurence": "4",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      },
+      "tutorial": {
+        "day": "Thursday",
+        "room": "BILIK KULIAH 2 FSKTM",
+        "begin_time": "14:00",
+        "end_time": "15:00"
+      }
+    },
+    {
+      "module": "PENGURUSAN PROJEK",
+      "course_id": "WIX2002",
+      "occurence": "5",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      },
+      "tutorial": {
+        "day": "Thursday",
+        "room": "BILIK KULIAH 2 FSKTM",
+        "begin_time": "15:00",
+        "end_time": "16:00"
+      }
+    },
+    {
+      "module": "PENGURUSAN PROJEK",
+      "course_id": "WIX2002",
+      "occurence": "6",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      },
+      "tutorial": {
+        "day": "Friday",
+        "room": "BILIK KULIAH FSKTM",
+        "begin_time": "08:00",
+        "end_time": "09:00"
+      }
+    },
+    {
+      "module": "PENGURUSAN PROJEK",
+      "course_id": "WIX2002",
+      "occurence": "7",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      },
+      "tutorial": {
+        "day": "Friday",
+        "room": "BILIK KULIAH 2 FSKTM",
+        "begin_time": "15:00",
+        "end_time": "16:00"
+      }
+    },
+    {
+      "module": "PENGURUSAN PROJEK",
+      "course_id": "WIX2002",
+      "occurence": "8",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      },
+      "tutorial": {
+        "day": "Friday",
+        "room": "BILIK KULIAH FSKTM",
+        "begin_time": "11:00",
+        "end_time": "12:00"
+      }
+    },
+    {
+      "module": "PENGURUSAN PROJEK",
+      "course_id": "WIX2002",
+      "occurence": "9",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      },
+      "tutorial": {
+        "day": "Friday",
+        "room": "BILIK KULIAH 2 FSKTM",
+        "begin_time": "16:00",
+        "end_time": "17:00"
+      }
+    },
+    {
+      "module": "PENGURUSAN PROJEK",
+      "course_id": "WIX2002",
+      "occurence": "10",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      },
+      "tutorial": {
+        "day": "Friday",
+        "room": "BILIK KULIAH FSKTM",
+        "begin_time": "12:00",
+        "end_time": "13:00"
+      }
+    }
+  ]
+}
