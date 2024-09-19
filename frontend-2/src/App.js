@@ -20,13 +20,34 @@ function App() {
     });
   };
 
+  const handleSaveState = () => {
+    localStorage.setItem("courses", JSON.stringify(courses));
+    localStorage.setItem("selectedOccurences", JSON.stringify(selectedOccurences));
+    localStorage.setItem("disabledOccurences", JSON.stringify(disabledOccurences));
+  };
+
   useEffect(() => {
-    fetch("/one_week_schedule_occ_separated.json") // path to your json file
-      .then((response) => response.json())
-      .then((data) => {
-        setCourses(data);
-        console.log(data);
-      });
+    if (localStorage.getItem("courses") && localStorage.getItem("selectedOccurences") && localStorage.getItem("disabledOccurences")) {
+      console.log("local 1", JSON.parse(localStorage.getItem("selectedOccurences")));
+      console.log("local 2", JSON.parse(localStorage.getItem("disabledOccurences")));
+      setCourses(JSON.parse(localStorage.getItem("courses")));
+      setSelectedOccurences(JSON.parse(localStorage.getItem("selectedOccurences")));
+      setDisabledOccurences(JSON.parse(localStorage.getItem("disabledOccurences")));
+
+    }
+    else {
+      setSelectedOccurences([]);
+      setDisabledOccurences([]);
+      localStorage.clear();
+      fetch("/one_week_schedule_occ_separated.json") // path to your json file
+        .then((response) => response.json())
+        .then((data) => {
+          setCourses(data);
+          console.log(data);
+        });
+    }
+
+
   }, []);
 
   useEffect(() => {
@@ -176,6 +197,24 @@ function App() {
     return lectureClash;
   };
 
+  const checkContains = (array, occurence) => {
+    for (let index = 0; index < array.length; index++) {
+      const element = array[index];
+      if (isSame(element, occurence)) {
+        return true;
+      }
+    }
+    return false;
+  };
+
+  const isSame = (course1, course2) => {
+    return (
+      course1.course_id === course2.course_id &&
+      course1.module === course2.module &&
+      course1.occurence === course2.occurence
+    );
+  };
+
   return (
     <div className="app-container">
       <div className="occurrence-container">
@@ -188,8 +227,8 @@ function App() {
                 </h3>
                 <div className="occurrences">
                   {occurrences.map((occurrence, occurrenceIndex) => {
-                    const isDisabled = disabledOccurences.includes(occurrence);
-                    const isSelected = selectedOccurences.includes(occurrence);
+                    const isDisabled = checkContains(disabledOccurences, occurrence);
+                    const isSelected = checkContains(selectedOccurences, occurrence);
                     return (
                       <OccButton
                         onClick={handleOccurenceSelect}
@@ -206,6 +245,9 @@ function App() {
       </div>
       <button className={"button save-button"} onClick={handleSave}>
         Save Table Image
+      </button>
+      <button className={"button"} onClick={handleSaveState}>
+        Save Selected courses
       </button>
       <div className="table-container">
         <Timetable selectedOccurrences={selectedOccurences} ref={tableRef} />
