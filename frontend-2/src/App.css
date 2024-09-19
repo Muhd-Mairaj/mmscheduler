@@ -27,7 +27,7 @@
 .timetable-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr); /* Monday to Friday */
-  grid-template-rows: repeat(12, 60px); /* Set a fixed height for each row representing an hour */
+  grid-template-rows: repeat(26, 30px); /* Set a fixed height for each row representing an hour */
   gap: 5px; /* Adds space between grid cells */
   border: 1px solid #ccc; /* Border around the entire timetable */
   padding: 10px;
@@ -37,13 +37,13 @@
 
 .timetable-grid div {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background-color: #fff; */
   border: 1px solid #ddd;
   border-radius: 5px;
   font-size: 14px;
-  padding: 8px;
+  padding: 2px;
   text-align: center;
 }
 
@@ -72,7 +72,7 @@
 .time-slot {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  /* align-items: center; */
   padding-right: 10px;
   font-size: 12px;
   color: #777;
