@@ -12,7 +12,6 @@
 
 .occurrence-button.disabled {
   background-color: lightgray;
-  pointer-events: none;
 }
 
 .container {
