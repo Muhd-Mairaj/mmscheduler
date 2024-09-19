@@ -39,7 +39,7 @@ function App() {
       setSelectedOccurences([]);
       setDisabledOccurences([]);
       localStorage.clear();
-      fetch("/one_week_schedule_occ_separated.json") // path to your json file
+      fetch("/one_week_schedule_occ_separated.json") // path to json file
         .then((response) => response.json())
         .then((data) => {
           setCourses(data);
@@ -106,15 +106,10 @@ function App() {
     selectedOccurences.forEach((occurence) => {
       Object.values(courses).forEach((course) => {
         course.forEach((courseOccurence) => {
-          if (
-            courseOccurence !== occurence &&
-            isClashing(occurence, courseOccurence)
-          ) {
+          if (!isSame(occurence, courseOccurence) && isClashing(occurence, courseOccurence)) {
             tempDisabledOccurences.push(courseOccurence);
-          } else if (
-            courseOccurence.course_id === occurence.course_id &&
-            courseOccurence !== occurence
-          ) {
+
+          } else if (courseOccurence.course_id === occurence.course_id && !isSame(courseOccurence, occurence)) {
             tempDisabledOccurences.push(courseOccurence);
           }
         });
@@ -202,9 +197,6 @@ function App() {
       timesOverlap(tutorial1Start, tutorial1End, tutorial2Start, tutorial2End)
     ) : false;
 
-        return lectureClash || tutorialClash;
-      }
-    }
 
     return lectureClash || tutorialLectureClash || lectureTutorialClash || tutorialClash;
   };
