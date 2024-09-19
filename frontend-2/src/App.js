@@ -1,12 +1,24 @@
 import "./App.css";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Timetable from "./components/Timetable";
 import OccButton from "./components/OccButton";
+import html2canvas from "html2canvas";
 
 function App() {
   const [courses, setCourses] = useState({});
   const [selectedOccurences, setSelectedOccurences] = useState([]);
   const [disabledOccurences, setDisabledOccurences] = useState([]);
+
+  const tableRef = useRef();
+
+  const handleSave = () => {
+    html2canvas(tableRef.current).then((canvas) => {
+      const link = document.createElement("a");
+      link.download = "table_image.png";
+      link.href = canvas.toDataURL("image/png");
+      link.click();
+    });
+  };
 
   useEffect(() => {
     fetch("/one_week_schedule_occ_separated.json") // path to your json file
@@ -32,7 +44,10 @@ function App() {
       for (let i = 0; i < selectedOccurences.length; i++) {
         if (selectedOccurences[i].course_id === selectedOccurence.course_id) {
           for (let j = i; j < selectedOccurences.length; j++) {
-            if(isClashing(selectedOccurences[j], selectedOccurences[i]) && j !== i){
+            if (
+              isClashing(selectedOccurences[j], selectedOccurences[i]) &&
+              j !== i
+            ) {
               console.log("clashing");
               return;
             }
@@ -64,7 +79,10 @@ function App() {
             isClashing(occurence, courseOccurence)
           ) {
             tempDisabledOccurences.push(courseOccurence);
-          }else if(courseOccurence.course_id === occurence.course_id && courseOccurence !== occurence){
+          } else if (
+            courseOccurence.course_id === occurence.course_id &&
+            courseOccurence !== occurence
+          ) {
             tempDisabledOccurences.push(courseOccurence);
           }
         });
@@ -159,32 +177,39 @@ function App() {
   };
 
   return (
-    <div className="container">
-      {courses &&
-        Object.entries(courses).map(([courseName, occurrences], index) => {
-          return (
-            <div key={index} className="course-block">
-              <h3>
-                {courseName} - {occurrences[0].module}
-              </h3>
-              <div className="occurrences">
-                {occurrences.map((occurrence, occurrenceIndex) => {
-                  const isDisabled = disabledOccurences.includes(occurrence);
-                  const isSelected = selectedOccurences.includes(occurrence);
-                  return (
-                    <OccButton
-                      onClick={handleOccurenceSelect}
-                      occurrence={occurrence}
-                      isDisabled={isDisabled}
-                      isSelected={isSelected}
-                    />
-                  );
-                })}
+    <div className="app-container">
+      <div className="occurrence-container">
+        {courses &&
+          Object.entries(courses).map(([courseName, occurrences], index) => {
+            return (
+              <div key={index} className="course-block">
+                <h3>
+                  {courseName} - {occurrences[0].module}
+                </h3>
+                <div className="occurrences">
+                  {occurrences.map((occurrence, occurrenceIndex) => {
+                    const isDisabled = disabledOccurences.includes(occurrence);
+                    const isSelected = selectedOccurences.includes(occurrence);
+                    return (
+                      <OccButton
+                        onClick={handleOccurenceSelect}
+                        occurrence={occurrence}
+                        isDisabled={isDisabled}
+                        isSelected={isSelected}
+                      />
+                    );
+                  })}
+                </div>
               </div>
-            </div>
-          );
-        })}
-      <Timetable selectedOccurrences={selectedOccurences} />
+            );
+          })}
+      </div>
+      <button className={"button save-button"} onClick={handleSave}>
+        Save Table Image
+      </button>
+      <div className="table-container">
+        <Timetable selectedOccurrences={selectedOccurences} ref={tableRef} />
+      </div>
     </div>
   );
 }

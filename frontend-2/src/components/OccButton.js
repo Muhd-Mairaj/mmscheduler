@@ -2,7 +2,7 @@ const OccButton = ({ onClick, occurrence, isDisabled, isSelected }) => {
   return (
     <button
       className={`occurrence-button ${isDisabled ? "disabled" : ""} ${
-        isSelected ? "selected" : ""
+        isSelected && !isDisabled? "selected" : ""
       }`}
       onClick={() => onClick(occurrence, isDisabled)}
     >
