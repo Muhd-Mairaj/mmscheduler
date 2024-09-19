@@ -60,6 +60,17 @@ function App() {
 
   const handleOccurenceSelect = (selectedOccurence, isDisabled) => {
     console.log("selected: ", selectedOccurence);
+
+    // if the course is already selected, unselect it
+    if (selectedOccurences.some((occurence) => isSame(occurence, selectedOccurence))) {
+      const updatedSelectedOccurences = selectedOccurences.filter(
+        (occurence) => !isSame(occurence, selectedOccurence)
+      );
+      setSelectedOccurences(updatedSelectedOccurences);
+      checkClashing(updatedSelectedOccurences);
+      return;
+    }
+
     if (isDisabled) {
       console.log("disabled");
       for (let i = 0; i < selectedOccurences.length; i++) {
@@ -155,46 +166,47 @@ function App() {
       course1.lecture.day === course2.lecture.day &&
       timesOverlap(lecture1Start, lecture1End, lecture2Start, lecture2End);
 
-    // Check for tutorial clash only if both courses have tutorial information
-    if (
-      course1.tutorial &&
-      course2.tutorial &&
-      course1.tutorial.day !== "NaN" &&
-      course2.tutorial.day !== "NaN"
-    ) {
-      const tutorial1Start = parseTime(
-        course1.tutorial.day,
-        course1.tutorial.begin_time
-      );
-      const tutorial1End = parseTime(
-        course1.tutorial.day,
-        course1.tutorial.end_time
-      );
-      const tutorial2Start = parseTime(
-        course2.tutorial.day,
-        course2.tutorial.begin_time
-      );
-      const tutorial2End = parseTime(
-        course2.tutorial.day,
-        course2.tutorial.end_time
-      );
+    
+    const tutorial1Start = course1.tutorial ? parseTime(
+      course1.tutorial.day,
+      course1.tutorial.begin_time
+    ) : null;
 
-      // Check if all necessary tutorial times are available
-      if (tutorial1Start && tutorial1End && tutorial2Start && tutorial2End) {
-        const tutorialClash =
-          course1.tutorial.day === course2.tutorial.day &&
-          timesOverlap(
-            tutorial1Start,
-            tutorial1End,
-            tutorial2Start,
-            tutorial2End
-          );
+    const tutorial1End = course1.tutorial ? parseTime(
+      course1.tutorial.day,
+      course1.tutorial.end_time
+    ) : null;
+
+    const tutorial2Start = course2.tutorial ? parseTime(
+      course2.tutorial.day,
+      course2.tutorial.begin_time
+    ) : null;
+
+    const tutorial2End = course2.tutorial ? parseTime(
+      course2.tutorial.day,
+      course2.tutorial.end_time
+    ) : null;
+
+    const tutorialLectureClash = course1.tutorial ? (
+      course1.tutorial.day === course2.lecture.day &&
+      timesOverlap(tutorial1Start, tutorial1End, lecture2Start, lecture2End)
+    ) : false;
+
+    const lectureTutorialClash = course2.tutorial ? (
+      course1.lecture.day === course2.tutorial.day &&
+      timesOverlap(lecture1Start, lecture1End, tutorial2Start, tutorial2End)
+    ) : false;
+
+    const tutorialClash = course1.tutorial && course2.tutorial ? (
+      course1.tutorial.day === course2.tutorial.day &&
+      timesOverlap(tutorial1Start, tutorial1End, tutorial2Start, tutorial2End)
+    ) : false;
 
         return lectureClash || tutorialClash;
       }
     }
 
-    return lectureClash;
+    return lectureClash || tutorialLectureClash || lectureTutorialClash || tutorialClash;
   };
 
   const checkContains = (array, occurence) => {
