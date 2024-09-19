@@ -5,3 +5,4 @@ __pycache__
 *.xlsx
 
 *.json
+node_modules
