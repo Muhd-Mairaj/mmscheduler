@@ -10,7 +10,8 @@ class MyWorksheet(Worksheet, MySheet):
     # def __init__(self, parent: _read_only.Workbook | None, title: str | _write_only._Decodable | None = None) -> None:
     #     super().__init__(parent, title)
     def __init__(self, sheet: Worksheet) -> None:
-        raise NotImplementedError("Please use read_only=True when opening the workbook")
+        raise NotImplementedError(
+            "Please use read_only=True when opening the workbook")
 
     def _my_setup(self):
         pass
@@ -26,7 +27,6 @@ class MyWorksheet(Worksheet, MySheet):
     @property
     def header(self) -> tuple:
         return self._header
-
 
 
 class MyReadOnlyWorksheet(_read_only.ReadOnlyWorksheet, MySheet):
@@ -82,7 +82,8 @@ class MyReadOnlyWorksheet(_read_only.ReadOnlyWorksheet, MySheet):
                 self._header_row = i
                 break
 
-        self._header = self.iter_rows(min_row=self._header_row, max_row=self._header_row, values_only=True).__next__()
+        self._header = self.iter_rows(
+            min_row=self._header_row, max_row=self._header_row, values_only=True).__next__()
 
         # continue from the header row to find end row
         start_week = 0
@@ -94,7 +95,6 @@ class MyReadOnlyWorksheet(_read_only.ReadOnlyWorksheet, MySheet):
             if row[self._week_column - 1] != start_week:
                 self._end_row = i - 1
                 break
-
 
     @property
     def header_row(self) -> int:
