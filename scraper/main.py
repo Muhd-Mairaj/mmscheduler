@@ -1,20 +1,26 @@
-import openpyxl
 import json
-import my_sheet
 import sys
+
+import openpyxl
+from custom_sheets import MayaSheet as MayaSheet
+from custom_sheets import TimeEditSheet as TimeEditSheet
+from custom_sheets.MayaSheet import get_sheet as get_maya_sheet
+from custom_sheets.TimeEditSheet import get_sheet as get_time_edit_sheet
+
 
 def main(args):
     excel_file_path = args[0]
     json_file_path_occ_separated = args[1]
 
     workbook = openpyxl.load_workbook(excel_file_path, read_only=True)
-    sheet = my_sheet.get_sheet(workbook.active)
+    sheet = get_time_edit_sheet(workbook.active)
 
     data_occ_separated = read_data_occ_separated(sheet)
-    json.dump(data_occ_separated, open(json_file_path_occ_separated, "w"), indent=2)
+    json.dump(data_occ_separated, open(
+        json_file_path_occ_separated, "w"), indent=2)
 
 
-def read_data_occ_separated(sheet: my_sheet.MyReadOnlyWorksheet | my_sheet.Worksheet):
+def read_data_occ_separated(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet):
     data = {}
     tracker = {}
     for row in sheet.iter_rows(min_row=sheet.header_row+1, max_row=sheet.end_row, values_only=True):
@@ -22,7 +28,8 @@ def read_data_occ_separated(sheet: my_sheet.MyReadOnlyWorksheet | my_sheet.Works
         code, occurences = parse_module_offering(module_offering)
 
         module = row[sheet._module_column - 1]
-        activity = "tutorial" if row[sheet._activity_column - 1].lower() == "tutorial" else "lecture"
+        activity = "tutorial" if row[sheet._activity_column -
+                                     1].lower() == "tutorial" else "lecture"
         room = row[sheet._room_column - 1]
         day = row[sheet._day_column - 1]
         begin_time = row[sheet._begin_column - 1]
@@ -52,43 +59,12 @@ def read_data_occ_separated(sheet: my_sheet.MyReadOnlyWorksheet | my_sheet.Works
             # update it
             tracker[code][occ][activity] = {
                 "day": day,
-                    "room": room,
-                    "begin_time": begin_time,
-                    "end_time": end_time,
+                "room": room,
+                "begin_time": begin_time,
+                "end_time": end_time,
             }
 
     data = {code: sorted(list(occ.values()), key=lambda x: x["occurence"].rjust(2, " ")) for code, occ in tracker.items()}
-    return data
-
-
-def read_data(sheet: my_sheet.MyReadOnlyWorksheet | my_sheet.Worksheet):
-    data = {}
-    for row in sheet.iter_rows(min_row=sheet.header_row+1, max_row=sheet.end_row, values_only=True):
-        module_offering = row[sheet._module_offering_column - 1]
-        code, occurence = parse_module_offering(module_offering)
-
-        module = row[sheet._module_column - 1]
-        activity = row[sheet._activity_column - 1]
-        room = row[sheet._room_column - 1]
-        day = row[sheet._day_column - 1]
-        begin_time = row[sheet._begin_column - 1]
-        end_time = row[sheet._end_column - 1]
-
-        if code not in data:
-            data[code] = {}
-            data[code]["Module"] = module
-
-        if day not in data[code]:
-            data[code][day] = []
-
-        data[code][day].append({
-            "Occurences": occurence,
-            "Activity": activity,
-            "Room": room,
-            "Begin Time": begin_time,
-            "End Time": end_time,
-        })
-
     return data
 
 
