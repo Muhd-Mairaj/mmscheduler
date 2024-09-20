@@ -481,178 +481,6 @@
       }
     }
   ],
-  "WIA2003": [
-    {
-      "module": "KEBARANGKALIAN DAN STATISTIK",
-      "course_id": "WIA2003",
-      "occurence": "1",
-      "lecture": {
-        "day": "Monday",
-        "room": "DEWAN KULIAH 1 FSKTM",
-        "begin_time": "16:00",
-        "end_time": "18:00"
-      },
-      "tutorial": {
-        "day": "Thursday",
-        "room": "MAKMAL MIKRO 2 FSKTM",
-        "begin_time": "09:00",
-        "end_time": "10:00"
-      }
-    },
-    {
-      "module": "KEBARANGKALIAN DAN STATISTIK",
-      "course_id": "WIA2003",
-      "occurence": "2",
-      "lecture": {
-        "day": "Monday",
-        "room": "DEWAN KULIAH 1 FSKTM",
-        "begin_time": "16:00",
-        "end_time": "18:00"
-      },
-      "tutorial": {
-        "day": "Thursday",
-        "room": "MAKMAL MIKRO 4 FSKTM",
-        "begin_time": "12:00",
-        "end_time": "13:00"
-      }
-    },
-    {
-      "module": "KEBARANGKALIAN DAN STATISTIK",
-      "course_id": "WIA2003",
-      "occurence": "3",
-      "lecture": {
-        "day": "Monday",
-        "room": "DEWAN KULIAH 1 FSKTM",
-        "begin_time": "16:00",
-        "end_time": "18:00"
-      },
-      "tutorial": {
-        "day": "Thursday",
-        "room": "MAKMAL LANJUTAN FSKTM",
-        "begin_time": "13:00",
-        "end_time": "14:00"
-      }
-    },
-    {
-      "module": "KEBARANGKALIAN DAN STATISTIK",
-      "course_id": "WIA2003",
-      "occurence": "4",
-      "lecture": {
-        "day": "Monday",
-        "room": "DEWAN KULIAH 1 FSKTM",
-        "begin_time": "16:00",
-        "end_time": "18:00"
-      },
-      "tutorial": {
-        "day": "Thursday",
-        "room": "MAKMAL MIKRO 4 FSKTM",
-        "begin_time": "13:00",
-        "end_time": "14:00"
-      }
-    },
-    {
-      "module": "KEBARANGKALIAN DAN STATISTIK",
-      "course_id": "WIA2003",
-      "occurence": "5",
-      "lecture": {
-        "day": "Monday",
-        "room": "DEWAN KULIAH 1 FSKTM",
-        "begin_time": "16:00",
-        "end_time": "18:00"
-      },
-      "tutorial": {
-        "day": "Thursday",
-        "room": "MAKMAL LANJUTAN FSKTM",
-        "begin_time": "14:00",
-        "end_time": "15:00"
-      }
-    },
-    {
-      "module": "KEBARANGKALIAN DAN STATISTIK",
-      "course_id": "WIA2003",
-      "occurence": "6",
-      "lecture": {
-        "day": "Monday",
-        "room": "DEWAN KULIAH 2 FSKTM",
-        "begin_time": "16:00",
-        "end_time": "18:00"
-      },
-      "tutorial": {
-        "day": "Wednesday",
-        "room": "MAKMAL MIKRO 4 FSKTM",
-        "begin_time": "09:00",
-        "end_time": "10:00"
-      }
-    },
-    {
-      "module": "KEBARANGKALIAN DAN STATISTIK",
-      "course_id": "WIA2003",
-      "occurence": "7",
-      "lecture": {
-        "day": "Monday",
-        "room": "DEWAN KULIAH 2 FSKTM",
-        "begin_time": "16:00",
-        "end_time": "18:00"
-      },
-      "tutorial": {
-        "day": "Thursday",
-        "room": "MAKMAL MIKRO 3 FSKTM",
-        "begin_time": "12:00",
-        "end_time": "13:00"
-      }
-    },
-    {
-      "module": "KEBARANGKALIAN DAN STATISTIK",
-      "course_id": "WIA2003",
-      "occurence": "8",
-      "lecture": {
-        "day": "Monday",
-        "room": "DEWAN KULIAH 2 FSKTM",
-        "begin_time": "16:00",
-        "end_time": "18:00"
-      },
-      "tutorial": {
-        "day": "Thursday",
-        "room": "MAKMAL MIKRO 3 FSKTM",
-        "begin_time": "13:00",
-        "end_time": "14:00"
-      }
-    },
-    {
-      "module": "KEBARANGKALIAN DAN STATISTIK",
-      "course_id": "WIA2003",
-      "occurence": "9",
-      "lecture": {
-        "day": "Monday",
-        "room": "DEWAN KULIAH 2 FSKTM",
-        "begin_time": "16:00",
-        "end_time": "18:00"
-      },
-      "tutorial": {
-        "day": "Wednesday",
-        "room": "MAKMAL MIKRO 2 FSKTM",
-        "begin_time": "12:00",
-        "end_time": "13:00"
-      }
-    },
-    {
-      "module": "KEBARANGKALIAN DAN STATISTIK",
-      "course_id": "WIA2003",
-      "occurence": "10",
-      "lecture": {
-        "day": "Monday",
-        "room": "DEWAN KULIAH 2 FSKTM",
-        "begin_time": "16:00",
-        "end_time": "18:00"
-      },
-      "tutorial": {
-        "day": "Wednesday",
-        "room": "MAKMAL MIKRO 1 FSKTM",
-        "begin_time": "12:00",
-        "end_time": "13:00"
-      }
-    }
-  ],
   "GIG1003": [
     {
       "module": "ASAS PEMBUDAYAAN KEUSAHAWANAN",
@@ -850,10 +678,10 @@
         "end_time": "18:00"
       },
       "tutorial": {
-        "day": "Friday",
+        "day": "Thursday",
         "room": "MAKMAL MIKRO 1 FSKTM",
-        "begin_time": "09:00",
-        "end_time": "10:00"
+        "begin_time": "08:00",
+        "end_time": "09:00"
       }
     },
     {
@@ -868,9 +696,9 @@
       },
       "tutorial": {
         "day": "Friday",
-        "room": "MAKMAL MIKRO 1 FSKTM",
-        "begin_time": "10:00",
-        "end_time": "11:00"
+        "room": "MAKMAL MIKRO 2 FSKTM",
+        "begin_time": "15:00",
+        "end_time": "16:00"
       }
     },
     {
@@ -885,8 +713,180 @@
       },
       "tutorial": {
         "day": "Friday",
+        "room": "MAKMAL MIKRO 2 FSKTM",
+        "begin_time": "15:00",
+        "end_time": "16:00"
+      }
+    }
+  ],
+  "WIA2003": [
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "1",
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL MIKRO 2 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "10:00"
+      },
+      "lecture": {
+        "day": "Friday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "11:00"
+      }
+    },
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "2",
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL MIKRO 4 FSKTM",
+        "begin_time": "12:00",
+        "end_time": "13:00"
+      },
+      "lecture": {
+        "day": "Friday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "11:00"
+      }
+    },
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "3",
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL LANJUTAN FSKTM",
+        "begin_time": "13:00",
+        "end_time": "14:00"
+      },
+      "lecture": {
+        "day": "Friday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "11:00"
+      }
+    },
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "4",
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL MIKRO 4 FSKTM",
+        "begin_time": "13:00",
+        "end_time": "14:00"
+      },
+      "lecture": {
+        "day": "Friday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "11:00"
+      }
+    },
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "5",
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL LANJUTAN FSKTM",
+        "begin_time": "14:00",
+        "end_time": "15:00"
+      },
+      "lecture": {
+        "day": "Friday",
+        "room": "DEWAN KULIAH 2 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "11:00"
+      }
+    },
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "6",
+      "tutorial": {
+        "day": "Wednesday",
+        "room": "MAKMAL MIKRO 4 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "10:00"
+      },
+      "lecture": {
+        "day": "Friday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "11:00"
+      }
+    },
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "7",
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL MIKRO 3 FSKTM",
+        "begin_time": "12:00",
+        "end_time": "13:00"
+      },
+      "lecture": {
+        "day": "Friday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "11:00"
+      }
+    },
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "8",
+      "tutorial": {
+        "day": "Thursday",
+        "room": "MAKMAL MIKRO 3 FSKTM",
+        "begin_time": "13:00",
+        "end_time": "14:00"
+      },
+      "lecture": {
+        "day": "Friday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "11:00"
+      }
+    },
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "9",
+      "tutorial": {
+        "day": "Wednesday",
+        "room": "MAKMAL MIKRO 2 FSKTM",
+        "begin_time": "12:00",
+        "end_time": "13:00"
+      },
+      "lecture": {
+        "day": "Friday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "09:00",
+        "end_time": "11:00"
+      }
+    },
+    {
+      "module": "KEBARANGKALIAN DAN STATISTIK",
+      "course_id": "WIA2003",
+      "occurence": "10",
+      "tutorial": {
+        "day": "Wednesday",
         "room": "MAKMAL MIKRO 1 FSKTM",
-        "begin_time": "10:00",
+        "begin_time": "12:00",
+        "end_time": "13:00"
+      },
+      "lecture": {
+        "day": "Friday",
+        "room": "DEWAN KULIAH 1 FSKTM",
+        "begin_time": "09:00",
         "end_time": "11:00"
       }
     }

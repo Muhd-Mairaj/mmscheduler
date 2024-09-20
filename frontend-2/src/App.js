@@ -27,10 +27,7 @@ function App() {
   };
 
   useEffect(() => {
-    if (localStorage.getItem("courses") && localStorage.getItem("selectedOccurences") && localStorage.getItem("disabledOccurences")) {
-      console.log("local 1", JSON.parse(localStorage.getItem("selectedOccurences")));
-      console.log("local 2", JSON.parse(localStorage.getItem("disabledOccurences")));
-      setCourses(JSON.parse(localStorage.getItem("courses")));
+    if (localStorage.getItem("selectedOccurences") && localStorage.getItem("disabledOccurences")) {
       setSelectedOccurences(JSON.parse(localStorage.getItem("selectedOccurences")));
       setDisabledOccurences(JSON.parse(localStorage.getItem("disabledOccurences")));
 
@@ -39,14 +36,14 @@ function App() {
       setSelectedOccurences([]);
       setDisabledOccurences([]);
       localStorage.clear();
-      fetch("/one_week_schedule_occ_separated.json") // path to json file
-        .then((response) => response.json())
-        .then((data) => {
-          setCourses(data);
-          console.log(data);
-        });
     }
-
+    
+    fetch("/one_week_schedule_occ_separated.json") // path to json file
+      .then((response) => response.json())
+      .then((data) => {
+        setCourses(data);
+        console.log(data);
+      });
 
   }, []);
 
