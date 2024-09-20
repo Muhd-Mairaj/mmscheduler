@@ -1,18 +1,14 @@
 import openpyxl
 import json
 import my_sheet
+import sys
 
+def main(args):
+    excel_file_path = args[0]
+    json_file_path_occ_separated = args[1]
 
-def main():
-    # change this to the path of the excel file
-    excel_file_path = "timetable_sem3.xlsx"
-    json_file_path = "one_week_schedule.json"
-    json_file_path_occ_separated = "one_week_schedule_occ_separated.json"
     workbook = openpyxl.load_workbook(excel_file_path, read_only=True)
     sheet = my_sheet.get_sheet(workbook.active)
-
-    data = read_data(sheet)
-    json.dump(data, open(json_file_path, "w"), indent=2)
 
     data_occ_separated = read_data_occ_separated(sheet)
     json.dump(data_occ_separated, open(json_file_path_occ_separated, "w"), indent=2)
@@ -108,4 +104,4 @@ def parse_module_offering(module_offering: str) -> tuple:
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])
