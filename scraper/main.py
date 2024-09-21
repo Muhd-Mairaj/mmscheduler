@@ -9,18 +9,31 @@ from custom_sheets.TimeEditSheet import get_sheet as get_time_edit_sheet
 
 
 def main(args):
-    excel_file_path = args[0]
-    json_file_path_occ_separated = args[1]
-
-    workbook = openpyxl.load_workbook(excel_file_path, read_only=True)
+    # open timeedit excel file
+    time_edit_excel_file_path = args[0]
+    workbook = openpyxl.load_workbook(
+        time_edit_excel_file_path, read_only=True)
     sheet = get_time_edit_sheet(workbook.active)
 
-    data_occ_separated = read_data_occ_separated(sheet)
+    # read data
+    tracking_data = read_data(sheet)
+
+    # open maya excel file
+    maya_excel_file_path = args[1]
+    workbook = openpyxl.load_workbook(maya_excel_file_path, read_only=True)
+    sheet = get_maya_sheet(workbook.active)
+
+    # update data
+    update_data_from_maya(tracking_data, sheet)
+
+    # store data to json file
+    data_occ_separated = convert_tracking_data_to_output_format(tracking_data)
+    json_file_path_occ_separated = args[2]
     json.dump(data_occ_separated, open(
         json_file_path_occ_separated, "w"), indent=2)
 
 
-def read_data_occ_separated(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet):
+def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet):
     data = {}
     tracker = {}
     for row in sheet.iter_rows(min_row=sheet.header_row+1, max_row=sheet.end_row, values_only=True):
@@ -56,7 +69,7 @@ def read_data_occ_separated(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditS
                     # }
                 }
 
-            # update it
+            # update it for each activity
             tracker[code][occ][activity] = {
                 "day": day,
                 "room": room,
@@ -64,8 +77,95 @@ def read_data_occ_separated(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditS
                 "end_time": end_time,
             }
 
-    data = {code: sorted(list(occ.values()), key=lambda x: x["occurence"].rjust(2, " ")) for code, occ in tracker.items()}
-    return data
+    return tracker
+
+
+def update_data_from_maya(tracker_data, sheet: MayaSheet.MyReadOnlyWorksheet | MayaSheet.Worksheet):
+    current_module_code = None
+    current_module_name = None
+
+    current_occurence = None
+    current_mav_name = None
+
+    for row in sheet.iter_rows(min_row=sheet.header_row+1, max_row=sheet.end_row, values_only=True):
+        # print(row)
+        module_code = row[sheet._module_code_column - 1]
+        module_name = row[sheet._module_name_column - 1]
+        occurrence = row[sheet._occurrence_column - 1]
+        mav_name = row[sheet._mav_name_column - 1]
+        activity = row[sheet._activity_column - 1]
+        time_details = row[sheet._time_details_column - 1]
+        # print(f"{current_module_code} {
+        #   current_module_name} Occ {current_occurence}")
+        # print(f"{repr(time_details)}")
+
+        day, begin_time, end_time = parse_time_details(time_details)
+        # print(f"{day=}")
+        # print(f"{begin_time=}")
+        # print(f"{end_time=}")
+        # print()
+
+        tutor = row[sheet._tutor_column - 1]
+        room = row[sheet._room_column - 1]
+
+        if not current_module_code or (module_code and current_module_code != module_code):
+            current_module_code = module_code
+            current_module_name = module_name
+
+        if not current_occurence or (occurrence and current_occurence != occurrence):
+            current_occurence = occurrence
+            current_mav_name = mav_name
+
+        if current_module_code not in tracker_data:
+            print(f"Module '{current_module_code} {
+                  current_module_name}' not in data.")
+            continue
+
+        if current_occurence not in tracker_data[current_module_code]:
+            print(f"Occ {current_occurence} not found for module '{
+                  current_module_code} {current_module_name}'")
+            continue
+
+        if not (day and begin_time and end_time):
+            print(f"Time details not found for Occ {current_occurence} of module '{
+                  current_module_code} {current_module_name}'")
+
+        # update module name and mav_name
+        tracker_data[current_module_code][current_occurence]["module"] = current_module_name
+        tracker_data[current_module_code][current_occurence]["mav_name"] = current_mav_name
+
+        # update lecture details if present
+        if "lecture" in tracker_data[current_module_code][current_occurence]:
+            lecture_info = tracker_data[current_module_code][current_occurence]["lecture"]
+
+            # if the day and time matches lecture day and time, update details
+            if (day and begin_time and end_time) and (
+                lecture_info["day"].lower() == day.lower(
+                ) and lecture_info["begin_time"] == begin_time and lecture_info["end_time"] == end_time
+            ):
+                # this will update original because its a reference
+                lecture_info["tutor"] = tutor
+
+        # update tutorial details if present
+        if "tutorial" in tracker_data[current_module_code][current_occurence]:
+            tutorial_info = tracker_data[current_module_code][current_occurence]["tutorial"]
+
+            # if the day and time matches tutorial day and time, update details
+            if (day and begin_time and end_time) and (
+                tutorial_info["day"].lower() == day.lower(
+                ) and tutorial_info["begin_time"] == begin_time and tutorial_info["end_time"] == end_time
+            ):
+                # this will update original because its a reference
+                tutorial_info["tutor"] = tutor
+
+
+def parse_time_details(time_details: str):
+    if not time_details:
+        return (None, None, None)
+
+    day, time = time_details.split("\n")
+    begin_time, _, end_time, duration = time.split(" ")
+    return day, begin_time, end_time
 
 
 def parse_module_offering(module_offering: str) -> tuple:
@@ -77,6 +177,12 @@ def parse_module_offering(module_offering: str) -> tuple:
 
     parsed = module_offering.split("/")
     return parsed[0], [parsed[-1]]
+
+
+def convert_tracking_data_to_output_format(tracking_data):
+    data = {code: sorted(list(occ.values()), key=lambda x: x["occurence"].rjust(
+        2, " ")) for code, occ in tracking_data.items()}
+    return data
 
 
 if __name__ == "__main__":

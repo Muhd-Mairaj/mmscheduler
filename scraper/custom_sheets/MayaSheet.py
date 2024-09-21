@@ -33,7 +33,66 @@ class MyReadOnlyWorksheet(_read_only.ReadOnlyWorksheet, MySheet):
         self._my_setup()
 
     def _my_setup(self):
-        pass
+        self._module_code_column = 0
+        self._module_name_column = 0
+        self._occurrence_column = 0
+        self._mav_name_column = 0
+        self._activity_column = 0
+        self._time_details_column = 0
+        self._tutor_column = 0
+        self._room_column = 0
+
+        # find header row and column indexes
+        # start at 1 because indexing is 1-based
+        for i, row in enumerate(self.iter_rows(min_row=self.min_row, max_row=self.max_row, values_only=True), self.min_row):
+            if (i == 15): return
+            for j, cell_value in enumerate(row, 1):
+                if cell_value == None or not isinstance(cell_value, str):
+                    continue
+
+                elif cell_value.lower().strip() == "module code":
+                    self._module_code_column = j
+                elif cell_value.lower().strip() == "module name":
+                    self._module_name_column = j
+                elif cell_value.lower().strip() == "occurrence":
+                    self._occurrence_column = j
+                elif cell_value.lower().strip() == "mav name":
+                    self._mav_name_column = j
+                elif cell_value.lower().strip() == "activity":
+                    self._activity_column = j
+                elif cell_value.lower().strip() == "day / start duration":
+                    self._time_details_column = j
+                elif cell_value.lower().strip() == "tutor":
+                    self._tutor_column = j
+                elif cell_value.lower().strip() == "room":
+                    self._room_column = j
+
+            if self._module_code_column != 0 and self._module_name_column != 0 and self._occurrence_column != 0 and self._activity_column != 0 and self._time_details_column != 0 and self._tutor_column != 0 and self._room_column != 0:
+                self._header_row = i
+                print("Setting _header_row as ", i)
+                print()
+                break
+
+        # set header
+        self._header = self.iter_rows(min_row=self._header_row, max_row=self._header_row, values_only=True).__next__()
+
+        # find end_row
+        for i, row in enumerate(self.iter_rows(min_row=self._header_row + 1, max_row=self.max_row, values_only=True), self._header_row + 1):
+            if not row:
+                self._end_row = i - 1
+                break
+
+    @property
+    def header_row(self) -> int:
+        return self._header_row
+
+    @property
+    def end_row(self) -> int:
+        return self._end_row
+
+    @property
+    def header(self) -> tuple:
+        return self._header
 
 
 def get_sheet(sheet: Worksheet | _read_only.ReadOnlyWorksheet) -> MyWorksheet | MyReadOnlyWorksheet:
