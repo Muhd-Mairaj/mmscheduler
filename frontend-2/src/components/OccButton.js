@@ -2,31 +2,39 @@ const OccButton = ({ onClick, occurrence, isDisabled, isSelected }) => {
   return (
     <button
       className={`occurrence-button ${isDisabled ? "disabled" : ""} ${
-        isSelected && !isDisabled? "selected" : ""
+        isSelected && !isDisabled ? "selected" : ""
       }`}
       onClick={() => onClick(occurrence, isDisabled)}
     >
       <div className="occurrence">
-        <div className="occ-number">{occurrence.occurence}</div>
+        <div className="occ-number">
+          <p>{occurrence.occurence}</p>
+        </div>
         <hr />
         {occurrence.lecture && (
           <div className="activity">
+            <div className="day">
+              <p>{occurrence.lecture.day}</p>
+            </div>
             <div className="time">
-              {occurrence.lecture.day}
-              <br />
-              {occurrence.lecture.begin_time} - {occurrence.lecture.end_time}
-              {/* <div className="room">{occurrence.lecture.room}</div> */}
+              <p>{occurrence.lecture.begin_time} - {occurrence.lecture.end_time}</p>
+            </div>
+            <div className="tutor">
+              <p>{occurrence.lecture.tutor ? occurrence.lecture.tutor : ""}</p>
             </div>
           </div>
         )}
         <hr />
         {occurrence.tutorial && (
           <div className="activity">
+            <div className="day">
+              <p>{occurrence.tutorial.day}</p>
+            </div>
             <div className="time">
-              {occurrence.tutorial.day}
-              <br />
-              {occurrence.tutorial.begin_time} - {occurrence.tutorial.end_time}
-              {/* <div className="room">{occurrence.tutorial.room}</div> */}
+              <p>{occurrence.tutorial.begin_time} - {occurrence.tutorial.end_time}</p>
+            </div>
+            <div className="tutor">
+              <p>{occurrence.tutorial.tutor ? occurrence.tutorial.tutor : ""}</p>
             </div>
           </div>
         )}
