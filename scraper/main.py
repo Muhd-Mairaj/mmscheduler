@@ -34,7 +34,6 @@ def main(args):
 
 
 def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet):
-    data = {}
     tracker = {}
     for row in sheet.iter_rows(min_row=sheet.header_row+1, max_row=sheet.end_row, values_only=True):
         module_offering = row[sheet._module_offering_column - 1]
@@ -47,9 +46,6 @@ def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet
         day = row[sheet._day_column - 1]
         begin_time = row[sheet._begin_column - 1]
         end_time = row[sheet._end_column - 1]
-
-        if code not in data:
-            data[code] = []
 
         for occ in occurences:
             if code not in tracker:
@@ -182,6 +178,8 @@ def parse_module_offering(module_offering: str) -> tuple:
 def convert_tracking_data_to_output_format(tracking_data):
     data = {code: sorted(list(occ.values()), key=lambda x: x["occurence"].rjust(
         2, " ")) for code, occ in tracking_data.items()}
+    
+    data = {key: data[key] for key in sorted(data.keys())}
     return data
 
 
