@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classes from "./Searchbar.module.css";
 import { Button, Input } from "reactstrap";
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 const Searchbar = ({ onChange, value, onSubmit, placeholder }) => {
   return (
@@ -12,7 +13,7 @@ const Searchbar = ({ onChange, value, onSubmit, placeholder }) => {
         value={value}
       />
       <Button onClick={onSubmit} className={classes.searchButton}>
-        <FontAwesomeIcon icon="search" />
+        <FontAwesomeIcon icon={faSearch} />
       </Button>
     </div>
   );

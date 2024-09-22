@@ -4,6 +4,8 @@ import Timetable from "./components/Timetable";
 import OccButton from "./components/OccButton";
 import html2canvas from "html2canvas";
 import SearchModal from "./components/SearchModal/SearchModal";
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
   const [courses, setCourses] = useState({});
@@ -45,21 +47,29 @@ function App() {
   };
 
   const handleRemoveModule = (e) => {
-    const courseName = e.target.parentElement.querySelector("h3").textContent.split(" - ")[0];
+    const courseHeader = e.target.parentElement.querySelector("h3");
+    
+    if (courseHeader) {
+      const courseName = courseHeader.textContent.split(" - ")[0];
   
-    // Remove course from chosenCourses
-    const updatedCourses = { ...chosenCourses };
-    delete updatedCourses[courseName];
-    setChosenCourses(updatedCourses);
+      // Remove course from chosenCourses
+      const updatedCourses = { ...chosenCourses };
+      delete updatedCourses[courseName];
+      setChosenCourses(updatedCourses);
   
-    // Remove all occurrences related to the removed course
-    const updatedSelectedOccurrences = selectedOccurences.filter(
-      (occurence) => occurence.course_id !== courseName
-    );
-    setSelectedOccurences(updatedSelectedOccurrences);
+      // Remove all occurrences related to the removed course
+      const updatedSelectedOccurrences = selectedOccurences.filter(
+        (occurence) => occurence.course_id !== courseName
+      );
+      setSelectedOccurences(updatedSelectedOccurrences);
   
-    // Update the search data
-    updateSearchData(Object.entries(filteredData), updatedCourses);
+      // Update the search data
+      updateSearchData(Object.entries(filteredData), updatedCourses);
+    } else {
+      console.error("Course header not found");
+    }
+
+    handleSaveState();
   };
   
 
@@ -308,7 +318,7 @@ function App() {
         searchValue={searchValue}
       />
       <div className="occurrence-container">
-        {Object.keys(chosenCourses).length > 0?
+        {Object.keys(chosenCourses).length > 0 ? (
           Object.entries(chosenCourses).map(
             ([courseName, occurrences], index) => {
               console.log("courseName: ", courseName);
@@ -319,7 +329,7 @@ function App() {
                     className={"button remove-course-button"}
                     onClick={handleRemoveModule}
                   >
-                    x
+                    <FontAwesomeIcon icon={faTimes} />
                   </button>
                   <h3>
                     {courseName} - {occurrences[0].module}
@@ -347,7 +357,10 @@ function App() {
                 </div>
               );
             }
-          ): <h1 className="no-courses-header"> No courses selected </h1>}
+          )
+        ) : (
+          <h1 className="no-courses-header"> No courses selected </h1>
+        )}
       </div>
       <button className={"button save-button"} onClick={handleSave}>
         Save Table Image
