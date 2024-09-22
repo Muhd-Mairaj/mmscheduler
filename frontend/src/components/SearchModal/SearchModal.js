@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Searchbar from "../Searchbar/Searchbar";
 import classes from "./SearchModal.module.css";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
@@ -14,9 +13,9 @@ const SearchModal = ({
 }) => {
   return (
     <div>
-      <Button color="warning" onClick={toggle}>
-        Add Modules
-      </Button>
+      <button className="button add-module-button" onClick={toggle}>
+        + Add Modules
+      </button>
       <Modal isOpen={modal} toggle={toggle} fullscreen>
         <ModalHeader toggle={toggle}>Add modules</ModalHeader>
         <ModalBody>
@@ -25,7 +24,7 @@ const SearchModal = ({
             value={searchValue}
             placeholder={"Search Module"}
           />
-          <ul>
+          <ul className="module-list">
             {Object.entries(data).map(([key, value], index) => (
               <ModuleCard
                 key={index}
