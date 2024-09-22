@@ -48,21 +48,21 @@ function App() {
 
   const handleRemoveModule = (e) => {
     const courseHeader = e.target.parentElement.querySelector("h3");
-    
+
     if (courseHeader) {
       const courseName = courseHeader.textContent.split(" - ")[0];
-  
+
       // Remove course from chosenCourses
       const updatedCourses = { ...chosenCourses };
       delete updatedCourses[courseName];
       setChosenCourses(updatedCourses);
-  
+
       // Remove all occurrences related to the removed course
       const updatedSelectedOccurrences = selectedOccurences.filter(
         (occurence) => occurence.course_id !== courseName
       );
       setSelectedOccurences(updatedSelectedOccurrences);
-  
+
       // Update the search data
       updateSearchData(Object.entries(filteredData), updatedCourses);
     } else {
@@ -71,7 +71,7 @@ function App() {
 
     handleSaveState();
   };
-  
+
 
   const tableRef = useRef();
 
@@ -134,69 +134,57 @@ function App() {
   const handleOccurenceSelect = (selectedOccurence, isDisabled) => {
     console.log("selected: ", selectedOccurence);
 
-    // if the course is already selected, unselect it
-    if (
-      selectedOccurences.some((occurence) =>
-        isSame(occurence, selectedOccurence)
-      )
-    ) {
-      const updatedSelectedOccurences = selectedOccurences.filter(
-        (occurence) => !isSame(occurence, selectedOccurence)
-      );
-      setSelectedOccurences(updatedSelectedOccurences);
-      checkClashing(updatedSelectedOccurences);
+    if (isDisabled) {
       return;
     }
 
-    if (isDisabled) {
-      console.log("disabled");
-      for (let i = 0; i < selectedOccurences.length; i++) {
-        if (selectedOccurences[i].course_id === selectedOccurence.course_id) {
-          for (let j = i; j < selectedOccurences.length; j++) {
-            if (
-              isClashing(selectedOccurences[j], selectedOccurences[i]) &&
-              j !== i
-            ) {
-              console.log("clashing");
-              return;
-            }
-          }
-          const updatedSelectedOccurences = [...selectedOccurences];
-          updatedSelectedOccurences[i] = selectedOccurence;
-          setSelectedOccurences(updatedSelectedOccurences);
-          checkClashing(updatedSelectedOccurences);
-          return;
+    let updatedSelectedOccurences = [];
+
+    const isSameOccurence = selectedOccurences.some((occurence) => isSame(occurence, selectedOccurence));
+    const isSameCourse = selectedOccurences.some((occurence) => occurence.course_id === selectedOccurence.course_id);
+
+    // Note: same occurence means the same course and occurence
+    // This must be checked before checking if only course is same
+    if (isSameOccurence) {
+      // unselect the occurence
+      updatedSelectedOccurences = selectedOccurences.filter((occurence) => !isSame(occurence, selectedOccurence));
+    }
+    else if (isSameCourse) {
+      // swap the occurence
+      updatedSelectedOccurences = selectedOccurences.map((occurence) => {
+        if (occurence.course_id === selectedOccurence.course_id) {
+          return selectedOccurence;
         }
-      }
-    } else {
-      const updatedSelectedOccurences = [
+        return occurence;
+      });
+    }
+    else {
+      // add the occurence
+      updatedSelectedOccurences = [
         ...selectedOccurences,
         selectedOccurence,
       ];
-      setSelectedOccurences(updatedSelectedOccurences);
-      checkClashing(updatedSelectedOccurences);
     }
+
+    setSelectedOccurences(updatedSelectedOccurences);
+    checkClashing(updatedSelectedOccurences);
+
   };
 
   const checkClashing = (selectedOccurences) => {
     const tempDisabledOccurences = [];
-    selectedOccurences.forEach((occurence) => {
-      Object.values(chosenCourses).forEach((course) => {
-        course.forEach((courseOccurence) => {
-          if (
-            !isSame(occurence, courseOccurence) &&
-            isClashing(occurence, courseOccurence)
-          ) {
-            tempDisabledOccurences.push(courseOccurence);
-          } else if (
-            courseOccurence.course_id === occurence.course_id &&
-            !isSame(courseOccurence, occurence)
-          ) {
-            tempDisabledOccurences.push(courseOccurence);
+
+    selectedOccurences.forEach(occurence => {
+      Object.values(chosenCourses).forEach((courseOccurrences) => {
+        courseOccurrences.forEach((courseOccurrence) => {
+          // only check for clashing if the course is different
+          if (occurence.course_id !== courseOccurrence.course_id && isClashing(occurence, courseOccurrence)) {
+            tempDisabledOccurences.push(courseOccurrence);
           }
-        });
-      });
+        })
+      })
     });
+
     setDisabledOccurences(tempDisabledOccurences);
   };
 
@@ -321,8 +309,6 @@ function App() {
         {Object.keys(chosenCourses).length > 0 ? (
           Object.entries(chosenCourses).map(
             ([courseName, occurrences], index) => {
-              console.log("courseName: ", courseName);
-              console.log("occurrences: ", occurrences);
               return (
                 <div key={index} className="course-block">
                   <button
