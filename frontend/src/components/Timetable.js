@@ -87,7 +87,12 @@ const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
                     {occurrence.lecture.end_time})
                   </div>
                 </div>
-                <div className="room">{occurrence.lecture.room}</div>
+                <div className="room">
+                  {occurrence.lecture.room}
+                  <br />
+                  <br />
+                  {occurrence.lecture.tutor ? occurrence.lecture.tutor : ""}
+                </div>
               </div>
             )}
             {occurrence.tutorial && (
@@ -112,7 +117,12 @@ const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
                     {occurrence.tutorial.end_time})
                   </div>
                 </div>
-                <div className="room">{occurrence.tutorial.room}</div>
+                <div className="room">
+                  {occurrence.tutorial.room}
+                  <br />
+                  <br />
+                  {occurrence.tutorial.tutor ? occurrence.tutorial.tutor : ""}
+                </div>
               </div>
             )}
           </Fragment>

@@ -1,23 +1,196 @@
-import React, { useState } from "react";
 import "./App.css";
-import Timetable from "./components/Timetable/Timetable";
-import jsonData from "./one_week_schedule_occ_separated.json";
-import CardComponent from "./components/Card/Card";
-import Section from "./components/Section/Section";
+import { useEffect, useState, useRef } from "react";
+import Timetable from "./components/Timetable";
+import OccButton from "./components/OccButton";
+import html2canvas from "html2canvas";
+import SearchModal from "./components/SearchModal/SearchModal";
 
 function App() {
-  const [selectedCourses, setSelectedCourses] = useState([]);
+  const [courses, setCourses] = useState({});
+  const [chosenCourses, setChosenCourses] = useState([]);
+  const [selectedOccurences, setSelectedOccurences] = useState([]);
+  const [disabledOccurences, setDisabledOccurences] = useState([]);
+  const [modal, setModal] = useState(false);
+  const [filteredData, setFilteredData] = useState(courses);
+  const [searchValue, setSearchValue] = useState("");
 
-  const addCourse = (course) => {
-    setSelectedCourses([...selectedCourses, course]);
-    console.log(selectedCourses);
+  const toggle = () => setModal(!modal);
+
+  const handleModuleSelection = (key, value) => {
+    const updatedCourses = {
+      ...chosenCourses,
+      [key]: value,
+    };
+
+    setChosenCourses(updatedCourses);
+    updateSearchData(Object.entries(filteredData), updatedCourses);
   };
 
-  const checkClash = (course) => {
-    return selectedCourses.some((selectedCourse) => isClashing(course, selectedCourse));
+  const handleSearch = (e) => {
+    const currentSearchValue = e.target.value;
+    setSearchValue(currentSearchValue);
+    const filter = Object.entries(courses).filter(([key, value]) => {
+      return key
+        .toLowerCase()
+        .includes(currentSearchValue.trim().toLowerCase());
+    });
+    updateSearchData(filter, chosenCourses);
   };
 
-  function isClashing(course1, course2) {
+  const updateSearchData = (data, chosenCourses) => {
+    const filteredWithoutChosen = data.filter(
+      ([key, value]) => !Object.keys(chosenCourses).includes(key)
+    );
+    setFilteredData(Object.fromEntries(filteredWithoutChosen.slice(0, 10)));
+  };
+
+  const handleRemoveModule = (e) => {
+    const courseName = e.target.parentElement.querySelector("h3").textContent.split(" - ")[0];
+  
+    // Remove course from chosenCourses
+    const updatedCourses = { ...chosenCourses };
+    delete updatedCourses[courseName];
+    setChosenCourses(updatedCourses);
+  
+    // Remove all occurrences related to the removed course
+    const updatedSelectedOccurrences = selectedOccurences.filter(
+      (occurence) => occurence.course_id !== courseName
+    );
+    setSelectedOccurences(updatedSelectedOccurrences);
+  
+    // Update the search data
+    updateSearchData(Object.entries(filteredData), updatedCourses);
+  };
+  
+
+  const tableRef = useRef();
+
+  const handleSave = () => {
+    html2canvas(tableRef.current).then((canvas) => {
+      const link = document.createElement("a");
+      link.download = "table_image.png";
+      link.href = canvas.toDataURL("image/png");
+      link.click();
+    });
+  };
+
+  const handleSaveState = () => {
+    localStorage.setItem("courses", JSON.stringify(chosenCourses));
+    localStorage.setItem(
+      "selectedOccurences",
+      JSON.stringify(selectedOccurences)
+    );
+    localStorage.setItem(
+      "disabledOccurences",
+      JSON.stringify(disabledOccurences)
+    );
+  };
+
+  useEffect(() => {
+    if (
+      localStorage.getItem("selectedOccurences") &&
+      localStorage.getItem("disabledOccurences") &&
+      localStorage.getItem("courses")
+    ) {
+      setSelectedOccurences(
+        JSON.parse(localStorage.getItem("selectedOccurences"))
+      );
+      setDisabledOccurences(
+        JSON.parse(localStorage.getItem("disabledOccurences"))
+      );
+      setChosenCourses(JSON.parse(localStorage.getItem("courses")));
+    } else {
+      setSelectedOccurences([]);
+      setDisabledOccurences([]);
+      localStorage.clear();
+    }
+
+    fetch("/all_courses_updated_one_week_schedule_occ_separated.json") // path to json file
+      .then((response) => response.json())
+      .then((data) => {
+        setCourses(data);
+        console.log(data);
+      });
+  }, []);
+
+  useEffect(() => {
+    console.log("selectedOccurences: ", selectedOccurences);
+  }, [selectedOccurences]);
+
+  useEffect(() => {
+    console.log("disabledOccurences: ", disabledOccurences);
+  }, [disabledOccurences]);
+
+  const handleOccurenceSelect = (selectedOccurence, isDisabled) => {
+    console.log("selected: ", selectedOccurence);
+
+    // if the course is already selected, unselect it
+    if (
+      selectedOccurences.some((occurence) =>
+        isSame(occurence, selectedOccurence)
+      )
+    ) {
+      const updatedSelectedOccurences = selectedOccurences.filter(
+        (occurence) => !isSame(occurence, selectedOccurence)
+      );
+      setSelectedOccurences(updatedSelectedOccurences);
+      checkClashing(updatedSelectedOccurences);
+      return;
+    }
+
+    if (isDisabled) {
+      console.log("disabled");
+      for (let i = 0; i < selectedOccurences.length; i++) {
+        if (selectedOccurences[i].course_id === selectedOccurence.course_id) {
+          for (let j = i; j < selectedOccurences.length; j++) {
+            if (
+              isClashing(selectedOccurences[j], selectedOccurences[i]) &&
+              j !== i
+            ) {
+              console.log("clashing");
+              return;
+            }
+          }
+          const updatedSelectedOccurences = [...selectedOccurences];
+          updatedSelectedOccurences[i] = selectedOccurence;
+          setSelectedOccurences(updatedSelectedOccurences);
+          checkClashing(updatedSelectedOccurences);
+          return;
+        }
+      }
+    } else {
+      const updatedSelectedOccurences = [
+        ...selectedOccurences,
+        selectedOccurence,
+      ];
+      setSelectedOccurences(updatedSelectedOccurences);
+      checkClashing(updatedSelectedOccurences);
+    }
+  };
+
+  const checkClashing = (selectedOccurences) => {
+    const tempDisabledOccurences = [];
+    selectedOccurences.forEach((occurence) => {
+      Object.values(chosenCourses).forEach((course) => {
+        course.forEach((courseOccurence) => {
+          if (
+            !isSame(occurence, courseOccurence) &&
+            isClashing(occurence, courseOccurence)
+          ) {
+            tempDisabledOccurences.push(courseOccurence);
+          } else if (
+            courseOccurence.course_id === occurence.course_id &&
+            !isSame(courseOccurence, occurence)
+          ) {
+            tempDisabledOccurences.push(courseOccurence);
+          }
+        });
+      });
+    });
+    setDisabledOccurences(tempDisabledOccurences);
+  };
+
+  const isClashing = (course1, course2) => {
     const timesOverlap = (start1, end1, start2, end2) => {
       return start1 < end2 && start2 < end1;
     };
@@ -34,10 +207,22 @@ function App() {
       return false;
     }
 
-    const lecture1Start = parseTime(course1.lecture.day, course1.lecture.begin_time);
-    const lecture1End = parseTime(course1.lecture.day, course1.lecture.end_time);
-    const lecture2Start = parseTime(course2.lecture.day, course2.lecture.begin_time);
-    const lecture2End = parseTime(course2.lecture.day, course2.lecture.end_time);
+    const lecture1Start = parseTime(
+      course1.lecture.day,
+      course1.lecture.begin_time
+    );
+    const lecture1End = parseTime(
+      course1.lecture.day,
+      course1.lecture.end_time
+    );
+    const lecture2Start = parseTime(
+      course2.lecture.day,
+      course2.lecture.begin_time
+    );
+    const lecture2End = parseTime(
+      course2.lecture.day,
+      course2.lecture.end_time
+    );
 
     // Check if all necessary lecture times are available
     if (!lecture1Start || !lecture1End || !lecture2Start || !lecture2End) {
@@ -48,42 +233,131 @@ function App() {
       course1.lecture.day === course2.lecture.day &&
       timesOverlap(lecture1Start, lecture1End, lecture2Start, lecture2End);
 
-    // Check for tutorial clash only if both courses have tutorial information
-    if (course1.tutorial && course2.tutorial &&
-        course1.tutorial.day !== "NaN" && course2.tutorial.day !== "NaN") {
-      const tutorial1Start = parseTime(course1.tutorial.day, course1.tutorial.begin_time);
-      const tutorial1End = parseTime(course1.tutorial.day, course1.tutorial.end_time);
-      const tutorial2Start = parseTime(course2.tutorial.day, course2.tutorial.begin_time);
-      const tutorial2End = parseTime(course2.tutorial.day, course2.tutorial.end_time);
+    const tutorial1Start = course1.tutorial
+      ? parseTime(course1.tutorial.day, course1.tutorial.begin_time)
+      : null;
 
-      // Check if all necessary tutorial times are available
-      if (tutorial1Start && tutorial1End && tutorial2Start && tutorial2End) {
-        const tutorialClash =
-          course1.tutorial.day === course2.tutorial.day &&
-          timesOverlap(tutorial1Start, tutorial1End, tutorial2Start, tutorial2End);
+    const tutorial1End = course1.tutorial
+      ? parseTime(course1.tutorial.day, course1.tutorial.end_time)
+      : null;
 
-        return lectureClash || tutorialClash;
+    const tutorial2Start = course2.tutorial
+      ? parseTime(course2.tutorial.day, course2.tutorial.begin_time)
+      : null;
+
+    const tutorial2End = course2.tutorial
+      ? parseTime(course2.tutorial.day, course2.tutorial.end_time)
+      : null;
+
+    const tutorialLectureClash = course1.tutorial
+      ? course1.tutorial.day === course2.lecture.day &&
+        timesOverlap(tutorial1Start, tutorial1End, lecture2Start, lecture2End)
+      : false;
+
+    const lectureTutorialClash = course2.tutorial
+      ? course1.lecture.day === course2.tutorial.day &&
+        timesOverlap(lecture1Start, lecture1End, tutorial2Start, tutorial2End)
+      : false;
+
+    const tutorialClash =
+      course1.tutorial && course2.tutorial
+        ? course1.tutorial.day === course2.tutorial.day &&
+          timesOverlap(
+            tutorial1Start,
+            tutorial1End,
+            tutorial2Start,
+            tutorial2End
+          )
+        : false;
+
+    return (
+      lectureClash ||
+      tutorialLectureClash ||
+      lectureTutorialClash ||
+      tutorialClash
+    );
+  };
+
+  const checkContains = (array, occurence) => {
+    for (let index = 0; index < array.length; index++) {
+      const element = array[index];
+      if (isSame(element, occurence)) {
+        return true;
       }
     }
+    return false;
+  };
 
-    return lectureClash;
-  }
+  const isSame = (course1, course2) => {
+    return (
+      course1.course_id === course2.course_id &&
+      course1.module === course2.module &&
+      course1.occurence === course2.occurence
+    );
+  };
 
   return (
-    <div className="App">
-      <h1>Courses</h1>
-      <div className="all-modules">
-        {Object.entries(jsonData).map(([key, value], index) => (
-          <Section
-            key={index}
-            title={key}
-            sectionData={value}
-            addCourse={addCourse}
-            checkClash={checkClash}
-          />
-        ))}
+    <div className="app-container">
+      <h1 className="logo">MMScheduler 2.0</h1>
+      <SearchModal
+        modal={modal}
+        toggle={toggle}
+        data={filteredData}
+        handleSearch={handleSearch}
+        handleModuleSelection={handleModuleSelection}
+        searchValue={searchValue}
+      />
+      <div className="occurrence-container">
+        {Object.keys(chosenCourses).length > 0?
+          Object.entries(chosenCourses).map(
+            ([courseName, occurrences], index) => {
+              console.log("courseName: ", courseName);
+              console.log("occurrences: ", occurrences);
+              return (
+                <div key={index} className="course-block">
+                  <button
+                    className={"button remove-course-button"}
+                    onClick={handleRemoveModule}
+                  >
+                    x
+                  </button>
+                  <h3>
+                    {courseName} - {occurrences[0].module}
+                  </h3>
+                  <div className="occurrences">
+                    {occurrences.map((occurrence, occurrenceIndex) => {
+                      const isDisabled = checkContains(
+                        disabledOccurences,
+                        occurrence
+                      );
+                      const isSelected = checkContains(
+                        selectedOccurences,
+                        occurrence
+                      );
+                      return (
+                        <OccButton
+                          onClick={handleOccurenceSelect}
+                          occurrence={occurrence}
+                          isDisabled={isDisabled}
+                          isSelected={isSelected}
+                        />
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            }
+          ): <h1 className="no-courses-header"> No courses selected </h1>}
       </div>
-      <Timetable jsonData={selectedCourses} />
+      <button className={"button save-button"} onClick={handleSave}>
+        Save Table Image
+      </button>
+      <button className={"button"} onClick={handleSaveState}>
+        Save Selected courses
+      </button>
+      <div className="table-container">
+        <Timetable selectedOccurrences={selectedOccurences} ref={tableRef} />
+      </div>
     </div>
   );
 }

@@ -11,9 +11,6 @@
 # production
 /build
 
-# other
-one_week_schedule_occ_separated.json
-
 # misc
 .DS_Store
 .env.local
