@@ -3,11 +3,47 @@ import { useEffect, useState, useRef } from "react";
 import Timetable from "./components/Timetable";
 import OccButton from "./components/OccButton";
 import html2canvas from "html2canvas";
+import SearchModal from "./components/SearchModal/SearchModal";
 
 function App() {
   const [courses, setCourses] = useState({});
+  const [chosenCourses, setChosenCourses] = useState([]);
   const [selectedOccurences, setSelectedOccurences] = useState([]);
   const [disabledOccurences, setDisabledOccurences] = useState([]);
+  const [modal, setModal] = useState(false);
+  const [filteredData, setFilteredData] = useState(courses);
+  const [searchValue, setSearchValue] = useState("");
+
+  const toggle = () => setModal(!modal);
+
+  const handleModuleSelection = (key, value) => {
+    const updatedCourses = {
+      ...chosenCourses,
+      [key]: value,
+    };
+  
+    setChosenCourses(updatedCourses);
+      updateSearchData(Object.entries(filteredData), updatedCourses);
+  };
+
+  const handleSearch = (e) => {
+    const currentSearchValue = e.target.value;
+    setSearchValue(currentSearchValue);
+    const filter = Object.entries(courses).filter(([key, value]) => {
+      return key
+        .toLowerCase()
+        .includes(currentSearchValue.trim().toLowerCase());
+    });
+    updateSearchData(filter, chosenCourses);
+  };
+
+  const updateSearchData = (data, chosenCourses) => {
+    const filteredWithoutChosen = data.filter(
+      ([key, value]) => !Object.keys(chosenCourses).includes(key)
+    );
+    setFilteredData(Object.fromEntries(filteredWithoutChosen.slice(0, 10)));
+  };
+  
 
   const tableRef = useRef();
 
@@ -21,30 +57,42 @@ function App() {
   };
 
   const handleSaveState = () => {
-    localStorage.setItem("courses", JSON.stringify(courses));
-    localStorage.setItem("selectedOccurences", JSON.stringify(selectedOccurences));
-    localStorage.setItem("disabledOccurences", JSON.stringify(disabledOccurences));
+    localStorage.setItem("courses", JSON.stringify(chosenCourses));
+    localStorage.setItem(
+      "selectedOccurences",
+      JSON.stringify(selectedOccurences)
+    );
+    localStorage.setItem(
+      "disabledOccurences",
+      JSON.stringify(disabledOccurences)
+    );
   };
 
   useEffect(() => {
-    if (localStorage.getItem("selectedOccurences") && localStorage.getItem("disabledOccurences")) {
-      setSelectedOccurences(JSON.parse(localStorage.getItem("selectedOccurences")));
-      setDisabledOccurences(JSON.parse(localStorage.getItem("disabledOccurences")));
-
-    }
-    else {
+    if (
+      localStorage.getItem("selectedOccurences") &&
+      localStorage.getItem("disabledOccurences") &&
+      localStorage.getItem("courses")
+    ) {
+      setSelectedOccurences(
+        JSON.parse(localStorage.getItem("selectedOccurences"))
+      );
+      setDisabledOccurences(
+        JSON.parse(localStorage.getItem("disabledOccurences"))
+      );
+      setChosenCourses(JSON.parse(localStorage.getItem("courses")));
+    } else {
       setSelectedOccurences([]);
       setDisabledOccurences([]);
       localStorage.clear();
     }
-    
-    fetch("/one_week_schedule_occ_separated.json") // path to json file
+
+    fetch("/all_courses_updated_one_week_schedule_occ_separated.json") // path to json file
       .then((response) => response.json())
       .then((data) => {
         setCourses(data);
         console.log(data);
       });
-
   }, []);
 
   useEffect(() => {
@@ -59,7 +107,11 @@ function App() {
     console.log("selected: ", selectedOccurence);
 
     // if the course is already selected, unselect it
-    if (selectedOccurences.some((occurence) => isSame(occurence, selectedOccurence))) {
+    if (
+      selectedOccurences.some((occurence) =>
+        isSame(occurence, selectedOccurence)
+      )
+    ) {
       const updatedSelectedOccurences = selectedOccurences.filter(
         (occurence) => !isSame(occurence, selectedOccurence)
       );
@@ -101,12 +153,17 @@ function App() {
   const checkClashing = (selectedOccurences) => {
     const tempDisabledOccurences = [];
     selectedOccurences.forEach((occurence) => {
-      Object.values(courses).forEach((course) => {
+      Object.values(chosenCourses).forEach((course) => {
         course.forEach((courseOccurence) => {
-          if (!isSame(occurence, courseOccurence) && isClashing(occurence, courseOccurence)) {
+          if (
+            !isSame(occurence, courseOccurence) &&
+            isClashing(occurence, courseOccurence)
+          ) {
             tempDisabledOccurences.push(courseOccurence);
-
-          } else if (courseOccurence.course_id === occurence.course_id && !isSame(courseOccurence, occurence)) {
+          } else if (
+            courseOccurence.course_id === occurence.course_id &&
+            !isSame(courseOccurence, occurence)
+          ) {
             tempDisabledOccurences.push(courseOccurence);
           }
         });
@@ -158,44 +215,49 @@ function App() {
       course1.lecture.day === course2.lecture.day &&
       timesOverlap(lecture1Start, lecture1End, lecture2Start, lecture2End);
 
-    
-    const tutorial1Start = course1.tutorial ? parseTime(
-      course1.tutorial.day,
-      course1.tutorial.begin_time
-    ) : null;
+    const tutorial1Start = course1.tutorial
+      ? parseTime(course1.tutorial.day, course1.tutorial.begin_time)
+      : null;
 
-    const tutorial1End = course1.tutorial ? parseTime(
-      course1.tutorial.day,
-      course1.tutorial.end_time
-    ) : null;
+    const tutorial1End = course1.tutorial
+      ? parseTime(course1.tutorial.day, course1.tutorial.end_time)
+      : null;
 
-    const tutorial2Start = course2.tutorial ? parseTime(
-      course2.tutorial.day,
-      course2.tutorial.begin_time
-    ) : null;
+    const tutorial2Start = course2.tutorial
+      ? parseTime(course2.tutorial.day, course2.tutorial.begin_time)
+      : null;
 
-    const tutorial2End = course2.tutorial ? parseTime(
-      course2.tutorial.day,
-      course2.tutorial.end_time
-    ) : null;
+    const tutorial2End = course2.tutorial
+      ? parseTime(course2.tutorial.day, course2.tutorial.end_time)
+      : null;
 
-    const tutorialLectureClash = course1.tutorial ? (
-      course1.tutorial.day === course2.lecture.day &&
-      timesOverlap(tutorial1Start, tutorial1End, lecture2Start, lecture2End)
-    ) : false;
+    const tutorialLectureClash = course1.tutorial
+      ? course1.tutorial.day === course2.lecture.day &&
+        timesOverlap(tutorial1Start, tutorial1End, lecture2Start, lecture2End)
+      : false;
 
-    const lectureTutorialClash = course2.tutorial ? (
-      course1.lecture.day === course2.tutorial.day &&
-      timesOverlap(lecture1Start, lecture1End, tutorial2Start, tutorial2End)
-    ) : false;
+    const lectureTutorialClash = course2.tutorial
+      ? course1.lecture.day === course2.tutorial.day &&
+        timesOverlap(lecture1Start, lecture1End, tutorial2Start, tutorial2End)
+      : false;
 
-    const tutorialClash = course1.tutorial && course2.tutorial ? (
-      course1.tutorial.day === course2.tutorial.day &&
-      timesOverlap(tutorial1Start, tutorial1End, tutorial2Start, tutorial2End)
-    ) : false;
+    const tutorialClash =
+      course1.tutorial && course2.tutorial
+        ? course1.tutorial.day === course2.tutorial.day &&
+          timesOverlap(
+            tutorial1Start,
+            tutorial1End,
+            tutorial2Start,
+            tutorial2End
+          )
+        : false;
 
-
-    return lectureClash || tutorialLectureClash || lectureTutorialClash || tutorialClash;
+    return (
+      lectureClash ||
+      tutorialLectureClash ||
+      lectureTutorialClash ||
+      tutorialClash
+    );
   };
 
   const checkContains = (array, occurence) => {
@@ -218,9 +280,19 @@ function App() {
 
   return (
     <div className="app-container">
+      <SearchModal
+        modal={modal}
+        toggle={toggle}
+        data={filteredData}
+        handleSearch={handleSearch}
+        handleModuleSelection={handleModuleSelection}
+        searchValue={searchValue}
+      />
       <div className="occurrence-container">
-        {courses &&
-          Object.entries(courses).map(([courseName, occurrences], index) => {
+      {chosenCourses &&
+          Object.entries(chosenCourses).map(([courseName, occurrences], index) => {
+            console.log("courseName: ", courseName);
+            console.log("occurrences: ", occurrences);
             return (
               <div key={index} className="course-block">
                 <h3>
