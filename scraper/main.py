@@ -28,24 +28,38 @@ def main(args):
 
     # store data to json file
     data_occ_separated = convert_tracking_data_to_output_format(tracking_data)
+    print(len(data_occ_separated))
     json_file_path_occ_separated = args[2]
     json.dump(data_occ_separated, open(
         json_file_path_occ_separated, "w"), indent=2)
 
 
 def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet):
-    tracker = {}
+    def get_row_item(row, index):
+        try:
+            return row[index]
+        except IndexError:
+            return None
+
+    choice = input("\nInput path of .json with pre-existing data (leave empty if none): ")
+    if choice:
+        tracker = json.load(open(choice))
+    else:
+        tracker = {}
+
     for row in sheet.iter_rows(min_row=sheet.header_row+1, max_row=sheet.end_row, values_only=True):
+        print(row)
         module_offering = row[sheet._module_offering_column - 1]
         code, occurences = parse_module_offering(module_offering)
 
         module = row[sheet._module_column - 1]
         activity = "tutorial" if row[sheet._activity_column -
                                      1].lower() == "tutorial" else "lecture"
-        room = row[sheet._room_column - 1]
         day = row[sheet._day_column - 1]
         begin_time = row[sheet._begin_column - 1]
         end_time = row[sheet._end_column - 1]
+
+        room = get_row_item(row, sheet._room_column - 1)
 
         for occ in occurences:
             if code not in tracker:
@@ -73,6 +87,8 @@ def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet
                 "end_time": end_time,
             }
 
+    if choice:
+        json.dump(tracker, open(choice, "w"), indent=2)
     return tracker
 
 
@@ -104,13 +120,17 @@ def update_data_from_maya(tracker_data, sheet: MayaSheet.MyReadOnlyWorksheet | M
         tutor = row[sheet._tutor_column - 1]
         room = row[sheet._room_column - 1]
 
-        if not current_module_code or (module_code and current_module_code != module_code):
+        if not current_module_code or (module_code):
             current_module_code = module_code
             current_module_name = module_name
+            module_code = None   # some random string that wont match the next find
+            module_name = None   # some random string that wont match the next find
 
-        if not current_occurence or (occurrence and current_occurence != occurrence):
+        if not current_occurence or (occurrence):
             current_occurence = occurrence
             current_mav_name = mav_name
+            occurrence = None   # some random string that wont match the next find
+            mav_name = None   # some random string that wont match the next find
 
         if current_module_code not in tracker_data:
             print(f"Module '{current_module_code} {
@@ -178,7 +198,7 @@ def parse_module_offering(module_offering: str) -> tuple:
 def convert_tracking_data_to_output_format(tracking_data):
     data = {code: sorted(list(occ.values()), key=lambda x: x["occurence"].rjust(
         2, " ")) for code, occ in tracking_data.items()}
-    
+
     data = {key: data[key] for key in sorted(data.keys())}
     return data
 
