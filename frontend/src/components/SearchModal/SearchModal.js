@@ -1,9 +1,12 @@
-import "../../Global.css"
+import "../../Global.css";
 import classes from "./SearchModal.module.css";
 import Searchbar from "../Searchbar/Searchbar";
 import { Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
-import ModuleCard from "../ModuleCard/ModuleCard";
+import ModalCard from "../ModalCard/ModalCard";
 import RoundedButton from "../RoundedButton/RoundedButton";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBook, faSearch, faPlus } from "@fortawesome/free-solid-svg-icons";
+import RibbonButton from "../BookmarkButton/RibbonButton";
 
 const SearchModal = ({
   modal,
@@ -15,9 +18,11 @@ const SearchModal = ({
 }) => {
   return (
     <div>
-      <RoundedButton className={classes.addModuleButton} onClick={toggle}>
-        + Add Modules
-      </RoundedButton>
+      <RibbonButton
+        onClick={toggle}
+      >
+        <FontAwesomeIcon icon={faPlus} className={classes.addModuleText} />
+      </RibbonButton>
       <Modal isOpen={modal} toggle={toggle} fullscreen>
         <ModalHeader toggle={toggle}>Add modules</ModalHeader>
         <ModalBody>
@@ -26,19 +31,33 @@ const SearchModal = ({
             value={searchValue}
             placeholder={"Search Module"}
           />
-          <ul className={classes.modalList}>
-            {Object.entries(data).map(([key, value], index) => (
-              <ModuleCard
-                key={index}
-                module={{ key, value }}
-                onClick={handleModuleSelection}
+          {Object.keys(data).length > 0 && searchValue.length > 0? (
+            <ul className={classes.modalList}>
+              {Object.entries(data).map(([key, value], index) => (
+                <ModalCard
+                  key={index}
+                  item={{ key, value }}
+                  onClick={handleModuleSelection}
+                />
+              ))}
+            </ul>
+          ) : (
+            <div className={classes.noResults}>
+              <FontAwesomeIcon
+                className={classes.noResultsIcon}
+                icon={searchValue.length === 0? faBook : faSearch}
+                size="2x"
               />
-            ))}
-          </ul>
+              <h1 className={classes.noResultsHeader}>{searchValue.length === 0? "Find Your Courses!" : "No Results Found!"}</h1>
+            </div>
+          )}
         </ModalBody>
         <ModalFooter>
-          <RoundedButton className={classes.closeButton} onClick={toggle}>
-            Close
+          <RoundedButton
+            className={`${classes.closeButton} acceptButton`}
+            onClick={toggle}
+          >
+            Finish
           </RoundedButton>
         </ModalFooter>
       </Modal>
