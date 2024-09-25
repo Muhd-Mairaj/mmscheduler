@@ -1,8 +1,12 @@
 venv
 __pycache__
 
+# environent
+*.env
+
+# files created for/by scraping
 *.xls
 *.xlsx
-
 *.json
-node_modules
+*.txt
+
