@@ -1,7 +1,9 @@
-import Searchbar from "../Searchbar/Searchbar";
+import "../../Global.css"
 import classes from "./SearchModal.module.css";
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
+import Searchbar from "../Searchbar/Searchbar";
+import { Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import ModuleCard from "../ModuleCard/ModuleCard";
+import RoundedButton from "../RoundedButton/RoundedButton";
 
 const SearchModal = ({
   modal,
@@ -13,9 +15,9 @@ const SearchModal = ({
 }) => {
   return (
     <div>
-      <button className="button add-module-button" onClick={toggle}>
+      <RoundedButton className={classes.addModuleButton} onClick={toggle}>
         + Add Modules
-      </button>
+      </RoundedButton>
       <Modal isOpen={modal} toggle={toggle} fullscreen>
         <ModalHeader toggle={toggle}>Add modules</ModalHeader>
         <ModalBody>
@@ -24,7 +26,7 @@ const SearchModal = ({
             value={searchValue}
             placeholder={"Search Module"}
           />
-          <ul className="module-list">
+          <ul className={classes.modalList}>
             {Object.entries(data).map(([key, value], index) => (
               <ModuleCard
                 key={index}
@@ -35,9 +37,9 @@ const SearchModal = ({
           </ul>
         </ModalBody>
         <ModalFooter>
-          <Button color="secondary" onClick={toggle}>
+          <RoundedButton className={classes.closeButton} onClick={toggle}>
             Close
-          </Button>
+          </RoundedButton>
         </ModalFooter>
       </Modal>
     </div>

@@ -1,0 +1,45 @@
+.occurrenceCard {
+  margin: 5px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  color: var(--card-text-color);
+  background-color: var(--card-color);
+}
+
+.occurrenceCard:hover {
+  background-color: var(--hover-card-color);
+}
+
+.occurrenceCard.cardSelected {
+  background-color: var(--selected-card-color);
+}
+
+.occurrenceCard.cardDisabled {
+  background-color: var(--disabled-card-color);
+}
+
+.occurrenceCard hr {
+  border: 1px solid var(--card-border-color);
+  margin: 1px !important;
+}
+
+.occurrenceCard p {
+  padding: 0;
+  margin: 0;
+}
+
+.occurrenceCard.cardSelected hr {
+  border: 1px solid var(--selected-card-border-color);
+}
+
+.InnerCardWrapper {
+  padding: 10px 0px;
+}
+
+.occurrenceNumber {
+  font-weight: 600;
+}

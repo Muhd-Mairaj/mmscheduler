@@ -1,0 +1,11 @@
+:root {
+    --accept-button-color: #3498db;
+    /* occurrenceCard */
+    --selected-card-color: #f7e060;
+    --selected-card-border-color: #e8d048;
+    --disabled-card-color: lightgray;
+    --hover-card-color: rgb(213, 213, 213);
+    --card-text-color: black;
+    --card-border-color: rgb(171, 171, 171);
+    --card-color: rgb(205, 205, 205);
+  }

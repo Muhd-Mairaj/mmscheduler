@@ -1,7 +1,7 @@
 import "./App.css";
 import { useEffect, useState, useRef } from "react";
 import Timetable from "./components/Timetable";
-import OccButton from "./components/OccButton";
+import OccurrenceCard from "./components/OccurrenceCard/OccurrenceCard";
 import html2canvas from "html2canvas";
 import SearchModal from "./components/SearchModal/SearchModal";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
@@ -72,7 +72,6 @@ function App() {
     handleSaveState();
   };
 
-
   const tableRef = useRef();
 
   const handleSave = () => {
@@ -140,16 +139,21 @@ function App() {
 
     let updatedSelectedOccurences = [];
 
-    const isSameOccurence = selectedOccurences.some((occurence) => isSame(occurence, selectedOccurence));
-    const isSameCourse = selectedOccurences.some((occurence) => occurence.course_id === selectedOccurence.course_id);
+    const isSameOccurence = selectedOccurences.some((occurence) =>
+      isSame(occurence, selectedOccurence)
+    );
+    const isSameCourse = selectedOccurences.some(
+      (occurence) => occurence.course_id === selectedOccurence.course_id
+    );
 
     // Note: same occurence means the same course and occurence
     // This must be checked before checking if only course is same
     if (isSameOccurence) {
       // unselect the occurence
-      updatedSelectedOccurences = selectedOccurences.filter((occurence) => !isSame(occurence, selectedOccurence));
-    }
-    else if (isSameCourse) {
+      updatedSelectedOccurences = selectedOccurences.filter(
+        (occurence) => !isSame(occurence, selectedOccurence)
+      );
+    } else if (isSameCourse) {
       // swap the occurence
       updatedSelectedOccurences = selectedOccurences.map((occurence) => {
         if (occurence.course_id === selectedOccurence.course_id) {
@@ -157,32 +161,30 @@ function App() {
         }
         return occurence;
       });
-    }
-    else {
+    } else {
       // add the occurence
-      updatedSelectedOccurences = [
-        ...selectedOccurences,
-        selectedOccurence,
-      ];
+      updatedSelectedOccurences = [...selectedOccurences, selectedOccurence];
     }
 
     setSelectedOccurences(updatedSelectedOccurences);
     checkClashing(updatedSelectedOccurences);
-
   };
 
   const checkClashing = (selectedOccurences) => {
     const tempDisabledOccurences = [];
 
-    selectedOccurences.forEach(occurence => {
+    selectedOccurences.forEach((occurence) => {
       Object.values(chosenCourses).forEach((courseOccurrences) => {
         courseOccurrences.forEach((courseOccurrence) => {
           // only check for clashing if the course is different
-          if (occurence.course_id !== courseOccurrence.course_id && isClashing(occurence, courseOccurrence)) {
+          if (
+            occurence.course_id !== courseOccurrence.course_id &&
+            isClashing(occurence, courseOccurrence)
+          ) {
             tempDisabledOccurences.push(courseOccurrence);
           }
-        })
-      })
+        });
+      });
     });
 
     setDisabledOccurences(tempDisabledOccurences);
@@ -196,13 +198,13 @@ function App() {
     const parseTime = (day, startTime, endTime) => {
       if (day && startTime) {
         const dayMinuteMap = {
-          'monday': 0 * 24 * 60,
-          'tuesday': 1 * 24 * 60,
-          'wednesday': 2 * 24 * 60,
-          'thursday': 3 * 24 * 60,
-          'friday': 4 * 24 * 60,
-          'saturday': 5 * 24 * 60,
-          'sunday': 6 * 24 * 60,
+          monday: 0 * 24 * 60,
+          tuesday: 1 * 24 * 60,
+          wednesday: 2 * 24 * 60,
+          thursday: 3 * 24 * 60,
+          friday: 4 * 24 * 60,
+          saturday: 5 * 24 * 60,
+          sunday: 6 * 24 * 60,
         };
 
         const dayInMinutes = dayMinuteMap[day.toLowerCase()];
@@ -225,12 +227,16 @@ function App() {
 
     // parse lecture1 times
     const [lecture1Start, lecture1End] = parseTime(
-      course1.lecture.day, course1.lecture.begin_time, course1.lecture.end_time
+      course1.lecture.day,
+      course1.lecture.begin_time,
+      course1.lecture.end_time
     );
 
     // parse lecture2 times
     const [lecture2Start, lecture2End] = parseTime(
-      course2.lecture.day, course2.lecture.begin_time, course2.lecture.end_time
+      course2.lecture.day,
+      course2.lecture.begin_time,
+      course2.lecture.end_time
     );
 
     // Check if all necessary lecture times are available
@@ -256,19 +262,28 @@ function App() {
         )
       : [null, null];
 
-
     // check all combinations of tuturial and lecture clash
-    const lectureClash = timesOverlap(lecture1Start, lecture1End, lecture2Start, lecture2End);
+    const lectureClash = timesOverlap(
+      lecture1Start,
+      lecture1End,
+      lecture2Start,
+      lecture2End
+    );
     const tutorialLectureClash = course1.tutorial
       ? timesOverlap(tutorial1Start, tutorial1End, lecture2Start, lecture2End)
       : false;
     const lectureTutorialClash = course2.tutorial
       ? timesOverlap(lecture1Start, lecture1End, tutorial2Start, tutorial2End)
       : false;
-    const tutorialClash = course1.tutorial && course2.tutorial
-      ? timesOverlap(tutorial1Start, tutorial1End, tutorial2Start, tutorial2End)
-      : false;
-
+    const tutorialClash =
+      course1.tutorial && course2.tutorial
+        ? timesOverlap(
+            tutorial1Start,
+            tutorial1End,
+            tutorial2Start,
+            tutorial2End
+          )
+        : false;
 
     return (
       lectureClash ||
@@ -333,7 +348,7 @@ function App() {
                         occurrence
                       );
                       return (
-                        <OccButton
+                        <OccurrenceCard
                           onClick={handleOccurenceSelect}
                           occurrence={occurrence}
                           isDisabled={isDisabled}
