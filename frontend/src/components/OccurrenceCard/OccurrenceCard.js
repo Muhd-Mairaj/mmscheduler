@@ -1,13 +1,16 @@
-const OccButton = ({ onClick, occurrence, isDisabled, isSelected }) => {
+import "../../Global.css"
+import classes from "./OccurrenceCard.module.css";
+
+const OccurrenceCard = ({ onClick, occurrence, isDisabled, isSelected }) => {
   return (
     <button
-      className={`occurrence-button ${isDisabled ? "disabled" : ""} ${
-        isSelected && !isDisabled ? "selected" : ""
+      className={`${classes.occurrenceCard} ${isDisabled ? classes.cardDisabled : ""} ${
+        isSelected && !isDisabled ? classes.cardSelected : ""
       }`}
       onClick={() => onClick(occurrence, isDisabled)}
     >
-      <div className="occurrence">
-        <div className="occ-number">
+      <div className={classes.InnerCardWrapper}>
+        <div className={classes.occurrenceNumber}>
           <p>{occurrence.occurence}</p>
         </div>
         <hr />
@@ -43,4 +46,4 @@ const OccButton = ({ onClick, occurrence, isDisabled, isSelected }) => {
   );
 };
 
-export default OccButton;
+export default OccurrenceCard;
