@@ -8,10 +8,12 @@
   white-space: normal;
   color: var(--card-text-color);
   background-color: var(--card-color);
+  transition: 0.5s ease;
 }
 
 .occurrenceCard:hover {
-  background-color: var(--hover-card-color);
+  filter: brightness(90%);
+  transition: 0.5s ease;
 }
 
 .occurrenceCard.cardSelected {
@@ -36,10 +38,18 @@
   border: 1px solid var(--selected-card-border-color);
 }
 
+.occurrenceCard.cardSelected p {
+  color: white;
+}
+
 .InnerCardWrapper {
   padding: 10px 0px;
 }
 
 .occurrenceNumber {
   font-weight: 600;
+}
+
+.tutor p {
+  font-size: 0.7rem;
 }

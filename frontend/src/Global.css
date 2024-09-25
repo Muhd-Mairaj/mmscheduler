@@ -1,11 +1,34 @@
 :root {
-    --accept-button-color: #3498db;
-    /* occurrenceCard */
-    --selected-card-color: #f7e060;
-    --selected-card-border-color: #e8d048;
-    --disabled-card-color: lightgray;
-    --hover-card-color: rgb(213, 213, 213);
-    --card-text-color: black;
-    --card-border-color: rgb(171, 171, 171);
-    --card-color: rgb(205, 205, 205);
-  }
+    /* General */
+    --primary-color: #5e2f80;
+    --secondary-color: #6b3691;
+
+  /* occurrenceCard */
+  --selected-card-color: #a17bb6;
+  --selected-card-border-color: #c38ae4;
+  --disabled-card-color: rgb(160, 160, 160);
+  --card-text-color: black;
+  --card-border-color: rgb(171, 171, 171);
+  --card-color: rgb(205, 205, 205);
+
+  /* Timetable */
+  --lecture-event-color: #906da5;
+  --tutorial-event-color: #8dbfe1;
+
+  /* Navbar */
+  --navbar-primary-color: #5e1b8f;
+
+  /* Footer */
+  --footer-color: #311843;
+}
+
+.acceptButton {
+  background-image: linear-gradient(
+    to right,
+    #4568dc 0%,
+    #b06ab3 51%,
+    #4568dc 100%
+  );
+  background-size: 200% auto;
+  color: white;
+}
