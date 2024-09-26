@@ -12,8 +12,8 @@
 }
 
 .cardHeader{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: rgb(104, 104, 104);
-    font-weight: 300;
+    font-weight: bold;
     margin: 0 !important;
 }

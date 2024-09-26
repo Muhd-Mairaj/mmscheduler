@@ -29,11 +29,14 @@ function Home() {
 
   const updateSearchData = (courses, chosenCourses, searchValue) => {
     const filteredWithoutChosen = Object.entries(courses).filter(([key, value]) => {
-      return key
-        .toLowerCase()
-        .includes(searchValue.trim().toLowerCase())
+      return (
+        (key.toLowerCase().includes(searchValue.trim().toLowerCase())
+          ||
+          value[0].module.toLowerCase().includes(searchValue.trim().toLowerCase())
+        )
         &&
         !Object.keys(chosenCourses).includes(key)
+      )
     })
 
     setFilteredData(Object.fromEntries(filteredWithoutChosen.slice(0, 10)));
