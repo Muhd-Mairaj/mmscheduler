@@ -3,9 +3,17 @@
 }
 
 .homeContainer {
-  padding: 30px;
+  background-color: #fcfcfc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 1100px;
+  padding: 50px;
   padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
 }
+
 
 .occurrenceContainer {
   display: grid;
@@ -15,6 +23,21 @@
 .courseBlock {
   position: relative;
   margin: 20px 0;
+}
+
+.courseHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.courseName {
+  font-size: 1.3rem;
+  padding-right: 35px;
+  margin-bottom: 2px;
 }
 
 .removeButton {
@@ -40,6 +63,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   padding: 5px 10px 10px 0px;
+  gap: 20px;
 }
 
 .noCourses {
@@ -61,13 +85,41 @@
   text-align: center;
 }
 
-.tableContainer {
-  margin: 20px 0;
+.saveButton {
+  align-self: flex-start; /* Aligns the button to the start (left) */
+  margin-top: 20px; /* Optional: Adds space above the button */
 }
 
-@media (max-width: 800px) {
+.tableContainer {
+  margin: 20px 0;
+  width: 100%; /* Ensures the container takes full width */
+  overflow-x: auto; /* Enables horizontal scrolling if the content overflows */
+}
+
+@media (min-width: 901px) {
+  .occurrences {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .occurrences {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .occurrences {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .homeContainer{
+    padding: 30px;
+    padding-top: 60px;
+  }
   .occurrences {
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
   }
 }
