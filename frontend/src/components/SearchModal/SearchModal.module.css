@@ -1,0 +1,35 @@
+.closeButton {
+  background-color: grey !important;
+}
+
+.addModuleText {
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: -12px;
+  right: -13px;
+  text-align: center;
+}
+
+.modalList {
+  padding: 0;
+}
+
+.noResults {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.noResultsIcon {
+  color: #777;
+  font-size: 5rem !important;
+}
+
+.noResultsHeader {
+  margin-top: 50px;
+  color: #777;
+  text-align: center;
+}
