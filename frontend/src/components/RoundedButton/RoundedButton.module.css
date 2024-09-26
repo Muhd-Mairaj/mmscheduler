@@ -1,0 +1,11 @@
+.button {
+  border: none !important;
+  border-radius: 35px !important;
+  margin: 10px;
+  transition: 0.5s !important;
+}
+
+button:hover {
+  filter: brightness(80%);
+  transition: 0.5s;
+}

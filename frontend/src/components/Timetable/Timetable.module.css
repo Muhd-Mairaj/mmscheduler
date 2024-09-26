@@ -1,0 +1,154 @@
+.timetableContainer {
+  width: 100%; /* Full width on smaller screens */
+  overflow-x: auto; /* Horizontal scroll only for the timetable */
+}
+
+.timetableGrid {
+    min-width: 1000px; /* Minimum width for the timetable itself */
+    display: grid;
+    grid-template-columns: auto repeat(5, 1fr);
+    grid-template-rows: auto repeat(25, minmax(30px, auto));
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    position: relative;
+  }
+.timetableGrid > div {
+  border: none;
+}
+
+.timetableGrid div {
+  display: flex;
+  border: 1px solid #e6e6e6;
+  font-size: 14px;
+}
+
+.timetableGrid div {
+  display: flex;
+  border: 1px solid #e6e6e6;
+  font-size: 14px;
+}
+
+.timetableHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(10px, 1.2vw, 16px);
+  font-weight: bold;
+  padding: 15px;
+  background-color: #e7e7e7;
+  border-bottom: 1px solid #ccc;
+  z-index: 2;
+  min-height: 30px;
+}
+
+.timeSlot {
+  display: flex;
+  justify-content: end;
+  padding: 1px 5px 0 15px;
+  font-size: clamp(8px, 1vw, 12px);
+  color: #777;
+  height: 100%;
+  border-right: 1px solid #ddd;
+  border-radius: 0px;
+  z-index: 2;
+  min-height: 30px;
+}
+
+.rowLine {
+  background-color: #f9f9f9;
+  height: 0.1px;
+  z-index: 1;
+}
+
+.rowLine:last-of-type {
+  min-height: 30px;
+}
+
+.lectureEvent,
+.tutorialEvent {
+  padding: 10px;
+  margin: 1px;
+  border-radius: 20px;
+  font-weight: bold;
+  z-index: 3;
+}
+
+.lectureEvent {
+  background-color: var(--lecture-event-color) !important;
+}
+
+.tutorialEvent {
+  background-color: var(--tutorial-event-color) !important;
+}
+
+.eventCard {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: clamp(6px, 0.8vw, 12px);
+  line-height: 1.1;
+  overflow: hidden;
+  z-index: 2;
+  min-height: 30px;
+}
+
+.eventContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+  min-height: 0;
+  border: none !important;
+  overflow: hidden;
+}
+
+.moduleTitle {
+  border: none !important;
+  word-break: break-word;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  max-height: none;
+  overflow: visible;
+  margin-bottom: 2px;
+  font-size: clamp(3px, 0.5vw, 8px);
+  flex-grow: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.timeInfo {
+  font-size: clamp(3px, 0.2vw, 4px);
+  white-space: normal;
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: none !important;
+}
+
+.room {
+  font-size: clamp(12px, 0.4vw, 7px) !important;
+  margin-top: auto;
+  padding-top: 2px;
+  word-break: break-word;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  max-height: none;
+  overflow: visible;
+  border: none !important;
+}
+
+.tutor {
+  font-size: clamp(12px, 0.4vw, 7px) !important;
+  margin-top: auto;
+  padding-top: 2px;
+  word-break: break-word;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  max-height: none;
+  overflow: visible;
+  border: none !important;
+}

@@ -1,39 +1,42 @@
-const OccButton = ({ onClick, occurrence, isDisabled, isSelected }) => {
+import "../../Global.css"
+import classes from "./OccurrenceCard.module.css";
+
+const OccurrenceCard = ({ onClick, occurrence, isDisabled, isSelected }) => {
   return (
     <button
-      className={`occurrence-button ${isDisabled ? "disabled" : ""} ${
-        isSelected && !isDisabled ? "selected" : ""
+      className={`${classes.occurrenceCard} ${isDisabled ? classes.cardDisabled : ""} ${
+        isSelected && !isDisabled ? classes.cardSelected : ""
       }`}
       onClick={() => onClick(occurrence, isDisabled)}
     >
-      <div className="occurrence">
-        <div className="occ-number">
+      <div className={classes.InnerCardWrapper}>
+        <div className={classes.occurrenceNumber}>
           <p>{occurrence.occurence}</p>
         </div>
         <hr />
         {occurrence.lecture && (
-          <div className="activity">
-            <div className="day">
+          <div className={classes.activity}>
+            <div className={classes.day}>
               <p>{occurrence.lecture.day}</p>
             </div>
-            <div className="time">
+            <div className={classes.time}>
               <p>{occurrence.lecture.begin_time} - {occurrence.lecture.end_time}</p>
             </div>
-            <div className="tutor">
+            <div className={classes.tutor}>
               <p>{occurrence.lecture.tutor ? occurrence.lecture.tutor : ""}</p>
             </div>
           </div>
         )}
         <hr />
         {occurrence.tutorial && (
-          <div className="activity">
-            <div className="day">
+          <div className={classes.activity}>
+            <div className={classes.day}>
               <p>{occurrence.tutorial.day}</p>
             </div>
-            <div className="time">
+            <div className={classes.time}>
               <p>{occurrence.tutorial.begin_time} - {occurrence.tutorial.end_time}</p>
             </div>
-            <div className="tutor">
+            <div className={classes.tutor}>
               <p>{occurrence.tutorial.tutor ? occurrence.tutorial.tutor : ""}</p>
             </div>
           </div>
@@ -43,4 +46,4 @@ const OccButton = ({ onClick, occurrence, isDisabled, isSelected }) => {
   );
 };
 
-export default OccButton;
+export default OccurrenceCard;

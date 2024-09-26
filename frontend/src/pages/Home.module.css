@@ -1,0 +1,73 @@
+.home {
+  position: relative;
+}
+
+.homeContainer {
+  padding: 30px;
+  padding-top: 80px;
+}
+
+.occurrenceContainer {
+  display: grid;
+  min-height: 30vh;
+}
+
+.courseBlock {
+  position: relative;
+  margin: 20px 0;
+}
+
+.removeButton {
+  width: 20px;
+  height: 20px;
+  color: white;
+  background-color: rgb(255, 80, 80);
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.occurrences {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  padding: 5px 10px 10px 0px;
+}
+
+.noCourses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.noCourseIcon {
+  color: #777;
+  font-size: 5rem !important;
+}
+
+.noCoursesHeader {
+  margin-top: 50px;
+  color: #777;
+  text-align: center;
+}
+
+.tableContainer {
+  margin: 20px 0;
+}
+
+@media (max-width: 800px) {
+  .occurrences {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
