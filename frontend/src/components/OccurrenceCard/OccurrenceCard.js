@@ -29,14 +29,14 @@ const OccurrenceCard = ({ onClick, occurrence, isDisabled, isSelected }) => {
         )}
         <hr />
         {occurrence.tutorial && (
-          <div className="activity">
-            <div className="day">
+          <div className={classes.activity}>
+            <div className={classes.day}>
               <p>{occurrence.tutorial.day}</p>
             </div>
-            <div className="time">
+            <div className={classes.time}>
               <p>{occurrence.tutorial.begin_time} - {occurrence.tutorial.end_time}</p>
             </div>
-            <div className="tutor">
+            <div className={classes.tutor}>
               <p>{occurrence.tutorial.tutor ? occurrence.tutorial.tutor : ""}</p>
             </div>
           </div>
