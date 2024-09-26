@@ -4,7 +4,7 @@ const ModalCard = ({ item, onClick }) => {
     const { key, value } = item;
     return (
         <div className={classes.modalCard} onClick={() => onClick(key, value)}>
-            <h3 className={classes.cardHeader}>{key}</h3>
+            <h3 className={classes.cardHeader}>{`${key} ${value[0].module}`}</h3>
         </div>
     );
 };
