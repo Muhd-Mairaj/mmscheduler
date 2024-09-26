@@ -23,21 +23,19 @@ function Home() {
 
   const toggle = () => setModal(!modal);
 
-  const handleSearch = (e) => {
-    const currentSearchValue = e.target.value;
+  const handleSearch = (currentSearchValue) => {
     setSearchValue(currentSearchValue);
-    const filter = Object.entries(courses).filter(([key, value]) => {
-      return key
-        .toLowerCase()
-        .includes(currentSearchValue.trim().toLowerCase());
-    });
-    updateSearchData(filter, chosenCourses);
   };
 
-  const updateSearchData = (data, chosenCourses) => {
-    const filteredWithoutChosen = data.filter(
-      ([key, value]) => !Object.keys(chosenCourses).includes(key)
-    );
+  const updateSearchData = (courses, chosenCourses, searchValue) => {
+    const filteredWithoutChosen = Object.entries(courses).filter(([key, value]) => {
+      return key
+        .toLowerCase()
+        .includes(searchValue.trim().toLowerCase())
+        &&
+        !Object.keys(chosenCourses).includes(key)
+    })
+
     setFilteredData(Object.fromEntries(filteredWithoutChosen.slice(0, 10)));
   };
 
@@ -46,10 +44,7 @@ function Home() {
       ...chosenCourses,
       [key]: value,
     };
-
     setChosenCourses(updatedCourses);
-    updateSearchData(Object.entries(filteredData), updatedCourses);
-    handleSaveState(updatedCourses, selectedOccurences, disabledOccurences);
   };
 
   const handleRemoveModule = (courseName) => {
@@ -64,11 +59,6 @@ function Home() {
     setChosenCourses(updatedCourses);
     setDisabledOccurences(updatedDisabledOccurences);
     setSelectedOccurences(updatedSelectedOccurences);
-    handleSaveState(
-      updatedCourses,
-      updatedSelectedOccurences,
-      updatedDisabledOccurences
-    );
   };
 
   const handleOccurenceSelect = (selectedOccurence, isDisabled) => {
@@ -106,11 +96,6 @@ function Home() {
     }
 
     setSelectedOccurences(updatedSelectedOccurences);
-    handleSaveState(
-      chosenCourses,
-      updatedSelectedOccurences,
-      disabledOccurences
-    );
     checkClashing(updatedSelectedOccurences);
   };
 
@@ -150,6 +135,10 @@ function Home() {
       );
       setChosenCourses(JSON.parse(localStorage.getItem("courses")));
     } else {
+      console.log("localstorage selectedOccurences:", localStorage.getItem("selectedOccurences"));
+      console.log("localstorage disabledOccurences:", localStorage.getItem("disabledOccurences"));
+      console.log("localstorage courses:", localStorage.getItem("courses"));
+
       setSelectedOccurences([]);
       setDisabledOccurences([]);
       localStorage.clear();
@@ -170,6 +159,21 @@ function Home() {
   useEffect(() => {
     console.log("disabledOccurences: ", disabledOccurences);
   }, [disabledOccurences]);
+
+  useEffect(() => {
+    updateSearchData(courses, chosenCourses, searchValue);
+  }, [courses, chosenCourses, searchValue]);
+
+  // update local storage when state changes (not on initial render)
+  const hasMounted = useRef(false);
+  useEffect(() => {
+    if (!hasMounted.current) {
+      hasMounted.current = true;
+    }
+    else {
+      handleSaveState(chosenCourses, selectedOccurences, disabledOccurences);
+    }
+  }, [chosenCourses, selectedOccurences, disabledOccurences]);
 
   const checkClashing = (selectedOccurences) => {
     const tempDisabledOccurences = [];

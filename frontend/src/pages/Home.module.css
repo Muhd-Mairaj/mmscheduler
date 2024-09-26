@@ -62,8 +62,10 @@
 .occurrences {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  padding: 5px 10px 10px 0px;
-  gap: 20px;
+  /* padding: 5px 10px 10px 0px; */
+  padding: 5px 10px 0px 0px;
+  /* gap: 20px; */
+  gap: 7px;
 }
 
 .noCourses {
@@ -96,30 +98,36 @@
   overflow-x: auto; /* Enables horizontal scrolling if the content overflows */
 }
 
-@media (min-width: 901px) {
+@media (min-width: 1051px) {
   .occurrences {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+
+@media (max-width: 1050px) {
+  .occurrences {
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
 @media (max-width: 900px) {
   .occurrences {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
 @media (max-width: 700px) {
   .occurrences {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (max-width: 500px) {
   .homeContainer{
-    padding: 30px;
+    padding: 20px;
     padding-top: 60px;
   }
   .occurrences {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
