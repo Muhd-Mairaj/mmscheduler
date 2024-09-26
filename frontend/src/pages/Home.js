@@ -56,19 +56,22 @@ function Home() {
     const updatedCourses = { ...chosenCourses };
     delete updatedCourses[courseName];
     const updatedSelectedOccurences = selectedOccurences.filter(
-        (occurence) => occurence.course_id !== courseName
+      (occurence) => occurence.course_id !== courseName
     );
     const updatedDisabledOccurences = disabledOccurences.filter(
-        (occurence) => occurence.course_id !== courseName
+      (occurence) => occurence.course_id !== courseName
     );
     setChosenCourses(updatedCourses);
     setDisabledOccurences(updatedDisabledOccurences);
     setSelectedOccurences(updatedSelectedOccurences);
-    handleSaveState(updatedCourses, updatedSelectedOccurences, updatedDisabledOccurences);
+    handleSaveState(
+      updatedCourses,
+      updatedSelectedOccurences,
+      updatedDisabledOccurences
+    );
   };
 
   const handleOccurenceSelect = (selectedOccurence, isDisabled) => {
-
     if (isDisabled) {
       return;
     }
@@ -103,7 +106,11 @@ function Home() {
     }
 
     setSelectedOccurences(updatedSelectedOccurences);
-    handleSaveState(chosenCourses, updatedSelectedOccurences, disabledOccurences);
+    handleSaveState(
+      chosenCourses,
+      updatedSelectedOccurences,
+      disabledOccurences
+    );
     checkClashing(updatedSelectedOccurences);
   };
 
@@ -220,17 +227,19 @@ function Home() {
               ([courseName, occurrences], index) => {
                 return (
                   <div key={index} className={classes.courseBlock}>
-                    <div
-                      className={classes.removeButton}
-                      onClick={() => {
-                        handleRemoveModule(courseName);
-                      }}
-                    >
-                      <FontAwesomeIcon icon={faTimes} />
+                    <div className={classes.courseHeader}>
+                      <div
+                        className={classes.removeButton}
+                        onClick={() => {
+                          handleRemoveModule(courseName);
+                        }}
+                      >
+                        <FontAwesomeIcon icon={faTimes} />
+                      </div>
+                      <h3 className={classes.courseName}>
+                        {courseName} - {occurrences[0].module}
+                      </h3>
                     </div>
-                    <h3>
-                      {courseName} - {occurrences[0].module}
-                    </h3>
                     <div className={classes.occurrences}>
                       {occurrences.map((occurrence, occurrenceIndex) => {
                         const isDisabled = checkContains(

@@ -23,7 +23,7 @@ const SearchModal = ({
       >
         <FontAwesomeIcon icon={faPlus} className={classes.addModuleText} />
       </RibbonButton>
-      <Modal isOpen={modal} toggle={toggle} fullscreen>
+      <Modal isOpen={modal} toggle={toggle}>
         <ModalHeader toggle={toggle}>Add modules</ModalHeader>
         <ModalBody>
           <Searchbar
