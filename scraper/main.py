@@ -8,6 +8,8 @@ from custom_sheets.MayaSheet import get_sheet as get_maya_sheet
 from custom_sheets.TimeEditSheet import get_sheet as get_time_edit_sheet
 
 
+choice = ""
+
 def main(args):
     # open timeedit excel file
     time_edit_excel_file_path = args[0]
@@ -35,6 +37,8 @@ def main(args):
 
 
 def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet):
+    global choice
+
     def get_row_item(row, index):
         try:
             return row[index]
@@ -50,7 +54,7 @@ def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet
     for row in sheet.iter_rows(min_row=sheet.header_row+1, max_row=sheet.end_row, values_only=True):
         print(row)
         module_offering = row[sheet._module_offering_column - 1]
-        code, occurences = parse_module_offering(module_offering)
+        code, _, occurences = parse_module_offering(module_offering)
 
         module = row[sheet._module_column - 1]
         activity = "tutorial" if row[sheet._activity_column -
@@ -80,12 +84,18 @@ def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet
                 }
 
             # update it for each activity
-            tracker[code][occ][activity] = {
-                "day": day,
-                "room": room,
-                "begin_time": begin_time,
-                "end_time": end_time,
-            }
+            # use set to not effect the original data
+            tracker: dict[str, list[dict[str, str]]]
+            tracker[code][occ][activity].setdefault("day", day)
+            tracker[code][occ][activity].setdefault("room", room)
+            tracker[code][occ][activity].setdefault("begin_time", begin_time)
+            tracker[code][occ][activity].setdefault("end_time", end_time)
+            # tracker[code][occ][activity] = {
+            #     "day": day,
+            #     "room": room,
+            #     "begin_time": begin_time,
+            #     "end_time": end_time,
+            # }
 
     if choice:
         json.dump(tracker, open(choice, "w"), indent=2)
@@ -93,6 +103,8 @@ def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet
 
 
 def update_data_from_maya(tracker_data, sheet: MayaSheet.MyReadOnlyWorksheet | MayaSheet.Worksheet):
+    global choice
+
     current_module_code = None
     current_module_name = None
 
@@ -174,6 +186,9 @@ def update_data_from_maya(tracker_data, sheet: MayaSheet.MyReadOnlyWorksheet | M
                 # this will update original because its a reference
                 tutorial_info["tutor"] = tutor
 
+    if choice:
+        json.dump(tracker_data, open(choice, "w"), indent=2)
+
 
 def parse_time_details(time_details: str):
     if not time_details:
@@ -188,11 +203,12 @@ def parse_module_offering(module_offering: str) -> tuple:
     offerings = module_offering.split(", ")
     if len(offerings) != 1:
         code = offerings[0].split("/")[0]
-        occ = [offering.split("/")[-1] for offering in offerings]
-        return code, occ
+        period = offerings[0].split("/")[-2]
+        occs = [offering.split("/")[-1] for offering in offerings]
+        return code, period, occs
 
     parsed = module_offering.split("/")
-    return parsed[0], [parsed[-1]]
+    return parsed[0], parsed[-2], [parsed[-1]]
 
 
 def convert_tracking_data_to_output_format(tracking_data):
