@@ -17,10 +17,10 @@
       "course_id": "AA017002",
       "occurence": "1",
       "lecture": {
-        "day": "Wednesday",
-        "room": "DEWAN KULIAH 4 FEP",
-        "begin_time": "18:00",
-        "end_time": "21:00"
+        "day": "Saturday",
+        "room": "BILIK TUTORIAL 2 FP",
+        "begin_time": "11:00",
+        "end_time": "14:00"
       }
     }
   ],
@@ -6895,7 +6895,13 @@
     {
       "module": "MEDIA MARKET AND AUDIENCE RESEARCH",
       "course_id": "AQA7017",
-      "occurence": "2"
+      "occurence": "2",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "DEWAN KULIAH A FSSS",
+        "begin_time": "18:00",
+        "end_time": "21:00"
+      }
     }
   ],
   "AQA7018": [
@@ -10059,7 +10065,13 @@
     {
       "module": "BUSINESS AND CORPORATE TAXATION",
       "course_id": "CIA2006",
-      "occurence": "1"
+      "occurence": "1",
+      "lecture": {
+        "day": "Monday",
+        "room": "BILIK SEMINAR PASCASISWAZAH 1-1 FEP",
+        "begin_time": "09:00",
+        "end_time": "12:00"
+      }
     }
   ],
   "CIA2008": [
@@ -15973,8 +15985,10 @@
         "day": "Friday",
         "room": "ONLINE LECTURE",
         "begin_time": "08:00",
-        "end_time": "10:00"
-      }
+        "end_time": "10:00",
+        "tutor": "DR. ASBAH BINTI RAZALI"
+      },
+      "mav_name": "PSYCHOLOGY POSITIVE IN DAILY LIFE"
     }
   ],
   "GDB0005": [
@@ -15999,8 +16013,10 @@
         "day": "Friday",
         "room": "SURAU APIUM",
         "begin_time": "09:00",
-        "end_time": "11:00"
-      }
+        "end_time": "11:00",
+        "tutor": "DR. WAN ADLI BIN WAN RAMLI"
+      },
+      "mav_name": "STRENGTHENING OF ISLAMIC CREED"
     }
   ],
   "GDL0019": [
@@ -16050,8 +16066,10 @@
         "day": "Thursday",
         "room": "ONLINE LECTURE",
         "begin_time": "11:00",
-        "end_time": "13:00"
-      }
+        "end_time": "13:00",
+        "tutor": "DR. SIM MAW SHIN"
+      },
+      "mav_name": "TOBACCO AND SMOKING CESSATION PROGRAMME"
     }
   ],
   "GDO0017": [
@@ -16089,8 +16107,10 @@
         "day": "Tuesday",
         "room": "ONLINE LECTURE",
         "begin_time": "14:00",
-        "end_time": "16:00"
-      }
+        "end_time": "16:00",
+        "tutor": "ASSOCIATE PROF. DR. RAFIDAH BINTI AGA MOHD JALADIN"
+      },
+      "mav_name": "STRESS MANAGEMENT"
     },
     {
       "module": "STRESS MANAGEMENT",
@@ -16100,8 +16120,10 @@
         "day": "Tuesday",
         "room": "ONLINE LECTURE",
         "begin_time": "09:00",
-        "end_time": "11:00"
-      }
+        "end_time": "11:00",
+        "tutor": "DR. ROZITA BINTI WAHAB"
+      },
+      "mav_name": "STRESS MANAGEMENT"
     }
   ],
   "GDR0008": [
@@ -16113,8 +16135,10 @@
         "day": "Wednesday",
         "room": "BILIK SEMINAR 2 PK",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "DR. POON CHIEW HWA"
+      },
+      "mav_name": "MUSIC MOVES"
     }
   ],
   "GDR0009": [
@@ -16126,8 +16150,10 @@
         "day": "Tuesday",
         "room": "BILIK SEMINAR 4 PK",
         "begin_time": "14:00",
-        "end_time": "16:00"
-      }
+        "end_time": "16:00",
+        "tutor": "DR. WONG YIING SIING"
+      },
+      "mav_name": "MINDFULNESS THROUGH MUSIC"
     }
   ],
   "GDV0020": [
@@ -16159,8 +16185,10 @@
         "day": "Monday",
         "room": "BILIK SEMINAR C FP",
         "begin_time": "13:00",
-        "end_time": "15:00"
-      }
+        "end_time": "15:00",
+        "tutor": "MR. MOHAMMED RAUZAN BIN ALWI"
+      },
+      "mav_name": "APPRECIATION OF HARMONY SINGING"
     }
   ],
   "GDX0027": [
@@ -16446,6 +16474,18 @@
         "tutor": "DR. NOR AZLINA BINTI MUHAMAD"
       },
       "mav_name": "TECHNOLOGY IN LANGUAGE LEARNING"
+    },
+    {
+      "module": "TECHNOLOGY IN LANGUAGE LEARNING",
+      "course_id": "GFT0006",
+      "occurence": "3",
+      "lecture": {
+        "day": "Tuesday",
+        "room": "ONLINE LECTURE",
+        "begin_time": "10:00",
+        "end_time": "12:00"
+      },
+      "mav_name": "TECHNOLOGY IN LANGUAGE LEARNING"
     }
   ],
   "GFW0001": [
@@ -16719,7 +16759,7 @@
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
         "end_time": "19:00",
-        "tutor": "DR. SERRENE LEONG"
+        "tutor": "ASSOCIATE PROF. DR. WONG SENG YUE"
       },
       "mav_name": "BASIC ENTREPRENEURSHIP ENCULTURATION (Only for Year 1 Science Stream & Open to student's intake 2023/2024 and below)"
     }
@@ -16733,8 +16773,10 @@
         "day": "Monday",
         "room": "ONLINE LECTURE",
         "begin_time": "11:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "MADAM ANNUR THAHIRAH BINTI ABD. HADI"
+      },
+      "mav_name": "INFORMATION LITERACY"
     },
     {
       "module": "INFORMATION LITERACY",
@@ -16744,8 +16786,10 @@
         "day": "Monday",
         "room": "ONLINE LECTURE",
         "begin_time": "14:00",
-        "end_time": "15:00"
-      }
+        "end_time": "15:00",
+        "tutor": "MR. AZRIZAL BIN ISMAIL"
+      },
+      "mav_name": "INFORMATION LITERACY"
     },
     {
       "module": "INFORMATION LITERACY",
@@ -16755,8 +16799,10 @@
         "day": "Thursday",
         "room": "ONLINE LECTURE",
         "begin_time": "11:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "MADAM NORASLINDA BINTI SANUSI"
+      },
+      "mav_name": "INFORMATION LITERACY"
     },
     {
       "module": "INFORMATION LITERACY",
@@ -16766,20 +16812,24 @@
         "day": "Thursday",
         "room": "ONLINE LECTURE",
         "begin_time": "14:00",
-        "end_time": "15:00"
-      }
+        "end_time": "15:00",
+        "tutor": "MADAM NORISHAH BINTI ABDUL RAHMAN"
+      },
+      "mav_name": "INFORMATION LITERACY"
     }
   ],
   "GIG1005": [
     {
       "module": "SOCIAL ENGAGEMENT",
       "course_id": "GIG1005",
-      "occurence": "1"
+      "occurence": "1",
+      "mav_name": "SOCIAL ENGAGEMENT (Group 1: For student IIV only)"
     },
     {
       "module": "SOCIAL ENGAGEMENT",
       "course_id": "GIG1005",
-      "occurence": "2"
+      "occurence": "2",
+      "mav_name": "SOCIAL ENGAGEMENT (Group 2: For student VIA/VIB only)(Tuesday, 5-7pm, Room: Dewan Kuliah A, FSSE)"
     }
   ],
   "GIG1012": [
@@ -16825,7 +16875,8 @@
         "day": "Wednesday",
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
-        "end_time": "19:00"
+        "end_time": "19:00",
+        "tutor": "DR. PONMALAR A/P N ALAGAPPAR"
       },
       "mav_name": "APPRECIATION OF ETHICS AND CIVILISATIONS (Only for International Student's - Year 2 Science Stream & intake below 23/24)"
     }
@@ -16846,8 +16897,10 @@
         "day": "Tuesday",
         "room": "BILIK SEMINAR 1 PK",
         "begin_time": "11:00",
-        "end_time": "13:00"
-      }
+        "end_time": "13:00",
+        "tutor": "MR. ROZAINIE BIN HASHIM"
+      },
+      "mav_name": "INTRODUCTION TO MALAYSIAN TRADITIONAL MUSIC"
     }
   ],
   "GIR1002": [
@@ -16859,8 +16912,10 @@
         "day": "Thursday",
         "room": "BILIK ENSEMBEL PE PK",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "DR. SYAFIQ FALIQ BIN ALFAN"
+      },
+      "mav_name": "INTRODUCTION TO THEATRE"
     }
   ],
   "GIR1003": [
@@ -16872,8 +16927,10 @@
         "day": "Tuesday",
         "room": "BLACK BOX PE PK",
         "begin_time": "14:00",
-        "end_time": "16:00"
-      }
+        "end_time": "16:00",
+        "tutor": "MR. MOHAMMAD KHAIRI MOKTHAR"
+      },
+      "mav_name": "INTRODUCTION MALAY FOLK DANCE"
     },
     {
       "module": "INTRODUCTION MALAY FOLK DANCE",
@@ -16883,15 +16940,18 @@
         "day": "Tuesday",
         "room": "BLACK BOX PE PK",
         "begin_time": "14:00",
-        "end_time": "16:00"
-      }
+        "end_time": "16:00",
+        "tutor": "MR. MOHAMMAD KHAIRI MOKTHAR"
+      },
+      "mav_name": "INTRODUCTION MALAY FOLK DANCE"
     }
   ],
   "GIS1010": [
     {
       "module": "HUMAN NERVOUS SYSTEM",
       "course_id": "GIS1010",
-      "occurence": "1"
+      "occurence": "1",
+      "mav_name": "HUMAN NERVOUS SYSTEM"
     }
   ],
   "GIS1015": [
@@ -16903,15 +16963,18 @@
         "day": "Tuesday",
         "room": "BILIK TUTORIAL SB.4 ISB FS (36)",
         "begin_time": "08:00",
-        "end_time": "10:00"
-      }
+        "end_time": "10:00",
+        "tutor": "PROF. DR. NAZIA BINTI ABDUL MAJID"
+      },
+      "mav_name": "GENETICS AND YOU"
     }
   ],
   "GIS1016": [
     {
       "module": "MATHEMATICAL EXPLORATIONS",
       "course_id": "GIS1016",
-      "occurence": "1"
+      "occurence": "1",
+      "mav_name": "MATHEMATICAL EXPLORATIONS"
     }
   ],
   "GIT1001": [
@@ -16923,8 +16986,10 @@
         "day": "Thursday",
         "room": "ONLINE LECTURE",
         "begin_time": "14:00",
-        "end_time": "16:00"
-      }
+        "end_time": "16:00",
+        "tutor": "DR. MUHAMMAD RIDHA BIN ALI HUDDIN"
+      },
+      "mav_name": "ELEMENTARY ARABIC"
     },
     {
       "module": "ELEMENTARY ARABIC",
@@ -16934,8 +16999,10 @@
         "day": "Thursday",
         "room": "ONLINE LECTURE",
         "begin_time": "14:00",
-        "end_time": "16:00"
-      }
+        "end_time": "16:00",
+        "tutor": "MISS HANAN BT SALEH"
+      },
+      "mav_name": "ELEMENTARY ARABIC"
     }
   ],
   "GIT1002": [
@@ -16947,8 +17014,10 @@
         "day": "Monday",
         "room": "BILIK SEMINAR SEPULUT FBL",
         "begin_time": "16:00",
-        "end_time": "18:00"
-      }
+        "end_time": "18:00",
+        "tutor": "MR. MOHD KHAIRUL AKHBAR BIN JAHIRUDDIN"
+      },
+      "mav_name": "INTERMEDIATE ARABIC LANGUAGE"
     },
     {
       "module": "INTERMEDIATE ARABIC LANGUAGE",
@@ -16958,8 +17027,10 @@
         "day": "Tuesday",
         "room": "BILIK SEMINAR SELASIH FBL",
         "begin_time": "16:00",
-        "end_time": "18:00"
-      }
+        "end_time": "18:00",
+        "tutor": "MR. MOHD KHAIRUL AKHBAR BIN JAHIRUDDIN"
+      },
+      "mav_name": "INTERMEDIATE ARABIC LANGUAGE"
     }
   ],
   "GIT1003": [
@@ -16971,8 +17042,10 @@
         "day": "Tuesday",
         "room": "ONLINE LECTURE",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "MR. YONG ZHIEN BAO"
+      },
+      "mav_name": "BASIC CHINESE LANGUAGE"
     },
     {
       "module": "BASIC CHINESE LANGUAGE",
@@ -16982,8 +17055,10 @@
         "day": "Wednesday",
         "room": "ONLINE LECTURE",
         "begin_time": "08:00",
-        "end_time": "10:00"
-      }
+        "end_time": "10:00",
+        "tutor": "DR. LAU SU KIA"
+      },
+      "mav_name": "BASIC CHINESE LANGUAGE"
     },
     {
       "module": "BASIC CHINESE LANGUAGE",
@@ -16993,8 +17068,10 @@
         "day": "Thursday",
         "room": "ONLINE LECTURE",
         "begin_time": "08:00",
-        "end_time": "10:00"
-      }
+        "end_time": "10:00",
+        "tutor": "DR. LAU SU KIA"
+      },
+      "mav_name": "BASIC CHINESE LANGUAGE"
     },
     {
       "module": "BASIC CHINESE LANGUAGE",
@@ -17004,8 +17081,10 @@
         "day": "Thursday",
         "room": "ONLINE LECTURE",
         "begin_time": "16:00",
-        "end_time": "18:00"
-      }
+        "end_time": "18:00",
+        "tutor": "DR. LAU SU KIA"
+      },
+      "mav_name": "BASIC CHINESE LANGUAGE"
     }
   ],
   "GIT1004": [
@@ -17017,8 +17096,10 @@
         "day": "Monday",
         "room": "ONLINE LECTURE",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "MISS NUR HANAN BINTI HAMDAN"
+      },
+      "mav_name": "BASIC JAPANESE LANGUAGE"
     },
     {
       "module": "BASIC JAPANESE LANGUAGE",
@@ -17028,8 +17109,10 @@
         "day": "Tuesday",
         "room": "ONLINE LECTURE",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "MISS NUR HANAN BINTI HAMDAN"
+      },
+      "mav_name": "BASIC JAPANESE LANGUAGE"
     },
     {
       "module": "BASIC JAPANESE LANGUAGE",
@@ -17039,8 +17122,10 @@
         "day": "Wednesday",
         "room": "ONLINE LECTURE",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "MISS NUR HANAN BINTI HAMDAN"
+      },
+      "mav_name": "BASIC JAPANESE LANGUAGE"
     },
     {
       "module": "BASIC JAPANESE LANGUAGE",
@@ -17050,8 +17135,10 @@
         "day": "Thursday",
         "room": "ONLINE LECTURE",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "MISS NUR HANAN BINTI HAMDAN"
+      },
+      "mav_name": "BASIC JAPANESE LANGUAGE"
     }
   ],
   "GIT1005": [
@@ -17063,8 +17150,10 @@
         "day": "Tuesday",
         "room": "BILIK SEMINAR BONGOR FBL",
         "begin_time": "16:00",
-        "end_time": "18:00"
-      }
+        "end_time": "18:00",
+        "tutor": "MISS KOH YI CHERN"
+      },
+      "mav_name": "BASIC GERMAN LANGUAGE"
     },
     {
       "module": "BASIC GERMAN LANGUAGE",
@@ -17074,8 +17163,10 @@
         "day": "Wednesday",
         "room": "BILIK SEMINAR LEMBAYUNG FBL",
         "begin_time": "08:00",
-        "end_time": "10:00"
-      }
+        "end_time": "10:00",
+        "tutor": "MISS KOH YI CHERN"
+      },
+      "mav_name": "BASIC GERMAN LANGUAGE"
     },
     {
       "module": "BASIC GERMAN LANGUAGE",
@@ -17085,8 +17176,10 @@
         "day": "Thursday",
         "room": "BILIK TUTORIAL SAC 3 FBL",
         "begin_time": "08:00",
-        "end_time": "10:00"
-      }
+        "end_time": "10:00",
+        "tutor": "MISS KOH YI CHERN"
+      },
+      "mav_name": "BASIC GERMAN LANGUAGE"
     }
   ],
   "GIT1006": [
@@ -17098,8 +17191,10 @@
         "day": "Monday",
         "room": "ONLINE LECTURE",
         "begin_time": "14:00",
-        "end_time": "16:00"
-      }
+        "end_time": "16:00",
+        "tutor": "MISS WONG YAN YEE"
+      },
+      "mav_name": "BASIC KOREAN LANGUAGE"
     },
     {
       "module": "BASIC KOREAN LANGUAGE",
@@ -17109,8 +17204,10 @@
         "day": "Tuesday",
         "room": "ONLINE LECTURE",
         "begin_time": "14:00",
-        "end_time": "16:00"
-      }
+        "end_time": "16:00",
+        "tutor": "MISS WONG YAN YEE"
+      },
+      "mav_name": "BASIC KOREAN LANGUAGE"
     },
     {
       "module": "BASIC KOREAN LANGUAGE",
@@ -17120,8 +17217,10 @@
         "day": "Wednesday",
         "room": "ONLINE LECTURE",
         "begin_time": "14:00",
-        "end_time": "16:00"
-      }
+        "end_time": "16:00",
+        "tutor": "MISS WONG YAN YEE"
+      },
+      "mav_name": "BASIC KOREAN LANGUAGE"
     },
     {
       "module": "BASIC KOREAN LANGUAGE",
@@ -17131,8 +17230,10 @@
         "day": "Thursday",
         "room": "ONLINE LECTURE",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "MISS WONG YAN YEE"
+      },
+      "mav_name": "BASIC KOREAN LANGUAGE"
     }
   ],
   "GIT1007": [
@@ -17144,8 +17245,10 @@
         "day": "Monday",
         "room": "ONLINE LECTURE",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "MR. JAMIAN BIN MOHAMAD"
+      },
+      "mav_name": "BASIC PORTUGUESE LANGUAGE"
     },
     {
       "module": "BASIC PORTUGUESE LANGUAGE",
@@ -17155,8 +17258,10 @@
         "day": "Tuesday",
         "room": "ONLINE LECTURE",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "MR. JAMIAN BIN MOHAMAD"
+      },
+      "mav_name": "BASIC PORTUGUESE LANGUAGE"
     },
     {
       "module": "BASIC PORTUGUESE LANGUAGE",
@@ -17166,8 +17271,10 @@
         "day": "Wednesday",
         "room": "ONLINE LECTURE",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "MR. JAMIAN BIN MOHAMAD"
+      },
+      "mav_name": "BASIC PORTUGUESE LANGUAGE"
     }
   ],
   "GKA1001": [
@@ -17298,14 +17405,16 @@
     {
       "module": "ARMY ROTU LEVEL 1",
       "course_id": "GKN1006",
-      "occurence": "1"
+      "occurence": "1",
+      "mav_name": "ARMY ROTU LEVEL 1"
     }
   ],
   "GKN1007": [
     {
       "module": "NAVY ROTU LEVEL 1",
       "course_id": "GKN1007",
-      "occurence": "1"
+      "occurence": "1",
+      "mav_name": "NAVY ROTU LEVEL 1"
     }
   ],
   "GKP1001": [
@@ -17318,7 +17427,7 @@
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
         "end_time": "19:00",
-        "tutor": "MADAM NUR AMNI BINTI MOHD SUPARDI"
+        "tutor": "MISS HARTINI BINTI MOHAMED"
       },
       "mav_name": "TALENT DEVELOPMENT"
     }
@@ -17347,7 +17456,7 @@
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
         "end_time": "19:00",
-        "tutor": "MADAM NOR NISMAWATI BINTI MOKHTAR"
+        "tutor": "MR. S RAMLEE BIN SHAMSUDDIN"
       },
       "mav_name": "VOLUNTEERISM"
     }
@@ -17384,7 +17493,8 @@
         "room": "",
         "begin_time": "16:00",
         "end_time": "19:00"
-      }
+      },
+      "mav_name": "ELEMENTARY MALAY"
     },
     {
       "module": "ELEMENTARY MALAY",
@@ -17395,7 +17505,8 @@
         "room": "",
         "begin_time": "16:00",
         "end_time": "19:00"
-      }
+      },
+      "mav_name": "ELEMENTARY MALAY"
     },
     {
       "module": "ELEMENTARY MALAY",
@@ -17406,7 +17517,8 @@
         "room": "",
         "begin_time": "16:00",
         "end_time": "19:00"
-      }
+      },
+      "mav_name": "ELEMENTARY MALAY"
     }
   ],
   "GLT1004": [
@@ -17418,8 +17530,10 @@
         "day": "Wednesday",
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
-        "end_time": "19:00"
-      }
+        "end_time": "19:00",
+        "tutor": "MR. KAMARAZAMAN BIN MD SAID"
+      },
+      "mav_name": "MASTERING ENGLISH III"
     }
   ],
   "GLT1005": [
@@ -17431,8 +17545,10 @@
         "day": "Tuesday",
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
-        "end_time": "20:00"
-      }
+        "end_time": "20:00",
+        "tutor": "MR. FARRIL DANIEL BIN ZAINAL"
+      },
+      "mav_name": "MASTERING ENGLISH IV"
     },
     {
       "module": "MASTERING ENGLISH IV",
@@ -17442,8 +17558,10 @@
         "day": "Wednesday",
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
-        "end_time": "20:00"
-      }
+        "end_time": "20:00",
+        "tutor": "MR. FARRIL DANIEL BIN ZAINAL"
+      },
+      "mav_name": "MASTERING ENGLISH IV"
     }
   ],
   "GLT1006": [
@@ -17455,8 +17573,10 @@
         "day": "Monday",
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
-        "end_time": "20:00"
-      }
+        "end_time": "20:00",
+        "tutor": "MADAM AZRINA WATI BINTI MAZLAN"
+      },
+      "mav_name": "MASTERING ENGLISH V"
     },
     {
       "module": "MASTERING ENGLISH V",
@@ -17466,8 +17586,10 @@
         "day": "Tuesday",
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
-        "end_time": "20:00"
-      }
+        "end_time": "20:00",
+        "tutor": "MADAM AZRINA WATI BINTI MAZLAN"
+      },
+      "mav_name": "MASTERING ENGLISH V"
     },
     {
       "module": "MASTERING ENGLISH V",
@@ -17477,8 +17599,10 @@
         "day": "Thursday",
         "room": "ONLINE LECTURE",
         "begin_time": "09:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "MRS NURULAIN BINTI SULAIMAN"
+      },
+      "mav_name": "MASTERING ENGLISH V"
     }
   ],
   "GLT1009": [
@@ -17490,8 +17614,10 @@
         "day": "Monday",
         "room": "ONLINE LECTURE",
         "begin_time": "14:00",
-        "end_time": "17:00"
-      }
+        "end_time": "17:00",
+        "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
+      },
+      "mav_name": "MASTERING ENGLISH VI"
     },
     {
       "module": "MASTERING ENGLISH VI",
@@ -17501,8 +17627,10 @@
         "day": "Monday",
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
-        "end_time": "20:00"
-      }
+        "end_time": "20:00",
+        "tutor": "MISS ELEENA BINTI HASBULLAH"
+      },
+      "mav_name": "MASTERING ENGLISH VI"
     },
     {
       "module": "MASTERING ENGLISH VI",
@@ -17512,8 +17640,10 @@
         "day": "Tuesday",
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
-        "end_time": "20:00"
-      }
+        "end_time": "20:00",
+        "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
+      },
+      "mav_name": "MASTERING ENGLISH VI"
     },
     {
       "module": "MASTERING ENGLISH VI",
@@ -17523,8 +17653,10 @@
         "day": "Tuesday",
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
-        "end_time": "20:00"
-      }
+        "end_time": "20:00",
+        "tutor": "MR. GABRIEL SAMSON A/L THAMIL SALVAN"
+      },
+      "mav_name": "MASTERING ENGLISH VI"
     },
     {
       "module": "MASTERING ENGLISH VI",
@@ -17534,8 +17666,10 @@
         "day": "Wednesday",
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
-        "end_time": "20:00"
-      }
+        "end_time": "20:00",
+        "tutor": "MR. GABRIEL SAMSON A/L THAMIL SALVAN"
+      },
+      "mav_name": "MASTERING ENGLISH VI"
     },
     {
       "module": "MASTERING ENGLISH VI",
@@ -17545,8 +17679,10 @@
         "day": "Thursday",
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
-        "end_time": "20:00"
-      }
+        "end_time": "20:00",
+        "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
+      },
+      "mav_name": "MASTERING ENGLISH VI"
     }
   ],
   "GLT1011": [
@@ -17558,8 +17694,10 @@
         "day": "Monday",
         "room": "ONLINE LECTURE",
         "begin_time": "09:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "MR. MAHER VANN SINGH A/L HARI SINGH"
+      },
+      "mav_name": "TECHNICAL WRITING SKILLS IN ENGLISH"
     },
     {
       "module": "TECHNICAL WRITING SKILLS IN ENGLISH",
@@ -17569,8 +17707,10 @@
         "day": "Monday",
         "room": "ONLINE LECTURE",
         "begin_time": "14:00",
-        "end_time": "17:00"
-      }
+        "end_time": "17:00",
+        "tutor": "MR. MAHER VANN SINGH A/L HARI SINGH"
+      },
+      "mav_name": "TECHNICAL WRITING SKILLS IN ENGLISH"
     },
     {
       "module": "TECHNICAL WRITING SKILLS IN ENGLISH",
@@ -17580,8 +17720,10 @@
         "day": "Monday",
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
-        "end_time": "20:00"
-      }
+        "end_time": "20:00",
+        "tutor": "MR. MAHER VANN SINGH A/L HARI SINGH"
+      },
+      "mav_name": "TECHNICAL WRITING SKILLS IN ENGLISH"
     }
   ],
   "GLT1012": [
@@ -17593,8 +17735,10 @@
         "day": "Monday",
         "room": "ONLINE LECTURE",
         "begin_time": "14:00",
-        "end_time": "17:00"
-      }
+        "end_time": "17:00",
+        "tutor": "MISS AINA AZLIN BINTI MOHAMAT ARIF"
+      },
+      "mav_name": "PRESENTATION SKILLS IN ENGLISH"
     },
     {
       "module": "PRESENTATION SKILLS IN ENGLISH",
@@ -17604,8 +17748,10 @@
         "day": "Monday",
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
-        "end_time": "20:00"
-      }
+        "end_time": "20:00",
+        "tutor": "MISS AINA AZLIN BINTI MOHAMAT ARIF"
+      },
+      "mav_name": "PRESENTATION SKILLS IN ENGLISH"
     },
     {
       "module": "PRESENTATION SKILLS IN ENGLISH",
@@ -17615,8 +17761,10 @@
         "day": "Tuesday",
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
-        "end_time": "20:00"
-      }
+        "end_time": "20:00",
+        "tutor": "MISS AINA AZLIN BINTI MOHAMAT ARIF"
+      },
+      "mav_name": "PRESENTATION SKILLS IN ENGLISH"
     }
   ],
   "GLT1014": [
@@ -17628,8 +17776,10 @@
         "day": "Monday",
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
-        "end_time": "20:00"
-      }
+        "end_time": "20:00",
+        "tutor": "MR. MOHD NAZRIQ BIN NOOR AHMAD"
+      },
+      "mav_name": "ADVANCED COMMUNICATION SKILLS"
     }
   ],
   "GLT1015": [
@@ -17641,8 +17791,10 @@
         "day": "Monday",
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
-        "end_time": "20:00"
-      }
+        "end_time": "20:00",
+        "tutor": "MR. MOHAMED ISKANDAR BIN RAHMAD SUKOR"
+      },
+      "mav_name": "ADVANCED PROFESSIONAL WRITING"
     }
   ],
   "GLT1017": [
@@ -18018,22 +18170,50 @@
     {
       "module": "PROFICIENCY IN ENGLISH II",
       "course_id": "GLT1021",
-      "occurence": "15"
+      "occurence": "15",
+      "lecture": {
+        "day": "Tuesday",
+        "room": "ONLINE LECTURE",
+        "begin_time": "17:00",
+        "end_time": "19:00"
+      },
+      "mav_name": "PROFICIENCY IN ENGLISH II"
     },
     {
       "module": "PROFICIENCY IN ENGLISH II",
       "course_id": "GLT1021",
-      "occurence": "15M"
+      "occurence": "15M",
+      "lecture": {
+        "day": "Tuesday",
+        "room": "ONLINE LECTURE",
+        "begin_time": "17:00",
+        "end_time": "19:00"
+      },
+      "mav_name": "PROFICIENCY IN ENGLISH II"
     },
     {
       "module": "PROFICIENCY IN ENGLISH II",
       "course_id": "GLT1021",
-      "occurence": "16"
+      "occurence": "16",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "ONLINE LECTURE",
+        "begin_time": "11:00",
+        "end_time": "13:00"
+      },
+      "mav_name": "PROFICIENCY IN ENGLISH II"
     },
     {
       "module": "PROFICIENCY IN ENGLISH II",
       "course_id": "GLT1021",
-      "occurence": "16M"
+      "occurence": "16M",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "ONLINE LECTURE",
+        "begin_time": "11:00",
+        "end_time": "13:00"
+      },
+      "mav_name": "PROFICIENCY IN ENGLISH II"
     },
     {
       "module": "PROFICIENCY IN ENGLISH II",
@@ -20293,6 +20473,36 @@
     {
       "module": "PROFICIENCY IN ENGLISH III",
       "course_id": "GLT1024",
+      "occurence": "64",
+      "mav_name": "PROFICIENCY IN ENGLISH III"
+    },
+    {
+      "module": "PROFICIENCY IN ENGLISH III",
+      "course_id": "GLT1024",
+      "occurence": "65",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "",
+        "begin_time": "11:00",
+        "end_time": "13:00"
+      },
+      "mav_name": "PROFICIENCY IN ENGLISH III"
+    },
+    {
+      "module": "PROFICIENCY IN ENGLISH III",
+      "course_id": "GLT1024",
+      "occurence": "66",
+      "lecture": {
+        "day": "Monday",
+        "room": "",
+        "begin_time": "17:00",
+        "end_time": "19:00"
+      },
+      "mav_name": "PROFICIENCY IN ENGLISH III"
+    },
+    {
+      "module": "PROFICIENCY IN ENGLISH III",
+      "course_id": "GLT1024",
       "occurence": "6M",
       "lecture": {
         "day": "Monday",
@@ -21975,13 +22185,7 @@
     {
       "module": "ADVANCED BUSINESS WRITING",
       "course_id": "GLT1028",
-      "occurence": "1",
-      "lecture": {
-        "day": "Monday",
-        "room": "ONLINE LECTURE",
-        "begin_time": "17:00",
-        "end_time": "19:00"
-      }
+      "occurence": "1"
     },
     {
       "module": "ADVANCED BUSINESS WRITING",
@@ -22848,7 +23052,7 @@
         "room": "AUDITORIUM APIUM",
         "begin_time": "10:00",
         "end_time": "12:00",
-        "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        "tutor": "PROF. DR. ASMAK BINTI AB RAHMAN"
       },
       "mav_name": "ISLAMIC ECONOMIC INSTITUTIONS"
     }
@@ -23740,7 +23944,8 @@
         "day": "Tuesday",
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
-        "end_time": "19:00"
+        "end_time": "19:00",
+        "tutor": "DR. MUHAMMAD SHAMSHINOR BIN ABDUL AZZIS"
       },
       "mav_name": "INTEGRITY AND ANTI-CORRUPTION COURSE (Only for Local Student's intake below 2023/2024 )"
     },
@@ -23752,7 +23957,8 @@
         "day": "Tuesday",
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
-        "end_time": "19:00"
+        "end_time": "19:00",
+        "tutor": "MR. WAN AZWEEN BIN WAN AWAT"
       },
       "mav_name": "INTEGRITY AND ANTI-CORRUPTION COURSE (For International Student's  intake below 2023/2024)"
     }
@@ -27932,10 +28138,10 @@
       "course_id": "JIE3020",
       "occurence": "1",
       "lecture": {
-        "day": "Monday",
+        "day": "Wednesday",
         "room": "BILIK SEMINAR RAYA APM",
-        "begin_time": "08:00",
-        "end_time": "11:00"
+        "begin_time": "10:00",
+        "end_time": "13:00"
       }
     }
   ],
@@ -27982,13 +28188,7 @@
     {
       "module": "MALAY LITERATURE AND COMMERCIAL",
       "course_id": "JIE3026",
-      "occurence": "1",
-      "lecture": {
-        "day": "Wednesday",
-        "room": "BILIK SEMINAR KESUMBA APM",
-        "begin_time": "10:00",
-        "end_time": "13:00"
-      }
+      "occurence": "1"
     }
   ],
   "JIE3028": [
@@ -28467,7 +28667,7 @@
         "day": "Wednesday",
         "room": "BILIK SEMINAR KESUMBA APM",
         "begin_time": "08:00",
-        "end_time": "09:00"
+        "end_time": "10:00"
       }
     }
   ],
@@ -30295,8 +30495,10 @@
         "day": "Friday",
         "room": "DEWAN KULIAH 6 FKEJ",
         "begin_time": "09:00",
-        "end_time": "10:00"
-      }
+        "end_time": "10:00",
+        "tutor": "DR. GOH YINGXIN"
+      },
+      "mav_name": "STATICS"
     },
     {
       "module": "STATIK, STATIK",
@@ -30319,8 +30521,10 @@
         "day": "Friday",
         "room": "DEWAN KULIAH 2 FKEJ",
         "begin_time": "10:00",
-        "end_time": "11:00"
-      }
+        "end_time": "11:00",
+        "tutor": "DR. CHEW BEE TENG"
+      },
+      "mav_name": "FLUID MECHANICS I"
     },
     {
       "module": "MEKANIK BENDALIR 1, MEKANIK BENDALIR I",
@@ -30338,7 +30542,8 @@
     {
       "module": "BASIC MATERIALS FOR MECHANICAL ENGINEERING",
       "course_id": "KIG1004",
-      "occurence": "1"
+      "occurence": "1",
+      "mav_name": "BASIC MATERIALS FOR MECHANICAL ENGINEERING"
     }
   ],
   "KIG1005": [
@@ -30348,17 +30553,19 @@
       "occurence": "1",
       "lecture": {
         "day": "Thursday",
-        "room": "",
+        "room": "ONLINE LECTURE",
         "begin_time": "18:00",
         "end_time": "19:00"
-      }
+      },
+      "mav_name": "ENGINEERING THERMODYNAMICS"
     }
   ],
   "KIG1006": [
     {
       "module": "ENGINEERING DESIGN AND MODELLING",
       "course_id": "KIG1006",
-      "occurence": "1"
+      "occurence": "1",
+      "mav_name": "ENGINEERING DESIGN AND MODELLING"
     }
   ],
   "KIG1009": [
@@ -30512,8 +30719,10 @@
         "day": "Wednesday",
         "room": "DEWAN KULIAH 6 FKEJ",
         "begin_time": "10:00",
-        "end_time": "11:00"
-      }
+        "end_time": "11:00",
+        "tutor": "DATIN PROFESOR IR. DR. BUSHROA BINTI ABDUL RAZAK"
+      },
+      "mav_name": "FUNDAMENTAL OF ELECTRICAL ENGINEERING"
     },
     {
       "module": "ASAS KEJURUTERAAN ELEKTRIK, MEKATRONIK 1",
@@ -30536,8 +30745,10 @@
         "day": "Thursday",
         "room": "DEWAN KULIAH 6 FKEJ",
         "begin_time": "14:00",
-        "end_time": "16:00"
-      }
+        "end_time": "16:00",
+        "tutor": "MR. MOHD ADEEB BIN MOHD ARIF KOR"
+      },
+      "mav_name": "FLUID MECHANICS II"
     },
     {
       "module": "MEKANIK BENDALIR 2, MEKANIK BENDALIR II",
@@ -30560,8 +30771,10 @@
         "day": "Thursday",
         "room": "BILIK KULIAH 201 FKEJ, BILIK KULIAH 204 FKEJ",
         "begin_time": "11:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "DR. MAHENDRA VARMAN A/L MUNUSAMY"
+      },
+      "mav_name": "MECHANICS OF MATERIALS II"
     },
     {
       "module": "MEKANIK BAHAN 2, MEKANIK BAHAN II",
@@ -30584,8 +30797,10 @@
         "day": "Monday",
         "room": "ENGINEERING COMPUTER CENTRE 1 & 2",
         "begin_time": "09:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "DR. MOHAMMED ABDO HASHEM ALI"
+      },
+      "mav_name": "COMPUTER PROGRAMMING"
     },
     {
       "module": "PENGATURCARAAN KOMPUTER, PENGATURCARAAN KOMPUTER",
@@ -30603,7 +30818,8 @@
     {
       "module": "HEAT TRANSFER",
       "course_id": "KIG2010",
-      "occurence": "1"
+      "occurence": "1",
+      "mav_name": "HEAT TRANSFER"
     }
   ],
   "KIG2012": [
@@ -30832,8 +31048,10 @@
         "day": "Wednesday",
         "room": "DEWAN KULIAH 4 FKEJ",
         "begin_time": "12:00",
-        "end_time": "13:00"
-      }
+        "end_time": "13:00",
+        "tutor": "TS. DR. SOONG MING FOONG"
+      },
+      "mav_name": "INSTRUMENTATION AND MEASUREMENT TECHNIQUES"
     },
     {
       "module": "INSTRUMENTASI DAN TEKNIK PENGUKURAN, INSTRUMENTASI DAN TEKNIK PENGUKURAN",
@@ -30851,7 +31069,8 @@
     {
       "module": "THERMAL ENGINEERING SYSTEMS",
       "course_id": "KIG3002",
-      "occurence": "1"
+      "occurence": "1",
+      "mav_name": "THERMAL ENGINEERING SYSTEMS"
     }
   ],
   "KIG3003": [
@@ -30863,8 +31082,10 @@
         "day": "Wednesday",
         "room": "DEWAN KULIAH 6 FKEJ",
         "begin_time": "11:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "TS. DR. SOONG MING FOONG"
+      },
+      "mav_name": "MECHANICS OF MACHINES AND VIBRATION"
     },
     {
       "module": "GETARAN MEKANIKAL, MEKANIK MESIN DAN GETARAN",
@@ -31020,8 +31241,10 @@
         "day": "Thursday",
         "room": "DEWAN KULIAH 2 FKEJ",
         "begin_time": "14:00",
-        "end_time": "17:00"
-      }
+        "end_time": "17:00",
+        "tutor": "PROFESSOR IR. DR. YAP HWA JEN"
+      },
+      "mav_name": "CONTROL ENGINEERING"
     },
     {
       "module": "CONTROL ENGINEERING",
@@ -31031,8 +31254,10 @@
         "day": "Thursday",
         "room": "DEWAN KULIAH 3 FKEJ",
         "begin_time": "14:00",
-        "end_time": "17:00"
-      }
+        "end_time": "17:00",
+        "tutor": "DR. MOHAMMED ABDO HASHEM ALI"
+      },
+      "mav_name": "CONTROL ENGINEERING"
     }
   ],
   "KIG4002": [
@@ -31044,15 +31269,18 @@
         "day": "Wednesday",
         "room": "DEWAN KULIAH 2 FKEJ",
         "begin_time": "14:00",
-        "end_time": "17:00"
-      }
+        "end_time": "17:00",
+        "tutor": "DR. KHOO SHIN YEE"
+      },
+      "mav_name": "FINAL YEAR PROJECT I"
     }
   ],
   "KIG4004": [
     {
       "module": "FINAL YEAR PROJECT II",
       "course_id": "KIG4004",
-      "occurence": "1"
+      "occurence": "1",
+      "mav_name": "FINAL YEAR PROJECT II"
     }
   ],
   "KIG4052": [
@@ -31092,7 +31320,8 @@
     {
       "module": "TRIBOLOGY",
       "course_id": "KIG4056",
-      "occurence": "1"
+      "occurence": "1",
+      "mav_name": "TRIBOLOGY"
     }
   ],
   "KIG4057": [
@@ -31104,15 +31333,18 @@
         "day": "Tuesday",
         "room": "ORANGE CUBE 1 FKEJ",
         "begin_time": "10:00",
-        "end_time": "13:00"
-      }
+        "end_time": "13:00",
+        "tutor": "ASSOCIATE PROF. IR. DR. ONG ZHI CHAO"
+      },
+      "mav_name": "MACHINERY VIBRATION AND CONDITION MONITORING"
     }
   ],
   "KIG4058": [
     {
       "module": "ENGINEERING ACOUSTICS AND NOISE CONTROL",
       "course_id": "KIG4058",
-      "occurence": "1"
+      "occurence": "1",
+      "mav_name": "ENGINEERING ACOUSTICS AND NOISE CONTROL"
     }
   ],
   "KIG4059": [
@@ -31124,8 +31356,10 @@
         "day": "Tuesday",
         "room": "BILIK KULIAH 301 FKEJ",
         "begin_time": "10:00",
-        "end_time": "13:00"
-      }
+        "end_time": "13:00",
+        "tutor": "DR. MAHENDRA VARMAN A/L MUNUSAMY"
+      },
+      "mav_name": "INTERNAL COMBUSTION ENGINE"
     }
   ],
   "KIG4060": [
@@ -31137,8 +31371,10 @@
         "day": "Wednesday",
         "room": "BILIK KULIAH 201 FKEJ",
         "begin_time": "10:00",
-        "end_time": "13:00"
-      }
+        "end_time": "13:00",
+        "tutor": "DR. KAZI MD. SALIM NEWAZ"
+      },
+      "mav_name": "HEAT EXCHANGER EQUIPMENTS"
     }
   ],
   "KIG4062": [
@@ -31150,8 +31386,10 @@
         "day": "Tuesday",
         "room": "PURPLE CUBE (CHEMICAL ENGINEERING) FKEJ",
         "begin_time": "14:00",
-        "end_time": "17:00"
-      }
+        "end_time": "17:00",
+        "tutor": "MR. MOHD ADEEB BIN MOHD ARIF KOR"
+      },
+      "mav_name": "COMPUTATIONAL FLUID DYNAMICS"
     }
   ],
   "KIG4063": [
@@ -31163,8 +31401,10 @@
         "day": "Monday",
         "room": "PURPLE CUBE 1 FKEJ",
         "begin_time": "14:00",
-        "end_time": "17:00"
-      }
+        "end_time": "17:00",
+        "tutor": "PROFESSOR IR. DR. YAU YAT HUANG"
+      },
+      "mav_name": "HEATING, VENTILATION, AIR CONDITIONING AND REFRIGERATION"
     }
   ],
   "KIG4065": [
@@ -31176,15 +31416,18 @@
         "day": "Friday",
         "room": "BILIK KULIAH 205 FKEJ",
         "begin_time": "09:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "DR. EDZROL NIZA BIN MOHAMAD"
+      },
+      "mav_name": "SUSTAINABLE DESIGN"
     }
   ],
   "KIG4066": [
     {
       "module": "RAPID MANUFACTURING TECHNOLOGY",
       "course_id": "KIG4066",
-      "occurence": "1"
+      "occurence": "1",
+      "mav_name": "RAPID MANUFACTURING TECHNOLOGY"
     }
   ],
   "KIG4067": [
@@ -31196,8 +31439,10 @@
         "day": "Monday",
         "room": "PURPLE CUBE 1 FKEJ",
         "begin_time": "10:00",
-        "end_time": "13:00"
-      }
+        "end_time": "13:00",
+        "tutor": "ASSOCIATE PROF. DR. SALWA HANIM BINTI ABDUL RASHID"
+      },
+      "mav_name": "MANUFACTURING STRATEGY"
     }
   ],
   "KIG4069": [
@@ -31209,8 +31454,10 @@
         "day": "Wednesday",
         "room": "BILIK KULIAH 105 FKEJ",
         "begin_time": "10:00",
-        "end_time": "13:00"
-      }
+        "end_time": "13:00",
+        "tutor": "ASSOCIATE PROF. DR. HENDRIK SIMON CORNELIS METSELAAR"
+      },
+      "mav_name": "CERAMIC ENGINEERING"
     }
   ],
   "KIG4070": [
@@ -31222,22 +31469,26 @@
         "day": "Thursday",
         "room": "BILIK KULIAH 205 FKEJ",
         "begin_time": "10:00",
-        "end_time": "13:00"
-      }
+        "end_time": "13:00",
+        "tutor": "PROF. DR. ANDRI ANDRIYANA"
+      },
+      "mav_name": "CONSTITUTIVE MODELING OF MATERIALS"
     }
   ],
   "KIG4073": [
     {
       "module": "METALS AND ALLOYS ENGINEERING",
       "course_id": "KIG4073",
-      "occurence": "1"
+      "occurence": "1",
+      "mav_name": "METALS AND ALLOYS ENGINEERING"
     }
   ],
   "KIG4074": [
     {
       "module": "NANOMATERIALS",
       "course_id": "KIG4074",
-      "occurence": "1"
+      "occurence": "1",
+      "mav_name": "NANOMATERIALS"
     }
   ],
   "KIG4075": [
@@ -31245,6 +31496,20 @@
       "module": "POLYMER AND RUBBER ENGINEERING",
       "course_id": "KIG4075",
       "occurence": "1"
+    }
+  ],
+  "KIG4076": [
+    {
+      "module": "SEMICONDUCTOR MANUFACTURING PROCESS AND TECHNOLOGY",
+      "course_id": "KIG4076",
+      "occurence": "1",
+      "lecture": {
+        "day": "Tuesday",
+        "room": "BP 204 FKEJ",
+        "begin_time": "09:00",
+        "end_time": "12:00"
+      },
+      "mav_name": "SEMICONDUCTOR MANUFACTURING PROCESS AND TECHNOLOGY"
     }
   ],
   "KIG4086": [
@@ -31256,8 +31521,10 @@
         "day": "Tuesday",
         "room": "BILIK KULIAH 105 FKEJ",
         "begin_time": "14:00",
-        "end_time": "17:00"
-      }
+        "end_time": "17:00",
+        "tutor": "DR. MOHD ZAMRI BIN ZAINON @ BAHAROM"
+      },
+      "mav_name": "POWER PLANT ENGINEERING"
     }
   ],
   "KII4001": [
@@ -31718,14 +31985,17 @@
         "day": "Thursday",
         "room": "DEWAN KULIAH 4 FKEJ",
         "begin_time": "10:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": "DR. YAP SOON POH"
       },
       "tutorial": {
         "day": "Friday",
         "room": "ONLINE LECTURE",
         "begin_time": "11:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": " "
+      },
+      "mav_name": "ENGINEERING MATHEMATICS 1 [ONLY FOR CIVIL ENGINEERING STUDENTS]"
     },
     {
       "module": "ENGINEERING MATHEMATICS 1",
@@ -31735,14 +32005,17 @@
         "day": "Thursday",
         "room": "DEWAN KULIAH 3 FKEJ",
         "begin_time": "10:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": " "
       },
       "tutorial": {
         "day": "Friday",
         "room": "ONLINE LECTURE",
         "begin_time": "11:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": " "
+      },
+      "mav_name": "ENGINEERING MATHEMATICS 1 [ONLY FOR BIOMEDICAL ENGINEERING STUDENTS]"
     },
     {
       "module": "ENGINEERING MATHEMATICS 1",
@@ -31752,14 +32025,17 @@
         "day": "Thursday",
         "room": "DEWAN KULIAH 7 FKEJ",
         "begin_time": "12:00",
-        "end_time": "13:00"
+        "end_time": "13:00",
+        "tutor": "ASSOCIATE PROF. DR. ANIS SALWA BINTI MOHD KHAIRUDDIN"
       },
       "tutorial": {
         "day": "Friday",
         "room": "ONLINE LECTURE",
         "begin_time": "11:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": " "
+      },
+      "mav_name": "ENGINEERING MATHEMATICS 1 [ONLY FOR ELECTRICAL ENGINEERING STUDENTS]"
     },
     {
       "module": "ENGINEERING MATHEMATICS 1",
@@ -31776,7 +32052,8 @@
         "room": "ONLINE LECTURE",
         "begin_time": "11:00",
         "end_time": "12:00"
-      }
+      },
+      "mav_name": "ENGINEERING MATHEMATICS 1 [ONLY FOR ELECTRICAL ENGINEERING STUDENTS]"
     },
     {
       "module": "ENGINEERING MATHEMATICS 1",
@@ -31792,8 +32069,10 @@
         "day": "Friday",
         "room": "ONLINE LECTURE",
         "begin_time": "11:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": " "
+      },
+      "mav_name": "ENGINEERING MATHEMATICS 1 [ONLY FOR CHEMICAL ENGINEERING STUDENTS]"
     },
     {
       "module": "ENGINEERING MATHEMATICS 1",
@@ -31803,14 +32082,17 @@
         "day": "Thursday",
         "room": "DEWAN KULIAH 6 FKEJ",
         "begin_time": "10:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": " "
       },
       "tutorial": {
         "day": "Friday",
         "room": "ONLINE LECTURE",
         "begin_time": "11:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": " "
+      },
+      "mav_name": "ENGINEERING MATHEMATICS 1 [ONLY FOR MECHANICAL ENGINEERING STUDENTS]"
     },
     {
       "module": "ENGINEERING MATHEMATICS 1",
@@ -31820,14 +32102,17 @@
         "day": "Thursday",
         "room": "DEWAN KULIAH 5 FKEJ",
         "begin_time": "11:00",
-        "end_time": "13:00"
+        "end_time": "13:00",
+        "tutor": "DR. KHOO SHIN YEE"
       },
       "tutorial": {
         "day": "Friday",
         "room": "ONLINE LECTURE",
         "begin_time": "11:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": " "
+      },
+      "mav_name": "ENGINEERING MATHEMATICS 1 [ONLY FOR MECHANICAL ENGINEERING STUDENTS]"
     },
     {
       "module": "ENGINEERING MATHEMATICS 1",
@@ -31837,21 +32122,25 @@
         "day": "Thursday",
         "room": "DEWAN KULIAH 5 FKEJ",
         "begin_time": "10:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": "DR. SIOW PEI YI"
       },
       "tutorial": {
         "day": "Friday",
         "room": "ONLINE LECTURE",
         "begin_time": "11:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": " "
+      },
+      "mav_name": "ENGINEERING MATHEMATICS 1 [ONLY FOR MECHANICAL ENGINEERING"
     }
   ],
   "KIX1003": [
     {
       "module": "THINKING AND COMMUNICATION SKILLS",
       "course_id": "KIX1003",
-      "occurence": "1"
+      "occurence": "1",
+      "mav_name": "THINKING AND COMMUNICATION SKILLS"
     }
   ],
   "KIX1005": [
@@ -31864,14 +32153,16 @@
         "room": "ORANGE CUBE 1 FKEJ",
         "begin_time": "08:00",
         "end_time": "11:00"
-      }
+      },
+      "mav_name": "ENGINEERING MATHEMATICS II"
     }
   ],
   "KIX2001": [
     {
       "module": "INTEGRATED DESIGN I",
       "course_id": "KIX2001",
-      "occurence": "1"
+      "occurence": "1",
+      "mav_name": "INTEGRATED DESIGN I"
     }
   ],
   "KIX2002": [
@@ -31883,8 +32174,10 @@
         "day": "Tuesday",
         "room": "RED CUBE 1 FKEJ",
         "begin_time": "08:00",
-        "end_time": "11:00"
-      }
+        "end_time": "11:00",
+        "tutor": "ASSOCIATE PROF. DR. SALWA HANIM BINTI ABDUL RASHID"
+      },
+      "mav_name": "ENGINEERING ECONOMIC ANALYSIS"
     }
   ],
   "KIX2003": [
@@ -31896,8 +32189,10 @@
         "day": "Thursday",
         "room": "BILIK KULIAH 205 FKEJ",
         "begin_time": "14:00",
-        "end_time": "16:00"
-      }
+        "end_time": "16:00",
+        "tutor": "PROFESSOR IR. DR. NGOH GEK CHENG"
+      },
+      "mav_name": "LAW AND ETHICS IN ENGINEERING [ONLY FOR CHEMICAL ENGINEERING STUDENTS]"
     },
     {
       "module": "LAW AND ETHICS IN ENGINEERING",
@@ -31907,8 +32202,10 @@
         "day": "Tuesday",
         "room": "RED CUBE 1 FKEJ",
         "begin_time": "11:00",
-        "end_time": "13:00"
-      }
+        "end_time": "13:00",
+        "tutor": "PROFESSOR IR. DR. YAU YAT HUANG"
+      },
+      "mav_name": "LAW AND ETHICS IN ENGINEERING [ONLY FOR MECHANICAL ENGINEERING STUDENTS]"
     },
     {
       "module": "LAW AND ETHICS IN ENGINEERING",
@@ -31919,7 +32216,8 @@
         "room": "GREEN CUBE 2 FKEJ",
         "begin_time": "08:00",
         "end_time": "11:00"
-      }
+      },
+      "mav_name": "LAW AND ETHICS IN ENGINEERING [ONLY FOR CHEMICAL ENGINEERING STUDENTS]"
     }
   ],
   "KIX2004": [
@@ -31931,8 +32229,10 @@
         "day": "Monday",
         "room": "ORANGE CUBE 2 FKEJ",
         "begin_time": "08:00",
-        "end_time": "11:00"
-      }
+        "end_time": "11:00",
+        "tutor": "PROFESSOR IR. DR. WONG YEW HOONG"
+      },
+      "mav_name": "ENGINEERING PROJECT MANAGEMENT"
     }
   ],
   "KIX2005": [
@@ -31997,8 +32297,10 @@
         "day": "Friday",
         "room": "RED CUBE 1 FKEJ",
         "begin_time": "15:00",
-        "end_time": "18:00"
-      }
+        "end_time": "18:00",
+        "tutor": "DR. MUHAMMAD SHAZRIL IDRIS BIN IBRAHIM"
+      },
+      "mav_name": "INTEGRATED DESIGN 2"
     }
   ],
   "KIX3002": [
@@ -32010,8 +32312,10 @@
         "day": "Tuesday",
         "room": "PURPLE CUBE (CHEMICAL ENGINEERING) FKEJ",
         "begin_time": "11:00",
-        "end_time": "13:00"
-      }
+        "end_time": "13:00",
+        "tutor": "ASSOCIATE PROF. DR. BADRUL HISHAM BIN MOHAMAD JAN"
+      },
+      "mav_name": "ENGINEERING ENTREPRENEURSHIP"
     }
   ],
   "KIX3003": [
@@ -32023,8 +32327,10 @@
         "day": "Friday",
         "room": "PURPLE CUBE 1 FKEJ",
         "begin_time": "09:00",
-        "end_time": "11:00"
-      }
+        "end_time": "11:00",
+        "tutor": "DR. NURUOL SYUHADAA BINTI MOHD"
+      },
+      "mav_name": "SUSTAINABLE ENGINEERING"
     }
   ],
   "KIX3004": [
@@ -32332,8 +32638,10 @@
         "day": "Saturday",
         "room": "DEWAN KULIAH 5 FKEJ",
         "begin_time": "12:00",
-        "end_time": "15:00"
-      }
+        "end_time": "15:00",
+        "tutor": "DR. KHOO SHIN YEE"
+      },
+      "mav_name": "ENGINEERING DATA ANALYTICS"
     }
   ],
   "KQK7003": [
@@ -32345,8 +32653,10 @@
         "day": "Sunday",
         "room": "DEWAN KULIAH 5 FKEJ",
         "begin_time": "09:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "PROFESSOR IR. DR. POO BALAN A/L GANESAN"
+      },
+      "mav_name": "THERMAL SYSTEMS ENGINEERING"
     }
   ],
   "KQK7004": [
@@ -32358,8 +32668,10 @@
         "day": "Saturday",
         "room": "DEWAN KULIAH 4 FKEJ",
         "begin_time": "12:00",
-        "end_time": "15:00"
-      }
+        "end_time": "15:00",
+        "tutor": "DR. MEOR MOHD FAISAL BIN MEOR ZULKIFLI"
+      },
+      "mav_name": "ENERGY CONVERSION AND STORAGE"
     }
   ],
   "KQK7007": [
@@ -36101,11 +36413,6 @@
         "begin_time": "09:00",
         "end_time": "12:00"
       }
-    },
-    {
-      "module": "INTEGRATIVE SEMINAR:  ISSUES IN TESL",
-      "course_id": "PIB4001",
-      "occurence": "2"
     }
   ],
   "PIB4003": [
@@ -36132,13 +36439,6 @@
         "begin_time": "14:00",
         "end_time": "17:00"
       }
-    }
-  ],
-  "PIB4010": [
-    {
-      "module": "BASIC DESIGN STORYBOARD AND INTERACTIVITY",
-      "course_id": "PIB4010",
-      "occurence": "1"
     }
   ],
   "PIC1001": [
@@ -36739,16 +37039,6 @@
         "begin_time": "08:00",
         "end_time": "11:00"
       }
-    },
-    {
-      "module": "PHYSICAL AND HEALTH EDUCATION",
-      "course_id": "PIX1006",
-      "occurence": "3"
-    },
-    {
-      "module": "PHYSICAL AND HEALTH EDUCATION",
-      "course_id": "PIX1006",
-      "occurence": "4"
     }
   ],
   "PIX2001": [
@@ -38420,7 +38710,13 @@
     {
       "module": "DYNAMIC INSTRUCTIONAL DESIGN",
       "course_id": "PQI6047",
-      "occurence": "1"
+      "occurence": "1",
+      "lecture": {
+        "day": "Friday",
+        "room": "MULTI MEDIA KOMPUTER FP",
+        "begin_time": "18:00",
+        "end_time": "21:00"
+      }
     }
   ],
   "PQI6050": [
@@ -38778,7 +39074,13 @@
     {
       "module": "INSTRUCTIONAL DESIGN AND TECHNOLOGY",
       "course_id": "PQL7002",
-      "occurence": "1"
+      "occurence": "1",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "STUDIO TV FP",
+        "begin_time": "15:00",
+        "end_time": "18:00"
+      }
     }
   ],
   "PQL7004": [
@@ -39258,7 +39560,13 @@
     {
       "module": "ADVANCED EDUCATIONAL PSYCHOLOGY",
       "course_id": "PQS7001",
-      "occurence": "3"
+      "occurence": "3",
+      "lecture": {
+        "day": "Monday",
+        "room": "BILIK SEMINAR C FP",
+        "begin_time": "18:00",
+        "end_time": "21:00"
+      }
     }
   ],
   "PQS7002": [
@@ -39276,12 +39584,24 @@
     {
       "module": "LIFESPAN DEVELOPMENT",
       "course_id": "PQS7002",
-      "occurence": "2"
+      "occurence": "2",
+      "lecture": {
+        "day": "Friday",
+        "room": "BSEC204 FP",
+        "begin_time": "18:00",
+        "end_time": "21:00"
+      }
     },
     {
       "module": "LIFESPAN DEVELOPMENT",
       "course_id": "PQS7002",
-      "occurence": "3"
+      "occurence": "3",
+      "lecture": {
+        "day": "Friday",
+        "room": "DUMMY",
+        "begin_time": "18:00",
+        "end_time": "21:00"
+      }
     }
   ],
   "PQS7003": [
@@ -39310,7 +39630,13 @@
     {
       "module": "INDIVIDUAL DIFFERENCES IN EDUCATION",
       "course_id": "PQS7003",
-      "occurence": "3"
+      "occurence": "3",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "BILIK SEMINAR C FP",
+        "begin_time": "18:00",
+        "end_time": "21:00"
+      }
     }
   ],
   "PQS7004": [
@@ -39339,7 +39665,13 @@
     {
       "module": "PSYCHOLOGY OF INDIVIDUALS WITH SPECIAL NEEDS",
       "course_id": "PQS7004",
-      "occurence": "3"
+      "occurence": "3",
+      "lecture": {
+        "day": "Tuesday",
+        "room": "BILIK SEMINAR E FP",
+        "begin_time": "18:00",
+        "end_time": "21:00"
+      }
     }
   ],
   "PQX7001": [
@@ -42415,7 +42747,13 @@
     {
       "module": "ENVIRONMENTAL POLLUTION AND WASTE MANAGEMENT",
       "course_id": "SIC3054",
-      "occurence": "3"
+      "occurence": "3",
+      "lecture": {
+        "day": "Tuesday",
+        "room": "DEWAN KULIAH MELOR KDK FS",
+        "begin_time": "17:00",
+        "end_time": "19:00"
+      }
     }
   ],
   "SIC3055": [
@@ -43880,10 +44218,10 @@
       "course_id": "SIH2014",
       "occurence": "1",
       "lecture": {
-        "day": "Tuesday",
+        "day": "Wednesday",
         "room": "BILIK TUTORIAL SA.2 ISB FS (25)",
-        "begin_time": "09:00",
-        "end_time": "11:00"
+        "begin_time": "13:00",
+        "end_time": "15:00"
       }
     }
   ],
@@ -45782,6 +46120,11 @@
     }
   ],
   "SIO3018": [
+    {
+      "module": "RESEARCH PROJECT IN BIOTECHNOLOGY",
+      "course_id": "SIO3018",
+      "occurence": "P1"
+    },
     {
       "module": "RESEARCH PROJECT IN BIOTECHNOLOGY",
       "course_id": "SIO3018",
@@ -48844,10 +49187,10 @@
       "course_id": "TIA2019",
       "occurence": "1",
       "lecture": {
-        "day": "Thursday",
-        "room": "BILIK SEMINAR MERPADI FBL (33)",
-        "begin_time": "08:00",
-        "end_time": "10:00"
+        "day": "Monday",
+        "room": "BILIK TUTORIAL SAC BAHASA ASING FBL",
+        "begin_time": "14:00",
+        "end_time": "16:00"
       }
     },
     {
@@ -48855,10 +49198,10 @@
       "course_id": "TIA2019",
       "occurence": "1M",
       "lecture": {
-        "day": "Thursday",
-        "room": "BILIK SEMINAR MERPADI FBL (33)",
-        "begin_time": "08:00",
-        "end_time": "10:00"
+        "day": "Monday",
+        "room": "BILIK TUTORIAL SAC BAHASA ASING FBL",
+        "begin_time": "14:00",
+        "end_time": "16:00"
       }
     }
   ],
@@ -49634,7 +49977,13 @@
     {
       "module": "EFFECTIVE WRITING",
       "course_id": "TIE1009",
-      "occurence": "1M"
+      "occurence": "1M",
+      "lecture": {
+        "day": "Tuesday",
+        "room": "ONLINE LECTURE",
+        "begin_time": "14:00",
+        "end_time": "17:00"
+      }
     }
   ],
   "TIE1010": [
@@ -50540,6 +50889,19 @@
       }
     }
   ],
+  "TIK1001": [
+    {
+      "module": "KOREAN LANGUAGE SKILLS LEVEL I",
+      "course_id": "TIK1001",
+      "occurence": "1",
+      "lecture": {
+        "day": "Wednesday",
+        "room": "BILIK SEMINAR TUNJUNG FBL",
+        "begin_time": "08:00",
+        "end_time": "10:00"
+      }
+    }
+  ],
   "TIX1024": [
     {
       "module": "THAI CULTURE AND SOCIETY",
@@ -51343,7 +51705,13 @@
     {
       "module": "FINAL YEAR PROJECT",
       "course_id": "TIX3004",
-      "occurence": "1"
+      "occurence": "1",
+      "lecture": {
+        "day": "Thursday",
+        "room": "ONLINE LECTURE",
+        "begin_time": "15:00",
+        "end_time": "17:00"
+      }
     }
   ],
   "TIX3007": [
@@ -51364,6 +51732,17 @@
       "module": "INTRODUCTION OF ARABIC LANGUAGE LEARNING",
       "course_id": "TIX3010",
       "occurence": "1",
+      "lecture": {
+        "day": "Monday",
+        "room": "BILIK TUTORIAL SAC 4 FBL",
+        "begin_time": "14:00",
+        "end_time": "16:00"
+      }
+    },
+    {
+      "module": "INTRODUCTION OF ARABIC LANGUAGE LEARNING",
+      "course_id": "TIX3010",
+      "occurence": "1M",
       "lecture": {
         "day": "Monday",
         "room": "BILIK TUTORIAL SAC 4 FBL",
@@ -53720,8 +54099,8 @@
       "tutorial": {
         "day": "Friday",
         "room": "MAKMAL MIKRO 2 FSKTM",
-        "begin_time": "15:00",
-        "end_time": "16:00"
+        "begin_time": "16:00",
+        "end_time": "17:00"
       },
       "mav_name": "SOFTWARE MODELLING"
     },
@@ -53738,8 +54117,8 @@
       "tutorial": {
         "day": "Friday",
         "room": "MAKMAL MIKRO 2 FSKTM",
-        "begin_time": "15:00",
-        "end_time": "16:00"
+        "begin_time": "16:00",
+        "end_time": "17:00"
       }
     }
   ],
@@ -53759,7 +54138,8 @@
         "day": "Friday",
         "room": "DEWAN KULIAH 2 FSKTM",
         "begin_time": "09:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": "ASSOCIATE PROF. TS. DR. SRI DEVI A/P RAVANA"
       },
       "mav_name": "PROBABILITY AND STATISTICS"
     },
@@ -53778,7 +54158,8 @@
         "day": "Friday",
         "room": "DEWAN KULIAH 2 FSKTM",
         "begin_time": "09:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": "ASSOCIATE PROF. TS. DR. SRI DEVI A/P RAVANA"
       },
       "mav_name": "PROBABILITY AND STATISTICS"
     },
@@ -53797,7 +54178,8 @@
         "day": "Friday",
         "room": "DEWAN KULIAH 2 FSKTM",
         "begin_time": "09:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": "ASSOCIATE PROF. TS. DR. SRI DEVI A/P RAVANA"
       },
       "mav_name": "PROBABILITY AND STATISTICS"
     },
@@ -53816,7 +54198,8 @@
         "day": "Friday",
         "room": "DEWAN KULIAH 2 FSKTM",
         "begin_time": "09:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": "ASSOCIATE PROF. TS. DR. SRI DEVI A/P RAVANA"
       },
       "mav_name": "PROBABILITY AND STATISTICS"
     },
@@ -53835,7 +54218,8 @@
         "day": "Friday",
         "room": "DEWAN KULIAH 2 FSKTM",
         "begin_time": "09:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": "ASSOCIATE PROF. TS. DR. SRI DEVI A/P RAVANA"
       },
       "mav_name": "PROBABILITY AND STATISTICS"
     },
@@ -53854,7 +54238,8 @@
         "day": "Friday",
         "room": "DEWAN KULIAH 1 FSKTM",
         "begin_time": "09:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": "ASSOCIATE PROF. DR. TUTUT HERAWAN"
       },
       "mav_name": "PROBABILITY AND STATISTICS"
     },
@@ -53873,7 +54258,8 @@
         "day": "Friday",
         "room": "DEWAN KULIAH 1 FSKTM",
         "begin_time": "09:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": "ASSOCIATE PROF. DR. TUTUT HERAWAN"
       },
       "mav_name": "PROBABILITY AND STATISTICS"
     },
@@ -53892,7 +54278,8 @@
         "day": "Friday",
         "room": "DEWAN KULIAH 1 FSKTM",
         "begin_time": "09:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": "ASSOCIATE PROF. DR. TUTUT HERAWAN"
       },
       "mav_name": "PROBABILITY AND STATISTICS"
     },
@@ -53911,7 +54298,8 @@
         "day": "Friday",
         "room": "DEWAN KULIAH 1 FSKTM",
         "begin_time": "09:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": "ASSOCIATE PROF. DR. TUTUT HERAWAN"
       },
       "mav_name": "PROBABILITY AND STATISTICS"
     },
@@ -53930,7 +54318,8 @@
         "day": "Friday",
         "room": "DEWAN KULIAH 1 FSKTM",
         "begin_time": "09:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": "ASSOCIATE PROF. DR. TUTUT HERAWAN"
       },
       "mav_name": "PROBABILITY AND STATISTICS"
     }
@@ -53944,14 +54333,17 @@
         "day": "Tuesday",
         "room": "MAKMAL MIKRO 4 FSKTM",
         "begin_time": "09:00",
-        "end_time": "10:00"
+        "end_time": "10:00",
+        "tutor": "ASSOCIATE PROF. DR. AMIRRUDIN BIN KAMSIN"
       },
       "lecture": {
         "day": "Thursday",
         "room": "DEWAN KULIAH 1 FSKTM",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "ASSOCIATE PROF. DR. AMIRRUDIN BIN KAMSIN"
+      },
+      "mav_name": "SYSTEMS ANALYSIS AND DESIGN"
     },
     {
       "module": "SYSTEMS ANALYSIS AND DESIGN",
@@ -53961,14 +54353,17 @@
         "day": "Tuesday",
         "room": "MAKMAL MIKRO 3 FSKTM",
         "begin_time": "09:00",
-        "end_time": "10:00"
+        "end_time": "10:00",
+        "tutor": "ASSOCIATE PROF. DR. MOHAMAD NIZAM BIN AYUB"
       },
       "lecture": {
         "day": "Thursday",
         "room": "DEWAN KULIAH 1 FSKTM",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "ASSOCIATE PROF. DR. AMIRRUDIN BIN KAMSIN"
+      },
+      "mav_name": "SYSTEMS ANALYSIS AND DESIGN"
     },
     {
       "module": "SYSTEMS ANALYSIS AND DESIGN",
@@ -53978,14 +54373,17 @@
         "day": "Wednesday",
         "room": "MAKMAL LANJUTAN FSKTM",
         "begin_time": "13:00",
-        "end_time": "14:00"
+        "end_time": "14:00",
+        "tutor": "DR. NURUL FAZMIDAR BINTI MOHD NOOR"
       },
       "lecture": {
         "day": "Thursday",
         "room": "DEWAN KULIAH 1 FSKTM",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "ASSOCIATE PROF. DR. AMIRRUDIN BIN KAMSIN"
+      },
+      "mav_name": "SYSTEMS ANALYSIS AND DESIGN"
     },
     {
       "module": "SYSTEMS ANALYSIS AND DESIGN",
@@ -53995,14 +54393,17 @@
         "day": "Tuesday",
         "room": "MAKMAL MIKRO 3 FSKTM",
         "begin_time": "10:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": "ASSOCIATE PROF. DR. MOHAMAD NIZAM BIN AYUB"
       },
       "lecture": {
         "day": "Thursday",
         "room": "DEWAN KULIAH 1 FSKTM",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "ASSOCIATE PROF. DR. AMIRRUDIN BIN KAMSIN"
+      },
+      "mav_name": "SYSTEMS ANALYSIS AND DESIGN"
     },
     {
       "module": "SYSTEMS ANALYSIS AND DESIGN",
@@ -54012,14 +54413,17 @@
         "day": "Wednesday",
         "room": "MAKMAL LANJUTAN FSKTM",
         "begin_time": "14:00",
-        "end_time": "15:00"
+        "end_time": "15:00",
+        "tutor": "DR. NURUL FAZMIDAR BINTI MOHD NOOR"
       },
       "lecture": {
         "day": "Thursday",
         "room": "DEWAN KULIAH 2 FSKTM",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "ASSOCIATE PROF. DR. TUTUT HERAWAN"
+      },
+      "mav_name": "SYSTEMS ANALYSIS AND DESIGN"
     },
     {
       "module": "SYSTEMS ANALYSIS AND DESIGN",
@@ -54029,14 +54433,17 @@
         "day": "Tuesday",
         "room": "MAKMAL MIKRO 6 FSKTM",
         "begin_time": "16:00",
-        "end_time": "17:00"
+        "end_time": "17:00",
+        "tutor": "ASSOCIATE PROF. DR. TUTUT HERAWAN"
       },
       "lecture": {
         "day": "Thursday",
         "room": "DEWAN KULIAH 2 FSKTM",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "ASSOCIATE PROF. DR. TUTUT HERAWAN"
+      },
+      "mav_name": "SYSTEMS ANALYSIS AND DESIGN"
     },
     {
       "module": "SYSTEMS ANALYSIS AND DESIGN",
@@ -54046,14 +54453,17 @@
         "day": "Wednesday",
         "room": "MAKMAL LANJUTAN FSKTM",
         "begin_time": "09:00",
-        "end_time": "10:00"
+        "end_time": "10:00",
+        "tutor": "DR. NURUL FAZMIDAR BINTI MOHD NOOR"
       },
       "lecture": {
         "day": "Thursday",
         "room": "DEWAN KULIAH 2 FSKTM",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "ASSOCIATE PROF. DR. TUTUT HERAWAN"
+      },
+      "mav_name": "SYSTEMS ANALYSIS AND DESIGN"
     },
     {
       "module": "SYSTEMS ANALYSIS AND DESIGN",
@@ -54063,14 +54473,17 @@
         "day": "Tuesday",
         "room": "MAKMAL MIKRO 6 FSKTM",
         "begin_time": "17:00",
-        "end_time": "18:00"
+        "end_time": "18:00",
+        "tutor": "ASSOCIATE PROF. DR. TUTUT HERAWAN"
       },
       "lecture": {
         "day": "Thursday",
         "room": "DEWAN KULIAH 2 FSKTM",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "ASSOCIATE PROF. DR. TUTUT HERAWAN"
+      },
+      "mav_name": "SYSTEMS ANALYSIS AND DESIGN"
     }
   ],
   "WIA2007": [
@@ -54243,14 +54656,17 @@
         "day": "Monday",
         "room": "MAKMAL CCNA FSKTM",
         "begin_time": "09:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": "ASSOCIATE PROF. DR. LING TECK CHAW"
       },
       "tutorial": {
         "day": "Tuesday",
         "room": "MAKMAL CCNA FSKTM",
         "begin_time": "10:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "ASSOCIATE PROF. DR. LING TECK CHAW"
+      },
+      "mav_name": "ADVANCED NETWORK TECHNOLOGY"
     },
     {
       "module": "ADVANCED NETWORK TECHNOLOGY",
@@ -54260,14 +54676,17 @@
         "day": "Monday",
         "room": "MAKMAL CCNA FSKTM",
         "begin_time": "09:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": "ASSOCIATE PROF. DR. LING TECK CHAW"
       },
       "tutorial": {
         "day": "Tuesday",
         "room": "MAKMAL CCNA FSKTM",
         "begin_time": "12:00",
-        "end_time": "14:00"
-      }
+        "end_time": "14:00",
+        "tutor": "ASSOCIATE PROF. DR. LING TECK CHAW"
+      },
+      "mav_name": "ADVANCED NETWORK TECHNOLOGY"
     }
   ],
   "WIA2009": [
@@ -54279,14 +54698,17 @@
         "day": "Monday",
         "room": "MAKMAL MIKRO 1 FSKTM",
         "begin_time": "12:00",
-        "end_time": "14:00"
+        "end_time": "14:00",
+        "tutor": "MR. NOORZAILY BIN MOHAMED NOOR"
       },
       "tutorial": {
         "day": "Wednesday",
         "room": "MAKMAL STROUSTRUP FSKTM",
         "begin_time": "15:00",
-        "end_time": "16:00"
-      }
+        "end_time": "16:00",
+        "tutor": "MR. NOORZAILY BIN MOHAMED NOOR"
+      },
+      "mav_name": "DIGITAL DESIGN AND HARDWARE DESCRIPTION LANGUAGE"
     },
     {
       "module": "DIGITAL DESIGN AND HARDWARE DESCRIPTION LANGUAGE",
@@ -54296,14 +54718,17 @@
         "day": "Monday",
         "room": "MAKMAL MIKRO 1 FSKTM",
         "begin_time": "12:00",
-        "end_time": "14:00"
+        "end_time": "14:00",
+        "tutor": "MR. NOORZAILY BIN MOHAMED NOOR"
       },
       "tutorial": {
         "day": "Wednesday",
         "room": "MAKMAL STROUSTRUP FSKTM",
         "begin_time": "16:00",
-        "end_time": "17:00"
-      }
+        "end_time": "17:00",
+        "tutor": "MR. NOORZAILY BIN MOHAMED NOOR"
+      },
+      "mav_name": "DIGITAL DESIGN AND HARDWARE DESCRIPTION LANGUAGE"
     }
   ],
   "WIA2010": [
@@ -54435,14 +54860,17 @@
         "day": "Tuesday",
         "room": "DEWAN KULIAH 1 FSKTM",
         "begin_time": "13:00",
-        "end_time": "15:00"
+        "end_time": "15:00",
+        "tutor": "MADAM FAZIDAH BINTI OTHMAN"
       },
       "tutorial": {
         "day": "Thursday",
         "room": "DEWAN KULIAH 1 FSKTM",
         "begin_time": "14:00",
-        "end_time": "15:00"
-      }
+        "end_time": "15:00",
+        "tutor": "MADAM FAZIDAH BINTI OTHMAN"
+      },
+      "mav_name": "INTERNET TECHNOLOGY"
     },
     {
       "module": "INTERNET TECHNOLOGY",
@@ -54452,21 +54880,31 @@
         "day": "Tuesday",
         "room": "DEWAN KULIAH 1 FSKTM",
         "begin_time": "13:00",
-        "end_time": "15:00"
+        "end_time": "15:00",
+        "tutor": "MADAM FAZIDAH BINTI OTHMAN"
       },
       "tutorial": {
         "day": "Thursday",
         "room": "DEWAN KULIAH 1 FSKTM",
         "begin_time": "14:00",
-        "end_time": "15:00"
-      }
+        "end_time": "15:00",
+        "tutor": "MADAM FAZIDAH BINTI OTHMAN"
+      },
+      "mav_name": "INTERNET TECHNOLOGY"
     }
   ],
   "WIC2005": [
     {
       "module": "PROGRAMMABLE NETWORK",
       "course_id": "WIC2005",
-      "occurence": "1"
+      "occurence": "1",
+      "lecture": {
+        "day": "Thursday",
+        "room": "BILIK TUTORIAL 1 FSKTM",
+        "begin_time": "15:00",
+        "end_time": "18:00"
+      },
+      "mav_name": "PROGRAMMABLE NETWORK"
     }
   ],
   "WIC3002": [
@@ -54478,14 +54916,17 @@
         "day": "Tuesday",
         "room": "BILIK KULIAH FSKTM",
         "begin_time": "09:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": "PROF. TS. DR. MISS LAIHA BINTI MAT KIAH"
       },
       "tutorial": {
         "day": "Wednesday",
         "room": "MAKMAL MIKRO 3 FSKTM",
         "begin_time": "10:00",
-        "end_time": "11:00"
-      }
+        "end_time": "11:00",
+        "tutor": "PROF. TS. DR. MISS LAIHA BINTI MAT KIAH"
+      },
+      "mav_name": "CRYPTOGRAPHY"
     }
   ],
   "WIC3005": [
@@ -54497,8 +54938,10 @@
         "day": "Monday",
         "room": "MAKMAL CCNA FSKTM",
         "begin_time": "12:00",
-        "end_time": "15:00"
-      }
+        "end_time": "15:00",
+        "tutor": "ASSOCIATE PROF. DR. LING TECK CHAW"
+      },
+      "mav_name": "ENTERPRISE NETWORK DESIGN AND MANAGEMENT"
     }
   ],
   "WIC3006": [
@@ -54510,8 +54953,10 @@
         "day": "Tuesday",
         "room": "MAKMAL MIKRO 4 FSKTM",
         "begin_time": "15:00",
-        "end_time": "18:00"
-      }
+        "end_time": "18:00",
+        "tutor": "PROF. TS. DR. RAFIDAH BINTI MD NOOR"
+      },
+      "mav_name": "MOBILE COMPUTING"
     }
   ],
   "WIC3009": [
@@ -54523,14 +54968,17 @@
         "day": "Monday",
         "room": "MAKMAL MIKRO 3 FSKTM",
         "begin_time": "16:00",
-        "end_time": "18:00"
+        "end_time": "18:00",
+        "tutor": "DR. BRYAN RAJ A/L PETER JABARAJ"
       },
       "tutorial": {
         "day": "Wednesday",
         "room": "MAKMAL MIKRO 3 FSKTM",
         "begin_time": "11:00",
-        "end_time": "12:00"
-      }
+        "end_time": "12:00",
+        "tutor": "DR. BRYAN RAJ A/L PETER JABARAJ"
+      },
+      "mav_name": "PARALLEL PROGRAMMING"
     }
   ],
   "WID3007": [
@@ -54815,7 +55263,13 @@
     {
       "module": "PRACTICAL A.I.",
       "course_id": "WID3014",
-      "occurence": "2"
+      "occurence": "2",
+      "tutorial": {
+        "day": "Monday",
+        "room": "MAKMAL CCNA FSKTM",
+        "begin_time": "15:00",
+        "end_time": "18:00"
+      }
     },
     {
       "module": "PRACTICAL A.I.",
@@ -57671,7 +58125,7 @@
       "occurence": "1",
       "lecture": {
         "day": "Thursday",
-        "room": "POSTGRADUATE SEMINAR ROOM 3-1 BLOCK H12",
+        "room": "COMPUTER LAB BAH",
         "begin_time": "18:00",
         "end_time": "21:00"
       }
@@ -57702,7 +58156,7 @@
       "occurence": "1",
       "lecture": {
         "day": "Friday",
-        "room": "POSTGRADUATE SEMINAR ROOM 2-2 BLOCK H12",
+        "room": "POSTGRADUATE SEMINAR ROOM 3-1 BLOCK H12",
         "begin_time": "18:00",
         "end_time": "21:00"
       }
@@ -57713,7 +58167,7 @@
       "occurence": "1RL",
       "lecture": {
         "day": "Friday",
-        "room": "POSTGRADUATE SEMINAR ROOM 2-2 BLOCK H12",
+        "room": "POSTGRADUATE SEMINAR ROOM 3-1 BLOCK H12",
         "begin_time": "18:00",
         "end_time": "21:00"
       }
@@ -57726,7 +58180,7 @@
       "occurence": "1",
       "lecture": {
         "day": "Monday",
-        "room": "POSTGRADUATE SEMINAR ROOM 1-5 BLOCK H12",
+        "room": "POSTGRADUATE SEMINAR ROOM 2-2 BLOCK H12",
         "begin_time": "18:00",
         "end_time": "21:00"
       }
@@ -57737,7 +58191,7 @@
       "occurence": "1RL",
       "lecture": {
         "day": "Monday",
-        "room": "POSTGRADUATE SEMINAR ROOM 1-5 BLOCK H12",
+        "room": "POSTGRADUATE SEMINAR ROOM 2-2 BLOCK H12",
         "begin_time": "18:00",
         "end_time": "21:00"
       }
@@ -57750,7 +58204,7 @@
       "occurence": "1",
       "lecture": {
         "day": "Wednesday",
-        "room": "POSTGRADUATE SEMINAR ROOM 1-4 BLOCK H12",
+        "room": "BILIK SEMINAR 1 FPP",
         "begin_time": "18:00",
         "end_time": "21:00"
       }
@@ -57761,7 +58215,7 @@
       "occurence": "1RL",
       "lecture": {
         "day": "Wednesday",
-        "room": "POSTGRADUATE SEMINAR ROOM 1-4 BLOCK H12",
+        "room": "BILIK SEMINAR 1 FPP",
         "begin_time": "18:00",
         "end_time": "21:00"
       }
@@ -57774,7 +58228,7 @@
       "occurence": "1",
       "lecture": {
         "day": "Friday",
-        "room": "POSTGRADUATE SEMINAR ROOM 1-4 BLOCK H12",
+        "room": "POSTGRADUATE SEMINAR ROOM 2-2 BLOCK H12",
         "begin_time": "18:00",
         "end_time": "21:00"
       }
@@ -57785,7 +58239,7 @@
       "occurence": "1RL",
       "lecture": {
         "day": "Friday",
-        "room": "POSTGRADUATE SEMINAR ROOM 1-4 BLOCK H12",
+        "room": "POSTGRADUATE SEMINAR ROOM 2-2 BLOCK H12",
         "begin_time": "18:00",
         "end_time": "21:00"
       }
@@ -57798,7 +58252,7 @@
       "occurence": "1",
       "lecture": {
         "day": "Tuesday",
-        "room": "POSTGRADUATE SEMINAR ROOM 1-5 BLOCK H12",
+        "room": "POSTGRADUATE SEMINAR ROOM 2-2 BLOCK H12",
         "begin_time": "18:00",
         "end_time": "21:00"
       }
@@ -57809,7 +58263,7 @@
       "occurence": "1RL",
       "lecture": {
         "day": "Tuesday",
-        "room": "POSTGRADUATE SEMINAR ROOM 1-5 BLOCK H12",
+        "room": "POSTGRADUATE SEMINAR ROOM 2-2 BLOCK H12",
         "begin_time": "18:00",
         "end_time": "21:00"
       }
@@ -57822,7 +58276,7 @@
       "occurence": "1",
       "lecture": {
         "day": "Tuesday",
-        "room": "POSTGRADUATE SEMINAR ROOM 1-4 BLOCK H12",
+        "room": "POSTGRADUATE SEMINAR ROOM 1-6 BLOCK H12",
         "begin_time": "18:00",
         "end_time": "21:00"
       }
@@ -57833,7 +58287,7 @@
       "occurence": "1RL",
       "lecture": {
         "day": "Tuesday",
-        "room": "POSTGRADUATE SEMINAR ROOM 1-4 BLOCK H12",
+        "room": "POSTGRADUATE SEMINAR ROOM 1-6 BLOCK H12",
         "begin_time": "18:00",
         "end_time": "21:00"
       }
@@ -57846,7 +58300,7 @@
       "occurence": "1",
       "lecture": {
         "day": "Friday",
-        "room": "POSTGRADUATE SEMINAR ROOM 1-5 BLOCK H12",
+        "room": "POSTGRADUATE SEMINAR ROOM 1-6 BLOCK H12",
         "begin_time": "18:00",
         "end_time": "21:00"
       }
@@ -57883,7 +58337,7 @@
       "occurence": "1",
       "lecture": {
         "day": "Wednesday",
-        "room": "POSTGRADUATE SEMINAR ROOM 1-5 BLOCK H12",
+        "room": "BILIK SEMINAR 2 FPP",
         "begin_time": "18:00",
         "end_time": "21:00"
       }
@@ -57894,7 +58348,7 @@
       "occurence": "1RL",
       "lecture": {
         "day": "Wednesday",
-        "room": "POSTGRADUATE SEMINAR ROOM 1-5 BLOCK H12",
+        "room": "BILIK SEMINAR 2 FPP",
         "begin_time": "18:00",
         "end_time": "21:00"
       }
