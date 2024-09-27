@@ -50,17 +50,13 @@ function Home() {
     setChosenCourses(updatedCourses);
   };
 
-  const handleRemoveModule = (courseName) => {
+  const handleRemoveModule = (courseCode) => {
     const updatedCourses = { ...chosenCourses };
-    delete updatedCourses[courseName];
+    delete updatedCourses[courseCode];
     const updatedSelectedOccurences = selectedOccurences.filter(
-      (occurence) => occurence.course_id !== courseName
-    );
-    const updatedDisabledOccurences = disabledOccurences.filter(
-      (occurence) => occurence.course_id !== courseName
+      (occurence) => occurence.course_id !== courseCode
     );
     setChosenCourses(updatedCourses);
-    setDisabledOccurences(updatedDisabledOccurences);
     setSelectedOccurences(updatedSelectedOccurences);
   };
 
@@ -99,7 +95,6 @@ function Home() {
     }
 
     setSelectedOccurences(updatedSelectedOccurences);
-    checkClashing(updatedSelectedOccurences);
   };
 
   const tableRef = useRef();
@@ -138,9 +133,6 @@ function Home() {
       );
       setChosenCourses(JSON.parse(localStorage.getItem("courses")));
     } else {
-      console.log("localstorage selectedOccurences:", localStorage.getItem("selectedOccurences"));
-      console.log("localstorage disabledOccurences:", localStorage.getItem("disabledOccurences"));
-      console.log("localstorage courses:", localStorage.getItem("courses"));
 
       setSelectedOccurences([]);
       setDisabledOccurences([]);
@@ -167,6 +159,11 @@ function Home() {
     updateSearchData(courses, chosenCourses, searchValue);
   }, [courses, chosenCourses, searchValue]);
 
+  // check for clashing every time selectedOccurences or chosenCourses changes
+  useEffect(() => {
+    checkClashing(selectedOccurences, chosenCourses);
+  }, [selectedOccurences, chosenCourses]);
+
   // update local storage when state changes (not on initial render)
   const hasMounted = useRef(false);
   useEffect(() => {
@@ -178,7 +175,7 @@ function Home() {
     }
   }, [chosenCourses, selectedOccurences, disabledOccurences]);
 
-  const checkClashing = (selectedOccurences) => {
+  const checkClashing = (selectedOccurences, chosenCourses) => {
     const tempDisabledOccurences = [];
 
     selectedOccurences.forEach((occurence) => {
@@ -231,20 +228,20 @@ function Home() {
         <div className={classes.occurrenceContainer}>
           {Object.keys(chosenCourses).length > 0 ? (
             Object.entries(chosenCourses).map(
-              ([courseName, occurrences], index) => {
+              ([courseCode, occurrences], index) => {
                 return (
                   <div key={index} className={classes.courseBlock}>
                     <div className={classes.courseHeader}>
                       <div
                         className={classes.removeButton}
                         onClick={() => {
-                          handleRemoveModule(courseName);
+                          handleRemoveModule(courseCode);
                         }}
                       >
                         <FontAwesomeIcon icon={faTimes} />
                       </div>
                       <h3 className={classes.courseName}>
-                        {courseName} - {occurrences[0].module}
+                        {courseCode} - {occurrences[0].module}
                       </h3>
                     </div>
                     <div className={classes.occurrences}>
