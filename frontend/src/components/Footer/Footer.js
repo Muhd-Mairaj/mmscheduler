@@ -7,12 +7,14 @@ const Footer = () => {
         Made with ❤️ by{" "}
         <a
           target="_blank"
-          href="https://www.linkedin.com/in/muhd-mairaj-4b194b294/"
+          href="https://github.com/Muhd-Mairaj/"
         >
           Mairaj
-        </a>{" "}
-        and{" "}
-        <a target="_blank" href="https://www.linkedin.com/in/m-n-al-sharafi/">
+        </a>
+        {" "}and{" "}
+        <a
+          target="_blank"
+          href="https://github.com/Mohammed-AlSharafi/">
           Alsharafi
         </a>
       </p>
