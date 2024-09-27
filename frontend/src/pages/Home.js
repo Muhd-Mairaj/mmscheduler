@@ -23,21 +23,22 @@ function Home() {
 
   const toggle = () => setModal(!modal);
 
-  const handleSearch = (e) => {
-    const currentSearchValue = e.target.value;
+  const handleSearch = (currentSearchValue) => {
     setSearchValue(currentSearchValue);
-    const filter = Object.entries(courses).filter(([key, value]) => {
-      return key
-        .toLowerCase()
-        .includes(currentSearchValue.trim().toLowerCase());
-    });
-    updateSearchData(filter, chosenCourses);
   };
 
-  const updateSearchData = (data, chosenCourses) => {
-    const filteredWithoutChosen = data.filter(
-      ([key, value]) => !Object.keys(chosenCourses).includes(key)
-    );
+  const updateSearchData = (courses, chosenCourses, searchValue) => {
+    const filteredWithoutChosen = Object.entries(courses).filter(([key, value]) => {
+      return (
+        (key.toLowerCase().includes(searchValue.trim().toLowerCase())
+          ||
+          value[0].module.toLowerCase().includes(searchValue.trim().toLowerCase())
+        )
+        &&
+        !Object.keys(chosenCourses).includes(key)
+      )
+    })
+
     setFilteredData(Object.fromEntries(filteredWithoutChosen.slice(0, 10)));
   };
 
@@ -46,29 +47,17 @@ function Home() {
       ...chosenCourses,
       [key]: value,
     };
-
     setChosenCourses(updatedCourses);
-    updateSearchData(Object.entries(filteredData), updatedCourses);
-    handleSaveState(updatedCourses, selectedOccurences, disabledOccurences);
   };
 
-  const handleRemoveModule = (courseName) => {
+  const handleRemoveModule = (courseCode) => {
     const updatedCourses = { ...chosenCourses };
-    delete updatedCourses[courseName];
+    delete updatedCourses[courseCode];
     const updatedSelectedOccurences = selectedOccurences.filter(
-      (occurence) => occurence.course_id !== courseName
-    );
-    const updatedDisabledOccurences = disabledOccurences.filter(
-      (occurence) => occurence.course_id !== courseName
+      (occurence) => occurence.course_id !== courseCode
     );
     setChosenCourses(updatedCourses);
-    setDisabledOccurences(updatedDisabledOccurences);
     setSelectedOccurences(updatedSelectedOccurences);
-    handleSaveState(
-      updatedCourses,
-      updatedSelectedOccurences,
-      updatedDisabledOccurences
-    );
   };
 
   const handleOccurenceSelect = (selectedOccurence, isDisabled) => {
@@ -106,12 +95,6 @@ function Home() {
     }
 
     setSelectedOccurences(updatedSelectedOccurences);
-    handleSaveState(
-      chosenCourses,
-      updatedSelectedOccurences,
-      disabledOccurences
-    );
-    checkClashing(updatedSelectedOccurences);
   };
 
   const tableRef = useRef();
@@ -150,6 +133,7 @@ function Home() {
       );
       setChosenCourses(JSON.parse(localStorage.getItem("courses")));
     } else {
+
       setSelectedOccurences([]);
       setDisabledOccurences([]);
       localStorage.clear();
@@ -171,7 +155,27 @@ function Home() {
     console.log("disabledOccurences: ", disabledOccurences);
   }, [disabledOccurences]);
 
-  const checkClashing = (selectedOccurences) => {
+  useEffect(() => {
+    updateSearchData(courses, chosenCourses, searchValue);
+  }, [courses, chosenCourses, searchValue]);
+
+  // check for clashing every time selectedOccurences or chosenCourses changes
+  useEffect(() => {
+    checkClashing(selectedOccurences, chosenCourses);
+  }, [selectedOccurences, chosenCourses]);
+
+  // update local storage when state changes (not on initial render)
+  const hasMounted = useRef(false);
+  useEffect(() => {
+    if (!hasMounted.current) {
+      hasMounted.current = true;
+    }
+    else {
+      handleSaveState(chosenCourses, selectedOccurences, disabledOccurences);
+    }
+  }, [chosenCourses, selectedOccurences, disabledOccurences]);
+
+  const checkClashing = (selectedOccurences, chosenCourses) => {
     const tempDisabledOccurences = [];
 
     selectedOccurences.forEach((occurence) => {
@@ -224,20 +228,20 @@ function Home() {
         <div className={classes.occurrenceContainer}>
           {Object.keys(chosenCourses).length > 0 ? (
             Object.entries(chosenCourses).map(
-              ([courseName, occurrences], index) => {
+              ([courseCode, occurrences], index) => {
                 return (
                   <div key={index} className={classes.courseBlock}>
                     <div className={classes.courseHeader}>
                       <div
                         className={classes.removeButton}
                         onClick={() => {
-                          handleRemoveModule(courseName);
+                          handleRemoveModule(courseCode);
                         }}
                       >
                         <FontAwesomeIcon icon={faTimes} />
                       </div>
                       <h3 className={classes.courseName}>
-                        {courseName} - {occurrences[0].module}
+                        {courseCode} - {occurrences[0].module}
                       </h3>
                     </div>
                     <div className={classes.occurrences}>
