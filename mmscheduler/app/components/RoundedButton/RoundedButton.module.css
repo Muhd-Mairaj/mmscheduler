@@ -1,0 +1,12 @@
+.roundedButton {
+  padding:10px 30px !important;
+  border: none !important;
+  border-radius: 35px !important;
+  margin: 10px 0;
+  transition: 0.5s !important;
+}
+
+.roundedButton:hover {
+  filter: brightness(80%);
+  transition: 0.5s;
+}
