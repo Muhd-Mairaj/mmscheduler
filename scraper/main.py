@@ -65,12 +65,11 @@ def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet
         except IndexError:
             return None
 
-    # try:
-    #     # try to read from json file
-    #     tracker = json.load(open(output))
-    # except (FileNotFoundError, json.decoder.JSONDecodeError):
-    #     tracker = {}
-    tracker = {}
+    try:
+        # try to read from json file
+        tracker = json.load(open(output))
+    except (FileNotFoundError, json.decoder.JSONDecodeError):
+        tracker = {}
 
     try:
         english_name_map = json.load(open("tracker copy.json"))
@@ -85,8 +84,10 @@ def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet
         code, _, occurences = parse_module_offering(module_offering)
 
         module = row[sheet._module_column - 1]
-        activity = "tutorial" if row[sheet._activity_column -
-                                     1].lower() == "tutorial" else "lecture"
+        # activity = "tutorial" if row[sheet._activity_column -
+        #                              1].lower() == "tutorial" else "lecture"
+        activity = row[sheet._activity_column - 1].lower()
+
         day = row[sheet._day_column - 1]
         begin_time = row[sheet._begin_column - 1]
         end_time = row[sheet._end_column - 1]
@@ -120,8 +121,8 @@ def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet
                     int(end_time.split(":")[0]) - int(begin_time.split(":")[0]))
 
             tracker[code][occ].setdefault(activity, {})
-            if activity not in tracker[code][occ]:
-                tracker[code][occ][activity] = {}
+            # if activity not in tracker[code][occ]:
+            #     tracker[code][occ][activity] = {}
 
             # use set to not overwrite existing data
             tracker[code][occ][activity].setdefault("day", day)
@@ -212,6 +213,14 @@ def update_data_from_maya(sheet: MayaSheet.MyReadOnlyWorksheet | MayaSheet.Works
                     lecture_info["end_time"] == end_time:
                 # this will update original because its a reference
                 lecture_info["tutor"] = tutor
+
+        # update online details if present
+        if online_info := tracker[current_module_code][current_occurence].get("online"):
+            if online_info["day"].lower() == day.lower() and \
+                online_info["begin_time"] == begin_time and \
+                    online_info["end_time"] == end_time:
+                # this will update original because its a reference
+                online_info["tutor"] = tutor
 
         # update tutorial details if present
         if tutorial_info := tracker[current_module_code][current_occurence].get("tutorial"):
