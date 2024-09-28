@@ -126,12 +126,15 @@ const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
                       ({occurrence.tutorial.begin_time} -{" "}
                       {occurrence.tutorial.end_time})
                     </div>
-                    <hr />
-                    <div className={classes.tutor}>
-                      {occurrence.tutorial.tutor
-                        ? occurrence.tutorial.tutor
-                        : ""}
-                    </div>
+                    {occurrence.tutorial.tutor && <Fragment>
+                      <hr />
+                      <div className={classes.tutor}>
+                        {occurrence.tutorial.tutor
+                          ? occurrence.tutorial.tutor
+                          : ""}
+                      </div>
+                    </Fragment>
+                    }
                   </div>
                 </div>
               )}
