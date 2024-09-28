@@ -25,7 +25,7 @@
   margin: 20px 0;
 }
 
-.courseHeader{
+.courseHeader {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -123,10 +123,11 @@
 }
 
 @media (max-width: 500px) {
-  .homeContainer{
+  .homeContainer {
     padding: 20px;
     padding-top: 60px;
   }
+
   .occurrences {
     grid-template-columns: repeat(3, 1fr);
   }
