@@ -8,6 +8,10 @@ from custom_sheets import TimeEditSheet as TimeEditSheet
 from custom_sheets.MayaSheet import get_sheet as get_maya_sheet
 from custom_sheets.TimeEditSheet import get_sheet as get_time_edit_sheet
 
+"""
+timeedit mode currently does not support updating previously scraped data because credits will be added to previous credits
+"""
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -19,7 +23,6 @@ def main():
     parser.add_argument("--output", required=True,
                         help="The path to the output json file")
     args = parser.parse_args()
-
 
     if args.mode != "finalise" and os.path.isdir(args.path):
         files = [os.path.join(args.path, file) for file in os.listdir(
@@ -62,11 +65,12 @@ def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet
         except IndexError:
             return None
 
-    try:
-        # try to read from json file
-        tracker = json.load(open(output))
-    except (FileNotFoundError, json.decoder.JSONDecodeError):
-        tracker = {}
+    # try:
+    #     # try to read from json file
+    #     tracker = json.load(open(output))
+    # except (FileNotFoundError, json.decoder.JSONDecodeError):
+    #     tracker = {}
+    tracker = {}
 
     try:
         english_name_map = json.load(open("tracker copy.json"))
@@ -95,12 +99,14 @@ def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet
             #     tracker[code] = {}
 
             # if this occ for this code is not found before, start tracking it
-            module_name = english_name_map[code][occ].get("module") if english_name_map else module
+            module_name = english_name_map[code][occ].get(
+                "module") if english_name_map else module
             print(f"{module_name=}")
             tracker[code].setdefault(occ, {
                 "module": module_name or module,
                 "course_id": code,
                 "occurence": occ,
+                "credits": 0,
             })
             # if occ not in tracker[code]:
             #     tracker[code][occ] = {
@@ -109,11 +115,15 @@ def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet
             #         "occurence": occ,
             #     }
 
+            if activity not in tracker[code][occ]:
+                tracker[code][occ]["credits"] += (
+                    int(end_time.split(":")[0]) - int(begin_time.split(":")[0]))
+
             tracker[code][occ].setdefault(activity, {})
             if activity not in tracker[code][occ]:
                 tracker[code][occ][activity] = {}
 
-            # use set to not effect the overwrite existing data
+            # use set to not overwrite existing data
             tracker[code][occ][activity].setdefault("day", day)
             tracker[code][occ][activity].setdefault("room", room)
             tracker[code][occ][activity].setdefault("begin_time", begin_time)
