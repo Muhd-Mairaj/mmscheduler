@@ -14,12 +14,14 @@ import Footer from "../components/Footer/Footer";
 
 function Home() {
   const [courses, setCourses] = useState({});
-  const [chosenCourses, setChosenCourses] = useState([]);
+  const [chosenCourses, setChosenCourses] = useState({});
   const [selectedOccurences, setSelectedOccurences] = useState([]);
   const [disabledOccurences, setDisabledOccurences] = useState([]);
   const [modal, setModal] = useState(false);
   const [filteredData, setFilteredData] = useState(courses);
   const [searchValue, setSearchValue] = useState("");
+  const [creditsAdded, setCreditsAdded] = useState(0);
+  const [creditsSelected, setCreditsSelected] = useState(0);
 
   const toggle = () => setModal(!modal);
 
@@ -148,7 +150,19 @@ function Home() {
   }, []);
 
   useEffect(() => {
+    console.log("chosenCourses: ", chosenCourses);
+    const credits = Object.entries(chosenCourses).reduce((total, [key, value]) => {
+      return total + value[0].credits;
+    }, 0);
+    setCreditsAdded(credits);
+  }, [chosenCourses]);
+
+  useEffect(() => {
     console.log("selectedOccurences: ", selectedOccurences);
+    const credits = selectedOccurences.reduce((total, selectedOccurence) => {
+      return total + selectedOccurence.credits;
+    }, 0)
+    setCreditsSelected(credits);
   }, [selectedOccurences]);
 
   useEffect(() => {
@@ -282,21 +296,24 @@ function Home() {
             </div>
           )}
         </div>
-        <div className={classes.actionButtons}>
-          <RoundedButton
-            className={`${classes.saveButton} acceptButton`}
-            onClick={handleSaveImage}
-          >
-            Save Table Image
-          </RoundedButton>
-          <RoundedButton
-            className={`${classes.saveButton} magicButton`}
-            onClick={handleSaveImage}
-          >
-            <FontAwesomeIcon className={classes.buttonIcon} icon={faMagicWandSparkles} />
-            <span className={classes.buttonText}>AI Scheduling</span>
-          </RoundedButton>
-        </div>
+        <RoundedButton
+          className={`${classes.saveButton} acceptButton`}
+          onClick={handleSaveImage}
+        >
+          Save Table Image
+        </RoundedButton>
+        <RoundedButton
+          className={`${classes.saveButton} acceptButton`}
+          onClick={() => { return; }}
+        >
+          Total Credits Added: {creditsAdded}
+        </RoundedButton>
+        <RoundedButton
+          className={`${classes.saveButton} acceptButton`}
+          onClick={() => { return; }}
+        >
+          Total Credits Selected: {creditsSelected}
+        </RoundedButton>
         <div className={classes.tableContainer}>
           <Timetable selectedOccurrences={selectedOccurences} ref={tableRef} />
         </div>
