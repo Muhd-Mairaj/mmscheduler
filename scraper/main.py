@@ -84,9 +84,9 @@ def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet
         code, _, occurences = parse_module_offering(module_offering)
 
         module = row[sheet._module_column - 1]
-        # activity = "tutorial" if row[sheet._activity_column -
-        #                              1].lower() == "tutorial" else "lecture"
-        activity = row[sheet._activity_column - 1].lower()
+        activity = "tutorial" if row[sheet._activity_column -
+                                     1].lower() == "tutorial" else "lecture"
+        # activity = row[sheet._activity_column - 1].lower()
 
         day = row[sheet._day_column - 1]
         begin_time = row[sheet._begin_column - 1]
