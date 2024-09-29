@@ -1,0 +1,67 @@
+.buttonText {
+  margin-left: 8px;
+}
+
+.selectContainer {
+  margin-bottom: 1rem;
+}
+
+.selectContainer label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.tutorSelectionsContainer {
+  padding: 10px 0;
+}
+
+.daysSelectionContainer {
+  padding: 10px 0;
+}
+
+.AIModalContent {
+  padding: 10px;
+}
+
+.multiSelect {
+  width: 100%;
+}
+
+.loadingOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.loadingText {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: grey;
+  animation: fadeInOut 2s infinite;
+}
+
+.blurBackground {
+  filter: blur(5px);
+  pointer-events: none;
+  user-select: none;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}

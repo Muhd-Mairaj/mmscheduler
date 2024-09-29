@@ -44,3 +44,10 @@
   color: white;
   box-shadow: 0 2px 5px 0 rgba(70, 104, 220, 0.75);
 }
+
+@media (max-width: 895px) {
+  .button {
+    width: 100%;
+    display: block !important;
+  }
+}
