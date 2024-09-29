@@ -13,14 +13,15 @@ def main():
     parser = argparse.ArgumentParser(
         description="A script that helps scraping different aspects of the module offerings")
     parser.add_argument("mode", choices=[
-                        "timeedit", "maya"], help="The mode to run ('timeedit' or 'maya')")
+                        "timeedit", "maya", "finalise"], help="The mode to run ('timeedit' or 'maya')")
     parser.add_argument(
         "path", help="The path to the excel file or the directory containing the excel files to be parsed")
     parser.add_argument("--output", required=True,
                         help="The path to the output json file")
     args = parser.parse_args()
 
-    if os.path.isdir(args.path):
+
+    if args.mode != "finalise" and os.path.isdir(args.path):
         files = [os.path.join(args.path, file) for file in os.listdir(
             args.path) if file.endswith(".xlsx")]
     elif args.path.endswith(".xlsx"):
@@ -40,6 +41,15 @@ def main():
                 workbook = openpyxl.load_workbook(file, read_only=True)
                 sheet = get_maya_sheet(workbook.active)
                 update_data_from_maya(sheet, args.output)
+        case "finalise":
+            try:
+                # try to read from json file
+                tracker = json.load(open(args.path))
+            except (FileNotFoundError, json.decoder.JSONDecodeError):
+                raise RuntimeError("No data found to finalise")
+
+            data = convert_tracking_data_to_output_format(tracker)
+            json.dump(data, open(args.output, "w"), indent=2)
         case _:
             print("Invalid mode")
             raise ValueError("Invalid mode")
@@ -55,8 +65,13 @@ def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet
     try:
         # try to read from json file
         tracker = json.load(open(output))
-    except FileNotFoundError:
+    except (FileNotFoundError, json.decoder.JSONDecodeError):
         tracker = {}
+
+    try:
+        english_name_map = json.load(open("tracker copy.json"))
+    except (FileNotFoundError, json.decoder.JSONDecodeError):
+        english_name_map = None
 
     print(f"{tracker=}")
 
@@ -80,8 +95,10 @@ def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet
             #     tracker[code] = {}
 
             # if this occ for this code is not found before, start tracking it
+            module_name = english_name_map[code][occ].get("module") if english_name_map else module
+            print(f"{module_name=}")
             tracker[code].setdefault(occ, {
-                "module": module,
+                "module": module_name or module,
                 "course_id": code,
                 "occurence": occ,
             })
@@ -115,7 +132,7 @@ def update_data_from_maya(sheet: MayaSheet.MyReadOnlyWorksheet | MayaSheet.Works
     try:
         # try to read from json file
         tracker = json.load(open(output))
-    except FileNotFoundError:
+    except (FileNotFoundError, json.decoder.JSONDecodeError):
         tracker = {}
 
     print(f"{tracker=}")
