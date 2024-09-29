@@ -1,5 +1,6 @@
+import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './globals.css';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 import { Fredoka } from 'next/font/google'
 
 const fredoka = Fredoka({
@@ -8,10 +9,16 @@ const fredoka = Fredoka({
   variable: '--font-fredoka'
 })
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="en" className={fredoka.className}>
-      <body className={fredoka.className}>{children}</body>
+      <body>
+        {children}
+      </body>
     </html>
-  )
+  );
 }

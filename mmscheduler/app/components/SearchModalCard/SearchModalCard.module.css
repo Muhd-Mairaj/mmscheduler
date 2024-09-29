@@ -5,6 +5,7 @@
     margin: 10px;
     border-radius: 35px;
     transition: 0.3s ease;
+    cursor: pointer;
 }
 
 .modalCard:hover{
@@ -12,8 +13,8 @@
 }
 
 .cardHeader{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: rgb(104, 104, 104);
-    font-weight: 300;
+    font-weight: bold;
     margin: 0 !important;
 }

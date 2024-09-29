@@ -8,13 +8,16 @@ const Footer = () => {
         <a
           target="_blank"
           href="https://github.com/Muhd-Mairaj/"
+          rel="noreferrer"
         >
           Mairaj
         </a>
         {" "}and{" "}
         <a
           target="_blank"
-          href="https://github.com/Mohammed-AlSharafi/">
+          href="https://github.com/Mohammed-AlSharafi/"
+          rel="noreferrer"
+          >
           Alsharafi
         </a>
       </p>

@@ -14,18 +14,18 @@
   margin: 0 auto;
 }
 
-
 .occurrenceContainer {
   display: grid;
   min-height: 30vh;
 }
 
 .courseBlock {
+  width: 100%;
   position: relative;
   margin: 20px 0;
 }
 
-.courseHeader{
+.courseHeader {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,8 +62,10 @@
 .occurrences {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  padding: 5px 10px 10px 0px;
-  gap: 20px;
+  /* padding: 5px 10px 10px 0px; */
+  padding: 5px 10px 0px 0px;
+  /* gap: 20px; */
+  gap: 7px;
 }
 
 .noCourses {
@@ -87,13 +89,34 @@
 
 .actionButtons {
   display: flex;
-  gap: 10px;
-  align-self: flex-start; /* Aligns the button to the start (left) */
-  margin-top: 20px; /* Optional: Adds space above the button */
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-end; /* Change from center to flex-start */
+  width: 100%;
+  margin-top: 20px;
 }
 
-.buttonText{
-  margin-left: 8px;
+.leftButtons, .rightButtons {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.resetButton {
+  display: inline-block;
+  gap: 10px;
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
+.buttonColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.creditsButton{
+  margin-bottom: 0 !important;
 }
 
 .tableContainer {
@@ -102,34 +125,62 @@
   overflow-x: auto; /* Enables horizontal scrolling if the content overflows */
 }
 
-@media (min-width: 901px) {
+@media (min-width: 1051px) {
   .occurrences {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+
+@media (max-width: 1050px) {
+  .occurrences {
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
 @media (max-width: 900px) {
   .occurrences {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
 @media (max-width: 700px) {
   .occurrences {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
 @media (max-width: 500px) {
-  .homeContainer{
-    padding: 30px;
+  .homeContainer {
+    padding: 20px;
     padding-top: 60px;
   }
   .occurrences {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .actionButtons {
     flex-direction: column;
     gap: 0;
+  }
+}
+
+@media (max-width: 894px) {
+  .button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; /* Adds some space between stacked buttons */
+  }
+
+  .actionButtons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .leftButtons, .rightButtons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .buttonColumn {
+    width: 100%;
   }
 }

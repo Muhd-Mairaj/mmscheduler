@@ -9,7 +9,7 @@ const Searchbar = ({ onChange, value, onSubmit, placeholder }) => {
       <Input
         className={classes.searchbar}
         placeholder={placeholder}
-        onChange={onChange}
+        onChange={(e) => onChange(e.target.value)}
         value={value}
       />
       <Button onClick={onSubmit} className={classes.searchButton}>

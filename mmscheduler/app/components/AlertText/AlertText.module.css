@@ -1,0 +1,10 @@
+.alert {
+  position: fixed !important;
+  z-index: 10000 !important;
+  width: 100% !important;
+  top: 60px;
+  transition: opacity 0.5s ease;
+}
+.fadeOut {
+  opacity: 0; /* Set opacity to 0 for fade out */
+}
