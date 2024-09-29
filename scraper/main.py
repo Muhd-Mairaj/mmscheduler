@@ -1,5 +1,6 @@
+import argparse
 import json
-import sys
+import os
 
 import openpyxl
 from custom_sheets import MayaSheet as MayaSheet
@@ -7,92 +8,146 @@ from custom_sheets import TimeEditSheet as TimeEditSheet
 from custom_sheets.MayaSheet import get_sheet as get_maya_sheet
 from custom_sheets.TimeEditSheet import get_sheet as get_time_edit_sheet
 
-
-def main(args):
-    # open timeedit excel file
-    time_edit_excel_file_path = args[0]
-    workbook = openpyxl.load_workbook(
-        time_edit_excel_file_path, read_only=True)
-    sheet = get_time_edit_sheet(workbook.active)
-
-    # read data
-    tracking_data = read_data(sheet)
-
-    # open maya excel file
-    maya_excel_file_path = args[1]
-    workbook = openpyxl.load_workbook(maya_excel_file_path, read_only=True)
-    sheet = get_maya_sheet(workbook.active)
-
-    # update data
-    update_data_from_maya(tracking_data, sheet)
-
-    # store data to json file
-    data_occ_separated = convert_tracking_data_to_output_format(tracking_data)
-    print(len(data_occ_separated))
-    json_file_path_occ_separated = args[2]
-    json.dump(data_occ_separated, open(
-        json_file_path_occ_separated, "w"), indent=2)
+"""
+timeedit mode currently does not support updating previously scraped data because credits will be added to previous credits
+"""
 
 
-def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet):
-    def get_row_item(row, index):
+def main():
+    parser = argparse.ArgumentParser(
+        description="A script that helps scraping different aspects of the module offerings")
+    parser.add_argument("mode", choices=[
+                        "timeedit", "maya", "finalise"], help="The mode to run ('timeedit' or 'maya')")
+    parser.add_argument(
+        "path", help="The path to the excel file or the directory containing the excel files to be parsed")
+    parser.add_argument("--output", required=True,
+                        help="The path to the output json file")
+    args = parser.parse_args()
+
+    if args.mode != "finalise" and os.path.isdir(args.path):
+        files = [os.path.join(args.path, file) for file in os.listdir(
+            args.path) if file.endswith(".xlsx")]
+    elif args.path.endswith(".xlsx"):
+        files = [args.path]
+
+    # Perform tasks based on the mode
+    match args.mode:
+        case "timeedit":
+            for file in files:
+                print(file)
+                workbook = openpyxl.load_workbook(file, read_only=True)
+                sheet = get_time_edit_sheet(workbook.active)
+                read_data(sheet, args.output)
+        case "maya":
+            for file in files:
+                print(file)
+                workbook = openpyxl.load_workbook(file, read_only=True)
+                sheet = get_maya_sheet(workbook.active)
+                update_data_from_maya(sheet, args.output)
+        case "finalise":
+            try:
+                # try to read from json file
+                tracker = json.load(open(args.path))
+            except (FileNotFoundError, json.decoder.JSONDecodeError):
+                raise RuntimeError("No data found to finalise")
+
+            data = convert_tracking_data_to_output_format(tracker)
+            json.dump(data, open(args.output, "w"), indent=2)
+        case _:
+            print("Invalid mode")
+            raise ValueError("Invalid mode")
+
+
+def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet, output: str):
+    def _get_row_item(row, index):
         try:
             return row[index]
         except IndexError:
             return None
 
-    choice = input("\nInput path of .json with pre-existing data (leave empty if none): ")
-    if choice:
-        tracker = json.load(open(choice))
-    else:
+    try:
+        # try to read from json file
+        tracker = json.load(open(output))
+    except (FileNotFoundError, json.decoder.JSONDecodeError):
         tracker = {}
+
+    try:
+        english_name_map = json.load(open("tracker copy.json"))
+    except (FileNotFoundError, json.decoder.JSONDecodeError):
+        english_name_map = None
+
+    print(f"{tracker=}")
 
     for row in sheet.iter_rows(min_row=sheet.header_row+1, max_row=sheet.end_row, values_only=True):
         print(row)
         module_offering = row[sheet._module_offering_column - 1]
-        code, occurences = parse_module_offering(module_offering)
+        code, _, occurences = parse_module_offering(module_offering)
 
         module = row[sheet._module_column - 1]
         activity = "tutorial" if row[sheet._activity_column -
                                      1].lower() == "tutorial" else "lecture"
+        # activity = row[sheet._activity_column - 1].lower()
+
         day = row[sheet._day_column - 1]
         begin_time = row[sheet._begin_column - 1]
         end_time = row[sheet._end_column - 1]
 
-        room = get_row_item(row, sheet._room_column - 1)
+        room = _get_row_item(row, sheet._room_column - 1)
 
         for occ in occurences:
-            if code not in tracker:
-                tracker[code] = {}
+            tracker.setdefault(code, {})
+            # if code not in tracker:
+            #     tracker[code] = {}
 
             # if this occ for this code is not found before, start tracking it
-            if occ not in tracker[code]:
-                tracker[code][occ] = {
-                    "module": module,
-                    "course_id": code,
-                    "occurence": occ,
-                    # activity.lower(): {
-                    #     "day": day,
-                    #     "room": room,
-                    #     "begin_time": begin_time,
-                    #     "end_time": end_time,
-                    # }
-                }
+            module_name = english_name_map[code][occ].get(
+                "module") if english_name_map else module
+            print(f"{module_name=}")
+            tracker[code].setdefault(occ, {
+                "module": module_name or module,
+                "course_id": code,
+                "occurence": occ,
+                "credits": 0,
+            })
+            # if occ not in tracker[code]:
+            #     tracker[code][occ] = {
+            #         "module": module,
+            #         "course_id": code,
+            #         "occurence": occ,
+            #     }
 
-            # update it for each activity
-            tracker[code][occ][activity] = {
-                "day": day,
-                "room": room,
-                "begin_time": begin_time,
-                "end_time": end_time,
-            }
+            if activity not in tracker[code][occ]:
+                tracker[code][occ]["credits"] += (
+                    int(end_time.split(":")[0]) - int(begin_time.split(":")[0]))
 
-    if choice:
-        json.dump(tracker, open(choice, "w"), indent=2)
-    return tracker
+            tracker[code][occ].setdefault(activity, {})
+            # if activity not in tracker[code][occ]:
+            #     tracker[code][occ][activity] = {}
+
+            # use set to not overwrite existing data
+            tracker[code][occ][activity].setdefault("day", day)
+            tracker[code][occ][activity].setdefault("room", room)
+            tracker[code][occ][activity].setdefault("begin_time", begin_time)
+            tracker[code][occ][activity].setdefault("end_time", end_time)
+            # tracker[code][occ][activity] = {
+            #     "day": day,
+            #     "room": room,
+            #     "begin_time": begin_time,
+            #     "end_time": end_time,
+            # }
+
+    json.dump(tracker, open(output, "w"), indent=2)
 
 
-def update_data_from_maya(tracker_data, sheet: MayaSheet.MyReadOnlyWorksheet | MayaSheet.Worksheet):
+def update_data_from_maya(sheet: MayaSheet.MyReadOnlyWorksheet | MayaSheet.Worksheet, output: str):
+    try:
+        # try to read from json file
+        tracker = json.load(open(output))
+    except (FileNotFoundError, json.decoder.JSONDecodeError):
+        tracker = {}
+
+    print(f"{tracker=}")
+
     current_module_code = None
     current_module_name = None
 
@@ -132,47 +187,50 @@ def update_data_from_maya(tracker_data, sheet: MayaSheet.MyReadOnlyWorksheet | M
             occurrence = None   # some random string that wont match the next find
             mav_name = None   # some random string that wont match the next find
 
-        if current_module_code not in tracker_data:
+        if current_module_code not in tracker:
             print(f"Module '{current_module_code} {
                   current_module_name}' not in data.")
             continue
 
-        if current_occurence not in tracker_data[current_module_code]:
+        if current_occurence not in tracker[current_module_code]:
             print(f"Occ {current_occurence} not found for module '{
                   current_module_code} {current_module_name}'")
             continue
 
+        # update module name and mav_name
+        tracker[current_module_code][current_occurence]["module"] = current_module_name
+        tracker[current_module_code][current_occurence]["mav_name"] = current_mav_name
+
         if not (day and begin_time and end_time):
             print(f"Time details not found for Occ {current_occurence} of module '{
                   current_module_code} {current_module_name}'")
-
-        # update module name and mav_name
-        tracker_data[current_module_code][current_occurence]["module"] = current_module_name
-        tracker_data[current_module_code][current_occurence]["mav_name"] = current_mav_name
+            continue
 
         # update lecture details if present
-        if "lecture" in tracker_data[current_module_code][current_occurence]:
-            lecture_info = tracker_data[current_module_code][current_occurence]["lecture"]
-
-            # if the day and time matches lecture day and time, update details
-            if (day and begin_time and end_time) and (
-                lecture_info["day"].lower() == day.lower(
-                ) and lecture_info["begin_time"] == begin_time and lecture_info["end_time"] == end_time
-            ):
+        if lecture_info := tracker[current_module_code][current_occurence].get("lecture"):
+            if lecture_info["day"].lower() == day.lower() and \
+                lecture_info["begin_time"] == begin_time and \
+                    lecture_info["end_time"] == end_time:
                 # this will update original because its a reference
                 lecture_info["tutor"] = tutor
 
-        # update tutorial details if present
-        if "tutorial" in tracker_data[current_module_code][current_occurence]:
-            tutorial_info = tracker_data[current_module_code][current_occurence]["tutorial"]
+        # update online details if present
+        if online_info := tracker[current_module_code][current_occurence].get("online"):
+            if online_info["day"].lower() == day.lower() and \
+                online_info["begin_time"] == begin_time and \
+                    online_info["end_time"] == end_time:
+                # this will update original because its a reference
+                online_info["tutor"] = tutor
 
-            # if the day and time matches tutorial day and time, update details
-            if (day and begin_time and end_time) and (
-                tutorial_info["day"].lower() == day.lower(
-                ) and tutorial_info["begin_time"] == begin_time and tutorial_info["end_time"] == end_time
-            ):
+        # update tutorial details if present
+        if tutorial_info := tracker[current_module_code][current_occurence].get("tutorial"):
+            if tutorial_info["day"].lower() == day.lower() and \
+                tutorial_info["begin_time"] == begin_time and \
+                    tutorial_info["end_time"] == end_time:
                 # this will update original because its a reference
                 tutorial_info["tutor"] = tutor
+
+    json.dump(tracker, open(output, "w"), indent=2)
 
 
 def parse_time_details(time_details: str):
@@ -188,11 +246,12 @@ def parse_module_offering(module_offering: str) -> tuple:
     offerings = module_offering.split(", ")
     if len(offerings) != 1:
         code = offerings[0].split("/")[0]
-        occ = [offering.split("/")[-1] for offering in offerings]
-        return code, occ
+        period = offerings[0].split("/")[-2]
+        occs = [offering.split("/")[-1] for offering in offerings]
+        return code, period, occs
 
     parsed = module_offering.split("/")
-    return parsed[0], [parsed[-1]]
+    return parsed[0], parsed[-2], [parsed[-1]]
 
 
 def convert_tracking_data_to_output_format(tracking_data):
@@ -204,4 +263,4 @@ def convert_tracking_data_to_output_format(tracking_data):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1:])
+    main()

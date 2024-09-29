@@ -2,7 +2,6 @@ import json
 import os
 import time
 
-import requests
 from bs4 import BeautifulSoup as bs
 from dotenv import load_dotenv
 from main import parse_module_offering
@@ -41,15 +40,15 @@ def main():
         "secure": True,
     })
 
-    # extract data for all courses
-    info = json.load(open("info.json"))
-    if "start" not in info:
-        info["start"] = 0
-    json.dump(info, open("info.json", "w"), indent=2)
+    # # extract data for all courses
+    # info = json.load(open("info.json"))
+    # if "start" not in info:
+    #     info["start"] = 0
+    # json.dump(info, open("info.json", "w"), indent=2)
 
-    scrape_all_courses(driver, info["start"])
-    
-    # done scraping 
+    # scrape_all_courses(driver, info["start"])
+
+    # done scraping
 
     driver.get("https://cloud.timeedit.net/my_um/web/students/ri1Q8.html")
     time.sleep(2)
@@ -66,11 +65,11 @@ def main():
     info = json.load(open("info.json"))
     if "offset" not in info:
         info["offset"] = 0
-    data = get_courses(1000, offset=info["offset"])
+    data = get_courses(2000, offset=info["offset"])
 
     add_courses_to_scheduler(driver, data)
     info = json.load(open("info.json"))
-    info["offset"] += 1000      # assuming all 1000 courses are added, no error checking added yet
+    info["offset"] += 2000      # assuming all 1000 courses are added, no error checking added yet
     json.dump(info, open("info.json", "w"), indent=2)
 
     print("Program execution over.")
@@ -94,10 +93,10 @@ def scrape_all_courses(driver, start=0):
             f"&objects=" + \
             f"&types=5" + \
             f"&fe=82.2024" + \
-            f"&fe=83.S1" + \
             f"&start={start}" + \
             f"&part=t" + \
             f"&media=html"
+        # f"&fe=83.S1" + \      # seems some courses are not correctly taggeed with this filter
 
         print(f"{url=}")
         driver.get(url)
@@ -109,16 +108,25 @@ def scrape_all_courses(driver, start=0):
                 ),
                 "No more courses found"
             )
-            # this is also the next start index
-            start = len(scheduler_adding_data)
-            save_data(scheduler_adding_data, tracker_data_for_frontend, start)
+            # update data in info.json
+            count = len(scheduler_adding_data)
+            save_data(scheduler_adding_data, tracker_data_for_frontend, count)
+
+            # update start from info.json
+            info = json.load(open("info.json"))
+            start = info["start"]
         except TimeoutException as e:
             print(e)
+            # check for an error in errors.txt
+            # if (error := open("errors.txt").read()):
+            #     # this means that i got logged out. need to relogin
+            #     # try to refresh
+
             break
 
-    start = len(scheduler_adding_data)
-    print(f"count = {start}")
-    save_data(scheduler_adding_data, tracker_data_for_frontend, start)
+    count = len(scheduler_adding_data)
+    print(f"start = {start}, count = {count+1}")
+    save_data(scheduler_adding_data, tracker_data_for_frontend, count)
 
 
 def _course_extracter(driver, data, tracker, start):
@@ -130,12 +138,17 @@ def _course_extracter(driver, data, tracker, start):
     if not courses_div:
         return False
 
+    count = len(data)
     for course in courses_div:
         try:
             data_id = course["data-id"]
             data_name = course["data-name"]
 
-            code, occurences = parse_module_offering(data_name)
+            code, period, occurences = parse_module_offering(data_name)
+            if period != "S1":
+                print(f"Skipping {data_name} as it is not in S1 period.")
+                start += 1
+                continue
 
             # find the name in the table element within this div
             driver.get(
@@ -161,17 +174,19 @@ def _course_extracter(driver, data, tracker, start):
                         "occurence": occ,
                     }
 
-            print(f"count = {start+1}, {data_id=}, {data_name=}")
+            print(f"start = {start}, count = {count+1}, {data_id=}, {data_name=}")
 
             data.append({
-                "count": start+1,
+                "count": count+1,
                 "data_id": data_id,
                 "data_name": data_name
             })
+            count += 1
             start += 1
         except Exception as e:
             print(e)
-            print(f"count = {start+1}", file=open("errors.txt", "a"))
+            print(f"start = {start}, count = {count+1}",
+                  file=open("errors.txt", "a"))
             print(f"{data_id=}, {data_name=}", file=open("errors.txt", "a"))
             print(f"{code=}, {occurences=}", file=open("errors.txt", "a"))
             print(f"{name=}", file=open("errors.txt", "a"))
@@ -180,15 +195,21 @@ def _course_extracter(driver, data, tracker, start):
                   file=open("errors.txt", "a"))
             return False
 
+        finally:
+            # ensure to update start in info.json
+            info = json.load(open("info.json"))
+            info["start"] = start
+            json.dump(info, open("info.json", "w"), indent=2)
+
     return True
 
 
-def save_data(scheduler_adding_data, tracker_data_for_frontend, start):
+def save_data(scheduler_adding_data, tracker_data_for_frontend, count):
     json.dump(scheduler_adding_data, open("courses.json", "w"), indent=2)
     json.dump(tracker_data_for_frontend, open("tracker.json", "w"), indent=2)
 
     info = json.load(open("info.json"))
-    info["start"] = start
+    info["count"] = count
     json.dump(info, open("info.json", "w"), indent=2)
 
 
@@ -207,7 +228,8 @@ def add_courses_to_scheduler(driver, data):
                           } added to the basket successfully.")
         except TimeoutException as e:
             print(e)
-            print(f"Item {course['data_name']} not added to the basket.", file=open("errors.txt", "a"))
+            print(f"Item {course['data_name']} not added to the basket.", file=open(
+                "errors.txt", "a"))
 
 
 def add_item_to_basket(driver, data_id, data_name):
