@@ -262,6 +262,8 @@ const AIModal = ({
           )}
         </ModalBody>
         <ModalFooter>
+          <small><i>*This feature is still in beta and may not provide a suitable schedule. <br></br>
+          Please use manual scheduling if youre unable to generate it.</i></small>
           <RoundedButton
             className={`${classes.closeButton} magicButton`}
             onClick={handleGenerateSchedule}
