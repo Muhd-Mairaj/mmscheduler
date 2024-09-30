@@ -2,9 +2,9 @@ import JamAI from "jamaibase";
 import { NextRequest, NextResponse } from "next/server";
 
 const jamai = new JamAI({
-  baseURL: process.env.NEXT_PUBLIC_JAMAI_BASEURL!,
-  apiKey: process.env.NEXT_PUBLIC_JAMAI_API_KEY,
-  projectId: process.env.NEXT_PUBLIC_JAMAI_PROJECT_ID,
+  baseURL: process.env.JAMAI_BASEURL!,
+  apiKey: process.env.JAMAI_API_KEY,
+  projectId: process.env.JAMAI_PROJECT_ID,
 });
 
 export async function POST(request: NextRequest) {
