@@ -23,6 +23,11 @@
 }
 
 .acceptButton {
+  background-color: #5e1b8f !important;
+  color: white;
+}
+
+.magicButton{
   background-image: linear-gradient(
     to right,
     #4568dc 0%,
@@ -31,4 +36,5 @@
   );
   background-size: 200% auto;
   color: white;
+  box-shadow: 0 2px 5px 0 rgba(70, 104, 220, 0.75);
 }

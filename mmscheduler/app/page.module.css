@@ -1,0 +1,186 @@
+.home {
+  position: relative;
+}
+
+.homeContainer {
+  background-color: #fcfcfc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 1100px;
+  padding: 50px;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.occurrenceContainer {
+  display: grid;
+  min-height: 30vh;
+}
+
+.courseBlock {
+  width: 100%;
+  position: relative;
+  margin: 20px 0;
+}
+
+.courseHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.courseName {
+  font-size: 1.3rem;
+  padding-right: 35px;
+  margin-bottom: 2px;
+}
+
+.removeButton {
+  width: 20px;
+  height: 20px;
+  color: white;
+  background-color: rgb(255, 80, 80);
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.occurrences {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  /* padding: 5px 10px 10px 0px; */
+  padding: 5px 10px 0px 0px;
+  /* gap: 20px; */
+  gap: 7px;
+}
+
+.noCourses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.noCourseIcon {
+  color: #777;
+  font-size: 5rem !important;
+}
+
+.noCoursesHeader {
+  margin-top: 50px;
+  color: #777;
+  text-align: center;
+}
+
+.actionButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-end; /* Change from center to flex-start */
+  width: 100%;
+  margin-top: 20px;
+}
+
+.leftButtons, .rightButtons {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.resetButton {
+  display: inline-block;
+  gap: 10px;
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
+.buttonColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.creditsButton{
+  margin-bottom: 0 !important;
+}
+
+.tableContainer {
+  margin: 20px 0;
+  width: 100%; /* Ensures the container takes full width */
+  overflow-x: auto; /* Enables horizontal scrolling if the content overflows */
+}
+
+@media (min-width: 1051px) {
+  .occurrences {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+
+@media (max-width: 1050px) {
+  .occurrences {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .occurrences {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .occurrences {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .homeContainer {
+    padding: 20px;
+    padding-top: 60px;
+  }
+  .occurrences {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .actionButtons {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+@media (max-width: 894px) {
+  .button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; /* Adds some space between stacked buttons */
+  }
+
+  .actionButtons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .leftButtons, .rightButtons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .buttonColumn {
+    width: 100%;
+  }
+}
