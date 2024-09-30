@@ -16097,7 +16097,7 @@
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
         "end_time": "19:00",
-        "tutor": "DR. SERRENE LEONG"
+        "tutor": "DR. IRENE YONG SEOK CHING"
       },
       "mav_name": "BASIC ENTREPRENEURSHIP ENCULTURATION (Only for Year 1 Science Stream & Open to all student's intake 2023/2024 and below)"
     }
@@ -16633,7 +16633,7 @@
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
         "end_time": "19:00",
-        "tutor": "CHM. DR. ARCHINA A/P BUTHIYAPPAN"
+        "tutor": "MADAM HARNANI BINTI MOHAMED"
       },
       "mav_name": "INDEPENDENT RESEARCH (Only For Second Year Students Onwards)"
     }
@@ -16665,7 +16665,7 @@
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
         "end_time": "19:00",
-        "tutor": "MR. ROZAINI BIN ABDUL RAHIM"
+        "tutor": "MISS HARTINI BINTI MOHAMED"
       },
       "mav_name": "TALENT DEVELOPMENT"
     }
@@ -16681,7 +16681,7 @@
         "room": "ONLINE LECTURE",
         "begin_time": "17:00",
         "end_time": "19:00",
-        "tutor": "MR. MUHAMMAD FIRDAUS BIN ABU HASSAN"
+        "tutor": "MADAM NOR NISMAWATI BINTI MOKHTAR"
       },
       "mav_name": "VOLUNTEERISM"
     }
@@ -22540,7 +22540,7 @@
         "room": "AUDITORIUM APIUM",
         "begin_time": "10:00",
         "end_time": "12:00",
-        "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        "tutor": "PROF. DR. ASMAK BINTI AB RAHMAN"
       },
       "mav_name": "ISLAMIC ECONOMIC INSTITUTIONS"
     }
@@ -52846,7 +52846,8 @@
         "day": "Thursday",
         "room": "MAKMAL MIKRO 2 FSKTM",
         "begin_time": "10:00",
-        "end_time": "11:00"
+        "end_time": "11:00",
+        "tutor": " 000DUMMY"
       },
       "mav_name": "SOFTWARE MODELLING"
     },
@@ -52887,7 +52888,8 @@
         "day": "Thursday",
         "room": "MAKMAL MIKRO 1 FSKTM",
         "begin_time": "08:00",
-        "end_time": "09:00"
+        "end_time": "09:00",
+        "tutor": " 000DUMMY"
       },
       "mav_name": "SOFTWARE MODELLING"
     },
@@ -54233,14 +54235,17 @@
         "day": "Thursday",
         "room": "BILIK KULIAH FSKTM",
         "begin_time": "16:00",
-        "end_time": "17:00"
+        "end_time": "17:00",
+        "tutor": "PROF. DR. NOR LIYANA BT MOHD SHUIB"
       },
       "lecture": {
         "day": "Friday",
         "room": "BILIK KULIAH FSKTM, DEWAN KULIAH 2 FSKTM",
         "begin_time": "15:00",
-        "end_time": "17:00"
-      }
+        "end_time": "17:00",
+        "tutor": "PROF. DR. NOR LIYANA BT MOHD SHUIB"
+      },
+      "mav_name": "BUSINESS ANALYTICS AND INTELLIGENCE"
     },
     {
       "module": "BUSINESS ANALYTICS AND INTELLIGENCE",
@@ -54251,14 +54256,17 @@
         "day": "Thursday",
         "room": "BILIK KULIAH FSKTM",
         "begin_time": "17:00",
-        "end_time": "18:00"
+        "end_time": "18:00",
+        "tutor": "PROF. DR. NOR LIYANA BT MOHD SHUIB"
       },
       "lecture": {
         "day": "Friday",
         "room": "BILIK KULIAH FSKTM, DEWAN KULIAH 2 FSKTM",
         "begin_time": "15:00",
-        "end_time": "17:00"
-      }
+        "end_time": "17:00",
+        "tutor": "PROF. DR. NOR LIYANA BT MOHD SHUIB"
+      },
+      "mav_name": "BUSINESS ANALYTICS AND INTELLIGENCE"
     }
   ],
   "WIE3010": [
@@ -54766,14 +54774,16 @@
         "day": "Monday",
         "room": "MAKMAL STROUSTRUP FSKTM",
         "begin_time": "14:00",
-        "end_time": "16:00"
+        "end_time": "16:00",
+        "tutor": "DR. RIYAZ AHAMED ARIYALURAN HABEEB MOHAMED"
       },
       "tutorial": {
         "day": "Monday",
         "room": "MAKMAL STROUSTRUP FSKTM",
         "begin_time": "16:00",
         "end_time": "17:00"
-      }
+      },
+      "mav_name": "BIG DATA APPLICATIONS AND ANALYTICS"
     }
   ],
   "WIX1001": [
@@ -56217,14 +56227,17 @@
         "day": "Tuesday",
         "room": "MAKMAL MIKRO 3 FSKTM",
         "begin_time": "13:00",
-        "end_time": "15:00"
+        "end_time": "15:00",
+        "tutor": "ASSOCIATE PROF. DR. KASTURI DEWI A/P VARATHAN"
       },
       "tutorial": {
         "day": "Friday",
         "room": "MAKMAL MIKRO 4 FSKTM",
         "begin_time": "17:00",
-        "end_time": "18:00"
-      }
+        "end_time": "18:00",
+        "tutor": "ASSOCIATE PROF. DR. KASTURI DEWI A/P VARATHAN"
+      },
+      "mav_name": "SOCIAL INFORMATICS"
     }
   ],
   "WIX3003": [
@@ -56237,8 +56250,10 @@
         "day": "Wednesday",
         "room": "BILIK KULIAH FSKTM",
         "begin_time": "15:00",
-        "end_time": "18:00"
-      }
+        "end_time": "18:00",
+        "tutor": "ASSOCIATE PROF. DR. AZAH ANIR BINTI NORMAN"
+      },
+      "mav_name": "INFORMATION SECURITY MANAGEMENT AND ETHICS"
     }
   ],
   "WIX3005": [
