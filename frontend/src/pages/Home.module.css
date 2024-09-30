@@ -87,9 +87,15 @@
   text-align: center;
 }
 
-.saveButton {
+.actionButtons {
+  display: flex;
+  gap: 10px;
   align-self: flex-start; /* Aligns the button to the start (left) */
   margin-top: 20px; /* Optional: Adds space above the button */
+}
+
+.buttonText{
+  margin-left: 8px;
 }
 
 .tableContainer {
@@ -130,5 +136,9 @@
 
   .occurrences {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .actionButtons {
+    flex-direction: column;
+    gap: 0;
   }
 }

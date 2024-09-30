@@ -1,0 +1,53 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+  /* General */
+  --primary-color: #5e2f80;
+  --secondary-color: #6b3691;
+
+  /* occurrenceCard */
+  --selected-card-color: #a17bb6;
+  --selected-card-border-color: #c38ae4;
+  --disabled-card-color: rgb(160, 160, 160);
+  --card-text-color: black;
+  --card-border-color: rgb(171, 171, 171);
+  --card-color: rgb(205, 205, 205);
+
+  /* Timetable */
+  --lecture-event-color: #906da5;
+  --tutorial-event-color: #8dbfe1;
+
+  /* Navbar */
+  --navbar-primary-color: #5e1b8f;
+
+  /* Footer */
+  --footer-color: #311843;
+}
+
+.body {
+  font-family: var(--font-fredoka), sans-serif !important;
+}
+
+.acceptButton {
+  background-color: #5e1b8f !important;
+  color: white !important;
+}
+
+.magicButton {
+  background-image: linear-gradient(
+    to right,
+    #4568dc 0%,
+    #b06ab3 51%,
+    #4568dc 100%
+  );
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 2px 5px 0 rgba(70, 104, 220, 0.75);
+}
+
+@media (max-width: 895px) {
+  .button {
+    width: 100%;
+    display: block !important;
+  }
+}

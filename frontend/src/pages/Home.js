@@ -5,7 +5,7 @@ import Timetable from "../components/Timetable/Timetable";
 import OccurrenceCard from "../components/OccurrenceCard/OccurrenceCard";
 import SearchModal from "../components/SearchModal/SearchModal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimes, faCalendarDays } from "@fortawesome/free-solid-svg-icons";
+import { faTimes, faCalendarDays, faMagicWandSparkles } from "@fortawesome/free-solid-svg-icons";
 import RoundedButton from "../components/RoundedButton/RoundedButton";
 import isClashing from "../functions/Home/isClashing";
 import Navbar from "../components/Navbar/Navbar";
