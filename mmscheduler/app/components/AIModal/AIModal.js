@@ -74,9 +74,23 @@ const AIModal = ({
 
     try {
       if (data?.llmAnswer?.value) {
-        const selectedOccurences = await JSON.parse(data.llmAnswer.value).data;
+        const returnedOccurences = await JSON.parse(data.llmAnswer.value).data;
+        console.log("returnedOccurences:", returnedOccurences);
+
+        const selectedOccurences = returnedOccurences.map((returnedOccurence) => {
+          const availableOccurences = chosenCourses[returnedOccurence.course_id];
+          console.log("availableOccurences:", availableOccurences);
+          const selectedOccurence = availableOccurences.find(
+            (availableOccurence) => {
+              return availableOccurence.occurence === `${returnedOccurence.occurrence}`;
+            }
+          )
+          console.log("selectedOccurence:", selectedOccurence);
+          return selectedOccurence;
+        });
+        console.log("selectedOccurences:", selectedOccurences);
         if (checkClashing(selectedOccurences)) {
-          alert("Clashing modules detected. Please try again.");
+          handleErrorMessage("Clashing modules detected. Please try again.");
           setIsLoading(false);
           return;
         }
@@ -89,7 +103,21 @@ const AIModal = ({
       handleErrorMessage("Failed to generate schedule");
       toggle();
     }
-    const selectedOccurences = await JSON.parse(data.llmAnswer.value).data;
+
+    console.log("Generated schedule successfully");
+    // console.log("Selected occurrences:", data.llmAnswer.value);
+    const returnedOccurences = await JSON.parse(data.llmAnswer.value).data;
+    
+    const selectedOccurences = returnedOccurences.map((returnedOccurence) => {
+      const availableOccurences = chosenCourses[returnedOccurence.course_id];
+      const selectedOccurence = availableOccurences.find(
+        (availableOccurence) => {
+          return availableOccurence.occurence === returnedOccurence.occurrence
+        }
+      )
+      
+      return selectedOccurence;
+    });
 
     if (checkClashing(selectedOccurences)) {
       handleErrorMessage("Clashing modules detected. Please try again.");
