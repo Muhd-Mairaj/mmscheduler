@@ -119,6 +119,12 @@
   margin-bottom: 0 !important;
 }
 
+.creditsButton:hover {
+  background-color: #6C757D !important;
+  filter: brightness(100%) !important;
+  cursor: default;
+}
+
 .tableContainer {
   margin: 20px 0;
   width: 100%; /* Ensures the container takes full width */

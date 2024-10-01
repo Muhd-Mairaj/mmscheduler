@@ -7,7 +7,7 @@ import ModalCard from "../SearchModalCard/SearchModalCard";
 import RoundedButton from "../RoundedButton/RoundedButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook, faSearch, faPlus } from "@fortawesome/free-solid-svg-icons";
-import RibbonButton from "../BookmarkButton/RibbonButton";
+import RibbonButton from "../RibbonButton/RibbonButton";
 
 const SearchModal = ({
   modal,
