@@ -43,94 +43,78 @@ const AIModal = ({
   };
 
   const handleGenerateSchedule = async () => {
-    setIsLoading(true);
-    console.log("Generating schedule...");
-    console.log(
-      "Tutor selections:",
-      JSON.stringify(formatTutorSelections(tutorSelections))
-    );
-    console.log("Days off:", formatDaysOff(daysOff).toString());
-    console.log("Prioritize lecturers:", prioritizeLecturers);
-    const response = await fetch("/api/generate-schedule", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        preferred_lecturers: JSON.stringify(
-          formatTutorSelections(tutorSelections)
-        ),
-        preferred_days_off: formatDaysOff(daysOff).toString(),
-        lecturers_more_important: prioritizeLecturers,
-        daily_preference: "more spaced out",
-        courses: JSON.stringify(chosenCourses),
-      }),
-    });
-    if (!response.ok) {
-      console.error("Failed to generate schedule");
-    }
-
-    const data = await response.json();
-
     try {
-      if (data?.llmAnswer?.value) {
-        const returnedOccurences = await JSON.parse(data.llmAnswer.value).data;
-        console.log("returnedOccurences:", returnedOccurences);
+      setIsLoading(true);
+      console.log("Generating schedule...");
+      console.log(
+        "Tutor selections:",
+        JSON.stringify(formatTutorSelections(tutorSelections))
+      );
+      console.log("Days off:", formatDaysOff(daysOff).toString());
+      console.log("Prioritize lecturers:", prioritizeLecturers);
 
-        const selectedOccurences = returnedOccurences.map((returnedOccurence) => {
-          const availableOccurences = chosenCourses[returnedOccurence.course_id];
-          console.log("availableOccurences:", availableOccurences);
-          const selectedOccurence = availableOccurences.find(
-            (availableOccurence) => {
-              return availableOccurence.occurence === `${returnedOccurence.occurrence}`;
-            }
-          )
-          console.log("selectedOccurence:", selectedOccurence);
-          return selectedOccurence;
-        });
-        console.log("selectedOccurences:", selectedOccurences);
-        if (checkClashing(selectedOccurences)) {
-          handleErrorMessage("Clashing modules detected. Please try again.");
-          setIsLoading(false);
-          return;
-        }
-        handleUpdateChosenCourses(selectedOccurences);
-      } else {
-        handleErrorMessage("Failed to generate schedule");
-        toggle();
+      const response = await fetch("/api/generate-schedule", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          preferred_lecturers: JSON.stringify(
+            formatTutorSelections(tutorSelections)
+          ),
+          preferred_days_off: formatDaysOff(daysOff).toString(),
+          lecturers_more_important: prioritizeLecturers,
+          daily_preference: "more spaced out",
+          courses: JSON.stringify(chosenCourses),
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to generate schedule");
       }
-    } catch (e) {
-      handleErrorMessage("Failed to generate schedule");
-      toggle();
-    }
 
-    console.log("Generated schedule successfully");
-    // console.log("Selected occurrences:", data.llmAnswer.value);
-    const returnedOccurences = await JSON.parse(data.llmAnswer.value).data;
-    
-    const selectedOccurences = returnedOccurences.map((returnedOccurence) => {
-      const availableOccurences = chosenCourses[returnedOccurence.course_id];
-      const selectedOccurence = availableOccurences.find(
-        (availableOccurence) => {
-          return availableOccurence.occurence === returnedOccurence.occurrence
+      const data = await response.json();
+
+      if (!data?.llmAnswer?.value) {
+        throw new Error("Invalid response format");
+      }
+
+      const returnedOccurrences = JSON.parse(data.llmAnswer.value).data;
+      console.log("returnedOccurrences:", returnedOccurrences);
+
+      const selectedOccurrences = returnedOccurrences.map(
+        (returnedOccurrence) => {
+          const availableOccurrences =
+            chosenCourses[returnedOccurrence.course_id];
+          if (!availableOccurrences) {
+            throw new Error(
+              `No available occurrences for course ${returnedOccurrence.course_id}`
+            );
+          }
+          const selectedOccurrence = availableOccurrences.find(
+            (availableOccurrence) =>
+              availableOccurrence.occurence === returnedOccurrence.occurrence
+          );
+          if (!selectedOccurrence) {
+            throw new Error(
+              `No matching occurrence found for ${returnedOccurrence.course_id}`
+            );
+          }
+          return selectedOccurrence;
         }
-      )
-      
-      return selectedOccurence;
-    });
+      );
 
-    if (checkClashing(selectedOccurences)) {
-      handleErrorMessage("Clashing modules detected. Please try again.");
+      if (checkClashing(selectedOccurrences)) {
+        throw new Error("Clashing modules detected. Please try again.");
+      }
+
+      handleUpdateChosenCourses(selectedOccurrences);
+      console.log("Generated schedule successfully");
+    } catch (error) {
+      console.error("Error in handleGenerateSchedule:", error.message);
+      handleErrorMessage(error.message);
+    } finally {
       setIsLoading(false);
       toggle();
-      return;
     }
-
-    handleUpdateChosenCourses(selectedOccurences);
-
-    setIsLoading(false);
-
-    toggle();
   };
 
   useEffect(() => {
@@ -185,9 +169,12 @@ const AIModal = ({
 
   return (
     <>
+      <p className={classes.aiNote}>
+        AI scheduling under maintenance due to high demand.
+      </p>
       <RoundedButton
-        className={`${classes.saveButton} magicButton button`}
-        onClick={toggle}
+        className={`${classes.aiSchedulingButton} magicButton button`}
+        // onClick={toggle}
       >
         <FontAwesomeIcon
           className={classes.buttonIcon}
@@ -262,8 +249,13 @@ const AIModal = ({
           )}
         </ModalBody>
         <ModalFooter>
-          <small><i>*This feature is still in beta and may not provide a suitable schedule. <br></br>
-          Please use manual scheduling if youre unable to generate it.</i></small>
+          <small>
+            <i>
+              *This feature is still in beta and may not provide a suitable
+              schedule. <br></br>
+              Please use manual scheduling if youre unable to generate it.
+            </i>
+          </small>
           <RoundedButton
             className={`${classes.closeButton} magicButton`}
             onClick={handleGenerateSchedule}
