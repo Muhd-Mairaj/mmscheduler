@@ -67,7 +67,46 @@ const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
         {selectedOccurrences.map((occurrence, idx) => {
           return (
             <Fragment key={idx}>
-              {occurrence.lecture && (
+              {occurrence.activities.map((activity, idx) => {
+                return (
+                  <>
+                    {
+                      activity && (
+                        <div
+                          key={idx + activity}
+                          style={{
+                            gridColumn: `${convertDayToColumn(activity.day)}`,
+                            gridRow: `${convertTimeToRow(
+                              activity.begin_time
+                            )} / ${convertTimeToRow(activity.end_time)}`,
+                          }}
+                          className={(activity.title !== "tutorial") ? `${classes.lectureEvent} ${classes.eventCard}` : `${classes.tutorialEvent} ${classes.eventCard}`}
+                        >
+                          <div className={classes.eventContent}>
+                            <div className={classes.moduleTitle}>
+                              #{occurrence.course_id} ({occurrence.occurence})
+                              <br />
+                              {occurrence.module}
+                            </div>
+                            <hr />
+                            <div className={classes.room}>
+                              {activity.room}
+                            </div>
+                            <div className={classes.timeInfo}>
+                              ({activity.begin_time} -{" "}
+                              {activity.end_time})
+                            </div>
+                            <hr />
+                            <div className={classes.tutor}>
+                              {activity.tutor ? activity.tutor : ""}
+                            </div>
+                          </div>
+                        </div>
+                      )
+                    }
+                  </>)
+              })}
+              {/* {occurrence.lecture && (
                 <div
                   key={idx + "lecture"}
                   style={{
@@ -134,7 +173,7 @@ const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
                     </div>
                   </div>
                 </div>
-              )}
+              )} */}
             </Fragment>
           );
         })}
