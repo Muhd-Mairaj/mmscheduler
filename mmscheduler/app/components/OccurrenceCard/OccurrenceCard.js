@@ -13,7 +13,7 @@ const OccurrenceCard = ({ onClick, occurrence, isDisabled, isSelected }) => {
         </div>
         <hr />
         
-        {console.log("occurence", occurrence) || occurrence.activities.map((activity, idx) => {
+        {occurrence.activities.map((activity, idx) => {
           return (
             <>
               <div className={classes.activity}>
