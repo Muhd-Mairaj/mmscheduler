@@ -184,6 +184,7 @@
   .leftButtons, .rightButtons {
     flex-direction: column;
     width: 100%;
+    gap: 0;
   }
 
   .buttonColumn {
