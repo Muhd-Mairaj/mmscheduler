@@ -27,6 +27,6 @@ function getCourse(query) {
       .slice(0, 10)
   );
 
-  console.log(filteredData);
+  // console.log(filteredData);
   return filteredData;
 }
