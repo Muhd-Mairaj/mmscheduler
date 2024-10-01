@@ -153,22 +153,57 @@ const Home = () => {
   };
 
   useEffect(() => {
+    const fetchData = async (courses, selected, disabled) => {
+      const tempCourses = await fetch("/api/get-courses-by-ids?query=" + Object.keys(courses).join(","))
+        .then((res) => res.json())
+        .then((data) => data);
+
+
+      const tempSelected = [];
+      selected.forEach((occurrence) => {
+        const course = tempCourses[occurrence.course_id];
+        for (let i = 0; i < course.length; i++) {
+          const courseOccurrence = course[i];
+          if (isSame(courseOccurrence, occurrence)) {
+            tempSelected.push(courseOccurrence);
+          }
+        }
+      })
+
+      const tempDisabled = [];
+      disabled.forEach((occurrence) => {
+        const course = tempCourses[occurrence.course_id];
+        for (let i = 0; i < tempCourses.length; i++) {
+          const courseOccurrence = course[i];
+          if (isSame(courseOccurrence, occurrence)) {
+            tempDisabled.push(courseOccurrence);
+          }
+        }
+      })
+
+      setChosenCourses(tempCourses);
+      setSelectedOccurences(tempSelected);
+      setDisabledOccurences(tempDisabled);
+    };
+
+
+    let courses = {};
+    let selected = [];
+    let disabled = [];
     if (
       localStorage.getItem("selectedOccurences") &&
       localStorage.getItem("disabledOccurences") &&
       localStorage.getItem("courses")
     ) {
-      setSelectedOccurences(
-        JSON.parse(localStorage.getItem("selectedOccurences"))
-      );
-      setDisabledOccurences(
-        JSON.parse(localStorage.getItem("disabledOccurences"))
-      );
-      setChosenCourses(JSON.parse(localStorage.getItem("courses")));
+      selected = JSON.parse(localStorage.getItem("selectedOccurences"));
+      disabled = JSON.parse(localStorage.getItem("disabledOccurences"));
+      courses = JSON.parse(localStorage.getItem("courses"));
     } else {
-      setSelectedOccurences([]);
-      setDisabledOccurences([]);
       localStorage.clear();
+    }
+
+    if (courses && selected && disabled) {
+      fetchData(courses, selected, disabled);
     }
   }, []);
 
@@ -177,7 +212,7 @@ const Home = () => {
     checkClashing(selectedOccurences, chosenCourses);
 
     let totalCredits = 0;
-    for(let i = 0; i < selectedOccurences.length; i++) {
+    for (let i = 0; i < selectedOccurences.length; i++) {
       totalCredits += selectedOccurences[i].credits;
     }
     setCreditsAdded(totalCredits);
