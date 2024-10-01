@@ -1,6 +1,6 @@
 import classes from "./RibbonButton.module.css";
 
-const RibbonButton = ({ children, className, onClick }) => {
+const RibbonButton = ({ children, onClick }) => {
   return (
     <div className={classes.bookmarkRibbon} onClick={onClick}>
       {children}

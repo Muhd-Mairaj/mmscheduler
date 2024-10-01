@@ -14,16 +14,14 @@
     position: fixed;
     top: 150px;
     z-index: 1000;
-  }
-  .bookmarkRibbon {
-    transition: 0.5s;
     border-top: 20px solid var(--primary-color);
     border-bottom: 20px solid var(--secondary-color);
     right: -40px;
-  }
-  .bookmarkRibbon:hover {
-    transition: 0.5s;
+    transition: right 0.5s, filter 0.5s; /* Add transition here */
+}
+
+.bookmarkRibbon:hover {
     right: -15px;
     filter: brightness(80%);
     cursor: pointer;
-  }
+}
