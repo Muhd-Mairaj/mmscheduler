@@ -29,6 +29,23 @@ const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
     return 2 + hourOffset * 2 + halfHourOffset + 1; // Calculate grid row
   };
 
+  const getEventClass = (title) => {
+    title = title.toLowerCase();
+    if (title === "lecture") {
+      return classes.lectureEvent;
+    } else if (title === "tutorial") {
+      return classes.tutorialEvent;
+    } else if (title === "lab") {
+      return classes.labEvent;
+    }
+    else if (title === "online") {
+      return classes.onlineEvent;
+    }
+    else{
+      return classes.otherEvent;
+    }
+  }
+
   return (
     <div className={classes.timetableContainer} ref={ref}>
       <div className={classes.timetableGrid}>
@@ -80,13 +97,17 @@ const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
                               activity.begin_time
                             )} / ${convertTimeToRow(activity.end_time)}`,
                           }}
-                          className={(activity.title !== "tutorial") ? `${classes.lectureEvent} ${classes.eventCard}` : `${classes.tutorialEvent} ${classes.eventCard}`}
+                          className={`${classes.eventCard} ${getEventClass(activity.title)}`}
                         >
                           <div className={classes.eventContent}>
                             <div className={classes.moduleTitle}>
                               #{occurrence.course_id} ({occurrence.occurence})
                               <br />
                               {occurrence.module}
+                            </div>
+                            <hr />
+                            <div className={classes.activityTitle}>
+                              <p>Activity: {activity.title}</p>
                             </div>
                             <hr />
                             <div className={classes.room}>
