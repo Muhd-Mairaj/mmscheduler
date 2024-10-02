@@ -16,6 +16,9 @@
   /* Timetable */
   --lecture-event-color: #906da5;
   --tutorial-event-color: #8dbfe1;
+  --lab-event-color: #e4d173;
+  --online-event-color: #c884d4;
+  --other-event-color: #898989;
 
   /* Navbar */
   --navbar-primary-color: #5e1b8f;
