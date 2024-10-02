@@ -21088,11 +21088,90 @@
           "day": "Monday",
           "room": "ONLINE LECTURE",
           "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "DR. IRENE YONG SEOK CHING"
+          "end_time": "19:00"
         }
       ],
       "mav_name": "BASIC ENTREPRENEURSHIP ENCULTURATION (Only for Year 1 Science Stream & Open to all student's intake 2023/2024 and below)"
+    },
+    {
+      "module": "BASIC ENTREPRENEURSHIP ENCULTURATION",
+      "course_id": "GIG1003",
+      "occurence": "2",
+      "credits": 2,
+      "activities": [
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "ONLINE LECTURE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ],
+      "mav_name": "BASIC ENTREPRENEURSHIP ENCULTURATION (Only for Year 1 Science Stream & Open to all student's intake 2023/2024 and below)"
+    },
+    {
+      "module": "BASIC ENTREPRENEURSHIP ENCULTURATION",
+      "course_id": "GIG1003",
+      "occurence": "3",
+      "credits": 2,
+      "activities": [
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "ONLINE LECTURE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ],
+      "mav_name": "BASIC ENTREPRENEURSHIP ENCULTURATION (Only for Year 1 Science Stream & Open to all student's intake 2023/2024 and below)"
+    },
+    {
+      "module": "BASIC ENTREPRENEURSHIP ENCULTURATION",
+      "course_id": "GIG1003",
+      "occurence": "4",
+      "credits": 2,
+      "activities": [
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "ONLINE LECTURE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ],
+      "mav_name": "BASIC ENTREPRENEURSHIP ENCULTURATION (Only for Year 1 Science Stream & Open to all student's intake 2023/2024 and below)"
+    },
+    {
+      "module": "BASIC ENTREPRENEURSHIP ENCULTURATION",
+      "course_id": "GIG1003",
+      "occurence": "5",
+      "credits": 2,
+      "activities": [
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "ONLINE LECTURE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ],
+      "mav_name": "BASIC ENTREPRENEURSHIP ENCULTURATION (Only for Year 1 Science Stream & Open to all student's intake 2023/2024 and below)"
+    },
+    {
+      "module": "BASIC ENTREPRENEURSHIP ENCULTURATION",
+      "course_id": "GIG1003",
+      "occurence": "6",
+      "credits": 2,
+      "activities": [
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "ONLINE LECTURE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ],
+      "mav_name": "BASIC ENTREPRENEURSHIP ENCULTURATION (Only for Medical Student's)"
     }
   ],
   "GIG1004": [
