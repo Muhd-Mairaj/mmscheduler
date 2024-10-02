@@ -64,21 +64,24 @@
   min-height: 30px;
 }
 
-.lectureEvent,
-.tutorialEvent {
-  padding: 10px;
-  margin: 1px;
-  border-radius: 20px;
-  font-weight: bold;
-  z-index: 3;
-}
-
 .lectureEvent {
   background-color: var(--lecture-event-color) !important;
 }
 
 .tutorialEvent {
   background-color: var(--tutorial-event-color) !important;
+}
+
+.labEvent {
+  background-color: var(--lab-event-color) !important;
+}
+
+.onlineEvent {
+  background-color: var(--online-event-color) !important;
+}
+
+.otherEvent {
+  background-color: var(--other-event-color) !important;
 }
 
 .eventCard {
@@ -91,8 +94,12 @@
   font-size: clamp(6px, 0.8vw, 12px);
   line-height: 1.1;
   overflow: hidden;
-  z-index: 2;
   min-height: 30px;
+  padding: 10px;
+  margin: 1px;
+  border-radius: 20px;
+  font-weight: bold;
+  z-index: 3;
 }
 
 .eventContent {
@@ -151,4 +158,12 @@
   max-height: none;
   overflow: visible;
   border: none !important;
+}
+
+.activityTitle{
+  border: none !important;
+}
+
+.activityTitle p{
+  margin: 0;
 }
