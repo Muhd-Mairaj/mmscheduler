@@ -28,72 +28,54 @@ const isClashing = (course1, course2) => {
     return [null, null];
   };
 
-  // Check if lecture information exists for both courses
-  if (!course1.lecture || !course2.lecture) {
+  // Check if there are activities in both courses
+  if (!course1.activities || !course2.activities) {
     return false;
   }
 
-  // parse lecture1 times
-  const [lecture1Start, lecture1End] = parseTime(
-    course1.lecture.day,
-    course1.lecture.begin_time,
-    course1.lecture.end_time
-  );
+  // Helper function to check for activity clashes
+  function checkActivityClashes(activity1, activity2) {
+    const [activity1Start, activity1End] = parseTime(
+      activity1.day,
+      activity1.begin_time,
+      activity1.end_time
+    );
 
-  // parse lecture2 times
-  const [lecture2Start, lecture2End] = parseTime(
-    course2.lecture.day,
-    course2.lecture.begin_time,
-    course2.lecture.end_time
-  );
+    const [activity2Start, activity2End] = parseTime(
+      activity2.day,
+      activity2.begin_time,
+      activity2.end_time
+    );
 
-  // Check if all necessary lecture times are available
-  if (!lecture1Start || !lecture1End || !lecture2Start || !lecture2End) {
-    return false;
+    // Check if times are valid
+    if (!activity1Start || !activity1End || !activity2Start || !activity2End) {
+      return false;
+    }
+
+    return timesOverlap(activity1Start, activity1End, activity2Start, activity2End);
   }
 
-  // parse tutorial1 times
-  const [tutorial1Start, tutorial1End] = course1.tutorial
-    ? parseTime(
-        course1.tutorial.day,
-        course1.tutorial.begin_time,
-        course1.tutorial.end_time
-      )
-    : [null, null];
+  // Loop through all combinations of activities
+  for (const activity1 of course1.activities) {
+    for (const activity2 of course2.activities) {
+      // Check if both activities have the same day
+      if (activity1.day === activity2.day) {
+        // Check if activities clash
+        if (checkActivityClashes(activity1, activity2)) {
+          return true; // Clash found
+        }
+      }
+    }
+  }
 
-  // parse tutorial2 times
-  const [tutorial2Start, tutorial2End] = course2.tutorial
-    ? parseTime(
-        course2.tutorial.day,
-        course2.tutorial.begin_time,
-        course2.tutorial.end_time
-      )
-    : [null, null];
+  return false; // No clash found
 
-  // check all combinations of tuturial and lecture clash
-  const lectureClash = timesOverlap(
-    lecture1Start,
-    lecture1End,
-    lecture2Start,
-    lecture2End
-  );
-  const tutorialLectureClash = course1.tutorial
-    ? timesOverlap(tutorial1Start, tutorial1End, lecture2Start, lecture2End)
-    : false;
-  const lectureTutorialClash = course2.tutorial
-    ? timesOverlap(lecture1Start, lecture1End, tutorial2Start, tutorial2End)
-    : false;
-  const tutorialClash =
-    course1.tutorial && course2.tutorial
-      ? timesOverlap(tutorial1Start, tutorial1End, tutorial2Start, tutorial2End)
-      : false;
-
-  return (
-    lectureClash ||
-    tutorialLectureClash ||
-    lectureTutorialClash ||
-    tutorialClash
-  );
+  // return (
+  //   lectureClash ||
+  //   tutorialLectureClash ||
+  //   lectureTutorialClash ||
+  //   tutorialClash
+  // );
 };
 
 export default isClashing;
