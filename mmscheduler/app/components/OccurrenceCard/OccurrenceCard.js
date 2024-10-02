@@ -17,6 +17,9 @@ const OccurrenceCard = ({ onClick, occurrence, isDisabled, isSelected }) => {
           return (
             <>
               <div className={classes.activity}>
+                <div className={classes.activityTitle}>
+                  <p>({activity.title})</p>
+                </div>
                 <div className={classes.day}>
                   <p>{activity.day}</p>
                 </div>
