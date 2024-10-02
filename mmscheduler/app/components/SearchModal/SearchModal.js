@@ -45,7 +45,7 @@ const SearchModal = ({
   useEffect(() => {
     const timer = setTimeout(() => {
       setDebounceValue(searchValue);
-    }, 500);
+    }, 400);
 
     return () => {
       clearInterval(timer);
