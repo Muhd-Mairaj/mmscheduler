@@ -10652,8 +10652,15 @@
       "module": "COMPUTER AIDED GRAPHIC DESIGN IN PLANNING",
       "course_id": "BID1009",
       "occurence": "1",
-      "credits": 2,
+      "credits": 3,
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "MAKMAL KOMPUTER 1 FAB",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        },
         {
           "title": "tutorial",
           "day": "Tuesday",
