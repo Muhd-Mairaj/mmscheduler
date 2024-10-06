@@ -62,10 +62,15 @@ const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
                 style={{
                   gridColumn: timeIdx + 2,
                   gridRow: dayIdx + 2,
+                  borderRight: timeIdx % 2 !== 0
+                    ? "1px solid rgba(204, 204, 204, 0.5)"
+                    : "1px solid transparent",
+                  borderBottom: "1px solid rgba(204, 204, 204, 0.5)",
                 }}
                 className={classes.timeSlot}
               ></div>
             ))}
+
           </Fragment>
         ))}
         {selectedOccurrences.map((occurrence, idx) => (
