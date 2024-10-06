@@ -6,7 +6,6 @@ import RoundedButton from "../RoundedButton/RoundedButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagicWandSparkles } from "@fortawesome/free-solid-svg-icons";
 import classes from "./AIModal.module.css";
-import isClashing from "@/app/functions/Home/isClashing";
 
 const AIModal = ({
   modal,
@@ -15,6 +14,8 @@ const AIModal = ({
   handleUpdateChosenCourses,
   handleErrorMessage,
 }) => {
+  const [positiveTutorSelections, setPositiveTutorSelections] = useState({});
+  const [negativeTutorSelections, setNegativeTutorSelections] = useState({});
   const [tutorSelections, setTutorSelections] = useState({});
   const [daysOff, setDaysOff] = useState([]);
   const [prioritizeLecturers, setPrioritizeLecturers] = useState(true);
@@ -31,123 +32,127 @@ const AIModal = ({
     return daysOff.map((option) => option.value);
   };
 
-  const checkClashing = (selectedOccurrences) => {
-    for (let i = 0; i < selectedOccurrences.length; i++) {
-      for (let j = i + 1; j < selectedOccurrences.length; j++) {
-        if (isClashing(selectedOccurrences[i], selectedOccurrences[j])) {
-          return true;
-        }
-      }
-    }
-    return false;
-  };
+  const handleGenerateSchedule = () => {
+    setIsLoading(true);
 
-  const handleGenerateSchedule = async () => {
-    try {
-      setIsLoading(true);
-      console.log("Generating schedule...");
-      console.log(
-        "Tutor selections:",
-        JSON.stringify(formatTutorSelections(tutorSelections))
-      );
-      console.log("Days off:", formatDaysOff(daysOff).toString());
-      console.log("Prioritize lecturers:", prioritizeLecturers);
+    const negative_days = formatDaysOff(daysOff);
+    const positive_tutors = formatTutorSelections(positiveTutorSelections);
+    const negative_tutors = formatTutorSelections(negativeTutorSelections);
+    const lecturers_more_important = prioritizeLecturers;
+    const courses = chosenCourses;
 
-      const response = await fetch("/api/generate-schedule", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          preferred_lecturers: JSON.stringify(
-            formatTutorSelections(tutorSelections)
-          ),
-          preferred_days_off: formatDaysOff(daysOff).toString(),
-          lecturers_more_important: prioritizeLecturers,
-          daily_preference: "more spaced out",
-          courses: JSON.stringify(chosenCourses),
-        }),
-      });
+    // Instantiate the Web Worker correctly
+    const worker = new Worker(new URL('../../functions/AIModal/evaluateScheduleWorker.js', import.meta.url));
 
-      if (!response.ok) {
-        throw new Error("Failed to generate schedule");
+    worker.postMessage({
+      courses,
+      positiveTutors: positive_tutors,
+      negativeTutors: negative_tutors,
+      negativeDays: negative_days,
+      prioritizeLecturers: lecturers_more_important,
+    });
+
+    // Handle the response from the worker
+    worker.onmessage = function (e) {
+      const generatedSchedule = e.data;
+
+      if (generatedSchedule) {
+        handleUpdateChosenCourses(generatedSchedule);
+        console.log("Generated schedule successfully", generatedSchedule);
+        toggle();
+      } else {
+        console.error("Failed to generate schedule");
+        handleErrorMessage("Failed to generate schedule, courses may be clashing");
       }
 
-      const data = await response.json();
-
-      if (!data?.llmAnswer?.value) {
-        throw new Error("Invalid response format");
-      }
-
-      const returnedOccurrences = JSON.parse(data.llmAnswer.value).data;
-      console.log("returnedOccurrences:", returnedOccurrences);
-
-      const selectedOccurrences = returnedOccurrences.map(
-        (returnedOccurrence) => {
-          const availableOccurrences =
-            chosenCourses[returnedOccurrence.course_id];
-          if (!availableOccurrences) {
-            throw new Error(
-              `No available occurrences for course ${returnedOccurrence.course_id}`
-            );
-          }
-          const selectedOccurrence = availableOccurrences.find(
-            (availableOccurrence) =>
-              availableOccurrence.occurence === returnedOccurrence.occurrence
-          );
-          if (!selectedOccurrence) {
-            throw new Error(
-              `No matching occurrence found for ${returnedOccurrence.course_id}`
-            );
-          }
-          return selectedOccurrence;
-        }
-      );
-
-      if (checkClashing(selectedOccurrences)) {
-        throw new Error("Clashing modules detected. Please try again.");
-      }
-
-      handleUpdateChosenCourses(selectedOccurrences);
-      console.log("Generated schedule successfully");
-    } catch (error) {
-      console.error("Error in handleGenerateSchedule:", error.message);
-      handleErrorMessage(error.message);
-    } finally {
+      // Stop loading
       setIsLoading(false);
-      toggle();
-    }
+    };
+
+    worker.onerror = function (error) {
+      console.error("Worker error:", error.message);
+      handleErrorMessage(error.message);
+      setIsLoading(false);
+    };
+
+    console.log("preferred_days_off", negative_days);
+    console.log("positive_tutors", positive_tutors);
+    console.log("negative_tutors", negative_tutors);
+    console.log("lecturers_more_important", lecturers_more_important);
+    console.log("courses", courses);
   };
 
   useEffect(() => {
-    if (chosenCourses) {
+    if (chosenCourses && Object.keys(chosenCourses).length > 0) {
       const newTutorSelections = Object.entries(chosenCourses).reduce(
-        (acc, [key, value]) => {
-          const tutors = [
-            ...new Set(
-              value.flatMap((occurrence) =>
-                [occurrence.lecture?.tutor, occurrence.tutorial?.tutor].filter(
-                  Boolean
+        (acc, [key, courseOccurrences]) => {
+          if (courseOccurrences && courseOccurrences.length > 0) {
+            const tutors = [
+              ...new Set(
+                courseOccurrences.flatMap((occurrence) =>
+                  occurrence.activities.map((activity) => activity.tutor)
                 )
-              )
-            ),
-          ];
+              ),
+            ];
 
-          acc[key] = {
-            options: tutors.map((tutor) => ({ value: tutor, label: tutor })),
-            selected: [],
-          };
+            acc[key] = tutors.map((tutor) => ({ value: tutor, label: tutor }));
+          }
           return acc;
         },
         {}
       );
 
       setTutorSelections(newTutorSelections);
+      setPositiveTutorSelections(
+        Object.keys(newTutorSelections).reduce((acc, key) => {
+          acc[key] = { options: newTutorSelections[key], selected: [] };
+          return acc;
+        }, {})
+      );
+      setNegativeTutorSelections(
+        Object.keys(newTutorSelections).reduce((acc, key) => {
+          acc[key] = { options: newTutorSelections[key], selected: [] };
+          return acc;
+        }, {})
+      );
+    } else {
+      setTutorSelections({});
+      setPositiveTutorSelections({});
+      setNegativeTutorSelections({});
     }
   }, [chosenCourses]);
 
-  const handleTutorSelectChange = (selectedOptions, key) => {
-    setTutorSelections((prev) => ({
+  const handlePositiveTutorSelectChange = (selectedOptions, key) => {
+    setPositiveTutorSelections((prev) => ({
       ...prev,
       [key]: { ...prev[key], selected: selectedOptions },
+    }));
+
+    setNegativeTutorSelections((prev) => ({
+      ...prev,
+      [key]: {
+        ...prev[key],
+        options: tutorSelections[key].filter(
+          (option) => !selectedOptions.some((selected) => selected.value === option.value)
+        ),
+      },
+    }));
+  };
+
+  const handleNegativeTutorSelectChange = (selectedOptions, key) => {
+    setNegativeTutorSelections((prev) => ({
+      ...prev,
+      [key]: { ...prev[key], selected: selectedOptions },
+    }));
+
+    setPositiveTutorSelections((prev) => ({
+      ...prev,
+      [key]: {
+        ...prev[key],
+        options: tutorSelections[key].filter(
+          (option) => !selectedOptions.some((selected) => selected.value === option.value)
+        ),
+      },
     }));
   };
 
@@ -169,12 +174,12 @@ const AIModal = ({
 
   return (
     <>
-      <p className={classes.aiNote}>
+      {/* {<p className={classes.aiNote}>
         AI scheduling under maintenance due to high demand.
-      </p>
+      </p>} */}
       <RoundedButton
         className={`${classes.aiSchedulingButton} magicButton button`}
-        // onClick={toggle}
+        onClick={toggle}
       >
         <FontAwesomeIcon
           className={classes.buttonIcon}
@@ -187,24 +192,48 @@ const AIModal = ({
         <ModalHeader toggle={toggle}>AI Scheduling</ModalHeader>
         <ModalBody>
           <div
-            className={`${classes.AIModalContent} ${
-              isLoading ? classes.blurBackground : ""
-            }`}
+            className={`${classes.AIModalContent} ${isLoading ? classes.blurBackground : ""
+              }`}
           >
             <section>
               <h3>Select desired tutors:</h3>
               <div className={classes.tutorSelectionsContainer}>
-                {Object.entries(tutorSelections).map(
+                {Object.entries(positiveTutorSelections).map(
                   ([key, { options, selected }]) => (
                     <div key={key} className={classes.selectContainer}>
-                      <label htmlFor={key}>{key}</label>
+                      <label htmlFor={`positive-${key}`}>
+                        {key} - {chosenCourses[key] && chosenCourses[key][0]?.module}
+                      </label>
                       <Select
-                        id={key}
+                        id={`lecturers - ${key}`}
                         isMulti
                         options={options}
                         value={selected}
                         onChange={(selectedOptions) =>
-                          handleTutorSelectChange(selectedOptions, key)
+                          handlePositiveTutorSelectChange(selectedOptions, key)
+                        }
+                        className={classes.multiSelect}
+                        isSearchable={false}
+                      />
+                    </div>
+                  )
+                )}
+              </div>
+              <h3>Select undesired tutors:</h3>
+              <div className={classes.tutorSelectionsContainer}>
+                {Object.entries(negativeTutorSelections).map(
+                  ([key, { options, selected }]) => (
+                    <div key={key} className={classes.selectContainer}>
+                      <label htmlFor={`negative-${key}`}>
+                        {key} - {chosenCourses[key] && chosenCourses[key][0]?.module}
+                      </label>
+                      <Select
+                        id={`negative-${key}`}
+                        isMulti
+                        options={options}
+                        value={selected}
+                        onChange={(selectedOptions) =>
+                          handleNegativeTutorSelectChange(selectedOptions, key)
                         }
                         className={classes.multiSelect}
                         isSearchable={false}
