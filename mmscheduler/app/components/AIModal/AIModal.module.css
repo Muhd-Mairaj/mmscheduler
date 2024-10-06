@@ -9,7 +9,8 @@
 .selectContainer label {
   display: block;
   margin-bottom: 0.5rem;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 0.8rem;
 }
 
 .tutorSelectionsContainer {
@@ -29,8 +30,8 @@
 }
 
 .aiSchedulingButton{
-  margin-top: 0;
-  filter: brightness(80%);
+  margin-top: 10px;
+  /* filter: brightness(80%); */
 }
 
 .aiNote{
