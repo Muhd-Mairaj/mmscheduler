@@ -36,28 +36,7 @@ const Home = () => {
     setAlertText(message);
   };
 
-  const handleUpdateChosenCourses = (newChosenCoursesData) => {
-    handleResetTable();
-
-    let newSelectedOccurrences = [];
-
-    for (let i = 0; i < newChosenCoursesData.length; i++) {
-      const chosenOccurrence = newChosenCoursesData[i];
-      console.log(chosenOccurrence);
-      const course = chosenCourses[chosenOccurrence.course_id];
-      console.log(course);
-      for (let j = 0; j < course.length; j++) {
-        const occurrence = course[j];
-        if (
-          String(occurrence.occurence) === String(chosenOccurrence.occurrence)
-        ) {
-          console.log("Found matching occurrence");
-          newSelectedOccurrences.push(occurrence);
-          // Don't break here, allow multiple matches per course
-        }
-      }
-    }
-
+  const handleUpdateChosenCourses = (newSelectedOccurrences) => {
     // Update all selected occurrences at once
     setSelectedOccurences(newSelectedOccurrences);
   };
