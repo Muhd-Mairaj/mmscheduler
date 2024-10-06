@@ -60,7 +60,7 @@ const AIModal = ({
         handleUpdateChosenCourses(generatedSchedule);
         console.log("Generated schedule successfully", generatedSchedule);
         toggle();
-      }else{
+      } else {
         console.error("Failed to generate schedule");
         handleErrorMessage("Failed to generate schedule, courses may be clashing");
       }
@@ -83,18 +83,20 @@ const AIModal = ({
   };
 
   useEffect(() => {
-    if (chosenCourses) {
+    if (chosenCourses && Object.keys(chosenCourses).length > 0) {
       const newTutorSelections = Object.entries(chosenCourses).reduce(
         (acc, [key, courseOccurrences]) => {
-          const tutors = [
-            ...new Set(
-              courseOccurrences.flatMap((occurrence) =>
-                occurrence.activities.map((activity) => activity.tutor)
-              )
-            ),
-          ];
+          if (courseOccurrences && courseOccurrences.length > 0) {
+            const tutors = [
+              ...new Set(
+                courseOccurrences.flatMap((occurrence) =>
+                  occurrence.activities.map((activity) => activity.tutor)
+                )
+              ),
+            ];
 
-          acc[key] = tutors.map((tutor) => ({ value: tutor, label: tutor }));
+            acc[key] = tutors.map((tutor) => ({ value: tutor, label: tutor }));
+          }
           return acc;
         },
         {}
@@ -113,6 +115,10 @@ const AIModal = ({
           return acc;
         }, {})
       );
+    } else {
+      setTutorSelections({});
+      setPositiveTutorSelections({});
+      setNegativeTutorSelections({});
     }
   }, [chosenCourses]);
 
@@ -195,7 +201,9 @@ const AIModal = ({
                 {Object.entries(positiveTutorSelections).map(
                   ([key, { options, selected }]) => (
                     <div key={key} className={classes.selectContainer}>
-                      <label htmlFor={`positive-${key}`}>{key} - {chosenCourses[key][0]?.module}</label>
+                      <label htmlFor={`positive-${key}`}>
+                        {key} - {chosenCourses[key] && chosenCourses[key][0]?.module}
+                      </label>
                       <Select
                         id={`lecturers - ${key}`}
                         isMulti
@@ -216,7 +224,9 @@ const AIModal = ({
                 {Object.entries(negativeTutorSelections).map(
                   ([key, { options, selected }]) => (
                     <div key={key} className={classes.selectContainer}>
-                      <label htmlFor={`negative-${key}`}>{key} - {chosenCourses[key][0]?.module}</label>
+                      <label htmlFor={`negative-${key}`}>
+                        {key} - {chosenCourses[key] && chosenCourses[key][0]?.module}
+                      </label>
                       <Select
                         id={`negative-${key}`}
                         isMulti
