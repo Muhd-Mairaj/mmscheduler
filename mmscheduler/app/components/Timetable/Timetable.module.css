@@ -56,7 +56,6 @@
 }
 
 .timeSlot {
-  border-right: 1px solid rgba(204, 204, 204, 0.5); /* More translucent */
   border-bottom: 1px solid rgba(204, 204, 204, 0.5); /* More translucent */
 }
 
