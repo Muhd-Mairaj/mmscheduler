@@ -1,7 +1,33 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import classes from "./Timetable.module.css";
+import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGear } from "@fortawesome/free-solid-svg-icons";
+import { Dropdown, DropdownItem, DropdownMenu, DropdownToggle } from "reactstrap";
 
 const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
+
+  const [settingsDropdownOpen, setSettingsDropdownOpen] = useState(false);
+  const [showActivity, setShowActivity] = useState(true);
+  const [showTutor, setShowTutor] = useState(true);
+  const [showRoomAndTime, setShowRoomAndTime] = useState(true);
+
+  const toggleShowActivity = () => {
+    setShowActivity(!showActivity);
+  };
+
+  const toggleShowTutor = () => {
+    setShowTutor(!showTutor);
+  }
+
+  const toggleShowRoomAndTime = () => {
+    setShowRoomAndTime(!showRoomAndTime);
+  }
+
+  const toggleSettingsDropdown = () => {
+    setSettingsDropdownOpen(!settingsDropdownOpen);
+  };
+
   const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
   const times = [
     "8:00 AM", "9:00 AM", "10:00 AM", "11:00 AM", "12:00 PM",
@@ -32,7 +58,33 @@ const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
   return (
     <div className={classes.timetableContainer} ref={ref}>
       <div className={classes.timetableGrid}>
-        <div className={classes.cornerCell}></div>
+        <div className={classes.cornerCell}>
+          <Dropdown isOpen={settingsDropdownOpen} toggle={() => { toggleSettingsDropdown() }}>
+            <DropdownToggle className={classes.dropdownToggle}>
+              <FontAwesomeIcon icon={faGear} className={classes.settingsIcon} />
+            </DropdownToggle>
+            <DropdownMenu container="body">
+              <DropdownItem toggle={false} active={false} className={classes.optionItem}>
+                <div className={classes.toggleOption}>
+                  <p>Show Activity</p>
+                  <ToggleSwitch isChecked={showActivity} onToggle={toggleShowActivity} className={classes.optionsToggle} />
+                </div>
+              </DropdownItem>
+              <DropdownItem toggle={false} active={false} className={classes.optionItem}>
+                <div className={classes.toggleOption}>
+                  <p>Show Room & Time</p>
+                  <ToggleSwitch isChecked={showRoomAndTime} onToggle={toggleShowRoomAndTime} className={classes.optionsToggle} />
+                </div>
+              </DropdownItem>
+              <DropdownItem toggle={false} active={false} className={classes.optionItem}>
+                <div className={classes.toggleOption}>
+                  <p>Show Tutor</p>
+                  <ToggleSwitch isChecked={showTutor} onToggle={toggleShowTutor} className={classes.optionsToggle} />
+                </div>
+              </DropdownItem>
+            </DropdownMenu>
+          </Dropdown>
+        </div>
         {times.map((time, timeIdx) => (
           <div
             key={timeIdx}
@@ -91,21 +143,21 @@ const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
                       <br />
                       {occurrence.module}
                     </div>
-                    <hr />
-                    <div className={classes.activityTitle}>
-                      <p>Activity: {activity.title}</p>
-                    </div>
-                    <hr />
-                    <div className={classes.room}>
+                    {showActivity && <div className={classes.activityTitle}>
+                      <hr />
+                      <p>Activity: {activity.title.toUpperCase()}</p>
+                    </div>}
+                    {showRoomAndTime && <div className={classes.room}>
+                      <hr />
                       {activity.room}
-                    </div>
-                    <div className={classes.timeInfo}>
-                      ({activity.begin_time} - {activity.end_time})
-                    </div>
-                    <hr />
-                    <div className={classes.tutor}>
+                      <div className={classes.timeInfo}>
+                        ({activity.begin_time} - {activity.end_time})
+                      </div>
+                    </div>}
+                    {showTutor && <div className={classes.tutor}>
+                      <hr />
                       {activity.tutor ? activity.tutor : ""}
-                    </div>
+                    </div>}
                   </div>
                 </div>
               )

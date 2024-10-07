@@ -13,7 +13,63 @@
   position: relative;
 }
 
+.dropdownToggle {
+  background-color: transparent !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.settingsIcon {
+  background-color: #d4d4d4;
+  color: #646464;
+  padding: 8px;
+  border-radius: 10px;
+  width: 15px;
+  height: 15px;
+  transition: filter 0.1s ease;
+}
+
+.settingsIcon:hover {
+  filter: brightness(0.8);
+}
+
+.optionItem:hover {
+  background-color: unset !important;
+  color: black !important;
+
+}
+
+.toggleOption{
+  display: flex;
+  gap: 10px;
+}
+
+.toggleOption p{
+  margin: 0;
+  width: 150px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+.optionsToggle .slider:before {
+  position: absolute;
+  content: "";
+  height: 10px !important;
+  width: 10px !important;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
 .cornerCell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-column: 1;
   grid-row: 1;
   background-color: #e7e7e7;
@@ -117,7 +173,6 @@
   hyphens: auto;
   overflow-wrap: break-word;
   max-height: none;
-  overflow: visible;
   margin-bottom: 4px;
   font-size: clamp(12px, 0.4vw, 7px); /* Same size as tutor */
   flex-grow: 1;
@@ -144,6 +199,7 @@
   overflow-wrap: break-word;
   max-height: none;
   overflow: visible;
+  margin-bottom: 5px;
 }
 
 .activityTitle p {
