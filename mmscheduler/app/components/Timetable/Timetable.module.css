@@ -18,6 +18,8 @@
   border: none !important;
   margin: 0 !important;
   padding: 0 !important;
+  height: 30px !important;
+  width: 30px !important;
 }
 
 .settingsIcon {
@@ -37,7 +39,6 @@
 .optionItem:hover {
   background-color: unset !important;
   color: black !important;
-
 }
 
 .toggleOption{
