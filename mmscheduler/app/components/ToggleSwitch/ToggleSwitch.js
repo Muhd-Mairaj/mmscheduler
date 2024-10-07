@@ -1,9 +1,9 @@
 import React from 'react';
 import classes from './ToggleSwitch.module.css';
 
-const ToggleSwitch = ({ isChecked, onToggle }) => {
+const ToggleSwitch = ({ isChecked, onToggle, className }) => {
   return (
-    <label className={classes.switch}>
+    <label className={`${classes.switch} ${className}`}>
       <input
         type="checkbox"
         checked={isChecked}
