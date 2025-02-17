@@ -1,0 +1,10 @@
+.announcementMessage {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.announcementMessage h3 {
+  text-align: center;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  padding-bottom: 20px;
+}

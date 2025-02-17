@@ -49,10 +49,10 @@ const SearchModal = ({
 
     return () => {
       clearInterval(timer);
-    }
+    };
   }, [searchValue]);
 
-  // 
+  //
   useEffect(() => {
     if (debounceValue) {
       const fetchData = async () => {
@@ -64,8 +64,7 @@ const SearchModal = ({
       };
       fetchData();
     }
-  }, [debounceValue, chosenCourses])
-
+  }, [debounceValue, chosenCourses]);
 
   return (
     <div>
@@ -80,8 +79,8 @@ const SearchModal = ({
             value={searchValue}
             placeholder={"Search Module"}
           />
-          <div className={classes.listItems}>
-            {Object.keys(data).length > 0 && searchValue.length > 0 ? (
+          {Object.keys(data).length > 0 && searchValue.length > 0 ? (
+            <div className={classes.listItems}>
               <ul className={classes.modalList}>
                 {Object.entries(data).map(([key, value], index) => (
                   <ModalCard
@@ -91,21 +90,21 @@ const SearchModal = ({
                   />
                 ))}
               </ul>
-            ) : (
-              <div className={classes.noResults}>
-                <FontAwesomeIcon
-                  className={classes.noResultsIcon}
-                  icon={searchValue.length === 0 ? faBook : faSearch}
-                  size="2x"
-                />
-                <h1 className={classes.noResultsHeader}>
-                  {searchValue.length === 0
-                    ? "Find Your Courses!"
-                    : "No Results Found!"}
-                </h1>
-              </div>
-            )}
-          </div>
+            </div>
+          ) : (
+            <div className={classes.noResults}>
+              <FontAwesomeIcon
+                className={classes.noResultsIcon}
+                icon={searchValue.length === 0 ? faBook : faSearch}
+                size="2x"
+              />
+              <h1 className={classes.noResultsHeader}>
+                {searchValue.length === 0
+                  ? "Find Your Courses!"
+                  : "No Results Found!"}
+              </h1>
+            </div>
+          )}
         </ModalBody>
         <ModalFooter>
           <RoundedButton
