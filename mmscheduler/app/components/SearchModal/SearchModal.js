@@ -45,7 +45,7 @@ const SearchModal = ({
       <RibbonButton onClick={toggle}>
         <FontAwesomeIcon icon={faPlus} className={classes.addModuleIcon} />
       </RibbonButton>
-      <Modal isOpen={modal} toggle={toggle}>
+      <Modal isOpen={modal} toggle={toggle} centered>
         <ModalHeader toggle={toggle}>Add modules</ModalHeader>
         <ModalBody>
           <Searchbar
@@ -53,30 +53,32 @@ const SearchModal = ({
             value={searchValue}
             placeholder={"Search Module"}
           />
-          {Object.keys(data).length > 0 && searchValue.length > 0 ? (
-            <ul className={classes.modalList}>
-              {Object.entries(data).map(([key, value], index) => (
-                <ModalCard
-                  key={index}
-                  item={{ key, value }}
-                  onClick={handleModuleSelection}
+          <div className={classes.listItems}>
+            {Object.keys(data).length > 0 && searchValue.length > 0 ? (
+              <ul className={classes.modalList}>
+                {Object.entries(data).map(([key, value], index) => (
+                  <ModalCard
+                    key={index}
+                    item={{ key, value }}
+                    onClick={handleModuleSelection}
+                  />
+                ))}
+              </ul>
+            ) : (
+              <div className={classes.noResults}>
+                <FontAwesomeIcon
+                  className={classes.noResultsIcon}
+                  icon={searchValue.length === 0 ? faBook : faSearch}
+                  size="2x"
                 />
-              ))}
-            </ul>
-          ) : (
-            <div className={classes.noResults}>
-              <FontAwesomeIcon
-                className={classes.noResultsIcon}
-                icon={searchValue.length === 0 ? faBook : faSearch}
-                size="2x"
-              />
-              <h1 className={classes.noResultsHeader}>
-                {searchValue.length === 0
-                  ? "Find Your Courses!"
-                  : "No Results Found!"}
-              </h1>
-            </div>
-          )}
+                <h1 className={classes.noResultsHeader}>
+                  {searchValue.length === 0
+                    ? "Find Your Courses!"
+                    : "No Results Found!"}
+                </h1>
+              </div>
+            )}
+          </div>
         </ModalBody>
         <ModalFooter>
           <RoundedButton

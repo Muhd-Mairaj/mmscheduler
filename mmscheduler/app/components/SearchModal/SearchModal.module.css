@@ -9,6 +9,11 @@
 
 .modalList {
   padding: 0;
+  height: 60vh;
+}
+
+.listItems{
+  overflow-y: auto;
 }
 
 .noResults {
@@ -16,7 +21,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 70vh;
+  height: 60vh;
 }
 
 .noResultsIcon {

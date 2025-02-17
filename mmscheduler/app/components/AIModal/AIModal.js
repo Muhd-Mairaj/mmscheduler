@@ -183,7 +183,7 @@ const AIModal = ({
         <span className={classes.buttonText}>AI Scheduling</span>
       </RoundedButton>
 
-      <Modal isOpen={modal} toggle={toggle}>
+      <Modal isOpen={modal} toggle={toggle} centered>
         <ModalHeader toggle={toggle}>AI Scheduling</ModalHeader>
         <ModalBody>
           <div
