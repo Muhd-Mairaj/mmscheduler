@@ -1,87 +1,146 @@
 .timetableContainer {
-  width: 100%; /* Full width on smaller screens */
-  overflow-x: auto; /* Horizontal scroll only for the timetable */
+  width: 100%;
+  overflow-x: auto;
 }
 
 .timetableGrid {
-    min-width: 1000px; /* Minimum width for the timetable itself */
-    display: grid;
-    grid-template-columns: auto repeat(5, 1fr);
-    grid-template-rows: auto repeat(25, minmax(30px, auto));
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
-    position: relative;
-  }
-.timetableGrid > div {
-  border: none;
+  min-width: 1050px;
+  display: grid;
+  grid-template-columns: auto repeat(24, minmax(40px, 1fr)); /* 24 half-hour slots */
+  grid-template-rows: auto repeat(5, minmax(100px, auto)); /* 5 days + header */
+  border: 1px solid rgba(204, 204, 204, 0.5); /* Light, translucent border */
+  background-color: #f9f9f9;
+  position: relative;
 }
 
-.timetableGrid div {
-  display: flex;
-  border: 1px solid #e6e6e6;
-  font-size: 14px;
+.dropdownToggle {
+  background-color: transparent !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 30px !important;
+  width: 30px !important;
 }
 
-.timetableGrid div {
+.settingsIcon {
+  background-color: #d4d4d4;
+  color: #646464;
+  padding: 8px;
+  border-radius: 10px;
+  width: 15px;
+  height: 15px;
+  transition: filter 0.1s ease;
+}
+
+.settingsIcon:hover {
+  filter: brightness(0.8);
+}
+
+.optionItem:hover {
+  background-color: unset !important;
+  color: black !important;
+}
+
+.toggleOption{
   display: flex;
-  border: 1px solid #e6e6e6;
-  font-size: 14px;
+  gap: 10px;
+}
+
+.toggleOption p{
+  margin: 0;
+  width: 150px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  font-size: 1rem;
+  overflow: hidden;
+}
+
+.optionsToggle .slider:before {
+  position: absolute;
+  content: "";
+  height: 10px !important;
+  width: 10px !important;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+.cornerCell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1;
+  grid-row: 1;
+  background-color: #e7e7e7;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
 }
 
 .timetableHeader {
   display: flex;
   justify-content: center;
-  align-items: center;
-  font-size: clamp(10px, 1.2vw, 16px);
-  font-weight: bold;
-  padding: 15px;
+  align-items: flex-end; /* Align text at the bottom */
+  font-size: clamp(10px, 1vw, 12px);
+  font-weight: 600;
+  padding: 10px;
   background-color: #e7e7e7;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.5); /* More translucent */
+  border-right: 1px solid rgba(204, 204, 204, 0.5); /* More translucent */
   z-index: 2;
-  min-height: 30px;
+  min-height: 50px;
+}
+
+.daySlot {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px 10px;
+  font-size: clamp(10px, 1vw, 14px); /* Increased font size */
+  font-weight: bold;
+  color: #333;
+  border-right: 1px solid rgba(204, 204, 204, 0.5); /* More translucent */
+  border-bottom: 2px solid rgba(204, 204, 204, 0.5); /* More translucent */
+  background-color: #e7e7e7;
+  z-index: 2;
+  min-width: 60px;
+}
+
+.dayRow {
+  display: contents;
+  border-bottom: 2px solid rgba(204, 204, 204, 0.5); /* More translucent */
 }
 
 .timeSlot {
-  display: flex;
-  justify-content: end;
-  padding: 1px 5px 0 15px;
-  font-size: clamp(8px, 1vw, 12px);
-  color: #777;
-  height: 100%;
-  border-right: 1px solid #ddd;
-  border-radius: 0px;
-  z-index: 2;
-  min-height: 30px;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.5); /* More translucent */
 }
 
-.rowLine {
-  background-color: #f9f9f9;
-  height: 0.1px;
-  z-index: 1;
-}
-
-.rowLine:last-of-type {
-  min-height: 30px;
+.lectureEvent,
+.tutorialEvent,
+.labEvent,
+.onlineEvent,
+.otherEvent {
+  margin: 3px; /* Add margin to create space between events */
+  padding: 6px; /* Maintain padding for internal content */
+  border-radius: 10px;
+  box-sizing: border-box; /* Ensure padding and margin stay within the grid cell */
 }
 
 .lectureEvent {
-  background-color: var(--lecture-event-color) !important;
+  background-color: var(--lecture-event-color, #4caf50);
 }
-
 .tutorialEvent {
-  background-color: var(--tutorial-event-color) !important;
+  background-color: var(--tutorial-event-color, #2196f3);
 }
-
 .labEvent {
-  background-color: var(--lab-event-color) !important;
+  background-color: var(--lab-event-color, #ff9800);
 }
-
 .onlineEvent {
-  background-color: var(--online-event-color) !important;
+  background-color: var(--online-event-color, #9c27b0);
 }
-
 .otherEvent {
-  background-color: var(--other-event-color) !important;
+  background-color: var(--other-event-color, #607d8b);
 }
 
 .eventCard {
@@ -89,17 +148,16 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 100%;
-  box-sizing: border-box;
-  font-size: clamp(6px, 0.8vw, 12px);
+  width: calc(100% - 6px); /* Subtract margin to keep it within the grid */
+  height: calc(100% - 6px); /* Subtract margin to keep it within the grid */
+  box-sizing: border-box; /* Ensure padding and margin stay within the grid cell */
+  font-size: clamp(12px, 0.4vw, 7px);
   line-height: 1.1;
   overflow: hidden;
-  min-height: 30px;
-  padding: 10px;
-  margin: 1px;
-  border-radius: 20px;
+  padding: 6px;
   font-weight: bold;
   z-index: 3;
+  gap: 4px; /* Space between internal elements */
 }
 
 .eventContent {
@@ -108,19 +166,16 @@
   justify-content: flex-start;
   flex-grow: 1;
   min-height: 0;
-  border: none !important;
   overflow: hidden;
 }
 
 .moduleTitle {
-  border: none !important;
   word-break: break-word;
   hyphens: auto;
   overflow-wrap: break-word;
   max-height: none;
-  overflow: visible;
-  margin-bottom: 2px;
-  font-size: clamp(3px, 0.5vw, 8px);
+  margin-bottom: 4px;
+  font-size: clamp(12px, 0.4vw, 7px); /* Same size as tutor */
   flex-grow: 1;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -128,26 +183,14 @@
 }
 
 .timeInfo {
-  font-size: clamp(3px, 0.2vw, 4px);
+  font-size: clamp(12px, 0.4vw, 7px); /* Same size as tutor */
   white-space: normal;
   word-break: break-word;
   overflow: hidden;
   text-overflow: ellipsis;
-  border: none !important;
 }
 
-.room {
-  font-size: clamp(12px, 0.4vw, 7px) !important;
-  margin-top: auto;
-  padding-top: 2px;
-  word-break: break-word;
-  hyphens: auto;
-  overflow-wrap: break-word;
-  max-height: none;
-  overflow: visible;
-  border: none !important;
-}
-
+.room,
 .tutor {
   font-size: clamp(12px, 0.4vw, 7px) !important;
   margin-top: auto;
@@ -157,13 +200,10 @@
   overflow-wrap: break-word;
   max-height: none;
   overflow: visible;
-  border: none !important;
+  margin-bottom: 5px;
 }
 
-.activityTitle{
-  border: none !important;
-}
-
-.activityTitle p{
+.activityTitle p {
   margin: 0;
+  font-size: clamp(12px, 0.4vw, 7px); /* Same size as tutor */
 }
