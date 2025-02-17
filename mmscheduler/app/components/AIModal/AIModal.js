@@ -196,7 +196,7 @@ const AIModal = ({
               }`}
           >
             <section>
-              <h3>Select desired tutors:</h3>
+              <h2>Select desired tutors:</h2>
               <div className={classes.tutorSelectionsContainer}>
                 {Object.entries(positiveTutorSelections).map(
                   ([key, { options, selected }]) => (
@@ -219,7 +219,7 @@ const AIModal = ({
                   )
                 )}
               </div>
-              <h3>Select undesired tutors:</h3>
+              <h2>Select undesired tutors:</h2>
               <div className={classes.tutorSelectionsContainer}>
                 {Object.entries(negativeTutorSelections).map(
                   ([key, { options, selected }]) => (
@@ -245,7 +245,7 @@ const AIModal = ({
             </section>
             <hr />
             <section>
-              <h3>Select desired days off:</h3>
+              <h2>Select desired days off:</h2>
               <div className={classes.daysSelectionContainer}>
                 <Select
                   isMulti
@@ -259,7 +259,7 @@ const AIModal = ({
             </section>
             <hr />
             <section className={classes.toggleSection}>
-              <h3>Prioritize lecturers over days off?</h3>
+              <h2>Prioritize lecturers over days off?</h2>
               <ToggleSwitch
                 isChecked={prioritizeLecturers}
                 onToggle={handlePrioritizeToggle}
@@ -285,7 +285,7 @@ const AIModal = ({
               Please use manual scheduling if youre unable to generate it.
               <br />
               <br />
-              *credits to <a className={classes.creditsLink} href="https://github.com/AzzamAlsharafi/" target="_blank">@Azzam Alsharafi</a> for algorithm idea.
+              *credits to <a className={classes.creditsLink} href="https://github.com/AzzamAlsharafi/" target="_blank">@Azzam</a> for algorithm idea.
             </i>
           </small>
           <RoundedButton

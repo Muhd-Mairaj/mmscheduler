@@ -9,7 +9,7 @@
 
 .modalList {
   padding: 0;
-  height: 60vh;
+  height: 50vh;
 }
 
 .listItems{
@@ -21,7 +21,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 60vh;
+  height: 50vh;
 }
 
 .noResultsIcon {
