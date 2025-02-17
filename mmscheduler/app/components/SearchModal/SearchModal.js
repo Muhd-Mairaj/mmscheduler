@@ -18,6 +18,7 @@ const SearchModal = ({
   searchValue,
 }) => {
   const [data, setData] = useState({});
+  const [debounceValue, setDebounceValue] = useState("");
 
   const updateSearchData = (courses, chosenCourses) => {
     const filteredWithoutChosen = Object.fromEntries(
@@ -29,16 +30,42 @@ const SearchModal = ({
     return filteredWithoutChosen;
   };
 
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     await fetch("/api/get-courses?query=" + searchValue)
+  //       .then((res) => res.json())
+  //       .then((data) => {
+  //         setData(updateSearchData(data, chosenCourses));
+  //       });
+  //   };
+  //   fetchData();
+  // }, [searchValue, chosenCourses]);
+
+  // add debounce for search to prevent too many api calls
   useEffect(() => {
-    const fetchData = async () => {
-      await fetch("/api/get-courses?query=" + searchValue)
-        .then((res) => res.json())
-        .then((data) => {
-          setData(updateSearchData(data, chosenCourses));
-        });
-    };
-    fetchData();
-  }, [searchValue, chosenCourses]);
+    const timer = setTimeout(() => {
+      setDebounceValue(searchValue);
+    }, 400);
+
+    return () => {
+      clearInterval(timer);
+    }
+  }, [searchValue]);
+
+  // 
+  useEffect(() => {
+    if (debounceValue) {
+      const fetchData = async () => {
+        await fetch("/api/get-courses?query=" + searchValue)
+          .then((res) => res.json())
+          .then((data) => {
+            setData(updateSearchData(data, chosenCourses));
+          });
+      };
+      fetchData();
+    }
+  }, [debounceValue, chosenCourses])
+
 
   return (
     <div>
