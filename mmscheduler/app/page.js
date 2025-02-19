@@ -5,6 +5,7 @@ import { useEffect, useState, useRef } from "react";
 import Timetable from "./components/Timetable/Timetable";
 import OccurrenceCard from "./components/OccurrenceCard/OccurrenceCard";
 import SearchModal from "./components/SearchModal/SearchModal";
+import AnnouncementModal from "./components/AnnouncementModal/AnnouncementModal";
 import AIModal from "./components/AIModal/AIModal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes, faCalendarDays } from "@fortawesome/free-solid-svg-icons";
@@ -20,6 +21,7 @@ const Home = () => {
   const [selectedOccurences, setSelectedOccurences] = useState([]);
   const [disabledOccurences, setDisabledOccurences] = useState([]);
   const [searchModalVisible, setSearchModalVisible] = useState(false);
+  const [announcementModalVisible, setAnnouncementModalVisible] = useState(true);
   const [AIModalVisible, setAIModalVisible] = useState(false);
   const [searchValue, setSearchValue] = useState("");
   const [creditsAdded, setCreditsAdded] = useState(0);
@@ -27,6 +29,7 @@ const Home = () => {
 
   const toggleSearchModal = () => setSearchModalVisible(!searchModalVisible);
   const toggleAIModal = () => setAIModalVisible(!AIModalVisible);
+  const toggleAnnouncementModal = () => setAnnouncementModalVisible(!announcementModalVisible);
 
   const handleSearch = (currentSearchValue) => {
     setSearchValue(currentSearchValue);
@@ -257,7 +260,12 @@ const Home = () => {
           handleSearch={handleSearch}
           handleModuleSelection={handleAddModule}
           searchValue={searchValue}
-        />
+          />
+        <AnnouncementModal
+          modal={announcementModalVisible}
+          toggle={toggleAnnouncementModal}
+          chosenCourses={chosenCourses}
+          />
         <div className={classes.occurrenceContainer}>
           {Object.keys(chosenCourses).length > 0 ? (
             Object.entries(chosenCourses).map(
