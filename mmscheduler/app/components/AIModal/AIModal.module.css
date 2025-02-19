@@ -23,6 +23,8 @@
 
 .AIModalContent {
   padding: 10px;
+  overflow-y: auto;
+  height: 50vh;
 }
 
 .multiSelect {

@@ -49,10 +49,10 @@ const SearchModal = ({
 
     return () => {
       clearInterval(timer);
-    }
+    };
   }, [searchValue]);
 
-  // 
+  //
   useEffect(() => {
     if (debounceValue) {
       const fetchData = async () => {
@@ -64,15 +64,14 @@ const SearchModal = ({
       };
       fetchData();
     }
-  }, [debounceValue, chosenCourses])
-
+  }, [debounceValue, chosenCourses]);
 
   return (
     <div>
       <RibbonButton onClick={toggle}>
         <FontAwesomeIcon icon={faPlus} className={classes.addModuleIcon} />
       </RibbonButton>
-      <Modal isOpen={modal} toggle={toggle}>
+      <Modal isOpen={modal} toggle={toggle} centered>
         <ModalHeader toggle={toggle}>Add modules</ModalHeader>
         <ModalBody>
           <Searchbar
@@ -81,15 +80,17 @@ const SearchModal = ({
             placeholder={"Search Module"}
           />
           {Object.keys(data).length > 0 && searchValue.length > 0 ? (
-            <ul className={classes.modalList}>
-              {Object.entries(data).map(([key, value], index) => (
-                <ModalCard
-                  key={index}
-                  item={{ key, value }}
-                  onClick={handleModuleSelection}
-                />
-              ))}
-            </ul>
+            <div className={classes.listItems}>
+              <ul className={classes.modalList}>
+                {Object.entries(data).map(([key, value], index) => (
+                  <ModalCard
+                    key={index}
+                    item={{ key, value }}
+                    onClick={handleModuleSelection}
+                  />
+                ))}
+              </ul>
+            </div>
           ) : (
             <div className={classes.noResults}>
               <FontAwesomeIcon

@@ -18,7 +18,7 @@ const Footer = () => {
           href="https://github.com/Mohammed-AlSharafi/"
           rel="noreferrer"
           >
-          Alsharafi
+          Mohammed Alsharafi
         </a>
       </p>
     </div>
