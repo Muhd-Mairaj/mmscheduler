@@ -13,6 +13,7 @@ const AIModal = ({
   chosenCourses,
   handleUpdateChosenCourses,
   handleErrorMessage,
+  disabled=false
 }) => {
   const [positiveTutorSelections, setPositiveTutorSelections] = useState({});
   const [negativeTutorSelections, setNegativeTutorSelections] = useState({});
@@ -180,6 +181,7 @@ const AIModal = ({
       <RoundedButton
         className={`${classes.aiSchedulingButton} magicButton button`}
         onClick={toggle}
+        disabled={disabled}
       >
         <FontAwesomeIcon
           className={classes.buttonIcon}
