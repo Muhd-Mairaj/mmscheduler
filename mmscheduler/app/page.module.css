@@ -24,6 +24,7 @@
 
 .occurrenceContainer {
   display: grid;
+  min-height: 30vh;
 }
 
 .courseBlock {
