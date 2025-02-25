@@ -19143,7 +19143,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "SR DR. ELIA SYARAFINA BINTI ABDUL SHAKUR"
+          "tutor": "DR. AIN FARHANA BINTI JAMALUDIN"
         }
       ],
       "mav_name": "CONCEPT AND PRACTICE OF HOME OWNERSHIP"
@@ -19326,7 +19326,8 @@
           "day": "Wednesday",
           "room": "ONLINE LECTURE",
           "begin_time": "14:00",
-          "end_time": "16:00"
+          "end_time": "16:00",
+          "tutor": "DR. MADIHA BINTI BAHARUDDIN"
         }
       ],
       "mav_name": "ISLAM AND SCIENCE"
@@ -19342,7 +19343,8 @@
           "day": "Monday",
           "room": "ONLINE LECTURE",
           "begin_time": "08:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. ATIFAH BINTI AHMAD YUSOFF"
         }
       ],
       "mav_name": "ISLAM AND SCIENCE"
@@ -19359,7 +19361,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "DR. MADIHA BINTI BAHARUDDIN"
+          "tutor": "DR. FATIN NUR MAJDINA BINTI NORDIN"
         }
       ],
       "mav_name": "ISLAM AND SCIENCE"
@@ -19452,7 +19454,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "PROF. DR. JEANNIE WONG HSIU DING"
+          "tutor": "DR. AZLAN BIN CHE AHMAD"
         }
       ],
       "mav_name": "PHYSICS AND RADIATION IN LIFE"
@@ -19471,7 +19473,7 @@
           "room": "BILIK FARMAKOLOGI FOM",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "DR. HASSAN ALMOUSTAFA"
+          "tutor": "DR. ELSA HANIFFAH MEJIA MOHAMED"
         }
       ],
       "mav_name": "FACTS AND MYTHS ABOUT YOUR MEDICINES"
@@ -19490,7 +19492,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "DR. IZYAN BINTI A WAHAB"
+          "tutor": "DR. RAJA AHSAN AFTAB"
         }
       ],
       "mav_name": "MEDICINES AND HEALTH"
@@ -19976,7 +19978,8 @@
           "day": "Tuesday",
           "room": "ONLINE LECTURE",
           "begin_time": "10:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. SAREENA HANIM BINTI HAMZAH"
         }
       ],
       "mav_name": "COMMUNITY HEALTH, WELLNESS AND FITNESS"
@@ -20478,7 +20481,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "DR. SALMAH BINTI KARMAN"
+          "tutor": "DR. FARINA BINTI MUHAMAD"
         }
       ],
       "mav_name": "INTRODUCTION TO BIOMEDICAL ENGINEERING"
@@ -20532,7 +20535,8 @@
           "day": "Monday",
           "room": "MOOT COURT C FUU (68)",
           "begin_time": "14:00",
-          "end_time": "16:00"
+          "end_time": "16:00",
+          "tutor": "DR. IZURA MASDINA MOHAMED ZAKRI"
         }
       ],
       "mav_name": "E-COMMERCE LAW"
@@ -20548,7 +20552,8 @@
           "day": "Tuesday",
           "room": "MOOT COURT C FUU (68)",
           "begin_time": "11:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. IZURA MASDINA MOHAMED ZAKRI"
         }
       ],
       "mav_name": "E-COMMERCE LAW"
@@ -20660,7 +20665,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "DR. M VIJAYAN A/L MANICKAM ACHARI"
+          "tutor": "DR. MOHAMMED RIZMAN BIN IDID"
         }
       ],
       "mav_name": "INTRODUCTION TO BIOCOMPUTING"
@@ -21250,7 +21255,8 @@
           "day": "Monday",
           "room": "ONLINE LECTURE",
           "begin_time": "17:00",
-          "end_time": "19:00"
+          "end_time": "19:00",
+          "tutor": "DR. FARIDAH BINTI CHE HUSAIN"
         }
       ],
       "mav_name": "PHILOSOPHY AND CURRENT ISSUES (For Local Students - Year 1 intake 2024/2025 Science Stream and intake 2023/2024 & below)"
@@ -21266,7 +21272,8 @@
           "day": "Monday",
           "room": "ONLINE LECTURE",
           "begin_time": "17:00",
-          "end_time": "19:00"
+          "end_time": "19:00",
+          "tutor": "DR. FARIDAH BINTI CHE HUSAIN"
         }
       ],
       "mav_name": "PHILOSOPHY AND CURRENT ISSUES (For Local Students - Year 1 intake 2024/2025 Science Stream and intake 2023/2024 & below)"
@@ -21282,7 +21289,8 @@
           "day": "Monday",
           "room": "ONLINE LECTURE",
           "begin_time": "17:00",
-          "end_time": "19:00"
+          "end_time": "19:00",
+          "tutor": "DR. FARIDAH BINTI CHE HUSAIN"
         }
       ],
       "mav_name": "PHILOSOPHY AND CURRENT ISSUES (FOR LOCAL STUDENTS - YEAR 1 INTAKE 2024/2025 SCIENCE STREAM AND INTAKE 2023/2024 & BELOW)"
@@ -23990,7 +23998,8 @@
           "day": "Monday",
           "room": "ONLINE LECTURE",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "MR. FARRIL DANIEL BIN ZAINAL"
         },
         {
           "title": "online",
@@ -24956,7 +24965,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
+          "tutor": "MR. MUHAMMAD SHAFIQ BIN SALEHUDDIN"
         }
       ],
       "mav_name": "PROFICIENCY IN ENGLISH III"
@@ -25347,7 +25356,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "09:00",
           "end_time": "11:00",
-          "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
+          "tutor": "MR. MUHAMMAD SHAFIQ BIN SALEHUDDIN"
         }
       ],
       "mav_name": "PROFICIENCY IN ENGLISH III"
@@ -25364,7 +25373,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "09:00",
           "end_time": "11:00",
-          "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
+          "tutor": "MR. MUHAMMAD SHAFIQ BIN SALEHUDDIN"
         }
       ],
       "mav_name": "PROFICIENCY IN ENGLISH III"
@@ -25602,7 +25611,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
+          "tutor": "MR. MUHAMMAD SHAFIQ BIN SALEHUDDIN"
         }
       ],
       "mav_name": "PROFICIENCY IN ENGLISH III"
@@ -25619,7 +25628,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
+          "tutor": "MR. MUHAMMAD SHAFIQ BIN SALEHUDDIN"
         }
       ],
       "mav_name": "PROFICIENCY IN ENGLISH III"
@@ -25942,7 +25951,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "09:00",
           "end_time": "11:00",
-          "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
+          "tutor": "MR. MUHAMMAD SHAFIQ BIN SALEHUDDIN"
         }
       ],
       "mav_name": "PROFICIENCY IN ENGLISH III"
@@ -26163,7 +26172,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
+          "tutor": "MR. MUHAMMAD SHAFIQ BIN SALEHUDDIN"
         }
       ],
       "mav_name": "PROFICIENCY IN ENGLISH III"
@@ -26486,7 +26495,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
+          "tutor": "MR. MUHAMMAD SHAFIQ BIN SALEHUDDIN"
         }
       ],
       "mav_name": "PROFICIENCY IN ENGLISH III"
@@ -27663,7 +27672,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "17:00",
           "end_time": "19:00",
-          "tutor": " "
+          "tutor": " CHEONG KENG KIAT"
         }
       ],
       "mav_name": "WRITING AT THE WORKPLACE"
@@ -27680,7 +27689,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "17:00",
           "end_time": "19:00",
-          "tutor": " "
+          "tutor": " CHEONG KENG KIAT"
         }
       ],
       "mav_name": "WRITING AT THE WORKPLACE"
@@ -27731,7 +27740,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "09:00",
           "end_time": "11:00",
-          "tutor": " "
+          "tutor": "MR. KAMARAZAMAN BIN MD SAID"
         }
       ],
       "mav_name": "WRITING AT THE WORKPLACE"
@@ -27748,7 +27757,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "09:00",
           "end_time": "11:00",
-          "tutor": " "
+          "tutor": "MR. KAMARAZAMAN BIN MD SAID"
         }
       ],
       "mav_name": "WRITING AT THE WORKPLACE"
@@ -28666,7 +28675,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "16:00",
           "end_time": "18:00",
-          "tutor": " "
+          "tutor": "MADAM NOR SYAKIRIN BINTI MOHAMED NASRUDIN"
         }
       ],
       "mav_name": "WRITING AT THE WORKPLACE"
@@ -28683,7 +28692,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "16:00",
           "end_time": "18:00",
-          "tutor": " "
+          "tutor": "MADAM NOR SYAKIRIN BINTI MOHAMED NASRUDIN"
         }
       ],
       "mav_name": "WRITING AT THE WORKPLACE"
@@ -29059,7 +29068,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": " "
+          "tutor": "MR. MOHD NAZRIQ BIN NOOR AHMAD"
         }
       ],
       "mav_name": "ADVANCED ORAL COMMUNICATION"
@@ -29246,7 +29255,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": " "
+          "tutor": "MR. MOHD NAZRIQ BIN NOOR AHMAD"
         }
       ],
       "mav_name": "ADVANCED ORAL COMMUNICATION"
@@ -29462,7 +29471,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "16:00",
           "end_time": "18:00",
-          "tutor": "MR. AB HALIM BIN AHMAD"
+          "tutor": "MISS HANAN BT SALEH"
         }
       ],
       "mav_name": "BASIC ARABIC LANGUAGE 1"
@@ -30164,7 +30173,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": " 000DUMMY"
+          "tutor": "MISS LAURA PACHON GALLEGOS"
         }
       ],
       "mav_name": "BASIC SPANISH LANGUAGE 2"
@@ -30793,7 +30802,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "09:00",
           "end_time": "11:00",
-          "tutor": "MADAM NUR AFIFAH BINTI ABDUL RAHMAN HALAWA"
+          "tutor": "MISS SASHILEYA A/P MURUGAN"
         }
       ],
       "mav_name": "MALAY LANGUAGE COMMUNICATION"
@@ -30844,7 +30853,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "MADAM NUR AFIFAH BINTI ABDUL RAHMAN HALAWA"
+          "tutor": "MISS SASHILEYA A/P MURUGAN"
         }
       ],
       "mav_name": "MALAY LANGUAGE COMMUNICATION"
@@ -30939,7 +30948,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "DR. MARDIANA BINTI NORDIN"
+          "tutor": "ASSOCIATE PROF. DR. HO HUI LING"
         }
       ],
       "mav_name": "INTRODUCTION TO MALAYSIAN HISTORY  (MALAY LANGUAGE)"
@@ -31135,7 +31144,7 @@
           "room": "DEWAN KULIAH 2 API",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "PROF. DR. ASMAK BINTI AB RAHMAN"
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         }
       ],
       "mav_name": "ISLAMIC ECONOMIC INSTITUTIONS"
@@ -31189,7 +31198,8 @@
           "day": "Monday",
           "room": "BILIK SEMINAR BAKAWALI APM",
           "begin_time": "08:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. SAMSUR RIJAL BIN YAHAYA"
         }
       ],
       "mav_name": "LANGUAGE CONTACT IN MALAY LANGUAGE"
@@ -31338,7 +31348,8 @@
           "day": "Monday",
           "room": "ONLINE LECTURE",
           "begin_time": "08:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. KONG KIN WENG"
         }
       ],
       "mav_name": "GLOBAL TRENDS IN FOOD AND HUMAN HEALTH"
@@ -31356,14 +31367,16 @@
           "day": "Thursday",
           "room": "ONLINE LECTURE",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. ASLINA BINTI PAHRUDIN ARROZI"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "ONLINE LECTURE",
           "begin_time": "10:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "DR. JAIME JACQUELINE A/P JAYAPALAN"
         }
       ],
       "mav_name": "GLOBAL LIFESTYLE DISEASES AND PREVENTION"
@@ -31419,7 +31432,8 @@
           "day": "Tuesday",
           "room": "ONLINE LECTURE",
           "begin_time": "08:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. MOHAMMAD ISMATH RAMZY MOHAMMAD ISMAIL"
         }
       ],
       "mav_name": "GLOBAL EDUCATION (English)"
@@ -31491,7 +31505,7 @@
           "room": "DEWAN KULIAH GEOLOGI  FS (100)",
           "begin_time": "16:00",
           "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. AHMAD FARID BIN ABU BAKAR"
+          "tutor": "DR. HIJAZ KAMAL BIN HASNAN"
         },
         {
           "title": "lecture",
@@ -31701,7 +31715,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": " 000DUMMY"
+          "tutor": "DR. SHEHDA R. S. ABUISAAC"
         }
       ],
       "mav_name": "QURANIC LANGUAGE"
@@ -31718,7 +31732,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": " 000DUMMY"
+          "tutor": "DR. SHEHDA R. S. ABUISAAC"
         }
       ],
       "mav_name": "QURANIC LANGUAGE"
@@ -31735,7 +31749,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": " "
+          "tutor": "MR. NIK MUHAMMAD ROZI BIN NIK YUSOFF"
         }
       ],
       "mav_name": "QURANIC LANGUAGE"
@@ -40473,7 +40487,8 @@
           "day": "Thursday",
           "room": "GREEN CUBE 1 FKEJ",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. IR. TS. DR. LAI KHIN WEE"
         }
       ],
       "mav_name": "CIRCUIT THEORY"
@@ -40491,14 +40506,16 @@
           "day": "Monday",
           "room": "BIOMEDICAL LABS FKEJ",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. JULIANA BINTI USMAN"
         },
         {
           "title": "lab",
           "day": "Friday",
           "room": "BIOMEDICAL LABS FKEJ",
           "begin_time": "08:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "MADAM NORITA BINTI MOHD ZAIN"
         }
       ],
       "mav_name": "BIOMEDICAL ENGINEERING LAB 1"
@@ -40514,14 +40531,16 @@
           "day": "Tuesday",
           "room": "BIOMEDICAL LABS FKEJ",
           "begin_time": "09:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "DR. NURUL ASYIKEEN BINTI AB.MUTALIB"
         },
         {
           "title": "lab",
           "day": "Friday",
           "room": "BIOMEDICAL LABS FKEJ",
           "begin_time": "15:00",
-          "end_time": "18:00"
+          "end_time": "18:00",
+          "tutor": "DR. NG SIEW CHEOK"
         }
       ],
       "mav_name": "BIOMEDICAL ENGINEERING LAB 1"
@@ -40558,7 +40577,8 @@
           "day": "Monday",
           "room": "BILIK KULIAH 102 FKEJ, BILIK KULIAH 103 FKEJ",
           "begin_time": "10:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. CHAN CHOW KHUEN"
         }
       ],
       "mav_name": "DYNAMICS"
@@ -40576,7 +40596,8 @@
           "day": "Tuesday",
           "room": "BILIK KULIAH 101&104 FKEJ",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. IR. TS. DR. LAI KHIN WEE"
         }
       ],
       "mav_name": "ELECTRONIC DEVICES"
@@ -40645,7 +40666,8 @@
           "day": "Friday",
           "room": "DEWAN KULIAH 1 FKEJ",
           "begin_time": "15:00",
-          "end_time": "18:00"
+          "end_time": "18:00",
+          "tutor": "IR. DR. MAS SAHIDAYANA BINTI MOKHTAR"
         }
       ],
       "mav_name": "SAFETY AND STANDARDS IN BIOMEDICAL ENGINEERING"
@@ -40661,7 +40683,8 @@
           "day": "Friday",
           "room": "DEWAN KULIAH 1 FKEJ",
           "begin_time": "15:00",
-          "end_time": "18:00"
+          "end_time": "18:00",
+          "tutor": "IR. DR. MAS SAHIDAYANA BINTI MOKHTAR"
         }
       ],
       "mav_name": "SAFETY AND STANDARDS IN BIOMEDICAL ENGINEERING"
@@ -40679,7 +40702,8 @@
           "day": "Monday",
           "room": "DEWAN KULIAH 1 FKEJ",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. NG SIEW CHEOK"
         }
       ],
       "mav_name": "FLUID MECHANICS AND TRANSPORT PROCESSES IN BIOMEDICAL ENGINEERING"
@@ -40697,7 +40721,8 @@
           "day": "Friday",
           "room": "DEWAN KULIAH 3 FKEJ",
           "begin_time": "08:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "DR. SALMAH BINTI KARMAN"
         }
       ],
       "mav_name": "ELECTROMAGNETISM AND BIOMEDICAL DEVICES"
@@ -40715,7 +40740,8 @@
           "day": "Thursday",
           "room": "DEWAN KULIAH 2 FKEJ",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. JULIANA BINTI USMAN"
         }
       ],
       "mav_name": "BIOMECHANICS OF HUMAN MOTION"
@@ -40731,7 +40757,8 @@
           "day": "Thursday",
           "room": "DEWAN KULIAH 2 FKEJ",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. JULIANA BINTI USMAN"
         }
       ],
       "mav_name": "BIOMECHANICS OF HUMAN MOTION"
@@ -40749,14 +40776,16 @@
           "day": "Monday",
           "room": "BIOMEDICAL LABS FKEJ",
           "begin_time": "10:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. JULIANA BINTI USMAN"
         },
         {
           "title": "lecture",
           "day": "Tuesday",
           "room": "BIOMEDICAL LABS FKEJ",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. LIM EINLY"
         }
       ],
       "mav_name": "BIOMEDICAL ENGINEERING LAB 3"
@@ -40772,14 +40801,16 @@
           "day": "Wednesday",
           "room": "BIOMEDICAL LABS FKEJ",
           "begin_time": "08:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "DR. NG SIEW CHEOK"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "BIOMEDICAL LABS FKEJ",
           "begin_time": "09:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "DR. JULIANA BINTI USMAN"
         }
       ],
       "mav_name": "BIOMEDICAL ENGINEERING LAB 3"
@@ -40797,7 +40828,8 @@
           "day": "Monday",
           "room": "ORANGE CUBE 1 FKEJ",
           "begin_time": "08:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. AHMAD KHAIRI BIN ABDUL WAHAB"
         }
       ],
       "mav_name": "BIOMEDICAL ENGINEERING DESIGN 2"
@@ -40813,7 +40845,8 @@
           "day": "Wednesday",
           "room": "ORANGE CUBE 1 FKEJ",
           "begin_time": "11:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. LIEW YIH MIIN"
         }
       ],
       "mav_name": "BIOMEDICAL ENGINEERING DESIGN 2"
@@ -40848,7 +40881,8 @@
           "day": "Monday",
           "room": "ONLINE LECTURE",
           "begin_time": "19:00",
-          "end_time": "22:00"
+          "end_time": "22:00",
+          "tutor": "PROFESSOR IR. DR. FATIMAH BINTI IBRAHIM"
         }
       ],
       "mav_name": "ELECTRICAL SAFETY DESIGN OF MEDICAL DEVICES AND SYSTEM"
@@ -40866,7 +40900,8 @@
           "day": "Wednesday",
           "room": "ONLINE LECTURE",
           "begin_time": "19:00",
-          "end_time": "22:00"
+          "end_time": "22:00",
+          "tutor": "DR. SALMAH BINTI KARMAN"
         }
       ],
       "mav_name": "PHOTONICS IN BIOMEDICAL ENGINEERING"
@@ -40884,7 +40919,8 @@
           "day": "Thursday",
           "room": "ONLINE LECTURE",
           "begin_time": "19:00",
-          "end_time": "22:00"
+          "end_time": "22:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. AHMAD KHAIRI BIN ABDUL WAHAB"
         }
       ],
       "mav_name": "BIOMEDICAL CONTROL SYSTEM"
@@ -40902,7 +40938,8 @@
           "day": "Tuesday",
           "room": "ONLINE LECTURE",
           "begin_time": "19:00",
-          "end_time": "22:00"
+          "end_time": "22:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. TING HUA NONG"
         }
       ],
       "mav_name": "MICROCOMPUTER AND DIGITAL SYSTEM"
@@ -40920,7 +40957,8 @@
           "day": "Friday",
           "room": "ONLINE LECTURE",
           "begin_time": "19:00",
-          "end_time": "22:00"
+          "end_time": "22:00",
+          "tutor": "DR. MOHD YAZED BIN AHMAD"
         }
       ],
       "mav_name": "MEDICAL ELECTRONICS"
@@ -40938,7 +40976,8 @@
           "day": "Monday",
           "room": "ONLINE LECTURE",
           "begin_time": "19:00",
-          "end_time": "22:00"
+          "end_time": "22:00",
+          "tutor": "ASSOCIATE PROF. DR. NUR AZAH BINTI HAMZAID"
         }
       ],
       "mav_name": "BIOMECHANICS IN PROSTHETICS AND ORTHOTICS"
@@ -40956,7 +40995,8 @@
           "day": "Wednesday",
           "room": "ONLINE LECTURE",
           "begin_time": "19:00",
-          "end_time": "22:00"
+          "end_time": "22:00",
+          "tutor": "DR. NOORANIDA BINTI ARIFIN"
         }
       ],
       "mav_name": "BELOW KNEE PROSTHETICS"
@@ -40974,7 +41014,8 @@
           "day": "Tuesday",
           "room": "ONLINE LECTURE",
           "begin_time": "19:00",
-          "end_time": "22:00"
+          "end_time": "22:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. NASRUL ANUAR BIN ABD RAZAK"
         }
       ],
       "mav_name": "PRINCIPLES OF UPPER LIMB PROSTHETICS AND ORTHOTICS DESIGN"
@@ -40992,7 +41033,8 @@
           "day": "Thursday",
           "room": "ONLINE LECTURE",
           "begin_time": "19:00",
-          "end_time": "22:00"
+          "end_time": "22:00",
+          "tutor": "DR. NUR AFIQAH BINTI HASHIM"
         }
       ],
       "mav_name": "PRINCIPLES OF LOWER LIMB ORTHOTICS DESIGN"
@@ -41010,7 +41052,8 @@
           "day": "Friday",
           "room": "ONLINE LECTURE",
           "begin_time": "19:00",
-          "end_time": "22:00"
+          "end_time": "22:00",
+          "tutor": "MR. MUHAMMAD IMRAN BIN RAMLI"
         }
       ],
       "mav_name": "ABOVE KNEE PROSTHETICS"
@@ -41028,7 +41071,8 @@
           "day": "Monday",
           "room": "ONLINE LECTURE",
           "begin_time": "08:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "IR. DR. MAS SAHIDAYANA BINTI MOKHTAR"
         }
       ],
       "mav_name": "BIOMEDICAL INTEGRATED DESIGN PROJECT 2"
@@ -44479,7 +44523,7 @@
           "room": "DEWAN KULIAH 1 FKEJ",
           "begin_time": "10:00",
           "end_time": "11:00",
-          "tutor": "ASSOCIATE PROF. IR. DR. LIEW YIH MIIN"
+          "tutor": "DR. NUR AFIQAH BINTI HASHIM"
         },
         {
           "title": "tutorial",
@@ -44512,7 +44556,7 @@
           "room": "DEWAN KULIAH 7 FKEJ",
           "begin_time": "11:00",
           "end_time": "12:00",
-          "tutor": "DR. WAN AMIRUL BIN WAN MOHD MAHIYIDDIN"
+          "tutor": "DR. TENGKU FAIZ BIN TENGKU MOHMED NOOR IZAM"
         },
         {
           "title": "tutorial",
@@ -44742,7 +44786,7 @@
           "room": "DEWAN KULIAH 1 FKEJ",
           "begin_time": "10:00",
           "end_time": "13:00",
-          "tutor": "PROFESSOR IR. DR. MOHD ZAMIN BIN JUMAAT"
+          "tutor": "DR. ONN CHIU CHUEN"
         }
       ],
       "mav_name": "LAW, ETHICS AND SUSTAINABILITY FOR ENGINEERS [ONLY FOR CIVIL ENGINEERING STUDENTS]"
@@ -77524,7 +77568,8 @@
           "day": "Thursday",
           "room": "DEWAN KULIAH 2 FSKTM",
           "begin_time": "08:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. MUHAMMAD FAIZ BIN MOHD ZAKI"
         },
         {
           "title": "tutorial",
@@ -77583,7 +77628,8 @@
           "day": "Monday",
           "room": "MAKMAL MIKRO 4 FSKTM",
           "begin_time": "13:00",
-          "end_time": "14:00"
+          "end_time": "14:00",
+          "tutor": "PROF. DR. LOO CHU KIONG"
         }
       ],
       "mav_name": "MACHINE LEARNING"
@@ -78151,7 +78197,8 @@
           "day": "Wednesday",
           "room": "DEWAN KULIAH 2 FSKTM",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "MADAM FAZIDAH BINTI OTHMAN"
         },
         {
           "title": "tutorial",
@@ -78451,7 +78498,8 @@
           "day": "Tuesday",
           "room": "DEWAN KULIAH 2 FSKTM",
           "begin_time": "12:00",
-          "end_time": "14:00"
+          "end_time": "14:00",
+          "tutor": "DR. ASMIZA BINTI ABDUL SANI"
         },
         {
           "title": "tutorial",
@@ -78505,7 +78553,8 @@
           "begin_time": "15:00",
           "end_time": "16:00"
         }
-      ]
+      ],
+      "mav_name": "DIGITAL DESIGN AND HARDWARE DESCRIPTION LANGUAGE"
     }
   ],
   "WIC2002": [
@@ -79462,14 +79511,16 @@
           "day": "Tuesday",
           "room": "DEWAN KULIAH 2 FSKTM",
           "begin_time": "08:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. HEMA A/P SUBRAMANIAM"
         },
         {
           "title": "tutorial",
           "day": "Wednesday",
           "room": "BILIK KULIAH 2 FSKTM",
           "begin_time": "08:00",
-          "end_time": "09:00"
+          "end_time": "09:00",
+          "tutor": "DR. HEMA A/P SUBRAMANIAM"
         }
       ],
       "mav_name": "SOFTWARE REQUIREMENTS ENGINEERING"
@@ -79485,14 +79536,16 @@
           "day": "Tuesday",
           "room": "DEWAN KULIAH 2 FSKTM",
           "begin_time": "08:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. HEMA A/P SUBRAMANIAM"
         },
         {
           "title": "tutorial",
           "day": "Wednesday",
           "room": "BILIK KULIAH 2 FSKTM",
           "begin_time": "10:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "DR. CHIAM YIN KIA"
         }
       ],
       "mav_name": "SOFTWARE REQUIREMENTS ENGINEERING"
@@ -79508,14 +79561,16 @@
           "day": "Tuesday",
           "room": "DEWAN KULIAH 2 FSKTM",
           "begin_time": "08:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. HEMA A/P SUBRAMANIAM"
         },
         {
           "title": "tutorial",
           "day": "Wednesday",
           "room": "BILIK KULIAH 2 FSKTM",
           "begin_time": "11:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "DR. CHIAM YIN KIA"
         }
       ],
       "mav_name": "SOFTWARE REQUIREMENTS ENGINEERING"
@@ -79541,7 +79596,8 @@
           "day": "Monday",
           "room": "MAKMAL MIKRO 3 FSKTM",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. CHIAM YIN KIA"
         }
       ],
       "mav_name": "WEB PROGRAMMING"
@@ -79609,14 +79665,16 @@
           "day": "Monday",
           "room": "MAKMAL LANJUTAN FSKTM",
           "begin_time": "12:00",
-          "end_time": "14:00"
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. SITI HAFIZAH BINTI AB HAMID"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "MAKMAL MIKRO 2 FSKTM",
           "begin_time": "12:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "ASSOCIATE PROF. DR. SITI HAFIZAH BINTI AB HAMID"
         }
       ],
       "mav_name": "SOFTWARE TESTING"
@@ -79634,14 +79692,16 @@
           "day": "Wednesday",
           "room": "DEWAN KULIAH 1 FSKTM",
           "begin_time": "11:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. RAJA JAMILAH BINTI RAJA YUSOF"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "MAKMAL STROUSTRUP FSKTM",
           "begin_time": "10:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "DR. RAJA JAMILAH BINTI RAJA YUSOF"
         }
       ],
       "mav_name": "SOFTWARE PROCESS AND QUALITY"
@@ -79657,14 +79717,16 @@
           "day": "Wednesday",
           "room": "DEWAN KULIAH 1 FSKTM",
           "begin_time": "11:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. RAJA JAMILAH BINTI RAJA YUSOF"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "MAKMAL STROUSTRUP FSKTM",
           "begin_time": "11:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "DR. RAJA JAMILAH BINTI RAJA YUSOF"
         }
       ],
       "mav_name": "SOFTWARE PROCESS AND QUALITY"
@@ -79687,7 +79749,8 @@
           "day": "Wednesday",
           "room": "MAKMAL MIKRO 4 FSKTM",
           "begin_time": "15:00",
-          "end_time": "16:00"
+          "end_time": "16:00",
+          "tutor": "DR. RAJA JAMILAH BINTI RAJA YUSOF"
         }
       ],
       "mav_name": "SOFTWARE PROCESS AND QUALITY"
@@ -79703,7 +79766,8 @@
           "day": "Wednesday",
           "room": "DEWAN KULIAH 1 FSKTM",
           "begin_time": "11:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. RAJA JAMILAH BINTI RAJA YUSOF"
         },
         {
           "title": "tutorial",
@@ -79752,14 +79816,16 @@
           "day": "Wednesday",
           "room": "DEWAN KULIAH 1 FSKTM",
           "begin_time": "13:00",
-          "end_time": "15:00"
+          "end_time": "15:00",
+          "tutor": "DR. NAZEAN BINTI JOMHARI"
         },
         {
           "title": "tutorial",
           "day": "Monday",
           "room": "MAKMAL MIKRO 4 FSKTM",
           "begin_time": "15:00",
-          "end_time": "16:00"
+          "end_time": "16:00",
+          "tutor": "DR. NAZEAN BINTI JOMHARI"
         }
       ],
       "mav_name": "SOFTWARE ARCHITECTURE AND DESIGN PARADIGMS"
@@ -79775,14 +79841,16 @@
           "day": "Wednesday",
           "room": "DEWAN KULIAH 1 FSKTM",
           "begin_time": "13:00",
-          "end_time": "15:00"
+          "end_time": "15:00",
+          "tutor": "DR. NAZEAN BINTI JOMHARI"
         },
         {
           "title": "tutorial",
           "day": "Monday",
           "room": "MAKMAL MIKRO 4 FSKTM",
           "begin_time": "16:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. NAZEAN BINTI JOMHARI"
         }
       ],
       "mav_name": "SOFTWARE ARCHITECTURE AND DESIGN PARADIGMS"
@@ -79798,14 +79866,16 @@
           "day": "Wednesday",
           "room": "DEWAN KULIAH 1 FSKTM",
           "begin_time": "13:00",
-          "end_time": "15:00"
+          "end_time": "15:00",
+          "tutor": "DR. NAZEAN BINTI JOMHARI"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "MAKMAL MIKRO 2 FSKTM",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. NAZEAN BINTI JOMHARI"
         }
       ],
       "mav_name": "SOFTWARE ARCHITECTURE AND DESIGN PARADIGMS"
@@ -79821,14 +79891,16 @@
           "day": "Wednesday",
           "room": "DEWAN KULIAH 1 FSKTM",
           "begin_time": "13:00",
-          "end_time": "15:00"
+          "end_time": "15:00",
+          "tutor": "DR. NAZEAN BINTI JOMHARI"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "MAKMAL MIKRO 2 FSKTM",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. NAZEAN BINTI JOMHARI"
         }
       ],
       "mav_name": "SOFTWARE ARCHITECTURE AND DESIGN PARADIGMS"
@@ -79846,14 +79918,16 @@
           "day": "Monday",
           "room": "DEWAN KULIAH 2 FSKTM",
           "begin_time": "08:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. MOHAMAD HAZIM BIN MD HANIF"
         },
         {
           "title": "tutorial",
           "day": "Wednesday",
           "room": "MAKMAL STROUSTRUP FSKTM",
           "begin_time": "12:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. MOHAMAD HAZIM BIN MD HANIF"
         }
       ],
       "mav_name": "PYTHON FOR SCIENTIFIC COMPUTING"
@@ -79869,14 +79943,16 @@
           "day": "Monday",
           "room": "DEWAN KULIAH 2 FSKTM",
           "begin_time": "08:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. MOHAMAD HAZIM BIN MD HANIF"
         },
         {
           "title": "tutorial",
           "day": "Wednesday",
           "room": "MAKMAL STROUSTRUP FSKTM",
           "begin_time": "13:00",
-          "end_time": "14:00"
+          "end_time": "14:00",
+          "tutor": "DR. MOHAMAD HAZIM BIN MD HANIF"
         }
       ],
       "mav_name": "PYTHON FOR SCIENTIFIC COMPUTING"
@@ -79892,14 +79968,16 @@
           "day": "Monday",
           "room": "DEWAN KULIAH 2 FSKTM",
           "begin_time": "08:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. MOHAMAD HAZIM BIN MD HANIF"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "MAKMAL MIKRO 2 FSKTM",
           "begin_time": "10:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "DR. MOHAMAD HAZIM BIN MD HANIF"
         }
       ],
       "mav_name": "PYTHON FOR SCIENTIFIC COMPUTING"
@@ -79917,14 +79995,16 @@
           "day": "Tuesday",
           "room": "DEWAN KULIAH 2 FSKTM",
           "begin_time": "10:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "PROF. DR. CHIEW THIAM KIAN"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "MAKMAL MIKRO 6 FSKTM",
           "begin_time": "12:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "PROF. DR. CHIEW THIAM KIAN"
         }
       ],
       "mav_name": "CONCURRENT AND PARALLEL PROGRAMMING"
@@ -79940,14 +80020,16 @@
           "day": "Tuesday",
           "room": "DEWAN KULIAH 2 FSKTM",
           "begin_time": "10:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "PROF. DR. CHIEW THIAM KIAN"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "MAKMAL MIKRO 6 FSKTM",
           "begin_time": "13:00",
-          "end_time": "14:00"
+          "end_time": "14:00",
+          "tutor": "PROF. DR. CHIEW THIAM KIAN"
         }
       ],
       "mav_name": "CONCURRENT AND PARALLEL PROGRAMMING"
@@ -79963,14 +80045,16 @@
           "day": "Tuesday",
           "room": "DEWAN KULIAH 2 FSKTM",
           "begin_time": "10:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "PROF. DR. CHIEW THIAM KIAN"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "MAKMAL MIKRO 6 FSKTM",
           "begin_time": "13:00",
-          "end_time": "14:00"
+          "end_time": "14:00",
+          "tutor": "PROF. DR. CHIEW THIAM KIAN"
         }
       ],
       "mav_name": "CONCURRENT AND PARALLEL PROGRAMMING"
@@ -80160,7 +80244,8 @@
           "day": "Monday",
           "room": "MAKMAL MIKRO 6 FSKTM",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. MOHAMAD NIZAM BIN AYUB"
         }
       ],
       "mav_name": "GAME DEVELOPMENT"
@@ -80176,7 +80261,8 @@
           "day": "Monday",
           "room": "MAKMAL MIKRO 6 FSKTM",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. MOHAMAD NIZAM BIN AYUB"
         }
       ],
       "mav_name": "GAME DEVELOPMENT"
@@ -80264,7 +80350,7 @@
           "room": "BILIK KULIAH FSKTM",
           "begin_time": "13:00",
           "end_time": "14:00",
-          "tutor": "DR. ERMA RAHAYU BINTI MOHD FAIZAL ABDULLAH"
+          "tutor": " 000DUMMY"
         }
       ],
       "mav_name": "COMPUTING MATHEMATICS I"
