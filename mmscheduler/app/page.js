@@ -1,35 +1,44 @@
 "use client";
 
 import classes from "./page.module.css";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useCallback } from "react";
 import Timetable from "./components/Timetable/Timetable";
 import OccurrenceCard from "./components/OccurrenceCard/OccurrenceCard";
 import SearchModal from "./components/SearchModal/SearchModal";
 import AnnouncementModal from "./components/AnnouncementModal/AnnouncementModal";
-import AIModal from "./components/AIModal/AIModal";
+import {
+  faTimes,
+  faCalendarDays,
+  faChevronDown,
+  faCamera,
+  faRotateLeft,
+  faStar,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimes, faCalendarDays } from "@fortawesome/free-solid-svg-icons";
-import RoundedButton from "./components/RoundedButton/RoundedButton";
 import isClashing from "./functions/Home/isClashing";
 import Navbar from "./components/Navbar/Navbar";
 import saveTableImage from "./functions/Home/saveTableImage";
 import Footer from "./components/Footer/Footer";
 import AlertText from "./components/AlertText/AlertText";
+import AIModal from "./components/AIModal/AIModal";
 
 const Home = () => {
   const [chosenCourses, setChosenCourses] = useState([]);
   const [selectedOccurences, setSelectedOccurences] = useState([]);
   const [disabledOccurences, setDisabledOccurences] = useState([]);
   const [searchModalVisible, setSearchModalVisible] = useState(false);
-  const [announcementModalVisible, setAnnouncementModalVisible] = useState(true);
+  const [announcementModalVisible, setAnnouncementModalVisible] =
+    useState(true);
   const [AIModalVisible, setAIModalVisible] = useState(false);
   const [searchValue, setSearchValue] = useState("");
   const [creditsAdded, setCreditsAdded] = useState(0);
   const [alertText, setAlertText] = useState("");
+  const [expandedCourses, setExpandedCourses] = useState({});
 
   const toggleSearchModal = () => setSearchModalVisible(!searchModalVisible);
   const toggleAIModal = () => setAIModalVisible(!AIModalVisible);
-  const toggleAnnouncementModal = () => setAnnouncementModalVisible(!announcementModalVisible);
+  const toggleAnnouncementModal = () =>
+    setAnnouncementModalVisible(!announcementModalVisible);
 
   const handleSearch = (currentSearchValue) => {
     setSearchValue(currentSearchValue);
@@ -118,28 +127,28 @@ const Home = () => {
     saveTableImage(tableRef);
   };
 
-  const handleSaveState = (
-    chosenCourses,
-    selectedOccurences,
-    disabledOccurences
-  ) => {
-    localStorage.setItem("courses", JSON.stringify(chosenCourses));
-    localStorage.setItem(
-      "selectedOccurences",
-      JSON.stringify(selectedOccurences)
-    );
-    localStorage.setItem(
-      "disabledOccurences",
-      JSON.stringify(disabledOccurences)
-    );
-  };
+  const handleSaveState = useCallback(
+    (chosenCourses, selectedOccurences, disabledOccurences) => {
+      localStorage.setItem("courses", JSON.stringify(chosenCourses));
+      localStorage.setItem(
+        "selectedOccurences",
+        JSON.stringify(selectedOccurences)
+      );
+      localStorage.setItem(
+        "disabledOccurences",
+        JSON.stringify(disabledOccurences)
+      );
+    },
+    []
+  );
 
   useEffect(() => {
     const fetchData = async (courses, selected, disabled) => {
-      const tempCourses = await fetch("/api/get-courses-by-ids?query=" + Object.keys(courses).join(","))
+      const tempCourses = await fetch(
+        "/api/get-courses-by-ids?query=" + Object.keys(courses).join(",")
+      )
         .then((res) => res.json())
         .then((data) => data);
-
 
       const tempSelected = [];
       selected.forEach((occurrence) => {
@@ -150,7 +159,7 @@ const Home = () => {
             tempSelected.push(courseOccurrence);
           }
         }
-      })
+      });
 
       const tempDisabled = [];
       disabled.forEach((occurrence) => {
@@ -161,13 +170,12 @@ const Home = () => {
             tempDisabled.push(courseOccurrence);
           }
         }
-      })
+      });
 
       setChosenCourses(tempCourses);
       setSelectedOccurences(tempSelected);
       setDisabledOccurences(tempDisabled);
     };
-
 
     let courses = {};
     let selected = [];
@@ -208,7 +216,7 @@ const Home = () => {
     } else {
       handleSaveState(chosenCourses, selectedOccurences, disabledOccurences);
     }
-  }, [chosenCourses, selectedOccurences, disabledOccurences]);
+  }, [chosenCourses, selectedOccurences, disabledOccurences, handleSaveState]);
 
   const checkClashing = (selectedOccurences, chosenCourses) => {
     const tempDisabledOccurences = [];
@@ -248,6 +256,13 @@ const Home = () => {
     );
   };
 
+  const toggleCourseExpansion = (courseCode) => {
+    setExpandedCourses((prev) => ({
+      ...prev,
+      [courseCode]: !prev[courseCode],
+    }));
+  };
+
   return (
     <div className={classes.home}>
       <Navbar />
@@ -260,32 +275,58 @@ const Home = () => {
           handleSearch={handleSearch}
           handleModuleSelection={handleAddModule}
           searchValue={searchValue}
-          />
+        />
         <AnnouncementModal
           modal={announcementModalVisible}
           toggle={toggleAnnouncementModal}
           chosenCourses={chosenCourses}
-          />
+        />
+        <div className={classes.topControls}>
+          <button
+            onClick={handleResetModules}
+            className={classes.controlButton}
+          >
+            <FontAwesomeIcon icon={faTimes} className={classes.controlIcon} />
+            <span>Clear modules</span>
+          </button>
+        </div>
         <div className={classes.occurrenceContainer}>
           {Object.keys(chosenCourses).length > 0 ? (
             Object.entries(chosenCourses).map(
               ([courseCode, occurrences], index) => {
+                const isExpanded = expandedCourses[courseCode] === false;
                 return (
                   <div key={index} className={classes.courseBlock}>
-                    <div className={classes.courseHeader}>
+                    <div
+                      className={classes.courseHeader}
+                      onClick={() => toggleCourseExpansion(courseCode)}
+                    >
+                      <div className={classes.courseHeaderContent}>
+                        <FontAwesomeIcon
+                          icon={faChevronDown}
+                          className={`${classes.expandIcon} ${
+                            isExpanded ? classes.expanded : ""
+                          }`}
+                        />
+                        <p className={classes.courseName}>
+                          {courseCode} - {occurrences[0].module}
+                        </p>
+                      </div>
                       <div
                         className={classes.removeButton}
-                        onClick={() => {
+                        onClick={(e) => {
+                          e.stopPropagation();
                           handleRemoveModule(courseCode);
                         }}
                       >
                         <FontAwesomeIcon icon={faTimes} />
                       </div>
-                      <h3 className={classes.courseName}>
-                        {courseCode} - {occurrences[0].module}
-                      </h3>
                     </div>
-                    <div className={classes.occurrences}>
+                    <div
+                      className={`${classes.occurrences} ${
+                        isExpanded ? classes.expanded : classes.collapsed
+                      }`}
+                    >
                       {occurrences.map((occurrence, occurrenceIndex) => {
                         const isDisabled = checkContains(
                           disabledOccurences,
@@ -297,6 +338,7 @@ const Home = () => {
                         );
                         return (
                           <OccurrenceCard
+                            key={occurrenceIndex}
                             onClick={handleOccurenceSelect}
                             occurrence={occurrence}
                             isDisabled={isDisabled}
@@ -317,56 +359,45 @@ const Home = () => {
                 size="2x"
               />
               <h1 className={classes.noCoursesHeader}>
-                {" "}
-                Add Modules To Get Started!{" "}
+                Add Modules To Get Started!
               </h1>
             </div>
           )}
         </div>
-        <div className={classes.actionButtons}>
-          <div className={classes.leftButtons}>
-            {Object.keys(chosenCourses).length > 0 && (
-              <div className={classes.buttonColumn}>
-                <RoundedButton
-                  className={`${classes.creditsButton} button`}
-                >
-                  Total Credits: {creditsAdded}
-                </RoundedButton>
-                <AIModal
-                  modal={AIModalVisible}
-                  toggle={toggleAIModal}
-                  chosenCourses={chosenCourses}
-                  handleUpdateChosenCourses={handleUpdateChosenCourses}
-                  handleErrorMessage={handleErrorMessage}
-                />
-              </div>
-            )}
-            <RoundedButton
-              className={`${classes.saveButton} acceptButton button`}
-              onClick={handleSaveImage}
+        <div className={classes.controls}>
+          <div className={classes.controlsLeft}>
+            <button onClick={handleSaveImage} className={classes.controlButton}>
+              <FontAwesomeIcon
+                icon={faCamera}
+                className={classes.controlIcon}
+              />
+              <span>Save image</span>
+            </button>
+            <button
+              onClick={handleResetTable}
+              className={classes.controlButton}
             >
-              Save Table Image
-            </RoundedButton>
+              <FontAwesomeIcon
+                icon={faRotateLeft}
+                className={classes.controlIcon}
+              />
+              <span>Reset table</span>
+            </button>
           </div>
-          <div className={classes.rightButtons}>
-            <RoundedButton
-              className={`${classes.resetButton} acceptButton button`}
-              onClick={() => {
-                handleResetModules();
-              }}
-            >
-              Reset Modules
-            </RoundedButton>
-            <RoundedButton
-              className={`${classes.resetButton} acceptButton button`}
-              onClick={() => {
-                handleResetTable();
-              }}
-            >
-              Reset Table
-            </RoundedButton>
+          <div className={classes.controlsRight}>
+            <div className={classes.credits}>
+              <FontAwesomeIcon icon={faStar} className={classes.controlIcon} />
+              <span>{creditsAdded} credits</span>
+            </div>
           </div>
         </div>
+        <AIModal
+          modal={AIModalVisible}
+          toggle={toggleAIModal}
+          chosenCourses={chosenCourses}
+          handleUpdateChosenCourses={handleUpdateChosenCourses}
+          handleErrorMessage={handleErrorMessage}
+        />
         <div className={classes.tableContainer}>
           <Timetable selectedOccurrences={selectedOccurences} ref={tableRef} />
         </div>

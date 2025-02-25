@@ -1,27 +1,67 @@
-
-  .addItem:hover {
-    transition: 0.5s;
-    text-shadow: none;
-  }
-  .bookmarkRibbon {
-    width: 105px;
-    height: 0;
-    border-left: 15px solid transparent;
-    float: right;
-    margin-bottom: 20px;
-    font-size: 17px;
-    font-weight: 700;
-    position: fixed;
-    top: 150px;
-    z-index: 1000;
-    border-top: 20px solid var(--primary-color);
-    border-bottom: 20px solid var(--secondary-color);
-    right: -40px;
-    transition: right 0.5s, filter 0.5s; /* Add transition here */
+.addItem:hover {
+  transition: 0.5s;
+  text-shadow: none;
+}
+.bookmarkRibbon {
+  width: 105px;
+  height: 0;
+  border-left: 15px solid transparent;
+  float: right;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  position: fixed;
+  top: 150px;
+  z-index: 1000;
+  border-top: 20px solid var(--primary-color);
+  border-bottom: 20px solid var(--secondary-color);
+  right: -40px;
+  transition: right 0.5s, filter 0.5s; /* Add transition here */
 }
 
 .bookmarkRibbon:hover {
-    right: -15px;
-    filter: brightness(80%);
-    cursor: pointer;
+  right: -15px;
+  filter: brightness(80%);
+  cursor: pointer;
+}
+
+.addModuleIcon {
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: -12px;
+  right: -13px;
+  text-align: center;
+}
+
+.floatingActionButton { 
+  display: none;
+  min-width: 60px;
+  min-height: 60px;
+  background-color: var(--primary-color);
+  padding: 10px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white !important;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.floatingActionButton:hover {
+  filter: brightness(80%);
+  cursor: pointer;
+}
+
+@media (max-width: 895px) {
+  .bookmarkRibbon {
+    display: none;
+  }
+  .floatingActionButton {
+    display: flex;
+  }
 }

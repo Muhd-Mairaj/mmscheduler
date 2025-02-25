@@ -1,7 +1,7 @@
 .roundedButton {
   padding: 10px 30px !important;
   border: none !important;
-  border-radius: 35px !important;
+  border-radius: 15px !important;
   margin: 10px 0;
   height: fit-content;
   transition: filter 0.5s ease !important;

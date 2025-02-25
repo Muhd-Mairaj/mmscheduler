@@ -8,9 +8,9 @@ import { Dropdown, DropdownItem, DropdownMenu, DropdownToggle } from "reactstrap
 const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
 
   const [settingsDropdownOpen, setSettingsDropdownOpen] = useState(false);
-  const [showActivity, setShowActivity] = useState(true);
-  const [showTutor, setShowTutor] = useState(true);
-  const [showRoomAndTime, setShowRoomAndTime] = useState(true);
+  const [showActivity, setShowActivity] = useState(false);
+  const [showTutor, setShowTutor] = useState(false);
+  const [showRoomAndTime, setShowRoomAndTime] = useState(false);
 
   const toggleShowActivity = () => {
     setShowActivity(!showActivity);

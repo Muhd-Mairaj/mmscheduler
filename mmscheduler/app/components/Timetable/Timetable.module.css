@@ -1,9 +1,11 @@
 .timetableContainer {
   width: 100%;
   overflow-x: auto;
+  border-radius: 15px;
 }
 
 .timetableGrid {
+  border-radius: 15px;
   min-width: 1050px;
   display: grid;
   grid-template-columns: auto repeat(24, minmax(40px, 1fr)); /* 24 half-hour slots */

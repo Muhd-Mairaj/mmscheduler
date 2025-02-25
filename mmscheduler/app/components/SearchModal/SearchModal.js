@@ -68,9 +68,7 @@ const SearchModal = ({
 
   return (
     <div>
-      <RibbonButton onClick={toggle}>
-        <FontAwesomeIcon icon={faPlus} className={classes.addModuleIcon} />
-      </RibbonButton>
+      <RibbonButton onClick={toggle} />
       <Modal isOpen={modal} toggle={toggle} centered>
         <ModalHeader toggle={toggle}>Add modules</ModalHeader>
         <ModalBody>
@@ -79,6 +77,7 @@ const SearchModal = ({
             value={searchValue}
             placeholder={"Search Module"}
           />
+          <br />
           {Object.keys(data).length > 0 && searchValue.length > 0 ? (
             <div className={classes.listItems}>
               <ul className={classes.modalList}>

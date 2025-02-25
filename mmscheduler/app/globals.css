@@ -2,8 +2,8 @@
 
 :root {
   /* General */
-  --primary-color: #5e2f80;
-  --secondary-color: #6b3691;
+  --primary-color: #7e569c;
+  --secondary-color: #8f6fa6;
 
   /* occurrenceCard */
   --selected-card-color: #a17bb6;
@@ -21,10 +21,10 @@
   --other-event-color: #898989;
 
   /* Navbar */
-  --navbar-primary-color: #5e1b8f;
+  --navbar-primary-color: #795196;
 
   /* Footer */
-  --footer-color: #311843;
+  --footer-color: #443152;
 }
 
 .body {
@@ -32,7 +32,7 @@
 }
 
 .acceptButton {
-  background-color: #5e1b8f !important;
+  background-color: #6e408f !important;
   color: white !important;
 }
 
