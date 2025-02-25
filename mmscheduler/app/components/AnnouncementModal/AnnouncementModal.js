@@ -13,14 +13,13 @@ const AnnouncementModal = ({ modal, toggle }) => {
         <ModalHeader toggle={toggle}>Announcement</ModalHeader>
         <ModalBody>
           <div className={classes.announcementMessage}>
-            <h3>Congratulations On Completing Semester 1! 🎉</h3>
+            <h3>Semester 2 Modules Have Been Added! 🎉</h3>
           </div>
 
           <div className={classes.announcementMessage}>
             <ul>
               <li>
-              We will be filling in the new course information soon. Please stay
-              tuned for updates!
+              All modules for Semester 2 have been added to the system. You can now view and create a plan for your modules.
               </li>
             </ul>
           </div>
