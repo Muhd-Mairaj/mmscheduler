@@ -3,7 +3,7 @@
     padding: 9px;
     padding-left: 25px;
     margin: 10px;
-    border-radius: 35px;
+    border-radius: 10px;
     transition: 0.3s ease;
     cursor: pointer;
 }
@@ -14,7 +14,7 @@
 
 .cardHeader{
     font-size: 1.2rem;
-    color: rgb(104, 104, 104);
-    font-weight: bold;
+    color: rgb(71, 71, 71);
+    font-weight: 400;
     margin: 0 !important;
 }

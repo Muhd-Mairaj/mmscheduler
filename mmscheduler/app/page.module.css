@@ -3,7 +3,7 @@
 }
 
 .homeContainer {
-  background-color: #fcfcfc;
+  background-color: var(--background-primary-color);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   max-width: 1200px;
   padding: 50px;
@@ -14,24 +14,74 @@
   margin: 0 auto;
 }
 
+.topControls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  width: 100%;
+  margin-top: 30px;
+}
+
 .occurrenceContainer {
   display: grid;
-  min-height: 30vh;
 }
 
 .courseBlock {
   width: 100%;
   position: relative;
-  margin: 20px 0;
+  margin: 10px 0 5px 0;
 }
 
 .courseHeader {
+  background-color: var(--background-secondary-color);
+  color: #686868;
+  font-weight: 500 !important;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid rgb(216, 216, 216);
-  padding-bottom: 10px;
+  border: 1px solid rgb(216, 216, 216);
+  padding: 20px;
   margin-bottom: 5px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.courseHeader >:first-child {
+  margin-right: auto;
+}
+
+.courseHeaderContent {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.expandIcon {
+  color: #333;
+  transition: transform 0.2s ease;
+}
+
+.expandIcon.expanded {
+  transform: rotate(180deg);
+}
+
+.occurrences {
+  transition: max-height 0.3s ease-in-out, opacity 0.2s ease-in-out;
+  max-height: 1000px;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.occurrences.collapsed {
+  max-height: 0;
+  opacity: 0;
+}
+
+
+.removeButton {
+  z-index: 1;
 }
 
 .courseName {
@@ -41,14 +91,8 @@
 }
 
 .removeButton {
-  width: 20px;
-  height: 20px;
-  color: white;
-  background-color: rgb(255, 80, 80);
-  border-radius: 50%;
-  position: absolute;
-  right: 0;
-
+  font-size: 1.3rem !important;
+  color: rgb(99, 99, 99);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,9 +106,7 @@
 .occurrences {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  /* padding: 5px 10px 10px 0px; */
-  padding: 5px 10px 0px 0px;
-  /* gap: 20px; */
+  padding: 5px 10px 0px 10px;
   gap: 7px;
 }
 
@@ -87,48 +129,63 @@
   text-align: center;
 }
 
-.actionButtons {
+.controls {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-items: flex-end; /* Change from center to flex-start */
   width: 100%;
-  margin-top: 20px;
+  margin: 10px 0;
 }
 
-.leftButtons, .rightButtons {
+.controlsLeft, .controlsRight {
   display: flex;
-  gap: 10px;
-  align-items: flex-end;
+  gap: 16px;
+  align-items: center;
 }
 
-.resetButton {
-  display: inline-block;
-  gap: 10px;
-  align-self: flex-end;
-  margin-top: 20px;
+.controlsLeft{
+  margin-left: 20px;
 }
 
-.buttonColumn {
+.controlsRight{
+  margin-right: 20px;
+}
+
+.controlButton {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 0.85rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
-.creditsButton{
-  margin-bottom: 0 !important;
+.controlButton:hover {
+  background: rgba(0, 0, 0, 0.05);
+  color: #333;
 }
 
-.creditsButton:hover {
-  background-color: #6C757D !important;
-  filter: brightness(100%) !important;
-  cursor: default;
+.controlIcon {
+  font-size: 0.9rem;
+}
+
+.credits {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #666;
+  font-size: 0.85rem;
 }
 
 .tableContainer {
   margin: 20px 0;
-  width: 100%; /* Ensures the container takes full width */
-  overflow-x: auto; /* Enables horizontal scrolling if the content overflows */
+  width: 100%;
+  overflow-x: auto;
 }
 
 @media (min-width: 1051px) {
@@ -158,14 +215,39 @@
 @media (max-width: 500px) {
   .homeContainer {
     padding: 20px;
-    padding-top: 60px;
+    padding-top: 70px;
   }
   .occurrences {
     grid-template-columns: repeat(3, 1fr);
   }
-  .actionButtons {
+  
+  .credits {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .topControls .controlButton {
+    width: auto;
+    padding: 8px 12px;
+    font-size: 0.8rem;
+  }
+
+  .controlButton {
+    width: 100%;
+    justify-content: center;
+    padding: 8px 0;
+  }
+
+  .controlsLeft{
     flex-direction: column;
-    gap: 0;
+
+  }
+}
+
+@media (max-width: 400px) {
+  .controlButton {
+    width: 100%;
+    justify-content: center;
   }
 }
 
@@ -173,21 +255,31 @@
   .button {
     display: block;
     width: 100%;
-    margin-bottom: 10px; /* Adds some space between stacked buttons */
+    margin-bottom: 10px;
   }
 
-  .actionButtons {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .leftButtons, .rightButtons {
-    flex-direction: column;
+  .buttonGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
-    gap: 0;
   }
 
   .buttonColumn {
     width: 100%;
   }
+  
+  .resetModulesButton,
+  .saveButton,
+  .resetButton,
+  .creditsButton {
+    width: 100%;
+    margin: 0;
+  }
 }
+
+@media (max-width: 500px) {
+  .buttonGroup {
+    grid-template-columns: 1fr;
+  }
+}
+

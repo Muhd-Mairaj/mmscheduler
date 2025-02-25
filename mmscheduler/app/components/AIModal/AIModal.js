@@ -280,11 +280,6 @@ const AIModal = ({
         <ModalFooter>
           <small>
             <i>
-              *This feature is still in beta and may not provide a suitable
-              schedule. <br />
-              Please use manual scheduling if youre unable to generate it.
-              <br />
-              <br />
               *credits to <a className={classes.creditsLink} href="https://github.com/AzzamAlsharafi/" target="_blank">@Azzam</a> for algorithm idea.
             </i>
           </small>
