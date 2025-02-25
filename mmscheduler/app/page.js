@@ -23,7 +23,7 @@ import AlertText from "./components/AlertText/AlertText";
 import AIModal from "./components/AIModal/AIModal";
 
 const Home = () => {
-  const [chosenCourses, setChosenCourses] = useState([]);
+  const [chosenCourses, setChosenCourses] = useState({});
   const [selectedOccurences, setSelectedOccurences] = useState([]);
   const [disabledOccurences, setDisabledOccurences] = useState([]);
   const [searchModalVisible, setSearchModalVisible] = useState(false);
@@ -60,7 +60,7 @@ const Home = () => {
   };
 
   const handleResetModules = () => {
-    setChosenCourses([]);
+    setChosenCourses({});
     setSelectedOccurences([]);
     setDisabledOccurences([]);
     localStorage.clear();
@@ -282,13 +282,13 @@ const Home = () => {
           chosenCourses={chosenCourses}
         />
         <div className={classes.topControls}>
-          <button
+          {Object.keys(chosenCourses).length > 0 && <button
             onClick={handleResetModules}
             className={classes.controlButton}
           >
             <FontAwesomeIcon icon={faTimes} className={classes.controlIcon} />
             <span>Clear modules</span>
-          </button>
+          </button>}
         </div>
         <div className={classes.occurrenceContainer}>
           {Object.keys(chosenCourses).length > 0 ? (
