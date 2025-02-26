@@ -870,7 +870,7 @@
   ],
   "AIA2002": [
     {
-      "module": "CONTEMPORARY SOCIAL THOUGHT  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "CONTEMPORARY SOCIAL THOUGHT",
       "course_id": "AIA2002",
       "occurence": "1",
       "credits": 3,
@@ -895,7 +895,7 @@
       "mav_name": "CONTEMPORARY SOCIAL THOUGHT  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     },
     {
-      "module": "CONTEMPORARY SOCIAL THOUGHT  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "CONTEMPORARY SOCIAL THOUGHT",
       "course_id": "AIA2002",
       "occurence": "2",
       "credits": 3,
@@ -925,12 +925,12 @@
           "tutor": "DR. KAMAL SOLHAIMI BIN FADZIL"
         }
       ],
-      "mav_name": "CONTEMPORARY SOCIAL THOUGHT"
+      "mav_name": "CONTEMPORARY SOCIAL THOUGHT  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     }
   ],
   "AIA2008": [
     {
-      "module": "CROSS-CULTURAL ETHNOGRAPHY  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "CROSS-CULTURAL ETHNOGRAPHY",
       "course_id": "AIA2008",
       "occurence": "1",
       "credits": 3,
@@ -955,7 +955,7 @@
       "mav_name": "CROSS-CULTURAL ETHNOGRAPHY  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     },
     {
-      "module": "CROSS-CULTURAL ETHNOGRAPHY  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "CROSS-CULTURAL ETHNOGRAPHY",
       "course_id": "AIA2008",
       "occurence": "2",
       "credits": 3,
@@ -977,10 +977,10 @@
           "tutor": "DR. WELYNE JEFFREY JEHOM"
         }
       ],
-      "mav_name": "CROSS-CULTURAL ETHNOGRAPHY"
+      "mav_name": "CROSS-CULTURAL ETHNOGRAPHY  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     },
     {
-      "module": "CROSS-CULTURAL ETHNOGRAPHY  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "CROSS-CULTURAL ETHNOGRAPHY",
       "course_id": "AIA2008",
       "occurence": "1M",
       "credits": 3,
@@ -1001,12 +1001,12 @@
           "end_time": "20:00"
         }
       ],
-      "mav_name": "CROSS-CULTURAL ETHNOGRAPHY"
+      "mav_name": "CROSS-CULTURAL ETHNOGRAPHY  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     }
   ],
   "AIA2022": [
     {
-      "module": "ADOLESCENTS AND PSYCHOSOCIAL PROBLEMS   (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "ADOLESCENTS AND PSYCHOSOCIAL PROBLEMS",
       "course_id": "AIA2022",
       "occurence": "1",
       "credits": 3,
@@ -1031,7 +1031,7 @@
       "mav_name": "ADOLESCENTS AND PSYCHOSOCIAL PROBLEMS   (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     },
     {
-      "module": "ADOLESCENTS AND PSYCHOSOCIAL PROBLEMS   (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "ADOLESCENTS AND PSYCHOSOCIAL PROBLEMS",
       "course_id": "AIA2022",
       "occurence": "2",
       "credits": 3,
@@ -1053,7 +1053,7 @@
           "tutor": "ASSOCIATE PROF. DR. HASLINA BINTI MUHAMAD"
         }
       ],
-      "mav_name": "ADOLESCENTS AND PSYCHOSOCIAL PROBLEMS"
+      "mav_name": "ADOLESCENTS AND PSYCHOSOCIAL PROBLEMS   (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     }
   ],
   "AIA2026": [
@@ -1126,7 +1126,7 @@
   ],
   "AIA2033": [
     {
-      "module": "SOCIOLOGY OF POPULATION  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "SOCIOLOGY OF POPULATION",
       "course_id": "AIA2033",
       "occurence": "1",
       "credits": 3,
@@ -1151,7 +1151,7 @@
       "mav_name": "SOCIOLOGY OF POPULATION  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     },
     {
-      "module": "SOCIOLOGY OF POPULATION  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "SOCIOLOGY OF POPULATION",
       "course_id": "AIA2033",
       "occurence": "2",
       "credits": 3,
@@ -1173,7 +1173,7 @@
           "tutor": "DR. SYED ABDUL RAZAK BIN SAYED MAHADI"
         }
       ],
-      "mav_name": "SOCIOLOGY OF POPULATION"
+      "mav_name": "SOCIOLOGY OF POPULATION  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     }
   ],
   "AIA2036": [
@@ -1246,7 +1246,7 @@
   ],
   "AIA2041": [
     {
-      "module": "CONSUMPTION BEHAVIOR  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "CONSUMPTION BEHAVIOR",
       "course_id": "AIA2041",
       "occurence": "1",
       "credits": 3,
@@ -1271,7 +1271,7 @@
       "mav_name": "CONSUMPTION BEHAVIOR  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     },
     {
-      "module": "CONSUMPTION BEHAVIOR  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "CONSUMPTION BEHAVIOR",
       "course_id": "AIA2041",
       "occurence": "2",
       "credits": 3,
@@ -1293,10 +1293,10 @@
           "tutor": "ASSOCIATE PROF. DR. ROSILA BEE BINTI MOHD HUSSAIN"
         }
       ],
-      "mav_name": "CONSUMPTION BEHAVIOR"
+      "mav_name": "CONSUMPTION BEHAVIOR  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     },
     {
-      "module": "CONSUMPTION BEHAVIOR  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "CONSUMPTION BEHAVIOR",
       "course_id": "AIA2041",
       "occurence": "1M",
       "credits": 3,
@@ -1318,7 +1318,7 @@
           "tutor": "ASSOCIATE PROF. DR. ROSILA BEE BINTI MOHD HUSSAIN"
         }
       ],
-      "mav_name": "CONSUMPTION BEHAVIOR"
+      "mav_name": "CONSUMPTION BEHAVIOR  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     }
   ],
   "AIA2043": [
@@ -1391,7 +1391,7 @@
   ],
   "AIA3002": [
     {
-      "module": "MIGRATION IN GLOBAL PERSPECTIVE  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "MIGRATION IN GLOBAL PERSPECTIVE",
       "course_id": "AIA3002",
       "occurence": "1",
       "credits": 3,
@@ -1416,7 +1416,7 @@
       "mav_name": "MIGRATION IN GLOBAL PERSPECTIVE  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     },
     {
-      "module": "MIGRATION IN GLOBAL PERSPECTIVE  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "MIGRATION IN GLOBAL PERSPECTIVE",
       "course_id": "AIA3002",
       "occurence": "2",
       "credits": 3,
@@ -1437,12 +1437,12 @@
           "end_time": "15:00"
         }
       ],
-      "mav_name": "MIGRATION IN GLOBAL PERSPECTIVE"
+      "mav_name": "MIGRATION IN GLOBAL PERSPECTIVE  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     }
   ],
   "AIA3013": [
     {
-      "module": "ORGANIZATIONAL MOTIVATION AND LEADERSHIP  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "ORGANIZATIONAL MOTIVATION AND LEADERSHIP",
       "course_id": "AIA3013",
       "occurence": "1",
       "credits": 3,
@@ -1467,7 +1467,7 @@
       "mav_name": "ORGANIZATIONAL MOTIVATION AND LEADERSHIP  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     },
     {
-      "module": "ORGANIZATIONAL MOTIVATION AND LEADERSHIP  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "ORGANIZATIONAL MOTIVATION AND LEADERSHIP",
       "course_id": "AIA3013",
       "occurence": "2",
       "credits": 3,
@@ -1489,10 +1489,10 @@
           "tutor": "PROF. DR. MOHD AWANG B IDRIS"
         }
       ],
-      "mav_name": "ORGANIZATIONAL MOTIVATION AND LEADERSHIP"
+      "mav_name": "ORGANIZATIONAL MOTIVATION AND LEADERSHIP  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     },
     {
-      "module": "ORGANIZATIONAL MOTIVATION AND LEADERSHIP  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "ORGANIZATIONAL MOTIVATION AND LEADERSHIP",
       "course_id": "AIA3013",
       "occurence": "1M",
       "credits": 3,
@@ -1506,7 +1506,7 @@
           "tutor": "PROF. DR. MOHD AWANG B IDRIS"
         }
       ],
-      "mav_name": "ORGANIZATIONAL MOTIVATION AND LEADERSHIP"
+      "mav_name": "ORGANIZATIONAL MOTIVATION AND LEADERSHIP  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     }
   ],
   "AIA3016": [
@@ -1647,7 +1647,7 @@
   ],
   "AIA3020": [
     {
-      "module": "PEOPLE AND CULTURE OF BORNEO  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "PEOPLE AND CULTURE OF BORNEO",
       "course_id": "AIA3020",
       "occurence": "1",
       "credits": 3,
@@ -1671,7 +1671,7 @@
       "mav_name": "PEOPLE AND CULTURE OF BORNEO  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     },
     {
-      "module": "PEOPLE AND CULTURE OF BORNEO  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "PEOPLE AND CULTURE OF BORNEO",
       "course_id": "AIA3020",
       "occurence": "2",
       "credits": 3,
@@ -1693,12 +1693,12 @@
           "tutor": "DR. NOOR ESHAH TOM BINTI ABDUL WAHAB"
         }
       ],
-      "mav_name": "PEOPLE AND CULTURE OF BORNEO"
+      "mav_name": "PEOPLE AND CULTURE OF BORNEO  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     }
   ],
   "AIA3026": [
     {
-      "module": "APPLIED ANTHROPOLOGY  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "APPLIED ANTHROPOLOGY",
       "course_id": "AIA3026",
       "occurence": "1",
       "credits": 3,
@@ -1723,7 +1723,7 @@
       "mav_name": "APPLIED ANTHROPOLOGY  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     },
     {
-      "module": "APPLIED ANTHROPOLOGY  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "APPLIED ANTHROPOLOGY",
       "course_id": "AIA3026",
       "occurence": "2",
       "credits": 3,
@@ -1745,12 +1745,12 @@
           "tutor": "DR. KAMAL SOLHAIMI BIN FADZIL"
         }
       ],
-      "mav_name": "APPLIED ANTHROPOLOGY"
+      "mav_name": "APPLIED ANTHROPOLOGY  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     }
   ],
   "AIA3032": [
     {
-      "module": "SOCIOLOGY OF MANNERS  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "SOCIOLOGY OF MANNERS",
       "course_id": "AIA3032",
       "occurence": "1",
       "credits": 3,
@@ -1774,7 +1774,7 @@
       "mav_name": "SOCIOLOGY OF MANNERS  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     },
     {
-      "module": "SOCIOLOGY OF MANNERS  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "SOCIOLOGY OF MANNERS",
       "course_id": "AIA3032",
       "occurence": "2",
       "credits": 3,
@@ -1795,10 +1795,10 @@
           "tutor": "ASSOCIATE PROF. DR. ROSILA BEE BINTI MOHD HUSSAIN"
         }
       ],
-      "mav_name": "SOCIOLOGY OF MANNERS"
+      "mav_name": "SOCIOLOGY OF MANNERS  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     },
     {
-      "module": "SOCIOLOGY OF MANNERS  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)",
+      "module": "SOCIOLOGY OF MANNERS",
       "course_id": "AIA3032",
       "occurence": "1M",
       "credits": 3,
@@ -1819,7 +1819,7 @@
           "tutor": "ASSOCIATE PROF. DR. ROSILA BEE BINTI MOHD HUSSAIN"
         }
       ],
-      "mav_name": "SOCIOLOGY OF MANNERS"
+      "mav_name": "SOCIOLOGY OF MANNERS  (ONLY FOR ANTHROPOLOGY AND SOCIOLOGY STUDENTS)"
     }
   ],
   "AIB1007": [
@@ -2779,7 +2779,7 @@
   ],
   "AIC2017": [
     {
-      "module": "CRIME FICTION: AN INVESTIGATION  (ONLY FOR ENGLISH STUDENTS)",
+      "module": "CRIME FICTION: AN INVESTIGATION",
       "course_id": "AIC2017",
       "occurence": "1",
       "credits": 3,
@@ -2802,7 +2802,7 @@
       "mav_name": "CRIME FICTION: AN INVESTIGATION  (ONLY FOR ENGLISH STUDENTS)"
     },
     {
-      "module": "CRIME FICTION: AN INVESTIGATION  (ONLY FOR ENGLISH STUDENTS)",
+      "module": "CRIME FICTION: AN INVESTIGATION",
       "course_id": "AIC2017",
       "occurence": "2",
       "credits": 3,
@@ -2822,10 +2822,10 @@
           "end_time": "14:00"
         }
       ],
-      "mav_name": "CRIME FICTION: AN INVESTIGATION"
+      "mav_name": "CRIME FICTION: AN INVESTIGATION  (ONLY FOR ENGLISH STUDENTS)"
     },
     {
-      "module": "CRIME FICTION: AN INVESTIGATION  (ONLY FOR ENGLISH STUDENTS)",
+      "module": "CRIME FICTION: AN INVESTIGATION",
       "course_id": "AIC2017",
       "occurence": "3",
       "credits": 3,
@@ -2845,12 +2845,12 @@
           "end_time": "14:00"
         }
       ],
-      "mav_name": "CRIME FICTION: AN INVESTIGATION   (ONLY FOR TESL STUDENTS)"
+      "mav_name": "CRIME FICTION: AN INVESTIGATION  (ONLY FOR ENGLISH STUDENTS)"
     }
   ],
   "AIC2018": [
     {
-      "module": "WOMEN'S VOICES IN LITERATURE  (ONLY FOR ENGLISH STUDENTS)",
+      "module": "WOMEN'S VOICES IN LITERATURE",
       "course_id": "AIC2018",
       "occurence": "1",
       "credits": 3,
@@ -2870,10 +2870,10 @@
           "end_time": "17:00"
         }
       ],
-      "mav_name": "WOMEN\u2019S VOICES IN LITERATURE  (ONLY FOR ENGLISH STUDENTS)"
+      "mav_name": "WOMEN'S VOICES IN LITERATURE  (ONLY FOR ENGLISH STUDENTS)"
     },
     {
-      "module": "WOMEN'S VOICES IN LITERATURE  (ONLY FOR ENGLISH STUDENTS)",
+      "module": "WOMEN'S VOICES IN LITERATURE",
       "course_id": "AIC2018",
       "occurence": "2",
       "credits": 3,
@@ -2893,10 +2893,10 @@
           "end_time": "17:00"
         }
       ],
-      "mav_name": "WOMEN\u2019S VOICES IN LITERATURE"
+      "mav_name": "WOMEN'S VOICES IN LITERATURE  (ONLY FOR ENGLISH STUDENTS)"
     },
     {
-      "module": "WOMEN'S VOICES IN LITERATURE  (ONLY FOR ENGLISH STUDENTS)",
+      "module": "WOMEN'S VOICES IN LITERATURE",
       "course_id": "AIC2018",
       "occurence": "3",
       "credits": 3,
@@ -2916,12 +2916,12 @@
           "end_time": "17:00"
         }
       ],
-      "mav_name": "WOMEN\u2019S VOICES IN LITERATURE   (ONLY FOR TESL STUDENTS)"
+      "mav_name": "WOMEN'S VOICES IN LITERATURE  (ONLY FOR ENGLISH STUDENTS)"
     }
   ],
   "AIC2020": [
     {
-      "module": "EXPLORING TRAVEL LITERATURE  (ONLY FOR ENGLISH STUDENTS)",
+      "module": "EXPLORING TRAVEL LITERATURE",
       "course_id": "AIC2020",
       "occurence": "1",
       "credits": 3,
@@ -2945,7 +2945,7 @@
       "mav_name": "EXPLORING TRAVEL LITERATURE  (ONLY FOR ENGLISH STUDENTS)"
     },
     {
-      "module": "EXPLORING TRAVEL LITERATURE  (ONLY FOR ENGLISH STUDENTS)",
+      "module": "EXPLORING TRAVEL LITERATURE",
       "course_id": "AIC2020",
       "occurence": "2",
       "credits": 3,
@@ -2966,10 +2966,10 @@
           "end_time": "13:00"
         }
       ],
-      "mav_name": "EXPLORING TRAVEL LITERATURE"
+      "mav_name": "EXPLORING TRAVEL LITERATURE  (ONLY FOR ENGLISH STUDENTS)"
     },
     {
-      "module": "EXPLORING TRAVEL LITERATURE  (ONLY FOR ENGLISH STUDENTS)",
+      "module": "EXPLORING TRAVEL LITERATURE",
       "course_id": "AIC2020",
       "occurence": "3",
       "credits": 3,
@@ -2990,12 +2990,12 @@
           "end_time": "13:00"
         }
       ],
-      "mav_name": "EXPLORING TRAVEL LITERATURE   (ONLY FOR TESL STUDENTS)"
+      "mav_name": "EXPLORING TRAVEL LITERATURE  (ONLY FOR ENGLISH STUDENTS)"
     }
   ],
   "AIC3006": [
     {
-      "module": "AFRICAN LITERATURE AND CULTURE  (ONLY FOR ENGLISH STUDENTS)",
+      "module": "AFRICAN LITERATURE AND CULTURE",
       "course_id": "AIC3006",
       "occurence": "1",
       "credits": 3,
@@ -3019,7 +3019,7 @@
       "mav_name": "AFRICAN LITERATURE AND CULTURE  (ONLY FOR ENGLISH STUDENTS)"
     },
     {
-      "module": "AFRICAN LITERATURE AND CULTURE  (ONLY FOR ENGLISH STUDENTS)",
+      "module": "AFRICAN LITERATURE AND CULTURE",
       "course_id": "AIC3006",
       "occurence": "2",
       "credits": 3,
@@ -3040,10 +3040,10 @@
           "end_time": "11:00"
         }
       ],
-      "mav_name": "AFRICAN LITERATURE AND CULTURE"
+      "mav_name": "AFRICAN LITERATURE AND CULTURE  (ONLY FOR ENGLISH STUDENTS)"
     },
     {
-      "module": "AFRICAN LITERATURE AND CULTURE  (ONLY FOR ENGLISH STUDENTS)",
+      "module": "AFRICAN LITERATURE AND CULTURE",
       "course_id": "AIC3006",
       "occurence": "1M",
       "credits": 3,
@@ -3064,7 +3064,7 @@
           "end_time": "11:00"
         }
       ],
-      "mav_name": "AFRICAN LITERATURE AND CULTURE"
+      "mav_name": "AFRICAN LITERATURE AND CULTURE  (ONLY FOR ENGLISH STUDENTS)"
     }
   ],
   "AIC3010": [
@@ -3253,7 +3253,7 @@
           "tutor": "DR. STEPHANIE TAN LI HSIA"
         }
       ],
-      "mav_name": " INTRODUCTION TO POSTMODERN FICTION"
+      "mav_name": "INTRODUCTION TO POSTMODERN FICTION"
     },
     {
       "module": "INTRODUCTION TO POSTMODERN FICTION",
@@ -3278,7 +3278,7 @@
           "tutor": "DR. STEPHANIE TAN LI HSIA"
         }
       ],
-      "mav_name": " INTRODUCTION TO POSTMODERN FICTION"
+      "mav_name": "INTRODUCTION TO POSTMODERN FICTION"
     },
     {
       "module": "INTRODUCTION TO POSTMODERN FICTION",
@@ -3302,12 +3302,12 @@
           "end_time": "17:00"
         }
       ],
-      "mav_name": " INTRODUCTION TO POSTMODERN FICTION"
+      "mav_name": "INTRODUCTION TO POSTMODERN FICTION"
     }
   ],
   "AIC3018": [
     {
-      "module": "CHILDREN'S AND YOUNG ADULT LITERATURE  (ONLY FOR ENGLISH STUDENTS)",
+      "module": "CHILDREN'S AND YOUNG ADULT LITERATURE",
       "course_id": "AIC3018",
       "occurence": "1",
       "credits": 3,
@@ -3329,10 +3329,10 @@
           "tutor": "DR. SHARIFAH AISHAH BINTI OSMAN"
         }
       ],
-      "mav_name": "CHILDREN\u2019S AND YOUNG ADULT LITERATURE  (ONLY FOR ENGLISH STUDENTS)"
+      "mav_name": "CHILDREN'S AND YOUNG ADULT LITERATURE  (ONLY FOR ENGLISH STUDENTS)"
     },
     {
-      "module": "CHILDREN'S AND YOUNG ADULT LITERATURE  (ONLY FOR ENGLISH STUDENTS)",
+      "module": "CHILDREN'S AND YOUNG ADULT LITERATURE",
       "course_id": "AIC3018",
       "occurence": "2",
       "credits": 3,
@@ -3354,10 +3354,10 @@
           "tutor": "DR. SHARIFAH AISHAH BINTI OSMAN"
         }
       ],
-      "mav_name": "CHILDREN\u2019S AND YOUNG ADULT LITERATURE"
+      "mav_name": "CHILDREN'S AND YOUNG ADULT LITERATURE  (ONLY FOR ENGLISH STUDENTS)"
     },
     {
-      "module": "CHILDREN'S AND YOUNG ADULT LITERATURE  (ONLY FOR ENGLISH STUDENTS)",
+      "module": "CHILDREN'S AND YOUNG ADULT LITERATURE",
       "course_id": "AIC3018",
       "occurence": "3",
       "credits": 3,
@@ -3379,10 +3379,10 @@
           "tutor": "DR. SHARIFAH AISHAH BINTI OSMAN"
         }
       ],
-      "mav_name": "CHILDREN\u2019S AND YOUNG ADULT LITERATURE    (ONLY FOR TESL STUDENTS)"
+      "mav_name": "CHILDREN'S AND YOUNG ADULT LITERATURE  (ONLY FOR ENGLISH STUDENTS)"
     },
     {
-      "module": "CHILDREN'S AND YOUNG ADULT LITERATURE  (ONLY FOR ENGLISH STUDENTS)",
+      "module": "CHILDREN'S AND YOUNG ADULT LITERATURE",
       "course_id": "AIC3018",
       "occurence": "1M",
       "credits": 3,
@@ -3404,7 +3404,7 @@
           "tutor": "DR. SHARIFAH AISHAH BINTI OSMAN"
         }
       ],
-      "mav_name": "CHILDREN\u2019S AND YOUNG ADULT LITERATURE"
+      "mav_name": "CHILDREN'S AND YOUNG ADULT LITERATURE  (ONLY FOR ENGLISH STUDENTS)"
     }
   ],
   "AID1009": [
@@ -4975,7 +4975,7 @@
   ],
   "AIF1006": [
     {
-      "module": "INTRODUCTION TO SOUTHEAST ASIAN REGION II   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "INTRODUCTION TO SOUTHEAST ASIAN REGION II",
       "course_id": "AIF1006",
       "occurence": "1",
       "credits": 3,
@@ -5000,7 +5000,7 @@
       "mav_name": "INTRODUCTION TO SOUTHEAST ASIAN REGION II   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     },
     {
-      "module": "INTRODUCTION TO SOUTHEAST ASIAN REGION II   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "INTRODUCTION TO SOUTHEAST ASIAN REGION II",
       "course_id": "AIF1006",
       "occurence": "2",
       "credits": 3,
@@ -5022,10 +5022,10 @@
           "tutor": "ASSOCIATE PROF. DR. THIRUNAUKARASU A/L SUBRAMANIAM"
         }
       ],
-      "mav_name": "INTRODUCTION TO SOUTHEAST ASIAN REGION II   (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY) (MALAY LANGUAGE"
+      "mav_name": "INTRODUCTION TO SOUTHEAST ASIAN REGION II   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     },
     {
-      "module": "INTRODUCTION TO SOUTHEAST ASIAN REGION II   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "INTRODUCTION TO SOUTHEAST ASIAN REGION II",
       "course_id": "AIF1006",
       "occurence": "1M",
       "credits": 3,
@@ -5047,7 +5047,7 @@
           "tutor": "ASSOCIATE PROF. DR. THIRUNAUKARASU A/L SUBRAMANIAM"
         }
       ],
-      "mav_name": "INTRODUCTION TO SOUTHEAST ASIAN REGION II   (MALAY LANGUAGE)"
+      "mav_name": "INTRODUCTION TO SOUTHEAST ASIAN REGION II   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     }
   ],
   "AIF1007": [
@@ -5117,7 +5117,7 @@
   ],
   "AIF1014": [
     {
-      "module": "ASIAN EMPORIUMS  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "ASIAN EMPORIUMS",
       "course_id": "AIF1014",
       "occurence": "1",
       "credits": 3,
@@ -5142,7 +5142,7 @@
       "mav_name": "ASIAN EMPORIUMS  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     },
     {
-      "module": "ASIAN EMPORIUMS  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "ASIAN EMPORIUMS",
       "course_id": "AIF1014",
       "occurence": "2",
       "credits": 3,
@@ -5164,10 +5164,10 @@
           "tutor": "DR. MALA A/P RAJO @ SATHIAN"
         }
       ],
-      "mav_name": "ASIAN EMPORIUMS  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "ASIAN EMPORIUMS  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     },
     {
-      "module": "ASIAN EMPORIUMS  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "ASIAN EMPORIUMS",
       "course_id": "AIF1014",
       "occurence": "1M",
       "credits": 3,
@@ -5189,12 +5189,12 @@
           "tutor": "PROF. DR. HANAFI BIN HUSSIN"
         }
       ],
-      "mav_name": "ASIAN EMPORIUMS"
+      "mav_name": "ASIAN EMPORIUMS  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     }
   ],
   "AIF2009": [
     {
-      "module": "MARITIME ECONOMY OF SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "MARITIME ECONOMY OF SOUTHEAST ASIA",
       "course_id": "AIF2009",
       "occurence": "1",
       "credits": 3,
@@ -5219,7 +5219,7 @@
       "mav_name": "MARITIME ECONOMY OF SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     },
     {
-      "module": "MARITIME ECONOMY OF SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "MARITIME ECONOMY OF SOUTHEAST ASIA",
       "course_id": "AIF2009",
       "occurence": "2",
       "credits": 3,
@@ -5241,10 +5241,10 @@
           "tutor": "ASSOCIATE PROF. DR. HANIZAH BINTI IDRIS"
         }
       ],
-      "mav_name": "MARITIME ECONOMY OF SOUTHEAST ASIA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "MARITIME ECONOMY OF SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     },
     {
-      "module": "MARITIME ECONOMY OF SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "MARITIME ECONOMY OF SOUTHEAST ASIA",
       "course_id": "AIF2009",
       "occurence": "1M",
       "credits": 3,
@@ -5266,12 +5266,12 @@
           "tutor": "ASSOCIATE PROF. DR. HANIZAH BINTI IDRIS"
         }
       ],
-      "mav_name": "MARITIME ECONOMY OF SOUTHEAST ASIA"
+      "mav_name": "MARITIME ECONOMY OF SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     }
   ],
   "AIF2011": [
     {
-      "module": "SOCIAL MOVEMENTS IN SOUTHEAST ASIA  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "SOCIAL MOVEMENTS IN SOUTHEAST ASIA",
       "course_id": "AIF2011",
       "occurence": "1",
       "credits": 3,
@@ -5296,7 +5296,7 @@
       "mav_name": "SOCIAL MOVEMENTS IN SOUTHEAST ASIA  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     },
     {
-      "module": "SOCIAL MOVEMENTS IN SOUTHEAST ASIA  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "SOCIAL MOVEMENTS IN SOUTHEAST ASIA",
       "course_id": "AIF2011",
       "occurence": "2",
       "credits": 3,
@@ -5318,10 +5318,10 @@
           "tutor": "DR. MALA A/P RAJO @ SATHIAN"
         }
       ],
-      "mav_name": "SOCIAL MOVEMENTS IN SOUTHEAST ASIA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "SOCIAL MOVEMENTS IN SOUTHEAST ASIA  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     },
     {
-      "module": "SOCIAL MOVEMENTS IN SOUTHEAST ASIA  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "SOCIAL MOVEMENTS IN SOUTHEAST ASIA",
       "course_id": "AIF2011",
       "occurence": "1M",
       "credits": 3,
@@ -5343,7 +5343,7 @@
           "tutor": "DR. MALA A/P RAJO @ SATHIAN"
         }
       ],
-      "mav_name": "SOCIAL MOVEMENTS IN SOUTHEAST ASIA"
+      "mav_name": "SOCIAL MOVEMENTS IN SOUTHEAST ASIA  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     }
   ],
   "AIF2012": [
@@ -5544,7 +5544,7 @@
           "tutor": " "
         }
       ],
-      "mav_name": "SOCIAL ENTREPRENEURSHIP IN SOUTHEAST ASIA    (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "SOCIAL ENTREPRENEURSHIP IN SOUTHEAST ASIA"
     },
     {
       "module": "SOCIAL ENTREPRENEURSHIP IN SOUTHEAST ASIA",
@@ -5690,7 +5690,7 @@
   ],
   "AIF3017": [
     {
-      "module": "CULTURAL TOURISM IN SOUTHEAST ASIA  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "CULTURAL TOURISM IN SOUTHEAST ASIA",
       "course_id": "AIF3017",
       "occurence": "1",
       "credits": 3,
@@ -5715,7 +5715,7 @@
       "mav_name": "CULTURAL TOURISM IN SOUTHEAST ASIA  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     },
     {
-      "module": "CULTURAL TOURISM IN SOUTHEAST ASIA  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "CULTURAL TOURISM IN SOUTHEAST ASIA",
       "course_id": "AIF3017",
       "occurence": "2",
       "credits": 3,
@@ -5737,10 +5737,10 @@
           "tutor": "PROF. DR. HANAFI BIN HUSSIN"
         }
       ],
-      "mav_name": "CULTURAL TOURISM IN SOUTHEAST ASIA   (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "CULTURAL TOURISM IN SOUTHEAST ASIA  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     },
     {
-      "module": "CULTURAL TOURISM IN SOUTHEAST ASIA  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "CULTURAL TOURISM IN SOUTHEAST ASIA",
       "course_id": "AIF3017",
       "occurence": "1M",
       "credits": 3,
@@ -5762,12 +5762,12 @@
           "tutor": "PROF. DR. HANAFI BIN HUSSIN"
         }
       ],
-      "mav_name": "CULTURAL TOURISM IN SOUTHEAST ASIA"
+      "mav_name": "CULTURAL TOURISM IN SOUTHEAST ASIA  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     }
   ],
   "AIF3019": [
     {
-      "module": "ENVIRONMENT AND DEVELOPMENT IN SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "ENVIRONMENT AND DEVELOPMENT IN SOUTHEAST ASIA",
       "course_id": "AIF3019",
       "occurence": "1",
       "credits": 3,
@@ -5792,7 +5792,7 @@
       "mav_name": "ENVIRONMENT AND DEVELOPMENT IN SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     },
     {
-      "module": "ENVIRONMENT AND DEVELOPMENT IN SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "ENVIRONMENT AND DEVELOPMENT IN SOUTHEAST ASIA",
       "course_id": "AIF3019",
       "occurence": "2",
       "credits": 3,
@@ -5814,12 +5814,12 @@
           "tutor": "PROF. DR. HANAFI BIN HUSSIN"
         }
       ],
-      "mav_name": "ENVIRONMENT AND DEVELOPMENT IN SOUTHEAST ASIA   (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY) (MALAY LANG"
+      "mav_name": "ENVIRONMENT AND DEVELOPMENT IN SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     }
   ],
   "AIF3022": [
     {
-      "module": "MARITIME TOURISM DEVELOPMENT IN SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "MARITIME TOURISM DEVELOPMENT IN SOUTHEAST ASIA",
       "course_id": "AIF3022",
       "occurence": "1",
       "credits": 3,
@@ -5844,7 +5844,7 @@
       "mav_name": "MARITIME TOURISM DEVELOPMENT IN SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     },
     {
-      "module": "MARITIME TOURISM DEVELOPMENT IN SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "MARITIME TOURISM DEVELOPMENT IN SOUTHEAST ASIA",
       "course_id": "AIF3022",
       "occurence": "2",
       "credits": 3,
@@ -5866,10 +5866,10 @@
           "tutor": "ASSOCIATE PROF. DR. HANIZAH BINTI IDRIS"
         }
       ],
-      "mav_name": "MARITIME TOURISM DEVELOPMENT IN SOUTHEAST ASIA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "MARITIME TOURISM DEVELOPMENT IN SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     },
     {
-      "module": "MARITIME TOURISM DEVELOPMENT IN SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "MARITIME TOURISM DEVELOPMENT IN SOUTHEAST ASIA",
       "course_id": "AIF3022",
       "occurence": "1M",
       "credits": 3,
@@ -5891,12 +5891,12 @@
           "tutor": "ASSOCIATE PROF. DR. HANIZAH BINTI IDRIS"
         }
       ],
-      "mav_name": "MARITIME TOURISM DEVELOPMENT IN SOUTHEAST ASIA"
+      "mav_name": "MARITIME TOURISM DEVELOPMENT IN SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     }
   ],
   "AIF3024": [
     {
-      "module": "FIELD STUDIES OF SOUTHEAST ASIA  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "FIELD STUDIES OF SOUTHEAST ASIA",
       "course_id": "AIF3024",
       "occurence": "1",
       "credits": 3,
@@ -5921,7 +5921,7 @@
       "mav_name": "FIELD STUDIES OF SOUTHEAST ASIA  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     },
     {
-      "module": "FIELD STUDIES OF SOUTHEAST ASIA  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "FIELD STUDIES OF SOUTHEAST ASIA",
       "course_id": "AIF3024",
       "occurence": "2",
       "credits": 3,
@@ -5943,10 +5943,10 @@
           "tutor": "PROF. DR. HANAFI BIN HUSSIN"
         }
       ],
-      "mav_name": "FIELD STUDIES OF SOUTHEAST ASIA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "FIELD STUDIES OF SOUTHEAST ASIA  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     },
     {
-      "module": "FIELD STUDIES OF SOUTHEAST ASIA  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "FIELD STUDIES OF SOUTHEAST ASIA",
       "course_id": "AIF3024",
       "occurence": "1M",
       "credits": 3,
@@ -5968,12 +5968,12 @@
           "tutor": "PROF. DR. HANAFI BIN HUSSIN"
         }
       ],
-      "mav_name": "FIELD STUDIES OF SOUTHEAST ASIA"
+      "mav_name": "FIELD STUDIES OF SOUTHEAST ASIA  (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     }
   ],
   "AIF3025": [
     {
-      "module": "COASTAL MANAGEMENT IN SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "COASTAL MANAGEMENT IN SOUTHEAST ASIA",
       "course_id": "AIF3025",
       "occurence": "1",
       "credits": 3,
@@ -5998,7 +5998,7 @@
       "mav_name": "COASTAL MANAGEMENT IN SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     },
     {
-      "module": "COASTAL MANAGEMENT IN SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)",
+      "module": "COASTAL MANAGEMENT IN SOUTHEAST ASIA",
       "course_id": "AIF3025",
       "occurence": "2",
       "credits": 3,
@@ -6020,7 +6020,7 @@
           "tutor": "DR. MAZLAN BIN MAJID"
         }
       ],
-      "mav_name": "COASTAL MANAGEMENT IN SOUTHEAST ASIA   (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY) (MALAY LANGUAGE)"
+      "mav_name": "COASTAL MANAGEMENT IN SOUTHEAST ASIA   (ONLY FOR SOUTHEAST ASIAN STUDIES STUDENTS)"
     }
   ],
   "AIF3026": [
@@ -6178,7 +6178,7 @@
   ],
   "AIG2009": [
     {
-      "module": "POLITICAL ECONOMY OF CHINA   (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "POLITICAL ECONOMY OF CHINA",
       "course_id": "AIG2009",
       "occurence": "1",
       "credits": 3,
@@ -6203,7 +6203,7 @@
       "mav_name": "POLITICAL ECONOMY OF CHINA   (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     },
     {
-      "module": "POLITICAL ECONOMY OF CHINA   (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "POLITICAL ECONOMY OF CHINA",
       "course_id": "AIG2009",
       "occurence": "2",
       "credits": 3,
@@ -6225,10 +6225,10 @@
           "tutor": "DR. JIMMYN PARC"
         }
       ],
-      "mav_name": "POLITICAL ECONOMY OF CHINA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "POLITICAL ECONOMY OF CHINA   (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     },
     {
-      "module": "POLITICAL ECONOMY OF CHINA   (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "POLITICAL ECONOMY OF CHINA",
       "course_id": "AIG2009",
       "occurence": "1M",
       "credits": 3,
@@ -6242,12 +6242,12 @@
           "tutor": "ASSOCIATE PROF. DR. NGEOW CHOW BING"
         }
       ],
-      "mav_name": "POLITICAL ECONOMY OF CHINA"
+      "mav_name": "POLITICAL ECONOMY OF CHINA   (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     }
   ],
   "AIG2011": [
     {
-      "module": "CONFUCIANISM IN CHINA  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "CONFUCIANISM IN CHINA",
       "course_id": "AIG2011",
       "occurence": "1",
       "credits": 3,
@@ -6264,7 +6264,7 @@
       "mav_name": "CONFUCIANISM IN CHINA  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     },
     {
-      "module": "CONFUCIANISM IN CHINA  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "CONFUCIANISM IN CHINA",
       "course_id": "AIG2011",
       "occurence": "2",
       "credits": 3,
@@ -6278,12 +6278,12 @@
           "tutor": "DR. LING TEK SOON"
         }
       ],
-      "mav_name": "CONFUCIANISM IN CHINA"
+      "mav_name": "CONFUCIANISM IN CHINA  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     }
   ],
   "AIG2012": [
     {
-      "module": "SOCIAL TRANSFORMATION IN CHINA  (ONLY FOR EAST ASIA STUDIES STUDENTS) (MALAY LANGUAGE)",
+      "module": "SOCIAL TRANSFORMATION IN CHINA",
       "course_id": "AIG2012",
       "occurence": "2",
       "credits": 3,
@@ -6297,12 +6297,12 @@
           "tutor": "DR. FAN PIK SHY"
         }
       ],
-      "mav_name": "SOCIAL TRANSFORMATION IN CHINA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY) (MALAY LANGUAGE)"
+      "mav_name": "SOCIAL TRANSFORMATION IN CHINA  (ONLY FOR EAST ASIA STUDIES STUDENTS) (MALAY LANGUAGE)"
     }
   ],
   "AIG2014": [
     {
-      "module": "ECONOMIC POLICY OF CHINA   (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "ECONOMIC POLICY OF CHINA",
       "course_id": "AIG2014",
       "occurence": "1",
       "credits": 3,
@@ -6319,7 +6319,7 @@
       "mav_name": "ECONOMIC POLICY OF CHINA   (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     },
     {
-      "module": "ECONOMIC POLICY OF CHINA   (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "ECONOMIC POLICY OF CHINA",
       "course_id": "AIG2014",
       "occurence": "2",
       "credits": 3,
@@ -6333,10 +6333,10 @@
           "tutor": "DR. LI RAN"
         }
       ],
-      "mav_name": "ECONOMIC POLICY OF CHINA   (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "ECONOMIC POLICY OF CHINA   (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     },
     {
-      "module": "ECONOMIC POLICY OF CHINA   (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "ECONOMIC POLICY OF CHINA",
       "course_id": "AIG2014",
       "occurence": "1M",
       "credits": 3,
@@ -6350,12 +6350,12 @@
           "tutor": "DR. LI RAN"
         }
       ],
-      "mav_name": "ECONOMIC POLICY OF CHINA"
+      "mav_name": "ECONOMIC POLICY OF CHINA   (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     }
   ],
   "AIG2015": [
     {
-      "module": "ECONOMIC POLICY OF JAPAN   (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "ECONOMIC POLICY OF JAPAN",
       "course_id": "AIG2015",
       "occurence": "1",
       "credits": 3,
@@ -6372,7 +6372,7 @@
       "mav_name": "ECONOMIC POLICY OF JAPAN   (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     },
     {
-      "module": "ECONOMIC POLICY OF JAPAN   (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "ECONOMIC POLICY OF JAPAN",
       "course_id": "AIG2015",
       "occurence": "2",
       "credits": 3,
@@ -6386,7 +6386,7 @@
           "tutor": "DR. ALIAS BIN ABDULLAH"
         }
       ],
-      "mav_name": "ECONOMIC POLICY OF JAPAN   (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "ECONOMIC POLICY OF JAPAN   (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     }
   ],
   "AIG2016": [
@@ -6418,7 +6418,7 @@
   ],
   "AIG2018": [
     {
-      "module": "LOCAL GOVERNMENT IN JAPAN   (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "LOCAL GOVERNMENT IN JAPAN",
       "course_id": "AIG2018",
       "occurence": "2",
       "credits": 3,
@@ -6432,12 +6432,12 @@
           "tutor": "DR. ASMADI BIN HASSAN"
         }
       ],
-      "mav_name": "LOCAL GOVERNMENT IN JAPAN   (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "LOCAL GOVERNMENT IN JAPAN   (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     }
   ],
   "AIG2019": [
     {
-      "module": "GLOBALIZATION AND POPULAR CULTURE OF JAPAN   (ONLY FOR EAST ASIA STUDIES STUDENTS) (MALAY LANGUAGE)",
+      "module": "GLOBALIZATION AND POPULAR CULTURE OF JAPAN",
       "course_id": "AIG2019",
       "occurence": "1",
       "credits": 3,
@@ -6454,7 +6454,7 @@
       "mav_name": "GLOBALIZATION AND POPULAR CULTURE OF JAPAN   (ONLY FOR EAST ASIA STUDIES STUDENTS) (MALAY LANGUAGE)"
     },
     {
-      "module": "GLOBALIZATION AND POPULAR CULTURE OF JAPAN   (ONLY FOR EAST ASIA STUDIES STUDENTS) (MALAY LANGUAGE)",
+      "module": "GLOBALIZATION AND POPULAR CULTURE OF JAPAN",
       "course_id": "AIG2019",
       "occurence": "2",
       "credits": 3,
@@ -6468,12 +6468,12 @@
           "tutor": "DR. ROHAYATI BINTI PAIDI"
         }
       ],
-      "mav_name": "GLOBALIZATION AND POPULAR CULTURE OF JAPAN  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY) (MALAY LANGUAGE"
+      "mav_name": "GLOBALIZATION AND POPULAR CULTURE OF JAPAN   (ONLY FOR EAST ASIA STUDIES STUDENTS) (MALAY LANGUAGE)"
     }
   ],
   "AIG2022": [
     {
-      "module": "POLITICAL ECONOMY OF KOREA  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "POLITICAL ECONOMY OF KOREA",
       "course_id": "AIG2022",
       "occurence": "1",
       "credits": 3,
@@ -6498,7 +6498,7 @@
       "mav_name": "POLITICAL ECONOMY OF KOREA  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     },
     {
-      "module": "POLITICAL ECONOMY OF KOREA  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "POLITICAL ECONOMY OF KOREA",
       "course_id": "AIG2022",
       "occurence": "2",
       "credits": 3,
@@ -6520,12 +6520,12 @@
           "tutor": "DR. TAN SOO KEE"
         }
       ],
-      "mav_name": "POLITICAL ECONOMY OF KOREA"
+      "mav_name": "POLITICAL ECONOMY OF KOREA  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     }
   ],
   "AIG2027": [
     {
-      "module": "MODERNIZATION PROCESS OF KOREA  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "MODERNIZATION PROCESS OF KOREA",
       "course_id": "AIG2027",
       "occurence": "1",
       "credits": 3,
@@ -6542,7 +6542,7 @@
       "mav_name": "MODERNIZATION PROCESS OF KOREA  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     },
     {
-      "module": "MODERNIZATION PROCESS OF KOREA  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "MODERNIZATION PROCESS OF KOREA",
       "course_id": "AIG2027",
       "occurence": "2",
       "credits": 3,
@@ -6556,10 +6556,10 @@
           "tutor": " 000DUMMY"
         }
       ],
-      "mav_name": "MODERNIZATION PROCESS OF KOREA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "MODERNIZATION PROCESS OF KOREA  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     },
     {
-      "module": "MODERNIZATION PROCESS OF KOREA  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "MODERNIZATION PROCESS OF KOREA",
       "course_id": "AIG2027",
       "occurence": "1M",
       "credits": 3,
@@ -6573,12 +6573,12 @@
           "tutor": " 000DUMMY"
         }
       ],
-      "mav_name": "MODERNIZATION PROCESS OF KOREA"
+      "mav_name": "MODERNIZATION PROCESS OF KOREA  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     }
   ],
   "AIG2028": [
     {
-      "module": "SOCIAL TRANSFORMATION IN KOREA  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "SOCIAL TRANSFORMATION IN KOREA",
       "course_id": "AIG2028",
       "occurence": "1",
       "credits": 3,
@@ -6595,7 +6595,7 @@
       "mav_name": "SOCIAL TRANSFORMATION IN KOREA  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     },
     {
-      "module": "SOCIAL TRANSFORMATION IN KOREA  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "SOCIAL TRANSFORMATION IN KOREA",
       "course_id": "AIG2028",
       "occurence": "2",
       "credits": 3,
@@ -6609,10 +6609,10 @@
           "tutor": "DR. NURLIANA BINTI KAMARUDDIN"
         }
       ],
-      "mav_name": "SOCIAL TRANSFORMATION IN KOREA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "SOCIAL TRANSFORMATION IN KOREA  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     },
     {
-      "module": "SOCIAL TRANSFORMATION IN KOREA  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "SOCIAL TRANSFORMATION IN KOREA",
       "course_id": "AIG2028",
       "occurence": "1M",
       "credits": 3,
@@ -6626,12 +6626,12 @@
           "tutor": "DR. NURLIANA BINTI KAMARUDDIN"
         }
       ],
-      "mav_name": "SOCIAL TRANSFORMATION IN KOREA"
+      "mav_name": "SOCIAL TRANSFORMATION IN KOREA  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     }
   ],
   "AIG2030": [
     {
-      "module": "AGRICULTURAL ECONOMY OF JAPAN  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "AGRICULTURAL ECONOMY OF JAPAN",
       "course_id": "AIG2030",
       "occurence": "1",
       "credits": 3,
@@ -6648,7 +6648,7 @@
       "mav_name": "AGRICULTURAL ECONOMY OF JAPAN  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     },
     {
-      "module": "AGRICULTURAL ECONOMY OF JAPAN  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "AGRICULTURAL ECONOMY OF JAPAN",
       "course_id": "AIG2030",
       "occurence": "2",
       "credits": 3,
@@ -6662,12 +6662,12 @@
           "tutor": "DR. ALIAS BIN ABDULLAH"
         }
       ],
-      "mav_name": "AGRICULTURAL ECONOMY OF JAPAN  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "AGRICULTURAL ECONOMY OF JAPAN  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     }
   ],
   "AIG2031": [
     {
-      "module": "EAST ASIAN CONTEMPORARY SOCIETY  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "EAST ASIAN CONTEMPORARY SOCIETY",
       "course_id": "AIG2031",
       "occurence": "1",
       "credits": 3,
@@ -6684,7 +6684,7 @@
       "mav_name": "EAST ASIAN CONTEMPORARY SOCIETY  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     },
     {
-      "module": "EAST ASIAN CONTEMPORARY SOCIETY  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "EAST ASIAN CONTEMPORARY SOCIETY",
       "course_id": "AIG2031",
       "occurence": "2",
       "credits": 3,
@@ -6698,10 +6698,10 @@
           "tutor": "DR. NURLIANA BINTI KAMARUDDIN"
         }
       ],
-      "mav_name": "EAST ASIAN CONTEMPORARY SOCIETY  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "EAST ASIAN CONTEMPORARY SOCIETY  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     },
     {
-      "module": "EAST ASIAN CONTEMPORARY SOCIETY  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "EAST ASIAN CONTEMPORARY SOCIETY",
       "course_id": "AIG2031",
       "occurence": "1M",
       "credits": 3,
@@ -6715,7 +6715,7 @@
           "tutor": "DR. NURLIANA BINTI KAMARUDDIN"
         }
       ],
-      "mav_name": "EAST ASIAN CONTEMPORARY SOCIETY"
+      "mav_name": "EAST ASIAN CONTEMPORARY SOCIETY  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     }
   ],
   "AIG2034": [
@@ -6891,7 +6891,7 @@
   ],
   "AIG3017": [
     {
-      "module": "CHINA-ASEAN RELATIONS  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "CHINA-ASEAN RELATIONS",
       "course_id": "AIG3017",
       "occurence": "1",
       "credits": 3,
@@ -6908,7 +6908,7 @@
       "mav_name": "CHINA-ASEAN RELATIONS  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     },
     {
-      "module": "CHINA-ASEAN RELATIONS  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "CHINA-ASEAN RELATIONS",
       "course_id": "AIG3017",
       "occurence": "2",
       "credits": 3,
@@ -6922,10 +6922,10 @@
           "tutor": "DR. NUR SHAHADAH BINTI JAMIL"
         }
       ],
-      "mav_name": "CHINA-ASEAN RELATIONS  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "CHINA-ASEAN RELATIONS  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     },
     {
-      "module": "CHINA-ASEAN RELATIONS  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "CHINA-ASEAN RELATIONS",
       "course_id": "AIG3017",
       "occurence": "1M",
       "credits": 3,
@@ -6939,12 +6939,12 @@
           "tutor": "DR. NUR SHAHADAH BINTI JAMIL"
         }
       ],
-      "mav_name": "CHINA-ASEAN RELATIONS"
+      "mav_name": "CHINA-ASEAN RELATIONS  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     }
   ],
   "AIG3027": [
     {
-      "module": "KOREAN ENTREUPRENEURSHIP AND CORPORATE MANAGEMENT  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "KOREAN ENTREUPRENEURSHIP AND CORPORATE MANAGEMENT",
       "course_id": "AIG3027",
       "occurence": "1",
       "credits": 3,
@@ -6961,7 +6961,7 @@
       "mav_name": "KOREAN ENTREUPRENEURSHIP AND CORPORATE MANAGEMENT  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     },
     {
-      "module": "KOREAN ENTREUPRENEURSHIP AND CORPORATE MANAGEMENT  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "KOREAN ENTREUPRENEURSHIP AND CORPORATE MANAGEMENT",
       "course_id": "AIG3027",
       "occurence": "2",
       "credits": 3,
@@ -6975,10 +6975,10 @@
           "tutor": "DR. JIMMYN PARC"
         }
       ],
-      "mav_name": "KOREAN ENTREUPRENEURSHIP AND CORPORATE MANAGEMENT"
+      "mav_name": "KOREAN ENTREUPRENEURSHIP AND CORPORATE MANAGEMENT  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     },
     {
-      "module": "KOREAN ENTREUPRENEURSHIP AND CORPORATE MANAGEMENT  (ONLY FOR EAST ASIA STUDIES STUDENTS)",
+      "module": "KOREAN ENTREUPRENEURSHIP AND CORPORATE MANAGEMENT",
       "course_id": "AIG3027",
       "occurence": "1M",
       "credits": 3,
@@ -6992,7 +6992,7 @@
           "tutor": "DR. JIMMYN PARC"
         }
       ],
-      "mav_name": "KOREAN ENTREUPRENEURSHIP AND CORPORATE MANAGEMENT"
+      "mav_name": "KOREAN ENTREUPRENEURSHIP AND CORPORATE MANAGEMENT  (ONLY FOR EAST ASIA STUDIES STUDENTS)"
     }
   ],
   "AIG3040": [
@@ -7564,7 +7564,7 @@
   ],
   "AIH3018": [
     {
-      "module": "TAMIL IN JOURNALISM (TAMIL LANGUAGE)",
+      "module": "TAMIL IN JOURNALISM",
       "course_id": "AIH3018",
       "occurence": "1",
       "credits": 3,
@@ -7736,7 +7736,7 @@
   ],
   "AII1004": [
     {
-      "module": "CHINESE IN CLASSICAL TEXTS   (ONLY FOR CHINESE STUDIES)",
+      "module": "CHINESE IN CLASSICAL TEXTS",
       "course_id": "AII1004",
       "occurence": "1",
       "credits": 3,
@@ -7761,7 +7761,7 @@
       "mav_name": "CHINESE IN CLASSICAL TEXTS   (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "CHINESE IN CLASSICAL TEXTS   (ONLY FOR CHINESE STUDIES)",
+      "module": "CHINESE IN CLASSICAL TEXTS",
       "course_id": "AII1004",
       "occurence": "2",
       "credits": 3,
@@ -7783,12 +7783,12 @@
           "tutor": "DR. YEOH YIN YIN"
         }
       ],
-      "mav_name": "CHINESE IN CLASSICAL TEXTS"
+      "mav_name": "CHINESE IN CLASSICAL TEXTS   (ONLY FOR CHINESE STUDIES)"
     }
   ],
   "AII1014": [
     {
-      "module": "CLASSICAL CHINESE LITERATURE II  (ONLY FOR CHINESE STUDIES)",
+      "module": "CLASSICAL CHINESE LITERATURE II",
       "course_id": "AII1014",
       "occurence": "1",
       "credits": 3,
@@ -7813,7 +7813,7 @@
       "mav_name": "CLASSICAL CHINESE LITERATURE II  (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "CLASSICAL CHINESE LITERATURE II  (ONLY FOR CHINESE STUDIES)",
+      "module": "CLASSICAL CHINESE LITERATURE II",
       "course_id": "AII1014",
       "occurence": "2",
       "credits": 3,
@@ -7835,12 +7835,12 @@
           "tutor": "DR. CHIA JEE LUEN"
         }
       ],
-      "mav_name": "CLASSICAL CHINESE LITERATURE II"
+      "mav_name": "CLASSICAL CHINESE LITERATURE II  (ONLY FOR CHINESE STUDIES)"
     }
   ],
   "AII1015": [
     {
-      "module": "CHINESE CREATIVE WRITING  (ONLY FOR CHINESE STUDIES)",
+      "module": "CHINESE CREATIVE WRITING",
       "course_id": "AII1015",
       "occurence": "1",
       "credits": 3,
@@ -7865,7 +7865,7 @@
       "mav_name": "CHINESE CREATIVE WRITING  (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "CHINESE CREATIVE WRITING  (ONLY FOR CHINESE STUDIES)",
+      "module": "CHINESE CREATIVE WRITING",
       "course_id": "AII1015",
       "occurence": "2",
       "credits": 3,
@@ -7887,12 +7887,12 @@
           "tutor": "DR. CHAI SIAW LING"
         }
       ],
-      "mav_name": "CHINESE CREATIVE WRITING"
+      "mav_name": "CHINESE CREATIVE WRITING  (ONLY FOR CHINESE STUDIES)"
     }
   ],
   "AII1016": [
     {
-      "module": "CLASSICAL CHINESE FICTION  (ONLY FOR CHINESE STUDIES)",
+      "module": "CLASSICAL CHINESE FICTION",
       "course_id": "AII1016",
       "occurence": "1",
       "credits": 3,
@@ -7917,7 +7917,7 @@
       "mav_name": "CLASSICAL CHINESE FICTION  (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "CLASSICAL CHINESE FICTION  (ONLY FOR CHINESE STUDIES)",
+      "module": "CLASSICAL CHINESE FICTION",
       "course_id": "AII1016",
       "occurence": "2",
       "credits": 3,
@@ -7939,12 +7939,12 @@
           "tutor": "DR. ONG SIEW KIAN"
         }
       ],
-      "mav_name": "CLASSICAL CHINESE FICTION"
+      "mav_name": "CLASSICAL CHINESE FICTION  (ONLY FOR CHINESE STUDIES)"
     }
   ],
   "AII2001": [
     {
-      "module": "SINOGRAPHY AND  ANCIENT SCRIPTS   (ONLY FOR CHINESE STUDIES)",
+      "module": "SINOGRAPHY AND  ANCIENT SCRIPTS",
       "course_id": "AII2001",
       "occurence": "1",
       "credits": 3,
@@ -7969,7 +7969,7 @@
       "mav_name": "SINOGRAPHY AND  ANCIENT SCRIPTS   (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "SINOGRAPHY AND  ANCIENT SCRIPTS   (ONLY FOR CHINESE STUDIES)",
+      "module": "SINOGRAPHY AND  ANCIENT SCRIPTS",
       "course_id": "AII2001",
       "occurence": "2",
       "credits": 3,
@@ -7991,7 +7991,7 @@
           "tutor": "DR. YEOH YIN YIN"
         }
       ],
-      "mav_name": "SINOGRAPHY AND  ANCIENT SCRIPTS"
+      "mav_name": "SINOGRAPHY AND  ANCIENT SCRIPTS   (ONLY FOR CHINESE STUDIES)"
     }
   ],
   "AII2002": [
@@ -8042,7 +8042,7 @@
   ],
   "AII2005": [
     {
-      "module": "MODERN CHINESE FILM AND DRAMA   (ONLY FOR CHINESE STUDIES)",
+      "module": "MODERN CHINESE FILM AND DRAMA",
       "course_id": "AII2005",
       "occurence": "1",
       "credits": 3,
@@ -8067,7 +8067,7 @@
       "mav_name": "MODERN CHINESE FILM AND DRAMA   (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "MODERN CHINESE FILM AND DRAMA   (ONLY FOR CHINESE STUDIES)",
+      "module": "MODERN CHINESE FILM AND DRAMA",
       "course_id": "AII2005",
       "occurence": "2",
       "credits": 3,
@@ -8089,10 +8089,10 @@
           "tutor": "DR. CHAI SIAW LING"
         }
       ],
-      "mav_name": "MODERN CHINESE FILM AND DRAMA"
+      "mav_name": "MODERN CHINESE FILM AND DRAMA   (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "MODERN CHINESE FILM AND DRAMA   (ONLY FOR CHINESE STUDIES)",
+      "module": "MODERN CHINESE FILM AND DRAMA",
       "course_id": "AII2005",
       "occurence": "1M",
       "credits": 3,
@@ -8114,12 +8114,12 @@
           "tutor": "DR. CHAI SIAW LING"
         }
       ],
-      "mav_name": "MODERN CHINESE FILM AND DRAMA"
+      "mav_name": "MODERN CHINESE FILM AND DRAMA   (ONLY FOR CHINESE STUDIES)"
     }
   ],
   "AII2020": [
     {
-      "module": "CLASSICAL CHINESE POETRY   (ONLY FOR CHINESE STUDIES)",
+      "module": "CLASSICAL CHINESE POETRY",
       "course_id": "AII2020",
       "occurence": "1",
       "credits": 3,
@@ -8144,7 +8144,7 @@
       "mav_name": "CLASSICAL CHINESE POETRY   (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "CLASSICAL CHINESE POETRY   (ONLY FOR CHINESE STUDIES)",
+      "module": "CLASSICAL CHINESE POETRY",
       "course_id": "AII2020",
       "occurence": "2",
       "credits": 3,
@@ -8166,10 +8166,10 @@
           "tutor": "DR. LAI CHIN TING"
         }
       ],
-      "mav_name": "CLASSICAL CHINESE POETRY"
+      "mav_name": "CLASSICAL CHINESE POETRY   (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "CLASSICAL CHINESE POETRY   (ONLY FOR CHINESE STUDIES)",
+      "module": "CLASSICAL CHINESE POETRY",
       "course_id": "AII2020",
       "occurence": "1M",
       "credits": 3,
@@ -8191,12 +8191,12 @@
           "tutor": "DR. LAI CHIN TING"
         }
       ],
-      "mav_name": "CLASSICAL CHINESE POETRY"
+      "mav_name": "CLASSICAL CHINESE POETRY   (ONLY FOR CHINESE STUDIES)"
     }
   ],
   "AII2022": [
     {
-      "module": "INTRODUCTION TO CHINESE STUDIES  (ONLY FOR CHINESE STUDIES)",
+      "module": "INTRODUCTION TO CHINESE STUDIES",
       "course_id": "AII2022",
       "occurence": "1",
       "credits": 3,
@@ -8221,7 +8221,7 @@
       "mav_name": "INTRODUCTION TO CHINESE STUDIES  (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "INTRODUCTION TO CHINESE STUDIES  (ONLY FOR CHINESE STUDIES)",
+      "module": "INTRODUCTION TO CHINESE STUDIES",
       "course_id": "AII2022",
       "occurence": "2",
       "credits": 3,
@@ -8243,10 +8243,10 @@
           "tutor": "DR. NGU IK TIEN"
         }
       ],
-      "mav_name": "INTRODUCTION TO CHINESE STUDIES   (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY) (CHINESE LANGUAGE)"
+      "mav_name": "INTRODUCTION TO CHINESE STUDIES  (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "INTRODUCTION TO CHINESE STUDIES  (ONLY FOR CHINESE STUDIES)",
+      "module": "INTRODUCTION TO CHINESE STUDIES",
       "course_id": "AII2022",
       "occurence": "1M",
       "credits": 3,
@@ -8268,12 +8268,12 @@
           "tutor": "DR. NGU IK TIEN"
         }
       ],
-      "mav_name": "INTRODUCTION TO CHINESE STUDIES"
+      "mav_name": "INTRODUCTION TO CHINESE STUDIES  (ONLY FOR CHINESE STUDIES)"
     }
   ],
   "AII2023": [
     {
-      "module": "THE COLD WAR AND THE OVERSEAS CHINESE IN ASIA  (ONLY FOR CHINESE STUDIES)",
+      "module": "THE COLD WAR AND THE OVERSEAS CHINESE IN ASIA",
       "course_id": "AII2023",
       "occurence": "1",
       "credits": 3,
@@ -8298,7 +8298,7 @@
       "mav_name": "THE COLD WAR AND THE OVERSEAS CHINESE IN ASIA  (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "THE COLD WAR AND THE OVERSEAS CHINESE IN ASIA  (ONLY FOR CHINESE STUDIES)",
+      "module": "THE COLD WAR AND THE OVERSEAS CHINESE IN ASIA",
       "course_id": "AII2023",
       "occurence": "2",
       "credits": 3,
@@ -8320,10 +8320,10 @@
           "tutor": "DR. HO KEE CHYE"
         }
       ],
-      "mav_name": "THE COLD WAR AND THE OVERSEAS CHINESE IN ASIA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "THE COLD WAR AND THE OVERSEAS CHINESE IN ASIA  (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "THE COLD WAR AND THE OVERSEAS CHINESE IN ASIA  (ONLY FOR CHINESE STUDIES)",
+      "module": "THE COLD WAR AND THE OVERSEAS CHINESE IN ASIA",
       "course_id": "AII2023",
       "occurence": "1M",
       "credits": 3,
@@ -8345,12 +8345,12 @@
           "tutor": "DR. HO KEE CHYE"
         }
       ],
-      "mav_name": "THE COLD WAR AND THE OVERSEAS CHINESE IN ASIA"
+      "mav_name": "THE COLD WAR AND THE OVERSEAS CHINESE IN ASIA  (ONLY FOR CHINESE STUDIES)"
     }
   ],
   "AII2024": [
     {
-      "module": "MODERN CHINESE LITERATURE  (ONLY FOR CHINESE STUDIES)",
+      "module": "MODERN CHINESE LITERATURE",
       "course_id": "AII2024",
       "occurence": "1",
       "credits": 3,
@@ -8374,7 +8374,7 @@
       "mav_name": "MODERN CHINESE LITERATURE  (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "MODERN CHINESE LITERATURE  (ONLY FOR CHINESE STUDIES)",
+      "module": "MODERN CHINESE LITERATURE",
       "course_id": "AII2024",
       "occurence": "2",
       "credits": 3,
@@ -8395,12 +8395,12 @@
           "end_time": "14:00"
         }
       ],
-      "mav_name": "MODERN CHINESE LITERATURE  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "MODERN CHINESE LITERATURE  (ONLY FOR CHINESE STUDIES)"
     }
   ],
   "AII2026": [
     {
-      "module": "INTRODUCTION TO CHINESE RELIGION  (ONLY FOR CHINESE STUDIES)",
+      "module": "INTRODUCTION TO CHINESE RELIGION",
       "course_id": "AII2026",
       "occurence": "1",
       "credits": 3,
@@ -8425,7 +8425,7 @@
       "mav_name": "INTRODUCTION TO CHINESE RELIGION  (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "INTRODUCTION TO CHINESE RELIGION  (ONLY FOR CHINESE STUDIES)",
+      "module": "INTRODUCTION TO CHINESE RELIGION",
       "course_id": "AII2026",
       "occurence": "2",
       "credits": 3,
@@ -8447,10 +8447,10 @@
           "tutor": "DR. YAM KAH KEAN"
         }
       ],
-      "mav_name": "INTRODUCTION TO CHINESE RELIGION  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "INTRODUCTION TO CHINESE RELIGION  (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "INTRODUCTION TO CHINESE RELIGION  (ONLY FOR CHINESE STUDIES)",
+      "module": "INTRODUCTION TO CHINESE RELIGION",
       "course_id": "AII2026",
       "occurence": "1M",
       "credits": 3,
@@ -8472,12 +8472,12 @@
           "tutor": "DR. YAM KAH KEAN"
         }
       ],
-      "mav_name": "INTRODUCTION TO CHINESE RELIGION"
+      "mav_name": "INTRODUCTION TO CHINESE RELIGION  (ONLY FOR CHINESE STUDIES)"
     }
   ],
   "AII3018": [
     {
-      "module": "MALAYSIAN CHINESE LITERATURE  (ONLY FOR CHINESE STUDIES)",
+      "module": "MALAYSIAN CHINESE LITERATURE",
       "course_id": "AII3018",
       "occurence": "1",
       "credits": 3,
@@ -8502,7 +8502,7 @@
       "mav_name": "MALAYSIAN CHINESE LITERATURE  (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "MALAYSIAN CHINESE LITERATURE  (ONLY FOR CHINESE STUDIES)",
+      "module": "MALAYSIAN CHINESE LITERATURE",
       "course_id": "AII3018",
       "occurence": "2",
       "credits": 3,
@@ -8524,12 +8524,12 @@
           "tutor": "DR. TEOH HOOI SEE"
         }
       ],
-      "mav_name": "MALAYSIAN CHINESE LITERATURE  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "MALAYSIAN CHINESE LITERATURE  (ONLY FOR CHINESE STUDIES)"
     }
   ],
   "AII3023": [
     {
-      "module": "ETHNIC CHINESE POLITICS IN MARITIME SOUTHEAST ASIA  (ONLY FOR CHINESE STUDIES)",
+      "module": "ETHNIC CHINESE POLITICS IN MARITIME SOUTHEAST ASIA",
       "course_id": "AII3023",
       "occurence": "1",
       "credits": 3,
@@ -8554,7 +8554,7 @@
       "mav_name": "ETHNIC CHINESE POLITICS IN MARITIME SOUTHEAST ASIA  (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "ETHNIC CHINESE POLITICS IN MARITIME SOUTHEAST ASIA  (ONLY FOR CHINESE STUDIES)",
+      "module": "ETHNIC CHINESE POLITICS IN MARITIME SOUTHEAST ASIA",
       "course_id": "AII3023",
       "occurence": "2",
       "credits": 3,
@@ -8576,10 +8576,10 @@
           "tutor": "DR. NGU IK TIEN"
         }
       ],
-      "mav_name": "ETHNIC CHINESE POLITICS IN MARITIME SOUTHEAST ASIA"
+      "mav_name": "ETHNIC CHINESE POLITICS IN MARITIME SOUTHEAST ASIA  (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "ETHNIC CHINESE POLITICS IN MARITIME SOUTHEAST ASIA  (ONLY FOR CHINESE STUDIES)",
+      "module": "ETHNIC CHINESE POLITICS IN MARITIME SOUTHEAST ASIA",
       "course_id": "AII3023",
       "occurence": "1M",
       "credits": 3,
@@ -8601,12 +8601,12 @@
           "tutor": "DR. NGU IK TIEN"
         }
       ],
-      "mav_name": "ETHNIC CHINESE POLITICS IN MARITIME SOUTHEAST ASIA"
+      "mav_name": "ETHNIC CHINESE POLITICS IN MARITIME SOUTHEAST ASIA  (ONLY FOR CHINESE STUDIES)"
     }
   ],
   "AII3024": [
     {
-      "module": "SELECTED PROSE IN CLASSICAL CHINESE LITERATURE   (ONLY FOR CHINESE STUDIES)",
+      "module": "SELECTED PROSE IN CLASSICAL CHINESE LITERATURE",
       "course_id": "AII3024",
       "occurence": "1",
       "credits": 3,
@@ -8631,7 +8631,7 @@
       "mav_name": "SELECTED PROSE IN CLASSICAL CHINESE LITERATURE   (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "SELECTED PROSE IN CLASSICAL CHINESE LITERATURE   (ONLY FOR CHINESE STUDIES)",
+      "module": "SELECTED PROSE IN CLASSICAL CHINESE LITERATURE",
       "course_id": "AII3024",
       "occurence": "2",
       "credits": 3,
@@ -8653,10 +8653,10 @@
           "tutor": "DR. ONG SIEW KIAN"
         }
       ],
-      "mav_name": "SELECTED PROSE IN CLASSICAL CHINESE LITERATURE"
+      "mav_name": "SELECTED PROSE IN CLASSICAL CHINESE LITERATURE   (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "SELECTED PROSE IN CLASSICAL CHINESE LITERATURE   (ONLY FOR CHINESE STUDIES)",
+      "module": "SELECTED PROSE IN CLASSICAL CHINESE LITERATURE",
       "course_id": "AII3024",
       "occurence": "1M",
       "credits": 3,
@@ -8678,12 +8678,12 @@
           "tutor": "DR. ONG SIEW KIAN"
         }
       ],
-      "mav_name": "SELECTED PROSE IN CLASSICAL CHINESE LITERATURE"
+      "mav_name": "SELECTED PROSE IN CLASSICAL CHINESE LITERATURE   (ONLY FOR CHINESE STUDIES)"
     }
   ],
   "AII3027": [
     {
-      "module": "CLASSICAL CHINESE THOUGHT  (ONLY FOR CHINESE STUDIES)",
+      "module": "CLASSICAL CHINESE THOUGHT",
       "course_id": "AII3027",
       "occurence": "1",
       "credits": 3,
@@ -8708,7 +8708,7 @@
       "mav_name": "CLASSICAL CHINESE THOUGHT  (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "CLASSICAL CHINESE THOUGHT  (ONLY FOR CHINESE STUDIES)",
+      "module": "CLASSICAL CHINESE THOUGHT",
       "course_id": "AII3027",
       "occurence": "2",
       "credits": 3,
@@ -8730,10 +8730,10 @@
           "tutor": "DR. CHING THING HO"
         }
       ],
-      "mav_name": "CLASSICAL CHINESE THOUGHT  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY) (CHINESE LANGUAGE)"
+      "mav_name": "CLASSICAL CHINESE THOUGHT  (ONLY FOR CHINESE STUDIES)"
     },
     {
-      "module": "CLASSICAL CHINESE THOUGHT  (ONLY FOR CHINESE STUDIES)",
+      "module": "CLASSICAL CHINESE THOUGHT",
       "course_id": "AII3027",
       "occurence": "1M",
       "credits": 3,
@@ -8755,7 +8755,7 @@
           "tutor": "DR. CHING THING HO"
         }
       ],
-      "mav_name": "CLASSICAL CHINESE THOUGHT"
+      "mav_name": "CLASSICAL CHINESE THOUGHT  (ONLY FOR CHINESE STUDIES)"
     }
   ],
   "AIJ1004": [
@@ -8900,7 +8900,7 @@
   ],
   "AIJ2007": [
     {
-      "module": "CRIME AND CRIMINAL JUSTICE  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)",
+      "module": "CRIME AND CRIMINAL JUSTICE",
       "course_id": "AIJ2007",
       "occurence": "1",
       "credits": 3,
@@ -8923,7 +8923,7 @@
       "mav_name": "CRIME AND CRIMINAL JUSTICE  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)"
     },
     {
-      "module": "CRIME AND CRIMINAL JUSTICE  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)",
+      "module": "CRIME AND CRIMINAL JUSTICE",
       "course_id": "AIJ2007",
       "occurence": "2",
       "credits": 3,
@@ -8943,12 +8943,12 @@
           "end_time": "13:00"
         }
       ],
-      "mav_name": "CRIME AND CRIMINAL JUSTICE"
+      "mav_name": "CRIME AND CRIMINAL JUSTICE  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)"
     }
   ],
   "AIJ2008": [
     {
-      "module": "SOCIAL ORGANIZATION OF WORK  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)",
+      "module": "SOCIAL ORGANIZATION OF WORK",
       "course_id": "AIJ2008",
       "occurence": "1",
       "credits": 3,
@@ -8972,7 +8972,7 @@
       "mav_name": "SOCIAL ORGANIZATION OF WORK  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)"
     },
     {
-      "module": "SOCIAL ORGANIZATION OF WORK  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)",
+      "module": "SOCIAL ORGANIZATION OF WORK",
       "course_id": "AIJ2008",
       "occurence": "2",
       "credits": 3,
@@ -8992,10 +8992,10 @@
           "end_time": "14:00"
         }
       ],
-      "mav_name": "SOCIAL ORGANIZATION OF WORK"
+      "mav_name": "SOCIAL ORGANIZATION OF WORK  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)"
     },
     {
-      "module": "SOCIAL ORGANIZATION OF WORK  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)",
+      "module": "SOCIAL ORGANIZATION OF WORK",
       "course_id": "AIJ2008",
       "occurence": "1M",
       "credits": 3,
@@ -9016,12 +9016,12 @@
           "end_time": "14:00"
         }
       ],
-      "mav_name": "SOCIAL ORGANIZATION OF WORK"
+      "mav_name": "SOCIAL ORGANIZATION OF WORK  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)"
     }
   ],
   "AIJ2009": [
     {
-      "module": "SOCIAL  PLANNING  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)",
+      "module": "SOCIAL  PLANNING",
       "course_id": "AIJ2009",
       "occurence": "1",
       "credits": 3,
@@ -9046,7 +9046,7 @@
       "mav_name": "SOCIAL  PLANNING  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)"
     },
     {
-      "module": "SOCIAL  PLANNING  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)",
+      "module": "SOCIAL  PLANNING",
       "course_id": "AIJ2009",
       "occurence": "2",
       "credits": 3,
@@ -9068,10 +9068,10 @@
           "tutor": "PROF. DR. SITI HAJAR BINTI ABU BAKAR AH"
         }
       ],
-      "mav_name": "SOCIAL  PLANNING"
+      "mav_name": "SOCIAL  PLANNING  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)"
     },
     {
-      "module": "SOCIAL  PLANNING  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)",
+      "module": "SOCIAL  PLANNING",
       "course_id": "AIJ2009",
       "occurence": "1M",
       "credits": 3,
@@ -9093,7 +9093,7 @@
           "tutor": "PROF. DR. SITI HAJAR BINTI ABU BAKAR AH"
         }
       ],
-      "mav_name": "SOCIAL  PLANNING"
+      "mav_name": "SOCIAL  PLANNING  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)"
     }
   ],
   "AIJ2010": [
@@ -9122,7 +9122,7 @@
   ],
   "AIJ2011": [
     {
-      "module": "SOCIAL WORK GERONTOLOGICAL  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)",
+      "module": "SOCIAL WORK GERONTOLOGICAL",
       "course_id": "AIJ2011",
       "occurence": "1",
       "credits": 3,
@@ -9146,7 +9146,7 @@
       "mav_name": "SOCIAL WORK GERONTOLOGICAL  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)"
     },
     {
-      "module": "SOCIAL WORK GERONTOLOGICAL  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)",
+      "module": "SOCIAL WORK GERONTOLOGICAL",
       "course_id": "AIJ2011",
       "occurence": "2",
       "credits": 3,
@@ -9168,12 +9168,12 @@
           "tutor": "DR. NORALINA BINTI OMAR"
         }
       ],
-      "mav_name": "SOCIAL WORK GERONTOLOGICAL"
+      "mav_name": "SOCIAL WORK GERONTOLOGICAL  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)"
     }
   ],
   "AIJ2012": [
     {
-      "module": "SOCIAL WORK AND MENTAL HEALTH  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)",
+      "module": "SOCIAL WORK AND MENTAL HEALTH",
       "course_id": "AIJ2012",
       "occurence": "1",
       "credits": 3,
@@ -9198,7 +9198,7 @@
       "mav_name": "SOCIAL WORK AND MENTAL HEALTH  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)"
     },
     {
-      "module": "SOCIAL WORK AND MENTAL HEALTH  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)",
+      "module": "SOCIAL WORK AND MENTAL HEALTH",
       "course_id": "AIJ2012",
       "occurence": "2",
       "credits": 3,
@@ -9220,7 +9220,7 @@
           "tutor": "DR. KUMARASHWARAN A/L VADEVELU"
         }
       ],
-      "mav_name": "SOCIAL WORK AND MENTAL HEALTH"
+      "mav_name": "SOCIAL WORK AND MENTAL HEALTH  (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)"
     }
   ],
   "AIJ2013": [
@@ -9341,7 +9341,7 @@
   ],
   "AIJ2017": [
     {
-      "module": "CROSS-CULTURAL STUDY OF FAMILY IN MALAYSIA   (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)",
+      "module": "CROSS-CULTURAL STUDY OF FAMILY IN MALAYSIA",
       "course_id": "AIJ2017",
       "occurence": "1",
       "credits": 3,
@@ -9366,7 +9366,7 @@
       "mav_name": "CROSS-CULTURAL STUDY OF FAMILY IN MALAYSIA   (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)"
     },
     {
-      "module": "CROSS-CULTURAL STUDY OF FAMILY IN MALAYSIA   (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)",
+      "module": "CROSS-CULTURAL STUDY OF FAMILY IN MALAYSIA",
       "course_id": "AIJ2017",
       "occurence": "2",
       "credits": 3,
@@ -9388,10 +9388,10 @@
           "tutor": "DR. NORALINA BINTI OMAR"
         }
       ],
-      "mav_name": "CROSS-CULTURAL STUDY OF FAMILY IN MALAYSIA"
+      "mav_name": "CROSS-CULTURAL STUDY OF FAMILY IN MALAYSIA   (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)"
     },
     {
-      "module": "CROSS-CULTURAL STUDY OF FAMILY IN MALAYSIA   (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)",
+      "module": "CROSS-CULTURAL STUDY OF FAMILY IN MALAYSIA",
       "course_id": "AIJ2017",
       "occurence": "1M",
       "credits": 3,
@@ -9413,7 +9413,7 @@
           "tutor": "DR. NORALINA BINTI OMAR"
         }
       ],
-      "mav_name": "CROSS-CULTURAL STUDY OF FAMILY IN MALAYSIA"
+      "mav_name": "CROSS-CULTURAL STUDY OF FAMILY IN MALAYSIA   (ONLY FOR SOCIAL ADMINISTRATION STUDENTS)"
     }
   ],
   "AIL1007": [
@@ -9689,12 +9689,12 @@
           "tutor": "ASSOCIATE PROF. DR. ARBA'IYAH BINTI MOHD NOOR"
         }
       ],
-      "mav_name": "HISTORY OF WOMEN IN MALAYSIA  (MALAY LANGUAGE)"
+      "mav_name": "HISTORY OF WOMEN IN MALAYSIA"
     }
   ],
   "AIL2020": [
     {
-      "module": "SOCIAL HISTORY OF INDONESIA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)",
+      "module": "SOCIAL HISTORY OF INDONESIA",
       "course_id": "AIL2020",
       "occurence": "1",
       "credits": 3,
@@ -9718,7 +9718,7 @@
       "mav_name": "SOCIAL HISTORY OF INDONESIA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
     },
     {
-      "module": "SOCIAL HISTORY OF INDONESIA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)",
+      "module": "SOCIAL HISTORY OF INDONESIA",
       "course_id": "AIL2020",
       "occurence": "1M",
       "credits": 3,
@@ -9739,12 +9739,12 @@
           "end_time": "11:00"
         }
       ],
-      "mav_name": "SOCIAL HISTORY OF INDONESIA"
+      "mav_name": "SOCIAL HISTORY OF INDONESIA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
     }
   ],
   "AIL2022": [
     {
-      "module": "HISTORY OF MODERN CHINA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)",
+      "module": "HISTORY OF MODERN CHINA",
       "course_id": "AIL2022",
       "occurence": "1",
       "credits": 3,
@@ -9769,7 +9769,7 @@
       "mav_name": "HISTORY OF MODERN CHINA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
     },
     {
-      "module": "HISTORY OF MODERN CHINA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)",
+      "module": "HISTORY OF MODERN CHINA",
       "course_id": "AIL2022",
       "occurence": "1M",
       "credits": 3,
@@ -9791,12 +9791,12 @@
           "tutor": "PROF. DR. DANNY WONG TZE KEN"
         }
       ],
-      "mav_name": "HISTORY OF MODERN CHINA"
+      "mav_name": "HISTORY OF MODERN CHINA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
     }
   ],
   "AIL2023": [
     {
-      "module": "ISLAMIC HISTORY IN SOUTH ASIA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY) (MALAY LANGUAGE)",
+      "module": "ISLAMIC HISTORY IN SOUTH ASIA",
       "course_id": "AIL2023",
       "occurence": "1",
       "credits": 3,
@@ -9923,7 +9923,7 @@
   ],
   "AIL2029": [
     {
-      "module": "HISTORY OF HEALTH IN MALAYSIA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY) (MALAY LANGUAGE)",
+      "module": "HISTORY OF HEALTH IN MALAYSIA",
       "course_id": "AIL2029",
       "occurence": "1",
       "credits": 3,
@@ -9949,7 +9949,7 @@
   ],
   "AIL2033": [
     {
-      "module": "ARCHAEOLOGY IN MALAYSIA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY) (MALAY LANGUAGE)",
+      "module": "ARCHAEOLOGY IN MALAYSIA",
       "course_id": "AIL2033",
       "occurence": "1",
       "credits": 3,
@@ -9976,7 +9976,7 @@
   ],
   "AIL2034": [
     {
-      "module": "RUSSIAN HISTORY UNTIL EARLY 20TH CENTURY   (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY) (MALAY LANGUAGE)",
+      "module": "RUSSIAN HISTORY UNTIL EARLY 20TH CENTURY",
       "course_id": "AIL2034",
       "occurence": "1",
       "credits": 3,
@@ -10168,7 +10168,7 @@
   ],
   "AIL3012": [
     {
-      "module": "SOCIAL CHANGE IN MALAYSIA  (ONLY FOR HISTORY STUDENTS)",
+      "module": "SOCIAL CHANGE IN MALAYSIA",
       "course_id": "AIL3012",
       "occurence": "1",
       "credits": 3,
@@ -10193,7 +10193,7 @@
       "mav_name": "SOCIAL CHANGE IN MALAYSIA  (ONLY FOR HISTORY STUDENTS)"
     },
     {
-      "module": "SOCIAL CHANGE IN MALAYSIA  (ONLY FOR HISTORY STUDENTS)",
+      "module": "SOCIAL CHANGE IN MALAYSIA",
       "course_id": "AIL3012",
       "occurence": "2",
       "credits": 3,
@@ -10215,7 +10215,7 @@
           "tutor": "DR. AZHARUDIN BIN MOHAMED DALI"
         }
       ],
-      "mav_name": "SOCIAL CHANGE IN MALAYSIA"
+      "mav_name": "SOCIAL CHANGE IN MALAYSIA  (ONLY FOR HISTORY STUDENTS)"
     }
   ],
   "AIL3025": [
@@ -10314,7 +10314,7 @@
   ],
   "AIL3031": [
     {
-      "module": "MALAYSIAN POLITICS AFTER INDEPENDENT   (ONLY FOR HISTORY STUDENTS)",
+      "module": "MALAYSIAN POLITICS AFTER INDEPENDENT",
       "course_id": "AIL3031",
       "occurence": "1",
       "credits": 3,
@@ -10339,7 +10339,7 @@
       "mav_name": "MALAYSIAN POLITICS AFTER INDEPENDENT   (ONLY FOR HISTORY STUDENTS)"
     },
     {
-      "module": "MALAYSIAN POLITICS AFTER INDEPENDENT   (ONLY FOR HISTORY STUDENTS)",
+      "module": "MALAYSIAN POLITICS AFTER INDEPENDENT",
       "course_id": "AIL3031",
       "occurence": "2",
       "credits": 3,
@@ -10361,12 +10361,12 @@
           "tutor": "DR. MUHAMMAD NU'MAN BIN MOHD NASIR"
         }
       ],
-      "mav_name": "MALAYSIAN POLITICS AFTER INDEPENDENT   (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY) (MALAY LANGUAGE)"
+      "mav_name": "MALAYSIAN POLITICS AFTER INDEPENDENT   (ONLY FOR HISTORY STUDENTS)"
     }
   ],
   "AIL3032": [
     {
-      "module": "THE COMMUNIST MOVEMENT AND EMERGENCY IN MALAYSIA   (ONLY FOR HISTORY STUDENTS)",
+      "module": "THE COMMUNIST MOVEMENT AND EMERGENCY IN MALAYSIA",
       "course_id": "AIL3032",
       "occurence": "1",
       "credits": 3,
@@ -10391,7 +10391,7 @@
       "mav_name": "THE COMMUNIST MOVEMENT AND EMERGENCY IN MALAYSIA   (ONLY FOR HISTORY STUDENTS)"
     },
     {
-      "module": "THE COMMUNIST MOVEMENT AND EMERGENCY IN MALAYSIA   (ONLY FOR HISTORY STUDENTS)",
+      "module": "THE COMMUNIST MOVEMENT AND EMERGENCY IN MALAYSIA",
       "course_id": "AIL3032",
       "occurence": "2",
       "credits": 3,
@@ -10413,12 +10413,12 @@
           "tutor": "ASSOCIATE PROF. DR. HO HUI LING"
         }
       ],
-      "mav_name": "THE COMMUNIST MOVEMENT AND EMERGENCY IN MALAYSIA   (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY) (MALAY"
+      "mav_name": "THE COMMUNIST MOVEMENT AND EMERGENCY IN MALAYSIA   (ONLY FOR HISTORY STUDENTS)"
     }
   ],
   "AIL3033": [
     {
-      "module": "BUSINESS HISTORY IN MALAYSIA  (ONLY FOR HISTORY STUDENTS)",
+      "module": "BUSINESS HISTORY IN MALAYSIA",
       "course_id": "AIL3033",
       "occurence": "1",
       "credits": 3,
@@ -10443,7 +10443,7 @@
       "mav_name": "BUSINESS HISTORY IN MALAYSIA  (ONLY FOR HISTORY STUDENTS)"
     },
     {
-      "module": "BUSINESS HISTORY IN MALAYSIA  (ONLY FOR HISTORY STUDENTS)",
+      "module": "BUSINESS HISTORY IN MALAYSIA",
       "course_id": "AIL3033",
       "occurence": "2",
       "credits": 3,
@@ -10465,10 +10465,10 @@
           "tutor": "DR. TAN MIAU ING"
         }
       ],
-      "mav_name": "BUSINESS HISTORY IN MALAYSIA  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "BUSINESS HISTORY IN MALAYSIA  (ONLY FOR HISTORY STUDENTS)"
     },
     {
-      "module": "BUSINESS HISTORY IN MALAYSIA  (ONLY FOR HISTORY STUDENTS)",
+      "module": "BUSINESS HISTORY IN MALAYSIA",
       "course_id": "AIL3033",
       "occurence": "1M",
       "credits": 3,
@@ -10490,7 +10490,7 @@
           "tutor": "DR. TAN MIAU ING"
         }
       ],
-      "mav_name": "BUSINESS HISTORY IN MALAYSIA"
+      "mav_name": "BUSINESS HISTORY IN MALAYSIA  (ONLY FOR HISTORY STUDENTS)"
     }
   ],
   "AIL3037": [
@@ -10578,7 +10578,7 @@
   ],
   "AIL3038": [
     {
-      "module": "MODERN AMERICAN HISTORY  (ONLY FOR HISTORY STUDENTS)",
+      "module": "MODERN AMERICAN HISTORY",
       "course_id": "AIL3038",
       "occurence": "1",
       "credits": 3,
@@ -10603,7 +10603,7 @@
       "mav_name": "MODERN AMERICAN HISTORY  (ONLY FOR HISTORY STUDENTS)"
     },
     {
-      "module": "MODERN AMERICAN HISTORY  (ONLY FOR HISTORY STUDENTS)",
+      "module": "MODERN AMERICAN HISTORY",
       "course_id": "AIL3038",
       "occurence": "2",
       "credits": 3,
@@ -10625,10 +10625,10 @@
           "tutor": "DR. NUR DAYANA BINTI MOHAMED ARIFFIN"
         }
       ],
-      "mav_name": "MODERN AMERICAN HISTORY  (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY)"
+      "mav_name": "MODERN AMERICAN HISTORY  (ONLY FOR HISTORY STUDENTS)"
     },
     {
-      "module": "MODERN AMERICAN HISTORY  (ONLY FOR HISTORY STUDENTS)",
+      "module": "MODERN AMERICAN HISTORY",
       "course_id": "AIL3038",
       "occurence": "1M",
       "credits": 3,
@@ -10650,12 +10650,12 @@
           "tutor": "DR. NUR DAYANA BINTI MOHAMED ARIFFIN"
         }
       ],
-      "mav_name": "MODERN AMERICAN HISTORY"
+      "mav_name": "MODERN AMERICAN HISTORY  (ONLY FOR HISTORY STUDENTS)"
     }
   ],
   "AIL3040": [
     {
-      "module": "EUROPEAN ECONOMIC EXPANSION UNTIL EARLY 20TH CENTURY  (ONLY FOR HISTORY STUDENTS)",
+      "module": "EUROPEAN ECONOMIC EXPANSION UNTIL EARLY 20TH CENTURY",
       "course_id": "AIL3040",
       "occurence": "1",
       "credits": 3,
@@ -10680,7 +10680,7 @@
       "mav_name": "EUROPEAN ECONOMIC EXPANSION UNTIL EARLY 20TH CENTURY  (ONLY FOR HISTORY STUDENTS)"
     },
     {
-      "module": "EUROPEAN ECONOMIC EXPANSION UNTIL EARLY 20TH CENTURY  (ONLY FOR HISTORY STUDENTS)",
+      "module": "EUROPEAN ECONOMIC EXPANSION UNTIL EARLY 20TH CENTURY",
       "course_id": "AIL3040",
       "occurence": "2",
       "credits": 3,
@@ -10702,7 +10702,7 @@
           "tutor": "ASSOCIATE PROF. DR. ZULKANAIN BIN ABDUL RAHMAN"
         }
       ],
-      "mav_name": "EUROPEAN ECONOMIC EXPANSION UNTIL EARLY 20TH CENTURY   (ONLY FOR SPECIALIZATION ELECTIVE STUDENTS/MINOR UNIVERSITY) (MAL"
+      "mav_name": "EUROPEAN ECONOMIC EXPANSION UNTIL EARLY 20TH CENTURY  (ONLY FOR HISTORY STUDENTS)"
     }
   ],
   "AIM1005": [
@@ -19143,7 +19143,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "SR DR. ELIA SYARAFINA BINTI ABDUL SHAKUR"
+          "tutor": "DR. AIN FARHANA BINTI JAMALUDIN"
         }
       ],
       "mav_name": "CONCEPT AND PRACTICE OF HOME OWNERSHIP"
@@ -19308,7 +19308,7 @@
           "room": "BILIK SEMINAR 12 API",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "DR. MAJED FAWZI MOHAMMAD ABU GHAZALAH"
+          "tutor": "DR. ISSA KHAN"
         }
       ],
       "mav_name": "PRINCIPLES OF MUAMALAT AND ISLAMIC MANAGEMENT"
@@ -19361,7 +19361,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "DR. SITI PATONAH BINTI MOHAMAD"
+          "tutor": "DR. FATIN NUR MAJDINA BINTI NORDIN"
         }
       ],
       "mav_name": "ISLAM AND SCIENCE"
@@ -19454,7 +19454,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "ASSOCIATE PROF. DR. WOON KAI LIN"
+          "tutor": "EMERITUS PROF. DR. NG KWAN HOONG"
         }
       ],
       "mav_name": "PHYSICS AND RADIATION IN LIFE"
@@ -19473,7 +19473,7 @@
           "room": "BILIK FARMAKOLOGI FOM",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "ASSOCIATE PROF. DR. DHARMANI DEVI A/P MURUGAN"
+          "tutor": "ASSOCIATE PROF. DR. TAN CHOO HOCK"
         }
       ],
       "mav_name": "FACTS AND MYTHS ABOUT YOUR MEDICINES"
@@ -19492,7 +19492,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "DR. RAJA AHSAN AFTAB"
+          "tutor": "DR. IZYAN BINTI A WAHAB"
         }
       ],
       "mav_name": "MEDICINES AND HEALTH"
@@ -19549,7 +19549,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "DR. AZEANA BINTI ZAHARI"
+          "tutor": "DR. NOR SAADAH BINTI MOHD YUSOF"
         }
       ],
       "mav_name": "CHEMISTRY IN EVERYDAY LIFE"
@@ -19816,7 +19816,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "MISS HANAN BT SALEH"
+          "tutor": "MR. AB HALIM BIN AHMAD"
         }
       ],
       "mav_name": "ARABIC LANGUAGE INFLUENCE ON MALAY LANGUAGE"
@@ -19833,7 +19833,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "MR. AB HALIM BIN AHMAD"
+          "tutor": "MISS HANAN BT SALEH"
         }
       ],
       "mav_name": "ARABIC LANGUAGE INFLUENCE ON MALAY LANGUAGE"
@@ -20275,7 +20275,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "DR. LEE HONG GEE"
+          "tutor": "DR. LEONG KOK HOONG"
         }
       ],
       "mav_name": "MEDICATION LITERACY"
@@ -20348,7 +20348,8 @@
           "day": "Tuesday",
           "room": "ONLINE LECTURE",
           "begin_time": "12:00",
-          "end_time": "14:00"
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. JADEERA CHEONG PHAIK GEOK BINTI ABDULLAH"
         }
       ],
       "mav_name": "INTRODUCTION TO SPORTS SCIENCE"
@@ -20481,7 +20482,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "DR. NOORANIDA BINTI ARIFIN"
+          "tutor": "DR. NG SIEW CHEOK"
         }
       ],
       "mav_name": "INTRODUCTION TO BIOMEDICAL ENGINEERING"
@@ -20561,7 +20562,7 @@
   ],
   "GFP0009": [
     {
-      "module": "DIGITAL CREATIVITY (*English)",
+      "module": "DIGITAL CREATIVITY",
       "course_id": "GFP0009",
       "occurence": "1",
       "credits": 2,
@@ -21228,7 +21229,7 @@
   ],
   "GIG1012": [
     {
-      "module": "PHILOSOPHY AND CURRENT ISSUES (For Local Students - Year 1 intake 2024/2025 Science Stream and intake 2023/2024 & below)",
+      "module": "PHILOSOPHY AND CURRENT ISSUES",
       "course_id": "GIG1012",
       "occurence": "1",
       "credits": 2,
@@ -21245,7 +21246,7 @@
       "mav_name": "PHILOSOPHY AND CURRENT ISSUES (For Local Students - Year 1 intake 2024/2025 Science Stream and intake 2023/2024 & below)"
     },
     {
-      "module": "PHILOSOPHY AND CURRENT ISSUES (For Local Students - Year 1 intake 2024/2025 Science Stream and intake 2023/2024 & below)",
+      "module": "PHILOSOPHY AND CURRENT ISSUES",
       "course_id": "GIG1012",
       "occurence": "2",
       "credits": 2,
@@ -21262,7 +21263,7 @@
       "mav_name": "PHILOSOPHY AND CURRENT ISSUES (For Local Students - Year 1 intake 2024/2025 Science Stream and intake 2023/2024 & below)"
     },
     {
-      "module": "PHILOSOPHY AND CURRENT ISSUES (For Local Students - Year 1 intake 2024/2025 Science Stream and intake 2023/2024 & below)",
+      "module": "PHILOSOPHY AND CURRENT ISSUES",
       "course_id": "GIG1012",
       "occurence": "3",
       "credits": 2,
@@ -21279,7 +21280,7 @@
       "mav_name": "PHILOSOPHY AND CURRENT ISSUES (For Local Students - Year 1 intake 2024/2025 Science Stream and intake 2023/2024 & below)"
     },
     {
-      "module": "PHILOSOPHY AND CURRENT ISSUES (For Local Students - Year 1 intake 2024/2025 Science Stream and intake 2023/2024 & below)",
+      "module": "PHILOSOPHY AND CURRENT ISSUES",
       "course_id": "GIG1012",
       "occurence": "4",
       "credits": 2,
@@ -21293,12 +21294,12 @@
           "tutor": "DR. FARIDAH BINTI CHE HUSAIN"
         }
       ],
-      "mav_name": "PHILOSOPHY AND CURRENT ISSUES (FOR LOCAL STUDENTS - YEAR 1 INTAKE 2024/2025 SCIENCE STREAM AND INTAKE 2023/2024 & BELOW)"
+      "mav_name": "PHILOSOPHY AND CURRENT ISSUES (For Local Students - Year 1 intake 2024/2025 Science Stream and intake 2023/2024 & below)"
     }
   ],
   "GIG1013": [
     {
-      "module": "APPRECIATION OF ETHICS AND CIVILISATIONS  (ONLY FOR LOCAL STUDENTS)",
+      "module": "APPRECIATION OF ETHICS AND CIVILISATIONS",
       "course_id": "GIG1013",
       "occurence": "1",
       "credits": 2,
@@ -21312,10 +21313,10 @@
           "tutor": "DR. MUHAMMAD SHAMSHINOR BIN ABDUL AZZIS"
         }
       ],
-      "mav_name": "APPRECIATION OF ETHICS AND CIVILISATIONS"
+      "mav_name": "APPRECIATION OF ETHICS AND CIVILISATIONS  (ONLY FOR LOCAL STUDENTS)"
     },
     {
-      "module": "APPRECIATION OF ETHICS AND CIVILISATIONS  (ONLY FOR LOCAL STUDENTS)",
+      "module": "APPRECIATION OF ETHICS AND CIVILISATIONS",
       "course_id": "GIG1013",
       "occurence": "2",
       "credits": 2,
@@ -21329,10 +21330,10 @@
           "tutor": "DR. MUHAMMAD SHAMSHINOR BIN ABDUL AZZIS"
         }
       ],
-      "mav_name": "APPRECIATION OF ETHICS AND CIVILISATIONS"
+      "mav_name": "APPRECIATION OF ETHICS AND CIVILISATIONS  (ONLY FOR LOCAL STUDENTS)"
     },
     {
-      "module": "APPRECIATION OF ETHICS AND CIVILISATIONS  (ONLY FOR LOCAL STUDENTS)",
+      "module": "APPRECIATION OF ETHICS AND CIVILISATIONS",
       "course_id": "GIG1013",
       "occurence": "3",
       "credits": 2,
@@ -21346,10 +21347,10 @@
           "tutor": "DR. NOOR AIN BINTI MAT NOOR"
         }
       ],
-      "mav_name": "APPRECIATION OF ETHICS AND CIVILISATIONS"
+      "mav_name": "APPRECIATION OF ETHICS AND CIVILISATIONS  (ONLY FOR LOCAL STUDENTS)"
     },
     {
-      "module": "APPRECIATION OF ETHICS AND CIVILISATIONS  (ONLY FOR LOCAL STUDENTS)",
+      "module": "APPRECIATION OF ETHICS AND CIVILISATIONS",
       "course_id": "GIG1013",
       "occurence": "4",
       "credits": 2,
@@ -21363,10 +21364,10 @@
           "tutor": "DR. NOOR AIN BINTI MAT NOOR"
         }
       ],
-      "mav_name": "APPRECIATION OF ETHICS AND CIVILISATIONS"
+      "mav_name": "APPRECIATION OF ETHICS AND CIVILISATIONS  (ONLY FOR LOCAL STUDENTS)"
     },
     {
-      "module": "APPRECIATION OF ETHICS AND CIVILISATIONS  (ONLY FOR LOCAL STUDENTS)",
+      "module": "APPRECIATION OF ETHICS AND CIVILISATIONS",
       "course_id": "GIG1013",
       "occurence": "5",
       "credits": 2,
@@ -21380,10 +21381,10 @@
           "tutor": "DR. NOOR AIN BINTI MAT NOOR"
         }
       ],
-      "mav_name": "APPRECIATION OF ETHICS AND CIVILISATIONS"
+      "mav_name": "APPRECIATION OF ETHICS AND CIVILISATIONS  (ONLY FOR LOCAL STUDENTS)"
     },
     {
-      "module": "APPRECIATION OF ETHICS AND CIVILISATIONS  (ONLY FOR LOCAL STUDENTS)",
+      "module": "APPRECIATION OF ETHICS AND CIVILISATIONS",
       "course_id": "GIG1013",
       "occurence": "6",
       "credits": 2,
@@ -21397,7 +21398,7 @@
           "tutor": " "
         }
       ],
-      "mav_name": "APPRECIATION OF ETHICS AND CIVILISATIONS  (ONLY FOR INTERNATIONAL STUDENTS)"
+      "mav_name": "APPRECIATION OF ETHICS AND CIVILISATIONS  (ONLY FOR LOCAL STUDENTS)"
     }
   ],
   "GIG1016": [
@@ -22766,7 +22767,7 @@
           "tutor": "MADAM NINA AINUN BINTI HAMDAN"
         }
       ],
-      "mav_name": "LET\u2019S SPEAK"
+      "mav_name": "LET'S SPEAK"
     },
     {
       "module": "LET'S SPEAK",
@@ -22783,7 +22784,7 @@
           "tutor": "MADAM NINA AINUN BINTI HAMDAN"
         }
       ],
-      "mav_name": "LET\u2019S SPEAK"
+      "mav_name": "LET'S SPEAK"
     }
   ],
   "GLT1020": [
@@ -24965,7 +24966,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
+          "tutor": "MR. MUHAMMAD SHAFIQ BIN SALEHUDDIN"
         }
       ],
       "mav_name": "PROFICIENCY IN ENGLISH III"
@@ -25356,7 +25357,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "09:00",
           "end_time": "11:00",
-          "tutor": "MR. MUHAMMAD SHAFIQ BIN SALEHUDDIN"
+          "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
         }
       ],
       "mav_name": "PROFICIENCY IN ENGLISH III"
@@ -25390,7 +25391,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "09:00",
           "end_time": "11:00",
-          "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
+          "tutor": "MR. MUHAMMAD SHAFIQ BIN SALEHUDDIN"
         }
       ],
       "mav_name": "PROFICIENCY IN ENGLISH III"
@@ -25611,7 +25612,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "MR. MUHAMMAD SHAFIQ BIN SALEHUDDIN"
+          "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
         }
       ],
       "mav_name": "PROFICIENCY IN ENGLISH III"
@@ -25628,7 +25629,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
+          "tutor": "MR. MUHAMMAD SHAFIQ BIN SALEHUDDIN"
         }
       ],
       "mav_name": "PROFICIENCY IN ENGLISH III"
@@ -26172,7 +26173,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
+          "tutor": "MR. MUHAMMAD SHAFIQ BIN SALEHUDDIN"
         }
       ],
       "mav_name": "PROFICIENCY IN ENGLISH III"
@@ -26291,7 +26292,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "09:00",
           "end_time": "11:00",
-          "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
+          "tutor": "MR. MUHAMMAD SHAFIQ BIN SALEHUDDIN"
         }
       ],
       "mav_name": "PROFICIENCY IN ENGLISH III"
@@ -26478,7 +26479,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "MR. MUHAMMAD SHAFIQ BIN SALEHUDDIN"
+          "tutor": "MADAM KIRANJEET KAUR A/P MUKHTIAR SINGH"
         }
       ],
       "mav_name": "PROFICIENCY IN ENGLISH III"
@@ -29429,7 +29430,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "16:00",
           "end_time": "18:00",
-          "tutor": "MISS HANAN BT SALEH"
+          "tutor": "MR. AB HALIM BIN AHMAD"
         }
       ],
       "mav_name": "BASIC ARABIC LANGUAGE 1"
@@ -30768,7 +30769,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "MADAM NUR AFIFAH BINTI ABDUL RAHMAN HALAWA"
+          "tutor": "MR. AHMAD SABRI B ABDUL SAMAT @ ABDUL SAMAD"
         }
       ],
       "mav_name": "MALAY LANGUAGE COMMUNICATION"
@@ -30785,7 +30786,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "09:00",
           "end_time": "11:00",
-          "tutor": "MADAM NUR AFIFAH BINTI ABDUL RAHMAN HALAWA"
+          "tutor": "MR. AHMAD SABRI B ABDUL SAMAT @ ABDUL SAMAD"
         }
       ],
       "mav_name": "MALAY LANGUAGE COMMUNICATION"
@@ -30937,7 +30938,7 @@
   ],
   "GQA0078": [
     {
-      "module": "INTRODUCTION TO MALAYSIAN HISTORY  (MALAY LANGUAGE)",
+      "module": "INTRODUCTION TO MALAYSIAN HISTORY",
       "course_id": "GQA0078",
       "occurence": "1",
       "credits": 2,
@@ -31144,7 +31145,7 @@
           "room": "DEWAN KULIAH 2 API",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. MOHAMMAD TAQIUDDIN BIN MOHAMAD"
+          "tutor": "PROF. DR. ASMAK BINTI AB RAHMAN"
         }
       ],
       "mav_name": "ISLAMIC ECONOMIC INSTITUTIONS"
@@ -31292,7 +31293,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "ASSOCIATE PROF. DR. ZAINAH BINTI IBRAHIM"
+          "tutor": "DR. SAZNIZAM SAZMEE SINOH"
         }
       ],
       "mav_name": "SUSTAINABLE AND RESILIENT CONSTRUCTION MATERIALS"
@@ -31376,7 +31377,7 @@
           "room": "ONLINE LECTURE",
           "begin_time": "10:00",
           "end_time": "11:00",
-          "tutor": "DR. THAMIL SELVEE A/P RAMASAMY"
+          "tutor": "ASSOCIATE PROF. DR. LEO BEY FEN"
         }
       ],
       "mav_name": "GLOBAL LIFESTYLE DISEASES AND PREVENTION"
@@ -31422,7 +31423,7 @@
   ],
   "GQP0015": [
     {
-      "module": "GLOBAL EDUCATION (English)",
+      "module": "GLOBAL EDUCATION",
       "course_id": "GQP0015",
       "occurence": "1",
       "credits": 2,
@@ -31439,7 +31440,7 @@
       "mav_name": "GLOBAL EDUCATION (English)"
     },
     {
-      "module": "GLOBAL EDUCATION (English)",
+      "module": "GLOBAL EDUCATION",
       "course_id": "GQP0015",
       "occurence": "2",
       "credits": 2,
@@ -31453,7 +31454,7 @@
           "tutor": "DR. MOHAMMAD ISMATH RAMZY MOHAMMAD ISMAIL"
         }
       ],
-      "mav_name": "GLOBAL EDUCATION (ENGLISH)"
+      "mav_name": "GLOBAL EDUCATION (English)"
     }
   ],
   "GQS0025": [
@@ -32168,7 +32169,7 @@
   ],
   "GQX0056": [
     {
-      "module": "INTEGRITY AND ANTI-CORRUPTION COURSE   (ONLY FOR LOCAL STUDENTS)",
+      "module": "INTEGRITY AND ANTI-CORRUPTION COURSE",
       "course_id": "GQX0056",
       "occurence": "1",
       "credits": 2,
@@ -32182,10 +32183,10 @@
           "tutor": "DR. MUHAMMAD SHAMSHINOR BIN ABDUL AZZIS"
         }
       ],
-      "mav_name": "INTEGRITY AND ANTI-CORRUPTION COURSE"
+      "mav_name": "INTEGRITY AND ANTI-CORRUPTION COURSE   (ONLY FOR LOCAL STUDENTS)"
     },
     {
-      "module": "INTEGRITY AND ANTI-CORRUPTION COURSE   (ONLY FOR LOCAL STUDENTS)",
+      "module": "INTEGRITY AND ANTI-CORRUPTION COURSE",
       "course_id": "GQX0056",
       "occurence": "2",
       "credits": 2,
@@ -32199,10 +32200,10 @@
           "tutor": "DR. MUHAMMAD SHAMSHINOR BIN ABDUL AZZIS"
         }
       ],
-      "mav_name": "INTEGRITY AND ANTI-CORRUPTION COURSE"
+      "mav_name": "INTEGRITY AND ANTI-CORRUPTION COURSE   (ONLY FOR LOCAL STUDENTS)"
     },
     {
-      "module": "INTEGRITY AND ANTI-CORRUPTION COURSE   (ONLY FOR LOCAL STUDENTS)",
+      "module": "INTEGRITY AND ANTI-CORRUPTION COURSE",
       "course_id": "GQX0056",
       "occurence": "3",
       "credits": 2,
@@ -32216,10 +32217,10 @@
           "tutor": "DR. MUHAMMAD SHAMSHINOR BIN ABDUL AZZIS"
         }
       ],
-      "mav_name": "INTEGRITY AND ANTI-CORRUPTION COURSE"
+      "mav_name": "INTEGRITY AND ANTI-CORRUPTION COURSE   (ONLY FOR LOCAL STUDENTS)"
     },
     {
-      "module": "INTEGRITY AND ANTI-CORRUPTION COURSE   (ONLY FOR LOCAL STUDENTS)",
+      "module": "INTEGRITY AND ANTI-CORRUPTION COURSE",
       "course_id": "GQX0056",
       "occurence": "4",
       "credits": 2,
@@ -32233,10 +32234,10 @@
           "tutor": "DR. NOOR AIN BINTI MAT NOOR"
         }
       ],
-      "mav_name": "INTEGRITY AND ANTI-CORRUPTION COURSE"
+      "mav_name": "INTEGRITY AND ANTI-CORRUPTION COURSE   (ONLY FOR LOCAL STUDENTS)"
     },
     {
-      "module": "INTEGRITY AND ANTI-CORRUPTION COURSE   (ONLY FOR LOCAL STUDENTS)",
+      "module": "INTEGRITY AND ANTI-CORRUPTION COURSE",
       "course_id": "GQX0056",
       "occurence": "5",
       "credits": 2,
@@ -32250,10 +32251,10 @@
           "tutor": "DR. NOOR AIN BINTI MAT NOOR"
         }
       ],
-      "mav_name": "INTEGRITY AND ANTI-CORRUPTION COURSE"
+      "mav_name": "INTEGRITY AND ANTI-CORRUPTION COURSE   (ONLY FOR LOCAL STUDENTS)"
     },
     {
-      "module": "INTEGRITY AND ANTI-CORRUPTION COURSE   (ONLY FOR INTERNATIONAL STUDENTS)/",
+      "module": "INTEGRITY AND ANTI-CORRUPTION COURSE",
       "course_id": "GQX0056",
       "occurence": "6",
       "credits": 2,
@@ -32267,7 +32268,7 @@
           "tutor": "DR. MUHAMMAD SHAMSHINOR BIN ABDUL AZZIS"
         }
       ],
-      "mav_name": "INTEGRITY AND ANTI-CORRUPTION COURSE  (ONLY FOR INTERNATIONAL STUDENTS)"
+      "mav_name": "INTEGRITY AND ANTI-CORRUPTION COURSE   (ONLY FOR INTERNATIONAL STUDENTS)"
     }
   ],
   "GQX0065": [
@@ -32310,7 +32311,7 @@
   ],
   "GQX0069": [
     {
-      "module": "PARLIAMENTARY DEMOCRATIC SYSTEM",
+      "module": "PARLIAMENTARY DEMOCRATIC SYSTEM\n",
       "course_id": "GQX0069",
       "occurence": "1",
       "credits": 2,
@@ -39996,9 +39997,11 @@
           "day": "Monday",
           "room": "DEWAN KULIAH 3 FKEJ",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. LEONG GEOK WEN"
         }
-      ]
+      ],
+      "mav_name": "MECHANICS OF MATERIALS"
     },
     {
       "module": "MECHANICS OF MATERIALS",
@@ -40011,9 +40014,11 @@
           "day": "Monday",
           "room": "DEWAN KULIAH 3 FKEJ",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. NORAZURA BINTI MUHAMAD BUNNORI"
         }
-      ]
+      ],
+      "mav_name": "MECHANICS OF MATERIALS"
     }
   ],
   "KIA1005": [
@@ -40028,9 +40033,11 @@
           "day": "Tuesday",
           "room": "DEWAN KULIAH 3 FKEJ",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. WAN ZURINA BINTI WAN JAAFAR"
         }
-      ]
+      ],
+      "mav_name": "ENGINEERING SURVEY"
     }
   ],
   "KIA1007": [
@@ -40046,7 +40053,7 @@
           "room": "AUDITORIUM 1 FKEJ",
           "begin_time": "09:00",
           "end_time": "12:00",
-          "tutor": "DR. MUHAMMAD SHAZRIL IDRIS BIN IBRAHIM"
+          "tutor": "DR. WAN ZURINA BINTI WAN JAAFAR"
         }
       ],
       "mav_name": "PROGRAMMING AND INFORMATION SYSTEM"
@@ -40063,7 +40070,7 @@
           "room": "AUDITORIUM 1 FKEJ",
           "begin_time": "09:00",
           "end_time": "12:00",
-          "tutor": "DR. MUHAMMAD SHAZRIL IDRIS BIN IBRAHIM"
+          "tutor": "DR. WAN ZURINA BINTI WAN JAAFAR"
         }
       ],
       "mav_name": "PROGRAMMING AND INFORMATION SYSTEM"
@@ -40141,14 +40148,16 @@
           "day": "Monday",
           "room": "INTEGRATED DESIGN ROOM CIVIL ENG",
           "begin_time": "08:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "PROFESSOR IR. DR. UBAGARAM JOHNSON ALENGARAM"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "INTEGRATED DESIGN ROOM CIVIL ENG",
           "begin_time": "08:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "PROFESSOR IR. DR. UBAGARAM JOHNSON ALENGARAM"
         }
       ],
       "mav_name": "REINFORCED CONCRETE DESIGN I"
@@ -40166,7 +40175,8 @@
           "day": "Tuesday",
           "room": "DEWAN KULIAH 1 FKEJ",
           "begin_time": "11:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. MOHD HAFIZAN BIN MD. ISA"
         }
       ],
       "mav_name": "SOIL MECHANICS II"
@@ -40184,7 +40194,8 @@
           "day": "Friday",
           "room": "DEWAN KULIAH 1 FKEJ",
           "begin_time": "09:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "DR. WAN ZURINA BINTI WAN JAAFAR"
         }
       ],
       "mav_name": "SURVEYING FIELDWORK"
@@ -40202,7 +40213,8 @@
           "day": "Thursday",
           "room": "DEWAN KULIAH 6 FKEJ",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "IR. DR. MOHD RASDAN BIN IBRAHIM"
         }
       ],
       "mav_name": "HIGHWAY ENGINEERING"
@@ -40218,7 +40230,8 @@
           "day": "Thursday",
           "room": "DEWAN KULIAH 6 FKEJ",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. SUHANA BINTI KOTING"
         }
       ],
       "mav_name": "HIGHWAY ENGINEERING"
@@ -40272,7 +40285,8 @@
           "day": "Thursday",
           "room": "DEWAN KULIAH 1 FKEJ",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. IR. TS. DR. MELDI BIN SUHATRIL"
         }
       ],
       "mav_name": "FOUNDATION ENGINEERING"
@@ -40288,7 +40302,8 @@
           "day": "Thursday",
           "room": "DEWAN KULIAH 1 FKEJ",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. IR. TS. DR. MELDI BIN SUHATRIL"
         }
       ],
       "mav_name": "FOUNDATION ENGINEERING"
@@ -40306,7 +40321,8 @@
           "day": "Tuesday",
           "room": "INTEGRATED DESIGN ROOM CIVIL ENG",
           "begin_time": "10:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "PROFESSOR IR. DR. UBAGARAM JOHNSON ALENGARAM"
         }
       ],
       "mav_name": "REINFORCED CONCRETE DESIGN II"
@@ -40324,9 +40340,11 @@
           "day": "Monday",
           "room": "INTEGRATED DESIGN ROOM CIVIL ENG",
           "begin_time": "10:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "PROFESSOR IR. DR. FARIDAH BINTI OTHMAN"
         }
-      ]
+      ],
+      "mav_name": "WATER SUPPLY AND SEWERAGE"
     }
   ],
   "KIA3014": [
@@ -40341,7 +40359,8 @@
           "day": "Thursday",
           "room": "BILIK KULIAH 101 FKEJ, BILIK KULIAH 104 FKEJ",
           "begin_time": "10:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. NURUOL SYUHADAA BINTI MOHD"
         }
       ],
       "mav_name": "FUNDAMENTALS OF SUSTAINABILITY IN CIVIL ENGINEERING"
@@ -40359,7 +40378,8 @@
           "day": "Tuesday",
           "room": "DEWAN KULIAH 1 FKEJ",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. SAZNIZAM SAZMEE SINOH"
         }
       ],
       "mav_name": "CONSTRUCTION MANAGEMENT AND TECHNOLOGY"
@@ -40377,7 +40397,8 @@
           "day": "Wednesday",
           "room": "INTEGRATED DESIGN ROOM CIVIL ENG",
           "begin_time": "17:00",
-          "end_time": "20:00"
+          "end_time": "20:00",
+          "tutor": "DR. SAZNIZAM SAZMEE SINOH"
         }
       ],
       "mav_name": "FINAL YEAR PROJECT"
@@ -40412,7 +40433,8 @@
           "day": "Monday",
           "room": "RED CUBE 1 FKEJ",
           "begin_time": "10:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. TAN CHEE GHUAN"
         }
       ],
       "mav_name": "WIND AND EARTHQUAKE ENGINEERING"
@@ -40430,7 +40452,8 @@
           "day": "Thursday",
           "room": "ORANGE CUBE 2 FKEJ",
           "begin_time": "10:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "ASSOCIATE PROF. DR. NORAZURA BINTI MUHAMAD BUNNORI"
         }
       ],
       "mav_name": "BRIDGE ENGINEERING"
@@ -40448,7 +40471,8 @@
           "day": "Tuesday",
           "room": "RED CUBE 1 FKEJ",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. MUHAMMAD SHAZRIL IDRIS BIN IBRAHIM"
         }
       ],
       "mav_name": "ARTIFICIAL INTELLIGENCE IN CIVIL ENGINEERING"
@@ -41261,8 +41285,7 @@
           "begin_time": "14:00",
           "end_time": "16:00"
         }
-      ],
-      "mav_name": "LAB 1"
+      ]
     },
     {
       "module": "LAB 1",
@@ -41277,8 +41300,7 @@
           "begin_time": "14:00",
           "end_time": "16:00"
         }
-      ],
-      "mav_name": "LAB 1"
+      ]
     },
     {
       "module": "LAB 1",
@@ -41293,8 +41315,7 @@
           "begin_time": "11:00",
           "end_time": "13:00"
         }
-      ],
-      "mav_name": "LAB 1"
+      ]
     },
     {
       "module": "LAB 1",
@@ -41309,8 +41330,7 @@
           "begin_time": "14:00",
           "end_time": "16:00"
         }
-      ],
-      "mav_name": "LAB 1"
+      ]
     },
     {
       "module": "LAB 1",
@@ -41325,8 +41345,7 @@
           "begin_time": "10:00",
           "end_time": "12:00"
         }
-      ],
-      "mav_name": "LAB 1"
+      ]
     }
   ],
   "KIE1006": [
@@ -41547,8 +41566,7 @@
           "begin_time": "14:00",
           "end_time": "16:00"
         }
-      ],
-      "mav_name": "LAB 3"
+      ]
     },
     {
       "module": "LAB 3",
@@ -41563,8 +41581,7 @@
           "begin_time": "14:00",
           "end_time": "16:00"
         }
-      ],
-      "mav_name": "LAB 3"
+      ]
     },
     {
       "module": "LAB 3",
@@ -41579,8 +41596,7 @@
           "begin_time": "14:00",
           "end_time": "16:00"
         }
-      ],
-      "mav_name": "LAB 3"
+      ]
     }
   ],
   "KIE2006": [
@@ -41604,8 +41620,7 @@
           "begin_time": "10:00",
           "end_time": "11:00"
         }
-      ],
-      "mav_name": "SIGNALS AND SYSTEMS"
+      ]
     },
     {
       "module": "SIGNALS AND SYSTEMS",
@@ -41627,8 +41642,7 @@
           "begin_time": "11:00",
           "end_time": "12:00"
         }
-      ],
-      "mav_name": "SIGNALS AND SYSTEMS"
+      ]
     },
     {
       "module": "SIGNALS AND SYSTEMS",
@@ -41650,8 +41664,7 @@
           "begin_time": "12:00",
           "end_time": "13:00"
         }
-      ],
-      "mav_name": "SIGNALS AND SYSTEMS"
+      ]
     },
     {
       "module": "SIGNALS AND SYSTEMS",
@@ -41673,8 +41686,7 @@
           "begin_time": "12:00",
           "end_time": "13:00"
         }
-      ],
-      "mav_name": "SIGNALS AND SYSTEMS"
+      ]
     }
   ],
   "KIE2008": [
@@ -41750,8 +41762,7 @@
           "begin_time": "10:00",
           "end_time": "11:00"
         }
-      ],
-      "mav_name": "MACHINES AND DRIVES"
+      ]
     },
     {
       "module": "MACHINES AND DRIVES",
@@ -41797,8 +41808,7 @@
           "begin_time": "11:00",
           "end_time": "12:00"
         }
-      ],
-      "mav_name": "DIGITAL DESIGN"
+      ]
     },
     {
       "module": "DIGITAL DESIGN",
@@ -41820,8 +41830,7 @@
           "begin_time": "10:00",
           "end_time": "11:00"
         }
-      ],
-      "mav_name": "DIGITAL DESIGN"
+      ]
     }
   ],
   "KIE3001": [
@@ -41838,8 +41847,7 @@
           "begin_time": "11:00",
           "end_time": "13:00"
         }
-      ],
-      "mav_name": "LAB 5"
+      ]
     },
     {
       "module": "LAB 5",
@@ -41854,8 +41862,7 @@
           "begin_time": "11:00",
           "end_time": "13:00"
         }
-      ],
-      "mav_name": "LAB 5"
+      ]
     },
     {
       "module": "LAB 5",
@@ -41870,8 +41877,7 @@
           "begin_time": "11:00",
           "end_time": "13:00"
         }
-      ],
-      "mav_name": "LAB 5"
+      ]
     }
   ],
   "KIE3002": [
@@ -41912,8 +41918,7 @@
           "begin_time": "09:00",
           "end_time": "10:00"
         }
-      ],
-      "mav_name": "POWER ELECTRONICS"
+      ]
     },
     {
       "module": "POWER ELECTRONICS",
@@ -41935,8 +41940,7 @@
           "begin_time": "10:00",
           "end_time": "11:00"
         }
-      ],
-      "mav_name": "POWER ELECTRONICS"
+      ]
     }
   ],
   "KIE3009": [
@@ -41960,8 +41964,7 @@
           "begin_time": "11:00",
           "end_time": "12:00"
         }
-      ],
-      "mav_name": "ENERGY CONVERSION AND HIGH VOLTAGE TRANSMISSION"
+      ]
     },
     {
       "module": "ENERGY CONVERSION AND HIGH VOLTAGE TRANSMISSION",
@@ -41983,8 +41986,7 @@
           "begin_time": "11:00",
           "end_time": "12:00"
         }
-      ],
-      "mav_name": "ENERGY CONVERSION AND HIGH VOLTAGE TRANSMISSION"
+      ]
     }
   ],
   "KIE3010": [
@@ -42008,8 +42010,7 @@
           "begin_time": "10:00",
           "end_time": "11:00"
         }
-      ],
-      "mav_name": "INSTRUMENTATION"
+      ]
     },
     {
       "module": "INSTRUMENTATION",
@@ -42031,8 +42032,7 @@
           "begin_time": "10:00",
           "end_time": "11:00"
         }
-      ],
-      "mav_name": "INSTRUMENTATION"
+      ]
     }
   ],
   "KIE3011": [
@@ -42056,8 +42056,7 @@
           "begin_time": "09:00",
           "end_time": "10:00"
         }
-      ],
-      "mav_name": "DIGITAL COMMUNICATIONS"
+      ]
     },
     {
       "module": "DIGITAL COMMUNICATIONS",
@@ -42079,8 +42078,7 @@
           "begin_time": "08:00",
           "end_time": "09:00"
         }
-      ],
-      "mav_name": "DIGITAL COMMUNICATIONS"
+      ]
     }
   ],
   "KIE3012": [
@@ -42097,8 +42095,7 @@
           "begin_time": "19:00",
           "end_time": "22:00"
         }
-      ],
-      "mav_name": "INTEGRATED DESIGN PROJECT"
+      ]
     }
   ],
   "KIE4001": [
@@ -42132,8 +42129,7 @@
           "begin_time": "19:00",
           "end_time": "22:00"
         }
-      ],
-      "mav_name": "FINAL YEAR PROJECT"
+      ]
     }
   ],
   "KIE4005": [
@@ -42196,8 +42192,7 @@
           "begin_time": "14:00",
           "end_time": "16:00"
         }
-      ],
-      "mav_name": "RENEWABLE ENERGY TECHNOLOGIES"
+      ]
     }
   ],
   "KIE4016": [
@@ -42214,8 +42209,7 @@
           "begin_time": "11:00",
           "end_time": "13:00"
         }
-      ],
-      "mav_name": "ANTENNA AND PROPAGATION"
+      ]
     }
   ],
   "KIE4018": [
@@ -42232,8 +42226,7 @@
           "begin_time": "11:00",
           "end_time": "13:00"
         }
-      ],
-      "mav_name": "VLSI DESIGN"
+      ]
     }
   ],
   "KIE4020": [
@@ -42250,8 +42243,7 @@
           "begin_time": "11:00",
           "end_time": "13:00"
         }
-      ],
-      "mav_name": "MICROWAVE ELECTRONICS AND SYSTEMS"
+      ]
     }
   ],
   "KIE4022": [
@@ -42268,8 +42260,7 @@
           "begin_time": "09:00",
           "end_time": "11:00"
         }
-      ],
-      "mav_name": "EMBEDDED SYSTEMS"
+      ]
     }
   ],
   "KIE4024": [
@@ -42286,8 +42277,7 @@
           "begin_time": "14:00",
           "end_time": "16:00"
         }
-      ],
-      "mav_name": "OPTIMIZATION METHODS"
+      ]
     }
   ],
   "KIE4025": [
@@ -42321,8 +42311,7 @@
           "begin_time": "10:00",
           "end_time": "12:00"
         }
-      ],
-      "mav_name": "DATA COMMUNICATION NETWORKS"
+      ]
     }
   ],
   "KIE4027": [
@@ -43640,7 +43629,7 @@
   ],
   "KIG4077": [
     {
-      "module": "MOLD AND DIE DESIGN",
+      "module": "MOLD AND DIE DESIGN\n",
       "course_id": "KIG4077",
       "occurence": "1",
       "credits": 3,
@@ -44466,7 +44455,7 @@
   ],
   "KIX1002": [
     {
-      "module": "ENGINEERING MATHEMATICS 2 [ONLY FOR CIVIL ENGINEERING STUDENTS]",
+      "module": "ENGINEERING MATHEMATICS 2",
       "course_id": "KIX1002",
       "occurence": "1",
       "credits": 3,
@@ -44499,7 +44488,7 @@
       "mav_name": "ENGINEERING MATHEMATICS 2 [ONLY FOR CIVIL ENGINEERING STUDENTS]"
     },
     {
-      "module": "ENGINEERING MATHEMATICS 2 [ONLY FOR CIVIL ENGINEERING STUDENTS]",
+      "module": "ENGINEERING MATHEMATICS 2",
       "course_id": "KIX1002",
       "occurence": "2",
       "credits": 3,
@@ -44532,7 +44521,7 @@
       "mav_name": "ENGINEERING MATHEMATICS 2  [ONLY FOR BIOMEDICAL ENGINEERING STUDENTS]"
     },
     {
-      "module": "ENGINEERING MATHEMATICS 2 [ONLY FOR CIVIL ENGINEERING STUDENTS]",
+      "module": "ENGINEERING MATHEMATICS 2",
       "course_id": "KIX1002",
       "occurence": "3",
       "credits": 3,
@@ -44565,7 +44554,7 @@
       "mav_name": "ENGINEERING MATHEMATICS 2  [ONLY FOR ELECTRICAL ENGINEERING STUDENTS]"
     },
     {
-      "module": "ENGINEERING MATHEMATICS 2 [ONLY FOR CIVIL ENGINEERING STUDENTS]",
+      "module": "ENGINEERING MATHEMATICS 2",
       "course_id": "KIX1002",
       "occurence": "4",
       "credits": 3,
@@ -44598,7 +44587,7 @@
       "mav_name": "ENGINEERING MATHEMATICS 2  [ONLY FOR ELECTRICAL ENGINEERING STUDENTS]"
     },
     {
-      "module": "ENGINEERING MATHEMATICS 2 [ONLY FOR CIVIL ENGINEERING STUDENTS]",
+      "module": "ENGINEERING MATHEMATICS 2",
       "course_id": "KIX1002",
       "occurence": "5",
       "credits": 3,
@@ -44631,7 +44620,7 @@
       "mav_name": "ENGINEERING MATHEMATICS 2  [ONLY FOR CHEMICAL ENGINEERING STUDENTS]"
     },
     {
-      "module": "ENGINEERING MATHEMATICS 2 [ONLY FOR CIVIL ENGINEERING STUDENTS]",
+      "module": "ENGINEERING MATHEMATICS 2",
       "course_id": "KIX1002",
       "occurence": "6",
       "credits": 3,
@@ -44664,7 +44653,7 @@
       "mav_name": "ENGINEERING MATHEMATICS 2 [ONLY FOR MECHANICAL ENGINEERING STUDENTS]"
     },
     {
-      "module": "ENGINEERING MATHEMATICS 2 [ONLY FOR CIVIL ENGINEERING STUDENTS]",
+      "module": "ENGINEERING MATHEMATICS 2",
       "course_id": "KIX1002",
       "occurence": "7",
       "credits": 3,
@@ -44697,7 +44686,7 @@
       "mav_name": "ENGINEERING MATHEMATICS 2  [ONLY FOR MECHANICAL ENGINEERING STUDENTS]"
     },
     {
-      "module": "ENGINEERING MATHEMATICS 2 [ONLY FOR CIVIL ENGINEERING STUDENTS]",
+      "module": "ENGINEERING MATHEMATICS 2",
       "course_id": "KIX1002",
       "occurence": "8",
       "credits": 3,
@@ -44732,7 +44721,7 @@
   ],
   "KIX1005": [
     {
-      "module": "ENGINEERING MATHEMATICS II [ONLY FOR MECHANICAL ENGINEERING STUDENTS]",
+      "module": "ENGINEERING MATHEMATICS II",
       "course_id": "KIX1005",
       "occurence": "1",
       "credits": 3,
@@ -44751,7 +44740,7 @@
   ],
   "KIX2002": [
     {
-      "module": "ENGINEERING ECONOMIC ANALYSIS [ONLY FOR ELECTRICAL ENGINEERING STUDENTS]",
+      "module": "ENGINEERING ECONOMIC ANALYSIS",
       "course_id": "KIX2002",
       "occurence": "1",
       "credits": 3,
@@ -44770,7 +44759,7 @@
   ],
   "KIX2005": [
     {
-      "module": "LAW, ETHICS AND SUSTAINABILITY FOR ENGINEERS [ONLY FOR CIVIL ENGINEERING STUDENTS]",
+      "module": "LAW, ETHICS AND SUSTAINABILITY FOR ENGINEERS",
       "course_id": "KIX2005",
       "occurence": "1",
       "credits": 3,
@@ -44787,7 +44776,7 @@
       "mav_name": "LAW, ETHICS AND SUSTAINABILITY FOR ENGINEERS [ONLY FOR CIVIL ENGINEERING STUDENTS]"
     },
     {
-      "module": "LAW, ETHICS AND SUSTAINABILITY FOR ENGINEERS [ONLY FOR CIVIL ENGINEERING STUDENTS]",
+      "module": "LAW, ETHICS AND SUSTAINABILITY FOR ENGINEERS",
       "course_id": "KIX2005",
       "occurence": "2",
       "credits": 3,
@@ -44804,7 +44793,7 @@
       "mav_name": "LAW, ETHICS AND SUSTAINABILITY FOR ENGINEERS [ONLY FOR BIOMEDICAL ENGINEERING STUDENTS]"
     },
     {
-      "module": "LAW, ETHICS AND SUSTAINABILITY FOR ENGINEERS [ONLY FOR CIVIL ENGINEERING STUDENTS]",
+      "module": "LAW, ETHICS AND SUSTAINABILITY FOR ENGINEERS",
       "course_id": "KIX2005",
       "occurence": "3",
       "credits": 3,
@@ -44821,7 +44810,7 @@
       "mav_name": "LAW, ETHICS AND SUSTAINABILITY FOR ENGINEERS [ONLY FOR MECHANICAL ENGINEERING STUDENTS]"
     },
     {
-      "module": "LAW, ETHICS AND SUSTAINABILITY FOR ENGINEERS [ONLY FOR CIVIL ENGINEERING STUDENTS]",
+      "module": "LAW, ETHICS AND SUSTAINABILITY FOR ENGINEERS",
       "course_id": "KIX2005",
       "occurence": "4",
       "credits": 3,
@@ -44840,7 +44829,7 @@
   ],
   "KIX2006": [
     {
-      "module": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT [ONLY FOR ELECTRICAL ENGINEERING STUDENTS]",
+      "module": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT",
       "course_id": "KIX2006",
       "occurence": "1",
       "credits": 3,
@@ -44857,7 +44846,7 @@
       "mav_name": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT [ONLY FOR ELECTRICAL ENGINEERING STUDENTS]"
     },
     {
-      "module": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT [ONLY FOR ELECTRICAL ENGINEERING STUDENTS]",
+      "module": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT",
       "course_id": "KIX2006",
       "occurence": "2",
       "credits": 3,
@@ -44874,7 +44863,7 @@
       "mav_name": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT [ONLY FOR MECHANICAL ENGINEERING STUDENTS]"
     },
     {
-      "module": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT [ONLY FOR ELECTRICAL ENGINEERING STUDENTS]",
+      "module": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT",
       "course_id": "KIX2006",
       "occurence": "3",
       "credits": 3,
@@ -44891,7 +44880,7 @@
       "mav_name": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT [ONLY FOR MECHANICAL ENGINEERING STUDENTS]"
     },
     {
-      "module": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT [ONLY FOR ELECTRICAL ENGINEERING STUDENTS]",
+      "module": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT",
       "course_id": "KIX2006",
       "occurence": "4",
       "credits": 3,
@@ -44908,7 +44897,7 @@
       "mav_name": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT [ONLY FOR MECHANICAL ENGINEERING STUDENTS]"
     },
     {
-      "module": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT [ONLY FOR ELECTRICAL ENGINEERING STUDENTS]",
+      "module": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT",
       "course_id": "KIX2006",
       "occurence": "5",
       "credits": 3,
@@ -44925,7 +44914,7 @@
       "mav_name": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT [ONLY FOR MECHANICAL ENGINEERING STUDENTS]"
     },
     {
-      "module": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT [ONLY FOR ELECTRICAL ENGINEERING STUDENTS]",
+      "module": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT",
       "course_id": "KIX2006",
       "occurence": "6",
       "credits": 3,
@@ -44942,7 +44931,7 @@
       "mav_name": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT  [ONLY FOR CHEMICAL ENGINEERING STUDENTS]"
     },
     {
-      "module": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT [ONLY FOR ELECTRICAL ENGINEERING STUDENTS]",
+      "module": "ENGINEERING ECONOMICS AND PROJECT MANAGEMENT",
       "course_id": "KIX2006",
       "occurence": "1M",
       "credits": 3,
@@ -45309,7 +45298,7 @@
           "tutor": "PROFESSOR IR. DR. NIK NAZRI BIN NIK GHAZALI"
         }
       ],
-      "mav_name": "APPLIED MECHANICS (Only for Undergraduate)"
+      "mav_name": "APPLIED MECHANICS"
     }
   ],
   "KQK7006": [
@@ -45328,7 +45317,7 @@
           "tutor": "PROF. DR. ANDRI ANDRIYANA"
         }
       ],
-      "mav_name": "FATIGUE AND FRACTURE MECHANICS (ONLY FOR UNDERGRADUATE)"
+      "mav_name": "FATIGUE AND FRACTURE MECHANICS"
     }
   ],
   "KQK7008": [
@@ -68527,7 +68516,7 @@
   ],
   "SIX1016": [
     {
-      "module": "STATISTICS ( CHEMICAL STUDENT ONLY)",
+      "module": "STATISTICS",
       "course_id": "SIX1016",
       "occurence": "1",
       "credits": 3,
@@ -68560,7 +68549,7 @@
       "mav_name": "STATISTICS ( CHEMICAL STUDENT ONLY)"
     },
     {
-      "module": "STATISTICS ( CHEMICAL STUDENT ONLY)",
+      "module": "STATISTICS",
       "course_id": "SIX1016",
       "occurence": "2",
       "credits": 3,
@@ -68593,7 +68582,7 @@
       "mav_name": "STATISTICS (PHYSIC STUDENT ONLY)"
     },
     {
-      "module": "STATISTICS ( CHEMICAL STUDENT ONLY)",
+      "module": "STATISTICS",
       "course_id": "SIX1016",
       "occurence": "3",
       "credits": 3,
@@ -68626,7 +68615,7 @@
       "mav_name": "STATISTICS (BIOLOGY STUDENT ONLY)"
     },
     {
-      "module": "STATISTICS ( CHEMICAL STUDENT ONLY)",
+      "module": "STATISTICS",
       "course_id": "SIX1016",
       "occurence": "4",
       "credits": 3,
@@ -68659,7 +68648,7 @@
       "mav_name": "STATISTICS"
     },
     {
-      "module": "STATISTICS ( CHEMICAL STUDENT ONLY)",
+      "module": "STATISTICS",
       "course_id": "SIX1016",
       "occurence": "5",
       "credits": 3,
@@ -68692,7 +68681,7 @@
       "mav_name": "STATISTICS"
     },
     {
-      "module": "STATISTICS ( CHEMICAL STUDENT ONLY)",
+      "module": "STATISTICS",
       "course_id": "SIX1016",
       "occurence": "6",
       "credits": 3,
@@ -78180,8 +78169,7 @@
           "day": "Wednesday",
           "room": "DEWAN KULIAH 2 FSKTM",
           "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "MADAM FAZIDAH BINTI OTHMAN"
+          "end_time": "17:00"
         },
         {
           "title": "tutorial",
@@ -79076,8 +79064,7 @@
           "begin_time": "13:00",
           "end_time": "14:00"
         }
-      ],
-      "mav_name": "MACHINE LEARNING"
+      ]
     },
     {
       "module": "MACHINE LEARNING",
@@ -79099,8 +79086,7 @@
           "begin_time": "09:00",
           "end_time": "10:00"
         }
-      ],
-      "mav_name": "MACHINE LEARNING"
+      ]
     }
   ],
   "WID3008": [
@@ -80336,8 +80322,7 @@
           "begin_time": "11:00",
           "end_time": "14:00"
         }
-      ],
-      "mav_name": "DATA ANALYTICS"
+      ]
     }
   ],
   "WIH3004": [
@@ -80354,8 +80339,7 @@
           "begin_time": "12:00",
           "end_time": "15:00"
         }
-      ],
-      "mav_name": "TRENDS IN DATA SCIENCE"
+      ]
     }
   ],
   "WIX1001": [
@@ -80553,8 +80537,7 @@
           "begin_time": "15:00",
           "end_time": "18:00"
         }
-      ],
-      "mav_name": "SOCIAL INFORMATICS"
+      ]
     }
   ],
   "WOA7019": [
