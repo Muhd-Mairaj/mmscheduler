@@ -42394,16 +42394,19 @@
           "day": "Tuesday",
           "room": "DEWAN KULIAH 4 FKEJ",
           "begin_time": "14:00",
-          "end_time": "16:00"
+          "end_time": "16:00",
+          "tutor": "DR. MOHD NASHRUL BIN MOHD ZUBIR"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "DEWAN KULIAH 4 FKEJ",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. MOHD NASHRUL BIN MOHD ZUBIR"
         }
-      ]
+      ],
+      "mav_name": "ENGINEERING THERMODYNAMICS 1"
     },
     {
       "module": "ENGINEERING THERMODYNAMICS 1",
@@ -42416,16 +42419,19 @@
           "day": "Tuesday",
           "room": "DEWAN KULIAH 6 FKEJ",
           "begin_time": "08:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. CHEW BEE TENG"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "DEWAN KULIAH 6 FKEJ",
           "begin_time": "11:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "DR. CHEW BEE TENG"
         }
-      ]
+      ],
+      "mav_name": "ENGINEERING THERMODYNAMICS 1"
     },
     {
       "module": "ENGINEERING THERMODYNAMICS 1",
@@ -42438,16 +42444,19 @@
           "day": "Tuesday",
           "room": "DEWAN KULIAH 6 FKEJ",
           "begin_time": "14:00",
-          "end_time": "16:00"
+          "end_time": "16:00",
+          "tutor": "DR. CHEW BEE TENG"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "DEWAN KULIAH 6 FKEJ",
           "begin_time": "10:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "DR. CHEW BEE TENG"
         }
-      ]
+      ],
+      "mav_name": "ENGINEERING THERMODYNAMICS 1"
     }
   ],
   "KIG1014": [
@@ -42462,16 +42471,19 @@
           "day": "Tuesday",
           "room": "DEWAN KULIAH 6 FKEJ",
           "begin_time": "11:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "IR. DR. TAN CHIN JOO"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "DEWAN KULIAH 6 FKEJ",
           "begin_time": "12:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "IR. DR. TAN CHIN JOO"
         }
-      ]
+      ],
+      "mav_name": "MECHANICS OF MATERIALS 1"
     },
     {
       "module": "MECHANICS OF MATERIALS 1",
@@ -42484,16 +42496,19 @@
           "day": "Tuesday",
           "room": "DEWAN KULIAH 5 FKEJ",
           "begin_time": "14:00",
-          "end_time": "16:00"
+          "end_time": "16:00",
+          "tutor": "PROFESSOR IR. DR. TAN CHOU YONG"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "DEWAN KULIAH 4 FKEJ",
           "begin_time": "14:00",
-          "end_time": "15:00"
+          "end_time": "15:00",
+          "tutor": "PROFESSOR IR. DR. TAN CHOU YONG"
         }
-      ]
+      ],
+      "mav_name": "MECHANICS OF MATERIALS 1"
     },
     {
       "module": "MECHANICS OF MATERIALS 1",
@@ -42506,16 +42521,19 @@
           "day": "Tuesday",
           "room": "DEWAN KULIAH 4 FKEJ",
           "begin_time": "11:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. MAHMOUD ZAKARIA ALSAYED ABDALFATTAH IBRAHIM"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "DEWAN KULIAH 5 FKEJ",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. MAHMOUD ZAKARIA ALSAYED ABDALFATTAH IBRAHIM"
         }
-      ]
+      ],
+      "mav_name": "MECHANICS OF MATERIALS 1"
     }
   ],
   "KIG1015": [
@@ -42530,16 +42548,19 @@
           "day": "Monday",
           "room": "DEWAN KULIAH 5 FKEJ",
           "begin_time": "14:00",
-          "end_time": "16:00"
+          "end_time": "16:00",
+          "tutor": " "
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "BILIK KULIAH 101&104 FKEJ",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": " "
         }
-      ]
+      ],
+      "mav_name": "DYNAMICS"
     },
     {
       "module": "DYNAMICS",
@@ -42552,16 +42573,19 @@
           "day": "Monday",
           "room": "DEWAN KULIAH 4 FKEJ",
           "begin_time": "14:00",
-          "end_time": "16:00"
+          "end_time": "16:00",
+          "tutor": "DR. EDZROL NIZA BIN MOHAMAD"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "DEWAN KULIAH 4 FKEJ",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. EDZROL NIZA BIN MOHAMAD"
         }
-      ]
+      ],
+      "mav_name": "DYNAMICS"
     },
     {
       "module": "DYNAMICS",
@@ -42574,16 +42598,19 @@
           "day": "Monday",
           "room": "DEWAN KULIAH 4 FKEJ",
           "begin_time": "11:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. EDZROL NIZA BIN MOHAMAD"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DEWAN KULIAH 4 FKEJ",
           "begin_time": "12:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. EDZROL NIZA BIN MOHAMAD"
         }
-      ]
+      ],
+      "mav_name": "DYNAMICS"
     }
   ],
   "KIG1016": [
@@ -42755,16 +42782,19 @@
           "day": "Tuesday",
           "room": "DEWAN KULIAH 2 FKEJ",
           "begin_time": "11:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. MUHAMMAD KHAIRI FAIZ BIN AHMAD HAIRUDDIN"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "DEWAN KULIAH 5 FKEJ",
           "begin_time": "12:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. MUHAMMAD KHAIRI FAIZ BIN AHMAD HAIRUDDIN"
         }
-      ]
+      ],
+      "mav_name": "DESIGN OF MACHINE ELEMENTS"
     },
     {
       "module": "DESIGN OF MACHINE ELEMENTS",
@@ -42777,16 +42807,19 @@
           "day": "Thursday",
           "room": "DEWAN KULIAH 5 FKEJ",
           "begin_time": "10:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": " "
         },
         {
           "title": "lecture",
           "day": "Tuesday",
           "room": "DEWAN KULIAH 3 FKEJ",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": " "
         }
-      ]
+      ],
+      "mav_name": "DESIGN OF MACHINE ELEMENTS"
     },
     {
       "module": "DESIGN OF MACHINE ELEMENTS",
@@ -42799,9 +42832,11 @@
           "day": "Tuesday",
           "room": "DEWAN KULIAH 3 FKEJ",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": " "
         }
-      ]
+      ],
+      "mav_name": "DESIGN OF MACHINE ELEMENTS"
     }
   ],
   "KIG2018": [
@@ -42816,16 +42851,19 @@
           "day": "Tuesday",
           "room": "BILIK KULIAH 102 FKEJ, BILIK KULIAH 103 FKEJ",
           "begin_time": "09:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "DR. MOHD ZAMRI BIN ZAINON @ BAHAROM"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "BILIK KULIAH 102 FKEJ, BILIK KULIAH 103 FKEJ",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. MOHD ZAMRI BIN ZAINON @ BAHAROM"
         }
-      ]
+      ],
+      "mav_name": "ENGINEERING THERMODYNAMICS 2"
     },
     {
       "module": "ENGINEERING THERMODYNAMICS 2",
@@ -42838,16 +42876,19 @@
           "day": "Tuesday",
           "room": "BILIK KULIAH 101&104 FKEJ",
           "begin_time": "09:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "MR. AZNIJAR BIN AHMAD YAZID"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "BILIK KULIAH 101&104 FKEJ",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "MR. AZNIJAR BIN AHMAD YAZID"
         }
-      ]
+      ],
+      "mav_name": "ENGINEERING THERMODYNAMICS 2"
     },
     {
       "module": "ENGINEERING THERMODYNAMICS 2",
@@ -42860,16 +42901,19 @@
           "day": "Tuesday",
           "room": "BILIK KULIAH 101&104 FKEJ",
           "begin_time": "09:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "MR. AZNIJAR BIN AHMAD YAZID"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "BILIK KULIAH 101&104 FKEJ",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "MR. AZNIJAR BIN AHMAD YAZID"
         }
-      ]
+      ],
+      "mav_name": "ENGINEERING THERMODYNAMICS 2"
     }
   ],
   "KIG2019": [
@@ -42884,16 +42928,19 @@
           "day": "Monday",
           "room": "DEWAN KULIAH 6 FKEJ",
           "begin_time": "14:00",
-          "end_time": "16:00"
+          "end_time": "16:00",
+          "tutor": "DR. KHOO SHIN YEE"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DEWAN KULIAH 5 FKEJ",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. KHOO SHIN YEE"
         }
-      ]
+      ],
+      "mav_name": "NUMERICAL AND STATISTICAL METHODS IN ENGINEERING"
     },
     {
       "module": "NUMERICAL AND STATISTICAL METHODS IN ENGINEERING",
@@ -42906,16 +42953,19 @@
           "day": "Monday",
           "room": "BILIK KULIAH 201 FKEJ, BILIK KULIAH 204 FKEJ",
           "begin_time": "09:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "DR. KHOO SHIN YEE"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DEWAN KULIAH 5 FKEJ",
           "begin_time": "10:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "DR. KHOO SHIN YEE"
         }
-      ]
+      ],
+      "mav_name": "NUMERICAL AND STATISTICAL METHODS IN ENGINEERING"
     },
     {
       "module": "NUMERICAL AND STATISTICAL METHODS IN ENGINEERING",
@@ -42928,16 +42978,19 @@
           "day": "Monday",
           "room": "BILIK KULIAH 201 FKEJ, BILIK KULIAH 204 FKEJ",
           "begin_time": "14:00",
-          "end_time": "16:00"
+          "end_time": "16:00",
+          "tutor": "ASSOCIATE PROF. DR. HENDRIK SIMON CORNELIS METSELAAR"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "DEWAN KULIAH 4 FKEJ",
           "begin_time": "11:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. HENDRIK SIMON CORNELIS METSELAAR"
         }
-      ]
+      ],
+      "mav_name": "NUMERICAL AND STATISTICAL METHODS IN ENGINEERING"
     }
   ],
   "KIG2020": [
@@ -42952,16 +43005,19 @@
           "day": "Wednesday",
           "room": "DEWAN KULIAH 6 FKEJ",
           "begin_time": "10:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "DR. MD SHAHABUDDIN AHMMAD"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "BILIK KULIAH 201 FKEJ, BILIK KULIAH 204 FKEJ",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. MD SHAHABUDDIN AHMMAD"
         }
-      ]
+      ],
+      "mav_name": "MECHATRONICS 2"
     },
     {
       "module": "MECHATRONICS 2",
@@ -42974,16 +43030,19 @@
           "day": "Monday",
           "room": "BILIK KULIAH 202 FKEJ, BILIK KULIAH 203 FKEJ",
           "begin_time": "14:00",
-          "end_time": "16:00"
+          "end_time": "16:00",
+          "tutor": "DR. MD SHAHABUDDIN AHMMAD"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DEWAN KULIAH 6 FKEJ",
           "begin_time": "12:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. MD SHAHABUDDIN AHMMAD"
         }
-      ]
+      ],
+      "mav_name": "MECHATRONICS 2"
     },
     {
       "module": "MECHATRONICS 2",
@@ -42996,16 +43055,19 @@
           "day": "Monday",
           "room": "BILIK KULIAH 202 FKEJ, BILIK KULIAH 203 FKEJ",
           "begin_time": "09:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": " "
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "DEWAN KULIAH 4 FKEJ",
           "begin_time": "10:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": " "
         }
-      ]
+      ],
+      "mav_name": "MECHATRONICS 2"
     }
   ],
   "KIG3002": [
@@ -43047,9 +43109,11 @@
           "day": "Wednesday",
           "room": "DEWAN KULIAH 4 FKEJ",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. GOH YINGXIN"
         }
-      ]
+      ],
+      "mav_name": "INTEGRATED DESIGN 2"
     }
   ],
   "KIG3012": [
@@ -43064,16 +43128,19 @@
           "day": "Monday",
           "room": "ENGINEERING COMPUTER CENTRE 4 & 5",
           "begin_time": "11:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. SABARIAH BINTI JULAI @ JULAIHI"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "ENGINEERING COMPUTER CENTRE 4 & 5",
           "begin_time": "12:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. SABARIAH BINTI JULAI @ JULAIHI"
         }
-      ]
+      ],
+      "mav_name": "CONTROL ENGINEERING"
     },
     {
       "module": "CONTROL ENGINEERING",
@@ -43086,16 +43153,19 @@
           "day": "Monday",
           "room": "ENGINEERING COMPUTER CENTRE 3 & 3A",
           "begin_time": "14:00",
-          "end_time": "16:00"
+          "end_time": "16:00",
+          "tutor": "PROFESSOR IR. DR. YAP HWA JEN"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "ENGINEERING COMPUTER CENTRE 3 & 3A",
           "begin_time": "11:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "PROFESSOR IR. DR. YAP HWA JEN"
         }
-      ]
+      ],
+      "mav_name": "CONTROL ENGINEERING"
     },
     {
       "module": "CONTROL ENGINEERING",
@@ -43108,16 +43178,19 @@
           "day": "Monday",
           "room": "ENGINEERING COMPUTER CENTRE 3 & 3A",
           "begin_time": "11:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "ASSOCIATE PROF. DR. AHMAD SAIFIZUL BIN ABDULLAH"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "ENGINEERING COMPUTER CENTRE 4 & 5",
           "begin_time": "11:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. AHMAD SAIFIZUL BIN ABDULLAH"
         }
-      ]
+      ],
+      "mav_name": "CONTROL ENGINEERING"
     }
   ],
   "KIG3013": [
@@ -43132,16 +43205,19 @@
           "day": "Tuesday",
           "room": "BILIK KULIAH 201 FKEJ, BILIK KULIAH 204 FKEJ",
           "begin_time": "09:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "DR. MOHD NASHRUL BIN MOHD ZUBIR"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "BILIK KULIAH 201 FKEJ, BILIK KULIAH 204 FKEJ",
           "begin_time": "11:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "DR. MOHD NASHRUL BIN MOHD ZUBIR"
         }
-      ]
+      ],
+      "mav_name": "HEAT TRANSFER"
     },
     {
       "module": "HEAT TRANSFER",
@@ -43154,16 +43230,19 @@
           "day": "Tuesday",
           "room": "BILIK KULIAH 102 FKEJ, BILIK KULIAH 103 FKEJ",
           "begin_time": "14:00",
-          "end_time": "16:00"
+          "end_time": "16:00",
+          "tutor": "PROF. DR. KAZI MD. SALIM NEWAZ"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "BILIK KULIAH 201 FKEJ, BILIK KULIAH 204 FKEJ",
           "begin_time": "12:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "PROF. DR. KAZI MD. SALIM NEWAZ"
         }
-      ]
+      ],
+      "mav_name": "HEAT TRANSFER"
     },
     {
       "module": "HEAT TRANSFER",
@@ -43176,16 +43255,19 @@
           "day": "Thursday",
           "room": "BILIK KULIAH 201 FKEJ, BILIK KULIAH 204 FKEJ",
           "begin_time": "09:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "PROF. DR. KAZI MD. SALIM NEWAZ"
         },
         {
           "title": "lecture",
           "day": "Tuesday",
           "room": "BILIK KULIAH 102 FKEJ, BILIK KULIAH 103 FKEJ",
           "begin_time": "12:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "PROF. DR. KAZI MD. SALIM NEWAZ"
         }
-      ]
+      ],
+      "mav_name": "HEAT TRANSFER"
     }
   ],
   "KIG3014": [
@@ -43200,9 +43282,11 @@
           "day": "Wednesday",
           "room": "ENGINEERING COMPUTER CENTRE 8",
           "begin_time": "09:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. ONG ZHI CHAO"
         }
-      ]
+      ],
+      "mav_name": "FINITE ELEMENT ANALYSIS"
     },
     {
       "module": "FINITE ELEMENT ANALYSIS",
@@ -43215,9 +43299,11 @@
           "day": "Monday",
           "room": "ENGINEERING COMPUTER CENTRE 8",
           "begin_time": "09:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. ONG ZHI CHAO"
         }
-      ]
+      ],
+      "mav_name": "FINITE ELEMENT ANALYSIS"
     },
     {
       "module": "FINITE ELEMENT ANALYSIS",
@@ -43230,9 +43316,11 @@
           "day": "Monday",
           "room": "ENGINEERING COMPUTER CENTRE 8",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. ONG ZHI CHAO"
         }
-      ]
+      ],
+      "mav_name": "FINITE ELEMENT ANALYSIS"
     }
   ],
   "KIG4001": [
@@ -43364,9 +43452,11 @@
           "day": "Wednesday",
           "room": "DEWAN KULIAH 2 FKEJ",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. KHOO SHIN YEE"
         }
-      ]
+      ],
+      "mav_name": "FINAL YEAR PROJECT 2"
     }
   ],
   "KIG4056": [
@@ -43493,7 +43583,8 @@
           "day": "Wednesday",
           "room": "GREEN CUBE 1 FKEJ",
           "begin_time": "10:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. MEOR MOHD FAISAL BIN MEOR ZULKIFLI"
         }
       ],
       "mav_name": "MACHINE LEARNING"
@@ -43509,7 +43600,8 @@
           "day": "Wednesday",
           "room": "GREEN CUBE 1 FKEJ",
           "begin_time": "10:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. MEOR MOHD FAISAL BIN MEOR ZULKIFLI"
         }
       ],
       "mav_name": "MACHINE LEARNING"
