@@ -42,33 +42,16 @@ const ExamTimetable = React.forwardRef(({ selectedOccurrences }, ref) => {
         occurrence: occurrence.occurence,
         module: occurrence.module,
         course_id: occurrence.course_id,
-        // For demo purposes, we'll create dates based on the day of the week
-        // In a real app, you would use actual dates from your data
-        date: getDateFromDay(activity.day),
+        date: getDateFromDay(activity.start_date),
       }))
   );
 
   // Helper function to convert day names to dates (for demo)
-  function getDateFromDay(day) {
-    const today = new Date();
-    const dayMap = {
-      Monday: 1,
-      Tuesday: 2,
-      Wednesday: 3,
-      Thursday: 4,
-      Friday: 5,
-      Saturday: 6,
-      Sunday: 0,
-    };
+  function getDateFromDay(input) {
+    const [day, month, year] = input.split("/").map(Number);
+    const date = new Date(year, month - 1, day);
 
-    const targetDay = dayMap[day];
-    const currentDay = today.getDay();
-    const daysToAdd = (targetDay + 7 - currentDay) % 7;
-
-    const targetDate = new Date(today);
-    targetDate.setDate(today.getDate() + daysToAdd);
-
-    return targetDate.toLocaleDateString("en-US", {
+    return date.toLocaleDateString("en-US", {
       month: "short",
       day: "numeric",
       year: "numeric",
