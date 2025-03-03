@@ -1,0 +1,7 @@
+*/__pycache__
+
+# files created for/by scraping
+*.xls
+*.xlsx
+*.json
+*.txt
