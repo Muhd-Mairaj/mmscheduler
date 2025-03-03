@@ -191,7 +191,7 @@ const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
             <Fragment key={idx}>
               {occurrence.activities.map(
                 (activity, activityIdx) =>
-                  activity && (
+                  activity && (activity.title !== "exam") && (
                     <div
                       key={`${idx}-${activityIdx}`}
                       style={{
