@@ -24,7 +24,7 @@
 
 .occurrenceContainer {
   display: grid;
-  min-height: 30vh;
+  min-height: 20vh;
 }
 
 .courseBlock {
@@ -48,7 +48,7 @@
   cursor: pointer;
 }
 
-.courseHeader >:first-child {
+.courseHeader > :first-child {
   margin-right: auto;
 }
 
@@ -69,17 +69,20 @@
 }
 
 .occurrences {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  padding: 5px 10px 0px 10px;
+  gap: 7px;
   transition: max-height 0.3s ease-in-out, opacity 0.2s ease-in-out;
-  max-height: 1000px;
   opacity: 1;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .occurrences.collapsed {
   max-height: 0;
   opacity: 0;
+  overflow: hidden;
 }
-
 
 .removeButton {
   z-index: 1;
@@ -116,7 +119,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 50vh;
+  height: 40vh;
 }
 
 .noCourseIcon {
@@ -138,17 +141,18 @@
   margin: 10px 0;
 }
 
-.controlsLeft, .controlsRight {
+.controlsLeft,
+.controlsRight {
   display: flex;
   gap: 16px;
   align-items: center;
 }
 
-.controlsLeft{
+.controlsLeft {
   margin-left: 20px;
 }
 
-.controlsRight{
+.controlsRight {
   margin-right: 20px;
 }
 
@@ -183,9 +187,16 @@
   font-size: 0.85rem;
 }
 
-.tableContainer {
-  margin: 20px 0;
+.tablesContainer {
+  border-top: 1px solid rgb(216, 216, 216);
+  padding: 0 30px;
+  padding-top: 40px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 100%;
+  gap: 50px;
   overflow-x: auto;
 }
 
@@ -221,7 +232,12 @@
   .occurrences {
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
+  .occurrences.expanded {
+    height: auto;
+    overflow: visible;
+  }
+
   .credits {
     width: 100%;
     justify-content: flex-end;
@@ -239,9 +255,8 @@
     padding: 8px 0;
   }
 
-  .controlsLeft{
+  .controlsLeft {
     flex-direction: column;
-
   }
 }
 
@@ -268,7 +283,7 @@
   .buttonColumn {
     width: 100%;
   }
-  
+
   .resetModulesButton,
   .saveButton,
   .resetButton,
@@ -279,8 +294,11 @@
 }
 
 @media (max-width: 500px) {
+  .tablesContainer{
+    padding: 0 10px;
+    padding-top: 30px;
+  }
   .buttonGroup {
     grid-template-columns: 1fr;
   }
 }
-

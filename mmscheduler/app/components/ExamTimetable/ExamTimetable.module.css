@@ -1,10 +1,10 @@
-.title{
+.title {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,7 +45,6 @@
   min-width: 1050px;
   display: grid;
   grid-template-columns: auto repeat(24, minmax(40px, 1fr)); /* 24 half-hour slots */
-  grid-template-rows: auto repeat(5, minmax(100px, auto)); /* 5 days + header */
   border: 1px solid rgba(204, 204, 204, 0.5); /* Light, translucent border */
   background-color: #f9f9f9;
   position: relative;
@@ -79,12 +78,12 @@
   color: black !important;
 }
 
-.toggleOption{
+.toggleOption {
   display: flex;
   gap: 10px;
 }
 
-.toggleOption p{
+.toggleOption p {
   margin: 0;
   width: 150px;
   word-break: break-word;
@@ -154,31 +153,15 @@
   border-bottom: 1px solid rgba(204, 204, 204, 0.5); /* More translucent */
 }
 
-.lectureEvent,
-.tutorialEvent,
-.labEvent,
-.onlineEvent,
-.otherEvent {
+.examEvent {
   margin: 3px; /* Add margin to create space between events */
   padding: 6px; /* Maintain padding for internal content */
   border-radius: 10px;
   box-sizing: border-box; /* Ensure padding and margin stay within the grid cell */
 }
 
-.lectureEvent {
-  background-color: var(--lecture-event-color, #4caf50);
-}
-.tutorialEvent {
-  background-color: var(--tutorial-event-color, #2196f3);
-}
-.labEvent {
-  background-color: var(--lab-event-color, #ff9800);
-}
-.onlineEvent {
-  background-color: var(--online-event-color, #9c27b0);
-}
-.otherEvent {
-  background-color: var(--other-event-color, #607d8b);
+.examEvent {
+  background-color: var(--exam-event-color, #f44336);
 }
 
 .eventCard {
