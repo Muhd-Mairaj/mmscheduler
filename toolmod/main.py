@@ -76,13 +76,19 @@ def main():
                     occurrences.setdefault(occ, updated_course_base_details.copy())
                     occurrences[occ]["occurence"] = occ
                     occurrences[occ].setdefault("activities", [])
-                    occurrences[occ]["activities"].append({
+                    activity = {
                         "title": mapping[type],
                         "day": details["dayOfWeek"],
                         "room": details["room"],
                         "begin_time": details["startTime"],
                         "end_time": details["endTime"],
-                    })
+                    }
+
+                    if mapping[type] == "exam":
+                        activity["start_date"] = details["startDate"]
+                        activity["end_date"] = details["endDate"]
+
+                    occurrences[occ]["activities"].append(activity)
 
         updated_data[course["moduleCode"]] = occurrences
 
@@ -96,7 +102,7 @@ def main():
                 print("Invalid file format. Must be an xlsx file. Skipping maya update")
             else:
                 files = [args.maya]
-    
+
     if files:
         for file in files:
             workbook = openpyxl.load_workbook(file, read_only=True)
