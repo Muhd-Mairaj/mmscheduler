@@ -65,7 +65,10 @@ const isClashing = (course1, course2) => {
     for (const activity2 of course2.activities) {
       if (activity1.title === "exam" && activity2.title === "exam") {
         if(activity1.start_date === activity2.start_date) {
-          return checkActivityClashes(activity1, activity2);
+          // Check if activities clash
+        if (checkActivityClashes(activity1, activity2)) {
+          return true; // Clash found
+        }
         }
       }
 
