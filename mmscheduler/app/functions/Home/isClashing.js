@@ -52,14 +52,29 @@ const isClashing = (course1, course2) => {
       return false;
     }
 
-    return timesOverlap(activity1Start, activity1End, activity2Start, activity2End);
+    return timesOverlap(
+      activity1Start,
+      activity1End,
+      activity2Start,
+      activity2End
+    );
   }
 
   // Loop through all combinations of activities
   for (const activity1 of course1.activities) {
     for (const activity2 of course2.activities) {
+      if (activity1.title === "exam" && activity2.title === "exam") {
+        if(activity1.start_date === activity2.start_date) {
+          return checkActivityClashes(activity1, activity2);
+        }
+      }
+
       // Check if both activities have the same day
-      if (activity1.day === activity2.day) {
+      if (
+        activity1.day === activity2.day &&
+        activity1.title !== "exam" &&
+        activity2.title !== "exam"
+      ) {
         // Check if activities clash
         if (checkActivityClashes(activity1, activity2)) {
           return true; // Clash found
