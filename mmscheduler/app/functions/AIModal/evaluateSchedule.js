@@ -1,6 +1,13 @@
-import isClashing from '../Home/isClashing';
+import isClashing from "../Home/isClashing";
 
-const evaluateSchedule = (selectedCourses, positiveTutors, negativeTutors, negativeDays, isTutorOverDays) => {
+const evaluateSchedule = (
+  selectedCourses,
+  positiveTutors,
+  negativeTutors,
+  negativeDays,
+  isTutorOverDays,
+  isAllowExamClash
+) => {
   //get all possible non-clashing occ combinations
   //make sure not clashing
   //evaluate score for each combination
@@ -10,8 +17,14 @@ const evaluateSchedule = (selectedCourses, positiveTutors, negativeTutors, negat
   let maxScoreCombination = null;
   for (let i = 0; i < allCombinations.length; i++) {
     const combination = allCombinations[i];
-    if (!checkClashing(combination)) {
-      let evaluation = evaluateCombination(combination, positiveTutors, negativeTutors, negativeDays, isTutorOverDays);
+    if (!checkClashing(combination, isAllowExamClash)) {
+      let evaluation = evaluateCombination(
+        combination,
+        positiveTutors,
+        negativeTutors,
+        negativeDays,
+        isTutorOverDays
+      );
       if (evaluation > maxScore) {
         maxScoreCombination = combination;
         maxScore = evaluation;
@@ -19,9 +32,15 @@ const evaluateSchedule = (selectedCourses, positiveTutors, negativeTutors, negat
     }
   }
   return maxScoreCombination;
-}
+};
 
-const evaluateCombination = (combination, positiveTutors, negativeTutors, negativeDays, isTutorOverDays) => {
+const evaluateCombination = (
+  combination,
+  positiveTutors,
+  negativeTutors,
+  negativeDays,
+  isTutorOverDays
+) => {
   let score = 0;
   for (let i = 0; i < combination.length; i++) {
     const occurrence = combination[i];
@@ -32,9 +51,11 @@ const evaluateCombination = (combination, positiveTutors, negativeTutors, negati
       if (activity.tutor) {
         const tutor = activity.tutor;
         const courseId = occurrence.course_id;
-        
-        const isPositive = positiveTutors[courseId] && positiveTutors[courseId].includes(tutor);
-        const isNegative = negativeTutors[courseId] && negativeTutors[courseId].includes(tutor);
+
+        const isPositive =
+          positiveTutors[courseId] && positiveTutors[courseId].includes(tutor);
+        const isNegative =
+          negativeTutors[courseId] && negativeTutors[courseId].includes(tutor);
 
         if (isPositive) {
           score += isTutorOverDays ? 3 : 2;
@@ -60,12 +81,12 @@ const evaluateCombination = (combination, positiveTutors, negativeTutors, negati
     }
   }
   return score;
-}
+};
 
-const checkClashing = (selectedOccurrences) => {
+const checkClashing = (selectedOccurrences, isAllowExamClash) => {
   for (let i = 0; i < selectedOccurrences.length; i++) {
     for (let j = i + 1; j < selectedOccurrences.length; j++) {
-      if (isClashing(selectedOccurrences[i], selectedOccurrences[j])) {
+      if (isClashing(selectedOccurrences[i], selectedOccurrences[j], isAllowExamClash)) {
         return true;
       }
     }
@@ -77,12 +98,17 @@ function getAllCombinations(courses) {
   const courseKeys = Object.keys(courses);
 
   function cartesianProduct(arrays) {
-    return arrays.reduce((acc, curr) => {
-      return acc.flatMap(accItem => curr.map(currItem => accItem.concat(currItem)));
-    }, [[]]);
+    return arrays.reduce(
+      (acc, curr) => {
+        return acc.flatMap((accItem) =>
+          curr.map((currItem) => accItem.concat(currItem))
+        );
+      },
+      [[]]
+    );
   }
 
-  const occurrencesArrays = courseKeys.map(course => courses[course]);
+  const occurrencesArrays = courseKeys.map((course) => courses[course]);
 
   const combinations = cartesianProduct(occurrencesArrays);
 

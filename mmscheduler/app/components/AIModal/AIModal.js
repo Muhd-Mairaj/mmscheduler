@@ -13,7 +13,8 @@ const AIModal = ({
   chosenCourses,
   handleUpdateChosenCourses,
   handleErrorMessage,
-  disabled=false
+  disabled=false,
+  isAllowExamClash=false
 }) => {
   const [positiveTutorSelections, setPositiveTutorSelections] = useState({});
   const [negativeTutorSelections, setNegativeTutorSelections] = useState({});
@@ -41,6 +42,7 @@ const AIModal = ({
     const negative_tutors = formatTutorSelections(negativeTutorSelections);
     const lecturers_more_important = prioritizeLecturers;
     const courses = chosenCourses;
+    const is_allow_exam_clash = isAllowExamClash;
 
     // Instantiate the Web Worker correctly
     const worker = new Worker(new URL('../../functions/AIModal/evaluateScheduleWorker.js', import.meta.url));
@@ -51,6 +53,7 @@ const AIModal = ({
       negativeTutors: negative_tutors,
       negativeDays: negative_days,
       prioritizeLecturers: lecturers_more_important,
+      isAllowExamClash: is_allow_exam_clash
     });
 
     // Handle the response from the worker

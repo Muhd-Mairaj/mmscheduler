@@ -124,6 +124,25 @@ const Home = () => {
     setSelectedOccurences(updatedSelectedOccurences);
   };
 
+  useEffect(() => {
+    for (let i = 0; i < disabledOccurences.length; i++) {
+      const disabledOccurence = disabledOccurences[i];
+      // if (selectedOccurences.includes(disabledOccurence)) {
+      //   const updatedSelectedOccurences = selectedOccurences.filter((occurence) => !isSame(occurence, disabledOccurence));
+      //   setSelectedOccurences(updatedSelectedOccurences);
+      // }
+      for (let j = 0; j < selectedOccurences.length; j++) {
+        const selectedOccurence = selectedOccurences[j];
+        if (isSame(disabledOccurence, selectedOccurence)) {
+          const updatedSelectedOccurences = selectedOccurences.filter(
+            (occurence) => !isSame(occurence, disabledOccurence)
+          );
+          setSelectedOccurences(updatedSelectedOccurences);
+        }
+      }
+    }
+  }, [disabledOccurences]);
+
   const handleSaveState = useCallback(
     (chosenCourses, selectedOccurences, disabledOccurences) => {
       localStorage.setItem("courses", JSON.stringify(chosenCourses));
@@ -216,7 +235,11 @@ const Home = () => {
     }
   }, [chosenCourses, selectedOccurences, disabledOccurences, handleSaveState]);
 
-  const checkClashing = (selectedOccurences, chosenCourses, isAllowExamClash) => {
+  const checkClashing = (
+    selectedOccurences,
+    chosenCourses,
+    isAllowExamClash
+  ) => {
     const tempDisabledOccurences = [];
 
     selectedOccurences.forEach((occurence) => {
@@ -394,14 +417,17 @@ const Home = () => {
           handleUpdateChosenCourses={handleUpdateChosenCourses}
           handleErrorMessage={handleErrorMessage}
           disabled={!(Object.keys(chosenCourses).length > 0)}
+          isAllowExamClash={isAllowExamClash}
         />
         <div className={classes.togglesContainer}>
           <p>Allow exam clash</p>
-        <ToggleSwitch
-          isChecked={isAllowExamClash}
-          onToggle={()=>{setIsAllowExamClash(!isAllowExamClash)}}
-          className={classes.optionsToggle}
-        />
+          <ToggleSwitch
+            isChecked={isAllowExamClash}
+            onToggle={() => {
+              setIsAllowExamClash(!isAllowExamClash);
+            }}
+            className={classes.optionsToggle}
+          />
         </div>
         <div className={classes.tablesContainer}>
           <div>
