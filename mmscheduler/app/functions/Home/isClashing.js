@@ -1,4 +1,4 @@
-const isClashing = (course1, course2) => {
+const isClashing = (course1, course2, isAllowExamClash=false) => {
   const timesOverlap = (start1, end1, start2, end2) => {
     return start1 < end2 && start2 < end1;
   };
@@ -63,7 +63,7 @@ const isClashing = (course1, course2) => {
   // Loop through all combinations of activities
   for (const activity1 of course1.activities) {
     for (const activity2 of course2.activities) {
-      if (activity1.title === "exam" && activity2.title === "exam") {
+      if (activity1.title === "exam" && activity2.title === "exam" && !isAllowExamClash) {
         if(activity1.start_date === activity2.start_date) {
           return checkActivityClashes(activity1, activity2);
         }
