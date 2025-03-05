@@ -22,6 +22,7 @@ import Footer from "./components/Footer/Footer";
 import AlertText from "./components/AlertText/AlertText";
 import AIModal from "./components/AIModal/AIModal";
 import ExamTimetable from "./components/ExamTimetable/ExamTimetable";
+import ToggleSwitch from "./components/ToggleSwitch/ToggleSwitch";
 
 const Home = () => {
   const [chosenCourses, setChosenCourses] = useState({});
@@ -35,6 +36,7 @@ const Home = () => {
   const [creditsAdded, setCreditsAdded] = useState(0);
   const [alertText, setAlertText] = useState("");
   const [expandedCourses, setExpandedCourses] = useState({});
+  const [isAllowExamClash, setIsAllowExamClash] = useState(false);
 
   const toggleSearchModal = () => setSearchModalVisible(!searchModalVisible);
   const toggleAIModal = () => setAIModalVisible(!AIModalVisible);
@@ -194,14 +196,14 @@ const Home = () => {
 
   // check for clashing every time selectedOccurences or chosenCourses changes
   useEffect(() => {
-    checkClashing(selectedOccurences, chosenCourses);
+    checkClashing(selectedOccurences, chosenCourses, isAllowExamClash);
 
     let totalCredits = 0;
     for (let i = 0; i < selectedOccurences.length; i++) {
       totalCredits += selectedOccurences[i].credits;
     }
     setCreditsAdded(totalCredits);
-  }, [selectedOccurences, chosenCourses]);
+  }, [selectedOccurences, chosenCourses, isAllowExamClash]);
 
   // update local storage when state changes (not on initial render)
   const hasMounted = useRef(false);
@@ -214,7 +216,7 @@ const Home = () => {
     }
   }, [chosenCourses, selectedOccurences, disabledOccurences, handleSaveState]);
 
-  const checkClashing = (selectedOccurences, chosenCourses) => {
+  const checkClashing = (selectedOccurences, chosenCourses, isAllowExamClash) => {
     const tempDisabledOccurences = [];
 
     selectedOccurences.forEach((occurence) => {
@@ -223,7 +225,7 @@ const Home = () => {
           // only check for clashing if the course is different
           if (
             occurence.course_id !== courseOccurrence.course_id &&
-            isClashing(occurence, courseOccurrence)
+            isClashing(occurence, courseOccurrence, isAllowExamClash)
           ) {
             tempDisabledOccurences.push(courseOccurrence);
           }
@@ -393,6 +395,14 @@ const Home = () => {
           handleErrorMessage={handleErrorMessage}
           disabled={!(Object.keys(chosenCourses).length > 0)}
         />
+        <div className={classes.togglesContainer}>
+          <p>Allow exam clash</p>
+        <ToggleSwitch
+          isChecked={isAllowExamClash}
+          onToggle={()=>{setIsAllowExamClash(!isAllowExamClash)}}
+          className={classes.optionsToggle}
+        />
+        </div>
         <div className={classes.tablesContainer}>
           <div>
             <Timetable selectedOccurrences={selectedOccurences} />
