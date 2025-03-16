@@ -82,8 +82,9 @@ def main():
                         "room": details["room"],
                         "begin_time": details["startTime"],
                         "end_time": details["endTime"],
-                        "tutor": f"{details["lecturer"]["title"] if details["lecturer"].get("title") else ""} {details["lecturer"]["fullName"] if details.get("lecturer") else None}"
                     }
+                    if details.get("lecturer"):
+                        activity["tutor"] = f"{details["lecturer"].get("title", "")} {details["lecturer"].get("fullName", "")}"
 
                     if mapping[type] == "exam":
                         activity["start_date"] = details["startDate"]
