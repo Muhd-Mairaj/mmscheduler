@@ -144,7 +144,7 @@ const Home = () => {
   }, [disabledOccurences]);
 
   const handleSaveState = useCallback(
-    (chosenCourses, selectedOccurences, disabledOccurences) => {
+    (chosenCourses, selectedOccurences, disabledOccurences, isAllowExamClash) => {
       localStorage.setItem("courses", JSON.stringify(chosenCourses));
       localStorage.setItem(
         "selectedOccurences",
@@ -154,6 +154,7 @@ const Home = () => {
         "disabledOccurences",
         JSON.stringify(disabledOccurences)
       );
+      localStorage.setItem("isAllowExamClash", JSON.stringify(isAllowExamClash));
     },
     []
   );
@@ -199,11 +200,13 @@ const Home = () => {
     if (
       localStorage.getItem("selectedOccurences") &&
       localStorage.getItem("disabledOccurences") &&
-      localStorage.getItem("courses")
+      localStorage.getItem("courses")&&
+      localStorage.getItem("isAllowExamClash")
     ) {
       selected = JSON.parse(localStorage.getItem("selectedOccurences"));
       disabled = JSON.parse(localStorage.getItem("disabledOccurences"));
       courses = JSON.parse(localStorage.getItem("courses"));
+      setIsAllowExamClash(JSON.parse(localStorage.getItem("isAllowExamClash")));
     } else {
       localStorage.clear();
     }
@@ -231,7 +234,7 @@ const Home = () => {
     if (!hasMounted.current) {
       hasMounted.current = true;
     } else {
-      handleSaveState(chosenCourses, selectedOccurences, disabledOccurences);
+      handleSaveState(chosenCourses, selectedOccurences, disabledOccurences, isAllowExamClash);
     }
   }, [chosenCourses, selectedOccurences, disabledOccurences, handleSaveState]);
 
@@ -297,11 +300,11 @@ const Home = () => {
           handleModuleSelection={handleAddModule}
           searchValue={searchValue}
         />
-        <AnnouncementModal
+        {/* <AnnouncementModal
           modal={announcementModalVisible}
           toggle={toggleAnnouncementModal}
           chosenCourses={chosenCourses}
-        />
+        /> */}
         <div className={classes.topControls}>
           {Object.keys(chosenCourses).length > 0 && (
             <button
