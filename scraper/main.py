@@ -7,6 +7,21 @@ from custom_sheets import MayaSheet as MayaSheet
 from custom_sheets import TimeEditSheet as TimeEditSheet
 from custom_sheets.MayaSheet import get_sheet as get_maya_sheet
 from custom_sheets.TimeEditSheet import get_sheet as get_time_edit_sheet
+from course_details_extracter import parse_module_offering_to_code
+
+from bs4 import BeautifulSoup as bs
+from dotenv import load_dotenv
+
+from selenium import webdriver
+from selenium.common import (ElementNotInteractableException,
+                             NoSuchElementException, TimeoutException)
+from selenium.webdriver.common.by import By
+from selenium.webdriver.edge.options import Options
+from selenium.webdriver.edge.service import Service
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
+import time
 
 """
 timeedit mode currently does not support updating previously scraped data.
@@ -21,7 +36,7 @@ def main():
     parser = argparse.ArgumentParser(
         description="A script that helps scraping different aspects of the module offerings")
     parser.add_argument("mode", choices=[
-                        "timeedit", "maya", "finalise"], help="The mode to run ('timeedit' or 'maya')")
+                        "timeedit", "credits", "maya", "finalise"], help="The mode to run ('timeedit' or 'maya')")
     parser.add_argument(
         "path", help="The path to the excel file or the directory containing the excel files to be parsed")
     parser.add_argument("--output", required=True,
@@ -37,8 +52,10 @@ def main():
 
     if args.mode != "finalise" and os.path.isdir(args.path):
         files = [os.path.join(args.path, file) for file in os.listdir(
-            args.path) if file.endswith(".xlsx")]
+            args.path) if file.endswith(".xlsx") or file.endswith(".xls")]
     elif args.path.endswith(".xlsx"):
+        files = [args.path]
+    elif args.path.endswith(".json"):
         files = [args.path]
 
     # Perform tasks based on the mode
@@ -49,7 +66,12 @@ def main():
                 workbook = openpyxl.load_workbook(file, read_only=True)
                 sheet = get_time_edit_sheet(workbook.active)
                 read_data(sheet, args.output)
+        case "credits":
+            assert len(files) == 1, "Only one file is allowed in 'credits' mode"
+            assert files[0].endswith(".json"), "Only json files are allowed in 'credits' mode"
+            update_credits(files[0], args.output)
         case "maya":
+            print("What")
             for file in files:
                 print(file)
                 workbook = openpyxl.load_workbook(file, read_only=True)
@@ -78,9 +100,9 @@ def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet
 
     try:
         # try to read from json file
-        tracker = json.load(open(output))
+        tracker: dict[str, dict] = json.load(open(output))
     except (FileNotFoundError, json.decoder.JSONDecodeError):
-        tracker = {}
+        tracker: dict[str, dict] = {}
 
     try:
         english_name_map = json.load(open("tracker copy.json"))
@@ -131,8 +153,8 @@ def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet
                 })
 
                 # update credits for this activity
-                tracker[code][occ]["credits"] += (
-                    int(end_time.split(":")[0]) - int(begin_time.split(":")[0]))
+                # tracker[code][occ]["credits"] += (
+                #     int(end_time.split(":")[0]) - int(begin_time.split(":")[0]))
 
                 # add this activity to the list of activities
                 tracker[code][occ]["activities"].append({
@@ -150,14 +172,91 @@ def read_data(sheet: TimeEditSheet.MyReadOnlyWorksheet | TimeEditSheet.Worksheet
     json.dump(tracker, open(output, "w"), indent=2)
 
 
+def update_credits(json_file: str, output: str):
+    courses = json.load(open(json_file))
+    output_data = json.load(open(output))
+
+    load_dotenv()
+
+    cookie_name = os.getenv("AUTHENTICATION_COOKIE_NAME")
+    cookie_value = os.getenv("AUTHENTICATION_COOKIE_VALUE")
+
+    # set the current working directory to the directory of this file
+    cur_dir = os.path.dirname(os.path.abspath(__file__))
+
+    edge_options = Options()
+    edge_options.add_argument("--headless")
+    edge_options.binary_location = "/usr/bin/microsoft-edge-beta"
+
+    driver = webdriver.Edge(service=Service(
+        executable_path=f"{cur_dir}/msedgedriver"), options=edge_options)
+    driver.get("https://cloud.timeedit.net/my_um/web/")
+    driver.add_cookie({
+        "name": cookie_name,
+        "value": cookie_value,
+        "domain": "cloud.timeedit.net",
+        "secure": True,
+    })
+
+    try:
+        for course in courses:
+            data_id_only = course.get("data_id_only")
+            code, _, _ = parse_module_offering_to_code(course.get("data_name"))
+
+            if code in output_data:  # necessary because courses has more courses than those with data
+                if output_data[code].values().__iter__().__next__().get("credits") != 0:
+                    print(f"skipping {code} because credits already calculated")
+                    continue
+
+                driver.get(f"https://cloud.timeedit.net/my_um/web/students/objects/{data_id_only}.html")
+
+                credits = get_credits(driver, code)
+                for occ in output_data[code]:
+                    output_data[code][occ]["credits"] = credits
+
+                print(f"Updated credits for {code} to {output_data[code][occ]['credits']}")
+            else:
+                print(f"skipping {code}")
+    except Exception as e:
+        print(f"stopping at {code} because of error: {e}")
+        print(code, file=open("no_credits.txt", "a"))
+        driver.refresh()
+        print(f"{driver.get_cookies() = }")
+        print(f"{driver.get_cookie(cookie_name) = }")
+    finally:
+        driver.quit()
+        print("Finished")
+        json.dump(output_data, open(output, "w"), indent=2)
+        # time.sleep(1000)
+
+
+def get_credits(driver, code):
+    soup = bs(driver.page_source, "html.parser")
+
+    # find single div by id
+    table = soup.find('table')
+
+    # courses_div = soup.find_all(
+    #     "div", class_=["clickable2", "searchObject"])
+
+    if not table:
+        return False
+
+    # print(table)
+
+    # Find the row that has 'Credit Value' in the first <td> and then get the second <td> containing the value
+    credit_row = table.find('td', string='Credit Value')
+    credits = credit_row.find_next_sibling('td').string.strip()
+
+    return credits
+
+
 def update_data_from_maya(sheet: MayaSheet.MyReadOnlyWorksheet | MayaSheet.Worksheet, output: str):
     try:
         # try to read from json file
         tracker = json.load(open(output))
     except (FileNotFoundError, json.decoder.JSONDecodeError):
         tracker = {}
-
-    print(f"{tracker=}")
 
     current_module_code = None
     current_module_name = None
@@ -202,8 +301,8 @@ def update_data_from_maya(sheet: MayaSheet.MyReadOnlyWorksheet | MayaSheet.Works
             continue
 
         # update module name and mav_name
+        tracker[current_module_code][current_occurence].setdefault("mav_name", tracker[current_module_code][current_occurence]["module"])
         tracker[current_module_code][current_occurence]["module"] = current_module_name
-        tracker[current_module_code][current_occurence]["mav_name"] = current_mav_name
 
         if not (day and begin_time and end_time):
             print(f"Time details not found for Occ {current_occurence} of module '{
