@@ -4,7 +4,6 @@ import time
 
 from bs4 import BeautifulSoup as bs
 from dotenv import load_dotenv
-from main import parse_module_offering
 from selenium import webdriver
 from selenium.common import (ElementNotInteractableException,
                              NoSuchElementException, TimeoutException)
@@ -40,45 +39,57 @@ def main():
         "secure": True,
     })
 
-    # # extract data for all courses
-    # info = json.load(open("info.json"))
-    # if "start" not in info:
-    #     info["start"] = 0
-    # json.dump(info, open("info.json", "w"), indent=2)
+    # extract data for all courses
+    try:
+        info = json.load(open("info.json"))
+    except FileNotFoundError:
+        info = {}
+        
+    if "start" not in info:
+        info["start"] = 0
+    json.dump(info, open("info.json", "w"), indent=2)
 
     # scrape_all_courses(driver, info["start"])
 
     # done scraping
 
-    driver.get("https://cloud.timeedit.net/my_um/web/students/ri1Q8.html")
-    time.sleep(2)
+    # driver.get("https://cloud.timeedit.net/my_um/web/students/ri1Q8.html")
+    # time.sleep(2)
 
-    # change to module offering
-    driver.execute_script("""
-        var selector = document.getElementById("fancytypeselector")
-        selector.value = "5";
-        selector.dispatchEvent(new Event("change"));
-    """)
-    time.sleep(0.5)
+    # # change to module offering
+    # driver.execute_script("""
+    #     var selector = document.getElementById("fancytypeselector")
+    #     selector.value = "5";
+    #     selector.dispatchEvent(new Event("change"));
+    # """)
+    # time.sleep(0.5)
 
-    # add courses to scheduler (1000 at a time -- need to automate this process)
-    info = json.load(open("info.json"))
-    if "offset" not in info:
-        info["offset"] = 0
-    data = get_courses(2000, offset=info["offset"])
+    # # add courses to scheduler (1000 at a time -- need to automate this process)
+    # info = json.load(open("info.json"))
+    # if "offset" not in info:
+    #     info["offset"] = 0
+    # data = get_courses(2000, offset=info["offset"])
 
-    add_courses_to_scheduler(driver, data)
-    info = json.load(open("info.json"))
-    info["offset"] += 2000      # assuming all 1000 courses are added, no error checking added yet
-    json.dump(info, open("info.json", "w"), indent=2)
+    # add_courses_to_scheduler(driver, data)
+    # info = json.load(open("info.json"))
+    # info["offset"] += 2000      # assuming all 1000 courses are added, no error checking added yet
+    # json.dump(info, open("info.json", "w"), indent=2)
 
-    print("Program execution over.")
-    time.sleep(10000)
+    # print("Program execution over.")
+    # time.sleep(10000)
 
 
 def scrape_all_courses(driver, start=0):
-    scheduler_adding_data = json.load(open("courses.json"))
-    tracker_data_for_frontend = json.load(open("tracker.json"))
+    try:
+        scheduler_adding_data: list = json.load(open("courses.json"))
+    except FileNotFoundError:
+        scheduler_adding_data: list = []
+        
+    try:
+        tracker_data_for_frontend: dict = json.load(open("tracker.json"))
+    except FileNotFoundError:
+        tracker_data_for_frontend: dict = {}
+        
 
     while True:
         max_limit = "" if start == 0 else "1000"
@@ -117,6 +128,7 @@ def scrape_all_courses(driver, start=0):
             start = info["start"]
         except TimeoutException as e:
             print(e)
+            driver.execute_script("window.location.reload()")
             # check for an error in errors.txt
             # if (error := open("errors.txt").read()):
             #     # this means that i got logged out. need to relogin
@@ -144,9 +156,11 @@ def _course_extracter(driver, data, tracker, start):
             data_id = course["data-id"]
             data_name = course["data-name"]
 
-            code, period, occurences = parse_module_offering(data_name)
-            if period != "S1":
-                print(f"Skipping {data_name} as it is not in S1 period.")
+            print(f"start = {start}, count = {count+1}, {data_id=}, {data_name=}")
+
+            code, period, occurences = parse_module_offering_to_code(data_name)
+            if period != "S2":
+                print(f"Skipping {data_name} as it is not in S2 period.")
                 start += 1
                 continue
 
@@ -203,6 +217,20 @@ def _course_extracter(driver, data, tracker, start):
 
     return True
 
+def parse_module_offering_to_code(module_offering: str) -> tuple:
+    code = ""
+    period = ""
+    occurences = []
+
+    # AA017001/2024/S1/P1
+    code, _, period, occs = module_offering.split("/")
+    try:
+        occurences = occs.split(",")
+    except ValueError:
+        occurences = [occs]
+
+    return code, period, occurences
+    
 
 def save_data(scheduler_adding_data, tracker_data_for_frontend, count):
     json.dump(scheduler_adding_data, open("courses.json", "w"), indent=2)

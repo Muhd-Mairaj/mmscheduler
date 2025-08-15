@@ -1,0 +1,10 @@
+start = 1893, count = 810
+data_id='87991.5', data_name='CIC2003/2024/S2/3'
+code='CIC2003', occurences=['3']
+name='ISLAMIC FINANCIAL SYSTEM'
+---------------------------------------
+start = 7680, count = 3005
+data_id='90416.5', data_name='PIB2003/2024/S2/2'
+code='PIB2003', occurences=['2']
+name='WRITING SKILLS FOR TEXTUAL ANALYSIS'
+---------------------------------------
