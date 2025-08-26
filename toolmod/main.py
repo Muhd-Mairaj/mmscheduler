@@ -67,7 +67,7 @@ def main():
                     print(f"{course['moduleCode'] = }, {type = } {details = }")
                     continue
 
-                for occ in details["occurrences"]:
+                for occ in set(details["occurrences"]):
                     occurrences.setdefault(occ, updated_course_base_details.copy())
                     occurrences[occ]["occurence"] = occ
                     occurrences[occ].setdefault("activities", [])
