@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useRef } from "react";
+import React, { Fragment, useState, useRef, useEffect } from "react";
 import classes from "./Timetable.module.css";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,7 +18,9 @@ const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
   const [showActivity, setShowActivity] = useState(false);
   const [showTutor, setShowTutor] = useState(false);
   const [showRoomAndTime, setShowRoomAndTime] = useState(false);
-
+  const [days, setDays] = useState(["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]);
+  const allDays = ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
+  
   const tableRef = useRef();
 
   const toggleShowActivity = () => {
@@ -37,7 +39,6 @@ const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
     setSettingsDropdownOpen(!settingsDropdownOpen);
   };
 
-  const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
   const times = [
     "8:00 AM",
     "9:00 AM",
@@ -51,7 +52,31 @@ const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
     "5:00 PM",
     "6:00 PM",
     "7:00 PM",
+    "8:00 PM"
   ];
+
+  const activeDays = new Set();
+
+  useEffect(() => {
+    selectedOccurrences.forEach((occurrence) => {
+      occurrence.activities.forEach((activity) => {
+        if (activity) {
+          activeDays.add(activity.day);
+        }
+      });
+    });
+    const updatedDays = allDays.filter((day) => {
+      if (day === "Saturday") {
+        return activeDays.has(day) || activeDays.has("Sunday");
+      }
+      if (day === "Sunday") {
+        return activeDays.has(day) || activeDays.has("Saturday");
+      }
+      return true;
+    });
+    setDays(updatedDays);
+  }, [selectedOccurrences]);
+
 
   const convertDayToRow = (day) => {
     return days.indexOf(day) + 2;
@@ -87,7 +112,7 @@ const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
         </button>
       </div>
       <div className={classes.timetableContainer} ref={tableRef}>
-        <div className={classes.timetableGrid}>
+        <div className={`${classes.timetableGrid} ${days.length > 5 ? classes.weekend : ""}`}>
           <div className={classes.cornerCell}>
             <Dropdown
               isOpen={settingsDropdownOpen}
@@ -170,7 +195,7 @@ const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
               >
                 {day}
               </div>
-              {[...Array(24)].map((_, timeIdx) => (
+              {[...Array(26)].map((_, timeIdx) => (
                 <div
                   key={`${dayIdx}-${timeIdx}`}
                   style={{
