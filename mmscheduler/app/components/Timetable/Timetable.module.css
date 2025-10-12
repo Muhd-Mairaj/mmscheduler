@@ -44,7 +44,7 @@
   border-radius: 15px;
   min-width: 1150px;
   display: grid;
-  grid-template-columns: auto repeat(26, minmax(40px, 1fr)); /* 24 half-hour slots */
+  grid-template-columns: auto repeat(26, minmax(40px, 1fr)); /* 26 half-hour slots */
   grid-template-rows: auto repeat(5, minmax(100px, auto)); /* 5 days + header */
   border: 1px solid rgba(204, 204, 204, 0.5); /* Light, translucent border */
   background-color: #f9f9f9;
