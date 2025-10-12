@@ -52,7 +52,7 @@
 }
 
 .timetableGrid.weekend {
-  grid-template-rows: auto repeat(7, minmax(100px, auto)); /* 6 days + header */
+  grid-template-rows: auto repeat(7, minmax(100px, auto)); /* 7 days + header */
 }
 
 .dropdownToggle {
