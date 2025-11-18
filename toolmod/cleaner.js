@@ -11,7 +11,7 @@ function cleanTimetableData(jsonData, lecturerData, activitiesToInclude) {
   });
 
   jsonData.forEach(module => {
-    if (module.events && Array.isArray(module.events)) {
+    if (module.details && module.events && Array.isArray(module.events)) {
       const moduleCode = module.details["Module Code"] ?? module.idOnly ?? "UNKNOWN_MODULE_CODE";
       if (!cleanedModules[moduleCode]) {
         cleanedModules[moduleCode] = {
