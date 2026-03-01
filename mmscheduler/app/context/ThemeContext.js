@@ -47,7 +47,12 @@ export const ThemeProvider = ({ children }) => {
   }, []);
 
   const toggleTheme = useCallback(() => {
+    const root = document.documentElement;
+    root.classList.add("theme-transition");
     setTheme((prev) => (prev === "light" ? "dark" : "light"));
+    // Remove the class after the transition completes to avoid
+    // animating unrelated UI state changes
+    setTimeout(() => root.classList.remove("theme-transition"), 300);
   }, []);
 
   const isDark = theme === "dark";
