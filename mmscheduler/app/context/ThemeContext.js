@@ -4,7 +4,7 @@ import { createContext, useContext, useState, useEffect, useCallback } from "rea
 
 const ThemeContext = createContext({
   theme: "light",
-  toggleTheme: () => {},
+  toggleTheme: () => { },
   isDark: false,
 });
 
@@ -47,7 +47,11 @@ export const ThemeProvider = ({ children }) => {
   }, []);
 
   const toggleTheme = useCallback(() => {
+    // Briefly enable transitions on all elements for smooth theme switch
+    document.documentElement.classList.add("theme-transition");
     setTheme((prev) => (prev === "light" ? "dark" : "light"));
+    // Remove after transition completes to avoid always-on transition overhead
+    setTimeout(() => document.documentElement.classList.remove("theme-transition"), 350);
   }, []);
 
   const isDark = theme === "dark";

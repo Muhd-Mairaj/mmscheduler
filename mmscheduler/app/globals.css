@@ -307,19 +307,12 @@ body {
 /* ============================================
     GLOBAL TRANSITION FOR THEME SWITCH
    ============================================ */
-*,
-*::before,
-*::after {
+/* Only applied briefly during theme toggle — avoids always-on transition overhead */
+html.theme-transition *,
+html.theme-transition *::before,
+html.theme-transition *::after {
   transition-property: background-color, border-color, color, box-shadow, fill, stroke;
   transition-duration: 0.3s;
   transition-timing-function: ease;
-}
-
-/* Preserve existing transitions on interactive elements */
-a,
-button,
-input,
-select,
-textarea {
-  transition-property: background-color, border-color, color, box-shadow, fill, stroke, filter, opacity, transform;
+  transition-delay: 0s;
 }
