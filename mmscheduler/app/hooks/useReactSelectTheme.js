@@ -1,5 +1,6 @@
 "use client";
 
+import { useMemo } from "react";
 import { useTheme } from "../context/ThemeContext";
 
 /**
@@ -8,7 +9,7 @@ import { useTheme } from "../context/ThemeContext";
 export const useReactSelectTheme = () => {
   const { isDark } = useTheme();
 
-  const customStyles = {
+  const customStyles = useMemo(() => ({
     control: (base, state) => ({
       ...base,
       backgroundColor: isDark ? '#2a2a45' : '#fff',
@@ -93,7 +94,7 @@ export const useReactSelectTheme = () => {
       ...base,
       color: isDark ? '#8888a0' : '#999',
     }),
-  };
+  }), [isDark]);
 
   return customStyles;
 };
