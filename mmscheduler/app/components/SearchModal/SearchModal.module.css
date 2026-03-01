@@ -3,7 +3,7 @@
   height: 50vh;
 }
 
-.listItems{
+.listItems {
   overflow-y: auto;
 }
 
@@ -16,13 +16,13 @@
 }
 
 .noResultsIcon {
-  color: #777;
+  color: var(--text-muted-color);
   font-size: 3rem !important;
 }
 
 .noResultsHeader {
   font-size: 1.5rem;
   margin-top: 30px;
-  color: #777;
+  color: var(--text-muted-color);
   text-align: center;
 }

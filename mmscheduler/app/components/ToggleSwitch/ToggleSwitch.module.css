@@ -18,7 +18,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: var(--toggle-unchecked-bg);
   transition: 0.4s;
   border-radius: 34px;
 }
@@ -30,7 +30,7 @@
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: var(--toggle-knob-color);
   transition: 0.4s;
   border-radius: 50%;
 }

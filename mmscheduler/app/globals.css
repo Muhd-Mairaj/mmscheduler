@@ -1,9 +1,23 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
+/* ============================================
+    LIGHT THEME (default)
+   ============================================ */
 :root {
   /* General */
   --primary-color: #7e569c;
   --secondary-color: #8f6fa6;
+
+  /* Page backgrounds */
+  --background-primary-color: #ffffff;
+  --background-secondary-color: #f5f5f5;
+  --body-background-color: #f0f0f0;
+
+  /* Text colors */
+  --text-primary-color: #333333;
+  --text-secondary-color: #686868;
+  --text-muted-color: #777777;
+  --text-light-color: #666666;
 
   /* occurrenceCard */
   --selected-card-color: #a17bb6;
@@ -21,29 +35,199 @@
   --other-event-color: #898989;
   --exam-event-color: #ef9089;
 
+  /* Timetable grid */
+  --grid-background-color: #f9f9f9;
+  --grid-header-color: #e7e7e7;
+  --grid-border-color: rgba(204, 204, 204, 0.5);
+  --grid-border-solid-color: #ccc;
+  --grid-day-text-color: #333;
+  --grid-settings-bg: #d4d4d4;
+  --grid-settings-icon-color: #646464;
+
   /* Navbar */
   --navbar-primary-color: #795196;
+  --navbar-bg-color: #ffffff;
+  --navbar-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+  --navbar-logo-secondary-color: rgb(75, 75, 75);
 
   /* Footer */
   --footer-color: #443152;
+  --footer-text-color: #ffffff;
+
+  /* Search / Cards */
+  --searchbar-bg-color: #DEDEDE;
+  --search-button-color: grey;
+  --modal-card-bg: rgb(230, 230, 230);
+  --modal-card-hover-bg: rgb(221, 221, 221);
+  --modal-card-text-color: rgb(71, 71, 71);
+
+  /* Course header */
+  --course-header-text-color: #686868;
+  --course-header-border-color: rgb(216, 216, 216);
+  --expand-icon-color: #333;
+
+  /* Buttons / Controls */
+  --control-button-color: #666;
+  --control-button-hover-bg: rgba(0, 0, 0, 0.05);
+  --control-button-hover-color: #333;
+  --remove-button-color: rgb(99, 99, 99);
+  --accept-button-bg: #6e408f;
+
+  /* Dividers */
+  --divider-color: rgb(216, 216, 216);
+
+  /* Loading overlay */
+  --loading-overlay-bg: rgba(255, 255, 255, 0.7);
+  --loading-text-color: grey;
+
+  /* Toggle Switch */
+  --toggle-unchecked-bg: #ccc;
+  --toggle-knob-color: white;
+
+  /* Announcement Modal */
+  --announcement-border-color: rgb(224, 224, 224);
+
+  /* Bootstrap modal overrides */
+  --modal-bg: #ffffff;
+  --modal-header-border-color: #dee2e6;
+  --modal-footer-border-color: #dee2e6;
+  --modal-text-color: #212529;
+  --modal-close-color: #000000;
+
+  /* Scrollbar */
+  --scrollbar-track: #f1f1f1;
+  --scrollbar-thumb: #c1c1c1;
+  --scrollbar-thumb-hover: #a8a8a8;
 }
 
+/* ============================================
+    DARK THEME
+   ============================================ */
+[data-theme="dark"] {
+  /* General */
+  --primary-color: #9b72b8;
+  --secondary-color: #a888bd;
+
+  /* Page backgrounds */
+  --background-primary-color: #1a1a2e;
+  --background-secondary-color: #232342;
+  --body-background-color: #12121f;
+
+  /* Text colors */
+  --text-primary-color: #e0e0e0;
+  --text-secondary-color: #b0b0c0;
+  --text-muted-color: #8888a0;
+  --text-light-color: #9999b0;
+
+  /* occurrenceCard */
+  --selected-card-color: #7a5a92;
+  --selected-card-border-color: #a06cc0;
+  --disabled-card-color: rgb(70, 70, 85);
+  --card-text-color: #d8d8e8;
+  --card-border-color: rgb(70, 70, 90);
+  --card-color: rgb(50, 50, 70);
+
+  /* Timetable */
+  --lecture-event-color: #7a5a90;
+  --tutorial-event-color: #5a95b8;
+  --lab-event-color: #b8a850;
+  --online-event-color: #9a60a8;
+  --other-event-color: #6a6a7a;
+  --exam-event-color: #c0605a;
+
+  /* Timetable grid */
+  --grid-background-color: #1e1e35;
+  --grid-header-color: #282845;
+  --grid-border-color: rgba(80, 80, 120, 0.4);
+  --grid-border-solid-color: #3a3a5a;
+  --grid-day-text-color: #c0c0d0;
+  --grid-settings-bg: #3a3a5a;
+  --grid-settings-icon-color: #a0a0b8;
+
+  /* Navbar */
+  --navbar-primary-color: #b088cc;
+  --navbar-bg-color: #1a1a2e;
+  --navbar-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
+  --navbar-logo-secondary-color: #b0b0c0;
+
+  /* Footer */
+  --footer-color: #12121f;
+  --footer-text-color: #c0c0d0;
+
+  /* Search / Cards */
+  --searchbar-bg-color: #2a2a45;
+  --search-button-color: #8888a0;
+  --modal-card-bg: rgb(42, 42, 65);
+  --modal-card-hover-bg: rgb(52, 52, 78);
+  --modal-card-text-color: rgb(180, 180, 200);
+
+  /* Course header */
+  --course-header-text-color: #b0b0c0;
+  --course-header-border-color: rgba(80, 80, 120, 0.4);
+  --expand-icon-color: #c0c0d0;
+
+  /* Buttons / Controls */
+  --control-button-color: #9999b0;
+  --control-button-hover-bg: rgba(255, 255, 255, 0.05);
+  --control-button-hover-color: #d0d0e0;
+  --remove-button-color: #9999b0;
+  --accept-button-bg: #7a50a8;
+
+  /* Dividers */
+  --divider-color: rgba(80, 80, 120, 0.4);
+
+  /* Loading overlay */
+  --loading-overlay-bg: rgba(26, 26, 46, 0.8);
+  --loading-text-color: #b0b0c0;
+
+  /* Toggle Switch */
+  --toggle-unchecked-bg: #3a3a5a;
+  --toggle-knob-color: #e0e0e0;
+
+  /* Announcement Modal */
+  --announcement-border-color: rgba(80, 80, 120, 0.4);
+
+  /* Bootstrap modal overrides */
+  --modal-bg: #232342;
+  --modal-header-border-color: rgba(80, 80, 120, 0.4);
+  --modal-footer-border-color: rgba(80, 80, 120, 0.4);
+  --modal-text-color: #e0e0e0;
+  --modal-close-color: #c0c0d0;
+
+  /* Scrollbar */
+  --scrollbar-track: #1a1a2e;
+  --scrollbar-thumb: #3a3a5a;
+  --scrollbar-thumb-hover: #4a4a6a;
+}
+
+/* ============================================
+    BASE STYLES
+   ============================================ */
 .body {
   font-family: var(--font-fredoka), sans-serif !important;
 }
 
+html {
+  background-color: var(--body-background-color);
+  transition: background-color 0.3s ease;
+}
+
+body {
+  background-color: var(--body-background-color) !important;
+  color: var(--text-primary-color) !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 .acceptButton {
-  background-color: #6e408f !important;
+  background-color: var(--accept-button-bg) !important;
   color: white !important;
 }
 
 .magicButton {
-  background-image: linear-gradient(
-    to right,
-    #4568dc 0%,
-    #b06ab3 51%,
-    #4568dc 100%
-  );
+  background-image: linear-gradient(to right,
+      #4568dc 0%,
+      #b06ab3 51%,
+      #4568dc 100%);
   background-size: 200% auto;
   color: white;
   box-shadow: 0 2px 5px 0 rgba(70, 104, 220, 0.75);
@@ -54,4 +238,88 @@
     width: 100%;
     display: block !important;
   }
+}
+
+/* ============================================
+    BOOTSTRAP MODAL DARK THEME OVERRIDES
+   ============================================ */
+[data-theme="dark"] .modal-content {
+  background-color: var(--modal-bg) !important;
+  color: var(--modal-text-color) !important;
+  border-color: var(--modal-header-border-color) !important;
+}
+
+[data-theme="dark"] .modal-header {
+  border-bottom-color: var(--modal-header-border-color) !important;
+  color: var(--modal-text-color) !important;
+}
+
+[data-theme="dark"] .modal-header .btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+[data-theme="dark"] .modal-footer {
+  border-top-color: var(--modal-footer-border-color) !important;
+}
+
+[data-theme="dark"] .modal-title {
+  color: var(--modal-text-color) !important;
+}
+
+[data-theme="dark"] .modal-body {
+  color: var(--modal-text-color) !important;
+}
+
+[data-theme="dark"] .modal-body h2 {
+  color: var(--text-primary-color) !important;
+}
+
+[data-theme="dark"] .modal-body small,
+[data-theme="dark"] .modal-body i {
+  color: var(--text-secondary-color) !important;
+}
+
+[data-theme="dark"] .modal-body hr {
+  border-color: var(--divider-color) !important;
+}
+
+/* ============================================
+    SCROLLBAR STYLING
+   ============================================ */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+/* ============================================
+    GLOBAL TRANSITION FOR THEME SWITCH
+   ============================================ */
+*,
+*::before,
+*::after {
+  transition-property: background-color, border-color, color, box-shadow, fill, stroke;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+/* Preserve existing transitions on interactive elements */
+a,
+button,
+input,
+select,
+textarea {
+  transition-property: background-color, border-color, color, box-shadow, fill, stroke, filter, opacity, transform;
 }
