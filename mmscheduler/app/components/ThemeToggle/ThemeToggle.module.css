@@ -1,0 +1,78 @@
+.themeToggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+.toggleTrack {
+  width: 52px;
+  height: 28px;
+  background: linear-gradient(135deg, #e8dff0 0%, #d4c4e0 100%);
+  border-radius: 14px;
+  position: relative;
+  transition: background 0.4s ease;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] .toggleTrack {
+  background: linear-gradient(135deg, #4a3870 0%, #362860 100%);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(160, 140, 200, 0.25);
+}
+
+.toggleThumb {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.4s cubic-bezier(0.68, -0.15, 0.265, 1.35),
+    background 0.4s ease,
+    box-shadow 0.4s ease;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.toggleThumb.dark {
+  transform: translateX(24px);
+  background: linear-gradient(135deg, #e0e0f0 0%, #c5cae9 100%);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+}
+
+.icon {
+  width: 14px;
+  height: 14px;
+  transition: opacity 0.3s ease, transform 0.4s ease;
+}
+
+.sunIcon {
+  color: #f57f17;
+}
+
+.moonIcon {
+  color: #3a3a5e;
+}
+
+.hidden {
+  opacity: 0;
+  transform: scale(0.5) rotate(90deg);
+  position: absolute;
+}
+
+.sunIcon:not(.hidden) {
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
+}
+
+.moonIcon:not(.hidden) {
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
+}

@@ -6,6 +6,7 @@ import RoundedButton from "../RoundedButton/RoundedButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagicWandSparkles } from "@fortawesome/free-solid-svg-icons";
 import classes from "./AIModal.module.css";
+import useReactSelectTheme from "../../hooks/useReactSelectTheme";
 
 const AIModal = ({
   modal,
@@ -13,8 +14,8 @@ const AIModal = ({
   chosenCourses,
   handleUpdateChosenCourses,
   handleErrorMessage,
-  disabled=false,
-  isAllowExamClash=false
+  disabled = false,
+  isAllowExamClash = false
 }) => {
   const [positiveTutorSelections, setPositiveTutorSelections] = useState({});
   const [negativeTutorSelections, setNegativeTutorSelections] = useState({});
@@ -22,6 +23,7 @@ const AIModal = ({
   const [daysOff, setDaysOff] = useState([]);
   const [prioritizeLecturers, setPrioritizeLecturers] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
+  const selectStyles = useReactSelectTheme();
 
   const formatTutorSelections = (tutorSelections) => {
     return Object.entries(tutorSelections).reduce((acc, [key, value]) => {
@@ -218,6 +220,7 @@ const AIModal = ({
                           handlePositiveTutorSelectChange(selectedOptions, key)
                         }
                         className={classes.multiSelect}
+                        styles={selectStyles}
                         isSearchable={false}
                       />
                     </div>
@@ -241,6 +244,7 @@ const AIModal = ({
                           handleNegativeTutorSelectChange(selectedOptions, key)
                         }
                         className={classes.multiSelect}
+                        styles={selectStyles}
                         isSearchable={false}
                       />
                     </div>
@@ -258,6 +262,7 @@ const AIModal = ({
                   value={daysOff}
                   onChange={handleDaysOffChange}
                   className={classes.multiSelect}
+                  styles={selectStyles}
                   isSearchable={false}
                 />
               </div>

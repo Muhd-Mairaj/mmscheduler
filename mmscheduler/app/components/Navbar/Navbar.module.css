@@ -1,27 +1,38 @@
 .navbar {
-  background-color: white !important;
-  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+  background-color: var(--navbar-bg-color) !important;
+  box-shadow: var(--navbar-shadow);
 }
+
 .togglerNoBorder {
   border: none !important;
 }
+
 .logo {
   display: flex;
   justify-content: center;
   padding: 10px;
 }
+
 .logoFirst,
 .logoSecond {
   margin: 0;
   font-weight: bold;
   font-size: 1.5rem;
 }
+
 .logoFirst {
   color: var(--navbar-primary-color);
 }
 
 .logoSecond {
-  color: rgb(75, 75, 75);
+  color: var(--navbar-logo-secondary-color);
+}
+
+.navbarRight {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
 }
 
 @media (max-width: 768px) {

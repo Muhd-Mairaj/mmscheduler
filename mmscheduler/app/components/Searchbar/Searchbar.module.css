@@ -1,7 +1,13 @@
 .searchbar {
   margin-top: 20px;
   border-radius: 20px !important;
-  background-color: #DEDEDE !important;
+  background-color: var(--searchbar-bg-color) !important;
+  color: var(--text-primary-color) !important;
+  border-color: var(--course-header-border-color) !important;
+}
+
+.searchbar::placeholder {
+  color: var(--text-muted-color) !important;
 }
 
 .searchBlock {
@@ -10,7 +16,7 @@
 
 .searchButton {
   background-color: transparent !important;
-  color: grey !important;
+  color: var(--search-button-color) !important;
   border: none !important;
   position: absolute;
   padding: 1px;
