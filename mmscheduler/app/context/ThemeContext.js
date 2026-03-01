@@ -29,7 +29,6 @@ export const ThemeProvider = ({ children }) => {
   useEffect(() => {
     if (!mounted) return;
     document.documentElement.setAttribute("data-theme", theme);
-    localStorage.setItem("mmscheduler-theme", theme);
   }, [theme, mounted]);
 
   // Listen for system preference changes
@@ -49,7 +48,14 @@ export const ThemeProvider = ({ children }) => {
   const toggleTheme = useCallback(() => {
     // Briefly enable transitions on all elements for smooth theme switch
     document.documentElement.classList.add("theme-transition");
-    setTheme((prev) => (prev === "light" ? "dark" : "light"));
+
+    setTheme((prev) => {
+      const next = prev === "light" ? "dark" : "light";
+      // Only persist on explicit user toggle, so system preference listener stays active
+      localStorage.setItem("mmscheduler-theme", next);
+      return next;
+    });
+
     // Remove after transition completes to avoid always-on transition overhead
     setTimeout(() => document.documentElement.classList.remove("theme-transition"), 350);
   }, []);
