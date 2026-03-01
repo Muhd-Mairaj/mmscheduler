@@ -6,6 +6,7 @@ const ThemeContext = createContext({
   theme: "light",
   toggleTheme: () => { },
   isDark: false,
+  mounted: false,
 });
 
 export const useTheme = () => useContext(ThemeContext);
@@ -14,13 +15,11 @@ export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState("light");
   const [mounted, setMounted] = useState(false);
 
-  // Initialize theme from localStorage or system preference
+  // Sync React state with the theme already set by the anti-FOUC script
   useEffect(() => {
-    const stored = localStorage.getItem("mmscheduler-theme");
-    if (stored === "dark" || stored === "light") {
-      setTheme(stored);
-    } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme("dark");
+    const domTheme = document.documentElement.getAttribute("data-theme");
+    if (domTheme === "dark" || domTheme === "light") {
+      setTheme(domTheme);
     }
     setMounted(true);
   }, []);
@@ -65,7 +64,7 @@ export const ThemeProvider = ({ children }) => {
   // Prevent flash of wrong theme by rendering nothing until mounted
   // Instead, we render a script that sets the theme immediately
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme, isDark }}>
+    <ThemeContext.Provider value={{ theme, toggleTheme, isDark, mounted }}>
       {children}
     </ThemeContext.Provider>
   );

@@ -4,7 +4,10 @@ import { useTheme } from "../../context/ThemeContext";
 import classes from "./ThemeToggle.module.css";
 
 const ThemeToggle = () => {
-  const { toggleTheme, isDark } = useTheme();
+  const { toggleTheme, isDark, mounted } = useTheme();
+
+  // Don't render until React state is synced with the DOM theme
+  if (!mounted) return null;
 
   return (
     <button
