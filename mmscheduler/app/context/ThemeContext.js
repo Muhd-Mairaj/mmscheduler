@@ -61,8 +61,6 @@ export const ThemeProvider = ({ children }) => {
 
   const isDark = theme === "dark";
 
-  // Prevent flash of wrong theme by rendering nothing until mounted
-  // Instead, we render a script that sets the theme immediately
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme, isDark, mounted }}>
       {children}
