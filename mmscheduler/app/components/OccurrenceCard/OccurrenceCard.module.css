@@ -23,7 +23,7 @@
 
 .occurrenceCard.cardDisabled {
   background-color: var(--disabled-card-color);
-  color: grey;
+  color: var(--text-muted-color);
 }
 
 .occurrenceCard.cardDisabled:hover {

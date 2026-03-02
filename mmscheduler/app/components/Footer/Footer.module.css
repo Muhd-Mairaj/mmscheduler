@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(255, 255, 255);
+  color: var(--footer-text-color);
   font-weight: bold;
   height: 100px;
   background-color: var(--footer-color);
@@ -14,5 +14,5 @@
 }
 
 .footer a {
-  color: white;
+  color: var(--footer-text-color);
 }
