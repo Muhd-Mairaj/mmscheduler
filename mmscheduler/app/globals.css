@@ -241,6 +241,31 @@ body {
 }
 
 /* ============================================
+    BOOTSTRAP UI THEME OVERRIDES
+   ============================================ */
+.dropdown-menu {
+  background-color: var(--background-secondary-color) !important;
+  border: 1px solid var(--grid-border-color) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+  padding: 8px 0 !important;
+}
+
+.dropdown-item {
+  color: var(--text-primary-color) !important;
+  padding: 8px 20px !important;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: var(--modal-card-hover-bg) !important;
+  color: var(--text-primary-color) !important;
+}
+
+.dropdown-item:active {
+  background-color: var(--selected-card-color) !important;
+}
+
+/* ============================================
     BOOTSTRAP MODAL DARK THEME OVERRIDES
    ============================================ */
 [data-theme="dark"] .modal-content {
