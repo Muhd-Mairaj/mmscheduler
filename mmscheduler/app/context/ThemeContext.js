@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext, useState, useEffect, useCallback } from "react";
+import { createContext, useContext, useState, useEffect, useCallback, useRef } from "react";
 
 const ThemeContext = createContext({
   theme: "light",
@@ -14,6 +14,7 @@ export const useTheme = () => useContext(ThemeContext);
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState("light");
   const [mounted, setMounted] = useState(false);
+  const transitionTimeoutRef = useRef(null);
 
   // Sync React state with the theme already set by the anti-FOUC script
   useEffect(() => {
@@ -44,7 +45,21 @@ export const ThemeProvider = ({ children }) => {
     return () => mediaQuery.removeEventListener("change", handleChange);
   }, []);
 
+  // Cleanup timeout on unmount
+  useEffect(() => {
+    return () => {
+      if (transitionTimeoutRef.current) {
+        clearTimeout(transitionTimeoutRef.current);
+      }
+    };
+  }, []);
+
   const toggleTheme = useCallback(() => {
+    // Clear any pending timeout from a previous toggle
+    if (transitionTimeoutRef.current) {
+      clearTimeout(transitionTimeoutRef.current);
+    }
+
     // Briefly enable transitions on all elements for smooth theme switch
     document.documentElement.classList.add("theme-transition");
 
@@ -56,7 +71,10 @@ export const ThemeProvider = ({ children }) => {
     });
 
     // Remove after transition completes to avoid always-on transition overhead
-    setTimeout(() => document.documentElement.classList.remove("theme-transition"), 350);
+    transitionTimeoutRef.current = setTimeout(() => {
+      document.documentElement.classList.remove("theme-transition");
+      transitionTimeoutRef.current = null;
+    }, 350);
   }, []);
 
   const isDark = theme === "dark";
