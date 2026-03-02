@@ -1,5 +1,5 @@
-.modalCard{
-    background-color: rgb(230, 230, 230);
+.modalCard {
+    background-color: var(--modal-card-bg);
     padding: 9px;
     padding-left: 25px;
     margin: 10px;
@@ -8,13 +8,13 @@
     cursor: pointer;
 }
 
-.modalCard:hover{
-    background-color: rgb(221, 221, 221);
+.modalCard:hover {
+    background-color: var(--modal-card-hover-bg);
 }
 
-.cardHeader{
+.cardHeader {
     font-size: 1.2rem;
-    color: rgb(71, 71, 71);
+    color: var(--modal-card-text-color);
     font-weight: 400;
     margin: 0 !important;
 }

@@ -1,10 +1,11 @@
-.title{
+.title {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 10px;
+  color: var(--text-primary-color);
 }
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +18,7 @@
   gap: 6px;
   background: none;
   border: none;
-  color: #666;
+  color: var(--control-button-color);
   font-size: 0.85rem;
   padding: 4px 8px;
   border-radius: 4px;
@@ -26,8 +27,8 @@
 }
 
 .controlButton:hover {
-  background: rgba(0, 0, 0, 0.05);
-  color: #333;
+  background: var(--control-button-hover-bg);
+  color: var(--control-button-hover-color);
 }
 
 .controlIcon {
@@ -44,15 +45,18 @@
   border-radius: 15px;
   min-width: 1150px;
   display: grid;
-  grid-template-columns: auto repeat(26, minmax(40px, 1fr)); /* 26 half-hour slots */
-  grid-template-rows: auto repeat(5, minmax(100px, auto)); /* 5 days + header */
-  border: 1px solid rgba(204, 204, 204, 0.5); /* Light, translucent border */
-  background-color: #f9f9f9;
+  /* 26 half-hour slots */
+  grid-template-columns: auto repeat(26, minmax(40px, 1fr));
+  /* 5 days + header */
+  grid-template-rows: auto repeat(5, minmax(100px, auto));
+  border: 1px solid var(--grid-border-color);
+  background-color: var(--grid-background-color);
   position: relative;
 }
 
 .timetableGrid.weekend {
-  grid-template-rows: auto repeat(7, minmax(100px, auto)); /* 7 days + header */
+  /* 7 days + header */
+  grid-template-rows: auto repeat(7, minmax(100px, auto));
 }
 
 .dropdownToggle {
@@ -65,8 +69,8 @@
 }
 
 .settingsIcon {
-  background-color: #d4d4d4;
-  color: #646464;
+  background-color: var(--grid-settings-bg);
+  color: var(--grid-settings-icon-color);
   padding: 8px;
   border-radius: 10px;
   width: 15px;
@@ -80,21 +84,22 @@
 
 .optionItem:hover {
   background-color: unset !important;
-  color: black !important;
+  color: var(--text-primary-color) !important;
 }
 
-.toggleOption{
+.toggleOption {
   display: flex;
   gap: 10px;
 }
 
-.toggleOption p{
+.toggleOption p {
   margin: 0;
   width: 150px;
   word-break: break-word;
   overflow-wrap: break-word;
   font-size: 1rem;
   overflow: hidden;
+  color: var(--text-primary-color);
 }
 
 .optionsToggle .slider:before {
@@ -104,7 +109,7 @@
   width: 10px !important;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: var(--toggle-knob-color);
   transition: 0.4s;
   border-radius: 50%;
 }
@@ -115,21 +120,23 @@
   align-items: center;
   grid-column: 1;
   grid-row: 1;
-  background-color: #e7e7e7;
-  border-bottom: 1px solid #ccc;
-  border-right: 1px solid #ccc;
+  background-color: var(--grid-header-color);
+  border-bottom: 1px solid var(--grid-border-solid-color);
+  border-right: 1px solid var(--grid-border-solid-color);
 }
 
 .timetableHeader {
   display: flex;
   justify-content: center;
-  align-items: flex-end; /* Align text at the bottom */
+  /* Align text at the bottom */
+  align-items: flex-end;
   font-size: clamp(10px, 1vw, 12px);
   font-weight: 600;
   padding: 10px;
-  background-color: #e7e7e7;
-  border-bottom: 1px solid rgba(204, 204, 204, 0.5); /* More translucent */
-  border-right: 1px solid rgba(204, 204, 204, 0.5); /* More translucent */
+  background-color: var(--grid-header-color);
+  color: var(--text-primary-color);
+  border-bottom: 1px solid var(--grid-border-color);
+  border-right: 1px solid var(--grid-border-color);
   z-index: 2;
   min-height: 50px;
 }
@@ -139,23 +146,24 @@
   align-items: center;
   text-align: center;
   padding: 5px 10px;
-  font-size: clamp(10px, 0.8vw, 12px); /* Increased font size */
+  /* Increased font size */
+  font-size: clamp(10px, 0.8vw, 12px);
   font-weight: bold;
-  color: #333;
-  border-right: 1px solid rgba(204, 204, 204, 0.5); /* More translucent */
-  border-bottom: 2px solid rgba(204, 204, 204, 0.5); /* More translucent */
-  background-color: #e7e7e7;
+  color: var(--grid-day-text-color);
+  border-right: 1px solid var(--grid-border-color);
+  border-bottom: 2px solid var(--grid-border-color);
+  background-color: var(--grid-header-color);
   z-index: 2;
   min-width: 60px;
 }
 
 .dayRow {
   display: contents;
-  border-bottom: 2px solid rgba(204, 204, 204, 0.5); /* More translucent */
+  border-bottom: 2px solid var(--grid-border-color);
 }
 
 .timeSlot {
-  border-bottom: 1px solid rgba(204, 204, 204, 0.5); /* More translucent */
+  border-bottom: 1px solid var(--grid-border-color);
 }
 
 .lectureEvent,
@@ -163,24 +171,31 @@
 .labEvent,
 .onlineEvent,
 .otherEvent {
-  margin: 3px; /* Add margin to create space between events */
-  padding: 6px; /* Maintain padding for internal content */
+  /* Add margin to create space between events */
+  margin: 3px;
+  /* Maintain padding for internal content */
+  padding: 6px;
   border-radius: 10px;
-  box-sizing: border-box; /* Ensure padding and margin stay within the grid cell */
+  /* Ensure padding and margin stay within the grid cell */
+  box-sizing: border-box;
 }
 
 .lectureEvent {
   background-color: var(--lecture-event-color, #4caf50);
 }
+
 .tutorialEvent {
   background-color: var(--tutorial-event-color, #2196f3);
 }
+
 .labEvent {
   background-color: var(--lab-event-color, #ff9800);
 }
+
 .onlineEvent {
   background-color: var(--online-event-color, #9c27b0);
 }
+
 .otherEvent {
   background-color: var(--other-event-color, #607d8b);
 }
@@ -190,16 +205,20 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: calc(100% - 6px); /* Subtract margin to keep it within the grid */
-  height: calc(100% - 6px); /* Subtract margin to keep it within the grid */
-  box-sizing: border-box; /* Ensure padding and margin stay within the grid cell */
+  /* Subtract margin to keep it within the grid */
+  width: calc(100% - 6px);
+  /* Subtract margin to keep it within the grid */
+  height: calc(100% - 6px);
+  /* Ensure padding and margin stay within the grid cell */
+  box-sizing: border-box;
   font-size: clamp(12px, 0.4vw, 7px);
   line-height: 1.1;
   overflow: hidden;
   padding: 6px;
   font-weight: bold;
   z-index: 3;
-  gap: 4px; /* Space between internal elements */
+  /* Space between internal elements */
+  gap: 4px;
 }
 
 .eventContent {
@@ -217,7 +236,8 @@
   overflow-wrap: break-word;
   max-height: none;
   margin-bottom: 4px;
-  font-size: clamp(12px, 0.4vw, 7px); /* Same size as tutor */
+  /* Same size as tutor */
+  font-size: clamp(12px, 0.4vw, 7px);
   flex-grow: 1;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -225,7 +245,8 @@
 }
 
 .timeInfo {
-  font-size: clamp(12px, 0.4vw, 7px); /* Same size as tutor */
+  /* Same size as tutor */
+  font-size: clamp(12px, 0.4vw, 7px);
   white-space: normal;
   word-break: break-word;
   overflow: hidden;
@@ -247,5 +268,6 @@
 
 .activityTitle p {
   margin: 0;
-  font-size: clamp(12px, 0.4vw, 7px); /* Same size as tutor */
+  /* Same size as tutor */
+  font-size: clamp(12px, 0.4vw, 7px);
 }
