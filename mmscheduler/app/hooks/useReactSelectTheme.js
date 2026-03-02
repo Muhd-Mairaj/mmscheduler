@@ -1,100 +1,90 @@
 "use client";
 
 import { useMemo } from "react";
-import { useTheme } from "../context/ThemeContext";
-
-/**
- * Returns custom styles for react-select that respond to the current theme.
- */
 export const useReactSelectTheme = () => {
-  const { isDark } = useTheme();
 
   const customStyles = useMemo(() => ({
     control: (base, state) => ({
       ...base,
-      backgroundColor: isDark ? '#2a2a45' : '#fff',
-      borderColor: isDark
-        ? (state.isFocused ? '#9b72b8' : 'rgba(80, 80, 120, 0.4)')
-        : (state.isFocused ? '#7e569c' : '#ccc'),
-      color: isDark ? '#e0e0e0' : '#333',
-      boxShadow: state.isFocused
-        ? `0 0 0 1px ${isDark ? '#9b72b8' : '#7e569c'}`
-        : 'none',
+      backgroundColor: 'var(--searchbar-bg-color)',
+      borderColor: state.isFocused ? 'var(--primary-color)' : 'var(--grid-border-color)',
+      color: 'var(--text-primary-color)',
+      boxShadow: state.isFocused ? '0 0 0 1px var(--primary-color)' : 'none',
+      borderWidth: '1px',
       '&:hover': {
-        borderColor: isDark ? '#9b72b8' : '#7e569c',
+        borderColor: 'var(--primary-color)',
       },
     }),
     menu: (base) => ({
       ...base,
-      backgroundColor: isDark ? '#232342' : '#fff',
-      border: isDark ? '1px solid rgba(80, 80, 120, 0.4)' : '1px solid #ccc',
+      backgroundColor: 'var(--background-secondary-color)',
+      border: '1px solid var(--grid-border-color)',
       zIndex: 9999,
     }),
     option: (base, state) => ({
       ...base,
       backgroundColor: state.isSelected
-        ? (isDark ? '#7a5a92' : '#7e569c')
+        ? 'var(--selected-card-color)'
         : state.isFocused
-          ? (isDark ? '#3a3a5a' : '#f0e8f5')
+          ? 'var(--modal-card-hover-bg)'
           : 'transparent',
-      color: state.isSelected
-        ? '#fff'
-        : (isDark ? '#e0e0e0' : '#333'),
+      color: state.isSelected ? '#fff' : 'var(--text-primary-color)',
       '&:active': {
-        backgroundColor: isDark ? '#6a4a7a' : '#e0d0ea',
+        backgroundColor: 'var(--selected-card-color)',
+        opacity: 0.8,
       },
     }),
     multiValue: (base) => ({
       ...base,
-      backgroundColor: isDark ? '#3a3a5a' : '#e8dff0',
+      backgroundColor: 'var(--grid-settings-bg)',
     }),
     multiValueLabel: (base) => ({
       ...base,
-      color: isDark ? '#e0e0e0' : '#333',
+      color: 'var(--text-primary-color)',
     }),
     multiValueRemove: (base) => ({
       ...base,
-      color: isDark ? '#b0b0c0' : '#666',
+      color: 'var(--text-secondary-color)',
       '&:hover': {
-        backgroundColor: isDark ? '#5a5a7a' : '#d0c0e0',
-        color: isDark ? '#fff' : '#333',
+        backgroundColor: 'var(--primary-color)',
+        color: '#fff',
       },
     }),
     singleValue: (base) => ({
       ...base,
-      color: isDark ? '#e0e0e0' : '#333',
+      color: 'var(--text-primary-color)',
     }),
     input: (base) => ({
       ...base,
-      color: isDark ? '#e0e0e0' : '#333',
+      color: 'var(--text-primary-color)',
     }),
     placeholder: (base) => ({
       ...base,
-      color: isDark ? '#8888a0' : '#999',
+      color: 'var(--text-muted-color)',
     }),
     indicatorSeparator: (base) => ({
       ...base,
-      backgroundColor: isDark ? 'rgba(80, 80, 120, 0.4)' : '#ccc',
+      backgroundColor: 'var(--grid-border-color)',
     }),
     dropdownIndicator: (base) => ({
       ...base,
-      color: isDark ? '#8888a0' : '#999',
+      color: 'var(--text-muted-color)',
       '&:hover': {
-        color: isDark ? '#b0b0c0' : '#666',
+        color: 'var(--text-secondary-color)',
       },
     }),
     clearIndicator: (base) => ({
       ...base,
-      color: isDark ? '#8888a0' : '#999',
+      color: 'var(--text-muted-color)',
       '&:hover': {
-        color: isDark ? '#b0b0c0' : '#666',
+        color: 'var(--text-secondary-color)',
       },
     }),
     noOptionsMessage: (base) => ({
       ...base,
-      color: isDark ? '#8888a0' : '#999',
+      color: 'var(--text-muted-color)',
     }),
-  }), [isDark]);
+  }), []);
 
   return customStyles;
 };
