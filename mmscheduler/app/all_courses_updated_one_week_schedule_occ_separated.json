@@ -9927,7 +9927,7 @@
           "room": "DKA",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. HELENA BINTI MUHAMAD VARKKEY"
+          "tutor": "ASSOCIATE PROF. DR. KHOO YING HOOI"
         },
         {
           "title": "tutorial",
@@ -9935,7 +9935,7 @@
           "room": "BSAU1",
           "begin_time": "12:00",
           "end_time": "13:00",
-          "tutor": "ASSOCIATE PROF. DR. HELENA BINTI MUHAMAD VARKKEY"
+          "tutor": "ASSOCIATE PROF. DR. KHOO YING HOOI"
         },
         {
           "title": "tutorial",
@@ -9943,7 +9943,7 @@
           "room": "BSAU1",
           "begin_time": "13:00",
           "end_time": "14:00",
-          "tutor": "ASSOCIATE PROF. DR. HELENA BINTI MUHAMAD VARKKEY"
+          "tutor": "ASSOCIATE PROF. DR. KHOO YING HOOI"
         }
       ]
     },
@@ -9966,7 +9966,7 @@
           "room": "DKA",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. HELENA BINTI MUHAMAD VARKKEY"
+          "tutor": "ASSOCIATE PROF. DR. KHOO YING HOOI"
         }
       ]
     }
@@ -15235,7 +15235,8 @@
           "day": "Tuesday",
           "room": "BS3",
           "begin_time": "11:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "DR. AZHARUDIN BIN MOHAMED DALI"
         }
       ]
     },
@@ -16440,7 +16441,7 @@
           "room": "BS3",
           "begin_time": "12:00",
           "end_time": "13:00",
-          "tutor": "DR. AZHARUDIN BIN MOHAMED DALI"
+          "tutor": "DR. NOOR AIN BINTI MAT NOOR"
         }
       ]
     },
@@ -18435,7 +18436,8 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "20:00",
-          "end_time": "21:00"
+          "end_time": "21:00",
+          "tutor": "MISS AMIRAH SARIYATI BINTI MOHD YAHYA"
         }
       ]
     },
@@ -18736,13 +18738,6 @@
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "ASSOCIATE PROF. DR. YANTI IDAYA ASPURA BINTI MOHD KHALID"
-        },
-        {
-          "title": "tutorial",
-          "day": "Monday",
-          "room": "DKB",
-          "begin_time": "16:00",
-          "end_time": "17:00"
         },
         {
           "title": "tutorial",
@@ -19296,31 +19291,6 @@
       ]
     }
   ],
-  "AOD7008": [
-    {
-      "module": "MARITIME TRADE IN SOUTHEAST ASIA",
-      "course_id": "AOD7008",
-      "credits": 3,
-      "yearPeriod": "2025/R2",
-      "overallTargetStudent": 20,
-      "level": "MASTER",
-      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
-      "continuousAssessmentWeightage": "50~50",
-      "examDuration": 7200,
-      "levelCode": 4,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BS3AAA",
-          "begin_time": "17:00",
-          "end_time": "20:00",
-          "tutor": "ASSOCIATE PROF. DR. HANIZAH BINTI IDRIS"
-        }
-      ]
-    }
-  ],
   "AOD7014": [
     {
       "module": "REGIONALISM IN SOUTHEAST ASIA",
@@ -19395,31 +19365,6 @@
       ]
     }
   ],
-  "AOD7017": [
-    {
-      "module": "ENVIRONMENT AND SUSTAINABLE DEVELOPMENT IN SOUTHEAST ASIA",
-      "course_id": "AOD7017",
-      "credits": 3,
-      "yearPeriod": "2025/R2",
-      "overallTargetStudent": 20,
-      "level": "MASTER",
-      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
-      "continuousAssessmentWeightage": "50~50",
-      "examDuration": 7200,
-      "levelCode": 4,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Saturday",
-          "room": "BS3AAA",
-          "begin_time": "08:00",
-          "end_time": "11:00",
-          "tutor": "DR. MAZLAN BIN MAJID"
-        }
-      ]
-    }
-  ],
   "AOE7001": [
     {
       "module": "MEDIA RESEARCH METHODOLOGY",
@@ -19437,7 +19382,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "BSMEDIA2",
+          "room": "BSMEDIA3",
           "begin_time": "17:00",
           "end_time": "20:00",
           "tutor": "DR. FADLI BIN ABDULLAH"
@@ -19462,7 +19407,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "BS4",
+          "room": "BSMEDIA3",
           "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "DR. SITI EZALEILA BINTI MUSTAFA"
@@ -19560,7 +19505,7 @@
           "room": "DKC",
           "begin_time": "19:00",
           "end_time": "22:00",
-          "tutor": "MADAM AIMI AMIRA BINTI MOHD HISHAM"
+          "tutor": "ASSOCIATE PROF. DR. MD AZALANSHAH BIN MD SYED"
         }
       ]
     },
@@ -19605,7 +19550,7 @@
           "room": "DKC",
           "begin_time": "19:00",
           "end_time": "22:00",
-          "tutor": "MADAM AIMI AMIRA BINTI MOHD HISHAM"
+          "tutor": "ASSOCIATE PROF. DR. MD AZALANSHAH BIN MD SYED"
         }
       ]
     }
@@ -19675,8 +19620,8 @@
           "title": "lecture",
           "day": "Wednesday",
           "room": "AUDIFSSS",
-          "begin_time": "19:00",
-          "end_time": "20:00"
+          "begin_time": "18:00",
+          "end_time": "21:00"
         }
       ]
     },
@@ -19697,8 +19642,8 @@
           "title": "lecture",
           "day": "Wednesday",
           "room": "AUDIFSSS",
-          "begin_time": "19:00",
-          "end_time": "20:00"
+          "begin_time": "18:00",
+          "end_time": "21:00"
         }
       ]
     }
@@ -19728,6 +19673,31 @@
       ]
     }
   ],
+  "AQA7019": [
+    {
+      "module": "CREATIVE MEDIA PROJECT",
+      "course_id": "AQA7019",
+      "credits": 14,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 250,
+      "level": "MASTER",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "AUDIFSSS",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "ASSOCIATE PROF. DR. MD AZALANSHAH BIN MD SYED"
+        }
+      ]
+    }
+  ],
   "AQB7004": [
     {
       "module": "CHINESE PHILOSOPHY",
@@ -19745,7 +19715,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DKA",
+          "room": "DKF",
           "begin_time": "17:00",
           "end_time": "20:00",
           "tutor": "DR. YAM KAH KEAN"
@@ -20256,9 +20226,9 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DKF",
-          "begin_time": "19:00",
-          "end_time": "22:00"
+          "room": "DKD",
+          "begin_time": "18:00",
+          "end_time": "21:00"
         }
       ]
     }
@@ -20304,8 +20274,8 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Wednesday",
-          "room": "DKC",
+          "day": "Friday",
+          "room": "DKB",
           "begin_time": "17:00",
           "end_time": "20:00"
         }
@@ -20326,8 +20296,8 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Wednesday",
-          "room": "DKC",
+          "day": "Friday",
+          "room": "DKB",
           "begin_time": "17:00",
           "end_time": "20:00"
         }
@@ -20352,8 +20322,8 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "DKB",
-          "begin_time": "19:00",
-          "end_time": "22:00",
+          "begin_time": "18:00",
+          "end_time": "21:00",
           "tutor": "DR. LAI SUAT YAN"
         }
       ]
@@ -20375,8 +20345,8 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "DKB",
-          "begin_time": "19:00",
-          "end_time": "22:00",
+          "begin_time": "18:00",
+          "end_time": "21:00",
           "tutor": "DR. LAI SUAT YAN"
         }
       ]
@@ -20398,10 +20368,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Saturday",
-          "room": "DKB",
-          "begin_time": "08:00",
-          "end_time": "11:00",
+          "day": "Wednesday",
+          "room": "DKD",
+          "begin_time": "18:00",
+          "end_time": "21:00",
           "tutor": "DR. LAI SUAT YAN"
         }
       ]
@@ -20421,10 +20391,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Saturday",
-          "room": "DKB",
-          "begin_time": "08:00",
-          "end_time": "11:00",
+          "day": "Wednesday",
+          "room": "DKD",
+          "begin_time": "18:00",
+          "end_time": "21:00",
           "tutor": "DR. LAI SUAT YAN"
         }
       ]
@@ -20446,10 +20416,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Saturday",
-          "room": "DKA",
-          "begin_time": "11:00",
-          "end_time": "14:00"
+          "day": "Friday",
+          "room": "DKE",
+          "begin_time": "18:00",
+          "end_time": "21:00"
         }
       ]
     },
@@ -20468,10 +20438,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Saturday",
-          "room": "DKA",
-          "begin_time": "11:00",
-          "end_time": "14:00"
+          "day": "Friday",
+          "room": "DKE",
+          "begin_time": "18:00",
+          "end_time": "21:00"
         }
       ]
     }
@@ -24031,6 +24001,30 @@
           "begin_time": "12:00",
           "end_time": "13:00",
           "tutor": "DR. MASTURA BINTI ADAM"
+        }
+      ]
+    }
+  ],
+  "BQD7007": [
+    {
+      "module": "ARCHITECT AND CONSTRUCTION MANAGEMENT",
+      "course_id": "BQD7007",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 80,
+      "level": "MASTER",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "14:00",
+          "end_time": "17:00"
         }
       ]
     }
@@ -29290,7 +29284,31 @@
       ]
     }
   ],
-  "EIA2013": [],
+  "EIA2013": [
+    {
+      "module": "ECONOMETRICS I",
+      "course_id": "EIA2013",
+      "credits": 3,
+      "yearPeriod": "2024/S1, 2024/S2",
+      "overallTargetStudent": 1,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Monday",
+          "room": "EMAKG2G3",
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "DR. AHMAD FARID BIN OSMAN"
+        }
+      ]
+    }
+  ],
   "EIA2014": [
     {
       "module": "ECONOMETRICS II",
@@ -29795,14 +29813,6 @@
           "begin_time": "08:00",
           "end_time": "11:00",
           "tutor": "ASSOCIATE PROF. DR. SANTHA A/P CHENAYAH @ RAMU"
-        },
-        {
-          "title": "seminar",
-          "day": "Wednesday",
-          "room": "CAUDI",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. SANTHA A/P CHENAYAH @ RAMU"
         }
       ]
     }
@@ -29857,6 +29867,7 @@
       ]
     }
   ],
+  "EIB3005": [],
   "EIB3009": [
     {
       "module": "ISLAMIC BANKING & FINANCE",
@@ -29882,6 +29893,105 @@
       ]
     }
   ],
+  "EID2004": [
+    {
+      "module": "INTERNATIONAL POLITICAL ECONOMY",
+      "course_id": "EID2004",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 1,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Thursday",
+          "room": "CDK5",
+          "begin_time": "11:00",
+          "end_time": "14:00",
+          "tutor": "DR. MOHAMMAD TAWFIK BIN YAAKUB"
+        }
+      ]
+    }
+  ],
+  "EID2006": [
+    {
+      "module": "POLITICAL THEORY AND BEHAVIOR",
+      "course_id": "EID2006",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 1,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Friday",
+          "room": "EBSP31",
+          "begin_time": "15:00",
+          "end_time": "18:00",
+          "tutor": "PROF. DR. MAKMOR BIN TUMIN"
+        }
+      ]
+    }
+  ],
+  "EID3004": [
+    {
+      "module": "MANAGEMENT SKILLS TECHNIQUE",
+      "course_id": "EID3004",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 1,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Tuesday",
+          "room": "CBS45",
+          "begin_time": "12:00",
+          "end_time": "15:00"
+        }
+      ]
+    }
+  ],
+  "EID3009": [
+    {
+      "module": "TOTAL QUALITY MANAGEMENT",
+      "course_id": "EID3009",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 1,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Thursday",
+          "room": "CBSB08",
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "DR. MARIA BINTI MOHD ISMAIL"
+        }
+      ]
+    }
+  ],
   "EIE2003": [
     {
       "module": "DATA ANALYSIS",
@@ -29903,6 +30013,56 @@
           "begin_time": "08:00",
           "end_time": "11:00",
           "tutor": "DR. MUHAMMAD ASHRAF BIN KHALID"
+        }
+      ]
+    }
+  ],
+  "EIE2005": [
+    {
+      "module": "DEMOGRAPHIC TECHNIQUES AND APPLICATIONS",
+      "course_id": "EIE2005",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 1,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Thursday",
+          "room": "CCOMLAB2",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "MADAM NOR HIDAYAH BINTI MOHD ZAWAWI"
+        }
+      ]
+    }
+  ],
+  "EIE3001": [
+    {
+      "module": "ADVANCED STATISTICS",
+      "course_id": "EIE3001",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 1,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Wednesday",
+          "room": "CCOMLAB2",
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "DR. ADILAH BINTI ABDUL GHAPOR"
         }
       ]
     }
@@ -30003,14 +30163,6 @@
           "begin_time": "08:00",
           "end_time": "11:00",
           "tutor": "ASSOCIATE PROF. DR. SANTHA A/P CHENAYAH @ RAMU"
-        },
-        {
-          "title": "seminar",
-          "day": "Wednesday",
-          "room": "CAUDI",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. SANTHA A/P CHENAYAH @ RAMU"
         }
       ]
     }
@@ -30066,6 +30218,56 @@
       ]
     }
   ],
+  "EIF3003": [
+    {
+      "module": "HEATLH ECONOMICS",
+      "course_id": "EIF3003",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 1,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Monday",
+          "room": "CDK4",
+          "begin_time": "11:00",
+          "end_time": "14:00",
+          "tutor": "DR. YONG SOOK LU"
+        }
+      ]
+    }
+  ],
+  "EIG2001": [
+    {
+      "module": "MONEY AND BANKING",
+      "course_id": "EIG2001",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 1,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Wednesday",
+          "room": "EAUDI",
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "MR. CHONG CHIN SIENG"
+        }
+      ]
+    }
+  ],
   "EIG2003": [
     {
       "module": "INTERNATIONAL TRADE THEORY",
@@ -30087,6 +30289,78 @@
           "begin_time": "11:00",
           "end_time": "14:00",
           "tutor": "PROF. DR. EVELYN SHYAMALA A/P PAUL DEVADASON"
+        }
+      ]
+    }
+  ],
+  "EIG2004": [
+    {
+      "module": "FINANCIAL ECONOMICS",
+      "course_id": "EIG2004",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 21,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Tuesday",
+          "room": "EDWNFEA",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. LIM KIAN PING"
+        }
+      ]
+    },
+    {
+      "module": "FINANCIAL ECONOMICS",
+      "course_id": "EIG2004",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 21,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Tuesday",
+          "room": "EDWNFEA",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. LIM KIAN PING"
+        }
+      ]
+    }
+  ],
+  "EIG3001": [
+    {
+      "module": "INTERNATIONAL FINANCE",
+      "course_id": "EIG3001",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 1,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Wednesday",
+          "room": "EDWNFEA",
+          "begin_time": "14:00",
+          "end_time": "17:00"
         }
       ]
     }
@@ -30137,6 +30411,648 @@
           "begin_time": "08:00",
           "end_time": "11:00",
           "tutor": "MADAM NOR HIDAYAH BINTI MOHD ZAWAWI"
+        }
+      ]
+    }
+  ],
+  "EIH2001": [
+    {
+      "module": "SMALL AND MEDIUM ENTERPRISES",
+      "course_id": "EIH2001",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 160,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Thursday",
+          "room": "EDWNFEA",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. SONIA KUMARI A/P SELVARAJAN"
+        },
+        {
+          "title": "seminar",
+          "day": "Thursday",
+          "room": "EDWNFEA",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. SONIA KUMARI A/P SELVARAJAN"
+        }
+      ]
+    },
+    {
+      "module": "SMALL AND MEDIUM ENTERPRISES",
+      "course_id": "EIH2001",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 160,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Thursday",
+          "room": "EDWNFEA",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. SONIA KUMARI A/P SELVARAJAN"
+        },
+        {
+          "title": "seminar",
+          "day": "Thursday",
+          "room": "EDWNFEA",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. SONIA KUMARI A/P SELVARAJAN"
+        }
+      ]
+    }
+  ],
+  "EIH2004": [
+    {
+      "module": "SOCIOLOGY",
+      "course_id": "EIH2004",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 100,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Tuesday",
+          "room": "EDK2",
+          "begin_time": "11:00",
+          "end_time": "14:00",
+          "tutor": "DR. NUR ANNIZAH BINTI ISHAK"
+        }
+      ]
+    },
+    {
+      "module": "SOCIOLOGY",
+      "course_id": "EIH2004",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 100,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Tuesday",
+          "room": "EDK2",
+          "begin_time": "11:00",
+          "end_time": "14:00",
+          "tutor": "DR. NUR ANNIZAH BINTI ISHAK"
+        }
+      ]
+    }
+  ],
+  "EIH3002": [
+    {
+      "module": "CO-OPERATIVE DEVELOPMENT",
+      "course_id": "EIH3002",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 100,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Wednesday",
+          "room": "EDWNFEA",
+          "begin_time": "11:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "CO-OPERATIVE DEVELOPMENT",
+      "course_id": "EIH3002",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 100,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Wednesday",
+          "room": "EDWNFEA",
+          "begin_time": "11:00",
+          "end_time": "14:00"
+        }
+      ]
+    }
+  ],
+  "EIH3003": [
+    {
+      "module": "AGRICULTURE DEVELOPMENT",
+      "course_id": "EIH3003",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 100,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Monday",
+          "room": "EDWNFEA",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. SONIA KUMARI A/P SELVARAJAN"
+        }
+      ]
+    },
+    {
+      "module": "AGRICULTURE DEVELOPMENT",
+      "course_id": "EIH3003",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 100,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Monday",
+          "room": "EDWNFEA",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. SONIA KUMARI A/P SELVARAJAN"
+        }
+      ]
+    }
+  ],
+  "EIH3006": [
+    {
+      "module": "POVERTY, INEQUALITY AND ECONOMIC GROWTH",
+      "course_id": "EIH3006",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 100,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Monday",
+          "room": "EDWNFEA",
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "PROF. DR. VGR CHANDRAN A/L GOVINDARAJU"
+        }
+      ]
+    },
+    {
+      "module": "POVERTY, INEQUALITY AND ECONOMIC GROWTH",
+      "course_id": "EIH3006",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 100,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Monday",
+          "room": "EDWNFEA",
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "PROF. DR. VGR CHANDRAN A/L GOVINDARAJU"
+        }
+      ]
+    }
+  ],
+  "EIH3007": [
+    {
+      "module": "LAND ECONOMICS",
+      "course_id": "EIH3007",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 100,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Tuesday",
+          "room": "EDWNFEA",
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "PROF. DR. VGR CHANDRAN A/L GOVINDARAJU"
+        }
+      ]
+    },
+    {
+      "module": "LAND ECONOMICS",
+      "course_id": "EIH3007",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 100,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Tuesday",
+          "room": "EDWNFEA",
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "PROF. DR. VGR CHANDRAN A/L GOVINDARAJU"
+        }
+      ]
+    }
+  ],
+  "EII2005": [
+    {
+      "module": "DEMOGRAPHIC TECHNIQUES AND APPLICATIONS",
+      "course_id": "EII2005",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 1,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Thursday",
+          "room": "CCOMLAB2",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "MADAM NOR HIDAYAH BINTI MOHD ZAWAWI"
+        }
+      ]
+    }
+  ],
+  "EII3001": [
+    {
+      "module": "ADVANCED STATISTICS",
+      "course_id": "EII3001",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 1,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Wednesday",
+          "room": "CCOMLAB2",
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "DR. ADILAH BINTI ABDUL GHAPOR"
+        }
+      ]
+    }
+  ],
+  "EII3003": [
+    {
+      "module": "ACTUARIAL MATHEMATICS",
+      "course_id": "EII3003",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 1,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Thursday",
+          "room": "CCOMLAB2",
+          "begin_time": "10:00",
+          "end_time": "13:00",
+          "tutor": "DR. ELAYARAJA A/L ARUCHUNAN"
+        }
+      ]
+    }
+  ],
+  "EII3004": [
+    {
+      "module": "APPLIED ANALYTICS",
+      "course_id": "EII3004",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 1,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Thursday",
+          "room": "CCOMLAB2",
+          "begin_time": "10:00",
+          "end_time": "13:00",
+          "tutor": "DR. ELAYARAJA A/L ARUCHUNAN"
+        }
+      ]
+    }
+  ],
+  "EIJ2003": [
+    {
+      "module": "MALAYSIAN ADMINISTRATIVE AND LEGISLATIVE SYSTEM",
+      "course_id": "EIJ2003",
+      "credits": 3,
+      "yearPeriod": "2024/S1, 2024/S2",
+      "overallTargetStudent": 1,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Wednesday",
+          "room": "CDK1",
+          "begin_time": "17:00",
+          "end_time": "20:00",
+          "tutor": "DR. MOHAMMAD TAWFIK BIN YAAKUB"
+        }
+      ]
+    }
+  ],
+  "EIJ2004": [
+    {
+      "module": "CONTEMPORARY QUALITY MANAGEMENT",
+      "course_id": "EIJ2004",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 2,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Thursday",
+          "room": "CBSB08",
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "DR. MARIA BINTI MOHD ISMAIL"
+        }
+      ]
+    },
+    {
+      "module": "CONTEMPORARY QUALITY MANAGEMENT",
+      "course_id": "EIJ2004",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 2,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Thursday",
+          "room": "CBSB08",
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "DR. MARIA BINTI MOHD ISMAIL"
+        }
+      ]
+    }
+  ],
+  "EIJ2005": [
+    {
+      "module": "FOUNDATIONS OF POLITICAL PHILOSOPHY",
+      "course_id": "EIJ2005",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 21,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Friday",
+          "room": "EBSP31",
+          "begin_time": "15:00",
+          "end_time": "18:00",
+          "tutor": "PROF. DR. MAKMOR BIN TUMIN"
+        }
+      ]
+    },
+    {
+      "module": "FOUNDATIONS OF POLITICAL PHILOSOPHY",
+      "course_id": "EIJ2005",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 21,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Friday",
+          "room": "EBSP31",
+          "begin_time": "15:00",
+          "end_time": "18:00",
+          "tutor": "PROF. DR. MAKMOR BIN TUMIN"
+        }
+      ]
+    }
+  ],
+  "EIJ2006": [
+    {
+      "module": "HUMAN RESOURCE MANAGEMENT AND ORGANISATIONAL BEHAVIOUR",
+      "course_id": "EIJ2006",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 21,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Thursday",
+          "room": "CDK6",
+          "begin_time": "11:00",
+          "end_time": "14:00",
+          "tutor": "DR. MARIA BINTI MOHD ISMAIL"
+        }
+      ]
+    }
+  ],
+  "EIJ3003": [
+    {
+      "module": "INTERNATIONAL POLITICAL ECONOMY",
+      "course_id": "EIJ3003",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 41,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Thursday",
+          "room": "CDK5",
+          "begin_time": "11:00",
+          "end_time": "14:00",
+          "tutor": "DR. MOHAMMAD TAWFIK BIN YAAKUB"
+        }
+      ]
+    },
+    {
+      "module": "INTERNATIONAL POLITICAL ECONOMY",
+      "course_id": "EIJ3003",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 41,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Thursday",
+          "room": "CDK5",
+          "begin_time": "11:00",
+          "end_time": "14:00",
+          "tutor": "DR. MOHAMMAD TAWFIK BIN YAAKUB"
+        }
+      ]
+    }
+  ],
+  "EIJ3005": [
+    {
+      "module": "MANAGEMENT AND PROJECT ANALYSIS TECHNIQUES",
+      "course_id": "EIJ3005",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 21,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Tuesday",
+          "room": "CBS45",
+          "begin_time": "12:00",
+          "end_time": "15:00"
+        }
+      ]
+    },
+    {
+      "module": "MANAGEMENT AND PROJECT ANALYSIS TECHNIQUES",
+      "course_id": "EIJ3005",
+      "credits": 3,
+      "yearPeriod": "2024/S2",
+      "overallTargetStudent": 21,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Tuesday",
+          "room": "CBS45",
+          "begin_time": "12:00",
+          "end_time": "15:00"
         }
       ]
     }
@@ -31911,6 +32827,29 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": null,
       "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MISS TAMILHIILE MANGGAI A/P G MOHGAN"
+        }
+      ]
+    },
+    {
+      "module": "CRITICAL THINKING AND PROBLEM SOLVING SKILLS",
+      "course_id": "GBT0002",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 330,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
       "occurence": "3",
       "activities": [
         {
@@ -31941,7 +32880,31 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "MISS BENJAPHRON ONTHONG"
+        }
+      ]
+    },
+    {
+      "module": "CRITICAL THINKING AND PROBLEM SOLVING SKILLS",
+      "course_id": "GBT0002",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 330,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "5",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MISS BENJAPHRON ONTHONG"
         }
       ]
     },
@@ -31979,6 +32942,29 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": null,
       "levelCode": 3,
+      "occurence": "7",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MISS TAMILHIILE MANGGAI A/P G MOHGAN"
+        }
+      ]
+    },
+    {
+      "module": "CRITICAL THINKING AND PROBLEM SOLVING SKILLS",
+      "course_id": "GBT0002",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 330,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
       "occurence": "10",
       "activities": [
         {
@@ -31987,6 +32973,189 @@
           "room": "ONLINE",
           "begin_time": "15:00",
           "end_time": "17:00"
+        }
+      ]
+    },
+    {
+      "module": "CRITICAL THINKING AND PROBLEM SOLVING SKILLS",
+      "course_id": "GBT0002",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 330,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "10M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00"
+        }
+      ]
+    },
+    {
+      "module": "CRITICAL THINKING AND PROBLEM SOLVING SKILLS",
+      "course_id": "GBT0002",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 330,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MR. GABRIEL SAMSON A/L THAMIL SALVAN"
+        }
+      ]
+    },
+    {
+      "module": "CRITICAL THINKING AND PROBLEM SOLVING SKILLS",
+      "course_id": "GBT0002",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 330,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "2M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MISS TAMILHIILE MANGGAI A/P G MOHGAN"
+        }
+      ]
+    },
+    {
+      "module": "CRITICAL THINKING AND PROBLEM SOLVING SKILLS",
+      "course_id": "GBT0002",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 330,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "3M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MISS BENJAPHRON ONTHONG"
+        }
+      ]
+    },
+    {
+      "module": "CRITICAL THINKING AND PROBLEM SOLVING SKILLS",
+      "course_id": "GBT0002",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 330,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "4M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MISS BENJAPHRON ONTHONG"
+        }
+      ]
+    },
+    {
+      "module": "CRITICAL THINKING AND PROBLEM SOLVING SKILLS",
+      "course_id": "GBT0002",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 330,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "5M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MISS BENJAPHRON ONTHONG"
+        }
+      ]
+    },
+    {
+      "module": "CRITICAL THINKING AND PROBLEM SOLVING SKILLS",
+      "course_id": "GBT0002",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 330,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "6M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MISS TAMILHIILE MANGGAI A/P G MOHGAN"
+        }
+      ]
+    },
+    {
+      "module": "CRITICAL THINKING AND PROBLEM SOLVING SKILLS",
+      "course_id": "GBT0002",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 330,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "7M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MISS TAMILHIILE MANGGAI A/P G MOHGAN"
         }
       ]
     }
@@ -32513,6 +33682,30 @@
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. NORALINA BINTI OMAR"
+        }
+      ]
+    }
+  ],
+  "GDG1008": [
+    {
+      "module": "FUNDAMENTALS OF ENTREPRENEURSHIP IN MALAYSIA",
+      "course_id": "GDG1008",
+      "credits": 3,
+      "yearPeriod": "2024A/B3",
+      "overallTargetStudent": 900,
+      "level": "DIPLOMA",
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "70~30",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DUMMY",
+          "begin_time": "14:00",
+          "end_time": "17:00"
         }
       ]
     }
@@ -33113,7 +34306,7 @@
           "room": "ONLINE",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "DR. FARINA BINTI MUHAMAD"
+          "tutor": "MADAM NORITA BINTI MOHD ZAIN"
         }
       ]
     }
@@ -33437,15 +34630,14 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": null,
       "levelCode": 3,
-      "occurence": "5",
+      "occurence": "6",
       "activities": [
         {
           "title": "online",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "MISS CHIENG SHEA LEE"
+          "end_time": "10:00"
         }
       ]
     }
@@ -33683,7 +34875,7 @@
           "room": "ONLINE",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "PROF. DR. NOR LIYANA BT MOHD SHUIB"
+          "tutor": "ASSOCIATE PROF. DR. SURAYA BINTI HAMID"
         }
       ]
     },
@@ -33706,7 +34898,7 @@
           "room": "ONLINE",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "PROF. DR. NOR LIYANA BT MOHD SHUIB"
+          "tutor": "ASSOCIATE PROF. DR. SURAYA BINTI HAMID"
         }
       ]
     },
@@ -33729,7 +34921,7 @@
           "room": "ONLINE",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "PROF. DR. NOR LIYANA BT MOHD SHUIB"
+          "tutor": "ASSOCIATE PROF. DR. SURAYA BINTI HAMID"
         }
       ]
     }
@@ -34005,16 +35197,16 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:10",
-          "end_time": "19:10",
+          "begin_time": "17:00",
+          "end_time": "19:00",
           "tutor": "DR. IRENE YONG SEOK CHING"
         },
         {
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:10",
-          "end_time": "19:10"
+          "begin_time": "17:00",
+          "end_time": "19:00"
         }
       ]
     },
@@ -34035,8 +35227,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:10",
-          "end_time": "19:10",
+          "begin_time": "17:00",
+          "end_time": "19:00",
           "tutor": "DR. SERRENE LEONG"
         }
       ]
@@ -34060,6 +35252,28 @@
           "room": "ONLINE",
           "begin_time": "20:00",
           "end_time": "22:00"
+        }
+      ]
+    },
+    {
+      "module": "BASIC ENTREPRENEURSHIP ENCULTURATION",
+      "course_id": "GIG1003",
+      "credits": 2,
+      "yearPeriod": "2025/S2, 2025/T2",
+      "overallTargetStudent": 3000,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "4",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
         }
       ]
     }
@@ -34176,8 +35390,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:10",
-          "end_time": "19:10"
+          "begin_time": "17:00",
+          "end_time": "19:00"
         }
       ]
     },
@@ -34198,8 +35412,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:10",
-          "end_time": "19:10"
+          "begin_time": "17:00",
+          "end_time": "19:00"
         }
       ]
     },
@@ -34220,8 +35434,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:10",
-          "end_time": "19:10",
+          "begin_time": "17:00",
+          "end_time": "19:00",
           "tutor": "DR. FAEZAH BINTI KASSIM"
         }
       ]
@@ -34243,8 +35457,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:10",
-          "end_time": "19:10",
+          "begin_time": "17:00",
+          "end_time": "19:00",
           "tutor": "DR. FATIMI BINTI HANAFI"
         }
       ]
@@ -34266,8 +35480,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:10",
-          "end_time": "19:10",
+          "begin_time": "17:00",
+          "end_time": "19:00",
           "tutor": "DR. FARIDAH BINTI CHE HUSAIN"
         }
       ]
@@ -34289,8 +35503,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:10",
-          "end_time": "19:10"
+          "begin_time": "17:00",
+          "end_time": "19:00"
         }
       ]
     },
@@ -34311,8 +35525,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:10",
-          "end_time": "19:10"
+          "begin_time": "17:00",
+          "end_time": "19:00"
         }
       ]
     },
@@ -34333,8 +35547,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:10",
-          "end_time": "19:10",
+          "begin_time": "17:00",
+          "end_time": "19:00",
           "tutor": "DR. FAEZAH BINTI KASSIM"
         }
       ]
@@ -34356,8 +35570,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:10",
-          "end_time": "19:10",
+          "begin_time": "17:00",
+          "end_time": "19:00",
           "tutor": "DR. FATIMI BINTI HANAFI"
         }
       ]
@@ -34379,8 +35593,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:10",
-          "end_time": "19:10",
+          "begin_time": "17:00",
+          "end_time": "19:00",
           "tutor": "DR. FARIDAH BINTI CHE HUSAIN"
         }
       ]
@@ -34948,7 +36162,7 @@
       "occurence": "2",
       "activities": [
         {
-          "title": "lecture",
+          "title": "online",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "08:00",
@@ -34971,12 +36185,12 @@
       "occurence": "3",
       "activities": [
         {
-          "title": "lecture",
+          "title": "online",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "ASSOCIATE PROF. DR. KEUM HYUN KIM"
+          "tutor": "MR. LEE YEN LIH"
         }
       ]
     },
@@ -34994,7 +36208,7 @@
       "occurence": "4",
       "activities": [
         {
-          "title": "lecture",
+          "title": "online",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "08:00",
@@ -35016,7 +36230,120 @@
       "occurence": "5",
       "activities": [
         {
-          "title": "lecture",
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        }
+      ]
+    },
+    {
+      "module": "BASIC KOREAN LANGUAGE",
+      "course_id": "GIT1006",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 100,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MISS WONG YAN YEE"
+        }
+      ]
+    },
+    {
+      "module": "BASIC KOREAN LANGUAGE",
+      "course_id": "GIT1006",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 100,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "2M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MR. LEE YEN LIH"
+        }
+      ]
+    },
+    {
+      "module": "BASIC KOREAN LANGUAGE",
+      "course_id": "GIT1006",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 100,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "3M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MR. LEE YEN LIH"
+        }
+      ]
+    },
+    {
+      "module": "BASIC KOREAN LANGUAGE",
+      "course_id": "GIT1006",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 100,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "4M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        }
+      ]
+    },
+    {
+      "module": "BASIC KOREAN LANGUAGE",
+      "course_id": "GIT1006",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 100,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "5M",
+      "activities": [
+        {
+          "title": "online",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "08:00",
@@ -36331,11 +37658,34 @@
       "activities": [
         {
           "title": "online",
-          "day": "Tuesday",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MRS NURULAIN BINTI SULAIMAN"
+        }
+      ]
+    },
+    {
+      "module": "PROFICIENCY IN ENGLISH I",
+      "course_id": "GLT1018",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 75,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "6",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "20:00",
           "end_time": "22:00",
-          "tutor": "MRS NURULAIN BINTI SULAIMAN"
+          "tutor": "MR. KAMARAZAMAN BIN MD SAID"
         }
       ]
     },
@@ -36377,10 +37727,10 @@
       "activities": [
         {
           "title": "online",
-          "day": "Tuesday",
+          "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "20:00",
-          "end_time": "22:00",
+          "begin_time": "17:00",
+          "end_time": "19:00",
           "tutor": "MRS NURULAIN BINTI SULAIMAN"
         }
       ]
@@ -36407,6 +37757,28 @@
           "begin_time": "20:00",
           "end_time": "22:00",
           "tutor": "MADAM NOR SYAKIRIN BINTI MOHAMED NASRUDIN"
+        }
+      ]
+    },
+    {
+      "module": "LET\u2019S SPEAK",
+      "course_id": "GLT1019",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 25,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00"
         }
       ]
     },
@@ -37581,8 +38953,7 @@
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "20:00",
-          "end_time": "22:00",
-          "tutor": "MADAM NURFATIN SYAHIDA BINTI MUHAMMAD"
+          "end_time": "22:00"
         }
       ]
     },
@@ -37981,6 +39352,29 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": null,
       "levelCode": 3,
+      "occurence": "29",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MRS NURULAIN BINTI SULAIMAN"
+        }
+      ]
+    },
+    {
+      "module": "SPEAK UP",
+      "course_id": "GLT1022",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 720,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
       "occurence": "2M",
       "activities": [
         {
@@ -37990,6 +39384,52 @@
           "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "MADAM SHARIJA BINTI SHAHRUDDIN"
+        }
+      ]
+    },
+    {
+      "module": "SPEAK UP",
+      "course_id": "GLT1022",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 720,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "30",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MR. KAMARAZAMAN BIN MD SAID"
+        }
+      ]
+    },
+    {
+      "module": "SPEAK UP",
+      "course_id": "GLT1022",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 720,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "31",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MR. KAMARAZAMAN BIN MD SAID"
         }
       ]
     },
@@ -38150,6 +39590,54 @@
           "begin_time": "20:00",
           "end_time": "22:00",
           "tutor": "MADAM AZRINA WATI BINTI MAZLAN"
+        }
+      ]
+    }
+  ],
+  "GLT1023": [
+    {
+      "module": "EFFECTIVE WORKPLACE WRITING",
+      "course_id": "GLT1023",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 25,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MRS NURULAIN BINTI SULAIMAN"
+        }
+      ]
+    },
+    {
+      "module": "EFFECTIVE WORKPLACE WRITING",
+      "course_id": "GLT1023",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 25,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MRS NURULAIN BINTI SULAIMAN"
         }
       ]
     }
@@ -38463,7 +39951,7 @@
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "19:00",
-          "tutor": "MRS VINLUAN, SHARON PASION"
+          "tutor": "MISS SHARON PASION VINLUAN"
         }
       ]
     },
@@ -39143,7 +40631,7 @@
           "room": "ONLINE",
           "begin_time": "20:00",
           "end_time": "22:00",
-          "tutor": "MRS VINLUAN, SHARON PASION"
+          "tutor": "MISS SHARON PASION VINLUAN"
         }
       ]
     },
@@ -39460,6 +40948,28 @@
           "room": "ONLINE",
           "begin_time": "20:00",
           "end_time": "22:00"
+        }
+      ]
+    },
+    {
+      "module": "PROFICIENCY IN ENGLISH III",
+      "course_id": "GLT1024",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 1850,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "54",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
         }
       ]
     },
@@ -39934,8 +41444,7 @@
           "day": "Tuesday",
           "room": "ONLINE",
           "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "MADAM NURFATIN SYAHIDA BINTI MUHAMMAD"
+          "end_time": "19:00"
         }
       ]
     },
@@ -39957,8 +41466,7 @@
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "MADAM NURFATIN SYAHIDA BINTI MUHAMMAD"
+          "end_time": "19:00"
         }
       ]
     },
@@ -39980,8 +41488,7 @@
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "20:00",
-          "end_time": "22:00",
-          "tutor": "MISS CHIENG SHEA LEE"
+          "end_time": "22:00"
         }
       ]
     },
@@ -40678,8 +42185,7 @@
           "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "20:00",
-          "end_time": "22:00",
-          "tutor": "MR. TAN KEN SIANG"
+          "end_time": "22:00"
         }
       ]
     },
@@ -41603,7 +43109,8 @@
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "20:00",
-          "end_time": "22:00"
+          "end_time": "22:00",
+          "tutor": "MISS CHIENG SHEA LEE"
         }
       ]
     },
@@ -42034,6 +43541,29 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": null,
       "levelCode": 3,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MR. AB HALIM BIN AHMAD"
+        }
+      ]
+    },
+    {
+      "module": "BASIC ARABIC LANGUAGE 1",
+      "course_id": "GLT1029",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 20,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
       "occurence": "1M",
       "activities": [
         {
@@ -42062,6 +43592,29 @@
         {
           "title": "lecture",
           "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MR. AB HALIM BIN AHMAD"
+        }
+      ]
+    },
+    {
+      "module": "BASIC ARABIC LANGUAGE 1",
+      "course_id": "GLT1029",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 20,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "3M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Tuesday",
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "19:00",
@@ -42202,6 +43755,29 @@
           "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "DR. KAMARUL AZAM BIN KAMARUL AZMI"
+        }
+      ]
+    },
+    {
+      "module": "BASIC JAPANESE LANGUAGE 1",
+      "course_id": "GLT1031",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 120,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "7",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "DR. JAMILA BINTI MOHD"
         }
       ]
     }
@@ -42839,6 +44415,29 @@
           "end_time": "20:00"
         }
       ]
+    },
+    {
+      "module": "BASIC KOREAN LANGUAGE 2",
+      "course_id": "GLT1034",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 20,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "ASSOCIATE PROF. DR. KEUM HYUN KIM"
+        }
+      ]
     }
   ],
   "GLT1035": [
@@ -43005,6 +44604,54 @@
       ]
     }
   ],
+  "GLT1038": [
+    {
+      "module": "BASIC RUSSIAN LANGUAGE 1",
+      "course_id": "GLT1038",
+      "credits": 2,
+      "yearPeriod": "2025/R2, 2025/S2",
+      "overallTargetStudent": 17,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "DR. LARISA NIKITINA"
+        }
+      ]
+    },
+    {
+      "module": "BASIC RUSSIAN LANGUAGE 1",
+      "course_id": "GLT1038",
+      "credits": 2,
+      "yearPeriod": "2025/R2, 2025/S2",
+      "overallTargetStudent": 17,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "1R",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "DR. LARISA NIKITINA"
+        }
+      ]
+    }
+  ],
   "GLT1040": [
     {
       "module": "BASIC SPANISH LANGUAGE 1",
@@ -43066,8 +44713,54 @@
       "occurence": "3",
       "activities": [
         {
-          "title": "lecture",
+          "title": "online",
           "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MR. NOORHISYAM BIN JASMIN"
+        }
+      ]
+    },
+    {
+      "module": "BASIC SPANISH LANGUAGE 1",
+      "course_id": "GLT1040",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 60,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "4",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MR. NOORHISYAM BIN JASMIN"
+        }
+      ]
+    },
+    {
+      "module": "BASIC SPANISH LANGUAGE 1",
+      "course_id": "GLT1040",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 60,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "5",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "19:00",
@@ -43119,7 +44812,7 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "16:00",
+          "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "MADAM ROSENUN CHESOF"
         }
@@ -43142,7 +44835,7 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "ONLINE",
-          "begin_time": "16:00",
+          "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "MADAM ROSENUN CHESOF"
         }
@@ -43165,7 +44858,7 @@
           "title": "lecture",
           "day": "Wednesday",
           "room": "ONLINE",
-          "begin_time": "16:00",
+          "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "MADAM ROSENUN CHESOF"
         }
@@ -43188,7 +44881,7 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "ONLINE",
-          "begin_time": "16:00",
+          "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "MADAM ROSENUN CHESOF"
         }
@@ -43211,7 +44904,7 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "16:00",
+          "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "MADAM ROSENUN CHESOF"
         }
@@ -43234,7 +44927,7 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "ONLINE",
-          "begin_time": "16:00",
+          "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "MADAM ROSENUN CHESOF"
         }
@@ -43257,7 +44950,7 @@
           "title": "lecture",
           "day": "Wednesday",
           "room": "ONLINE",
-          "begin_time": "16:00",
+          "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "MADAM ROSENUN CHESOF"
         }
@@ -43280,7 +44973,7 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "ONLINE",
-          "begin_time": "16:00",
+          "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "MADAM ROSENUN CHESOF"
         }
@@ -43303,10 +44996,33 @@
       "activities": [
         {
           "title": "online",
-          "day": "Wednesday",
+          "day": "Thursday",
           "room": "ONLINE",
-          "begin_time": "19:00",
-          "end_time": "21:00",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MR. MUSTAFA CESMECI"
+        }
+      ]
+    },
+    {
+      "module": "BASIC TURKISH LANGUAGE",
+      "course_id": "GLT1044",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 20,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
           "tutor": "MR. MUSTAFA CESMECI"
         }
       ]
@@ -43899,6 +45615,51 @@
           "begin_time": "20:00",
           "end_time": "22:00",
           "tutor": "MR. AHMAD SABRI B ABDUL SAMAT @ ABDUL SAMAD"
+        }
+      ]
+    },
+    {
+      "module": "MALAY LANGUAGE COMMUNICATION",
+      "course_id": "GLT1049",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 440,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "23",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ]
+    },
+    {
+      "module": "MALAY LANGUAGE COMMUNICATION",
+      "course_id": "GLT1049",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 440,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "24",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MADAM NUR AFIFAH BINTI ABDUL RAHMAN HALAWA"
         }
       ]
     }
@@ -45468,6 +47229,52 @@
           "tutor": "MADAM NOR SYAKIRIN BINTI MOHAMED NASRUDIN"
         }
       ]
+    },
+    {
+      "module": "COMMUNICATION SKILLS FOR EMPLOYMENT PURPOSES",
+      "course_id": "GQT0039",
+      "credits": 2,
+      "yearPeriod": "2024/S1, 2024/S2",
+      "overallTargetStudent": 150,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MADAM NOR SYAKIRIN BINTI MOHAMED NASRUDIN"
+        }
+      ]
+    },
+    {
+      "module": "COMMUNICATION SKILLS FOR EMPLOYMENT PURPOSES",
+      "course_id": "GQT0039",
+      "credits": 2,
+      "yearPeriod": "2024/S1, 2024/S2",
+      "overallTargetStudent": 150,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MADAM NOR SYAKIRIN BINTI MOHAMED NASRUDIN"
+        }
+      ]
     }
   ],
   "GQT0040": [
@@ -45609,7 +47416,7 @@
           "room": "ONLINE",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "MR. MAHER VANN SINGH A/L HARI SINGH"
+          "tutor": "MISS ELEENA BINTI HASBULLAH"
         }
       ]
     },
@@ -45625,6 +47432,52 @@
       "examDuration": null,
       "levelCode": 3,
       "occurence": "2",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MISS ELEENA BINTI HASBULLAH"
+        }
+      ]
+    },
+    {
+      "module": "JOURNALISM FOR SUSTAINABLE DEVELOPMENT",
+      "course_id": "GQT0043",
+      "credits": 2,
+      "yearPeriod": "2024/S1, 2024/S2",
+      "overallTargetStudent": 150,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MISS ELEENA BINTI HASBULLAH"
+        }
+      ]
+    },
+    {
+      "module": "JOURNALISM FOR SUSTAINABLE DEVELOPMENT",
+      "course_id": "GQT0043",
+      "credits": 2,
+      "yearPeriod": "2024/S1, 2024/S2",
+      "overallTargetStudent": 150,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "2M",
       "activities": [
         {
           "title": "online",
@@ -47310,6 +49163,14 @@
       "levelCode": 3,
       "occurence": "2",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS10",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. ILHAAMIE BINTI ABDUL GHANI AZMI"
+        },
         {
           "title": "tutorial",
           "day": "Tuesday",
@@ -63215,7 +65076,7 @@
           "room": "DK2",
           "begin_time": "08:00",
           "end_time": "11:00",
-          "tutor": "DR. LEONG GEOK WEN"
+          "tutor": "ASSOCIATE PROF. DR. ZAINAH BINTI IBRAHIM"
         },
         {
           "title": "lecture",
@@ -63231,7 +65092,7 @@
           "room": "CIVILHSLAB1",
           "begin_time": "14:00",
           "end_time": "17:00",
-          "tutor": "DR. LEONG GEOK WEN"
+          "tutor": "ASSOCIATE PROF. DR. ZAINAH BINTI IBRAHIM"
         },
         {
           "title": "lab",
@@ -63384,7 +65245,8 @@
           "day": "Monday",
           "room": "IDROOM",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. LEONG GEOK WEN"
         }
       ]
     }
@@ -63486,7 +65348,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "BK101 & 104",
+          "room": "BK301",
           "begin_time": "10:00",
           "end_time": "13:00",
           "tutor": "IR. DR. MOHD RASDAN BIN IBRAHIM"
@@ -63509,7 +65371,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "BK101 & 104",
+          "room": "BK301",
           "begin_time": "10:00",
           "end_time": "13:00",
           "tutor": "IR. DR. MOHD RASDAN BIN IBRAHIM"
@@ -63667,7 +65529,7 @@
           "room": "IDROOM",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "PROFESSOR IR. DR. FARIDAH BINTI OTHMAN"
+          "tutor": "DR. ONN CHIU CHUEN"
         }
       ]
     },
@@ -63690,7 +65552,7 @@
           "room": "IDROOM",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "PROFESSOR IR. DR. FARIDAH BINTI OTHMAN"
+          "tutor": "DR. ONN CHIU CHUEN"
         }
       ]
     }
@@ -63757,14 +65619,6 @@
       "levelCode": 3,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "DK2",
-          "begin_time": "08:00",
-          "end_time": "11:00",
-          "tutor": "IR. TS. DR. YUEN CHOON WAH"
-        },
         {
           "title": "lecture",
           "day": "Monday",
@@ -63851,7 +65705,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DK2",
+          "room": "ECC 6",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. NORAZURA BINTI MUHAMAD BUNNORI"
@@ -63876,7 +65730,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "THECUBE",
+          "room": "ORANGECUBE1",
           "begin_time": "10:00",
           "end_time": "13:00",
           "tutor": "IR. DR. HUZAIFA BIN HASHIM"
@@ -63884,7 +65738,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "THECUBE",
+          "room": "ORANGECUBE1",
           "begin_time": "10:00",
           "end_time": "13:00"
         }
@@ -63911,15 +65765,7 @@
           "room": "IDROOM",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "DR. MUHAMMAD SHAZRIL IDRIS BIN IBRAHIM"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "IDROOM",
-          "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "PROFESSOR IR. DR. UBAGARAM JOHNSON ALENGARAM"
+          "tutor": "IR. TS. DR. YUEN CHOON WAH"
         }
       ]
     }
@@ -64041,18 +65887,10 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "BK202",
+          "room": "GREENCUBE1",
           "begin_time": "10:00",
           "end_time": "13:00",
           "tutor": "IR. DR. MAS SAHIDAYANA BINTI MOKHTAR"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "BK202",
-          "begin_time": "10:00",
-          "end_time": "13:00",
-          "tutor": "DR. FARINA BINTI MUHAMAD"
         }
       ]
     }
@@ -65749,6 +67587,22 @@
           "room": "DK1",
           "begin_time": "14:00",
           "end_time": "15:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK9",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "IR. DR. WONG JEE KEEN RAYMOND"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK1",
+          "begin_time": "14:00",
+          "end_time": "15:00",
+          "tutor": "IR. DR. WONG JEE KEEN RAYMOND"
         }
       ]
     },
@@ -66273,7 +68127,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DK5",
+          "room": "DK9",
           "begin_time": "08:00",
           "end_time": "09:00",
           "tutor": "ASSOCIATE PROF. DR. MARIZAN BINTI MUBIN"
@@ -66289,7 +68143,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DK5",
+          "room": "DK9",
           "begin_time": "08:00",
           "end_time": "09:00",
           "tutor": "DR. MOHAMADARIFF BIN OTHMAN"
@@ -66414,7 +68268,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DK5",
+          "room": "DK9",
           "begin_time": "08:00",
           "end_time": "09:00",
           "tutor": "ASSOCIATE PROF. DR. MARIZAN BINTI MUBIN"
@@ -66430,7 +68284,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DK5",
+          "room": "DK9",
           "begin_time": "08:00",
           "end_time": "09:00",
           "tutor": "DR. MOHAMADARIFF BIN OTHMAN"
@@ -66461,12 +68315,28 @@
           "tutor": "DR. MOHAMAD SOFIAN BIN ABU TALIP"
         },
         {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK9",
+          "begin_time": "12:00",
+          "end_time": "14:00",
+          "tutor": "MR. MAHAZANI BIN MOHAMAD"
+        },
+        {
           "title": "lab",
           "day": "Thursday",
           "room": "ELECTMPLAB",
           "begin_time": "09:00",
           "end_time": "11:00",
           "tutor": "DR. MOHAMAD SOFIAN BIN ABU TALIP"
+        },
+        {
+          "title": "lab",
+          "day": "Thursday",
+          "room": "ELECTMPLAB",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "MR. MAHAZANI BIN MOHAMAD"
         }
       ]
     },
@@ -66492,12 +68362,28 @@
           "tutor": "DR. MOHAMAD SOFIAN BIN ABU TALIP"
         },
         {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK9",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "MR. MAHAZANI BIN MOHAMAD"
+        },
+        {
           "title": "lab",
           "day": "Wednesday",
           "room": "ELECTMPLAB",
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. MOHAMAD SOFIAN BIN ABU TALIP"
+        },
+        {
+          "title": "lab",
+          "day": "Wednesday",
+          "room": "ELECTMPLAB",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MR. MAHAZANI BIN MOHAMAD"
         }
       ]
     },
@@ -66523,12 +68409,28 @@
           "tutor": "DR. MOHAMAD SOFIAN BIN ABU TALIP"
         },
         {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK7",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "MR. MAHAZANI BIN MOHAMAD"
+        },
+        {
           "title": "lab",
           "day": "Wednesday",
           "room": "ELECTMPLAB",
           "begin_time": "15:00",
           "end_time": "17:00",
           "tutor": "DR. MOHAMAD SOFIAN BIN ABU TALIP"
+        },
+        {
+          "title": "lab",
+          "day": "Wednesday",
+          "room": "ELECTMPLAB",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MR. MAHAZANI BIN MOHAMAD"
         }
       ]
     },
@@ -66554,12 +68456,28 @@
           "tutor": "DR. MOHAMAD SOFIAN BIN ABU TALIP"
         },
         {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK9",
+          "begin_time": "12:00",
+          "end_time": "14:00",
+          "tutor": "MR. MAHAZANI BIN MOHAMAD"
+        },
+        {
           "title": "lab",
           "day": "Thursday",
           "room": "ELECTMPLAB",
           "begin_time": "09:00",
           "end_time": "11:00",
           "tutor": "DR. MOHAMAD SOFIAN BIN ABU TALIP"
+        },
+        {
+          "title": "lab",
+          "day": "Thursday",
+          "room": "ELECTMPLAB",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "MR. MAHAZANI BIN MOHAMAD"
         }
       ]
     }
@@ -66649,47 +68567,32 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "DK4",
+          "room": "BK204",
           "begin_time": "09:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "DR. AZIMAH BINTI OMAR"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "DK8",
           "begin_time": "10:00",
-          "end_time": "11:00"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "DK2",
-          "begin_time": "14:00",
-          "end_time": "16:00"
+          "end_time": "11:00",
+          "tutor": "DR. AZIMAH BINTI OMAR"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "DK4",
+          "room": "BK204",
           "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "PROF. DR. HAMZAH BIN AROF"
+          "end_time": "11:00"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "DK8",
           "begin_time": "10:00",
-          "end_time": "11:00",
-          "tutor": "PROF. DR. HAMZAH BIN AROF"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "DK5",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "PROF. DR. HAMZAH BIN AROF"
+          "end_time": "11:00"
         }
       ]
     },
@@ -66709,47 +68612,32 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DK6",
+          "room": "DK1",
           "begin_time": "15:00",
-          "end_time": "17:00"
-        },
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "DK9",
-          "begin_time": "14:00",
-          "end_time": "16:00"
+          "end_time": "17:00",
+          "tutor": "DR. AZIMAH BINTI OMAR"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "DK1",
           "begin_time": "16:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. AZIMAH BINTI OMAR"
         },
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DK6",
+          "room": "DK1",
           "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "PROF. DR. HAMZAH BIN AROF"
-        },
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "DK9",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "PROF. DR. HAMZAH BIN AROF"
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "DK1",
           "begin_time": "16:00",
-          "end_time": "17:00",
-          "tutor": "PROF. DR. HAMZAH BIN AROF"
+          "end_time": "17:00"
         }
       ]
     }
@@ -66771,7 +68659,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DK6",
+          "room": "BK204",
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "PROFESSOR IR. DR. HAZLEE AZIL BIN ILLIAS"
@@ -66813,7 +68701,7 @@
           "room": "DK1",
           "begin_time": "16:00",
           "end_time": "17:00",
-          "tutor": "PROFESSOR IR. DR. HAZLEE AZIL BIN ILLIAS"
+          "tutor": "IR. DR. WONG JEE KEEN RAYMOND"
         }
       ]
     }
@@ -66832,6 +68720,13 @@
       "levelCode": 3,
       "occurence": "1",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK5",
+          "begin_time": "10:00",
+          "end_time": "13:00"
+        },
         {
           "title": "lecture",
           "day": "Monday",
@@ -66891,14 +68786,6 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DK6",
-          "begin_time": "09:00",
-          "end_time": "10:00",
-          "tutor": "ASSOCIATE PROF. IR. DR. KAMARUL ARIFFIN BIN NOORDIN"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
           "room": "DK3",
           "begin_time": "12:00",
           "end_time": "13:00",
@@ -66910,14 +68797,6 @@
           "room": "DK2",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "DR. EFFARIZA BINTI HANAFI"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "DK6",
-          "begin_time": "09:00",
-          "end_time": "10:00",
           "tutor": "DR. EFFARIZA BINTI HANAFI"
         },
         {
@@ -66946,23 +68825,15 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "DK5",
+          "room": "BK203",
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "ASSOCIATE PROF. IR. DR. KAMARUL ARIFFIN BIN NOORDIN"
         },
         {
           "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK4",
-          "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "ASSOCIATE PROF. IR. DR. KAMARUL ARIFFIN BIN NOORDIN"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
-          "room": "DK5",
+          "room": "DK7",
           "begin_time": "11:00",
           "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. IR. DR. KAMARUL ARIFFIN BIN NOORDIN"
@@ -66970,23 +68841,15 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "DK5",
+          "room": "BK203",
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. EFFARIZA BINTI HANAFI"
         },
         {
           "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK4",
-          "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "DR. EFFARIZA BINTI HANAFI"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
-          "room": "DK5",
+          "room": "DK7",
           "begin_time": "11:00",
           "end_time": "12:00",
           "tutor": "DR. EFFARIZA BINTI HANAFI"
@@ -67040,6 +68903,31 @@
       ]
     }
   ],
+  "KIE4002": [
+    {
+      "module": "FINAL YEAR PROJECT",
+      "course_id": "KIE4002",
+      "credits": 6,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 150,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "P2",
+      "activities": [
+        {
+          "title": "reproject",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "20:00",
+          "tutor": "MISS NUR SYAZANA BINTI MOHAMMAD NIZAR"
+        }
+      ]
+    }
+  ],
   "KIE4005": [
     {
       "module": "POWER QUALITY",
@@ -67069,6 +68957,231 @@
           "begin_time": "16:00",
           "end_time": "17:00",
           "tutor": "DR. NURULAFIQAH NADZIRAH BINTI MANSOR"
+        }
+      ]
+    }
+  ],
+  "KIE4011": [
+    {
+      "module": "RENEWABLE ENERGY TECHNOLOGIES",
+      "course_id": "KIE4011",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 50,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK4",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. MOHAMMAD AMINUL ISLAM"
+        }
+      ]
+    }
+  ],
+  "KIE4016": [
+    {
+      "module": "ANTENNA AND PROPAGATION",
+      "course_id": "KIE4016",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 50,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK1",
+          "begin_time": "19:00",
+          "end_time": "21:00",
+          "tutor": "DR. TARIK BIN ABDUL LATEF"
+        }
+      ]
+    }
+  ],
+  "KIE4017": [
+    {
+      "module": "OPTICAL WAVEGUIDES",
+      "course_id": "KIE4017",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 50,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK6",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "PROF. DR. SULAIMAN WADI HARUN"
+        }
+      ]
+    }
+  ],
+  "KIE4018": [
+    {
+      "module": "VLSI DESIGN",
+      "course_id": "KIE4018",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 50,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK8",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. SHARIFAH FATMADIANA BT WAN MUHAMMAD HATTA"
+        }
+      ]
+    }
+  ],
+  "KIE4019": [
+    {
+      "module": "ANALOG VLSI CIRCUIT DESIGN",
+      "course_id": "KIE4019",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 50,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK2",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "PROFESSOR IR. DR. HARIKRISHNAN A/L RAMIAH"
+        }
+      ]
+    }
+  ],
+  "KIE4024": [
+    {
+      "module": "OPTIMIZATION METHODS",
+      "course_id": "KIE4024",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 50,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ECC 7",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. JEEVAN A/L KANESAN"
+        }
+      ]
+    }
+  ],
+  "KIE4026": [
+    {
+      "module": "DATA COMMUNICATION NETWORKS",
+      "course_id": "KIE4026",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 50,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK7",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "DR. EFFARIZA BINTI HANAFI"
+        }
+      ]
+    }
+  ],
+  "KIE4030": [
+    {
+      "module": "POWER SYSTEM ECONOMICS",
+      "course_id": "KIE4030",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 50,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK9",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "DR. NURULAFIQAH NADZIRAH BINTI MANSOR"
+        }
+      ]
+    }
+  ],
+  "KIE4031": [
+    {
+      "module": "MACHINE LEARNING",
+      "course_id": "KIE4031",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 50,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BK102",
+          "begin_time": "12:00",
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. ANIS SALWA BINTI MOHD KHAIRUDDIN"
         }
       ]
     }
@@ -68520,7 +70633,7 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "GREENCUBE1",
+          "room": "ONLINE",
           "begin_time": "08:00",
           "end_time": "11:00"
         },
@@ -68714,7 +70827,7 @@
         {
           "title": "lab",
           "day": "Wednesday",
-          "room": "BK101",
+          "room": "MECHTHERMOHT",
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "PROFESSOR IR. DR. POO BALAN A/L GANESAN"
@@ -68745,7 +70858,7 @@
         {
           "title": "lab",
           "day": "Wednesday",
-          "room": "BK103",
+          "room": "MECHTHERMOHT",
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "DR. KAZI MD. SALIM NEWAZ"
@@ -68776,7 +70889,7 @@
         {
           "title": "lab",
           "day": "Wednesday",
-          "room": "BK102",
+          "room": "MECHTHERMOHT",
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "DR. MOHD NASHRUL BIN MOHD ZUBIR"
@@ -68807,7 +70920,7 @@
         {
           "title": "lab",
           "day": "Wednesday",
-          "room": "BK101",
+          "room": "MECHTHERMOHT",
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "PROFESSOR IR. DR. POO BALAN A/L GANESAN"
@@ -69089,7 +71202,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "BK301",
+          "room": "BK204",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. IR. DR. RAHIZAR BIN RAMLI"
@@ -69112,7 +71225,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "BK301",
+          "room": "BK204",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. IR. DR. RAHIZAR BIN RAMLI"
@@ -69285,7 +71398,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "MK1",
+          "room": "ECC 6",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "DR. MEOR MOHD FAISAL BIN MEOR ZULKIFLI"
@@ -69411,7 +71524,15 @@
           "room": "BK201",
           "begin_time": "09:00",
           "end_time": "12:00",
-          "tutor": "PROF. DR. FONG CHOONG YI"
+          "tutor": "PROFESSOR IR. DR. WONG YEW HOONG"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BK201",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. GOH YINGXIN"
         }
       ]
     }
@@ -69458,10 +71579,10 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "BKKK4",
+          "room": "ORANGECUBE1",
           "begin_time": "09:00",
           "end_time": "12:00",
-          "tutor": "DR. AZUDDIN BIN MAMAT"
+          "tutor": "DR. MOHAMMED ABDO HASHEM ALI"
         }
       ]
     }
@@ -69486,7 +71607,7 @@
           "room": "REDCUBE1",
           "begin_time": "09:00",
           "end_time": "12:00",
-          "tutor": "DR. MOHAMMED ABDO HASHEM ALI"
+          "tutor": "DR. NAZATUL LIANA BINTI SUKIMAN"
         }
       ]
     }
@@ -69698,7 +71819,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "BK301",
+          "room": "BK201",
           "begin_time": "08:00",
           "end_time": "09:00",
           "tutor": "DR. MOHD IZZUDIN IZZAT BIN ZAINAL ABIDIN"
@@ -69772,7 +71893,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DK1",
+          "room": "DK2",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "DR. HANEE FARZANA BINTI HIZADDIN"
@@ -69838,7 +71959,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "DK6",
+          "room": "DK8",
           "begin_time": "11:00",
           "end_time": "12:00",
           "tutor": "PROFESSOR IR. DR. ADELINE CHUA SEAK MAY"
@@ -70084,7 +72205,7 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "ONLINE",
+          "room": "DK2",
           "begin_time": "08:00",
           "end_time": "11:00"
         }
@@ -70106,7 +72227,7 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "ONLINE",
+          "room": "DK2",
           "begin_time": "08:00",
           "end_time": "11:00"
         }
@@ -70207,6 +72328,131 @@
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "DR. AHMED HALILU"
+        }
+      ]
+    }
+  ],
+  "KIL4004": [
+    {
+      "module": "AIR POLLUTION FUNDAMENTAL",
+      "course_id": "KIL4004",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 55,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BKKK4",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "DR. FATHIAH BINTI MOHAMED ZUKI"
+        }
+      ]
+    }
+  ],
+  "KIL4016": [
+    {
+      "module": "REACTION ENGINEERING FOR BIOREACTORS",
+      "course_id": "KIL4016",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 55,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BP204",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "PROFESSOR IR. DR. NGOH GEK CHENG"
+        }
+      ]
+    }
+  ],
+  "KIL4020": [
+    {
+      "module": "ADVANCED FUNCTIONAL MATERIALS",
+      "course_id": "KIL4020",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 55,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BK202",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. CHING YERN CHEE"
+        }
+      ]
+    }
+  ],
+  "KIL4025": [
+    {
+      "module": "CURRENT TECHNOLOGIES IN OLEOCHEMICALS INDUSTRY",
+      "course_id": "KIL4025",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 55,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BKKK3",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. ADEEB HAYYAN"
+        }
+      ]
+    }
+  ],
+  "KIL4027": [
+    {
+      "module": "NATURAL GAS ENGINEERING",
+      "course_id": "KIL4027",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 55,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BK205",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. ZULHELMI BIN AMIR"
         }
       ]
     }
@@ -70686,7 +72932,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "BK101 & 104",
+          "room": "BKKK4",
           "begin_time": "16:00",
           "end_time": "19:00",
           "tutor": "PROFESSOR IR. DR. MOHD FAIZUL BIN MOHD SABRI"
@@ -70714,7 +72960,7 @@
           "room": "BKKK4",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "MADAM NORITA BINTI MOHD ZAIN"
+          "tutor": "DR. JULIANA BINTI USMAN"
         }
       ]
     }
@@ -70736,7 +72982,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "PBSEA201",
+          "room": "ORANGECUBE2",
           "begin_time": "08:00",
           "end_time": "11:00",
           "tutor": "PROFESSOR IR. DR. CHONG WEN TONG"
@@ -70823,7 +73069,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "BK101 & 104",
+          "room": "BK104",
           "begin_time": "10:00",
           "end_time": "13:00",
           "tutor": "PROFESSOR IR. DR. YAU YAT HUANG"
@@ -70846,7 +73092,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "BK101 & 104",
+          "room": "BK203",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "PROFESSOR DATO'  IR. DR. MOHD HAMDI BIN ABD SHUKOR"
@@ -71081,7 +73327,7 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "ONLINE",
+          "room": "DK2",
           "begin_time": "08:00",
           "end_time": "11:00"
         }
@@ -71103,7 +73349,7 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "GREENCUBE1",
+          "room": "ONLINE",
           "begin_time": "08:00",
           "end_time": "11:00"
         }
@@ -71345,7 +73591,7 @@
           "room": "DK7",
           "begin_time": "12:00",
           "end_time": "15:00",
-          "tutor": "ASSOCIATE PROF. IR. DR. JEEVAN A/L KANESAN"
+          "tutor": "DR. AZIMAH BINTI OMAR"
         }
       ]
     },
@@ -71368,7 +73614,7 @@
           "room": "DK7",
           "begin_time": "12:00",
           "end_time": "15:00",
-          "tutor": "ASSOCIATE PROF. IR. DR. JEEVAN A/L KANESAN"
+          "tutor": "DR. AZIMAH BINTI OMAR"
         }
       ]
     }
@@ -71607,6 +73853,54 @@
           "begin_time": "12:00",
           "end_time": "15:00",
           "tutor": "PROFESSOR IR. DR. HARIKRISHNAN A/L RAMIAH"
+        }
+      ]
+    }
+  ],
+  "KQC7031": [
+    {
+      "module": "INDUSTRIAL AUTOMATION AND ROBOTICS",
+      "course_id": "KQC7031",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 60,
+      "level": "MASTER",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Saturday",
+          "room": "DK6",
+          "begin_time": "12:00",
+          "end_time": "15:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. JEEVAN A/L KANESAN"
+        }
+      ]
+    },
+    {
+      "module": "INDUSTRIAL AUTOMATION AND ROBOTICS",
+      "course_id": "KQC7031",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 60,
+      "level": "MASTER",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Saturday",
+          "room": "DK6",
+          "begin_time": "12:00",
+          "end_time": "15:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. JEEVAN A/L KANESAN"
         }
       ]
     }
@@ -71918,7 +74212,8 @@
           "day": "Saturday",
           "room": "DK4",
           "begin_time": "15:00",
-          "end_time": "18:00"
+          "end_time": "18:00",
+          "tutor": "PROFESSOR IR. DR. NIK NAZRI BIN NIK GHAZALI"
         }
       ]
     }
@@ -71936,6 +74231,29 @@
       "examDuration": 7200,
       "levelCode": 4,
       "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Sunday",
+          "room": "DK4",
+          "begin_time": "15:00",
+          "end_time": "18:00",
+          "tutor": "PROF. DR. ANDRI ANDRIYANA"
+        }
+      ]
+    },
+    {
+      "module": "FATIGUE AND FRACTURE MECHANICS",
+      "course_id": "KQK7006",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 130,
+      "level": "MASTER",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "2",
       "activities": [
         {
           "title": "lecture",
@@ -72499,6 +74817,112 @@
       ]
     }
   ],
+  "KQX7001": [
+    {
+      "module": "RESEARCH METHODOLOGY",
+      "course_id": "KQX7001",
+      "credits": 3,
+      "yearPeriod": "2025/R2, 2025/S2",
+      "overallTargetStudent": 260,
+      "level": "MASTER",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Saturday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. KHAIRUNNISA BINTI HASIKIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Saturday",
+          "room": "ONLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. IR. TS. DR. LAI KHIN WEE"
+        }
+      ]
+    },
+    {
+      "module": "RESEARCH METHODOLOGY",
+      "course_id": "KQX7001",
+      "credits": 3,
+      "yearPeriod": "2025/R2, 2025/S2",
+      "overallTargetStudent": 260,
+      "level": "MASTER",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1-R",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Saturday",
+          "room": "ONLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. IR. TS. DR. LAI KHIN WEE"
+        }
+      ]
+    }
+  ],
+  "KQX7002": [
+    {
+      "module": "PROJECT MANAGEMENT",
+      "course_id": "KQX7002",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 260,
+      "level": "MASTER",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "19:00",
+          "end_time": "22:00",
+          "tutor": "PROFESSOR IR. DR. WONG YEW HOONG"
+        }
+      ]
+    }
+  ],
+  "KVX8001": [
+    {
+      "module": "RESEARCH METHODOLOGY",
+      "course_id": "KVX8001",
+      "credits": 3,
+      "yearPeriod": "2025/R2",
+      "overallTargetStudent": 300,
+      "level": "PhD",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 5,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Saturday",
+          "room": "ONLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. HENDRIK SIMON CORNELIS METSELAAR"
+        }
+      ]
+    }
+  ],
   "LIA1005": [
     {
       "module": "ISLAMIC LEGAL SYSTEM",
@@ -72615,7 +75039,7 @@
           "room": "MMB",
           "begin_time": "08:00",
           "end_time": "11:00",
-          "tutor": "DR. NURHIDAYAH BINTI ABDULLAH"
+          "tutor": "ASSOCIATE PROF. DR. SHARON KAUR A/P GURMUKH SINGH"
         }
       ]
     },
@@ -72636,9 +75060,9 @@
           "title": "lecture",
           "day": "Wednesday",
           "room": "DK2",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. ZALINA BINTI ABDUL HALIM"
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. SHARON KAUR A/P GURMUKH SINGH"
         }
       ]
     }
@@ -72711,7 +75135,7 @@
           "room": "MMA",
           "begin_time": "14:00",
           "end_time": "17:00",
-          "tutor": "MR. AHMAD SAUFI BIN ABDUL RAHMAN"
+          "tutor": "DR. IZURA MASDINA MOHAMED ZAKRI"
         }
       ]
     },
@@ -72734,7 +75158,7 @@
           "room": "MMB",
           "begin_time": "11:00",
           "end_time": "14:00",
-          "tutor": "DR. NURHIDAYAH BINTI ABDULLAH"
+          "tutor": "DR. IZURA MASDINA MOHAMED ZAKRI"
         }
       ]
     }
@@ -72926,7 +75350,7 @@
           "room": "DK1",
           "begin_time": "08:00",
           "end_time": "11:00",
-          "tutor": "DR. NAJWA BINTI ROSLI"
+          "tutor": "DR. SIK CHENG PENG"
         }
       ]
     },
@@ -73169,14 +75593,6 @@
         },
         {
           "title": "tutorial",
-          "day": "Wednesday",
-          "room": "BS4",
-          "begin_time": "14:00",
-          "end_time": "15:00",
-          "tutor": "DR. MUHAMMAD HAMEEDULLAH BIN MD ASRI"
-        },
-        {
-          "title": "tutorial",
           "day": "Thursday",
           "room": "BS2",
           "begin_time": "09:00",
@@ -73274,13 +75690,6 @@
           "room": "BS6",
           "begin_time": "10:00",
           "end_time": "11:00"
-        },
-        {
-          "title": "tutorial",
-          "day": "Wednesday",
-          "room": "BS1",
-          "begin_time": "15:00",
-          "end_time": "16:00"
         }
       ]
     },
@@ -73304,6 +75713,13 @@
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DATIN PROFESSOR DR. MARY MATHEWS A/P MUNDAKAMANNIL K MATHEWS"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "SMARTLAB1",
+          "begin_time": "13:00",
+          "end_time": "14:00"
         }
       ]
     },
@@ -74141,36 +76557,6 @@
       "continuousAssessmentWeightage": "40~60",
       "examDuration": 7200,
       "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "MMC",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "ASSOCIATE PROF. DR. SUJATA A/P BALAN"
-        },
-        {
-          "title": "tutorial",
-          "day": "Wednesday",
-          "room": "BS6",
-          "begin_time": "09:00",
-          "end_time": "10:00"
-        }
-      ]
-    },
-    {
-      "module": "COMPANY LAW",
-      "course_id": "LIA3023",
-      "credits": 3,
-      "yearPeriod": "2025/S2",
-      "overallTargetStudent": 180,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LAW",
-      "continuousAssessmentWeightage": "40~60",
-      "examDuration": 7200,
-      "levelCode": 3,
       "occurence": "2",
       "activities": [
         {
@@ -74275,36 +76661,6 @@
           "title": "tutorial",
           "day": "Thursday",
           "room": "BS8",
-          "begin_time": "14:00",
-          "end_time": "15:00"
-        }
-      ]
-    },
-    {
-      "module": "COMPANY LAW",
-      "course_id": "LIA3023",
-      "credits": 3,
-      "yearPeriod": "2025/S2",
-      "overallTargetStudent": 180,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LAW",
-      "continuousAssessmentWeightage": "40~60",
-      "examDuration": 7200,
-      "levelCode": 3,
-      "occurence": "6",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "MMC",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "ASSOCIATE PROF. DR. SUJATA A/P BALAN"
-        },
-        {
-          "title": "tutorial",
-          "day": "Wednesday",
-          "room": "BS",
           "begin_time": "14:00",
           "end_time": "15:00"
         }
@@ -75015,14 +77371,6 @@
           "begin_time": "10:00",
           "end_time": "11:00",
           "tutor": "DR. KUEK CHEE YING"
-        },
-        {
-          "title": "tutorial",
-          "day": "Thursday",
-          "room": "BS6",
-          "begin_time": "11:00",
-          "end_time": "12:00",
-          "tutor": "DR. KUEK CHEE YING"
         }
       ]
     }
@@ -75459,7 +77807,7 @@
         {
           "title": "tutorial",
           "day": "Wednesday",
-          "room": "DK2",
+          "room": "BS3",
           "begin_time": "08:00",
           "end_time": "09:00",
           "tutor": "MR. MAGESAN A/L R AYAVOO"
@@ -76071,10 +78419,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "MMC",
-          "begin_time": "10:00",
-          "end_time": "11:00",
+          "day": "Tuesday",
+          "room": "DK1",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "MADAM NOOR ASYIKEEN MOHD SALLEH"
         },
         {
@@ -76102,10 +78450,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "MMC",
-          "begin_time": "10:00",
-          "end_time": "11:00",
+          "day": "Tuesday",
+          "room": "DK1",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "MADAM NOOR ASYIKEEN MOHD SALLEH"
         },
         {
@@ -76133,10 +78481,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "MMC",
-          "begin_time": "10:00",
-          "end_time": "11:00",
+          "day": "Tuesday",
+          "room": "DK1",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "MADAM NOOR ASYIKEEN MOHD SALLEH"
         },
         {
@@ -76164,10 +78512,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "MMC",
-          "begin_time": "10:00",
-          "end_time": "11:00",
+          "day": "Tuesday",
+          "room": "DK1",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "MADAM NOOR ASYIKEEN MOHD SALLEH"
         },
         {
@@ -76195,10 +78543,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "MMC",
-          "begin_time": "10:00",
-          "end_time": "11:00",
+          "day": "Tuesday",
+          "room": "DK1",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "MADAM NOOR ASYIKEEN MOHD SALLEH"
         },
         {
@@ -76226,10 +78574,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "MMC",
-          "begin_time": "10:00",
-          "end_time": "11:00",
+          "day": "Tuesday",
+          "room": "DK1",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "MADAM NOOR ASYIKEEN MOHD SALLEH"
         },
         {
@@ -76257,10 +78605,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "MMC",
-          "begin_time": "10:00",
-          "end_time": "11:00",
+          "day": "Tuesday",
+          "room": "DK1",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "MADAM NOOR ASYIKEEN MOHD SALLEH"
         },
         {
@@ -76288,10 +78636,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "MMC",
-          "begin_time": "10:00",
-          "end_time": "11:00",
+          "day": "Tuesday",
+          "room": "DK1",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "MADAM NOOR ASYIKEEN MOHD SALLEH"
         },
         {
@@ -76318,10 +78666,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "MMC",
-          "begin_time": "10:00",
-          "end_time": "11:00",
+          "day": "Tuesday",
+          "room": "DK1",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "MADAM NOOR ASYIKEEN MOHD SALLEH"
         },
         {
@@ -76348,10 +78696,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "MMC",
-          "begin_time": "10:00",
-          "end_time": "11:00",
+          "day": "Tuesday",
+          "room": "DK1",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "MADAM NOOR ASYIKEEN MOHD SALLEH"
         },
         {
@@ -76378,10 +78726,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "MMC",
-          "begin_time": "10:00",
-          "end_time": "11:00",
+          "day": "Tuesday",
+          "room": "DK1",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "MADAM NOOR ASYIKEEN MOHD SALLEH"
         },
         {
@@ -87772,345 +90120,6 @@
       ]
     }
   ],
-  "MVX8001": [
-    {
-      "module": "RESEARCH METHODOLOGY",
-      "course_id": "MVX8001",
-      "credits": 3,
-      "yearPeriod": "2025/R2",
-      "overallTargetStudent": 60,
-      "level": "PhD",
-      "faculty": "FACULTY OF MEDICINE",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 5,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK9",
-          "begin_time": "09:00",
-          "end_time": "10:00",
-          "tutor": "DR. WAN NUR ASYIQIN BINTI RASIDI"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK9",
-          "begin_time": "10:00",
-          "end_time": "12:00",
-          "tutor": "DR. TONG WEN TING"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK9",
-          "begin_time": "13:00",
-          "end_time": "14:00",
-          "tutor": "ASSOCIATE PROF. DR. NUR AZAH BINTI HAMZAID"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK9",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. WAN NUR ASYIQIN BINTI RASIDI"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK9",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. CHONG PAN PAN"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK9",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. THAMIL SELVEE A/P RAMASAMY"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK9",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. LIM JASMINE"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "CUBE",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. ROZAIDA @ POH YUEN YING"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK9",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. ANWAR BIN NORAZIT"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK9",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. NUR AZAH BINTI HAMZAID"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK9",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. 'ABQARIYAH BINTI YAHYA@AHMAD NOOR"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK9",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. MOHAMAD SHAFIQ BIN AZANAN"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK9",
-          "begin_time": "09:00",
-          "end_time": "12:00"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK9",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. CHANG LI YEN"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK9",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. NISHAKANTHI A/P GOPALAN"
-        }
-      ]
-    }
-  ],
-  "MWA8001": [
-    {
-      "module": "ADVANCED RESEARCH METHODS",
-      "course_id": "MWA8001",
-      "credits": 3,
-      "yearPeriod": "2025/C2",
-      "overallTargetStudent": 30,
-      "level": "PhD",
-      "faculty": "FACULTY OF MEDICINE",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 5,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "DPPASCA",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. MAS AYU BINTI SAID"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "DPPASCA",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. LIM SIN HOW"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "DPPASCA",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "PROF. DR. WONG LI PING"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "DPPASCA",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. NG AI KAH"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "DPPASCA",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. NITHIAH A/P THANGIAH"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "DPPASCA",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. RUMANA AKHTER SAIFI"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "DPPASCA",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. 'ABQARIYAH BINTI YAHYA@AHMAD NOOR"
-        }
-      ]
-    }
-  ],
-  "MWA8036": [
-    {
-      "module": "SAFETY, HEALTH AND HUMAN RESOURCE MANAGEMENT",
-      "course_id": "MWA8036",
-      "credits": 3,
-      "yearPeriod": "2025/C2, 2025/R2",
-      "overallTargetStudent": 50,
-      "level": "PhD",
-      "faculty": "FACULTY OF MEDICINE",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 5,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DPPASCA",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "PROF. DR. VICTOR HOE CHEE WAI BIN ABDULLAH"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DPPASCA",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. BALA MURALI A/L SUNDRAM"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DPPASCA",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. RAMA KRISHNA A/L SUPRAMANIAN"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DPPASCA",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. FARIZAH BINTI MOHD HAIRI"
-        }
-      ]
-    }
-  ],
-  "MWA8038": [
-    {
-      "module": "EPIDEMIOLOGY OF DISEASES",
-      "course_id": "MWA8038",
-      "credits": 3,
-      "yearPeriod": "2025/C2",
-      "overallTargetStudent": 35,
-      "level": "PhD",
-      "faculty": "FACULTY OF MEDICINE",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 5,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DPPASCA",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "PROF. DR. RAFDZAH BINTI AHMAD ZAKI"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DPPASCA",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "DR. AINOL HANIZA BINTI KHERUL ANUWAR"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DPPASCA",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "PROF. DR. NORAN NAQIAH BINTI MOHD HAIRI"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DPPASCA",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. MAS AYU BINTI SAID"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DPPASCA",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "PROF. DR. NIRMALA A/P BHOO PATHY"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DPPASCA",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "PROF. DR. SANJAY RAMPAL A/L LEKHRAJ RAMPAL"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DPPASCA",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "PROF. DR. CHOO WAN YUEN"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DPPASCA",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. FARIZAH BINTI MOHD HAIRI"
-        }
-      ]
-    }
-  ],
   "OIA1003": [
     {
       "module": "BIOCHEMISTRY",
@@ -93609,10 +95618,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Wednesday",
           "room": "BSEC204",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "begin_time": "08:00",
+          "end_time": "11:00",
           "tutor": "ASSOCIATE PROF. DR. MOHD NAZRI BIN ABDUL RAHMAN"
         }
       ]
@@ -93632,10 +95641,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Wednesday",
           "room": "BSEC204",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "begin_time": "08:00",
+          "end_time": "11:00",
           "tutor": "ASSOCIATE PROF. DR. MOHD NAZRI BIN ABDUL RAHMAN"
         }
       ]
@@ -93879,6 +95888,75 @@
           "begin_time": "08:00",
           "end_time": "11:00",
           "tutor": "DR. ABD RAZAK BIN ZAKARIA"
+        }
+      ]
+    }
+  ],
+  "PIX1006": [
+    {
+      "module": "PHYSICAL AND HEALTH EDUCATION",
+      "course_id": "PIX1006",
+      "credits": 3,
+      "yearPeriod": "2024/S1, 2024/S2",
+      "overallTargetStudent": 135,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF EDUCATION",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 10800,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BSEB301",
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. SYED KAMARUZAMAN BIN SYED ALI"
+        }
+      ]
+    },
+    {
+      "module": "PHYSICAL AND HEALTH EDUCATION",
+      "course_id": "PIX1006",
+      "credits": 3,
+      "yearPeriod": "2024/S1, 2024/S2",
+      "overallTargetStudent": 135,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF EDUCATION",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 10800,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BSEB303",
+          "begin_time": "08:00",
+          "end_time": "11:00"
+        }
+      ]
+    },
+    {
+      "module": "PHYSICAL AND HEALTH EDUCATION",
+      "course_id": "PIX1006",
+      "credits": 3,
+      "yearPeriod": "2024/S1, 2024/S2",
+      "overallTargetStudent": 135,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF EDUCATION",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 10800,
+      "levelCode": 3,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BSEB306",
+          "begin_time": "08:00",
+          "end_time": "11:00"
         }
       ]
     }
@@ -94777,7 +96855,7 @@
           "room": "BSEA206",
           "begin_time": "17:00",
           "end_time": "21:00",
-          "tutor": "DR. ABD RAZAK BIN ZAKARIA"
+          "tutor": "DR. AZNI YATI BINTI KAMARUDDIN"
         }
       ]
     },
@@ -94821,7 +96899,8 @@
           "day": "Wednesday",
           "room": "BSEB301",
           "begin_time": "17:00",
-          "end_time": "21:00"
+          "end_time": "21:00",
+          "tutor": "DR. ABD RAZAK BIN ZAKARIA"
         }
       ]
     },
@@ -95100,7 +97179,8 @@
           "day": "Wednesday",
           "room": "BT2",
           "begin_time": "15:00",
-          "end_time": "18:00"
+          "end_time": "18:00",
+          "tutor": "DR. NORSAFATUL AZNIN BINTI A. RAZAK"
         }
       ]
     },
@@ -97320,7 +99400,8 @@
           "day": "Wednesday",
           "room": "BSC",
           "begin_time": "18:00",
-          "end_time": "21:00"
+          "end_time": "21:00",
+          "tutor": "ASSOCIATE PROF. DR. KU SUHAILA BINTI KU ALI @ KU JOHARI"
         }
       ]
     }
@@ -102311,14 +104392,14 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DKTERATAIKDK",
-          "begin_time": "10:00",
-          "end_time": "11:00",
+          "room": "DKVANDAKDK",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "PROF. DR. AZHAR BIN ARIFFIN"
         },
         {
           "title": "lab",
-          "day": "Thursday",
+          "day": "Monday",
           "room": "MKIMIAOR1",
           "begin_time": "11:00",
           "end_time": "17:00",
@@ -102350,9 +104431,9 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DKTERATAIKDK",
-          "begin_time": "10:00",
-          "end_time": "11:00",
+          "room": "DKVANDAKDK",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "PROF. DR. AZHAR BIN ARIFFIN"
         },
         {
@@ -102389,14 +104470,14 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DKTERATAIKDK",
-          "begin_time": "10:00",
-          "end_time": "11:00",
+          "room": "DKVANDAKDK",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "PROF. DR. AZHAR BIN ARIFFIN"
         },
         {
           "title": "lab",
-          "day": "Thursday",
+          "day": "Monday",
           "room": "MKIMIAOR1",
           "begin_time": "11:00",
           "end_time": "17:00",
@@ -102589,9 +104670,9 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DKTERATAIKDK",
-          "begin_time": "10:00",
-          "end_time": "11:00",
+          "room": "DKVANDAKDK",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "PROF. DR. AZHAR BIN ARIFFIN"
         }
       ]
@@ -102742,9 +104823,9 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "BS3BS4KDK",
-          "begin_time": "14:00",
-          "end_time": "15:00",
+          "room": "BSD129",
+          "begin_time": "11:00",
+          "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. DR. THORSTEN HEIDELBERG"
         },
         {
@@ -107315,10 +109396,10 @@
         },
         {
           "title": "lecture",
-          "day": "Wednesday",
+          "day": "Tuesday",
           "room": "BSD35ISB",
-          "begin_time": "09:00",
-          "end_time": "10:00"
+          "begin_time": "14:00",
+          "end_time": "15:00"
         }
       ]
     },
@@ -107344,10 +109425,10 @@
         },
         {
           "title": "lecture",
-          "day": "Wednesday",
+          "day": "Tuesday",
           "room": "BSD35ISB",
-          "begin_time": "09:00",
-          "end_time": "10:00"
+          "begin_time": "14:00",
+          "end_time": "15:00"
         }
       ]
     }
@@ -107592,7 +109673,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "AUDIFIZIK",
+          "room": "AUDIKIMIA",
           "begin_time": "16:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. MOHD HAMDI BIN ALI @ BURAIDAH"
@@ -107623,7 +109704,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "AUDIFIZIK",
+          "room": "AUDIKIMIA",
           "begin_time": "16:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. MOHD HAMDI BIN ALI @ BURAIDAH"
@@ -107723,9 +109804,9 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DKCEMPAKAKDK",
-          "begin_time": "12:00",
-          "end_time": "13:00"
+          "room": "BT1KDK",
+          "begin_time": "08:00",
+          "end_time": "09:00"
         }
       ]
     },
@@ -107752,9 +109833,9 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DKCEMPAKAKDK",
-          "begin_time": "12:00",
-          "end_time": "13:00"
+          "room": "BT1KDK",
+          "begin_time": "08:00",
+          "end_time": "09:00"
         }
       ]
     }
@@ -107775,18 +109856,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Wednesday",
           "room": "MKOMP",
-          "begin_time": "08:00",
-          "end_time": "10:00",
+          "begin_time": "12:00",
+          "end_time": "13:00",
           "tutor": "DR. NORHASLIZA BINTI YUSOF"
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Wednesday",
           "room": "MKOMP",
-          "begin_time": "14:00",
-          "end_time": "15:00",
+          "begin_time": "15:00",
+          "end_time": "17:00",
           "tutor": "DR. NORHASLIZA BINTI YUSOF"
         }
       ]
@@ -107806,18 +109887,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Wednesday",
           "room": "MKOMP",
-          "begin_time": "08:00",
-          "end_time": "10:00",
+          "begin_time": "12:00",
+          "end_time": "13:00",
           "tutor": "DR. NORHASLIZA BINTI YUSOF"
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Wednesday",
           "room": "MKOMP",
-          "begin_time": "14:00",
-          "end_time": "15:00",
+          "begin_time": "15:00",
+          "end_time": "17:00",
           "tutor": "DR. NORHASLIZA BINTI YUSOF"
         }
       ]
@@ -108413,17 +110494,9 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "BS5BS6KDK",
-          "begin_time": "15:00",
-          "end_time": "16:00",
-          "tutor": "DR. SYED BAHARI RAMADZAN SYED ADNAN"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "BSFCIS",
-          "begin_time": "15:00",
+          "begin_time": "16:00",
           "end_time": "17:00",
           "tutor": "DR. SYED BAHARI RAMADZAN SYED ADNAN"
         },
@@ -108433,14 +110506,6 @@
           "room": "BS5BS6KDK",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "DR. SYED BAHARI RAMADZAN SYED ADNAN"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "BSPGISB",
-          "begin_time": "08:00",
-          "end_time": "09:00",
           "tutor": "DR. SYED BAHARI RAMADZAN SYED ADNAN"
         }
       ]
@@ -108460,10 +110525,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "BS5BS6KDK",
-          "begin_time": "15:00",
-          "end_time": "16:00",
+          "day": "Tuesday",
+          "room": "BSFCIS",
+          "begin_time": "16:00",
+          "end_time": "17:00",
           "tutor": "DR. SYED BAHARI RAMADZAN SYED ADNAN"
         },
         {
@@ -108494,17 +110559,17 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "AUDIFIZIK",
+          "room": "AUDIKIMIA",
           "begin_time": "11:00",
           "end_time": "13:00",
           "tutor": "PROF. DR. SITHI VINAYAKAM A/L MUNIANDY"
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "AUDIFIZIK",
-          "begin_time": "12:00",
-          "end_time": "13:00",
+          "day": "Wednesday",
+          "room": "DKMELATIKDK",
+          "begin_time": "09:00",
+          "end_time": "10:00",
           "tutor": "PROF. DR. SITHI VINAYAKAM A/L MUNIANDY"
         }
       ]
@@ -108525,17 +110590,17 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "AUDIFIZIK",
+          "room": "AUDIKIMIA",
           "begin_time": "11:00",
           "end_time": "13:00",
           "tutor": "PROF. DR. SITHI VINAYAKAM A/L MUNIANDY"
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "AUDIFIZIK",
-          "begin_time": "12:00",
-          "end_time": "13:00",
+          "day": "Wednesday",
+          "room": "DKMELATIKDK",
+          "begin_time": "09:00",
+          "end_time": "10:00",
           "tutor": "PROF. DR. SITHI VINAYAKAM A/L MUNIANDY"
         }
       ]
@@ -108904,7 +110969,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "AUDIFIZIK",
+          "room": "DK2",
           "begin_time": "15:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. ZUL HAZRIN BIN ZAINAL ABIDIN"
@@ -108912,7 +110977,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "AUDIFIZIK",
+          "room": "AUDIKIMIA",
           "begin_time": "14:00",
           "end_time": "15:00",
           "tutor": "ASSOCIATE PROF. DR. ZUL HAZRIN BIN ZAINAL ABIDIN"
@@ -108935,7 +111000,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "AUDIFIZIK",
+          "room": "DK2",
           "begin_time": "15:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. ZUL HAZRIN BIN ZAINAL ABIDIN"
@@ -108943,7 +111008,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "AUDIFIZIK",
+          "room": "AUDIKIMIA",
           "begin_time": "14:00",
           "end_time": "15:00",
           "tutor": "ASSOCIATE PROF. DR. ZUL HAZRIN BIN ZAINAL ABIDIN"
@@ -117611,6 +119676,54 @@
       ]
     }
   ],
+  "SIP2004": [
+    {
+      "module": "TEACHING OF ALGEBRA",
+      "course_id": "SIP2004",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "PMK1",
+          "begin_time": "13:00",
+          "end_time": "15:00",
+          "tutor": "DR. MOHD RAZIP BIN BAJURI"
+        }
+      ]
+    },
+    {
+      "module": "TEACHING OF ALGEBRA",
+      "course_id": "SIP2004",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "PMK1",
+          "begin_time": "13:00",
+          "end_time": "15:00",
+          "tutor": "DR. MOHD RAZIP BIN BAJURI"
+        }
+      ]
+    }
+  ],
   "SIP2007": [
     {
       "module": "TEACHING AND ASSESSMENT OF ABSTRACT CONCEPT IN BIOLOGY",
@@ -120062,10 +122175,10 @@
         },
         {
           "title": "tutorial",
-          "day": "Thursday",
+          "day": "Wednesday",
           "room": "BS9BS10KDK",
-          "begin_time": "12:00",
-          "end_time": "13:00",
+          "begin_time": "09:00",
+          "end_time": "10:00",
           "tutor": "PROF. DR. IBRAHIM BIN MOHAMED"
         }
       ]
@@ -120166,16 +122279,16 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DKIXORAKDK",
-          "begin_time": "08:00",
-          "end_time": "10:00"
+          "room": "DKTERATAIKDK",
+          "begin_time": "09:00",
+          "end_time": "11:00"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DKIXORAKDK",
-          "begin_time": "08:00",
-          "end_time": "10:00"
+          "begin_time": "12:00",
+          "end_time": "14:00"
         },
         {
           "title": "tutorial",
@@ -120202,16 +122315,16 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DKIXORAKDK",
-          "begin_time": "08:00",
-          "end_time": "10:00"
+          "room": "DKTERATAIKDK",
+          "begin_time": "09:00",
+          "end_time": "11:00"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DKIXORAKDK",
-          "begin_time": "08:00",
-          "end_time": "10:00"
+          "begin_time": "12:00",
+          "end_time": "14:00"
         },
         {
           "title": "tutorial",
@@ -120238,16 +122351,16 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DKIXORAKDK",
-          "begin_time": "08:00",
-          "end_time": "10:00"
+          "room": "DKTERATAIKDK",
+          "begin_time": "09:00",
+          "end_time": "11:00"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DKIXORAKDK",
-          "begin_time": "08:00",
-          "end_time": "10:00"
+          "begin_time": "12:00",
+          "end_time": "14:00"
         },
         {
           "title": "tutorial",
@@ -120274,16 +122387,16 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DKIXORAKDK",
-          "begin_time": "08:00",
-          "end_time": "10:00"
+          "room": "DKTERATAIKDK",
+          "begin_time": "09:00",
+          "end_time": "11:00"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DKIXORAKDK",
-          "begin_time": "08:00",
-          "end_time": "10:00"
+          "begin_time": "12:00",
+          "end_time": "14:00"
         },
         {
           "title": "tutorial",
@@ -120468,9 +122581,9 @@
         {
           "title": "tutorial",
           "day": "Thursday",
-          "room": "BTM1ISM",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "room": "BT3KDK",
+          "begin_time": "12:00",
+          "end_time": "13:00",
           "tutor": "DR. DHARINI A/P  PATHMANATHAN"
         }
       ]
@@ -120603,16 +122716,16 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DKIXORAKDK",
-          "begin_time": "08:00",
-          "end_time": "10:00"
+          "room": "DKTERATAIKDK",
+          "begin_time": "09:00",
+          "end_time": "11:00"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DKIXORAKDK",
-          "begin_time": "08:00",
-          "end_time": "10:00"
+          "begin_time": "12:00",
+          "end_time": "14:00"
         },
         {
           "title": "tutorial",
@@ -120639,16 +122752,16 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DKIXORAKDK",
-          "begin_time": "08:00",
-          "end_time": "10:00"
+          "room": "DKTERATAIKDK",
+          "begin_time": "09:00",
+          "end_time": "11:00"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DKIXORAKDK",
-          "begin_time": "08:00",
-          "end_time": "10:00"
+          "begin_time": "12:00",
+          "end_time": "14:00"
         },
         {
           "title": "tutorial",
@@ -120675,16 +122788,16 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DKIXORAKDK",
-          "begin_time": "08:00",
-          "end_time": "10:00"
+          "room": "DKTERATAIKDK",
+          "begin_time": "09:00",
+          "end_time": "11:00"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DKIXORAKDK",
-          "begin_time": "08:00",
-          "end_time": "10:00"
+          "begin_time": "12:00",
+          "end_time": "14:00"
         },
         {
           "title": "tutorial",
@@ -120711,16 +122824,16 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DKIXORAKDK",
-          "begin_time": "08:00",
-          "end_time": "10:00"
+          "room": "DKTERATAIKDK",
+          "begin_time": "09:00",
+          "end_time": "11:00"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DKIXORAKDK",
-          "begin_time": "08:00",
-          "end_time": "10:00"
+          "begin_time": "12:00",
+          "end_time": "14:00"
         },
         {
           "title": "tutorial",
@@ -121070,9 +123183,9 @@
         {
           "title": "tutorial",
           "day": "Thursday",
-          "room": "BTM1ISM",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "room": "BT3KDK",
+          "begin_time": "12:00",
+          "end_time": "13:00",
           "tutor": "DR. DHARINI A/P  PATHMANATHAN"
         }
       ]
@@ -121109,9 +123222,9 @@
         {
           "title": "tutorial",
           "day": "Thursday",
-          "room": "BTM1ISM",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "room": "BT3KDK",
+          "begin_time": "12:00",
+          "end_time": "13:00",
           "tutor": "DR. DHARINI A/P  PATHMANATHAN"
         }
       ]
@@ -121133,8 +123246,8 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "DKM2ISM",
+          "day": "Monday",
+          "room": "DK1",
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. NUR ANISAH BINTI MOHAMED @ A. RAHMAN"
@@ -121172,8 +123285,8 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "DKM2ISM",
+          "day": "Monday",
+          "room": "DK1",
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. NUR ANISAH BINTI MOHAMED @ A. RAHMAN"
@@ -121211,8 +123324,8 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "DKM2ISM",
+          "day": "Monday",
+          "room": "DK1",
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. NUR ANISAH BINTI MOHAMED @ A. RAHMAN"
@@ -121228,9 +123341,9 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "BTM3ISM",
-          "begin_time": "11:00",
-          "end_time": "12:00",
+          "room": "BT1KDK",
+          "begin_time": "09:00",
+          "end_time": "10:00",
           "tutor": "DR. NUR ANISAH BINTI MOHAMED @ A. RAHMAN"
         }
       ]
@@ -121250,8 +123363,8 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "DKM2ISM",
+          "day": "Monday",
+          "room": "DK1",
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. NUR ANISAH BINTI MOHAMED @ A. RAHMAN"
@@ -121489,8 +123602,8 @@
           "title": "tutorial",
           "day": "Tuesday",
           "room": "BTM4ISM",
-          "begin_time": "14:00",
-          "end_time": "15:00"
+          "begin_time": "15:00",
+          "end_time": "16:00"
         }
       ]
     },
@@ -121525,8 +123638,8 @@
           "title": "tutorial",
           "day": "Tuesday",
           "room": "BTM4ISM",
-          "begin_time": "14:00",
-          "end_time": "15:00"
+          "begin_time": "15:00",
+          "end_time": "16:00"
         }
       ]
     }
@@ -121703,8 +123816,8 @@
           "title": "tutorial",
           "day": "Tuesday",
           "room": "BTM4ISM",
-          "begin_time": "14:00",
-          "end_time": "15:00"
+          "begin_time": "15:00",
+          "end_time": "16:00"
         }
       ]
     },
@@ -121739,8 +123852,8 @@
           "title": "tutorial",
           "day": "Tuesday",
           "room": "BTM4ISM",
-          "begin_time": "14:00",
-          "end_time": "15:00"
+          "begin_time": "15:00",
+          "end_time": "16:00"
         }
       ]
     }
@@ -122036,6 +124149,31 @@
       ]
     }
   ],
+  "SIX1001": [
+    {
+      "module": "INTRODUCTION TO SCIENCE AND TECHNOLOGY STUDIES",
+      "course_id": "SIX1001",
+      "credits": 3,
+      "yearPeriod": "2024/S1",
+      "overallTargetStudent": 100,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "16:00",
+          "tutor": "MR. MOHD ARIF BIN SHUIB"
+        }
+      ]
+    }
+  ],
   "SIX1002": [
     {
       "module": "ETHICS AND SAFETY",
@@ -122052,10 +124190,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "ONLINE",
-          "begin_time": "11:00",
-          "end_time": "13:00",
+          "begin_time": "12:00",
+          "end_time": "14:00",
           "tutor": "ASSOCIATE PROF. DR. NOOR HASHIDA BINTI HASHIM"
         }
       ]
@@ -122104,6 +124242,31 @@
           "room": "DK4",
           "begin_time": "15:00",
           "end_time": "17:00"
+        }
+      ]
+    }
+  ],
+  "SIX1004": [
+    {
+      "module": "STATISTICS",
+      "course_id": "SIX1004",
+      "credits": 3,
+      "yearPeriod": "2024/S1",
+      "overallTargetStudent": 95,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BS2KDK",
+          "begin_time": "10:00",
+          "end_time": "13:00",
+          "tutor": "MR. MOHD ARIF BIN SHUIB"
         }
       ]
     }
@@ -124064,17 +126227,32 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "DKVANDAKDK",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "DR. NURZATIL SHARLEEZA BINTI MAT JALALUDDIN"
-        },
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "ASSOCIATE PROF. DR. NG BOON KWEE"
+        }
+      ]
+    },
+    {
+      "module": "INNOVATION STRATEGY AND ENTREPRENEURSHIP",
+      "course_id": "SQE7023",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 130,
+      "level": "MASTER",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "2",
+      "activities": [
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "DKVANDAKDK",
-          "begin_time": "18:00",
-          "end_time": "21:00",
-          "tutor": "ASSOCIATE PROF. DR. NG BOON KWEE"
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. NURZATIL SHARLEEZA BINTI MAT JALALUDDIN"
         }
       ]
     }
@@ -126926,8 +129104,7 @@
           "day": "Tuesday",
           "room": "BTSAC3",
           "begin_time": "11:00",
-          "end_time": "14:00",
-          "tutor": "MISS CHIENG SHEA LEE"
+          "end_time": "14:00"
         }
       ]
     }
@@ -127198,6 +129375,29 @@
           "tutor": "DR. CHOW UNG T'CHIANG"
         }
       ]
+    },
+    {
+      "module": "ENGLISH FOR SPECIFIC PURPOSES",
+      "course_id": "TIE3016",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 40,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "13:00",
+          "tutor": "DR. CHEW SHIN YI"
+        }
+      ]
     }
   ],
   "TIE3017": [
@@ -127223,86 +129423,27 @@
           "tutor": "ASSOCIATE PROF. DR. SHEENA KAUR A/P JASWANT SINGH"
         }
       ]
-    }
-  ],
-  "TIF1006": [
+    },
     {
-      "module": "FRENCH LANGUAGE SKILLS LEVEL I",
-      "course_id": "TIF1006",
-      "credits": 5,
+      "module": "PROFESSIONAL COMMUNICATION",
+      "course_id": "TIE3017",
+      "credits": 2,
       "yearPeriod": "2025/S2",
-      "overallTargetStudent": 20,
+      "overallTargetStudent": 40,
       "level": "BACHELOR",
       "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "60~40",
-      "examDuration": 7200,
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
       "levelCode": 3,
-      "occurence": "1",
+      "occurence": "2",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "BSMERPADI",
-          "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "MADAM NAZURAH IZZATI BINTI HAJI YAZID"
-        },
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "BSTELEPUK",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "MADAM NAZURAH IZZATI BINTI HAJI YAZID"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "BSMERSAWA",
-          "begin_time": "10:00",
-          "end_time": "12:00",
-          "tutor": "MADAM NAZURAH IZZATI BINTI HAJI YAZID"
-        }
-      ]
-    }
-  ],
-  "TIF1007": [
-    {
-      "module": "FRENCH LANGUAGE SKILLS LEVEL II",
-      "course_id": "TIF1007",
-      "credits": 5,
-      "yearPeriod": "2025/S2",
-      "overallTargetStudent": 20,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "60~40",
-      "examDuration": 7200,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "MAKMALAV2",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "MR. AHMAD KAMIL BIN GHAZALI"
-        },
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "BSSEMPULUT",
+          "room": "ONLINE",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "MR. AHMAD KAMIL BIN GHAZALI"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "BSMERLIMAU",
-          "begin_time": "10:00",
-          "end_time": "12:00",
-          "tutor": "MR. AHMAD KAMIL BIN GHAZALI"
+          "tutor": "DR. ALI JALALIAN DAGHIGH"
         }
       ]
     }
@@ -127385,56 +129526,6 @@
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "MR. AHMAD KAMIL BIN GHAZALI"
-        }
-      ]
-    }
-  ],
-  "TIF2012": [
-    {
-      "module": "FRENCH LANGUAGE READING SKILLS",
-      "course_id": "TIF2012",
-      "credits": 2,
-      "yearPeriod": "2025/S2",
-      "overallTargetStudent": 20,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "BSMERLILIN",
-          "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "MR. AHMAD KAMIL BIN GHAZALI"
-        }
-      ]
-    }
-  ],
-  "TIF2013": [
-    {
-      "module": "FRENCH LANGUAGE LISTENING AND SPEAKING SKILLS",
-      "course_id": "TIF2013",
-      "credits": 2,
-      "yearPeriod": "2025/S2",
-      "overallTargetStudent": 20,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "BSMERTAJAM",
-          "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "MADAM NAZURAH IZZATI BINTI HAJI YAZID"
         }
       ]
     }
@@ -129966,8 +132057,7 @@
           "day": "Wednesday",
           "room": "BTSAC4",
           "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "MISS CHIENG SHEA LEE"
+          "end_time": "10:00"
         }
       ]
     },
@@ -129997,8 +132087,7 @@
           "day": "Wednesday",
           "room": "BTSAC4",
           "begin_time": "10:00",
-          "end_time": "12:00",
-          "tutor": "MISS CHIENG SHEA LEE"
+          "end_time": "12:00"
         }
       ]
     },
@@ -130384,11 +132473,11 @@
       "occurence": "1",
       "activities": [
         {
-          "title": "online",
-          "day": "Wednesday",
-          "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BSMERPADI",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. ANG PEI SOO"
         }
       ]
@@ -130803,6 +132892,54 @@
       ]
     }
   ],
+  "TIX3016": [
+    {
+      "module": "AN INSIGHT INTO FRENCH LANGUAGE AND CULTURE",
+      "course_id": "TIX3016",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": 0,
+      "level": null,
+      "faculty": null,
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BSBEBARU",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "MADAM NAZURAH IZZATI BINTI HAJI YAZID"
+        }
+      ]
+    },
+    {
+      "module": "AN INSIGHT INTO FRENCH LANGUAGE AND CULTURE",
+      "course_id": "TIX3016",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": 0,
+      "level": null,
+      "faculty": null,
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BSBEBARU",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "MADAM NAZURAH IZZATI BINTI HAJI YAZID"
+        }
+      ]
+    }
+  ],
   "TIX3017": [
     {
       "module": "AN INSIGHT INTO SPANISH LANGUAGE AND CULTURE",
@@ -130893,6 +133030,54 @@
           "begin_time": "11:00",
           "end_time": "14:00",
           "tutor": "MR. CANING ALEXIS JARAMILLO RENGIFO"
+        }
+      ]
+    }
+  ],
+  "TIX3018": [
+    {
+      "module": "AN INSIGHT INTO KOREAN LANGUAGE AND CULTURE",
+      "course_id": "TIX3018",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": 20,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BSTELEPUK",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "ASSOCIATE PROF. DR. KEUM HYUN KIM"
+        }
+      ]
+    },
+    {
+      "module": "AN INSIGHT INTO KOREAN LANGUAGE AND CULTURE",
+      "course_id": "TIX3018",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": 20,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "MAKMALAV2",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. KEUM HYUN KIM"
         }
       ]
     }
@@ -136389,7 +138574,7 @@
           "room": "MM3",
           "begin_time": "14:00",
           "end_time": "15:00",
-          "tutor": "PROF. DR. MOHD YAMANI IDNA BIN IDRIS"
+          "tutor": "ASSOCIATE PROF. TS. DR. ISMAIL BIN AHMEDY"
         }
       ]
     },
@@ -136513,7 +138698,7 @@
           "room": "MM3",
           "begin_time": "12:00",
           "end_time": "13:00",
-          "tutor": "DR. BRYAN RAJ A/L PETER JABARAJ"
+          "tutor": "PROF. TS. DR. AINUDDIN WAHID BIN ABDUL WAHAB"
         }
       ]
     },
@@ -136544,7 +138729,7 @@
           "room": "MM3",
           "begin_time": "13:00",
           "end_time": "14:00",
-          "tutor": "DR. BRYAN RAJ A/L PETER JABARAJ"
+          "tutor": "PROF. TS. DR. AINUDDIN WAHID BIN ABDUL WAHAB"
         }
       ]
     },
@@ -137462,14 +139647,16 @@
           "day": "Friday",
           "room": "BK",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "PROF. TS. DR. VIMALA A/P BALAKRISHNAN"
         },
         {
           "title": "tutorial",
           "day": "Friday",
           "room": "BK",
           "begin_time": "17:00",
-          "end_time": "18:00"
+          "end_time": "18:00",
+          "tutor": "PROF. TS. DR. VIMALA A/P BALAKRISHNAN"
         }
       ]
     },
@@ -137491,14 +139678,16 @@
           "day": "Friday",
           "room": "BK",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "PROF. TS. DR. VIMALA A/P BALAKRISHNAN"
         },
         {
           "title": "tutorial",
           "day": "Friday",
           "room": "BK",
           "begin_time": "17:00",
-          "end_time": "18:00"
+          "end_time": "18:00",
+          "tutor": "PROF. TS. DR. VIMALA A/P BALAKRISHNAN"
         }
       ]
     }
@@ -137523,7 +139712,7 @@
           "room": "DK1",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. POR LIP YEE @ POR KHOON SUN"
+          "tutor": "ASSOCIATE PROF. DR. ROSLI BIN SALLEH"
         },
         {
           "title": "tutorial",
@@ -137554,7 +139743,7 @@
           "room": "DK1",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. POR LIP YEE @ POR KHOON SUN"
+          "tutor": "ASSOCIATE PROF. DR. ROSLI BIN SALLEH"
         },
         {
           "title": "tutorial",
@@ -137562,7 +139751,7 @@
           "room": "ML",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "MADAM FAZIDAH BINTI OTHMAN"
+          "tutor": "MR. EMRAN BIN MOHD TAMIL"
         }
       ]
     },
@@ -137585,7 +139774,7 @@
           "room": "DK1",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. POR LIP YEE @ POR KHOON SUN"
+          "tutor": "ASSOCIATE PROF. DR. ROSLI BIN SALLEH"
         },
         {
           "title": "tutorial",
@@ -137616,7 +139805,7 @@
           "room": "DK1",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. POR LIP YEE @ POR KHOON SUN"
+          "tutor": "ASSOCIATE PROF. DR. ROSLI BIN SALLEH"
         },
         {
           "title": "tutorial",
@@ -137624,7 +139813,7 @@
           "room": "MM4",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "PROF. DR. MOHD YAMANI IDNA BIN IDRIS"
+          "tutor": "MR. NOORZAILY BIN MOHAMED NOOR"
         }
       ]
     },
@@ -137647,7 +139836,7 @@
           "room": "DK1",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. POR LIP YEE @ POR KHOON SUN"
+          "tutor": "ASSOCIATE PROF. DR. ROSLI BIN SALLEH"
         },
         {
           "title": "tutorial",
@@ -137678,7 +139867,7 @@
           "room": "DK1",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. POR LIP YEE @ POR KHOON SUN"
+          "tutor": "ASSOCIATE PROF. DR. ROSLI BIN SALLEH"
         },
         {
           "title": "tutorial",
@@ -137872,7 +140061,7 @@
           "room": "MS",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "DR. SAAIDAL RAZALLI BIN AZZUHRI"
+          "tutor": "ASSOCIATE PROF. DR. ROSLI BIN SALLEH"
         }
       ]
     },
@@ -138362,7 +140551,7 @@
           "room": "CCNALAB",
           "begin_time": "12:00",
           "end_time": "14:00",
-          "tutor": "PROF. TS. DR. AINUDDIN WAHID BIN ABDUL WAHAB"
+          "tutor": "ASSOCIATE PROF. DR. ROSLI BIN SALLEH"
         },
         {
           "title": "tutorial",
@@ -138370,7 +140559,7 @@
           "room": "CCNALAB",
           "begin_time": "14:00",
           "end_time": "15:00",
-          "tutor": "PROF. TS. DR. AINUDDIN WAHID BIN ABDUL WAHAB"
+          "tutor": "ASSOCIATE PROF. DR. ROSLI BIN SALLEH"
         }
       ]
     }
@@ -138744,14 +140933,16 @@
           "day": "Monday",
           "room": "DK2",
           "begin_time": "16:00",
-          "end_time": "18:00"
+          "end_time": "18:00",
+          "tutor": "DR. MUHAMMAD SHAHREEZA SAFIRUZ BIN KASSIM"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "DK2",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. MUHAMMAD SHAHREEZA SAFIRUZ BIN KASSIM"
         }
       ]
     },
@@ -138773,14 +140964,16 @@
           "day": "Monday",
           "room": "DK2",
           "begin_time": "16:00",
-          "end_time": "18:00"
+          "end_time": "18:00",
+          "tutor": "DR. MUHAMMAD SHAHREEZA SAFIRUZ BIN KASSIM"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "DK2",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. MUHAMMAD SHAHREEZA SAFIRUZ BIN KASSIM"
         }
       ]
     }
@@ -138835,9 +141028,9 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DK1",
-          "begin_time": "14:00",
-          "end_time": "16:00",
+          "room": "DK2",
+          "begin_time": "16:00",
+          "end_time": "18:00",
           "tutor": "DR. UNAIZAH HANUM BINTI OBAIDELLAH"
         },
         {
@@ -138866,9 +141059,9 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DK1",
-          "begin_time": "14:00",
-          "end_time": "16:00",
+          "room": "DK2",
+          "begin_time": "16:00",
+          "end_time": "18:00",
           "tutor": "DR. UNAIZAH HANUM BINTI OBAIDELLAH"
         },
         {
@@ -138896,9 +141089,9 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DK1",
-          "begin_time": "14:00",
-          "end_time": "16:00",
+          "room": "DK2",
+          "begin_time": "16:00",
+          "end_time": "18:00",
           "tutor": "DR. UNAIZAH HANUM BINTI OBAIDELLAH"
         }
       ]
@@ -138919,9 +141112,9 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DK1",
-          "begin_time": "14:00",
-          "end_time": "16:00",
+          "room": "DK2",
+          "begin_time": "16:00",
+          "end_time": "18:00",
           "tutor": "DR. UNAIZAH HANUM BINTI OBAIDELLAH"
         },
         {
@@ -139815,6 +142008,39 @@
       ]
     }
   ],
+  "WIF3001": [
+    {
+      "module": "SOFTWARE TESTING",
+      "course_id": "WIF3001",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 120,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK2",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. SITI HAFIZAH BINTI AB HAMID"
+        },
+        {
+          "title": "tutorial",
+          "day": "Tuesday",
+          "room": "DK2",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. SITI HAFIZAH BINTI AB HAMID"
+        }
+      ]
+    }
+  ],
   "WIF3002": [
     {
       "module": "SOFTWARE PROCESS AND QUALITY",
@@ -140099,8 +142325,8 @@
           "title": "tutorial",
           "day": "Thursday",
           "room": "MS",
-          "begin_time": "15:00",
-          "end_time": "16:00",
+          "begin_time": "17:00",
+          "end_time": "18:00",
           "tutor": "ASSOCIATE PROF. DR. NOR ANIZA BINTI ABDULLAH"
         }
       ]
@@ -140130,8 +142356,8 @@
           "title": "tutorial",
           "day": "Thursday",
           "room": "MS",
-          "begin_time": "15:00",
-          "end_time": "16:00",
+          "begin_time": "17:00",
+          "end_time": "18:00",
           "tutor": "ASSOCIATE PROF. DR. NOR ANIZA BINTI ABDULLAH"
         }
       ]
@@ -140258,7 +142484,7 @@
         },
         {
           "title": "tutorial",
-          "day": "Monday",
+          "day": "Tuesday",
           "room": "MS",
           "begin_time": "12:00",
           "end_time": "13:00",
@@ -140289,7 +142515,7 @@
         },
         {
           "title": "tutorial",
-          "day": "Monday",
+          "day": "Tuesday",
           "room": "MS",
           "begin_time": "12:00",
           "end_time": "13:00",
@@ -140412,7 +142638,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "MM1",
+          "room": "MM8",
           "begin_time": "16:00",
           "end_time": "18:00",
           "tutor": "ASSOCIATE PROF. DR. MOHAMAD NIZAM BIN AYUB"
@@ -140420,7 +142646,7 @@
         {
           "title": "tutorial",
           "day": "Monday",
-          "room": "MM1",
+          "room": "MM8",
           "begin_time": "17:00",
           "end_time": "18:00",
           "tutor": "ASSOCIATE PROF. DR. MOHAMAD NIZAM BIN AYUB"
@@ -140443,7 +142669,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "MM1",
+          "room": "MM8",
           "begin_time": "16:00",
           "end_time": "18:00",
           "tutor": "ASSOCIATE PROF. DR. MOHAMAD NIZAM BIN AYUB"
@@ -140451,7 +142677,7 @@
         {
           "title": "tutorial",
           "day": "Monday",
-          "room": "MM1",
+          "room": "MM8",
           "begin_time": "17:00",
           "end_time": "18:00",
           "tutor": "ASSOCIATE PROF. DR. MOHAMAD NIZAM BIN AYUB"
@@ -140590,15 +142816,37 @@
           "day": "Wednesday",
           "room": "ML",
           "begin_time": "08:00",
-          "end_time": "11:00",
-          "tutor": "PROF. DR. CHIEW THIAM KIAN"
+          "end_time": "11:00"
+        }
+      ]
+    },
+    {
+      "module": "FUNDAMENTALS OF PROGRAMMING",
+      "course_id": "WIX1002",
+      "credits": 5,
+      "yearPeriod": "2024/SS",
+      "overallTargetStudent": 200,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 12600,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "MM1",
+          "begin_time": "10:00",
+          "end_time": "12:00"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "MM2",
           "begin_time": "08:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "PROF. DR. CHIEW THIAM KIAN"
         }
       ]
     }
@@ -140623,7 +142871,7 @@
           "room": "MM1",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "ASSOCIATE PROF. DR. SURAYA BINTI HAMID"
+          "tutor": "PROF. TS. DR. VIMALA A/P BALAKRISHNAN"
         },
         {
           "title": "tutorial",
@@ -140631,7 +142879,7 @@
           "room": "MM1",
           "begin_time": "13:00",
           "end_time": "14:00",
-          "tutor": "ASSOCIATE PROF. DR. SURAYA BINTI HAMID"
+          "tutor": "PROF. TS. DR. VIMALA A/P BALAKRISHNAN"
         }
       ]
     },
@@ -140654,7 +142902,7 @@
           "room": "MM1",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "ASSOCIATE PROF. DR. SURAYA BINTI HAMID"
+          "tutor": "PROF. TS. DR. VIMALA A/P BALAKRISHNAN"
         },
         {
           "title": "tutorial",
@@ -140662,7 +142910,7 @@
           "room": "MM1",
           "begin_time": "13:00",
           "end_time": "14:00",
-          "tutor": "ASSOCIATE PROF. DR. SURAYA BINTI HAMID"
+          "tutor": "PROF. TS. DR. VIMALA A/P BALAKRISHNAN"
         }
       ]
     }
@@ -141094,7 +143342,7 @@
           "room": "ONLINE",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "PROF. TS. DR. RAFIDAH BINTI MD NOOR"
+          "tutor": "ASSOCIATE PROF. DR. AMIRRUDIN BIN KAMSIN"
         }
       ]
     },
@@ -142034,7 +144282,7 @@
           "room": "DK1",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "ASSOCIATE PROF. TS. DR. SRI DEVI A/P RAVANA"
+          "tutor": "MR. HAMZA H. M. ALTARTURI"
         }
       ]
     },
@@ -142057,7 +144305,7 @@
           "room": "DK1",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "ASSOCIATE PROF. TS. DR. SRI DEVI A/P RAVANA"
+          "tutor": "MR. HAMZA H. M. ALTARTURI"
         }
       ]
     }
@@ -142107,7 +144355,7 @@
           "room": "CCNALAB",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "DR. MUHAMMAD FAIZ BIN MOHD ZAKI"
+          "tutor": "DR. AHMAD SHAHRAFIDZ BIN KHALID"
         }
       ]
     },
@@ -142130,7 +144378,7 @@
           "room": "CCNALAB",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "DR. MUHAMMAD FAIZ BIN MOHD ZAKI"
+          "tutor": "DR. AHMAD SHAHRAFIDZ BIN KHALID"
         }
       ]
     }
@@ -142347,7 +144595,7 @@
           "room": "CCNALAB",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "ASSOCIATE PROF. DR. ROSLI BIN SALLEH"
+          "tutor": "ASSOCIATE PROF. DR. AMIRRUDIN BIN KAMSIN"
         }
       ]
     },
@@ -142370,7 +144618,7 @@
           "room": "CCNALAB",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "ASSOCIATE PROF. DR. ROSLI BIN SALLEH"
+          "tutor": "ASSOCIATE PROF. DR. AMIRRUDIN BIN KAMSIN"
         }
       ]
     }
@@ -142559,8 +144807,7 @@
           "day": "Saturday",
           "room": "MM4",
           "begin_time": "11:00",
-          "end_time": "14:00",
-          "tutor": "DR. LIEW WEI SHIUNG"
+          "end_time": "14:00"
         }
       ]
     },
@@ -142675,7 +144922,8 @@
           "day": "Monday",
           "room": "MM1",
           "begin_time": "18:00",
-          "end_time": "21:00"
+          "end_time": "21:00",
+          "tutor": "DR. UNAIZAH HANUM BINTI OBAIDELLAH"
         }
       ]
     },
@@ -143230,29 +145478,6 @@
           "room": "BK2",
           "begin_time": "18:00",
           "end_time": "21:00"
-        }
-      ]
-    },
-    {
-      "module": "POLICY RESEARCH",
-      "course_id": "ZQA7028",
-      "credits": 12,
-      "yearPeriod": "2025/S2",
-      "overallTargetStudent": 40,
-      "level": "MASTER",
-      "faculty": "INTERNATIONAL INSTITUTE OF PUBLIC POLICY AND MANAGEMENT",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 4,
-      "occurence": "P2",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "BK2",
-          "begin_time": "18:00",
-          "end_time": "21:00",
-          "tutor": "DR. ASLAM BIN ABD JALIL"
         }
       ]
     }
