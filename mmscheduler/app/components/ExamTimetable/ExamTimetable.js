@@ -13,6 +13,7 @@ import {
 } from "reactstrap";
 import { faCamera } from "@fortawesome/free-solid-svg-icons";
 import { saveTableImage } from "../../functions/Home/saveTableImage";
+import { toTitleCase } from "../../functions/Common/typography";
 
 const ExamTimetable = React.forwardRef(({ selectedOccurrences }, ref) => {
   const [settingsDropdownOpen, setSettingsDropdownOpen] = useState(false);
@@ -216,23 +217,25 @@ const ExamTimetable = React.forwardRef(({ selectedOccurrences }, ref) => {
               >
                 <div className={classes.eventContent}>
                   <div className={classes.moduleTitle}>
-                    #{activity.course_id} ({activity.occurrence})
-                    <br />
+                    <span>#{activity.course_id} ({activity.occurrence})</span>
                     {activity.module}
                   </div>
                   {showActivity && (
                     <div className={classes.activityTitle}>
-                      <hr />
                       <p>Activity: {activity.title.toUpperCase()}</p>
                     </div>
                   )}
                   {showRoomAndTime && (
                     <div className={classes.room}>
-                      <hr />
                       {activity.room}
                       <div className={classes.timeInfo}>
                         ({activity.begin_time} - {activity.end_time})
                       </div>
+                    </div>
+                  )}
+                  {activity.tutor && (
+                    <div className={classes.tutor}>
+                      {toTitleCase(activity.tutor)}
                     </div>
                   )}
                 </div>
