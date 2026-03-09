@@ -12,6 +12,7 @@ import {
   DropdownMenu,
   DropdownToggle,
 } from "reactstrap";
+import { toTitleCase } from "../../functions/Common/typography";
 
 const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
   const [settingsDropdownOpen, setSettingsDropdownOpen] = useState(false);
@@ -231,19 +232,16 @@ const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
                     >
                       <div className={classes.eventContent}>
                         <div className={classes.moduleTitle}>
-                          #{occurrence.course_id} ({occurrence.occurence})
-                          <br />
+                          <span>#{occurrence.course_id} ({occurrence.occurence})</span>
                           {occurrence.module}
                         </div>
                         {showActivity && (
                           <div className={classes.activityTitle}>
-                            <hr />
                             <p>Activity: {activity.title.toUpperCase()}</p>
                           </div>
                         )}
                         {showRoomAndTime && (
                           <div className={classes.room}>
-                            <hr />
                             {activity.room}
                             <div className={classes.timeInfo}>
                               ({activity.begin_time} - {activity.end_time})
@@ -252,8 +250,7 @@ const Timetable = React.forwardRef(({ selectedOccurrences }, ref) => {
                         )}
                         {showTutor && (
                           <div className={classes.tutor}>
-                            <hr />
-                            {activity.tutor ? activity.tutor : ""}
+                            {activity.tutor ? toTitleCase(activity.tutor) : ""}
                           </div>
                         )}
                       </div>

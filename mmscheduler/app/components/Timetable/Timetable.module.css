@@ -38,7 +38,8 @@
 .timetableContainer {
   width: 100%;
   overflow-x: auto;
-  border-radius: 15px;
+  padding: 4px; /* Buffer to prevent white corners on image save */
+  background-color: var(--body-background-color);
 }
 
 .timetableGrid {
@@ -172,9 +173,9 @@
 .onlineEvent,
 .otherEvent {
   /* Add margin to create space between events */
-  margin: 3px;
+  margin: 4px;
   /* Maintain padding for internal content */
-  padding: 6px;
+  padding: 8px;
   border-radius: 10px;
   /* Ensure padding and margin stay within the grid cell */
   box-sizing: border-box;
@@ -206,19 +207,16 @@
   flex-direction: column;
   justify-content: flex-start;
   /* Subtract margin to keep it within the grid */
-  width: calc(100% - 6px);
+  width: calc(100% - 8px);
   /* Subtract margin to keep it within the grid */
-  height: calc(100% - 6px);
+  height: calc(100% - 8px);
   /* Ensure padding and margin stay within the grid cell */
   box-sizing: border-box;
-  font-size: clamp(12px, 0.4vw, 7px);
-  line-height: 1.1;
+  font-size: clamp(10px, 0.35vw, 6.5px);
+  line-height: 1.15;
   overflow: hidden;
-  padding: 6px;
-  font-weight: bold;
+  padding: 8px;
   z-index: 3;
-  /* Space between internal elements */
-  gap: 4px;
 }
 
 .eventContent {
@@ -235,39 +233,59 @@
   hyphens: auto;
   overflow-wrap: break-word;
   max-height: none;
-  margin-bottom: 4px;
-  /* Same size as tutor */
-  font-size: clamp(12px, 0.4vw, 7px);
+  margin-bottom: 2px;
+  font-size: clamp(10px, 0.35vw, 6.5px);
+  font-weight: 700;
+  text-transform: uppercase;
   flex-grow: 1;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
+.moduleTitle span {
+  display: block;
+}
+
 .timeInfo {
-  /* Same size as tutor */
-  font-size: clamp(12px, 0.4vw, 7px);
+  font-size: clamp(10px, 0.35vw, 6.5px);
   white-space: normal;
   word-break: break-word;
   overflow: hidden;
   text-overflow: ellipsis;
-}
+} 
 
-.room,
-.tutor {
-  font-size: clamp(12px, 0.4vw, 7px) !important;
-  margin-top: auto;
-  padding-top: 2px;
+.room {
+  font-size: clamp(10px, 0.35vw, 6.5px) !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 2px;
   word-break: break-word;
   hyphens: auto;
   overflow-wrap: break-word;
   max-height: none;
   overflow: visible;
-  margin-bottom: 5px;
+}
+
+.tutor {
+  font-size: clamp(10px, 0.35vw, 6.5px) !important;
+  font-weight: 700;
+  text-transform: none;
+  margin-top: 2px;
+  word-break: break-word;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  max-height: none;
+  overflow: visible;
+}
+
+.activityTitle {
+  margin-top: 2px;
 }
 
 .activityTitle p {
   margin: 0;
-  /* Same size as tutor */
-  font-size: clamp(12px, 0.4vw, 7px);
+  font-size: clamp(10px, 0.35vw, 6.5px);
+  font-weight: 700;
+  text-transform: uppercase;
 }
