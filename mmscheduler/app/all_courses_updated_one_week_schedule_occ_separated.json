@@ -1942,7 +1942,7 @@
           "room": "CDK3",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "DR. SERRENE LEONG"
+          "tutor": "DR. NOR HAZLINA BINTI HASHIM"
         }
       ]
     }
@@ -2855,7 +2855,8 @@
           "day": "Friday",
           "room": "CBS1112",
           "begin_time": "18:00",
-          "end_time": "21:00"
+          "end_time": "21:00",
+          "tutor": "DR. FARZANA PARVEEN TAJUDEEN"
         }
       ]
     }
@@ -17850,7 +17851,7 @@
           "room": "DKF",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "DR. MOHAMAD AKMAL BIN IBRAHIM"
+          "tutor": "DR. TAN MIAU ING"
         },
         {
           "title": "tutorial",
@@ -17858,7 +17859,7 @@
           "room": "BS4",
           "begin_time": "11:00",
           "end_time": "12:00",
-          "tutor": "DR. MOHAMAD AKMAL BIN IBRAHIM"
+          "tutor": "DR. TAN MIAU ING"
         }
       ]
     },
@@ -17881,7 +17882,7 @@
           "room": "DKF",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "DR. MOHAMAD AKMAL BIN IBRAHIM"
+          "tutor": "DR. TAN MIAU ING"
         },
         {
           "title": "tutorial",
@@ -17889,7 +17890,7 @@
           "room": "BS4",
           "begin_time": "13:00",
           "end_time": "14:00",
-          "tutor": "DR. MOHAMAD AKMAL BIN IBRAHIM"
+          "tutor": "DR. TAN MIAU ING"
         }
       ]
     },
@@ -17912,7 +17913,7 @@
           "room": "DKF",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "DR. MOHAMAD AKMAL BIN IBRAHIM"
+          "tutor": "DR. TAN MIAU ING"
         },
         {
           "title": "tutorial",
@@ -17920,7 +17921,7 @@
           "room": "BS4",
           "begin_time": "08:00",
           "end_time": "09:00",
-          "tutor": "DR. MOHAMAD AKMAL BIN IBRAHIM"
+          "tutor": "DR. TAN MIAU ING"
         }
       ]
     },
@@ -17943,7 +17944,7 @@
           "room": "DKF",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "DR. MOHAMAD AKMAL BIN IBRAHIM"
+          "tutor": "DR. TAN MIAU ING"
         },
         {
           "title": "tutorial",
@@ -17951,7 +17952,7 @@
           "room": "BS4",
           "begin_time": "09:00",
           "end_time": "10:00",
-          "tutor": "DR. MOHAMAD AKMAL BIN IBRAHIM"
+          "tutor": "DR. TAN MIAU ING"
         }
       ]
     }
@@ -18327,7 +18328,7 @@
           "room": "JATI1",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "DR. MOHAMAD AKMAL BIN IBRAHIM"
+          "tutor": "DR. SALINA BINTI ZAINOL"
         },
         {
           "title": "tutorial",
@@ -18358,7 +18359,7 @@
           "room": "JATI1",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "DR. MOHAMAD AKMAL BIN IBRAHIM"
+          "tutor": "DR. SALINA BINTI ZAINOL"
         },
         {
           "title": "tutorial",
@@ -18389,7 +18390,7 @@
           "room": "JATI1",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "DR. MOHAMAD AKMAL BIN IBRAHIM"
+          "tutor": "DR. SALINA BINTI ZAINOL"
         },
         {
           "title": "tutorial",
@@ -22039,7 +22040,8 @@
           "day": "Tuesday",
           "room": "ONLINE",
           "begin_time": "16:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. NITHIYA A/P GUNA SAIGARAN"
         }
       ]
     },
@@ -24382,7 +24384,8 @@
           "day": "Tuesday",
           "room": "BKP4",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. HAZREENA BINTI HUSSEIN"
         }
       ]
     }
@@ -24463,7 +24466,8 @@
           "day": "Tuesday",
           "room": "BKP4",
           "begin_time": "14:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. HAZREENA BINTI HUSSEIN"
         }
       ]
     }
@@ -33594,7 +33598,7 @@
           "room": "CBS10",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "MRS NORAZWANI BINTI MOHAMAD YUSOP"
+          "tutor": "PROF. DR. MOHD NAZARI BIN ISMAIL"
         }
       ]
     }
@@ -33942,7 +33946,7 @@
           "room": "CDK2",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "DR. NOR HAZLINA BINTI HASHIM"
+          "tutor": "DR. SERRENE LEONG"
         }
       ]
     }
@@ -34190,7 +34194,7 @@
           "room": "CDK3",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "DR. SERRENE LEONG"
+          "tutor": "DR. NOR HAZLINA BINTI HASHIM"
         }
       ]
     }
@@ -42054,7 +42058,7 @@
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "20:00",
-          "tutor": "MADAM NOR SYAKIRIN BINTI MOHAMED NASRUDIN"
+          "tutor": "MISS AINA AZLIN BINTI MOHAMAT ARIF"
         }
       ]
     },
@@ -42073,7 +42077,7 @@
       "activities": [
         {
           "title": "online",
-          "day": "Monday",
+          "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "20:00",
@@ -42191,7 +42195,7 @@
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "20:00",
-          "tutor": "MADAM NOR SYAKIRIN BINTI MOHAMED NASRUDIN"
+          "tutor": "MISS AINA AZLIN BINTI MOHAMAT ARIF"
         }
       ]
     },
@@ -42210,7 +42214,7 @@
       "activities": [
         {
           "title": "online",
-          "day": "Monday",
+          "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "20:00",
@@ -69766,6 +69770,30 @@
           "begin_time": "11:00",
           "end_time": "13:00",
           "tutor": "DR. NURUL ASYIKEEN BINTI AB.MUTALIB"
+        }
+      ]
+    }
+  ],
+  "KIB4030": [
+    {
+      "module": "CLINICAL PROSTHETICS",
+      "course_id": "KIB4030",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 10,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "REDCUBE1",
+          "begin_time": "11:00",
+          "end_time": "13:00"
         }
       ]
     }
@@ -98976,6 +99004,30 @@
       ]
     }
   ],
+  "PQO7007": [
+    {
+      "module": "ADMINISTRATION OF PHYSICAL EDUCATION AND SPORT IN INSTITUTION OF EDUCATION",
+      "course_id": "PQO7007",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 30,
+      "level": "MASTER",
+      "faculty": "FACULTY OF EDUCATION",
+      "continuousAssessmentWeightage": "70~30",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BSEC305",
+          "begin_time": "15:00",
+          "end_time": "18:00"
+        }
+      ]
+    }
+  ],
   "PQO7008": [
     {
       "module": "KINESIOLOGY",
@@ -125880,18 +125932,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "DKVANDAKDK",
-          "begin_time": "14:00",
-          "end_time": "15:00",
-          "tutor": "DR. YUSRIZAM BIN SHARIFUDDIN"
-        },
-        {
-          "title": "lecture",
           "day": "Wednesday",
           "room": "DKVANDAKDK",
           "begin_time": "14:00",
           "end_time": "16:00",
+          "tutor": "DR. YUSRIZAM BIN SHARIFUDDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DKVANDAKDK",
+          "begin_time": "14:00",
+          "end_time": "15:00",
           "tutor": "DR. YUSRIZAM BIN SHARIFUDDIN"
         }
       ]
@@ -129575,13 +129627,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "BSSELASIH",
-          "begin_time": "13:00",
-          "end_time": "16:00"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "BSSELASIH",
           "begin_time": "09:00",
@@ -129602,6 +129647,13 @@
           "room": "BSSELASIH",
           "begin_time": "09:00",
           "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BSSELASIH",
+          "begin_time": "13:00",
+          "end_time": "16:00"
         },
         {
           "title": "lecture",
@@ -130603,7 +130655,7 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "MKMERBATU",
+          "room": "BS AMRA",
           "begin_time": "10:00",
           "end_time": "12:00"
         },
@@ -132636,96 +132688,6 @@
           "room": "BSMERLIMAU",
           "begin_time": "10:00",
           "end_time": "12:00"
-        }
-      ]
-    }
-  ],
-  "TIX3014": [
-    {
-      "module": "AN INSIGHT INTO GERMAN LANGUAGE AND CULTURE",
-      "course_id": "TIX3014",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 40,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BSTELEPUK",
-          "begin_time": "16:00",
-          "end_time": "18:00"
-        }
-      ]
-    },
-    {
-      "module": "AN INSIGHT INTO GERMAN LANGUAGE AND CULTURE",
-      "course_id": "TIX3014",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 40,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "2",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "BSTELEPUK",
-          "begin_time": "16:00",
-          "end_time": "18:00"
-        }
-      ]
-    },
-    {
-      "module": "AN INSIGHT INTO GERMAN LANGUAGE AND CULTURE",
-      "course_id": "TIX3014",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 40,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "1M",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BSTELEPUK",
-          "begin_time": "16:00",
-          "end_time": "18:00"
-        }
-      ]
-    },
-    {
-      "module": "AN INSIGHT INTO GERMAN LANGUAGE AND CULTURE",
-      "course_id": "TIX3014",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 40,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "2M",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "BSTELEPUK",
-          "begin_time": "16:00",
-          "end_time": "18:00"
         }
       ]
     }
