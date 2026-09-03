@@ -2117,7 +2117,7 @@
           "room": "CPSR02",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "ASSOCIATE PROF. DR. MAZNI BINTI ABDULLAH"
+          "tutor": "DR. KAMISAH BINTI ISMAIL"
         }
       ]
     }
@@ -6360,6 +6360,30 @@
       ]
     }
   ],
+  "AIB3024": [
+    {
+      "module": "RESEARCH PROJECT",
+      "course_id": "AIB3024",
+      "credits": 8,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 60,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "P1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DKF",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        }
+      ]
+    }
+  ],
   "AIC1004": [
     {
       "module": "DRAMA: AN INTRODUCTION",
@@ -8282,9 +8306,9 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "MKGEOG1",
-          "begin_time": "11:00",
-          "end_time": "13:00",
+          "room": "AUDIIAYEA",
+          "begin_time": "10:00",
+          "end_time": "12:00",
           "tutor": "PROF. DR. FIRUZA BEGHAM BINTI MUSTAFA"
         },
         {
@@ -8313,9 +8337,9 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "MKGEOG1",
-          "begin_time": "11:00",
-          "end_time": "13:00",
+          "room": "AUDIIAYEA",
+          "begin_time": "10:00",
+          "end_time": "12:00",
           "tutor": "PROF. DR. FIRUZA BEGHAM BINTI MUSTAFA"
         },
         {
@@ -8344,9 +8368,9 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "MKGEOG1",
-          "begin_time": "11:00",
-          "end_time": "13:00",
+          "room": "AUDIIAYEA",
+          "begin_time": "10:00",
+          "end_time": "12:00",
           "tutor": "PROF. DR. FIRUZA BEGHAM BINTI MUSTAFA"
         },
         {
@@ -8505,16 +8529,14 @@
           "day": "Thursday",
           "room": "BILIKSPM1",
           "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. NIK NOOR ATHIRAH BINTI NIK YUSOFF"
+          "end_time": "16:00"
         },
         {
           "title": "tutorial",
           "day": "Wednesday",
           "room": "BS9",
           "begin_time": "08:00",
-          "end_time": "09:00",
-          "tutor": "DR. NIK NOOR ATHIRAH BINTI NIK YUSOFF"
+          "end_time": "09:00"
         }
       ]
     },
@@ -8536,16 +8558,14 @@
           "day": "Thursday",
           "room": "BILIKSPM1",
           "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. NIK NOOR ATHIRAH BINTI NIK YUSOFF"
+          "end_time": "16:00"
         },
         {
           "title": "tutorial",
           "day": "Wednesday",
           "room": "BS9",
-          "begin_time": "10:00",
-          "end_time": "11:00",
-          "tutor": "DR. NIK NOOR ATHIRAH BINTI NIK YUSOFF"
+          "begin_time": "09:00",
+          "end_time": "10:00"
         }
       ]
     },
@@ -8567,8 +8587,7 @@
           "day": "Wednesday",
           "room": "BS9",
           "begin_time": "08:00",
-          "end_time": "09:00",
-          "tutor": "DR. NIK NOOR ATHIRAH BINTI NIK YUSOFF"
+          "end_time": "09:00"
         }
       ]
     }
@@ -8590,10 +8609,10 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "MKGEOG1",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "MISS NADHWAH TUL IMAN MIZAM BINTI HARUN MIZAM"
+          "room": "AUDIIAYEA",
+          "begin_time": "12:00",
+          "end_time": "14:00",
+          "tutor": "DR. NIK NOOR ATHIRAH BINTI NIK YUSOFF"
         },
         {
           "title": "tutorial",
@@ -8601,7 +8620,7 @@
           "room": "MKGEOG1",
           "begin_time": "09:00",
           "end_time": "10:00",
-          "tutor": "MISS NADHWAH TUL IMAN MIZAM BINTI HARUN MIZAM"
+          "tutor": "DR. NIK NOOR ATHIRAH BINTI NIK YUSOFF"
         }
       ]
     },
@@ -8621,10 +8640,10 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "MKGEOG1",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "MISS NADHWAH TUL IMAN MIZAM BINTI HARUN MIZAM"
+          "room": "AUDIIAYEA",
+          "begin_time": "12:00",
+          "end_time": "14:00",
+          "tutor": "DR. NIK NOOR ATHIRAH BINTI NIK YUSOFF"
         },
         {
           "title": "tutorial",
@@ -8632,7 +8651,7 @@
           "room": "MKGEOG1",
           "begin_time": "12:00",
           "end_time": "13:00",
-          "tutor": "MISS NADHWAH TUL IMAN MIZAM BINTI HARUN MIZAM"
+          "tutor": "DR. NIK NOOR ATHIRAH BINTI NIK YUSOFF"
         }
       ]
     },
@@ -8652,10 +8671,10 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "MKGEOG1",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "MISS NADHWAH TUL IMAN MIZAM BINTI HARUN MIZAM"
+          "room": "AUDIIAYEA",
+          "begin_time": "12:00",
+          "end_time": "14:00",
+          "tutor": "DR. NIK NOOR ATHIRAH BINTI NIK YUSOFF"
         },
         {
           "title": "tutorial",
@@ -8663,7 +8682,7 @@
           "room": "MKGEOG1",
           "begin_time": "09:00",
           "end_time": "10:00",
-          "tutor": "MISS NADHWAH TUL IMAN MIZAM BINTI HARUN MIZAM"
+          "tutor": "DR. NIK NOOR ATHIRAH BINTI NIK YUSOFF"
         }
       ]
     }
@@ -8839,19 +8858,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "JATI2",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. NIK NOOR ATHIRAH BINTI NIK YUSOFF"
+          "day": "Wednesday",
+          "room": "DKB",
+          "begin_time": "10:00",
+          "end_time": "12:00"
         },
         {
           "title": "tutorial",
           "day": "Wednesday",
           "room": "BS16",
           "begin_time": "16:00",
-          "end_time": "17:00",
-          "tutor": "DR. NIK NOOR ATHIRAH BINTI NIK YUSOFF"
+          "end_time": "17:00"
         }
       ]
     },
@@ -8870,19 +8887,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "JATI2",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. NIK NOOR ATHIRAH BINTI NIK YUSOFF"
+          "day": "Wednesday",
+          "room": "DKB",
+          "begin_time": "10:00",
+          "end_time": "12:00"
         },
         {
           "title": "tutorial",
           "day": "Wednesday",
           "room": "BS16",
-          "begin_time": "16:00",
-          "end_time": "17:00",
-          "tutor": "DR. NIK NOOR ATHIRAH BINTI NIK YUSOFF"
+          "begin_time": "12:00",
+          "end_time": "13:00"
         }
       ]
     },
@@ -8901,19 +8916,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "JATI2",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. NIK NOOR ATHIRAH BINTI NIK YUSOFF"
+          "day": "Wednesday",
+          "room": "DKB",
+          "begin_time": "10:00",
+          "end_time": "12:00"
         },
         {
           "title": "tutorial",
           "day": "Wednesday",
           "room": "BS16",
-          "begin_time": "16:00",
-          "end_time": "17:00",
-          "tutor": "DR. NIK NOOR ATHIRAH BINTI NIK YUSOFF"
+          "begin_time": "12:00",
+          "end_time": "13:00"
         }
       ]
     }
@@ -8978,6 +8991,30 @@
           "begin_time": "08:00",
           "end_time": "09:00",
           "tutor": "DR. NISFARIZA BINTI MOHD NOOR"
+        }
+      ]
+    }
+  ],
+  "AID3024": [
+    {
+      "module": "RESEARCH PROJECT",
+      "course_id": "AID3024",
+      "credits": 8,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 80,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "P1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DKF",
+          "begin_time": "08:00",
+          "end_time": "10:00"
         }
       ]
     }
@@ -23909,7 +23946,7 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "DKD",
+          "room": "DKF",
           "begin_time": "10:00",
           "end_time": "13:00"
         }
@@ -23931,7 +23968,7 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "DKD",
+          "room": "DKF",
           "begin_time": "10:00",
           "end_time": "13:00"
         }
@@ -26442,14 +26479,6 @@
         },
         {
           "title": "tutorial",
-          "day": "Thursday",
-          "room": "STURP1",
-          "begin_time": "14:00",
-          "end_time": "18:00",
-          "tutor": "DR. TEH BOR TSONG"
-        },
-        {
-          "title": "tutorial",
           "day": "Friday",
           "room": "STURP1",
           "begin_time": "14:00",
@@ -26462,6 +26491,14 @@
           "room": "STURP1",
           "begin_time": "14:00",
           "end_time": "19:00",
+          "tutor": "DR. TEH BOR TSONG"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "STURP1",
+          "begin_time": "14:00",
+          "end_time": "18:00",
           "tutor": "DR. TEH BOR TSONG"
         }
       ]
@@ -30469,6 +30506,31 @@
       ]
     }
   ],
+  "CIA3004": [
+    {
+      "module": "SEMINAR IN MANAGEMENT ACCOUNTING",
+      "course_id": "CIA3004",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 40,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 10800,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Monday",
+          "room": "CBS1112",
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "DR. DAYANA BINTI JALALUDIN"
+        }
+      ]
+    }
+  ],
   "CIA3008": [
     {
       "module": "INFORMATION TECHNOLOGY (IT) AUDITING",
@@ -33484,6 +33546,20 @@
           "begin_time": "09:00",
           "end_time": "18:00",
           "tutor": "PROF. DR. NOOR ISMAWATI BINTI JAAFAR"
+        },
+        {
+          "title": "lecture",
+          "day": "Saturday",
+          "room": "CBS1112",
+          "begin_time": "09:00",
+          "end_time": "18:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Sunday",
+          "room": "CBS1112",
+          "begin_time": "09:00",
+          "end_time": "18:00"
         }
       ]
     }
@@ -33671,7 +33747,7 @@
           "room": "CDK2",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "DR. SUHAILY BINTI SHAHIMI"
+          "tutor": "DR. MOHD HANIFF ZAINULDIN"
         }
       ]
     },
@@ -68309,6 +68385,14 @@
           "begin_time": "08:00",
           "end_time": "11:00",
           "tutor": "IR. DR. HUZAIFA BIN HASHIM"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ORANGECUBE1",
+          "begin_time": "16:00",
+          "end_time": "17:00",
+          "tutor": "IR. DR. HUZAIFA BIN HASHIM"
         }
       ]
     }
@@ -68809,7 +68893,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "IDROOM",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -68817,7 +68901,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "IDROOM",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -70016,17 +70100,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "DUMMY",
-          "begin_time": "14:00",
-          "end_time": "17:00"
-        },
-        {
-          "title": "lecture",
           "day": "Friday",
           "room": "DUMMY",
           "begin_time": "09:00",
           "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DUMMY",
+          "begin_time": "14:00",
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
@@ -73015,7 +73099,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "GREENCUBE1",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -73023,7 +73107,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "GREENCUBE1",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -73347,16 +73431,16 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "DUMMY",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "ASSOCIATE PROF. DR. HENDRIK SIMON CORNELIS METSELAAR"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "DUMMY",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. HENDRIK SIMON CORNELIS METSELAAR"
         }
       ]
@@ -74514,16 +74598,16 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "BP204",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "ASSOCIATE PROF. IR. DR. MOHD SAYUTI BIN AB KARIM"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "BP204",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. IR. DR. MOHD SAYUTI BIN AB KARIM"
         },
         {
@@ -75452,7 +75536,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "PURPLECUBE",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -75460,7 +75544,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "PURPLECUBE",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -75655,7 +75739,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DUMMY",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -75663,7 +75747,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DUMMY",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -88316,14 +88400,6 @@
         },
         {
           "title": "tutorial",
-          "day": "Thursday",
-          "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "PROF. HESHAM MAHYOUB SARHAN AL-MEKHLAFI"
-        },
-        {
-          "title": "tutorial",
           "day": "Friday",
           "room": "DCP",
           "begin_time": "09:00",
@@ -100212,7 +100288,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "ASEANROOM",
           "begin_time": "15:00",
           "end_time": "18:00",
@@ -100220,7 +100296,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "ASEANROOM",
           "begin_time": "15:00",
           "end_time": "18:00",
@@ -123336,7 +123412,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "BTSA2ISB",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -123344,7 +123420,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "BTSA2ISB",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -140804,7 +140880,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "MM7",
+          "room": "MM8",
           "begin_time": "10:00",
           "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. DR. LING TECK CHAW"
@@ -140812,37 +140888,6 @@
         {
           "title": "tutorial",
           "day": "Tuesday",
-          "room": "CCNALAB",
-          "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "ASSOCIATE PROF. DR. LING TECK CHAW"
-        }
-      ]
-    },
-    {
-      "module": "ADVANCED NETWORK TECHNOLOGY",
-      "course_id": "WIA2008",
-      "credits": 4,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 90,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
-      "continuousAssessmentWeightage": "50~50",
-      "examDuration": 10800,
-      "levelCode": 3,
-      "occurence": "2",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "MM7",
-          "begin_time": "10:00",
-          "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. LING TECK CHAW"
-        },
-        {
-          "title": "tutorial",
-          "day": "Wednesday",
           "room": "CCNALAB",
           "begin_time": "08:00",
           "end_time": "10:00",
