@@ -53114,14 +53114,14 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "ONLINE",
           "begin_time": "18:00",
           "end_time": "21:00"
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "18:00",
           "end_time": "21:00"
@@ -91774,13 +91774,6 @@
       "levelCode": 4,
       "occurence": "1",
       "activities": [
-        {
-          "title": "online",
-          "day": "Thursday",
-          "room": "NLINE",
-          "begin_time": "17:00",
-          "end_time": "20:00"
-        },
         {
           "title": "online",
           "day": "Tuesday",
