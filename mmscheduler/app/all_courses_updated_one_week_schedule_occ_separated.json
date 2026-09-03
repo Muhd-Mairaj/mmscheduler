@@ -11031,10 +11031,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "JATI2",
-          "begin_time": "08:00",
-          "end_time": "10:00",
+          "day": "Thursday",
+          "room": "BS14",
+          "begin_time": "13:00",
+          "end_time": "15:00",
           "tutor": "PROF. DR. HANAFI BIN HUSSIN"
         },
         {
@@ -11062,10 +11062,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "JATI2",
-          "begin_time": "08:00",
-          "end_time": "10:00",
+          "day": "Thursday",
+          "room": "BS14",
+          "begin_time": "13:00",
+          "end_time": "15:00",
           "tutor": "PROF. DR. HANAFI BIN HUSSIN"
         },
         {
@@ -11093,10 +11093,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "JATI2",
-          "begin_time": "08:00",
-          "end_time": "10:00",
+          "day": "Thursday",
+          "room": "BS14",
+          "begin_time": "13:00",
+          "end_time": "15:00",
           "tutor": "PROF. DR. HANAFI BIN HUSSIN"
         },
         {
@@ -23576,7 +23576,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "TOM",
+          "room": "MKFSSS",
           "begin_time": "12:00",
           "end_time": "15:00",
           "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
@@ -114229,8 +114229,8 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "MAKKOMPGEO",
-          "begin_time": "12:00",
-          "end_time": "14:00",
+          "begin_time": "10:00",
+          "end_time": "12:00",
           "tutor": "DR. NOER EL HIDAYAH BINTI ISMAIL"
         }
       ]
@@ -114276,8 +114276,8 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "MAKKOMPGEO",
-          "begin_time": "12:00",
-          "end_time": "14:00",
+          "begin_time": "10:00",
+          "end_time": "12:00",
           "tutor": "DR. NOER EL HIDAYAH BINTI ISMAIL"
         }
       ]
@@ -117463,8 +117463,8 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "MMATE2ISM",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "DR. SHAHIZAT BIN AMIR"
         }
       ]
@@ -117548,8 +117548,8 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "MMATE2ISM",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "DR. SHAHIZAT BIN AMIR"
         }
       ]
