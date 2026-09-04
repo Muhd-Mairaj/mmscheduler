@@ -26502,14 +26502,6 @@
         },
         {
           "title": "tutorial",
-          "day": "Friday",
-          "room": "STURP1",
-          "begin_time": "14:00",
-          "end_time": "19:00",
-          "tutor": "DR. TEH BOR TSONG"
-        },
-        {
-          "title": "tutorial",
           "day": "Tuesday",
           "room": "STURP1",
           "begin_time": "14:00",
@@ -26522,6 +26514,14 @@
           "room": "STURP1",
           "begin_time": "14:00",
           "end_time": "18:00",
+          "tutor": "DR. TEH BOR TSONG"
+        },
+        {
+          "title": "tutorial",
+          "day": "Friday",
+          "room": "STURP1",
+          "begin_time": "14:00",
+          "end_time": "19:00",
           "tutor": "DR. TEH BOR TSONG"
         }
       ]
