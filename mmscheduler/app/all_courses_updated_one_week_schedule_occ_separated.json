@@ -27908,7 +27908,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Friday",
           "room": "STEM",
           "begin_time": "09:00",
           "end_time": "11:00",
@@ -27939,7 +27939,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Friday",
           "room": "STEM",
           "begin_time": "09:00",
           "end_time": "11:00",
@@ -74084,16 +74084,16 @@
           "title": "practical",
           "day": "Saturday",
           "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "12:00",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. SHAIFULAZUAR BIN ROZALI"
         },
         {
           "title": "practical",
           "day": "Saturday",
           "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "begin_time": "09:00",
+          "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. DR. SHAIFULAZUAR BIN ROZALI"
         }
       ]
@@ -74323,16 +74323,16 @@
           "title": "practical",
           "day": "Saturday",
           "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "12:00",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. SHAIFULAZUAR BIN ROZALI"
         },
         {
           "title": "practical",
           "day": "Saturday",
           "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "begin_time": "09:00",
+          "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. DR. SHAIFULAZUAR BIN ROZALI"
         }
       ]
@@ -83821,15 +83821,15 @@
           "title": "lecture",
           "day": "Saturday",
           "room": "DK1",
-          "begin_time": "09:00",
-          "end_time": "12:00"
+          "begin_time": "14:00",
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
           "day": "Saturday",
           "room": "DK1",
-          "begin_time": "14:00",
-          "end_time": "17:00"
+          "begin_time": "09:00",
+          "end_time": "12:00"
         },
         {
           "title": "lecture",
@@ -114268,7 +114268,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "MAKKOMPGEO",
+          "room": "DKGEOLOGI",
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "DR. NOER EL HIDAYAH BINTI ISMAIL"
@@ -114276,7 +114276,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "MAKKOMPGEO",
+          "room": "DKGEOLOGI",
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "DR. NOER EL HIDAYAH BINTI ISMAIL"
@@ -114299,7 +114299,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "MAKKOMPGEO",
+          "room": "DKGEOLOGI",
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "DR. NOER EL HIDAYAH BINTI ISMAIL"
@@ -114307,7 +114307,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "MAKKOMPGEO",
+          "room": "DKGEOLOGI",
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "DR. NOER EL HIDAYAH BINTI ISMAIL"
