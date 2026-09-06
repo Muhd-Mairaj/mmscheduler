@@ -33601,14 +33601,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Saturday",
-          "room": "CBS1112",
-          "begin_time": "08:00",
-          "end_time": "18:00",
-          "tutor": "ASSOCIATE PROF. DR. SHARMILA A/P JAYASINGAM"
-        },
-        {
-          "title": "lecture",
           "day": "Sunday",
           "room": "CBS1112",
           "begin_time": "08:00",
@@ -74084,16 +74076,16 @@
           "title": "practical",
           "day": "Saturday",
           "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "begin_time": "09:00",
+          "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. DR. SHAIFULAZUAR BIN ROZALI"
         },
         {
           "title": "practical",
           "day": "Saturday",
           "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "12:00",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. SHAIFULAZUAR BIN ROZALI"
         }
       ]
@@ -74323,16 +74315,16 @@
           "title": "practical",
           "day": "Saturday",
           "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "begin_time": "09:00",
+          "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. DR. SHAIFULAZUAR BIN ROZALI"
         },
         {
           "title": "practical",
           "day": "Saturday",
           "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "12:00",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. SHAIFULAZUAR BIN ROZALI"
         }
       ]
@@ -83821,15 +83813,15 @@
           "title": "lecture",
           "day": "Saturday",
           "room": "DK1",
-          "begin_time": "14:00",
-          "end_time": "17:00"
+          "begin_time": "09:00",
+          "end_time": "12:00"
         },
         {
           "title": "lecture",
           "day": "Saturday",
           "room": "DK1",
-          "begin_time": "09:00",
-          "end_time": "12:00"
+          "begin_time": "14:00",
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
