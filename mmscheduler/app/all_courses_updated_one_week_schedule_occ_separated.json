@@ -33601,14 +33601,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Sunday",
-          "room": "CBS1112",
-          "begin_time": "08:00",
-          "end_time": "18:00",
-          "tutor": "ASSOCIATE PROF. DR. SHARMILA A/P JAYASINGAM"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
           "room": "CDK5",
           "begin_time": "18:00",
@@ -108838,11 +108830,11 @@
         },
         {
           "title": "lab",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "MKIMIAANAIII",
           "begin_time": "11:00",
           "end_time": "17:00",
-          "tutor": "DR. SITI JARIANI BINTI MOHD JANI"
+          "tutor": "ASSOCIATE PROF. DR. TAY KHENG SOO"
         }
       ]
     },
@@ -108869,11 +108861,11 @@
         },
         {
           "title": "lab",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "MKIMIAANAIII",
           "begin_time": "11:00",
           "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. TAY KHENG SOO"
+          "tutor": "DR. SITI JARIANI BINTI MOHD JANI"
         }
       ]
     }
