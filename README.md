@@ -31,7 +31,7 @@ You need Node.js 20.9 or newer.
 
 ```bash
 git clone https://github.com/Muhd-Mairaj/mmscheduler.git
-cd mmscheduler/mmscheduler
+cd mmscheduler
 npm ci
 npm run dev
 ```
@@ -45,32 +45,9 @@ npm run build
 npm run start
 ```
 
-## Updating timetable data
+## Timetable data
 
-Current data comes from Joshua Chew's [UM Timetable SDK](https://github.com/damnitjoshua/um-timetable-sdk). Follow its instructions to generate:
-
-- `course_events_with_details.json`
-- `lecturer_data.json`
-
-Place both files in `toolmod/`, then run the conversion scripts from the repository root. Python 3.12 or newer is required.
-
-```bash
-cd toolmod
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-
-node cleaner.js course_events_with_details.json lecturer_data.json
-python main.py ../mmscheduler/app/all_courses_updated_one_week_schedule_occ_separated.json
-
-cd ../mmscheduler
-npm ci
-npm run build
-```
-
-The raw SDK files are ignored by Git and may contain lecturer contact or personnel information. Do not commit them. The older `scraper/` directory is kept for reference and is no longer the active data pipeline.
-
-The SDK workflow above is summarized from its linked documentation. Content was rephrased for compliance with licensing restrictions.
+The timetable data is bundled in `app/all_courses_updated_one_week_schedule_occ_separated.json`. The schedule data is refreshed regularly with course and occurrence details for Universiti Malaya.
 
 ## Built with
 
