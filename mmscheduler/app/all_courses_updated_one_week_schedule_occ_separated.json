@@ -12233,14 +12233,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "SAKURA",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "DR. ROHAYATI BINTI PAIDI"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "SAKURA",
           "begin_time": "09:00",
@@ -13102,14 +13094,6 @@
       "levelCode": 3,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "SUMIRE",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "MR. LEE YEN LIH"
-        },
         {
           "title": "lecture",
           "day": "Tuesday",
@@ -37669,14 +37653,6 @@
       "levelCode": 3,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "DR. ASMAWATI BINTI MUHAMAD"
-        },
         {
           "title": "lecture",
           "day": "Friday",
@@ -75230,13 +75206,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "PURPLECUBE",
-          "begin_time": "08:00",
-          "end_time": "10:00"
-        },
-        {
-          "title": "lecture",
           "day": "Wednesday",
           "room": "PURPLECUBE",
           "begin_time": "08:00",
@@ -76810,14 +76779,6 @@
       "levelCode": 3,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "DK5",
-          "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "DR. NOR ISHIDA BINTI ZAINAL ABIDIN"
-        },
         {
           "title": "lecture",
           "day": "Tuesday",
@@ -86621,13 +86582,6 @@
           "title": "lecture",
           "day": "Monday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "10:00"
-        },
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "DK1",
           "begin_time": "11:00",
           "end_time": "13:00"
         },
@@ -93860,10 +93814,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "BSEA306",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "day": "Tuesday",
+          "room": "AUDIA",
+          "begin_time": "09:00",
+          "end_time": "12:00",
           "tutor": "DR. SUZIELEEZ SYRENE BT ABDUL RAHIM"
         }
       ]
@@ -93883,10 +93837,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "BSEA306",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "day": "Tuesday",
+          "room": "AUDIA",
+          "begin_time": "09:00",
+          "end_time": "12:00",
           "tutor": "DR. SUZIELEEZ SYRENE BT ABDUL RAHIM"
         }
       ]
@@ -96136,6 +96090,31 @@
       ]
     }
   ],
+  "PQC7006": [
+    {
+      "module": "CONTEMPORARY ISSUES IN SCIENCE EDUCATION IN THE CURRENT TECHNOLOGY ERA",
+      "course_id": "PQC7006",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 30,
+      "level": "MASTER",
+      "faculty": "FACULTY OF EDUCATION",
+      "continuousAssessmentWeightage": "70~30",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MAKFIZIK",
+          "begin_time": "15:00",
+          "end_time": "18:00",
+          "tutor": "ASSOCIATE PROF. DR. HIDAYAH BINTI MOHD FADZIL"
+        }
+      ]
+    }
+  ],
   "PQC7007": [
     {
       "module": "COGNITION IN LEARNING SCIENCE",
@@ -96352,7 +96331,8 @@
           "day": "Friday",
           "room": "DAGORA",
           "begin_time": "18:00",
-          "end_time": "21:00"
+          "end_time": "21:00",
+          "tutor": "MR. OOI LI HSIEN"
         }
       ]
     }
@@ -96470,7 +96450,8 @@
           "day": "Wednesday",
           "room": "MK1",
           "begin_time": "18:00",
-          "end_time": "21:00"
+          "end_time": "21:00",
+          "tutor": "DR. HEMADEVI A/P CHANDARAN"
         }
       ]
     }
@@ -96494,7 +96475,8 @@
           "day": "Monday",
           "room": "AUDIB",
           "begin_time": "15:00",
-          "end_time": "18:00"
+          "end_time": "18:00",
+          "tutor": "DATIN DR. THUSHA RANI A/P K. RAJENDRA"
         }
       ]
     },
@@ -98862,7 +98844,8 @@
           "day": "Tuesday",
           "room": "BSEC101",
           "begin_time": "18:00",
-          "end_time": "21:00"
+          "end_time": "21:00",
+          "tutor": "DR. AHMAD MUHAIMIN BIN MAT JUSOH"
         }
       ]
     },
@@ -119514,14 +119497,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "MBT1BIOISB",
-          "begin_time": "09:00",
-          "end_time": "10:00",
-          "tutor": "DR. AHMAD FARIS BIN MOHD ADNAN"
-        },
-        {
-          "title": "lecture",
           "day": "Wednesday",
           "room": "MBT1BIOISB",
           "begin_time": "09:00",
@@ -125824,14 +125799,6 @@
           "room": "DKTERATAIKDK",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "ASSOCIATE PROF. DR. TAN YEE SHIN"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK1",
-          "begin_time": "16:00",
-          "end_time": "18:00",
           "tutor": "ASSOCIATE PROF. DR. TAN YEE SHIN"
         }
       ]
