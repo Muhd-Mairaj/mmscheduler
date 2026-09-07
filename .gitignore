@@ -1,4 +1,16 @@
+# Environments & virtualenvs
 /venv
 */venv
 /.venv
 */.venv
+
+# Python cache & compiled bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.env.*
+*.env
+!.env.example
