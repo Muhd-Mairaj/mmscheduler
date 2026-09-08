@@ -1,0 +1,74 @@
+# mmscheduler — web app + timetable scraper + Postgres.
+#
+#   db       Postgres 16. Data lives in the `pgdata` volume.
+#   web      Next.js app. Runs migrations on start, serves :3000.
+#   scraper  Playwright scrape -> straight into Postgres, every
+#            SCRAPE_INTERVAL_HOURS (default 8, set in .env).
+#
+# First-time setup:
+#   1. cp .env.example .env   (and edit passwords)
+#   2. On your machine: cd scraper && bun run auth   (UM SSO login)
+#      then copy storageState.json into ./scraper-data/
+#      (or: docker compose run --rm scraper node steps/auth.mjs with a
+#      forwarded display — headless SSO usually needs the local run instead)
+#   3. docker compose up --build -d
+#   4. Seed the DB without waiting for a scrape (optional, uses the legacy
+#      JSON snapshot) — from the repo root on the host:
+#        bun run db:seed
+#      (reads web/app/all_courses_updated_one_week_schedule_occ_separated.json)
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  web:
+    build:
+      context: .
+      dockerfile: web/Dockerfile
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
+    ports:
+      - "3000:3000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  scraper:
+    build:
+      context: .
+      dockerfile: scraper/Dockerfile
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
+      DATA_DIR: /data
+      SCRAPE_INTERVAL_HOURS: ${SCRAPE_INTERVAL_HOURS:-8}
+    volumes:
+      # storageState.json, raw downloads and logs persist here on the host.
+      - ./scraper-data:/data
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  pgdata:

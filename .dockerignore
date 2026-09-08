@@ -1,0 +1,12 @@
+# Shared build context for Dockerfile.web and scraper/Dockerfile.
+# Never bake secrets, local state, or build output into images.
+node_modules
+.next
+.git
+.env
+.env*.local
+scraper-data
+pgdata
+scraper/node_modules
+npm-debug.log*
+yarn-error.log*

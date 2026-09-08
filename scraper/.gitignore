@@ -1,0 +1,10 @@
+node_modules/
+.env
+storageState.json
+logs/
+.raw/
+.repo/
+.work/
+timetable_data.json
+app_output.json
+__pycache__/
