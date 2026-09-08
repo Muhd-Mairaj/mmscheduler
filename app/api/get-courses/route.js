@@ -1,32 +1,46 @@
 import data from '../../all_courses_updated_one_week_schedule_occ_separated.json';
 
+const DEFAULT_LIMIT = 20;
+const MAX_LIMIT = 100;
+
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
-  const results = getCourse(searchParams.get('query'));
+  const query = searchParams.get('query');
+  const page = Math.max(1, parseInt(searchParams.get('page'), 10) || 1);
+  const limit = Math.min(
+    MAX_LIMIT,
+    Math.max(1, parseInt(searchParams.get('limit'), 10) || DEFAULT_LIMIT)
+  );
 
-  return new Response(JSON.stringify(results), {
-    status: 200,
-    headers: { 'Content-Type': 'application/json' },
-  });
+  const { results, total } = getCourses(query, page, limit);
+  const totalPages = Math.ceil(total / limit);
+  const hasMore = page < totalPages;
+
+  return new Response(
+    JSON.stringify({ results, total, page, limit, totalPages, hasMore }),
+    {
+      status: 200,
+      headers: { 'Content-Type': 'application/json' },
+    }
+  );
 }
 
-function getCourse(query) {
+function getCourses(query, page, limit) {
   if (!query) {
-    return {};
+    return { results: {}, total: 0 };
   }
 
   const lowercaseQuery = query.toLowerCase();
 
-  const filteredData = Object.fromEntries(
-    Object.entries(data)
-      .filter(([key, value]) => {
-        const courseId = key.toLowerCase();
-        const moduleName = value[0]?.module?.toLowerCase() || '';
-        return courseId.includes(lowercaseQuery) || moduleName.includes(lowercaseQuery);
-      })
-      .slice(0, 10)
-  );
+  const matchedEntries = Object.entries(data).filter(([key, value]) => {
+    const courseId = key.toLowerCase();
+    const moduleName = value[0]?.module?.toLowerCase() || '';
+    return courseId.includes(lowercaseQuery) || moduleName.includes(lowercaseQuery);
+  });
 
-  // console.log(filteredData);
-  return filteredData;
+  const total = matchedEntries.length;
+  const start = (page - 1) * limit;
+  const results = Object.fromEntries(matchedEntries.slice(start, start + limit));
+
+  return { results, total };
 }
