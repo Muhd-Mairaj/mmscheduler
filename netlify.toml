@@ -1,6 +1,12 @@
 [build]
-  command = "next build"
+  base = "web"
+  # Netlify detects web/bun.lock and runs `bun install` itself (postinstall
+  # vendors db/ sources); then this builds the app.
+  command = "bun run build"
   publish = ".next"
+
+[build.environment]
+  BUN_VERSION = "1.3.3"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"

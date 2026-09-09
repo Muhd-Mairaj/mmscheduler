@@ -1,0 +1,7 @@
+{
+  "name": "@mmscheduler/db",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Shared Postgres schema + queries (Drizzle). Pure sources, no dependencies of its own: every consumer (web/, scraper/, repo root) declares drizzle-orm/postgres/dotenv itself. web/ vendors these files into node_modules via scripts/vendor-db.mjs (postinstall) because Turbopack cannot parse symlinked package.json files."
+}

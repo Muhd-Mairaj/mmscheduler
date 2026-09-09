@@ -1,0 +1,3 @@
+Your storageState.json (from `npm run auth` in scraper/) goes here.
+This folder is bind-mounted to /data in the scraper container.
+This file keeps the folder in git; everything else here is ignored.

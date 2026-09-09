@@ -27,6 +27,16 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
+
+# docker compose local state (keep the placeholder file)
+scraper-data/*
+!scraper-data/.gitkeep
+pgdata/
+
+# scraper runtime state (also ignored inside scraper/ via its own .gitignore)
+storageState.json
+data/
 
 # vercel
 .vercel

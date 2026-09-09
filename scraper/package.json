@@ -1,0 +1,17 @@
+{
+  "name": "mmscheduler-scraper",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "auth": "node steps/auth.mjs",
+    "run": "node run.mjs",
+    "schedule": "node scheduler.mjs",
+    "seed": "node steps/seed-from-json.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "drizzle-orm": "^0.45.2",
+    "playwright": "1.62.1",
+    "postgres": "^3.4.9"
+  }
+}

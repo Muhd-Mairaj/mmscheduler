@@ -1,0 +1,7 @@
+node_modules
+.raw
+logs
+.env
+storageState.json
+__pycache__
+.git

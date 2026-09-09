@@ -27,31 +27,60 @@ It may take longer when you add many modules with many occurrences.
 
 ## Run locally
 
-You need Node.js 20.9 or newer.
+You need [Bun](https://bun.sh/) 1.3 or newer (package manager) with Node.js
+20.9 or newer installed (scripts execute via node), plus Postgres 16+. The
+repo has three parts: `web/` (Next.js app), `scraper/` (TimeEdit refresh
+pipeline), `db/` (shared Drizzle schema, vendored into `web/` on install).
 
 ```bash
 git clone https://github.com/Muhd-Mairaj/mmscheduler.git
 cd mmscheduler
-npm ci
-npm run dev
+bun run install:all   # installs root + web/ + scraper/ deps
+cp .env.example .env  # set POSTGRES_PASSWORD / DATABASE_URL
 ```
 
-Open [http://localhost:3000](http://localhost:3000). No environment variables or database are required.
+Easiest is docker compose, which runs Postgres, the web app, and the
+scraper (every `SCRAPE_INTERVAL_HOURS`, default 8) together:
+
+```bash
+# put storageState.json (from `cd scraper && bun run auth`) in ./scraper-data/
+docker compose up --build -d
+```
+
+Or run just the database and the app manually:
+
+```bash
+docker compose up -d db
+bun run db:migrate
+bun run db:seed   # one-time seed from the legacy JSON snapshot (no 25-min scrape)
+cd web && DATABASE_URL=postgres://mmscheduler:<password>@localhost:5432/mmscheduler bun run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000). The API routes read from
+Postgres via `DATABASE_URL` (`web/.env` is also picked up by `next dev`).
 
 For a production build:
 
 ```bash
-npm run build
-npm run start
+cd web
+bun run build
+bun run start
 ```
 
 ## Timetable data
 
-The timetable data is bundled in `app/all_courses_updated_one_week_schedule_occ_separated.json`. The schedule data is refreshed regularly with course and occurrence details for Universiti Malaya.
+The timetable lives in Postgres (`courses` → `occurrences` → `activities`,
+see `db/schema.js`, queried with Drizzle). The scraper in `scraper/`
+refreshes it from TimeEdit every `SCRAPE_INTERVAL_HOURS` (default 8, set in
+`.env`) — see `scraper/README.md`. The legacy snapshot
+`web/app/all_courses_updated_one_week_schedule_occ_separated.json` is only used
+to seed an empty DB (`bun run db:seed`); nothing reads it at runtime. Note:
+`bun install` in `web/` copies `db/` sources into `web/node_modules` (see
+`web/scripts/vendor-db.mjs`), so re-run it after editing `db/`.
 
 ## Built with
 
-Next.js 16, React 19, CSS Modules, Bootstrap/Reactstrap, Font Awesome, and `html2canvas`. The app is deployed on Netlify and uses a bundled JSON dataset rather than querying TimeEdit directly.
+Next.js 16, React 19, CSS Modules, Bootstrap/Reactstrap, Font Awesome, and `html2canvas`, with Postgres + Drizzle as the data layer. The app is deployed on Netlify (set `DATABASE_URL` there) and reads the timetable from Postgres rather than querying TimeEdit directly.
 
 ## Authors
 
