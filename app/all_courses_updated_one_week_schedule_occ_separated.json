@@ -53593,7 +53593,7 @@
         {
           "title": "tutorial",
           "day": "Thursday",
-          "room": "BS25",
+          "room": "BS24",
           "begin_time": "08:00",
           "end_time": "09:00"
         }
@@ -96265,7 +96265,8 @@
           "day": "Thursday",
           "room": "MK1",
           "begin_time": "09:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. LEONG KWAN EU"
         }
       ]
     }
