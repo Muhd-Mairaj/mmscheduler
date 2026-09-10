@@ -25709,31 +25709,6 @@
       ]
     }
   ],
-  "BIC2022": [
-    {
-      "module": "PRE-CONSTRUCTION LEGAL STUDIES",
-      "course_id": "BIC2022",
-      "credits": 3,
-      "yearPeriod": "2025/S2",
-      "overallTargetStudent": 55,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF BUILT ENVIRONMENT",
-      "continuousAssessmentWeightage": "40~60",
-      "examDuration": 7200,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "tutorial",
-          "day": "Thursday",
-          "room": "BK3",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. SR DR. MOHD SUHAIMI BIN MOHD DANURI"
-        }
-      ]
-    }
-  ],
   "BIC3011": [
     {
       "module": "MEASUREMENT OF ADVANCED CONSTRUCTION WORKS II",
@@ -26277,14 +26252,6 @@
           "room": "STURP1",
           "begin_time": "08:00",
           "end_time": "13:00",
-          "tutor": "DR. TEH BOR TSONG"
-        },
-        {
-          "title": "tutorial",
-          "day": "Thursday",
-          "room": "STURP1",
-          "begin_time": "14:00",
-          "end_time": "18:00",
           "tutor": "DR. TEH BOR TSONG"
         },
         {
@@ -52643,30 +52610,6 @@
       ]
     }
   ],
-  "HQC7002": [
-    {
-      "module": "ORGANISATIONAL MANAGEMENT, CULTURE AND LEADERSHIP",
-      "course_id": "HQC7002",
-      "credits": 3,
-      "yearPeriod": "2025/S2",
-      "overallTargetStudent": 30,
-      "level": "MASTER",
-      "faculty": "INSTITUTE FOR ADVANCED STUDIES",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 4,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "ONLINE",
-          "begin_time": "18:00",
-          "end_time": "21:00"
-        }
-      ]
-    }
-  ],
   "HQC7003": [
     {
       "module": "PROJECT MANAGEMENT",
@@ -53560,10 +53503,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Wednesday",
+          "day": "Tuesday",
           "room": "BS14",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "ASSOCIATE PROF. DR. MOHAMMAD TAQIUDDIN BIN MOHAMAD"
         }
       ]
@@ -53594,8 +53537,8 @@
           "title": "tutorial",
           "day": "Thursday",
           "room": "BS24",
-          "begin_time": "08:00",
-          "end_time": "09:00"
+          "begin_time": "11:00",
+          "end_time": "12:00"
         }
       ]
     }
@@ -58496,30 +58439,6 @@
       ]
     }
   ],
-  "IIR2002": [
-    {
-      "module": "METHODOLOGY OF TEACHING ARABIC LANGUAGE I",
-      "course_id": "IIR2002",
-      "credits": 3,
-      "yearPeriod": "2024/S2",
-      "overallTargetStudent": 103,
-      "level": "BACHELOR",
-      "faculty": "ACADEMY OF ISLAMIC STUDIES",
-      "continuousAssessmentWeightage": "40~60",
-      "examDuration": 7200,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "BS1TAMB",
-          "begin_time": "14:00",
-          "end_time": "17:00"
-        }
-      ]
-    }
-  ],
   "IIR2004": [
     {
       "module": "HISTORY AND PHILOSOPHY OF ISLAMIC EDUCATION",
@@ -63030,14 +62949,6 @@
       "levelCode": 3,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "BS7",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "DR. RAJA HISYAMUDIN BIN RAJA SULONG"
-        },
         {
           "title": "lecture",
           "day": "Monday",
@@ -68309,14 +68220,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "IDROOM",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "DR. SAZNIZAM SAZMEE SINOH"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "BK201",
           "begin_time": "14:00",
@@ -69415,13 +69318,6 @@
       "levelCode": 3,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "DUMMY",
-          "begin_time": "14:00",
-          "end_time": "17:00"
-        },
         {
           "title": "lecture",
           "day": "Friday",
@@ -72068,14 +71964,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "GREENCUBE1",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "PROF. DR. ANDRI ANDRIYANA"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BK101",
           "begin_time": "16:00",
@@ -72336,31 +72224,6 @@
       ]
     }
   ],
-  "KIG2019": [
-    {
-      "module": "NUMERICAL AND STATISTICAL METHODS IN ENGINEERING",
-      "course_id": "KIG2019",
-      "credits": 3,
-      "yearPeriod": "2025/S2",
-      "overallTargetStudent": 205,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF ENGINEERING",
-      "continuousAssessmentWeightage": "40~60",
-      "examDuration": 7200,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "DUMMY",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. HENDRIK SIMON CORNELIS METSELAAR"
-        }
-      ]
-    }
-  ],
   "KIG3001": [
     {
       "module": "INSTRUMENTATION AND MEASUREMENT TECHNIQUES",
@@ -72431,31 +72294,6 @@
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "ASSOCIATE PROF. IR. DR. RAHIZAR BIN RAMLI"
-        }
-      ]
-    }
-  ],
-  "KIG3006": [
-    {
-      "module": "INDUSTRIAL TRAINING",
-      "course_id": "KIG3006",
-      "credits": 5,
-      "yearPeriod": "2024/SS",
-      "overallTargetStudent": null,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF ENGINEERING",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "19:00",
-          "tutor": "DR. MEOR MOHD FAISAL BIN MEOR ZULKIFLI"
         }
       ]
     }
@@ -72899,31 +72737,6 @@
           "begin_time": "15:00",
           "end_time": "18:00",
           "tutor": "DR. MOHAMMED ABDO HASHEM ALI"
-        }
-      ]
-    }
-  ],
-  "KIG3015": [
-    {
-      "module": "INDUSTRIAL TRAINING",
-      "course_id": "KIG3015",
-      "credits": 5,
-      "yearPeriod": "2024/SS",
-      "overallTargetStudent": 0,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF ENGINEERING",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "practical",
-          "day": "Thursday",
-          "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "19:00",
-          "tutor": "DR. MEOR MOHD FAISAL BIN MEOR ZULKIFLI"
         }
       ]
     }
@@ -73388,14 +73201,6 @@
       "levelCode": 3,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "BP204",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. IR. DR. MOHD SAYUTI BIN AB KARIM"
-        },
         {
           "title": "lecture",
           "day": "Monday",
@@ -74252,14 +74057,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "PURPLECUBE",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. NUR AWANIS BINTI HASHIM"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BK203",
           "begin_time": "09:00",
@@ -74427,31 +74224,6 @@
           "begin_time": "11:00",
           "end_time": "13:00",
           "tutor": "DR. MOHD USMAN BIN MOHD JUNAIDI"
-        }
-      ]
-    }
-  ],
-  "KIL2009": [
-    {
-      "module": "REACTION ENGINEERING I",
-      "course_id": "KIL2009",
-      "credits": 3,
-      "yearPeriod": "2025/S2",
-      "overallTargetStudent": 85,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF ENGINEERING",
-      "continuousAssessmentWeightage": "40~60",
-      "examDuration": 7200,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "DUMMY",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "DR. ZULHELMI BIN AMIR"
         }
       ]
     }
@@ -78315,31 +78087,6 @@
           "begin_time": "12:00",
           "end_time": "15:00",
           "tutor": "DR. SIK CHENG PENG"
-        }
-      ]
-    }
-  ],
-  "LIA2009": [
-    {
-      "module": "LAND LAW II",
-      "course_id": "LIA2009",
-      "credits": 3,
-      "yearPeriod": "2025/S2",
-      "overallTargetStudent": 200,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LAW",
-      "continuousAssessmentWeightage": "40~60",
-      "examDuration": 7200,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "BS1",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "MISS JACQUELINE HANNAH ALBERT"
         }
       ]
     }
@@ -90270,31 +90017,6 @@
       ]
     }
   ],
-  "OQA7009": [
-    {
-      "module": "DEVELOPMENT OF NOVEL DRUG DELIVERY SYSTEMS",
-      "course_id": "OQA7009",
-      "credits": 3,
-      "yearPeriod": "2024/SS",
-      "overallTargetStudent": null,
-      "level": "MASTER",
-      "faculty": "FACULTY OF PHARMACY",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 4,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Thursday",
-          "room": "NLINE",
-          "begin_time": "17:00",
-          "end_time": "20:00",
-          "tutor": "DR. SHAIK NYAMATHULLA"
-        }
-      ]
-    }
-  ],
   "OQB7001": [
     {
       "module": "METHODS IN DRUG DISCOVERY AND PRE-CLINICAL DRUG DEVELOPMENT",
@@ -96269,6 +95991,28 @@
           "tutor": "ASSOCIATE PROF. DR. LEONG KWAN EU"
         }
       ]
+    },
+    {
+      "module": "CURRICULUM, PEDAGOGY AND ASSESSMENT IN GEOMETRY",
+      "course_id": "PQI6060",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 45,
+      "level": "PG DIPLOMA",
+      "faculty": "FACULTY OF EDUCATION",
+      "continuousAssessmentWeightage": "70~30",
+      "examDuration": 7200,
+      "levelCode": 6,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MAKMATH",
+          "begin_time": "09:00",
+          "end_time": "12:00"
+        }
+      ]
     }
   ],
   "PQI6064": [
@@ -98833,14 +98577,6 @@
       "levelCode": 4,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "ASEANROOM",
-          "begin_time": "15:00",
-          "end_time": "18:00",
-          "tutor": "DR. ADIL BIN JOHAN"
-        },
         {
           "title": "lecture",
           "day": "Thursday",
@@ -103680,31 +103416,6 @@
       ]
     }
   ],
-  "RQA7015": [
-    {
-      "module": "RESEARCH PROJECT",
-      "course_id": "RQA7015",
-      "credits": 9,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 60,
-      "level": "MASTER",
-      "faculty": "FACULTY OF CREATIVE ARTS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 4,
-      "occurence": "P2",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "BS2BCL",
-          "begin_time": "13:00",
-          "end_time": "18:00",
-          "tutor": "DR. TAN CHAI CHEN"
-        }
-      ]
-    }
-  ],
   "RVA8001": [
     {
       "module": "ADVANCED RESEARCH METHODOLOGY",
@@ -105416,9 +105127,9 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DKVANDAKDK",
-          "begin_time": "14:00",
-          "end_time": "15:00",
+          "room": "DK4",
+          "begin_time": "11:00",
+          "end_time": "12:00",
           "tutor": "DR. NOR MAS MIRA ABD RAHMAN"
         }
       ]
@@ -105455,9 +105166,9 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DKVANDAKDK",
-          "begin_time": "14:00",
-          "end_time": "15:00",
+          "room": "DK4",
+          "begin_time": "11:00",
+          "end_time": "12:00",
           "tutor": "DR. NOR MAS MIRA ABD RAHMAN"
         }
       ]
@@ -115909,9 +115620,9 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "DK3",
-          "begin_time": "14:00",
-          "end_time": "16:00",
+          "room": "MKOMP",
+          "begin_time": "10:00",
+          "end_time": "12:00",
           "tutor": "DR. TAN TA SHENG"
         },
         {
@@ -115940,9 +115651,9 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "DK3",
-          "begin_time": "14:00",
-          "end_time": "16:00",
+          "room": "MKOMP",
+          "begin_time": "10:00",
+          "end_time": "12:00",
           "tutor": "DR. TAN TA SHENG"
         },
         {
@@ -121724,31 +121435,6 @@
       ]
     }
   ],
-  "SIX1003": [
-    {
-      "module": "BIOSTATISTICS",
-      "course_id": "SIX1003",
-      "credits": 3,
-      "yearPeriod": "2024/S1, 2024/S2",
-      "overallTargetStudent": 50,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF SCIENCE",
-      "continuousAssessmentWeightage": "50~50",
-      "examDuration": 7200,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "BTSA2ISB",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "DR. POZI ANAK MILOW"
-        }
-      ]
-    }
-  ],
   "SIX1004": [
     {
       "module": "STATISTICS",
@@ -124206,7 +123892,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "AUDIKIMIA",
+          "room": "DK3",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. TS. DR. ACGA CHENG"
@@ -124353,7 +124039,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "AUDIKIMIA",
+          "room": "DKMELATIKDK",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "DR. TEO CHEE HOW"
@@ -124361,7 +124047,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "AUDIKIMIA",
+          "room": "DKMELATIKDK",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "DR. FARAHANIZA BINTI SUPANDI"
@@ -124369,7 +124055,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "AUDIKIMIA",
+          "room": "DKMELATIKDK",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "DR. MOHD ZUWAIRI BIN SAIMAN"
@@ -124377,7 +124063,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "AUDIKIMIA",
+          "room": "DKMELATIKDK",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. TAN BOON CHIN"
@@ -126729,8 +126415,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "BSTELEPUK",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "09:00",
+          "end_time": "10:00",
           "tutor": "DR. THANALACHIME A/P PERUMAL"
         },
         {
@@ -127909,13 +127595,6 @@
       "levelCode": 3,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "BSSELASIH",
-          "begin_time": "13:00",
-          "end_time": "16:00"
-        },
         {
           "title": "lecture",
           "day": "Wednesday",
