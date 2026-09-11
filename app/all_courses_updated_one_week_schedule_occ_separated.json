@@ -1655,6 +1655,31 @@
       ]
     }
   ],
+  "AA047004": [
+    {
+      "module": "SOCIOLOGY OF DEVELOPMENT",
+      "course_id": "AA047004",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 100,
+      "level": "MASTER",
+      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "CBS1112",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "DR. NUR ANNIZAH BINTI ISHAK"
+        }
+      ]
+    }
+  ],
   "AA047005": [
     {
       "module": "POVERTY AND INEQUALITY",
@@ -26232,31 +26257,6 @@
       ]
     }
   ],
-  "BID1012": [
-    {
-      "module": "PLANNING STUDIO II - SITE PLANNING AND DESIGN",
-      "course_id": "BID1012",
-      "credits": 6,
-      "yearPeriod": "2025/S2",
-      "overallTargetStudent": 50,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF BUILT ENVIRONMENT",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "tutorial",
-          "day": "Friday",
-          "room": "STURP1",
-          "begin_time": "14:00",
-          "end_time": "19:00",
-          "tutor": "DR. TEH BOR TSONG"
-        }
-      ]
-    }
-  ],
   "BID2009": [
     {
       "module": "PLANNING STUDIO III - CITY CENTRE STUDIES",
@@ -44302,6 +44302,121 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": 7200,
       "levelCode": 3,
+      "occurence": "24",
+      "activities": [
+        {
+          "title": "tutorial",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MR. MOHD NAZRIQ BIN NOOR AHMAD"
+        }
+      ]
+    },
+    {
+      "module": "PROFICIENCY IN ENGLISH III",
+      "course_id": "GLT1024",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 700,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "25",
+      "activities": [
+        {
+          "title": "tutorial",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MR. MOHD NAZRIQ BIN NOOR AHMAD"
+        }
+      ]
+    },
+    {
+      "module": "PROFICIENCY IN ENGLISH III",
+      "course_id": "GLT1024",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 700,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "26",
+      "activities": [
+        {
+          "title": "tutorial",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MISS SHARON PASION VINLUAN"
+        }
+      ]
+    },
+    {
+      "module": "PROFICIENCY IN ENGLISH III",
+      "course_id": "GLT1024",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 700,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "27",
+      "activities": [
+        {
+          "title": "tutorial",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MISS SHARON PASION VINLUAN"
+        }
+      ]
+    },
+    {
+      "module": "PROFICIENCY IN ENGLISH III",
+      "course_id": "GLT1024",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 700,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "28",
+      "activities": [
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MISS SHARON PASION VINLUAN"
+        }
+      ]
+    },
+    {
+      "module": "PROFICIENCY IN ENGLISH III",
+      "course_id": "GLT1024",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 700,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 7200,
+      "levelCode": 3,
       "occurence": "2M",
       "activities": [
         {
@@ -47277,6 +47392,165 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": null,
       "levelCode": 3,
+      "occurence": "91",
+      "activities": [
+        {
+          "title": "tutorial",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MR. GABRIEL SAMSON A/L THAMIL SALVAN"
+        }
+      ]
+    },
+    {
+      "module": "EFFECTIVE ORAL COMMUNICATION",
+      "course_id": "GLT1025",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 2485,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "92",
+      "activities": [
+        {
+          "title": "tutorial",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MR. GABRIEL SAMSON A/L THAMIL SALVAN"
+        }
+      ]
+    },
+    {
+      "module": "EFFECTIVE ORAL COMMUNICATION",
+      "course_id": "GLT1025",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 2485,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "93",
+      "activities": [
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MR. GABRIEL SAMSON A/L THAMIL SALVAN"
+        }
+      ]
+    },
+    {
+      "module": "EFFECTIVE ORAL COMMUNICATION",
+      "course_id": "GLT1025",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 2485,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "94",
+      "activities": [
+        {
+          "title": "tutorial",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MR. GABRIEL SAMSON A/L THAMIL SALVAN"
+        }
+      ]
+    },
+    {
+      "module": "EFFECTIVE ORAL COMMUNICATION",
+      "course_id": "GLT1025",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 2485,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "95",
+      "activities": [
+        {
+          "title": "tutorial",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MR. GABRIEL SAMSON A/L THAMIL SALVAN"
+        }
+      ]
+    },
+    {
+      "module": "EFFECTIVE ORAL COMMUNICATION",
+      "course_id": "GLT1025",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 2485,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "96",
+      "activities": [
+        {
+          "title": "tutorial",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00"
+        }
+      ]
+    },
+    {
+      "module": "EFFECTIVE ORAL COMMUNICATION",
+      "course_id": "GLT1025",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 2485,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "97",
+      "activities": [
+        {
+          "title": "tutorial",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ]
+    },
+    {
+      "module": "EFFECTIVE ORAL COMMUNICATION",
+      "course_id": "GLT1025",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 2485,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
       "occurence": "98",
       "activities": [
         {
@@ -47697,6 +47971,52 @@
           "room": "ONLINE",
           "begin_time": "20:00",
           "end_time": "22:00"
+        }
+      ]
+    },
+    {
+      "module": "ADVANCED BUSINESS WRITING",
+      "course_id": "GLT1028",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 156,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "4",
+      "activities": [
+        {
+          "title": "tutorial",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MADAM J. YASODHARA A/P N.V.J. MENON"
+        }
+      ]
+    },
+    {
+      "module": "ADVANCED BUSINESS WRITING",
+      "course_id": "GLT1028",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 156,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "5",
+      "activities": [
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MADAM J. YASODHARA A/P N.V.J. MENON"
         }
       ]
     },
@@ -48892,7 +49212,7 @@
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "19:00",
-          "tutor": "MR. NOORHISYAM BIN JASMIN"
+          "tutor": "MR. CANING ALEXIS JARAMILLO RENGIFO"
         }
       ]
     },
@@ -48915,7 +49235,7 @@
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "19:00",
-          "tutor": "MR. NOORHISYAM BIN JASMIN"
+          "tutor": "MR. CANING ALEXIS JARAMILLO RENGIFO"
         }
       ]
     },
@@ -48938,7 +49258,7 @@
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "19:00",
-          "tutor": "MR. NOORHISYAM BIN JASMIN"
+          "tutor": "MR. CANING ALEXIS JARAMILLO RENGIFO"
         }
       ]
     }
@@ -53906,10 +54226,10 @@
         },
         {
           "title": "tutorial",
-          "day": "Wednesday",
-          "room": "BS13",
-          "begin_time": "11:00",
-          "end_time": "12:00",
+          "day": "Tuesday",
+          "room": "BS16",
+          "begin_time": "10:00",
+          "end_time": "11:00",
           "tutor": "PROF. DR. SHARIFAH HAYAATI BINTI SYED ISMAIL"
         }
       ]
@@ -53939,10 +54259,10 @@
         },
         {
           "title": "tutorial",
-          "day": "Tuesday",
-          "room": "BS17",
-          "begin_time": "11:00",
-          "end_time": "12:00",
+          "day": "Monday",
+          "room": "BS13",
+          "begin_time": "10:00",
+          "end_time": "11:00",
           "tutor": "DR. AMER ABDULWAHAB MAHYOUB MURSHED"
         }
       ]
@@ -56262,8 +56582,8 @@
           "title": "tutorial",
           "day": "Thursday",
           "room": "BS16",
-          "begin_time": "11:00",
-          "end_time": "12:00",
+          "begin_time": "10:00",
+          "end_time": "11:00",
           "tutor": "DR. SYED MOHD JEFFRI BIN SYED JAAFAR"
         }
       ]
@@ -70036,31 +70356,6 @@
       ]
     }
   ],
-  "KIE3003": [
-    {
-      "module": "INDUSTRIAL TRAINING",
-      "course_id": "KIE3003",
-      "credits": 5,
-      "yearPeriod": "2024/SS",
-      "overallTargetStudent": null,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF ENGINEERING",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "22:00",
-          "tutor": "DR. NURULAFIQAH NADZIRAH BINTI MANSOR"
-        }
-      ]
-    }
-  ],
   "KIE3004": [
     {
       "module": "APPLIED ELECTROMAGNETICS",
@@ -71572,14 +71867,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "PURPLECUBE1",
-          "begin_time": "15:00",
-          "end_time": "18:00",
-          "tutor": "DATIN PROFESOR IR. DR. BUSHROA BINTI ABDUL RAZAK"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BK101",
           "begin_time": "11:00",
@@ -72760,31 +73047,6 @@
           "begin_time": "12:00",
           "end_time": "13:00",
           "tutor": "ASSOCIATE PROF. DR. HENDRIK SIMON CORNELIS METSELAAR"
-        }
-      ]
-    }
-  ],
-  "KIG3012": [
-    {
-      "module": "CONTROL ENGINEERING",
-      "course_id": "KIG3012",
-      "credits": 3,
-      "yearPeriod": "2025/S2",
-      "overallTargetStudent": 205,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF ENGINEERING",
-      "continuousAssessmentWeightage": "40~60",
-      "examDuration": 7200,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "GREENCUBE1",
-          "begin_time": "15:00",
-          "end_time": "18:00",
-          "tutor": "DR. MOHAMMED ABDO HASHEM ALI"
         }
       ]
     }
@@ -82189,13 +82451,6 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "DK1",
-          "begin_time": "15:00",
-          "end_time": "18:00"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
           "room": "BS6",
           "begin_time": "18:00",
           "end_time": "21:00"
@@ -86445,6 +86700,63 @@
       ]
     }
   ],
+  "MQD7014": [
+    {
+      "module": "NURSING RESEARCH PROJECT",
+      "course_id": "MQD7014",
+      "credits": 9,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 5,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. LEE WAN LING"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. LEE WAN LING"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. LEE WAN LING"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. LEE WAN LING"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. LEE WAN LING"
+        }
+      ]
+    }
+  ],
   "MQD7015": [
     {
       "module": "MEDICAL STATISTICS",
@@ -86678,6 +86990,63 @@
           "room": "DK1",
           "begin_time": "14:00",
           "end_time": "18:00",
+          "tutor": "DR. CHUI PING LEI"
+        }
+      ]
+    }
+  ],
+  "MQD7034": [
+    {
+      "module": "NURSING RESEARCH PROJECT",
+      "course_id": "MQD7034",
+      "credits": 9,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 80,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. CHUI PING LEI"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. CHUI PING LEI"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. CHUI PING LEI"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. CHUI PING LEI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
           "tutor": "DR. CHUI PING LEI"
         }
       ]
@@ -94154,7 +94523,7 @@
           "room": "BSE",
           "begin_time": "18:00",
           "end_time": "22:00",
-          "tutor": "DR. RAHMAD SUKOR AB. SAMAD"
+          "tutor": "DR. MEGAT AHMAD KAMALUDDIN BN MEGAT DAUD"
         }
       ]
     },
@@ -94175,9 +94544,9 @@
           "title": "lecture",
           "day": "Wednesday",
           "room": "BSEC102",
-          "begin_time": "17:00",
-          "end_time": "21:00",
-          "tutor": "DR. MEGAT AHMAD KAMALUDDIN BN MEGAT DAUD"
+          "begin_time": "18:00",
+          "end_time": "22:00",
+          "tutor": "DR. RAHMAD SUKOR AB. SAMAD"
         }
       ]
     },
@@ -97039,6 +97408,13 @@
           "begin_time": "15:00",
           "end_time": "18:00",
           "tutor": "DR. NORFARIZA BINTI MOHD RADZI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BSD",
+          "begin_time": "18:00",
+          "end_time": "21:00"
         }
       ]
     },
@@ -103686,7 +104062,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DK1",
+          "room": "DK3",
           "begin_time": "11:00",
           "end_time": "13:00",
           "tutor": "ASSOCIATE PROF. DR. HAIRUL ANUAR BIN TAJUDDIN"
@@ -103717,7 +104093,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DK1",
+          "room": "DK3",
           "begin_time": "11:00",
           "end_time": "13:00",
           "tutor": "ASSOCIATE PROF. DR. HAIRUL ANUAR BIN TAJUDDIN"
@@ -107094,6 +107470,29 @@
           "begin_time": "11:00",
           "end_time": "17:00",
           "tutor": "DR. SITI JARIANI BINTI MOHD JANI"
+        }
+      ]
+    },
+    {
+      "module": "ENVIRONMENTAL POLLUTION AND WASTE MANAGEMENT",
+      "course_id": "SIC3054",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 54,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "4",
+      "activities": [
+        {
+          "title": "lab",
+          "day": "Thursday",
+          "room": "MKIMIAANAIII",
+          "begin_time": "11:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. TAY KHENG SOO"
         }
       ]
     }
@@ -127558,7 +127957,7 @@
           "room": "MKSAC",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "DR. YAP LENG LEE"
+          "tutor": "MADAM NURFATIN SYAHIDA BINTI MUHAMMAD"
         }
       ]
     }
@@ -127607,7 +128006,8 @@
           "day": "Wednesday",
           "room": "BSSEPANGGIL",
           "begin_time": "10:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "MADAM NURFATIN SYAHIDA BINTI MUHAMMAD"
         }
       ]
     }
@@ -127656,7 +128056,7 @@
           "room": "MKSAC",
           "begin_time": "10:00",
           "end_time": "13:00",
-          "tutor": "DR. YAP LENG LEE"
+          "tutor": "MADAM NURFATIN SYAHIDA BINTI MUHAMMAD"
         }
       ]
     }
