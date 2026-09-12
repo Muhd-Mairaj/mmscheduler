@@ -52824,6 +52824,666 @@
           "tutor": "ASSOCIATE PROF. DR. NOOR FADIYA BINTI MOHD NOOR"
         }
       ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "25",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "KAUDI2",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. WAN ZURINA BINTI WAN JAAFAR"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "26",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "KDK2",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. LIEW YIH MIIN"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "27",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "KDK3",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. RAJA ARIFFIN BIN RAJA GHAZILLA"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "28",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "MDK3",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. CHEN YENG"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "29",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "MDK9",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MURALITHRAN A/L GOVINDAN KUTTY"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "30",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "CDK3",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. MOHAMAD NIZAM BIN AYUB"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "32",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ADKD",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "37",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BAUDIM",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "39",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "LDK1",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHAMED NASHRUDIN BIN NAHARUDIN"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "42",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "MDK5",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. NAJIHAH BINTI MOHD HASHIM"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "43",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "MDK7",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "44",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "MDK10",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "45",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "CDK4",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. SONIA KUMARI A/P SELVARAJAN"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "46",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "CBSBLH5",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHAMMAD TAWFIK BIN YAAKUB"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "47",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "IDK2",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MADIHA BINTI BAHARUDDIN"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "48",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "CDK2",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MARLENNY BT DEENERWAN"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "49",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "LAUDITORIUM",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD FAIZAL BIN HAMZAH"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "52",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "KAUDI2",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. FATHIAH BINTI MOHAMED ZUKI"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "53",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "KDK2",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. FATHIAH BINTI MOHAMED ZUKI"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "54",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "KDK3",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. RAJA ARIFFIN BIN RAJA GHAZILLA"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "55",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "KDK5",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. FARAZILA BINTI YUSOF"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "60",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "JDSANGSANA",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "61",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "IDK1",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. ASMAWATI BINTI MUHAMAD"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "62",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ADKD",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MR. MOHD KHAIRUL AKHBAR BIN JAHIRUDDIN"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "63",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "IDK2",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "DR. MADIHA BINTI BAHARUDDIN"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "64",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "LDK1",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MADAM NOOR ASYIKEEN MOHD SALLEH"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "66",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ADKE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. AMIRA SARIYATI BINTI FIRDAUS"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "67",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "JDSANGSANA",
+          "begin_time": "15:00",
+          "end_time": "17:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "68",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BAUDIM",
+          "begin_time": "15:00",
+          "end_time": "17:00"
+        }
+      ]
     }
   ],
   "HMX7001": [
@@ -73851,31 +74511,6 @@
       ]
     }
   ],
-  "KIG4004": [
-    {
-      "module": "FINAL YEAR PROJECT II",
-      "course_id": "KIG4004",
-      "credits": 4,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 200,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF ENGINEERING",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "practical",
-          "day": "Saturday",
-          "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. SHAIFULAZUAR BIN ROZALI"
-        }
-      ]
-    }
-  ],
   "KIG4052": [
     {
       "module": "MATERIALS SELECTION IN MECHANICAL DESIGN",
@@ -74062,31 +74697,6 @@
           "begin_time": "12:00",
           "end_time": "13:00",
           "tutor": "ASSOCIATE PROF. DR. SALWA HANIM BINTI ABDUL RASHID"
-        }
-      ]
-    }
-  ],
-  "KIG4055": [
-    {
-      "module": "FINAL YEAR PROJECT 2",
-      "course_id": "KIG4055",
-      "credits": 3,
-      "yearPeriod": "2025/S2",
-      "overallTargetStudent": 200,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF ENGINEERING",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "practical",
-          "day": "Saturday",
-          "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. SHAIFULAZUAR BIN ROZALI"
         }
       ]
     }
@@ -83278,13 +83888,6 @@
       "levelCode": 4,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Saturday",
-          "room": "DK1",
-          "begin_time": "14:00",
-          "end_time": "17:00"
-        },
         {
           "title": "lecture",
           "day": "Saturday",
@@ -118313,10 +118916,10 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "BTM1ISM",
-          "begin_time": "14:00",
-          "end_time": "16:00"
+          "day": "Wednesday",
+          "room": "DKM4ISM",
+          "begin_time": "11:00",
+          "end_time": "13:00"
         }
       ]
     },
@@ -118342,10 +118945,10 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "BTM1ISM",
-          "begin_time": "14:00",
-          "end_time": "16:00"
+          "day": "Wednesday",
+          "room": "DKM4ISM",
+          "begin_time": "11:00",
+          "end_time": "13:00"
         }
       ]
     }
