@@ -28884,39 +28884,6 @@
       ]
     }
   ],
-  "BQC7014D": [
-    {
-      "module": "DIGITAL FACILITIES MANAGEMENT",
-      "course_id": "BQC7014D",
-      "credits": 5,
-      "yearPeriod": "2024/SS",
-      "overallTargetStudent": 0,
-      "level": "MASTER",
-      "faculty": "FACULTY OF BUILT ENVIRONMENT",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 4,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Saturday",
-          "room": "BK7",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "PROF. DR. SYAHRUL NIZAM BIN KAMARUZZAMAN"
-        },
-        {
-          "title": "tutorial",
-          "day": "Saturday",
-          "room": "BK7",
-          "begin_time": "12:00",
-          "end_time": "13:00",
-          "tutor": "PROF. DR. SYAHRUL NIZAM BIN KAMARUZZAMAN"
-        }
-      ]
-    }
-  ],
   "BQC7015": [
     {
       "module": "RESEARCH PROJECT",
@@ -40679,6 +40646,459 @@
       ]
     }
   ],
+  "GIG1017": [
+    {
+      "module": "PHILOSOPHY AND CURRENT AFFAIRS",
+      "course_id": "GIG1017",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 4050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "DR. FAEZAH BINTI KASSIM"
+        }
+      ]
+    },
+    {
+      "module": "PHILOSOPHY AND CURRENT AFFAIRS",
+      "course_id": "GIG1017",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 4050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "DR. FAEZAH BINTI KASSIM"
+        }
+      ]
+    },
+    {
+      "module": "PHILOSOPHY AND CURRENT AFFAIRS",
+      "course_id": "GIG1017",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 4050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "DR. FATIMI BINTI HANAFI"
+        }
+      ]
+    },
+    {
+      "module": "PHILOSOPHY AND CURRENT AFFAIRS",
+      "course_id": "GIG1017",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 4050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "4",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "DR. FATIMI BINTI HANAFI"
+        }
+      ]
+    },
+    {
+      "module": "PHILOSOPHY AND CURRENT AFFAIRS",
+      "course_id": "GIG1017",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 4050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "5",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "DR. FARIDAH BINTI CHE HUSAIN"
+        }
+      ]
+    },
+    {
+      "module": "PHILOSOPHY AND CURRENT AFFAIRS",
+      "course_id": "GIG1017",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 4050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "6",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "DR. FARIDAH BINTI CHE HUSAIN"
+        }
+      ]
+    },
+    {
+      "module": "PHILOSOPHY AND CURRENT AFFAIRS",
+      "course_id": "GIG1017",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 4050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "7",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ]
+    },
+    {
+      "module": "PHILOSOPHY AND CURRENT AFFAIRS",
+      "course_id": "GIG1017",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 4050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "8",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ]
+    },
+    {
+      "module": "PHILOSOPHY AND CURRENT AFFAIRS",
+      "course_id": "GIG1017",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 4050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "9",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ]
+    },
+    {
+      "module": "PHILOSOPHY AND CURRENT AFFAIRS",
+      "course_id": "GIG1017",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 4050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "10",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ]
+    },
+    {
+      "module": "PHILOSOPHY AND CURRENT AFFAIRS",
+      "course_id": "GIG1017",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 4050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "11",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MR. NIK MUHAMMAD ROZI BIN NIK YUSOFF"
+        }
+      ]
+    },
+    {
+      "module": "PHILOSOPHY AND CURRENT AFFAIRS",
+      "course_id": "GIG1017",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 4050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "12",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MR. NIK MUHAMMAD ROZI BIN NIK YUSOFF"
+        }
+      ]
+    },
+    {
+      "module": "PHILOSOPHY AND CURRENT AFFAIRS",
+      "course_id": "GIG1017",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 4050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "13",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ]
+    },
+    {
+      "module": "PHILOSOPHY AND CURRENT AFFAIRS",
+      "course_id": "GIG1017",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 4050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "14",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ]
+    }
+  ],
+  "GIG1018": [
+    {
+      "module": "MALAYSIAN CITRA",
+      "course_id": "GIG1018",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 1050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ]
+    },
+    {
+      "module": "MALAYSIAN CITRA",
+      "course_id": "GIG1018",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 1050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ]
+    },
+    {
+      "module": "MALAYSIAN CITRA",
+      "course_id": "GIG1018",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 1050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ]
+    },
+    {
+      "module": "MALAYSIAN CITRA",
+      "course_id": "GIG1018",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 1050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "4",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ]
+    },
+    {
+      "module": "MALAYSIAN CITRA",
+      "course_id": "GIG1018",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 1050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "5",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ]
+    },
+    {
+      "module": "MALAYSIAN CITRA",
+      "course_id": "GIG1018",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 1050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "6",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "DR. JAMILA BINTI MOHD"
+        }
+      ]
+    }
+  ],
   "GIR1001": [
     {
       "module": "INTRODUCTION TO MALAYSIAN TRADITIONAL MUSIC",
@@ -52014,6 +52434,394 @@
           "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "DR. NOOR AIN BINTI MAT NOOR"
+        }
+      ]
+    }
+  ],
+  "GUL1001": [
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "MDK3",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. CHEN YENG"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "MDK9",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. MURALITHRAN A/L GOVINDAN KUTTY"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "WBK",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. NORISMA BINTI IDRIS"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "4",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "CDK3",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. MOHAMAD NIZAM BIN AYUB"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "5",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "CBSBLH5",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. TS. DR. AZNUL QALID BIN MD SABRI"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "6",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ADKD",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "7",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ADKE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. AMIRA SARIYATI BINTI FIRDAUS"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "12",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BAUDIM",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "14",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "LDK1",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. MOHAMED NASHRUDIN BIN NAHARUDIN"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "17",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "MDK5",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. NAJIHAH BINTI MOHD HASHIM"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "18",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "MDK7",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "19",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "MDK10",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "20",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "CDK4",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "21",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "IDK1",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. ASMAWATI BINTI MUHAMAD"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "22",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "CDK2",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. MARLENNY BT DEENERWAN"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "23",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "LAUDITORIUM",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. MOHD FAIZAL BIN HAMZAH"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "24",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "IDK2",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. NOOR FADIYA BINTI MOHD NOOR"
         }
       ]
     }
@@ -67322,14 +68130,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Saturday",
-          "room": "DUMMY",
-          "begin_time": "09:00",
-          "end_time": "13:00",
-          "tutor": "DR. AHMAD ZAHIRUDDIN BIN MOHD ZABIDI"
-        },
-        {
-          "title": "lecture",
           "day": "Sunday",
           "room": "BSTERATAI",
           "begin_time": "15:00",
@@ -73069,14 +73869,6 @@
           "title": "practical",
           "day": "Saturday",
           "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. SHAIFULAZUAR BIN ROZALI"
-        },
-        {
-          "title": "practical",
-          "day": "Saturday",
-          "room": "ONLINE",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. SHAIFULAZUAR BIN ROZALI"
@@ -73288,14 +74080,6 @@
       "levelCode": 3,
       "occurence": "1",
       "activities": [
-        {
-          "title": "practical",
-          "day": "Saturday",
-          "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. SHAIFULAZUAR BIN ROZALI"
-        },
         {
           "title": "practical",
           "day": "Saturday",
@@ -82494,13 +83278,6 @@
       "levelCode": 4,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Saturday",
-          "room": "DK1",
-          "begin_time": "09:00",
-          "end_time": "12:00"
-        },
         {
           "title": "lecture",
           "day": "Saturday",
@@ -117529,10 +118306,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "BTM1ISM",
-          "begin_time": "14:00",
-          "end_time": "16:00"
+          "day": "Monday",
+          "room": "DKM4ISM",
+          "begin_time": "11:00",
+          "end_time": "13:00"
         },
         {
           "title": "lecture",
@@ -117558,10 +118335,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "BTM1ISM",
-          "begin_time": "14:00",
-          "end_time": "16:00"
+          "day": "Monday",
+          "room": "DKM4ISM",
+          "begin_time": "11:00",
+          "end_time": "13:00"
         },
         {
           "title": "lecture",
