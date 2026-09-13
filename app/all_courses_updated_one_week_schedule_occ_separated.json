@@ -52610,6 +52610,97 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": 3600,
       "levelCode": 3,
+      "occurence": "8",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MR. MOHD KHAIRUL AKHBAR BIN JAHIRUDDIN"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "9",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "10",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MISS TAMILHIILE MANGGAI A/P G MOHGAN"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "11",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MADAM NOR SYAKIRIN BINTI MOHAMED NASRUDIN"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
       "occurence": "12",
       "activities": [
         {
@@ -52641,6 +52732,51 @@
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. MOHAMED NASHRUDIN BIN NAHARUDIN"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "15",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "16",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. HONG WEI-HAN"
         }
       ]
     },
@@ -52996,6 +53132,29 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": 3600,
       "levelCode": 3,
+      "occurence": "36",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. AZLIN ZAITI BINTI ZAINAL"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
       "occurence": "37",
       "activities": [
         {
@@ -53027,6 +53186,51 @@
           "begin_time": "10:00",
           "end_time": "12:00",
           "tutor": "DR. MOHAMED NASHRUDIN BIN NAHARUDIN"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "40",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "41",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. HONG WEI-HAN"
         }
       ]
     },
@@ -53223,6 +53427,52 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": 3600,
       "levelCode": 3,
+      "occurence": "50",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "PROF. DR. HAMZAH BIN AROF"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "51",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "PROF. DR. SULAIMAN WADI HARUN"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
       "occurence": "52",
       "activities": [
         {
@@ -53301,6 +53551,28 @@
           "begin_time": "10:00",
           "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. DR. FARAZILA BINTI YUSOF"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "59",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "12:00"
         }
       ]
     },
@@ -53480,6 +53752,28 @@
           "title": "lecture",
           "day": "Friday",
           "room": "BAUDIM",
+          "begin_time": "15:00",
+          "end_time": "17:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "69",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
           "begin_time": "15:00",
           "end_time": "17:00"
         }
