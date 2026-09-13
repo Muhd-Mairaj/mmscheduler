@@ -53110,6 +53110,29 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": 3600,
       "levelCode": 3,
+      "occurence": "31",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. TS. DR. SRI DEVI A/P RAVANA"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
       "occurence": "32",
       "activities": [
         {
@@ -53118,6 +53141,73 @@
           "room": "ADKD",
           "begin_time": "10:00",
           "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "33",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "34",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "35",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "MISS TAMILHIILE MANGGAI A/P G MOHGAN"
         }
       ]
     },
