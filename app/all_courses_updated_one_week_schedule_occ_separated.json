@@ -89603,6 +89603,37 @@
           "room": "MDK3",
           "begin_time": "11:00",
           "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "MDK3",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. BONTHA VENKATA SUBRAHMANYA LOKESH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Wednesday",
+          "room": "MDK3",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "tutorial",
+          "day": "Wednesday",
+          "room": "MDK3",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. BONTHA VENKATA SUBRAHMANYA LOKESH"
+        },
+        {
+          "title": "practical",
+          "day": "Tuesday",
+          "room": "MMD2",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. BONTHA VENKATA SUBRAHMANYA LOKESH"
         }
       ]
     },
@@ -136072,6 +136103,14 @@
           "room": "ONLINE",
           "begin_time": "15:00",
           "end_time": "17:00",
+          "tutor": "PROF. TS. DR. AINUDDIN WAHID BIN ABDUL WAHAB"
+        },
+        {
+          "title": "lecture",
+          "day": "Sunday",
+          "room": "ONLINE",
+          "begin_time": "16:00",
+          "end_time": "18:00",
           "tutor": "PROF. TS. DR. AINUDDIN WAHID BIN ABDUL WAHAB"
         }
       ]
