@@ -16152,6 +16152,37 @@
           "tutor": "PROF. DR. SITI HAJAR BINTI ABU BAKAR AH"
         }
       ]
+    },
+    {
+      "module": "SOCIAL POLICY",
+      "course_id": "AIJ2001",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 95,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DKD",
+          "begin_time": "12:00",
+          "end_time": "14:00",
+          "tutor": "PROF. DR. SITI HAJAR BINTI ABU BAKAR AH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "BSAP1",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "PROF. DR. SITI HAJAR BINTI ABU BAKAR AH"
+        }
+      ]
     }
   ],
   "AIJ2003": [
@@ -19515,6 +19546,37 @@
           "room": "MKMEDIA",
           "begin_time": "09:00",
           "end_time": "10:00",
+          "tutor": "DR. SITI EZALEILA BINTI MUSTAFA"
+        }
+      ]
+    },
+    {
+      "module": "EDITING",
+      "course_id": "AIM2002",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 150,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "AUDIFSSS",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. SITI EZALEILA BINTI MUSTAFA"
+        },
+        {
+          "title": "tutorial",
+          "day": "Monday",
+          "room": "BSMEDIA3",
+          "begin_time": "12:00",
+          "end_time": "13:00",
           "tutor": "DR. SITI EZALEILA BINTI MUSTAFA"
         }
       ]
@@ -26719,16 +26781,16 @@
           "title": "lecture",
           "day": "Monday",
           "room": "BK4",
-          "begin_time": "11:00",
-          "end_time": "13:00",
+          "begin_time": "14:00",
+          "end_time": "16:00",
           "tutor": "DR. YONG ADILAH BINTI SHAMSUL HARUMAIN"
         },
         {
           "title": "tutorial",
           "day": "Wednesday",
           "room": "BK4",
-          "begin_time": "11:00",
-          "end_time": "13:00",
+          "begin_time": "14:00",
+          "end_time": "16:00",
           "tutor": "DR. YONG ADILAH BINTI SHAMSUL HARUMAIN"
         }
       ]
@@ -26750,16 +26812,16 @@
           "title": "lecture",
           "day": "Monday",
           "room": "BK4",
-          "begin_time": "11:00",
-          "end_time": "13:00",
+          "begin_time": "14:00",
+          "end_time": "16:00",
           "tutor": "DR. YONG ADILAH BINTI SHAMSUL HARUMAIN"
         },
         {
           "title": "tutorial",
           "day": "Wednesday",
           "room": "BK4",
-          "begin_time": "11:00",
-          "end_time": "13:00",
+          "begin_time": "14:00",
+          "end_time": "16:00",
           "tutor": "DR. YONG ADILAH BINTI SHAMSUL HARUMAIN"
         }
       ]
@@ -40006,8 +40068,7 @@
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "MADAM MAS IDAYU BINTI MD SABRI"
+          "end_time": "19:00"
         }
       ]
     },
@@ -40053,7 +40114,7 @@
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "19:00",
-          "tutor": "MADAM NORNAZLITA BINTI HUSSIN"
+          "tutor": "DR. IRENE YONG SEOK CHING"
         }
       ]
     },
@@ -66224,8 +66285,8 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "BSJDPI",
+          "day": "Friday",
+          "room": "BS19",
           "begin_time": "15:00",
           "end_time": "18:00",
           "tutor": "ASSOCIATE PROF. DR. NORRODZOH BINTI HJ SIREN"
@@ -84005,9 +84066,9 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "BS8",
-          "begin_time": "15:00",
-          "end_time": "18:00"
+          "room": "BS9",
+          "begin_time": "18:00",
+          "end_time": "21:00"
         }
       ]
     },
@@ -84027,9 +84088,9 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "BS8",
-          "begin_time": "15:00",
-          "end_time": "18:00"
+          "room": "BS9",
+          "begin_time": "18:00",
+          "end_time": "21:00"
         }
       ]
     }
@@ -137919,14 +137980,14 @@
           "day": "Monday",
           "room": "DKB",
           "begin_time": "12:00",
-          "end_time": "13:00",
+          "end_time": "14:00",
           "tutor": "ASSOCIATE PROF. DR. JADEERA CHEONG PHAIK GEOK BINTI ABDULLAH"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DKB",
-          "begin_time": "09:00",
+          "begin_time": "10:00",
           "end_time": "11:00",
           "tutor": "ASSOCIATE PROF. DR. JADEERA CHEONG PHAIK GEOK BINTI ABDULLAH"
         }
@@ -137950,14 +138011,14 @@
           "day": "Monday",
           "room": "DKB",
           "begin_time": "12:00",
-          "end_time": "13:00",
+          "end_time": "14:00",
           "tutor": "ASSOCIATE PROF. DR. JADEERA CHEONG PHAIK GEOK BINTI ABDULLAH"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DKB",
-          "begin_time": "09:00",
+          "begin_time": "10:00",
           "end_time": "11:00",
           "tutor": "ASSOCIATE PROF. DR. JADEERA CHEONG PHAIK GEOK BINTI ABDULLAH"
         }
@@ -138239,14 +138300,14 @@
           "day": "Monday",
           "room": "DKB",
           "begin_time": "12:00",
-          "end_time": "13:00",
+          "end_time": "14:00",
           "tutor": "ASSOCIATE PROF. DR. JADEERA CHEONG PHAIK GEOK BINTI ABDULLAH"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DKB",
-          "begin_time": "09:00",
+          "begin_time": "10:00",
           "end_time": "11:00",
           "tutor": "ASSOCIATE PROF. DR. JADEERA CHEONG PHAIK GEOK BINTI ABDULLAH"
         }
@@ -138270,14 +138331,14 @@
           "day": "Monday",
           "room": "DKB",
           "begin_time": "12:00",
-          "end_time": "13:00",
+          "end_time": "14:00",
           "tutor": "ASSOCIATE PROF. DR. JADEERA CHEONG PHAIK GEOK BINTI ABDULLAH"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DKB",
-          "begin_time": "09:00",
+          "begin_time": "10:00",
           "end_time": "11:00",
           "tutor": "ASSOCIATE PROF. DR. JADEERA CHEONG PHAIK GEOK BINTI ABDULLAH"
         }
