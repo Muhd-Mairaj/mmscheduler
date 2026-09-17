@@ -29569,6 +29569,14 @@
       "activities": [
         {
           "title": "lecture",
+          "day": "Thursday",
+          "room": "BK2",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "DR. NIK HAZWANI BINTI HASHIM @ NIK HASHIM"
+        },
+        {
+          "title": "lecture",
           "day": "Saturday",
           "room": "BK2",
           "begin_time": "09:00",
@@ -29600,6 +29608,14 @@
       "levelCode": 4,
       "occurence": "1",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BK2",
+          "begin_time": "17:00",
+          "end_time": "20:00",
+          "tutor": "PROF. DR. ABDUL HADI BIN NAWAWI"
+        },
         {
           "title": "lecture",
           "day": "Saturday",
@@ -29734,6 +29750,14 @@
       "activities": [
         {
           "title": "lecture",
+          "day": "Saturday",
+          "room": "BK2",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. YONG ADILAH BINTI SHAMSUL HARUMAIN"
+        },
+        {
+          "title": "lecture",
           "day": "Thursday",
           "room": "BK2",
           "begin_time": "17:00",
@@ -29765,6 +29789,14 @@
       "levelCode": 4,
       "occurence": "1",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Saturday",
+          "room": "BK5",
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "DR. NOOR HASHIMAH BINTI HASHIM LIM"
+        },
         {
           "title": "lecture",
           "day": "Friday",
@@ -49508,6 +49540,14 @@
           "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "ASSOCIATE PROF. DR. KEUM HYUN KIM"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "ASSOCIATE PROF. DR. KEUM HYUN KIM"
         }
       ]
     },
@@ -49595,6 +49635,14 @@
       "levelCode": 3,
       "occurence": "1",
       "activities": [
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MR. JAMIAN BIN MOHAMAD"
+        },
         {
           "title": "online",
           "day": "Monday",
@@ -49719,6 +49767,14 @@
           "begin_time": "20:00",
           "end_time": "22:00",
           "tutor": "MR. JAMIAN BIN MOHAMAD"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MR. JAMIAN BIN MOHAMAD"
         }
       ]
     },
@@ -49760,6 +49816,14 @@
       "levelCode": 3,
       "occurence": "1",
       "activities": [
+        {
+          "title": "online",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "DR. LARISA NIKITINA"
+        },
         {
           "title": "online",
           "day": "Tuesday",
@@ -49852,11 +49916,67 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": null,
       "levelCode": 3,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MISS NUR ADLINA HISHAMMUDON SHAH"
+        }
+      ]
+    },
+    {
+      "module": "BASIC SPANISH LANGUAGE 1",
+      "course_id": "GLT1040",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 52,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
       "occurence": "1M",
       "activities": [
         {
           "title": "online",
           "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MR. CANING ALEXIS JARAMILLO RENGIFO"
+        }
+      ]
+    }
+  ],
+  "GLT1041": [
+    {
+      "module": "BASIC SPANISH LANGUAGE 2",
+      "course_id": "GLT1041",
+      "credits": 2,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 20,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MR. CANING ALEXIS JARAMILLO RENGIFO"
+        },
+        {
+          "title": "online",
+          "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "19:00",
@@ -50166,6 +50286,14 @@
           "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "MISS SHARON PASION VINLUAN"
+        },
+        {
+          "title": "online",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MISS SHARON PASION VINLUAN"
         }
       ]
     },
@@ -50214,6 +50342,14 @@
           "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "MRS NGUYEN THUY THIEN HUONG"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MRS NGUYEN THUY THIEN HUONG"
         }
       ]
     },
@@ -50236,6 +50372,14 @@
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "19:00",
+          "tutor": "MRS NGUYEN THUY THIEN HUONG"
+        },
+        {
+          "title": "online",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
           "tutor": "MRS NGUYEN THUY THIEN HUONG"
         }
       ]
@@ -56546,10 +56690,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "BS15",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "day": "Tuesday",
+          "room": "BS29",
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "DR. NURULHUDA BINTI AHMAD ZAKI"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BS8",
+          "begin_time": "09:00",
+          "end_time": "12:00",
           "tutor": "DR. NURULHUDA BINTI AHMAD ZAKI"
         }
       ]
@@ -57025,10 +57177,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "BS30",
-          "begin_time": "11:00",
-          "end_time": "13:00",
+          "day": "Tuesday",
+          "room": "BS3",
+          "begin_time": "14:00",
+          "end_time": "16:00",
           "tutor": "DR. NURUL HUSNA BINTI MANSOR"
         },
         {
@@ -57720,10 +57872,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "BS16",
-          "begin_time": "11:00",
-          "end_time": "13:00",
+          "day": "Tuesday",
+          "room": "BS5",
+          "begin_time": "08:00",
+          "end_time": "10:00",
           "tutor": "DR. MOHAMAD KHALID BIN BAHRUDIN"
         },
         {
@@ -58544,6 +58696,14 @@
       "occurence": "1",
       "activities": [
         {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BS23",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. MOHD HAFIZ BIN JAMALUDIN"
+        },
+        {
           "title": "tutorial",
           "day": "Thursday",
           "room": "BS10",
@@ -58715,6 +58875,14 @@
       "occurence": "1",
       "activities": [
         {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BS23",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. MOHD HAFIZ BIN JAMALUDIN"
+        },
+        {
           "title": "tutorial",
           "day": "Thursday",
           "room": "BS10",
@@ -58737,12 +58905,51 @@
       "occurence": "2",
       "activities": [
         {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BS25",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "MR. HAFIZ BIN JAMALUDIN"
+        },
+        {
           "title": "tutorial",
           "day": "Thursday",
           "room": "BS3",
           "begin_time": "16:00",
           "end_time": "17:00",
           "tutor": "DR. MOHD HAFIZ BIN JAMALUDIN"
+        }
+      ]
+    },
+    {
+      "module": "NAZARIYYAH AL-HUKM AL-SYAR\u00e2\u20ac\u02dcI FI USUL AL-FIQH",
+      "course_id": "IIP1009",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 240,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BS26",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. YOUCEF BENSALA"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "BS13",
+          "begin_time": "16:00",
+          "end_time": "17:00",
+          "tutor": "DR. NORHIDAYAH BINTI PAUZI"
         }
       ]
     },
@@ -58852,6 +59059,14 @@
       "levelCode": 3,
       "occurence": "7",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BS28",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "ASSOCIATE PROF. DR. MOHAMMAD TAQIUDDIN BIN MOHAMAD"
+        },
         {
           "title": "tutorial",
           "day": "Thursday",
@@ -59378,14 +59593,6 @@
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. YOUCEF BENSALA"
-        },
-        {
-          "title": "tutorial",
-          "day": "Thursday",
-          "room": "BS2",
-          "begin_time": "10:00",
-          "end_time": "11:00",
-          "tutor": "DR. YOUCEF BENSALA"
         }
       ]
     },
@@ -59409,13 +59616,6 @@
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. YOUCEF BENSALA"
-        },
-        {
-          "title": "tutorial",
-          "day": "Wednesday",
-          "room": "BS2",
-          "begin_time": "08:00",
-          "end_time": "09:00"
         }
       ]
     }
@@ -59540,6 +59740,75 @@
           "room": "DK3",
           "begin_time": "14:00",
           "end_time": "15:00",
+          "tutor": "DR. BAHIYAH BINTI AHMAD"
+        }
+      ]
+    },
+    {
+      "module": "AL-`URF WA AL-MASLAHAH",
+      "course_id": "IIP3005",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 150,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "tutorial",
+          "day": "Wednesday",
+          "room": "BS14",
+          "begin_time": "15:00",
+          "end_time": "16:00",
+          "tutor": "DR. BAHIYAH BINTI AHMAD"
+        }
+      ]
+    },
+    {
+      "module": "AL-`URF WA AL-MASLAHAH",
+      "course_id": "IIP3005",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 150,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "BS27",
+          "begin_time": "14:00",
+          "end_time": "15:00",
+          "tutor": "DR. BAHIYAH BINTI AHMAD"
+        }
+      ]
+    },
+    {
+      "module": "AL-`URF WA AL-MASLAHAH",
+      "course_id": "IIP3005",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 150,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "4",
+      "activities": [
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "BS13",
+          "begin_time": "15:00",
+          "end_time": "16:00",
           "tutor": "DR. BAHIYAH BINTI AHMAD"
         }
       ]
@@ -67629,8 +67898,8 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "TBPBAKAWALI",
-          "begin_time": "08:00",
-          "end_time": "10:00"
+          "begin_time": "11:00",
+          "end_time": "13:00"
         },
         {
           "title": "tutorial",
@@ -96936,7 +97205,7 @@
           "room": "BT4",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "DR. CHUA KAH HENG"
+          "tutor": "DR. MOHD NOR SYAHRIR ABDULLAH"
         }
       ]
     }
@@ -124062,9 +124331,17 @@
       "activities": [
         {
           "title": "lecture",
+          "day": "Wednesday",
+          "room": "BS3BS4KDK",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. RUSNAH SYAHILA BINTI DUALI HUSSEN"
+        },
+        {
+          "title": "lecture",
           "day": "Thursday",
           "room": "BS3BS4KDK",
-          "begin_time": "09:00",
+          "begin_time": "10:00",
           "end_time": "11:00",
           "tutor": "DR. RUSNAH SYAHILA BINTI DUALI HUSSEN"
         }
@@ -124121,7 +124398,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DKFIZIK",
+          "room": "BSFCIS",
           "begin_time": "14:00",
           "end_time": "15:00",
           "tutor": "DR. ZARINA BINTI ASPANUT"
@@ -124129,7 +124406,7 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "DKFIZIK",
+          "room": "BS2KDK",
           "begin_time": "14:00",
           "end_time": "15:00",
           "tutor": "DR. ZARINA BINTI ASPANUT"
