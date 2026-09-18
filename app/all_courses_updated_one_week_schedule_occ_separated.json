@@ -11512,14 +11512,6 @@
           "begin_time": "09:00",
           "end_time": "10:00",
           "tutor": "DR. MAZLAN BIN MAJID"
-        },
-        {
-          "title": "tutorial",
-          "day": "Tuesday",
-          "room": "JATI1",
-          "begin_time": "12:00",
-          "end_time": "13:00",
-          "tutor": "DR. MAZLAN BIN MAJID"
         }
       ]
     },
@@ -11541,6 +11533,14 @@
           "day": "Monday",
           "room": "JATI1",
           "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. MAZLAN BIN MAJID"
+        },
+        {
+          "title": "tutorial",
+          "day": "Tuesday",
+          "room": "JATI1",
+          "begin_time": "12:00",
           "end_time": "13:00",
           "tutor": "DR. MAZLAN BIN MAJID"
         }
@@ -14564,10 +14564,10 @@
         },
         {
           "title": "tutorial",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "BS10",
-          "begin_time": "11:00",
-          "end_time": "12:00"
+          "begin_time": "12:00",
+          "end_time": "13:00"
         }
       ]
     },
@@ -14593,10 +14593,10 @@
         },
         {
           "title": "tutorial",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "BS10",
-          "begin_time": "11:00",
-          "end_time": "12:00"
+          "begin_time": "12:00",
+          "end_time": "13:00"
         }
       ]
     }
@@ -14619,8 +14619,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "BPAA",
-          "begin_time": "11:00",
-          "end_time": "13:00"
+          "begin_time": "09:00",
+          "end_time": "11:00"
         },
         {
           "title": "tutorial",
@@ -14648,8 +14648,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "BPAA",
-          "begin_time": "11:00",
-          "end_time": "13:00"
+          "begin_time": "09:00",
+          "end_time": "11:00"
         },
         {
           "title": "tutorial",
@@ -29572,8 +29572,8 @@
           "day": "Thursday",
           "room": "BK2",
           "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "DR. NIK HAZWANI BINTI HASHIM @ NIK HASHIM"
+          "end_time": "21:00",
+          "tutor": "PROFESOR TPR DR. GOH HONG CHING"
         },
         {
           "title": "lecture",
@@ -29613,8 +29613,7 @@
           "day": "Friday",
           "room": "BK2",
           "begin_time": "17:00",
-          "end_time": "20:00",
-          "tutor": "PROF. DR. ABDUL HADI BIN NAWAWI"
+          "end_time": "20:00"
         },
         {
           "title": "lecture",
@@ -29651,6 +29650,14 @@
       "activities": [
         {
           "title": "lecture",
+          "day": "Friday",
+          "room": "BK2",
+          "begin_time": "20:00",
+          "end_time": "23:00",
+          "tutor": "ASSOC. PROF. GS. DR. ROSILAWATI BINTI ZAINOL"
+        },
+        {
+          "title": "lecture",
           "day": "Saturday",
           "room": "BK2",
           "begin_time": "17:00",
@@ -29684,6 +29691,14 @@
       "activities": [
         {
           "title": "lecture",
+          "day": "Saturday",
+          "room": "BK2",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. NIKMATUL ADHA BINTI NORDIN"
+        },
+        {
+          "title": "lecture",
           "day": "Tuesday",
           "room": "BK2",
           "begin_time": "17:00",
@@ -29715,6 +29730,14 @@
       "levelCode": 4,
       "occurence": "1",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Saturday",
+          "room": "BK2",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. NIK HAZWANI BINTI HASHIM @ NIK HASHIM"
+        },
         {
           "title": "lecture",
           "day": "Wednesday",
@@ -29752,8 +29775,8 @@
           "title": "lecture",
           "day": "Saturday",
           "room": "BK2",
-          "begin_time": "09:00",
-          "end_time": "11:00",
+          "begin_time": "17:00",
+          "end_time": "19:00",
           "tutor": "DR. YONG ADILAH BINTI SHAMSUL HARUMAIN"
         },
         {
@@ -29793,9 +29816,9 @@
           "title": "lecture",
           "day": "Saturday",
           "room": "BK5",
-          "begin_time": "08:00",
-          "end_time": "11:00",
-          "tutor": "DR. NOOR HASHIMAH BINTI HASHIM LIM"
+          "begin_time": "20:00",
+          "end_time": "23:00",
+          "tutor": "PROFESOR TPR DR. GOH HONG CHING"
         },
         {
           "title": "lecture",
@@ -56576,8 +56599,16 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "BS32",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "begin_time": "11:00",
+          "end_time": "14:00",
+          "tutor": "DR. MOHD HAFIZ BIN MOHD SAADON"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BS5",
+          "begin_time": "08:00",
+          "end_time": "11:00",
           "tutor": "DR. MOHD HAFIZ BIN MOHD SAADON"
         }
       ]
@@ -56700,8 +56731,8 @@
           "title": "lecture",
           "day": "Wednesday",
           "room": "BS8",
-          "begin_time": "09:00",
-          "end_time": "12:00",
+          "begin_time": "08:00",
+          "end_time": "11:00",
           "tutor": "DR. NURULHUDA BINTI AHMAD ZAKI"
         }
       ]
@@ -65390,16 +65421,16 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "BS27",
-          "begin_time": "15:00",
-          "end_time": "17:00",
+          "begin_time": "16:00",
+          "end_time": "18:00",
           "tutor": "ASSOCIATE PROF. DR. SYED MOHAMMAD HILMI B SYED ABDUL RAHMAN"
         },
         {
           "title": "tutorial",
-          "day": "Thursday",
+          "day": "Friday",
           "room": "BS15",
-          "begin_time": "11:00",
-          "end_time": "12:00",
+          "begin_time": "09:00",
+          "end_time": "10:00",
           "tutor": "ASSOCIATE PROF. DR. SYED MOHAMMAD HILMI B SYED ABDUL RAHMAN"
         }
       ]
@@ -65782,10 +65813,10 @@
         },
         {
           "title": "tutorial",
-          "day": "Wednesday",
+          "day": "Monday",
           "room": "BS20",
-          "begin_time": "11:00",
-          "end_time": "12:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "DR. NURUL HUSNA BINTI MANSOR"
         }
       ]
@@ -65849,8 +65880,8 @@
           "title": "tutorial",
           "day": "Wednesday",
           "room": "BS25",
-          "begin_time": "12:00",
-          "end_time": "13:00"
+          "begin_time": "08:00",
+          "end_time": "09:00"
         }
       ]
     }
@@ -108502,7 +108533,7 @@
           "room": "MKIMIAINORIII",
           "begin_time": "11:00",
           "end_time": "17:00",
-          "tutor": "DR. MAZDIDA BINTI SULAIMAN"
+          "tutor": "DR. NAZZATUSH SHIMAR JAMALUDIN"
         }
       ]
     },
@@ -108525,7 +108556,7 @@
           "room": "MKIMIAINORIII",
           "begin_time": "11:00",
           "end_time": "17:00",
-          "tutor": "DR. NAZZATUSH SHIMAR JAMALUDIN"
+          "tutor": "DR. MAZDIDA BINTI SULAIMAN"
         }
       ]
     },
@@ -124399,16 +124430,16 @@
           "title": "lecture",
           "day": "Monday",
           "room": "BSFCIS",
-          "begin_time": "14:00",
-          "end_time": "15:00",
+          "begin_time": "11:00",
+          "end_time": "12:00",
           "tutor": "DR. ZARINA BINTI ASPANUT"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "BS2KDK",
-          "begin_time": "14:00",
-          "end_time": "15:00",
+          "room": "BSFCIS",
+          "begin_time": "11:00",
+          "end_time": "12:00",
           "tutor": "DR. ZARINA BINTI ASPANUT"
         }
       ]
@@ -126781,7 +126812,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "AUDIKIMIA",
+          "room": "BLOCKBISB",
           "begin_time": "10:00",
           "end_time": "13:00",
           "tutor": "PROF. DR. LING TAU CHUAN"
@@ -137175,16 +137206,14 @@
           "day": "Tuesday",
           "room": "MPS",
           "begin_time": "16:00",
-          "end_time": "17:00",
-          "tutor": "DR. YOUNGEUN NOH"
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "BS2",
           "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. YOUNGEUN NOH"
+          "end_time": "16:00"
         }
       ]
     },
@@ -137206,16 +137235,14 @@
           "day": "Tuesday",
           "room": "MPS",
           "begin_time": "16:00",
-          "end_time": "17:00",
-          "tutor": "DR. YOUNGEUN NOH"
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "BS2",
           "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. YOUNGEUN NOH"
+          "end_time": "16:00"
         }
       ]
     }
@@ -137547,6 +137574,35 @@
           "room": "DKB",
           "begin_time": "08:00",
           "end_time": "09:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DKA",
+          "begin_time": "10:00",
+          "end_time": "13:00"
+        }
+      ]
+    },
+    {
+      "module": "ANATOMY AND PHYSIOLOGY I",
+      "course_id": "VIB1001",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 100,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SPORTS  AND EXERCISE SCIENCE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DKA",
+          "begin_time": "10:00",
+          "end_time": "13:00"
         }
       ]
     },
@@ -137664,6 +137720,35 @@
           "room": "DKB",
           "begin_time": "08:00",
           "end_time": "09:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DKA",
+          "begin_time": "10:00",
+          "end_time": "13:00"
+        }
+      ]
+    },
+    {
+      "module": "ANATOMY AND PHYSIOLOGY I",
+      "course_id": "VIB1101",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 60,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SPORTS  AND EXERCISE SCIENCE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DKA",
+          "begin_time": "10:00",
+          "end_time": "13:00"
         }
       ]
     },
