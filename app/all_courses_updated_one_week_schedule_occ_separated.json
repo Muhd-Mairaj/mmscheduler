@@ -25133,16 +25133,16 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "STBS12",
-          "begin_time": "11:00",
-          "end_time": "14:00",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "SR DR. ZURAINI BINTI MD ALI"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "STBS12",
-          "begin_time": "11:00",
-          "end_time": "14:00",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "SR DR. ZURAINI BINTI MD ALI"
         }
       ]
@@ -25166,15 +25166,15 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "STBS12",
-          "begin_time": "14:00",
-          "end_time": "16:00"
+          "begin_time": "09:00",
+          "end_time": "11:00"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "STBS12",
-          "begin_time": "14:00",
-          "end_time": "16:00"
+          "begin_time": "09:00",
+          "end_time": "11:00"
         }
       ]
     },
@@ -25195,15 +25195,15 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "STBS12",
-          "begin_time": "14:00",
-          "end_time": "16:00"
+          "begin_time": "09:00",
+          "end_time": "11:00"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "STBS12",
-          "begin_time": "14:00",
-          "end_time": "16:00"
+          "begin_time": "09:00",
+          "end_time": "11:00"
         }
       ]
     }
@@ -25414,6 +25414,14 @@
       "levelCode": 3,
       "occurence": "1",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "STBS34",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "SR DR. BRIT ANAK KAYAN"
+        },
         {
           "title": "lecture",
           "day": "Thursday",
@@ -28382,10 +28390,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "STBS12",
-          "begin_time": "16:00",
-          "end_time": "18:00",
+          "day": "Wednesday",
+          "room": "BK7",
+          "begin_time": "14:00",
+          "end_time": "16:00",
           "tutor": "SR DR. NUR FARHANA BINTI AZMI"
         }
       ]
@@ -93908,10 +93916,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "BSEA306",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "day": "Friday",
+          "room": "BSEC102",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. NOOR AISHAH BINTI ROSLI"
         }
       ]
@@ -124461,10 +124469,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Friday",
           "room": "ONLINE",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "begin_time": "09:00",
+          "end_time": "12:00",
           "tutor": "DR. NOR AISHAH BINTI ABDULLAH"
         }
       ]
