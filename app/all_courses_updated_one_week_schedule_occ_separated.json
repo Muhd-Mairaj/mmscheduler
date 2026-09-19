@@ -41207,6 +41207,29 @@
           "end_time": "19:00"
         }
       ]
+    },
+    {
+      "module": "PHILOSOPHY AND CURRENT AFFAIRS",
+      "course_id": "GIG1017",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 4050,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "15",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "DR. FAEZAH BINTI KASSIM"
+        }
+      ]
     }
   ],
   "GIG1018": [
@@ -57358,8 +57381,8 @@
           "title": "tutorial",
           "day": "Thursday",
           "room": "BS27",
-          "begin_time": "12:00",
-          "end_time": "13:00",
+          "begin_time": "15:00",
+          "end_time": "16:00",
           "tutor": "ASSOCIATE PROF. DR. AIZAN BINTI ALI @ MAT ZIN"
         }
       ]
@@ -61015,14 +61038,6 @@
           "room": "DK1",
           "begin_time": "09:00",
           "end_time": "11:00",
-          "tutor": "DR. FAKHRUL ADABI BIN ABDUL KADIR"
-        },
-        {
-          "title": "tutorial",
-          "day": "Tuesday",
-          "room": "BS14",
-          "begin_time": "14:00",
-          "end_time": "15:00",
           "tutor": "DR. FAKHRUL ADABI BIN ABDUL KADIR"
         },
         {
