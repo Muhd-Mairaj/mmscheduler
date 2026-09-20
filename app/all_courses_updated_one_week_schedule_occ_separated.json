@@ -126012,6 +126012,28 @@
           "tutor": "DR. MOHD ISTAJIB BIN MOKHTAR"
         }
       ]
+    },
+    {
+      "module": "RESEARCH PROJECT",
+      "course_id": "SQE7028",
+      "credits": 12,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 180,
+      "level": "MASTER",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "P2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DKVANDAKDK",
+          "begin_time": "21:00",
+          "end_time": "23:00"
+        }
+      ]
     }
   ],
   "SQF7001": [
@@ -127159,6 +127181,54 @@
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. NG BOON KWEE"
+        }
+      ]
+    },
+    {
+      "module": "SOCIAL INNOVATIONS",
+      "course_id": "SQJ7009",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 200,
+      "level": "MASTER",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DKVANDAKDK",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "ASSOCIATE PROF. DR. NG BOON KWEE"
+        }
+      ]
+    }
+  ],
+  "SQJ7013": [
+    {
+      "module": "RESEARCH PROJECT",
+      "course_id": "SQJ7013",
+      "credits": 12,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 300,
+      "level": "MASTER",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "P2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DKMELATIKDK",
+          "begin_time": "21:00",
+          "end_time": "23:00",
+          "tutor": "CHM. DR. ARCHINA A/P BUTHIYAPPAN"
         }
       ]
     }
