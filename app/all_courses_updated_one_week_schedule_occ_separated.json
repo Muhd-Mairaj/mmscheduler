@@ -30353,10 +30353,10 @@
       "activities": [
         {
           "title": "seminar",
-          "day": "Monday",
+          "day": "Tuesday",
           "room": "CBS10",
-          "begin_time": "08:00",
-          "end_time": "11:00"
+          "begin_time": "11:00",
+          "end_time": "14:00"
         }
       ]
     }
