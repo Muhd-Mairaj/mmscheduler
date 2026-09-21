@@ -127140,13 +127140,35 @@
           "day": "Friday",
           "room": "DKVANDAKDK",
           "begin_time": "18:00",
-          "end_time": "21:00",
-          "tutor": "ASSOCIATE PROF. DR. NG BOON KWEE"
+          "end_time": "21:00"
         }
       ]
     }
   ],
   "SQJ7013": [
+    {
+      "module": "RESEARCH PROJECT",
+      "course_id": "SQJ7013",
+      "credits": 12,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 300,
+      "level": "MASTER",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "P1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK4",
+          "begin_time": "20:00",
+          "end_time": "23:00",
+          "tutor": "CHM. DR. ARCHINA A/P BUTHIYAPPAN"
+        }
+      ]
+    },
     {
       "module": "RESEARCH PROJECT",
       "course_id": "SQJ7013",
