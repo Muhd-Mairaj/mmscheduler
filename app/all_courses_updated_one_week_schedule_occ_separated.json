@@ -12797,24 +12797,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "SUMIRE",
-          "begin_time": "15:00",
-          "end_time": "17:00"
-        },
-        {
-          "title": "lecture",
           "day": "Wednesday",
           "room": "SUMIRE",
           "begin_time": "08:00",
           "end_time": "10:00"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "SUMIRE",
-          "begin_time": "11:00",
-          "end_time": "13:00"
         }
       ]
     },
@@ -12831,13 +12817,6 @@
       "levelCode": 3,
       "occurence": "1M",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "SUMIRE",
-          "begin_time": "15:00",
-          "end_time": "17:00"
-        },
         {
           "title": "lecture",
           "day": "Wednesday",
@@ -37674,7 +37653,7 @@
           "room": "ONLINE",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "DR. MUHAMMAD HAMEEDULLAH BIN MD ASRI"
+          "tutor": "DR. SHEILA A/P RAMALINGAM"
         }
       ]
     }
@@ -38016,8 +37995,7 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "MR. NIK MUHAMMAD ROZI BIN NIK YUSOFF"
+          "end_time": "10:00"
         }
       ]
     },
@@ -38085,8 +38063,7 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "MR. NIK MUHAMMAD ROZI BIN NIK YUSOFF"
+          "end_time": "10:00"
         }
       ]
     }
@@ -56295,13 +56272,13 @@
       ]
     }
   ],
-  "IIF3012": [
+  "IIF3013": [
     {
-      "module": "BASIC ECONOMETRICS",
-      "course_id": "IIF3012",
+      "module": "ZAKAH ACCOUNTING",
+      "course_id": "IIF3013",
       "credits": 3,
       "yearPeriod": "2026/S1",
-      "overallTargetStudent": 60,
+      "overallTargetStudent": 50,
       "level": "BACHELOR",
       "faculty": "ACADEMY OF ISLAMIC STUDIES",
       "continuousAssessmentWeightage": "50~50",
@@ -56323,37 +56300,6 @@
           "room": "BS28",
           "begin_time": "11:00",
           "end_time": "12:00",
-          "tutor": "DR. NOR AINI BINTI ALI"
-        }
-      ]
-    },
-    {
-      "module": "BASIC ECONOMETRICS",
-      "course_id": "IIF3012",
-      "credits": 3,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 60,
-      "level": "BACHELOR",
-      "faculty": "ACADEMY OF ISLAMIC STUDIES",
-      "continuousAssessmentWeightage": "50~50",
-      "examDuration": 7200,
-      "levelCode": 3,
-      "occurence": "2",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BS24",
-          "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "DR. NOR AINI BINTI ALI"
-        },
-        {
-          "title": "tutorial",
-          "day": "Thursday",
-          "room": "BS28",
-          "begin_time": "12:00",
-          "end_time": "13:00",
           "tutor": "DR. NOR AINI BINTI ALI"
         }
       ]
@@ -74655,22 +74601,6 @@
           "begin_time": "15:00",
           "end_time": "16:00",
           "tutor": "PROFESSOR IR. DR. YAU YAT HUANG"
-        },
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BK102",
-          "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "DR. KAZI MD. SALIM NEWAZ"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "BK102",
-          "begin_time": "15:00",
-          "end_time": "16:00",
-          "tutor": "DR. KAZI MD. SALIM NEWAZ"
         },
         {
           "title": "lab",
@@ -111747,7 +111677,7 @@
           "day": "Thursday",
           "room": "BS3BS4KDK",
           "begin_time": "12:00",
-          "end_time": "13:00"
+          "end_time": "14:00"
         }
       ]
     }
@@ -112168,6 +112098,14 @@
       "levelCode": 3,
       "occurence": "1",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DKFIZIK",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "PROF. DR. SITHI VINAYAKAM A/L MUNIANDY"
+        },
         {
           "title": "lecture",
           "day": "Wednesday",
