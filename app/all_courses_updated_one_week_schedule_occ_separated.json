@@ -29436,14 +29436,6 @@
           "day": "Tuesday",
           "room": "STSBT4",
           "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "ASSOCIATE PROF. DR. NAZLI BIN CHE DIN"
-        },
-        {
-          "title": "tutorial",
-          "day": "Tuesday",
-          "room": "STSBT4",
-          "begin_time": "17:00",
           "end_time": "18:00",
           "tutor": "ASSOCIATE PROF. DR. NAZLI BIN CHE DIN"
         }
@@ -29561,6 +29553,39 @@
           "begin_time": "17:00",
           "end_time": "18:00",
           "tutor": "MADAM ATI ROSEMARY BINTI MOHD ARIFFIN"
+        }
+      ]
+    }
+  ],
+  "BQD7018": [
+    {
+      "module": "ARCHITECTURAL RESEARCH I",
+      "course_id": "BQD7018",
+      "credits": 5,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 5,
+      "level": "MASTER",
+      "faculty": "FACULTY OF BUILT ENVIRONMENT",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "STSBT5",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. NAZLI BIN CHE DIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "STSBT5",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "ASSOCIATE PROF. DR. NAZLI BIN CHE DIN"
         }
       ]
     }
@@ -58219,7 +58244,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "BS3",
+          "room": "BS10",
           "begin_time": "11:00",
           "end_time": "13:00",
           "tutor": "ASSOCIATE PROF. DR. SITI ZUBAIDAH BINTI ISMAIL"
@@ -58387,7 +58412,7 @@
           "room": "BS30",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "DATO  DR. AHMAD HIDAYAT BIN BUANG"
+          "tutor": "ASSOCIATE PROF. DR. MOHD NORHUSAIRI BIN MAT HUSSIN"
         },
         {
           "title": "tutorial",
@@ -58395,7 +58420,7 @@
           "room": "BS25",
           "begin_time": "11:00",
           "end_time": "12:00",
-          "tutor": "DATO  DR. AHMAD HIDAYAT BIN BUANG"
+          "tutor": "ASSOCIATE PROF. DR. MOHD NORHUSAIRI BIN MAT HUSSIN"
         }
       ]
     }
@@ -58527,7 +58552,7 @@
           "room": "BS17",
           "begin_time": "12:00",
           "end_time": "13:00",
-          "tutor": "DATO  DR. AHMAD HIDAYAT BIN BUANG"
+          "tutor": "DR. MAHAMATAYUDING SAMAH"
         }
       ]
     }
@@ -65392,7 +65417,7 @@
           "room": "BS16",
           "begin_time": "15:00",
           "end_time": "16:00",
-          "tutor": "DATO  DR. AHMAD HIDAYAT BIN BUANG"
+          "tutor": "DR. HANIRA BINTI HANAFI"
         }
       ]
     }
@@ -89147,6 +89172,30 @@
           "title": "lecture",
           "day": "Monday",
           "room": "SEMROOM1",
+          "begin_time": "15:30",
+          "end_time": "17:00",
+          "tutor": "DR. FARHAD MORADI"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "SEMROOM1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "MADAM NORASLINDA BINTI SANUSI"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "SEMROOM1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. TAN LI KUO"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "SEMROOM1",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "DR. NG AIK HAO"
@@ -89158,6 +89207,143 @@
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "DR. AZLAN BIN CHE AHMAD"
+        }
+      ]
+    }
+  ],
+  "MQA7003": [
+    {
+      "module": "ANATOMY AND PHYSIOLOGY",
+      "course_id": "MQA7003",
+      "credits": 4,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 35,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 10800,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "SEMROOM1",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. KRISHNAMURITHY A/L GENASAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "SEMROOM1",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. NAGUIB BIN SALLEH"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "SEMROOM1",
+          "begin_time": "11:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD AIZAT BIN MOHD ZAIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "SEMROOM1",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. MOHD AIZAT BIN MOHD ZAIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "SEMROOM1",
+          "begin_time": "11:00",
+          "end_time": "12:00",
+          "tutor": "DR. KUMAR A/L SELUAKUMARAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "SEMROOM1",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. KUMAR A/L SELUAKUMARAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "SEMROOM1",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. WAN NUR ASYIQIN BINTI RASIDI"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "SEMROOM1",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. MAZIAH BINTI MAT ROSLY"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "SEMROOM1",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MAZIAH BINTI MAT ROSLY"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "SEMROOM1",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. WAN NUR ASYIQIN BINTI RASIDI"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "SEMROOM1",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. KAMAL AZRIN BIN ABDULLAH @ KALAI ARASU A/L MUTHUSAMY"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "SEMROOM1",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. KAMAL AZRIN BIN ABDULLAH @ KALAI ARASU A/L MUTHUSAMY"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "SEMROOM1",
+          "begin_time": "11:00",
+          "end_time": "12:00",
+          "tutor": "DR. GIRIBABU NELLI"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "SEMROOM1",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. GIRIBABU NELLI"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "SEMROOM1",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. KRISHNAMURITHY A/L GENASAN"
         }
       ]
     }
@@ -89633,6 +89819,81 @@
           "begin_time": "09:00",
           "end_time": "12:00",
           "tutor": "DR. CHONG LEE AI"
+        }
+      ]
+    }
+  ],
+  "MQF7005": [
+    {
+      "module": "RESPONSIBLE CONDUCT OF RESEARCH",
+      "course_id": "MQF7005",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 25,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM2",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. ROZAIDA @ POH YUEN YING"
+        }
+      ]
+    }
+  ],
+  "MQF7009": [
+    {
+      "module": "GOOD CLINICAL PRACTICE",
+      "course_id": "MQF7009",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 25,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "SEMROOM2",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. PHAN CHIA WEI"
+        }
+      ]
+    }
+  ],
+  "MQF7010": [
+    {
+      "module": "ETHICS IN ANIMAL RESEARCH",
+      "course_id": "MQF7010",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 25,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "70~30",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "SEMROOM2",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. SUZITA BINTI MOHD NOOR"
         }
       ]
     }
@@ -96714,7 +96975,7 @@
           "room": "BSEA203",
           "begin_time": "15:00",
           "end_time": "18:00",
-          "tutor": "DR. DOROTHY DEWITT"
+          "tutor": "DR. SITI ZURAIDA MAARUF"
         }
       ]
     },
@@ -96849,7 +97110,7 @@
           "room": "BSD",
           "begin_time": "15:00",
           "end_time": "18:00",
-          "tutor": "DR. SITI ZURAIDA MAARUF"
+          "tutor": "DR. DOROTHY DEWITT"
         }
       ]
     },
@@ -118203,6 +118464,45 @@
           "tutor": "DR. YUSRIZAM BIN SHARIFUDDIN"
         }
       ]
+    },
+    {
+      "module": "GENERAL HUMAN GENETICS",
+      "course_id": "SIK2006",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 10,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "MBIOKESIHATAN2",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. YUSRIZAM BIN SHARIFUDDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "MBIOKESIHATAN2",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. YUSRIZAM BIN SHARIFUDDIN"
+        },
+        {
+          "title": "lab",
+          "day": "Wednesday",
+          "room": "MBIOKESIHATAN1",
+          "begin_time": "15:00",
+          "end_time": "18:00",
+          "tutor": "DR. YUSRIZAM BIN SHARIFUDDIN"
+        }
+      ]
     }
   ],
   "SIK2008": [
@@ -122348,17 +122648,15 @@
           "title": "lecture",
           "day": "Monday",
           "room": "DKM4ISM",
-          "begin_time": "16:00",
-          "end_time": "18:00",
-          "tutor": "MISS ANIZ YUSNIDA BINTI ZAKARIA"
+          "begin_time": "18:00",
+          "end_time": "20:00"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DKM4ISM",
-          "begin_time": "16:00",
-          "end_time": "18:00",
-          "tutor": "MISS ANIZ YUSNIDA BINTI ZAKARIA"
+          "begin_time": "18:00",
+          "end_time": "20:00"
         }
       ]
     }
@@ -122955,6 +123253,37 @@
           "tutor": "DR. MUHAMAD AFIQ BIN AZIZ"
         }
       ]
+    },
+    {
+      "module": "VIROLOGY",
+      "course_id": "SIR2013",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BPENSYISB",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "DR. JASMINE ELANIE BINTI KHAIRAT"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BPENSYISB",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "DR. JASMINE ELANIE BINTI KHAIRAT"
+        }
+      ]
     }
   ],
   "SIR2015": [
@@ -123115,6 +123444,37 @@
           "room": "BKBT17ISB",
           "begin_time": "09:00",
           "end_time": "10:00",
+          "tutor": "DR. NUR ARDIYANA BINTI REJAB"
+        }
+      ]
+    },
+    {
+      "module": "MOLECULAR GENETICS",
+      "course_id": "SIR2018",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BPENSYISB",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "DR. NUR ARDIYANA BINTI REJAB"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BPENSYISB",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "DR. NUR ARDIYANA BINTI REJAB"
         }
       ]
@@ -123295,6 +123655,37 @@
           "tutor": "PROF. DR. ZULQARNAIN BIN MOHAMED"
         }
       ]
+    },
+    {
+      "module": "HUMAN MOLECULAR GENETICS",
+      "course_id": "SIR3019",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BPENSYISB",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "PROF. DR. ZULQARNAIN BIN MOHAMED"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BPENSYISB",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "PROF. DR. ZULQARNAIN BIN MOHAMED"
+        }
+      ]
     }
   ],
   "SIR3020": [
@@ -123357,6 +123748,37 @@
           "room": "MGBM22ISB",
           "begin_time": "14:00",
           "end_time": "17:00",
+          "tutor": "PROF. DR. JENNIFER ANN HARIKRISHNA"
+        }
+      ]
+    },
+    {
+      "module": "PUBLIC HEALTH MICROBIOLOGY",
+      "course_id": "SIR3020",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 80,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BPENSYISB",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "PROF. DR. JENNIFER ANN HARIKRISHNA"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BPENSYISB",
+          "begin_time": "09:00",
+          "end_time": "10:00",
           "tutor": "PROF. DR. JENNIFER ANN HARIKRISHNA"
         }
       ]
@@ -123463,6 +123885,37 @@
           "room": "MMIKBIOLOGI1",
           "begin_time": "14:00",
           "end_time": "17:00",
+          "tutor": "DR. TAZNIM BEGAM BINTI MOHD MOHIDIN"
+        }
+      ]
+    },
+    {
+      "module": "ADVANCED IMMUNOLOGY",
+      "course_id": "SIR3022",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 70,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BPENSYISB",
+          "begin_time": "12:00",
+          "end_time": "13:00",
+          "tutor": "DR. TAZNIM BEGAM BINTI MOHD MOHIDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BPENSYISB",
+          "begin_time": "12:00",
+          "end_time": "13:00",
           "tutor": "DR. TAZNIM BEGAM BINTI MOHD MOHIDIN"
         }
       ]
@@ -123857,6 +124310,37 @@
           "room": "MMIKBIOLOGI1",
           "begin_time": "14:00",
           "end_time": "17:00",
+          "tutor": "DR. MUHAMAD AFIQ BIN AZIZ"
+        }
+      ]
+    },
+    {
+      "module": "FERMENTATION TECHNOLOGY",
+      "course_id": "SIR3036",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 70,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BPENSYISB",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "DR. MUHAMAD AFIQ BIN AZIZ"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BPENSYISB",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "DR. MUHAMAD AFIQ BIN AZIZ"
         }
       ]
@@ -125211,7 +125695,7 @@
           "room": "BSFCIS",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "DR. AMIRUL SYAFIQ BIN ABDUL JAAFAR"
+          "tutor": "PROF. DR. MOHD FAKHRUL ZAMANI BIN ABDUL KADIR"
         }
       ]
     }
@@ -125259,8 +125743,8 @@
           "title": "lecture",
           "day": "Wednesday",
           "room": "BSFCIS",
-          "begin_time": "17:00",
-          "end_time": "20:00",
+          "begin_time": "18:00",
+          "end_time": "21:00",
           "tutor": "DATIN DR. NORAZLIN BINTI ZAINAL"
         }
       ]
@@ -125405,7 +125889,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Friday",
           "room": "BS1KDK",
           "begin_time": "18:00",
           "end_time": "21:00",
@@ -125430,8 +125914,8 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Wednesday",
-          "room": "BS1KDK",
+          "day": "Friday",
+          "room": "BSFB",
           "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "DR. LIM LIAN KUANG"
@@ -125481,17 +125965,9 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "BS2KDK",
-          "begin_time": "16:00",
-          "end_time": "20:00",
-          "tutor": "PROF. DR. OOI CHONG HENG"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "BS2KDK",
-          "begin_time": "16:00",
-          "end_time": "20:00",
+          "room": "DKFIZIK",
+          "begin_time": "18:00",
+          "end_time": "21:00",
           "tutor": "PROF. DR. OOI CHONG HENG"
         }
       ]
