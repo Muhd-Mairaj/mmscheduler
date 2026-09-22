@@ -4720,16 +4720,14 @@
           "day": "Wednesday",
           "room": "BSAU2",
           "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "ASSOCIATE PROF. DR. ROSILA BEE BINTI MOHD HUSSAIN"
+          "end_time": "16:00"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "BSAL3",
           "begin_time": "10:00",
-          "end_time": "11:00",
-          "tutor": "ASSOCIATE PROF. DR. ROSILA BEE BINTI MOHD HUSSAIN"
+          "end_time": "11:00"
         }
       ]
     },
@@ -4751,16 +4749,14 @@
           "day": "Wednesday",
           "room": "BSAU2",
           "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "ASSOCIATE PROF. DR. ROSILA BEE BINTI MOHD HUSSAIN"
+          "end_time": "16:00"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "BSAL3",
           "begin_time": "12:00",
-          "end_time": "13:00",
-          "tutor": "ASSOCIATE PROF. DR. ROSILA BEE BINTI MOHD HUSSAIN"
+          "end_time": "13:00"
         }
       ]
     },
@@ -4782,16 +4778,14 @@
           "day": "Wednesday",
           "room": "BSAU2",
           "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "ASSOCIATE PROF. DR. ROSILA BEE BINTI MOHD HUSSAIN"
+          "end_time": "16:00"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "BSAL3",
           "begin_time": "10:00",
-          "end_time": "11:00",
-          "tutor": "ASSOCIATE PROF. DR. ROSILA BEE BINTI MOHD HUSSAIN"
+          "end_time": "11:00"
         }
       ]
     }
@@ -5913,6 +5907,37 @@
       "continuousAssessmentWeightage": "40~60",
       "examDuration": 7200,
       "levelCode": 3,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "PUSTAKAY",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MARINEY BINTI MOHD YUSOFF"
+        },
+        {
+          "title": "tutorial",
+          "day": "Friday",
+          "room": "BS11",
+          "begin_time": "12:00",
+          "end_time": "13:00",
+          "tutor": "DR. MARINEY BINTI MOHD YUSOFF"
+        }
+      ]
+    },
+    {
+      "module": "TECHNIQUES OF SOCIAL IMPACT ANALYSIS",
+      "course_id": "AIB3003",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 55,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
       "occurence": "1M",
       "activities": [
         {
@@ -6203,10 +6228,10 @@
         },
         {
           "title": "tutorial",
-          "day": "Tuesday",
-          "room": "MKGEOG1",
-          "begin_time": "12:00",
-          "end_time": "13:00",
+          "day": "Friday",
+          "room": "BS11",
+          "begin_time": "15:00",
+          "end_time": "16:00",
           "tutor": "MR. MUHAMMAD FATHI BIN MARZUKI"
         }
       ]
@@ -8520,10 +8545,10 @@
         },
         {
           "title": "tutorial",
-          "day": "Tuesday",
+          "day": "Friday",
           "room": "BS11",
-          "begin_time": "13:00",
-          "end_time": "14:00",
+          "begin_time": "16:00",
+          "end_time": "17:00",
           "tutor": "DR. SHEEBA NETTUKANDY CHENOLI"
         }
       ]
@@ -33464,7 +33489,7 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "BSB1-2",
+          "room": "CBSBLH1",
           "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "DR. SAFIAH BINTI OMAR"
@@ -37488,7 +37513,7 @@
           "room": "ONLINE",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "DR. SITI PATONAH BINTI MOHAMAD"
+          "tutor": "DR. ASMAWATI BINTI MUHAMAD"
         }
       ]
     },
@@ -58494,7 +58519,7 @@
           "room": "BS17",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "DATO  DR. AHMAD HIDAYAT BIN BUANG"
+          "tutor": "DR. MAHAMATAYUDING SAMAH"
         },
         {
           "title": "tutorial",
@@ -62163,10 +62188,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62194,10 +62219,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62224,10 +62249,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62255,10 +62280,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62285,10 +62310,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62316,10 +62341,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62347,10 +62372,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62378,10 +62403,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62409,10 +62434,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62440,10 +62465,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62471,10 +62496,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62502,10 +62527,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62533,10 +62558,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62564,10 +62589,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62595,10 +62620,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62626,10 +62651,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62657,10 +62682,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62688,10 +62713,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62719,10 +62744,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62750,10 +62775,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62781,10 +62806,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62811,10 +62836,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62842,10 +62867,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62872,10 +62897,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62903,10 +62928,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62933,10 +62958,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62963,10 +62988,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -62993,10 +63018,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63024,10 +63049,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63055,10 +63080,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63086,10 +63111,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63117,10 +63142,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63148,10 +63173,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63179,10 +63204,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63210,10 +63235,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63241,10 +63266,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63272,10 +63297,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63303,10 +63328,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63334,10 +63359,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63365,10 +63390,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63396,10 +63421,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63427,10 +63452,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63457,10 +63482,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63487,10 +63512,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63518,10 +63543,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63549,10 +63574,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63580,10 +63605,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63611,10 +63636,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63641,10 +63666,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63672,10 +63697,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63703,10 +63728,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63734,10 +63759,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63765,10 +63790,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63796,10 +63821,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63827,10 +63852,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63858,10 +63883,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63889,10 +63914,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63920,10 +63945,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63951,10 +63976,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -63982,10 +64007,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -64012,10 +64037,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -64043,10 +64068,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -64074,10 +64099,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -64104,10 +64129,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -64135,10 +64160,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -64166,10 +64191,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -64197,10 +64222,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -64228,10 +64253,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -64259,10 +64284,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -64290,10 +64315,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -64321,10 +64346,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -64352,10 +64377,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -64382,10 +64407,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -64412,10 +64437,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
         },
         {
@@ -64444,10 +64469,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "BS1TAMB",
-          "begin_time": "11:00",
-          "end_time": "13:00",
+          "day": "Thursday",
+          "room": "BS18",
+          "begin_time": "16:00",
+          "end_time": "18:00",
           "tutor": "MR. MUHD SUFILLAH BIN MOHD SOYONG"
         }
       ]
@@ -65359,7 +65384,7 @@
           "room": "BS16",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "DATO  DR. AHMAD HIDAYAT BIN BUANG"
+          "tutor": "DR. HANIRA BINTI HANAFI"
         },
         {
           "title": "tutorial",
@@ -88947,6 +88972,196 @@
       ]
     }
   ],
+  "MOB7001": [
+    {
+      "module": "RESEARCH METHODOLOGY",
+      "course_id": "MOB7001",
+      "credits": 4,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 33,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "80~20",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "NOCERALBS1",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "PROF. DR. TUNKU KAMARUL ZAMAN BIN TUNKU ZAINOL ABIDIN"
+        }
+      ]
+    }
+  ],
+  "MOB7011": [
+    {
+      "module": "CELL AND GENE THERAPY PRODUCTS IN REGENERATIVE MEDICINE",
+      "course_id": "MOB7011",
+      "credits": 4,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 33,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "70~30",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "NOCERALBS1",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. TAN SIK LOO"
+        }
+      ]
+    }
+  ],
+  "MOB7012": [
+    {
+      "module": "REGULATIONS FOR CELL AND GENE THERAPY PRODUCTS AND MEDICAL DEVICES",
+      "course_id": "MOB7012",
+      "credits": 4,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 33,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "70~30",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "NOCERALBS1",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "PROF. DR. TUNKU KAMARUL ZAMAN BIN TUNKU ZAINOL ABIDIN"
+        }
+      ]
+    }
+  ],
+  "MOB7014": [
+    {
+      "module": "ADVANCED TOOLS IN REGENERATIVE MEDICINE",
+      "course_id": "MOB7014",
+      "credits": 4,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 33,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "70~30",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "NOCERALBS1",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "PROF. DR. CHAI WEN LIN"
+        }
+      ]
+    }
+  ],
+  "MOB7015": [
+    {
+      "module": "ADVANCED MEDICAL BIOTECHNOLOGY",
+      "course_id": "MOB7015",
+      "credits": 4,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 33,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "70~30",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "NOCERALBS1",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "PROF. DR. TUNKU KAMARUL ZAMAN BIN TUNKU ZAINOL ABIDIN"
+        }
+      ]
+    }
+  ],
+  "MQA7001": [
+    {
+      "module": "RESEARCH METHODOLOGY",
+      "course_id": "MQA7001",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 30,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "SEMROOM1",
+          "begin_time": "14:00",
+          "end_time": "15:15",
+          "tutor": "PROF. DR. JEANNIE WONG HSIU DING"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "SEMROOM1",
+          "begin_time": "15:30",
+          "end_time": "17:00",
+          "tutor": "DR. NG AIK HAO"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "SEMROOM1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "PROF. DR. JEANNIE WONG HSIU DING"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "SEMROOM1",
+          "begin_time": "14:00",
+          "end_time": "15:15",
+          "tutor": "DR. TAN LI KUO"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "SEMROOM1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. NG AIK HAO"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "SEMROOM1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. AZLAN BIN CHE AHMAD"
+        }
+      ]
+    }
+  ],
   "MQD7013": [
     {
       "module": "RESEARCH METHODOLOGY IN NURSING",
@@ -89347,6 +89562,81 @@
       ]
     }
   ],
+  "MQF7001": [
+    {
+      "module": "HEALTH RESEARCH METHODS",
+      "course_id": "MQF7001",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 25,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM2",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "PROF. DR. LOW WAH YUN@SARINAH LOW BINTI ABDULLAH"
+        }
+      ]
+    }
+  ],
+  "MQF7003": [
+    {
+      "module": "FOUNDATIONS OF RESEARCH ETHICS",
+      "course_id": "MQF7003",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 25,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "70~30",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "SEMROOM2",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "PROF. DR. NIK SHERINA HAIDI BINTI HANAFI"
+        }
+      ]
+    }
+  ],
+  "MQF7004": [
+    {
+      "module": "RESEARCH ETHICS IN SPECIAL POPULATIONS",
+      "course_id": "MQF7004",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 25,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "70~30",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "SEMROOM2",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. CHONG LEE AI"
+        }
+      ]
+    }
+  ],
   "MVX8001": [
     {
       "module": "RESEARCH METHODOLOGY",
@@ -89471,6 +89761,106 @@
           "begin_time": "09:00",
           "end_time": "12:00",
           "tutor": "DR. WAN NUR ASYIQIN BINTI RASIDI"
+        }
+      ]
+    }
+  ],
+  "MWA8001": [
+    {
+      "module": "ADVANCED RESEARCH METHODS",
+      "course_id": "MWA8001",
+      "credits": 3,
+      "yearPeriod": "2026/C1",
+      "overallTargetStudent": 30,
+      "level": "PhD",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 5,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DPSPMFOM",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "PROF. DR. RAFDZAH BINTI AHMAD ZAKI"
+        }
+      ]
+    }
+  ],
+  "MWA8005": [
+    {
+      "module": "HEALTH POLICY AND LEADERSHIP",
+      "course_id": "MWA8005",
+      "credits": 3,
+      "yearPeriod": "2026/C1",
+      "overallTargetStudent": 55,
+      "level": "PhD",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 5,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DPSPMFOM",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. NITHIAH A/P THANGIAH"
+        }
+      ]
+    }
+  ],
+  "MWA8035": [
+    {
+      "module": "EPIDEMIOLOGICAL METHODS AND PRACTISE IN PUBLIC HEALTH",
+      "course_id": "MWA8035",
+      "credits": 3,
+      "yearPeriod": "2026/C1",
+      "overallTargetStudent": 30,
+      "level": "PhD",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 5,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DPSPMFOM",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "PROF. DR. NIRMALA A/P BHOO PATHY"
+        }
+      ]
+    }
+  ],
+  "MWA8037": [
+    {
+      "module": "ADVANCED DATA ANALYSIS",
+      "course_id": "MWA8037",
+      "credits": 3,
+      "yearPeriod": "2026/C1",
+      "overallTargetStudent": 35,
+      "level": "PhD",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 5,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DPSPMFOM",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "PROF. DR. SANJAY RAMPAL A/L LEKHRAJ RAMPAL"
         }
       ]
     }
@@ -92804,6 +93194,30 @@
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. NAJIHAH BINTI MOHD HASHIM"
+        }
+      ]
+    }
+  ],
+  "OQB7004": [
+    {
+      "module": "RESEARCH PROJECT",
+      "course_id": "OQB7004",
+      "credits": 12,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 40,
+      "level": "MASTER",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "P2",
+      "activities": [
+        {
+          "title": "reproject",
+          "day": "Friday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "17:00"
         }
       ]
     }
@@ -119021,14 +119435,6 @@
           "begin_time": "09:00",
           "end_time": "11:00",
           "tutor": "PROF. DR. WONG KOK BIN"
-        },
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "DKM2ISM",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "DR. MUHAMAD HIFZHUDIN BIN NOOR AZIZ"
         }
       ]
     }
@@ -120385,24 +120791,8 @@
           "title": "lecture",
           "day": "Wednesday",
           "room": "MBIO1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
-          "tutor": "DR. AHMAD FARIS BIN MOHD ADNAN"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "MBIO1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
-          "tutor": "DR. NUR KUSAIRA BINTI KHAIRUL IKRAM"
-        },
-        {
-          "title": "lab",
-          "day": "Thursday",
-          "room": "MBT1BIOISB",
-          "begin_time": "08:00",
-          "end_time": "17:00",
+          "begin_time": "09:00",
+          "end_time": "10:00",
           "tutor": "DR. AHMAD FARIS BIN MOHD ADNAN"
         },
         {
@@ -120411,7 +120801,7 @@
           "room": "MBT1BIOISB",
           "begin_time": "08:00",
           "end_time": "17:00",
-          "tutor": "DR. NUR KUSAIRA BINTI KHAIRUL IKRAM"
+          "tutor": "DR. AHMAD FARIS BIN MOHD ADNAN"
         }
       ]
     },
@@ -120431,17 +120821,9 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "MBT1BIOISB",
-          "begin_time": "08:00",
-          "end_time": "09:00"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "MBT1BIOISB",
-          "begin_time": "08:00",
-          "end_time": "09:00",
-          "tutor": "DR. NUR KUSAIRA BINTI KHAIRUL IKRAM"
+          "room": "MBT2BIOISB",
+          "begin_time": "09:00",
+          "end_time": "10:00"
         },
         {
           "title": "lab",
@@ -120449,14 +120831,6 @@
           "room": "MBT2BIOISB",
           "begin_time": "08:00",
           "end_time": "17:00"
-        },
-        {
-          "title": "lab",
-          "day": "Thursday",
-          "room": "MBT2BIOISB",
-          "begin_time": "08:00",
-          "end_time": "17:00",
-          "tutor": "DR. NUR KUSAIRA BINTI KHAIRUL IKRAM"
         }
       ]
     }
@@ -120685,6 +121059,45 @@
           "tutor": "DR. NURADILLA BINTI MOHAMAD FAUZI"
         }
       ]
+    },
+    {
+      "module": "ANIMAL BIOTECHNOLOGY",
+      "course_id": "SIO2002",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 74,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "MBT1BIOISB",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "DR. NURADILLA BINTI MOHAMAD FAUZI"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MBT1BIOISB",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "DR. NURADILLA BINTI MOHAMAD FAUZI"
+        },
+        {
+          "title": "lab",
+          "day": "Tuesday",
+          "room": "LADANGISB",
+          "begin_time": "15:00",
+          "end_time": "18:00",
+          "tutor": "DR. NURADILLA BINTI MOHAMAD FAUZI"
+        }
+      ]
     }
   ],
   "SIO2003": [
@@ -120721,6 +121134,37 @@
           "title": "lab",
           "day": "Tuesday",
           "room": "MBT2BIOISB",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. JAMILAH SYAFAWATI BT YAACOB"
+        }
+      ]
+    },
+    {
+      "module": "HIGHER PLANT PHYSIOLOGY",
+      "course_id": "SIO2003",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 70,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "MBT1BIOISB",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. JAMILAH SYAFAWATI BT YAACOB"
+        },
+        {
+          "title": "lab",
+          "day": "Friday",
+          "room": "MBT1BIOISB",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. JAMILAH SYAFAWATI BT YAACOB"
@@ -120883,8 +121327,8 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "BS7BS8KDK",
-          "begin_time": "12:00",
-          "end_time": "13:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "PROF. DR. CHANDRAN A/L SOMASUNDRAM"
         }
       ]
@@ -120960,7 +121404,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Wednesday",
+          "day": "Monday",
           "room": "BSSD6BIOINFOR",
           "begin_time": "14:00",
           "end_time": "16:00",
@@ -120983,18 +121427,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Monday",
           "room": "BSSD6BIOINFOR",
-          "begin_time": "08:00",
-          "end_time": "10:00",
+          "begin_time": "14:00",
+          "end_time": "16:00",
           "tutor": "ASSOCIATE PROF. DR. SARINDER KAUR A/P KASHMIR SINGH"
         },
         {
           "title": "lecture",
-          "day": "Wednesday",
+          "day": "Tuesday",
           "room": "BSSD6BIOINFOR",
-          "begin_time": "14:00",
-          "end_time": "16:00",
+          "begin_time": "08:00",
+          "end_time": "10:00",
           "tutor": "ASSOCIATE PROF. DR. SARINDER KAUR A/P KASHMIR SINGH"
         }
       ]
@@ -121306,8 +121750,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "PMAKKIMIA",
-          "begin_time": "09:00",
-          "end_time": "11:00",
+          "begin_time": "14:00",
+          "end_time": "16:00",
           "tutor": "DR. NUR LISA BINTI ZAHARAN"
         }
       ]
@@ -122693,33 +123137,17 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "BKBT18ISB",
-          "begin_time": "11:00",
-          "end_time": "12:00",
-          "tutor": "DR. NURUL SHAMSINAH BINTI MOHD SUHAIMI"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "BKBT18ISB",
-          "begin_time": "11:00",
-          "end_time": "12:00",
+          "room": "BKBT17ISB",
+          "begin_time": "14:00",
+          "end_time": "16:00",
           "tutor": "DR. NURUL SHAMSINAH BINTI MOHD SUHAIMI"
         },
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "BKBT18ISB",
-          "begin_time": "11:00",
-          "end_time": "12:00",
-          "tutor": "DR. LEE HAI YEN"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "BKBT18ISB",
-          "begin_time": "11:00",
-          "end_time": "12:00",
+          "room": "BKBT17ISB",
+          "begin_time": "14:00",
+          "end_time": "16:00",
           "tutor": "DR. LEE HAI YEN"
         }
       ]
@@ -122739,18 +123167,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "BKBT18ISB",
-          "begin_time": "11:00",
-          "end_time": "12:00",
+          "day": "Tuesday",
+          "room": "BKBT17ISB",
+          "begin_time": "14:00",
+          "end_time": "16:00",
           "tutor": "DR. NURUL SHAMSINAH BINTI MOHD SUHAIMI"
         },
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "BKBT18ISB",
-          "begin_time": "11:00",
-          "end_time": "12:00",
+          "room": "BKBT17ISB",
+          "begin_time": "14:00",
+          "end_time": "16:00",
           "tutor": "DR. LEE HAI YEN"
         }
       ]
