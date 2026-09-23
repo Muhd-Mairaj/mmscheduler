@@ -121096,12 +121096,26 @@
           "tutor": "DR. AHMAD FARIS BIN MOHD ADNAN"
         },
         {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "MBIO1",
+          "begin_time": "09:00",
+          "end_time": "10:00"
+        },
+        {
           "title": "lab",
           "day": "Thursday",
           "room": "MBT1BIOISB",
           "begin_time": "08:00",
           "end_time": "17:00",
           "tutor": "DR. AHMAD FARIS BIN MOHD ADNAN"
+        },
+        {
+          "title": "lab",
+          "day": "Thursday",
+          "room": "MBT1BIOISB",
+          "begin_time": "08:00",
+          "end_time": "17:00"
         }
       ]
     },
@@ -121121,7 +121135,7 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "MBT2BIOISB",
+          "room": "MBT1BIOISB",
           "begin_time": "09:00",
           "end_time": "10:00"
         },
