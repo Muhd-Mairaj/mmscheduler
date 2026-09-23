@@ -30965,7 +30965,7 @@
           "room": "EDK3",
           "begin_time": "14:00",
           "end_time": "17:00",
-          "tutor": "MADAM SITI NURUL AIN BINTI RAMDZAN"
+          "tutor": "ASSOCIATE PROF. DR. MOHAMMAD NAZRI BIN MOHD NOR"
         }
       ]
     },
@@ -30988,7 +30988,7 @@
           "room": "EDK3",
           "begin_time": "14:00",
           "end_time": "17:00",
-          "tutor": "MADAM SITI NURUL AIN BINTI RAMDZAN"
+          "tutor": "ASSOCIATE PROF. DR. MOHAMMAD NAZRI BIN MOHD NOR"
         }
       ]
     }
@@ -54291,28 +54291,6 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": 3600,
       "levelCode": 3,
-      "occurence": "68",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "BAUDIM",
-          "begin_time": "15:00",
-          "end_time": "17:00"
-        }
-      ]
-    },
-    {
-      "module": "EMBRACE@UMLEADER",
-      "course_id": "GUL1001",
-      "credits": 2,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": "BACHELOR",
-      "faculty": "UNIVERSITY",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": 3600,
-      "levelCode": 3,
       "occurence": "69",
       "activities": [
         {
@@ -62842,7 +62820,8 @@
           "day": "Tuesday",
           "room": "ONLINE",
           "begin_time": "13:00",
-          "end_time": "14:00"
+          "end_time": "14:00",
+          "tutor": "DR. RIDZWAN BIN AHMAD"
         }
       ]
     },
@@ -62903,7 +62882,8 @@
           "day": "Tuesday",
           "room": "ONLINE",
           "begin_time": "13:00",
-          "end_time": "14:00"
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DATUK DR. LUQMAN BIN HAJI ABDULLAH"
         }
       ]
     },
@@ -64544,7 +64524,7 @@
           "room": "BS1TAMB",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "MR. MUHD SUFILLAH BIN MOHD SOYONG"
+          "tutor": "MISS ZAZMIN BINTI ABU BAKAR"
         }
       ]
     },
@@ -64820,7 +64800,7 @@
           "room": "BS1TAMB",
           "begin_time": "09:00",
           "end_time": "11:00",
-          "tutor": "MR. MOHD KHAIRUL AKHBAR BIN JAHIRUDDIN"
+          "tutor": "MR. MUHD SUFILLAH BIN MOHD SOYONG"
         }
       ]
     },
@@ -64843,7 +64823,7 @@
           "room": "BS19",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "MR. NIK MUHAMMAD ROZI BIN NIK YUSOFF"
+          "tutor": "MISS ZAZMIN BINTI ABU BAKAR"
         }
       ]
     },
@@ -64888,8 +64868,7 @@
           "day": "Wednesday",
           "room": "BS32",
           "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "MR. NIK MUHAMMAD ROZI BIN NIK YUSOFF"
+          "end_time": "13:00"
         }
       ]
     },
@@ -64935,7 +64914,7 @@
           "room": "BS20",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "MR. NIK MUHAMMAD ROZI BIN NIK YUSOFF"
+          "tutor": "MR. MUHD SUFILLAH BIN MOHD SOYONG"
         }
       ]
     },
@@ -65023,10 +65002,11 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Friday",
           "room": "BS20",
-          "begin_time": "14:00",
-          "end_time": "16:00"
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MR. MUHD SUFILLAH BIN MOHD SOYONG"
         }
       ]
     },
@@ -65045,10 +65025,11 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "BS11",
+          "day": "Wednesday",
+          "room": "BS13",
           "begin_time": "11:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "MISS ZAZMIN BINTI ABU BAKAR"
         }
       ]
     },
@@ -65070,7 +65051,8 @@
           "day": "Tuesday",
           "room": "BS31",
           "begin_time": "14:00",
-          "end_time": "16:00"
+          "end_time": "16:00",
+          "tutor": "MR. MUHAMMAD SALMAN @ ZALMAN BIN JONID"
         }
       ]
     },
@@ -65089,10 +65071,11 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "BS32",
           "begin_time": "14:00",
-          "end_time": "16:00"
+          "end_time": "16:00",
+          "tutor": "MR. MUHAMMAD SALMAN @ ZALMAN BIN JONID"
         }
       ]
     },
@@ -65114,7 +65097,8 @@
           "day": "Tuesday",
           "room": "BS6",
           "begin_time": "09:00",
-          "end_time": "11:00"
+          "end_time": "11:00",
+          "tutor": "MISS ZAZMIN BINTI ABU BAKAR"
         }
       ]
     },
@@ -65158,7 +65142,8 @@
           "day": "Monday",
           "room": "BS30",
           "begin_time": "14:00",
-          "end_time": "16:00"
+          "end_time": "16:00",
+          "tutor": "MISS ZAZMIN BINTI ABU BAKAR"
         }
       ]
     }
@@ -66310,8 +66295,8 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "BSJSU",
+          "day": "Monday",
+          "room": "BSJSP",
           "begin_time": "15:00",
           "end_time": "18:00",
           "tutor": "MR. AZIZI BIN CHE SEMAN"
@@ -69421,7 +69406,8 @@
           "day": "Thursday",
           "room": "BSTERATAI",
           "begin_time": "08:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. MASHROM BIN MUDA"
         }
       ]
     },
@@ -69512,7 +69498,8 @@
           "day": "Thursday",
           "room": "BSTERATAI",
           "begin_time": "08:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. MASHROM BIN MUDA"
         }
       ]
     }
@@ -78155,7 +78142,8 @@
           "day": "Saturday",
           "room": "REDCUBE1",
           "begin_time": "12:00",
-          "end_time": "15:00"
+          "end_time": "15:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. NASRUL ANUAR BIN ABD RAZAK"
         }
       ]
     },
@@ -78177,7 +78165,8 @@
           "day": "Saturday",
           "room": "REDCUBE1",
           "begin_time": "12:00",
-          "end_time": "15:00"
+          "end_time": "15:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. NASRUL ANUAR BIN ABD RAZAK"
         }
       ]
     }
@@ -89346,6 +89335,837 @@
           "tutor": "DR. KRISHNAMURITHY A/L GENASAN"
         }
       ]
+    },
+    {
+      "module": "ANATOMY AND PHYSIOLOGY",
+      "course_id": "MQA7003",
+      "credits": 4,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 35,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 10800,
+      "levelCode": 4,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "11:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SALAHUDDIN BIN KAMARUDDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "11:00",
+          "end_time": "12:00",
+          "tutor": "DR. HAZWAN AMZAR BIN KHAIRUL ANNUAR"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "11:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "11:00",
+          "end_time": "12:00",
+          "tutor": "DR. NG WEI LIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "SEMROOM1",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. LIT LEI CHENG"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "11:00",
+          "end_time": "12:00",
+          "tutor": "DR. LEONG WAI LING"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "SEMROOM1",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. HOE SEE ZIAU"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "SEMROOM1",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. HOE SEE ZIAU"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "SEMROOM1",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. SABYASACHI DAS"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "SEMROOM1",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. SABYASACHI DAS"
+        }
+      ]
+    }
+  ],
+  "MQA7004": [
+    {
+      "module": "COMPUTING AND MEDICAL INFORMATICS",
+      "course_id": "MQA7004",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 35,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "SEMROOM1",
+          "begin_time": "14:30",
+          "end_time": "16:30",
+          "tutor": "DR. AZLAN BIN CHE AHMAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "SEMROOM1",
+          "begin_time": "14:30",
+          "end_time": "16:30",
+          "tutor": "EMERITUS PROF. DR. NG KWAN HOONG"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "SEMROOM1",
+          "begin_time": "14:30",
+          "end_time": "16:30"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "SEMROOM1",
+          "begin_time": "14:30",
+          "end_time": "16:30",
+          "tutor": "DR. TAN LI KUO"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "SEMROOM1",
+          "begin_time": "14:30",
+          "end_time": "16:30",
+          "tutor": "DR. FARHAD MORADI"
+        }
+      ]
+    }
+  ],
+  "MQA7005": [
+    {
+      "module": "APPLIED RADIATION PHYSICS AND DOSIMETRY",
+      "course_id": "MQA7005",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 35,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 10800,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "14:00",
+          "end_time": "17:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "MR. MUHAMMAD SHAHRUN NIZAM BIN A DAMAN HURI"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "SEMROOM1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "PROF. DR. JEANNIE WONG HSIU DING"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. FARHAD MORADI"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "PROF. DR. JEANNIE WONG HSIU DING"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "13:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "PROF. DR. UNG NGIE MIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. AZLAN BIN CHE AHMAD"
+        }
+      ]
+    }
+  ],
+  "MQA7006": [
+    {
+      "module": "RADIOBIOLOGY AND RADIATION PROTECTION",
+      "course_id": "MQA7006",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 35,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 10800,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "SEMROOM1",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "EMERITUS PROF. DR. NG KWAN HOONG"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "EMERITUS PROF. DR. NG KWAN HOONG"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "SEMROOM3",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "EMERITUS PROF. DR. NG KWAN HOONG"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "SEMROOM3",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "PROF. DR. UNG NGIE MIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "PROF. DR. UNG NGIE MIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "SEMROOM3",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "PROF. DR. JEANNIE WONG HSIU DING"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "PROF. DR. JEANNIE WONG HSIU DING"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. AZLAN BIN CHE AHMAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "SEMROOM1",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. AZLAN BIN CHE AHMAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. NG AIK HAO"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "SEMROOM3",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "09:00",
+          "end_time": "11:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "SEMROOM1",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. ZULAIKHA BINTI JAMALLUDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "SEMROOM1",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. ZULAIKHA BINTI JAMALLUDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "SEMROOM1",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. NG AIK HAO"
+        }
+      ]
+    }
+  ],
+  "MQA7007": [
+    {
+      "module": "MEDICAL IMAGING AND NUCLEAR MEDICINE",
+      "course_id": "MQA7007",
+      "credits": 4,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 22,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. FARHAD MORADI"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. FARHAD MORADI"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "PROF. DR. JEANNIE WONG HSIU DING"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "MR. MUHAMMAD SHAHRUN NIZAM BIN A DAMAN HURI"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. TAN LI KUO"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. NG AIK HAO"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "MR. MUHAMMAD SHAHRUN NIZAM BIN A DAMAN HURI"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK8",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. TAN LI KUO"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. TAN LI KUO"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK8",
+          "begin_time": "12:00",
+          "end_time": "13:00",
+          "tutor": "DR. AZLAN BIN CHE AHMAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. AZLAN BIN CHE AHMAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. AZLAN BIN CHE AHMAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK8",
+          "begin_time": "12:00",
+          "end_time": "13:00",
+          "tutor": "MR. MUHAMMAD SHAHRUN NIZAM BIN A DAMAN HURI"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. NG AIK HAO"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "EMERITUS PROF. DR. NG KWAN HOONG"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "EMERITUS PROF. DR. NG KWAN HOONG"
+        }
+      ]
+    }
+  ],
+  "MQA7008": [
+    {
+      "module": "RADIOTHERAPY PHYSICS",
+      "course_id": "MQA7008",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 25,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "EMERITUS PROF. DR. NG KWAN HOONG"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "PROF. DR. JEANNIE WONG HSIU DING"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "PROF. DR. UNG NGIE MIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. NG AIK HAO"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. ZULAIKHA BINTI JAMALLUDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. ZULAIKHA BINTI JAMALLUDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "PROF. DR. UNG NGIE MIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. NG AIK HAO"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. ROZITA BINTI ABDUL MALIK"
+        }
+      ]
+    }
+  ],
+  "MQA7009": [
+    {
+      "module": "INTRODUCTION TO PRACTICUM IN MEDICAL IMAGING",
+      "course_id": "MQA7009",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 20,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK8",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. NASRUL ANUAR BIN ABD RAZAK"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "14:30",
+          "end_time": "16:30",
+          "tutor": "DR. FARHAD MORADI"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK8",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. TAN WOEI LING"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "14:30",
+          "end_time": "16:30"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "EMERITUS PROF. DR. NG KWAN HOONG"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK8",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. RAMA KRISHNA A/L SUPRAMANIAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "14:30",
+          "end_time": "16:30",
+          "tutor": "PROF. DR. JEANNIE WONG HSIU DING"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. FARHAD MORADI"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. LEONG WAI LING"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "PROF. DR. JEANNIE WONG HSIU DING"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. AZLAN BIN CHE AHMAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. NG WEI LIN"
+        }
+      ]
+    }
+  ],
+  "MQA7010": [
+    {
+      "module": "INTRODUCTION TO PRACTICUM IN NUCLEAR MEDICINE",
+      "course_id": "MQA7010",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 20,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK8",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "MR. MUHAMMAD SHAHRUN NIZAM BIN A DAMAN HURI"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK8",
+          "begin_time": "11:00",
+          "end_time": "15:00",
+          "tutor": "MR. MUHAMMAD SHAHRUN NIZAM BIN A DAMAN HURI"
+        }
+      ]
+    }
+  ],
+  "MQA7011": [
+    {
+      "module": "INTRODUCTION TO PRACTICUM IN RADIOTHERAPY",
+      "course_id": "MQA7011",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 20,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK8",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. ZULAIKHA BINTI JAMALLUDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK8",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. NG AIK HAO"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK8",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "PROF. DR. UNG NGIE MIN"
+        }
+      ]
+    }
+  ],
+  "MQA7013": [
+    {
+      "module": "ARTIFICIAL INTELLIGENCE AND DATA ANALYSIS IN MEDICAL PHYSICS",
+      "course_id": "MQA7013",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 25,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK8",
+          "begin_time": "11:00",
+          "end_time": "12:30",
+          "tutor": "DR. TAN LI KUO"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK8",
+          "begin_time": "14:00",
+          "end_time": "15:30",
+          "tutor": "DR. TAN LI KUO"
+        }
+      ]
     }
   ],
   "MQD7013": [
@@ -89748,6 +90568,243 @@
       ]
     }
   ],
+  "MQE7014": [
+    {
+      "module": "ASSESSMENT",
+      "course_id": "MQE7014",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 55,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "CUBE",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. HONG WEI-HAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CUBE",
+          "begin_time": "10:00",
+          "end_time": "13:00",
+          "tutor": "DR. HONG WEI-HAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "CUBE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. HONG WEI-HAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "CUBE",
+          "begin_time": "16:00",
+          "end_time": "19:00",
+          "tutor": "DR. HONG WEI-HAN"
+        }
+      ]
+    }
+  ],
+  "MQE7015": [
+    {
+      "module": "HEALTH PROFESSIONS EDUCATOR",
+      "course_id": "MQE7015",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 55,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "CUBE",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "CUBE",
+          "begin_time": "16:00",
+          "end_time": "19:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CUBE",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "CUBE",
+          "begin_time": "10:00",
+          "end_time": "13:00"
+        }
+      ]
+    }
+  ],
+  "MQE7018": [
+    {
+      "module": "RESEARCH METHODOLOGY IN MEDICAL EDUCATION",
+      "course_id": "MQE7018",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 55,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "CUBE",
+          "begin_time": "10:00",
+          "end_time": "13:00",
+          "tutor": "ASSOCIATE PROF. DR. FOONG CHAN CHOONG"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CUBE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. FOONG CHAN CHOONG"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CUBE",
+          "begin_time": "16:00",
+          "end_time": "19:00",
+          "tutor": "ASSOCIATE PROF. DR. FOONG CHAN CHOONG"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "CUBE",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "ASSOCIATE PROF. DR. FOONG CHAN CHOONG"
+        }
+      ]
+    }
+  ],
+  "MQE7019": [
+    {
+      "module": "CURRICULUM DEVELOPMENT",
+      "course_id": "MQE7019",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 55,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "CUBE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. HONG WEI-HAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "CUBE",
+          "begin_time": "16:00",
+          "end_time": "19:00",
+          "tutor": "DR. HONG WEI-HAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CUBE",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. HONG WEI-HAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "CUBE",
+          "begin_time": "10:00",
+          "end_time": "13:00",
+          "tutor": "DR. HONG WEI-HAN"
+        }
+      ]
+    }
+  ],
+  "MQE7023": [
+    {
+      "module": "PROFESSIONALISM IN MEDICAL EDUCATION",
+      "course_id": "MQE7023",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 55,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "CUBE",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CUBE",
+          "begin_time": "10:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "CUBE",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "CUBE",
+          "begin_time": "16:00",
+          "end_time": "19:00"
+        }
+      ]
+    }
+  ],
   "MQF7001": [
     {
       "module": "HEALTH RESEARCH METHODS",
@@ -89894,6 +90951,194 @@
           "begin_time": "09:00",
           "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. DR. SUZITA BINTI MOHD NOOR"
+        }
+      ]
+    }
+  ],
+  "MQH7003": [
+    {
+      "module": "STUDY DESIGN IN CAUSAL RESEARCH",
+      "course_id": "MQH7003",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 10,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DPSPMFOM",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "PROF. DR. NORAN NAQIAH BINTI MOHD HAIRI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DPSPMFOM",
+          "begin_time": "08:00",
+          "end_time": "12:00",
+          "tutor": "PROF. DR. NORAN NAQIAH BINTI MOHD HAIRI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DPSPMFOM",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "PROF. DR. MOY FOONG MING"
+        }
+      ]
+    }
+  ],
+  "MQH7006": [
+    {
+      "module": "CLINICAL EPIDEMIOLOGY",
+      "course_id": "MQH7006",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 15,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DPSPMFOM",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "PROF. DR. NIRMALA A/P BHOO PATHY"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DPSPMFOM",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "PROF. DR. RAFDZAH BINTI AHMAD ZAKI"
+        }
+      ]
+    }
+  ],
+  "MQH7007": [
+    {
+      "module": "EPIDEMIOLOGY IN PUBLIC HEALTH PRACTICE",
+      "course_id": "MQH7007",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 15,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DPSPMFOM",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. MAS AYU BINTI SAID"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DPSPMFOM",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. RAMA KRISHNA A/L SUPRAMANIAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DPSPMFOM",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. BALA MURALI A/L SUNDRAM"
+        }
+      ]
+    }
+  ],
+  "MQH7011": [
+    {
+      "module": "DATA MANAGEMENT",
+      "course_id": "MQH7011",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 15,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK8",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR.  ABQARIYAH BINTI YAHYA@AHMAD NOOR"
+        }
+      ]
+    }
+  ],
+  "MQH7014": [
+    {
+      "module": "RESEARCH PROJECT",
+      "course_id": "MQH7014",
+      "credits": 9,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 20,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "P1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "ASSOCIATE PROF. DR. MAS AYU BINTI SAID"
+        }
+      ]
+    },
+    {
+      "module": "RESEARCH PROJECT",
+      "course_id": "MQH7014",
+      "credits": 9,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 20,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "P2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "ASSOCIATE PROF. DR. MAS AYU BINTI SAID"
         }
       ]
     }
@@ -98325,9 +99570,9 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BSEB303",
-          "begin_time": "15:00",
-          "end_time": "18:00"
+          "room": "BSEB301",
+          "begin_time": "18:00",
+          "end_time": "21:00"
         }
       ]
     }
@@ -98751,7 +99996,7 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BSEB306",
+          "room": "BSEA206",
           "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "DR. GHAZALI BIN DARUSALAM"
@@ -101065,7 +102310,7 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BSEB301",
+          "room": "BSEB306",
           "begin_time": "18:00",
           "end_time": "21:00"
         }
@@ -115313,6 +116558,51 @@
       "continuousAssessmentWeightage": "40~60",
       "examDuration": 7200,
       "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DKGEOLOGI",
+          "begin_time": "17:00",
+          "end_time": "18:00",
+          "tutor": "DR. MOHD TALHA ANEES"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DKGEOLOGI",
+          "begin_time": "17:00",
+          "end_time": "18:00",
+          "tutor": "DR. MOHD TALHA ANEES"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DKGEOLOGI",
+          "begin_time": "17:00",
+          "end_time": "18:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DKGEOLOGI",
+          "begin_time": "17:00",
+          "end_time": "18:00"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO THE EARTH",
+      "course_id": "SII1001",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 130,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
       "occurence": "1M",
       "activities": [
         {
@@ -119093,7 +120383,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DK3",
+          "room": "MKOMP",
           "begin_time": "10:00",
           "end_time": "12:00",
           "tutor": "DR. TAN TA SHENG"
@@ -119124,7 +120414,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DK3",
+          "room": "MKOMP",
           "begin_time": "10:00",
           "end_time": "12:00",
           "tutor": "DR. TAN TA SHENG"
