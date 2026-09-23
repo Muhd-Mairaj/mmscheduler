@@ -52910,10 +52910,17 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "MDK3",
+          "room": "LMMA",
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "ASSOCIATE PROF. DR. CHEN YENG"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "MDK3",
+          "begin_time": "08:00",
+          "end_time": "10:00"
         }
       ]
     },
@@ -52937,6 +52944,14 @@
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. MURALITHRAN A/L GOVINDAN KUTTY"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "MDK9",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. HONG WEI-HAN"
         }
       ]
     },
