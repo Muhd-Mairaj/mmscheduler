@@ -55415,8 +55415,7 @@
           "day": "Thursday",
           "room": "BS11",
           "begin_time": "10:00",
-          "end_time": "11:00",
-          "tutor": "DR. SHAHIDRA BINTI ABDUL KHALIL"
+          "end_time": "11:00"
         }
       ]
     }
@@ -59383,7 +59382,7 @@
           "room": "DK2",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "DR. SHAHIDRA BINTI ABDUL KHALIL"
+          "tutor": "ASSOCIATE PROF. DATUK DR. LUQMAN BIN HAJI ABDULLAH"
         },
         {
           "title": "tutorial",
@@ -59486,8 +59485,7 @@
           "day": "Wednesday",
           "room": "BS3",
           "begin_time": "12:00",
-          "end_time": "13:00",
-          "tutor": "ASSOCIATE PROF. DR. MUHAMMAD IKHLAS BIN ROSELE"
+          "end_time": "13:00"
         }
       ]
     },
@@ -72173,7 +72171,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "ECC 6",
+          "room": "DK9",
           "begin_time": "11:00",
           "end_time": "13:00",
           "tutor": "DR. WONG WEI RU"
@@ -72204,7 +72202,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "ECC 7",
+          "room": "DK7",
           "begin_time": "11:00",
           "end_time": "13:00",
           "tutor": "IR. DR. WONG JEE KEEN RAYMOND"
@@ -72264,7 +72262,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "ECC 6",
+          "room": "DK9",
           "begin_time": "11:00",
           "end_time": "13:00",
           "tutor": "DR. WONG WEI RU"
@@ -92376,14 +92374,22 @@
           "day": "Monday",
           "room": "MDK3",
           "begin_time": "11:00",
-          "end_time": "14:00"
+          "end_time": "13:00"
         },
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Wednesday",
           "room": "MDK3",
-          "begin_time": "11:00",
-          "end_time": "13:00"
+          "begin_time": "09:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "MDK3",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. KAYATRI A/P GOVINDARAJU"
         },
         {
           "title": "lecture",
@@ -92391,6 +92397,36 @@
           "room": "MDK3",
           "begin_time": "11:00",
           "end_time": "13:00",
+          "tutor": "DR. KAYATRI A/P GOVINDARAJU"
+        },
+        {
+          "title": "tutorial",
+          "day": "Wednesday",
+          "room": "MDK3",
+          "begin_time": "09:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "tutorial",
+          "day": "Monday",
+          "room": "MDK3",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "tutorial",
+          "day": "Wednesday",
+          "room": "MDK3",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. KAYATRI A/P GOVINDARAJU"
+        },
+        {
+          "title": "practical",
+          "day": "Thursday",
+          "room": "MMD1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. KAYATRI A/P GOVINDARAJU"
         }
       ]
@@ -92413,14 +92449,22 @@
           "day": "Monday",
           "room": "MDK3",
           "begin_time": "11:00",
-          "end_time": "14:00"
+          "end_time": "13:00"
         },
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Wednesday",
           "room": "MDK3",
-          "begin_time": "11:00",
-          "end_time": "13:00"
+          "begin_time": "09:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "MDK3",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. KAYATRI A/P GOVINDARAJU"
         },
         {
           "title": "lecture",
@@ -92428,6 +92472,36 @@
           "room": "MDK3",
           "begin_time": "11:00",
           "end_time": "13:00",
+          "tutor": "DR. KAYATRI A/P GOVINDARAJU"
+        },
+        {
+          "title": "tutorial",
+          "day": "Wednesday",
+          "room": "MDK3",
+          "begin_time": "09:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "tutorial",
+          "day": "Monday",
+          "room": "MDK3",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "tutorial",
+          "day": "Wednesday",
+          "room": "MDK3",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. KAYATRI A/P GOVINDARAJU"
+        },
+        {
+          "title": "practical",
+          "day": "Thursday",
+          "room": "MMD1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. KAYATRI A/P GOVINDARAJU"
         }
       ]
