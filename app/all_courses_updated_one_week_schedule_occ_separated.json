@@ -24818,16 +24818,14 @@
           "day": "Tuesday",
           "room": "BK7",
           "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "SR DR. RAHA BINTI SULAIMAN"
+          "end_time": "13:00"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "BK7",
           "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "SR DR. RAHA BINTI SULAIMAN"
+          "end_time": "13:00"
         }
       ]
     },
@@ -24849,16 +24847,14 @@
           "day": "Tuesday",
           "room": "BK7",
           "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "SR DR. RAHA BINTI SULAIMAN"
+          "end_time": "13:00"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "BK7",
           "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "SR DR. RAHA BINTI SULAIMAN"
+          "end_time": "13:00"
         }
       ]
     }
@@ -34883,8 +34879,7 @@
           "day": "Monday",
           "room": "EMAKG2G3",
           "begin_time": "08:00",
-          "end_time": "11:00",
-          "tutor": "DR. NG YIN MEI"
+          "end_time": "11:00"
         }
       ]
     },
@@ -34930,7 +34925,7 @@
           "room": "EMKPASCA",
           "begin_time": "08:00",
           "end_time": "11:00",
-          "tutor": "MADAM W. AMINATUL AFNA BT W. MOHAMMAD RAWI"
+          "tutor": "DR. NG YIN MEI"
         }
       ]
     },
@@ -34952,8 +34947,7 @@
           "day": "Wednesday",
           "room": "EMAKG2G3",
           "begin_time": "08:00",
-          "end_time": "11:00",
-          "tutor": "MADAM W. AMINATUL AFNA BT W. MOHAMMAD RAWI"
+          "end_time": "11:00"
         }
       ]
     }
@@ -66238,8 +66232,7 @@
           "day": "Tuesday",
           "room": "BS1TAMB",
           "begin_time": "15:00",
-          "end_time": "18:00",
-          "tutor": "DR. RIDZWAN BIN AHMAD"
+          "end_time": "18:00"
         }
       ]
     }
@@ -92364,6 +92357,82 @@
       ]
     }
   ],
+  "OIA1020": [
+    {
+      "module": "PRINCIPLES OF PHARMACOLOGY",
+      "course_id": "OIA1020",
+      "credits": 3,
+      "yearPeriod": null,
+      "overallTargetStudent": 105,
+      "level": null,
+      "faculty": null,
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "MDK3",
+          "begin_time": "11:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "MDK3",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "MDK3",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. KAYATRI A/P GOVINDARAJU"
+        }
+      ]
+    },
+    {
+      "module": "PRINCIPLES OF PHARMACOLOGY",
+      "course_id": "OIA1020",
+      "credits": 3,
+      "yearPeriod": null,
+      "overallTargetStudent": 105,
+      "level": null,
+      "faculty": null,
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "MDK3",
+          "begin_time": "11:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "MDK3",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "MDK3",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. KAYATRI A/P GOVINDARAJU"
+        }
+      ]
+    }
+  ],
   "OIA2002": [
     {
       "module": "PHARMACEUTICAL ANALYSIS",
@@ -104403,8 +104472,7 @@
           "day": "Wednesday",
           "room": "BS1BCL",
           "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. MARZELAN BIN SALLEH"
+          "end_time": "12:00"
         }
       ]
     }
@@ -104573,8 +104641,7 @@
           "day": "Thursday",
           "room": "BS1BCL",
           "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. WANG I TA"
+          "end_time": "12:00"
         }
       ]
     }
@@ -105012,7 +105079,7 @@
           "room": "BENSPE",
           "begin_time": "20:00",
           "end_time": "22:00",
-          "tutor": "MR. MOHD FAIS BIN ISMAIL"
+          "tutor": "MR. SHARIFUL AKMA BIN ABDULLAH"
         },
         {
           "title": "tutorial",
@@ -105020,7 +105087,7 @@
           "room": "BENSPE",
           "begin_time": "22:00",
           "end_time": "23:00",
-          "tutor": "MR. MOHD FAIS BIN ISMAIL"
+          "tutor": "MR. SHARIFUL AKMA BIN ABDULLAH"
         }
       ]
     },
@@ -105043,7 +105110,7 @@
           "room": "BENSPE",
           "begin_time": "20:00",
           "end_time": "22:00",
-          "tutor": "MR. MOHD FAIS BIN ISMAIL"
+          "tutor": "MR. SHARIFUL AKMA BIN ABDULLAH"
         },
         {
           "title": "tutorial",
@@ -105051,7 +105118,7 @@
           "room": "BENSPE",
           "begin_time": "22:00",
           "end_time": "23:00",
-          "tutor": "MR. MOHD FAIS BIN ISMAIL"
+          "tutor": "MR. SHARIFUL AKMA BIN ABDULLAH"
         }
       ]
     }
@@ -105518,7 +105585,7 @@
           "room": "BK1PE",
           "begin_time": "19:00",
           "end_time": "21:00",
-          "tutor": "MR. MOHD FAIS BIN ISMAIL"
+          "tutor": "DR. SHAHNAZ BINTI MOHD BALDEV SHAH"
         },
         {
           "title": "tutorial",
@@ -105526,7 +105593,7 @@
           "room": "BK1PE",
           "begin_time": "21:00",
           "end_time": "22:00",
-          "tutor": "MR. MOHD FAIS BIN ISMAIL"
+          "tutor": "DR. SHAHNAZ BINTI MOHD BALDEV SHAH"
         }
       ]
     },
@@ -105549,7 +105616,7 @@
           "room": "BK1PE",
           "begin_time": "19:00",
           "end_time": "21:00",
-          "tutor": "MR. MOHD FAIS BIN ISMAIL"
+          "tutor": "DR. SHAHNAZ BINTI MOHD BALDEV SHAH"
         },
         {
           "title": "tutorial",
@@ -105557,7 +105624,7 @@
           "room": "BK1PE",
           "begin_time": "21:00",
           "end_time": "22:00",
-          "tutor": "MR. MOHD FAIS BIN ISMAIL"
+          "tutor": "DR. SHAHNAZ BINTI MOHD BALDEV SHAH"
         }
       ]
     }
@@ -106007,39 +106074,6 @@
           "begin_time": "17:00",
           "end_time": "18:00",
           "tutor": "DR. SHAHNAZ BINTI MOHD BALDEV SHAH"
-        }
-      ]
-    }
-  ],
-  "RIB3020": [
-    {
-      "module": "ACTING FOR TELEVISION AND FILM",
-      "course_id": "RIB3020",
-      "credits": 3,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 20,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF CREATIVE ARTS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "SD2PE",
-          "begin_time": "20:00",
-          "end_time": "22:00",
-          "tutor": "MR. MOHD FAIS BIN ISMAIL"
-        },
-        {
-          "title": "tutorial",
-          "day": "Wednesday",
-          "room": "SD2PE",
-          "begin_time": "22:00",
-          "end_time": "23:00",
-          "tutor": "MR. MOHD FAIS BIN ISMAIL"
         }
       ]
     }
