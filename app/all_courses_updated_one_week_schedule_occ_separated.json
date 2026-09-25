@@ -29234,7 +29234,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "STSBT5",
+          "room": "STSBT45",
           "begin_time": "09:00",
           "end_time": "16:00",
           "tutor": "ASSOCIATE PROF. AR WONG WAI CHOONG"
@@ -29242,7 +29242,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "STSBT5",
+          "room": "STSBT45",
           "begin_time": "09:00",
           "end_time": "16:00",
           "tutor": "ASSOCIATE PROF. AR WONG WAI CHOONG"
@@ -29266,7 +29266,7 @@
         {
           "title": "tutorial",
           "day": "Monday",
-          "room": "STSBT5",
+          "room": "STSBT45",
           "begin_time": "16:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. AR WONG WAI CHOONG"
@@ -29274,7 +29274,7 @@
         {
           "title": "tutorial",
           "day": "Thursday",
-          "room": "STSBT5",
+          "room": "STSBT45",
           "begin_time": "16:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. AR WONG WAI CHOONG"
@@ -29581,7 +29581,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "STSBT4",
+          "room": "STSBT5",
           "begin_time": "10:00",
           "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. AR ZURAINA LEILY AWALUDDIN"
@@ -29589,9 +29589,17 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "STAB1",
+          "room": "STSBT4",
           "begin_time": "10:00",
           "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. AR ZURAINA LEILY AWALUDDIN"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "STSBT5",
+          "begin_time": "12:00",
+          "end_time": "13:00",
           "tutor": "ASSOCIATE PROF. AR ZURAINA LEILY AWALUDDIN"
         },
         {
@@ -64654,8 +64662,8 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "BS1TAMB",
-          "begin_time": "11:00",
-          "end_time": "13:00",
+          "begin_time": "10:00",
+          "end_time": "12:00",
           "tutor": "MR. MUHD SUFILLAH BIN MOHD SOYONG"
         }
       ]
@@ -65090,8 +65098,8 @@
           "title": "lecture",
           "day": "Wednesday",
           "room": "BS18",
-          "begin_time": "11:00",
-          "end_time": "13:00",
+          "begin_time": "16:00",
+          "end_time": "18:00",
           "tutor": "MR. MUHD SUFILLAH BIN MOHD SOYONG"
         }
       ]
@@ -65250,9 +65258,9 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "BS6",
-          "begin_time": "09:00",
-          "end_time": "11:00",
+          "room": "BS15",
+          "begin_time": "12:00",
+          "end_time": "14:00",
           "tutor": "MISS ZAZMIN BINTI ABU BAKAR"
         }
       ]
@@ -74310,6 +74318,20 @@
           "tutor": "DATIN PROFESOR IR. DR. BUSHROA BINTI ABDUL RAZAK"
         },
         {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BK101",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BK101",
+          "begin_time": "14:00",
+          "end_time": "15:00"
+        },
+        {
           "title": "lab",
           "day": "Saturday",
           "room": "MECHENGLABS2",
@@ -74465,6 +74487,20 @@
           "tutor": "DATIN PROFESOR IR. DR. BUSHROA BINTI ABDUL RAZAK"
         },
         {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BK101",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BK101",
+          "begin_time": "14:00",
+          "end_time": "15:00"
+        },
+        {
           "title": "lab",
           "day": "Saturday",
           "room": "MECHENGLABS2",
@@ -74596,6 +74632,20 @@
           "begin_time": "14:00",
           "end_time": "15:00",
           "tutor": "DATIN PROFESOR IR. DR. BUSHROA BINTI ABDUL RAZAK"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BK101",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BK101",
+          "begin_time": "14:00",
+          "end_time": "15:00"
         },
         {
           "title": "lab",
@@ -90398,11 +90448,241 @@
       "occurence": "1",
       "activities": [
         {
+          "title": "seminar",
+          "day": "Wednesday",
+          "room": "DK8",
+          "begin_time": "18:00",
+          "end_time": "21:00"
+        },
+        {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DK8",
           "begin_time": "18:00",
           "end_time": "21:00"
+        }
+      ]
+    }
+  ],
+  "MQB7005": [
+    {
+      "module": "PRINCIPLES AND METHODS OF EPIDEMIOLOGY",
+      "course_id": "MQB7005",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 105,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. LIM SIN HOW"
+        }
+      ]
+    }
+  ],
+  "MQB7006": [
+    {
+      "module": "PRINCIPLES OF BIOSTATISTICS",
+      "course_id": "MQB7006",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 6,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. NITHIAH A/P THANGIAH"
+        }
+      ]
+    }
+  ],
+  "MQB7012": [
+    {
+      "module": "PRODUCING BETTER EVIDENCE",
+      "course_id": "MQB7012",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 105,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "ASSOCIATE PROF. DR. MAS AYU BINTI SAID"
+        }
+      ]
+    }
+  ],
+  "MQB7026": [
+    {
+      "module": "PUBLIC HEALTH NUTRITION",
+      "course_id": "MQB7026",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 105,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. NG AI KAH"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK8",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. NG AI KAH"
+        }
+      ]
+    }
+  ],
+  "MQB7027": [
+    {
+      "module": "QUALITATIVE INQUIRY IN PUBLIC HEALTH",
+      "course_id": "MQB7027",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 105,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Tuesday",
+          "room": "DK8",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "PROF. DR. WONG LI PING"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK8",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "PROF. DR. WONG LI PING"
+        }
+      ]
+    }
+  ],
+  "MQB7034": [
+    {
+      "module": "ENVIRONMENTAL HEALTH",
+      "course_id": "MQB7034",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 155,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Tuesday",
+          "room": "DK8",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "PROF. DR. VICTOR HOE CHEE WAI BIN ABDULLAH"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK8",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "DR. BALA MURALI A/L SUNDRAM"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK8",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "PROF. DR. VICTOR HOE CHEE WAI BIN ABDULLAH"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK8",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "DR. LIM YIN CHENG"
+        }
+      ]
+    }
+  ],
+  "MQB7038": [
+    {
+      "module": "CLINICAL OCCUPATIONAL MEDICINE",
+      "course_id": "MQB7038",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 100,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "PROF. DR. VICTOR HOE CHEE WAI BIN ABDULLAH"
+        },
+        {
+          "title": "practical",
+          "day": "Friday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "PROF. DR. VICTOR HOE CHEE WAI BIN ABDULLAH"
         }
       ]
     }
