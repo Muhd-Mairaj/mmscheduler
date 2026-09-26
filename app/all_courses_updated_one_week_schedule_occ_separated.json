@@ -80235,7 +80235,7 @@
         {
           "title": "lecture",
           "day": "Saturday",
-          "room": "DK4",
+          "room": "ONLINE",
           "begin_time": "09:00",
           "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. IR. DR. KHAIRUNNISA BINTI HASIKIN"
@@ -80293,7 +80293,7 @@
         {
           "title": "lecture",
           "day": "Saturday",
-          "room": "DK4",
+          "room": "ONLINE",
           "begin_time": "09:00",
           "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. IR. DR. KHAIRUNNISA BINTI HASIKIN"
@@ -80305,6 +80305,29 @@
           "begin_time": "09:00",
           "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. IR. TS. DR. LAI KHIN WEE"
+        }
+      ]
+    },
+    {
+      "module": "RESEARCH METHODOLOGY FOR COURSEWORK",
+      "course_id": "KQX7003",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 90,
+      "level": "MASTER",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Saturday",
+          "room": "ONLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. FARAZILA BINTI YUSOF"
         }
       ]
     }
@@ -113505,7 +113528,7 @@
           "tutor": "DR. SHAMSUL AZLIN B AHMAD SHAMSUDDIN"
         },
         {
-          "title": "tutorial",
+          "title": "lab",
           "day": "Monday",
           "room": "MBIO1",
           "begin_time": "14:00",
@@ -113513,7 +113536,7 @@
           "tutor": "ASSOCIATE PROF. DR. NOOR HASHIDA BINTI HASHIM"
         },
         {
-          "title": "tutorial",
+          "title": "lab",
           "day": "Monday",
           "room": "MBIO1",
           "begin_time": "14:00",
@@ -115920,8 +115943,8 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "DR. ARINDAM CHAKRABORTY"
         },
         {
@@ -115936,8 +115959,8 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "ASSOCIATE PROF. DR. MEOR HAKIF BIN AMIR HASSAN"
         }
       ]
@@ -115967,8 +115990,8 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "DR. ARINDAM CHAKRABORTY"
         },
         {
@@ -115983,8 +116006,8 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "ASSOCIATE PROF. DR. MEOR HAKIF BIN AMIR HASSAN"
         }
       ]
@@ -116682,8 +116705,8 @@
           "title": "lecture",
           "day": "Wednesday",
           "room": "PROJEKSBK",
-          "begin_time": "10:00",
-          "end_time": "11:00",
+          "begin_time": "14:00",
+          "end_time": "15:00",
           "tutor": "PROF. DR. NORMANIZA BINTI OSMAN"
         },
         {
@@ -116698,8 +116721,8 @@
           "title": "lecture",
           "day": "Wednesday",
           "room": "PROJEKSBK",
-          "begin_time": "10:00",
-          "end_time": "11:00",
+          "begin_time": "14:00",
+          "end_time": "15:00",
           "tutor": "ASSOCIATE PROF. DR. ROSAZLIN BINTI ABDULLAH"
         },
         {
@@ -116754,7 +116777,7 @@
         {
           "title": "lab",
           "day": "Friday",
-          "room": "MSPAS2ISB",
+          "room": "BSPGISB",
           "begin_time": "09:00",
           "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. DR. ROZAINAH BINTI MOHAMAD ZAKARIA"
@@ -116973,7 +116996,7 @@
         {
           "title": "lab",
           "day": "Friday",
-          "room": "MSPAS2ISB",
+          "room": "BSPGISB",
           "begin_time": "09:00",
           "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. DR. ROZAINAH BINTI MOHAMAD ZAKARIA"
@@ -117006,7 +117029,7 @@
         {
           "title": "lab",
           "day": "Friday",
-          "room": "MSPAS1ISB",
+          "room": "MSPAS2ISB",
           "begin_time": "09:00",
           "end_time": "12:00",
           "tutor": "DR. FIONA KENG SEH LIN"
@@ -117014,7 +117037,7 @@
         {
           "title": "lab",
           "day": "Friday",
-          "room": "MSPAS1ISB",
+          "room": "MSPAS2ISB",
           "begin_time": "09:00",
           "end_time": "12:00",
           "tutor": "DR. POZI ANAK MILOW"
@@ -117177,8 +117200,8 @@
         },
         {
           "title": "lab",
-          "day": "Monday",
-          "room": "MSPAS2ISB",
+          "day": "Thursday",
+          "room": "PROJEKSBK",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. ROZAINAH BINTI MOHAMAD ZAKARIA"
@@ -117349,8 +117372,8 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "DR. ARINDAM CHAKRABORTY"
         },
         {
@@ -117365,8 +117388,8 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "ASSOCIATE PROF. DR. MEOR HAKIF BIN AMIR HASSAN"
         }
       ]
@@ -117396,8 +117419,8 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "DR. ARINDAM CHAKRABORTY"
         },
         {
@@ -117412,8 +117435,8 @@
           "title": "lecture",
           "day": "Thursday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "ASSOCIATE PROF. DR. MEOR HAKIF BIN AMIR HASSAN"
         }
       ]
@@ -120435,7 +120458,7 @@
           "day": "Wednesday",
           "room": "MBIOKESIHATAN1",
           "begin_time": "15:00",
-          "end_time": "18:00",
+          "end_time": "17:00",
           "tutor": "DR. YUSRIZAM BIN SHARIFUDDIN"
         }
       ]
@@ -120474,7 +120497,7 @@
           "day": "Wednesday",
           "room": "MBIOKESIHATAN1",
           "begin_time": "15:00",
-          "end_time": "18:00",
+          "end_time": "17:00",
           "tutor": "DR. YUSRIZAM BIN SHARIFUDDIN"
         }
       ]
@@ -123848,7 +123871,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "BTSA1ISB",
+          "room": "BSSD6BIOINFOR",
           "begin_time": "11:00",
           "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. TS. DR. ACGA CHENG"
@@ -123856,7 +123879,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "BTSA1ISB",
+          "room": "BSSD6BIOINFOR",
           "begin_time": "11:00",
           "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. TS. DR. ACGA CHENG"
@@ -127660,6 +127683,31 @@
           "begin_time": "09:00",
           "end_time": "11:00",
           "tutor": "DR. NORAZRIENA BINTI YUSOFF"
+        }
+      ]
+    }
+  ],
+  "SIX1022": [
+    {
+      "module": "ARTIFICIAL INTELLIGENCE IN MODERN SCIENCE",
+      "course_id": "SIX1022",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 50,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BTSE9ISB",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MUHAMMAD IMRAN MUSTAFA BIN ABDUL KHUDUS"
         }
       ]
     }
