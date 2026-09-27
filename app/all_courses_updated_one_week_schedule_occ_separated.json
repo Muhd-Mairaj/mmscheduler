@@ -2296,7 +2296,7 @@
         {
           "title": "lecture",
           "day": "Saturday",
-          "room": "CBSCL",
+          "room": "CBS7",
           "begin_time": "09:00",
           "end_time": "17:00",
           "tutor": "PROF. DR. MOHD ZULKHAIRI BIN MUSTAPHA"
@@ -2304,7 +2304,7 @@
         {
           "title": "lecture",
           "day": "Sunday",
-          "room": "CBSCL",
+          "room": "CBS7",
           "begin_time": "09:00",
           "end_time": "17:00",
           "tutor": "PROF. DR. MOHD ZULKHAIRI BIN MUSTAPHA"
@@ -34271,7 +34271,7 @@
         {
           "title": "lecture",
           "day": "Saturday",
-          "room": "CBSCL4",
+          "room": "CBSCL",
           "begin_time": "12:00",
           "end_time": "15:00",
           "tutor": "ASSOCIATE PROF. DR. EZLIKA BINTI MOHD GHAZALI"
@@ -41088,8 +41088,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
+          "begin_time": "20:00",
+          "end_time": "22:00",
           "tutor": "DR. FAEZAH BINTI KASSIM"
         }
       ]
@@ -41134,8 +41134,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
+          "begin_time": "20:00",
+          "end_time": "22:00",
           "tutor": "DR. FATIMI BINTI HANAFI"
         }
       ]
@@ -41180,8 +41180,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
+          "begin_time": "20:00",
+          "end_time": "22:00",
           "tutor": "DR. FARIDAH BINTI CHE HUSAIN"
         }
       ]
@@ -41226,8 +41226,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00"
+          "begin_time": "20:00",
+          "end_time": "22:00"
         }
       ]
     },
@@ -41270,8 +41270,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00"
+          "begin_time": "20:00",
+          "end_time": "22:00"
         }
       ]
     },
@@ -41314,8 +41314,8 @@
           "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
+          "begin_time": "20:00",
+          "end_time": "22:00",
           "tutor": "MR. NIK MUHAMMAD ROZI BIN NIK YUSOFF"
         }
       ]
@@ -55792,18 +55792,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Tuesday",
           "room": "BS12",
-          "begin_time": "09:00",
-          "end_time": "11:00",
+          "begin_time": "08:00",
+          "end_time": "10:00",
           "tutor": "ASSOCIATE PROF. DR. FADILLAH BT MANSOR"
         },
         {
           "title": "tutorial",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "BS12",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "ASSOCIATE PROF. DR. FADILLAH BT MANSOR"
         }
       ]
@@ -67837,18 +67837,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Wednesday",
+          "day": "Monday",
           "room": "DSANGSANA",
-          "begin_time": "09:00",
-          "end_time": "11:00",
+          "begin_time": "11:00",
+          "end_time": "13:00",
           "tutor": "DR. NOOR HASNOOR BINTI MOHAMAD NOR"
         },
         {
           "title": "tutorial",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DSANGSANA",
-          "begin_time": "10:00",
-          "end_time": "11:00",
+          "begin_time": "11:00",
+          "end_time": "12:00",
           "tutor": "DR. NOOR HASNOOR BINTI MOHAMAD NOR"
         }
       ]
@@ -67878,10 +67878,10 @@
         },
         {
           "title": "tutorial",
-          "day": "Thursday",
-          "room": "BSSENDUDUK",
-          "begin_time": "12:00",
-          "end_time": "13:00",
+          "day": "Wednesday",
+          "room": "BSKENANGA",
+          "begin_time": "16:00",
+          "end_time": "17:00",
           "tutor": "DR. MARDIAN SHAH OMAR"
         }
       ]
@@ -68553,16 +68553,16 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "DKANGGERIK",
-          "begin_time": "09:00",
-          "end_time": "11:00",
+          "begin_time": "14:00",
+          "end_time": "16:00",
           "tutor": "DR. MOHD TAUFIK ARRIDZO BIN MOHD BALWI"
         },
         {
           "title": "tutorial",
-          "day": "Thursday",
+          "day": "Wednesday",
           "room": "DKANGGERIK",
-          "begin_time": "11:00",
-          "end_time": "12:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "DR. MOHD TAUFIK ARRIDZO BIN MOHD BALWI"
         }
       ]
@@ -115150,18 +115150,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Tuesday",
           "room": "BS9BS10KDK",
-          "begin_time": "09:00",
-          "end_time": "10:00",
-          "tutor": "PROF. DR. OOI CHONG HENG"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "BS9BS10KDK",
-          "begin_time": "09:00",
-          "end_time": "11:00",
+          "begin_time": "18:00",
+          "end_time": "21:00",
           "tutor": "PROF. DR. OOI CHONG HENG"
         }
       ]
@@ -116704,9 +116696,9 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "PROJEKSBK",
-          "begin_time": "14:00",
-          "end_time": "15:00",
+          "room": "BTSA3ISB",
+          "begin_time": "10:00",
+          "end_time": "11:00",
           "tutor": "PROF. DR. NORMANIZA BINTI OSMAN"
         },
         {
@@ -116720,15 +116712,15 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "PROJEKSBK",
-          "begin_time": "14:00",
-          "end_time": "15:00",
+          "room": "BTSA3ISB",
+          "begin_time": "10:00",
+          "end_time": "11:00",
           "tutor": "ASSOCIATE PROF. DR. ROSAZLIN BINTI ABDULLAH"
         },
         {
           "title": "lab",
           "day": "Monday",
-          "room": "BTSA3ISB",
+          "room": "PROJEKSBK",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "PROF. DR. NORMANIZA BINTI OSMAN"
@@ -116736,7 +116728,7 @@
         {
           "title": "lab",
           "day": "Monday",
-          "room": "BTSA3ISB",
+          "room": "PROJEKSBK",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. ROSAZLIN BINTI ABDULLAH"
@@ -117119,7 +117111,7 @@
         {
           "title": "lab",
           "day": "Thursday",
-          "room": "MSPAS1ISB",
+          "room": "PROJEKSBK",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "PROF. DR. NORMANIZA BINTI OSMAN"
@@ -117201,7 +117193,7 @@
         {
           "title": "lab",
           "day": "Thursday",
-          "room": "PROJEKSBK",
+          "room": "MSPAS2ISB",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. ROZAINAH BINTI MOHAMAD ZAKARIA"
@@ -117816,7 +117808,7 @@
           "day": "Thursday",
           "room": "MMPGEO",
           "begin_time": "16:00",
-          "end_time": "17:00",
+          "end_time": "18:00",
           "tutor": "PROF. DR. AZMAN BIN ABD GHANI"
         }
       ]
@@ -117847,7 +117839,7 @@
           "day": "Thursday",
           "room": "MMPGEO",
           "begin_time": "16:00",
-          "end_time": "17:00",
+          "end_time": "18:00",
           "tutor": "PROF. DR. AZMAN BIN ABD GHANI"
         }
       ]
@@ -120458,7 +120450,7 @@
           "day": "Wednesday",
           "room": "MBIOKESIHATAN1",
           "begin_time": "15:00",
-          "end_time": "17:00",
+          "end_time": "18:00",
           "tutor": "DR. YUSRIZAM BIN SHARIFUDDIN"
         }
       ]
@@ -120495,7 +120487,7 @@
         {
           "title": "lab",
           "day": "Wednesday",
-          "room": "MBIOKESIHATAN1",
+          "room": "MBIOKESIHATAN2",
           "begin_time": "15:00",
           "end_time": "17:00",
           "tutor": "DR. YUSRIZAM BIN SHARIFUDDIN"
