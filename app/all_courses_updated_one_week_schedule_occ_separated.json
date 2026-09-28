@@ -41358,7 +41358,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Friday",
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "19:00"
@@ -53092,7 +53092,7 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "MDK9",
+          "room": "CBSBLH1",
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. MURALITHRAN A/L GOVINDAN KUTTY"
@@ -53123,7 +53123,7 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "WBK",
+          "room": "BBKP3",
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "ASSOCIATE PROF. DR. NORISMA BINTI IDRIS"
@@ -53146,7 +53146,29 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "CDK3",
+          "room": "WBK",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "5",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "ASSOCIATE PROF. DR. MOHAMAD NIZAM BIN AYUB"
@@ -53164,7 +53186,7 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": 3600,
       "levelCode": 3,
-      "occurence": "5",
+      "occurence": "6",
       "activities": [
         {
           "title": "lecture",
@@ -53187,7 +53209,7 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": 3600,
       "levelCode": 3,
-      "occurence": "6",
+      "occurence": "7",
       "activities": [
         {
           "title": "lecture",
@@ -53209,7 +53231,7 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": 3600,
       "levelCode": 3,
-      "occurence": "7",
+      "occurence": "8",
       "activities": [
         {
           "title": "lecture",
@@ -53232,60 +53254,15 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": 3600,
       "levelCode": 3,
-      "occurence": "8",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "MR. MOHD KHAIRUL AKHBAR BIN JAHIRUDDIN"
-        }
-      ]
-    },
-    {
-      "module": "EMBRACE@UMLEADER",
-      "course_id": "GUL1001",
-      "credits": 2,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": "BACHELOR",
-      "faculty": "UNIVERSITY",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": 3600,
-      "levelCode": 3,
       "occurence": "9",
       "activities": [
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "08:00",
-          "end_time": "10:00"
-        }
-      ]
-    },
-    {
-      "module": "EMBRACE@UMLEADER",
-      "course_id": "GUL1001",
-      "credits": 2,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": "BACHELOR",
-      "faculty": "UNIVERSITY",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": 3600,
-      "levelCode": 3,
-      "occurence": "10",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "ONLINE",
+          "room": "RLEG",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "MISS TAMILHIILE MANGGAI A/P G MOHGAN"
+          "tutor": "MR. MOHD KHAIRUL AKHBAR BIN JAHIRUDDIN"
         }
       ]
     },
@@ -117192,7 +117169,7 @@
         },
         {
           "title": "lab",
-          "day": "Thursday",
+          "day": "Monday",
           "room": "MSPAS2ISB",
           "begin_time": "14:00",
           "end_time": "17:00",
