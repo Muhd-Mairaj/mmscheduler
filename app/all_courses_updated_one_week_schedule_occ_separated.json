@@ -29277,22 +29277,6 @@
           "tutor": "ASSOCIATE PROF. AR WONG WAI CHOONG"
         },
         {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "STSBT5",
-          "begin_time": "09:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. AR WONG WAI CHOONG"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "STSBT5",
-          "begin_time": "09:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. AR WONG WAI CHOONG"
-        },
-        {
           "title": "tutorial",
           "day": "Monday",
           "room": "STSBT45",
@@ -29306,22 +29290,6 @@
           "room": "STSBT45",
           "begin_time": "16:00",
           "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. AR WONG WAI CHOONG"
-        },
-        {
-          "title": "tutorial",
-          "day": "Monday",
-          "room": "STSBT5",
-          "begin_time": "17:00",
-          "end_time": "18:00",
-          "tutor": "ASSOCIATE PROF. AR WONG WAI CHOONG"
-        },
-        {
-          "title": "tutorial",
-          "day": "Thursday",
-          "room": "STSBT5",
-          "begin_time": "17:00",
-          "end_time": "18:00",
           "tutor": "ASSOCIATE PROF. AR WONG WAI CHOONG"
         }
       ]
@@ -29350,27 +29318,11 @@
           "tutor": "DR. NAJAH BINTI MD ALWI"
         },
         {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "BK5",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "DR. NAJAH BINTI MD ALWI"
-        },
-        {
           "title": "tutorial",
           "day": "Wednesday",
           "room": "BK5",
           "begin_time": "16:00",
           "end_time": "17:00",
-          "tutor": "DR. NAJAH BINTI MD ALWI"
-        },
-        {
-          "title": "tutorial",
-          "day": "Wednesday",
-          "room": "BK5",
-          "begin_time": "17:00",
-          "end_time": "18:00",
           "tutor": "DR. NAJAH BINTI MD ALWI"
         }
       ]
@@ -29407,14 +29359,6 @@
           "tutor": "ASSOCIATE PROF. AR WONG WAI CHOONG"
         },
         {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "SKARYAWAN",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. AR WONG WAI CHOONG"
-        },
-        {
           "title": "tutorial",
           "day": "Tuesday",
           "room": "SKARYAWAN",
@@ -29428,14 +29372,6 @@
           "room": "BKP2",
           "begin_time": "16:00",
           "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. AR WONG WAI CHOONG"
-        },
-        {
-          "title": "tutorial",
-          "day": "Tuesday",
-          "room": "SKARYAWAN",
-          "begin_time": "17:00",
-          "end_time": "18:00",
           "tutor": "ASSOCIATE PROF. AR WONG WAI CHOONG"
         }
       ]
@@ -29461,13 +29397,6 @@
           "room": "STSBT5",
           "begin_time": "10:00",
           "end_time": "12:00"
-        },
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "STSBT5",
-          "begin_time": "10:00",
-          "end_time": "17:00"
         },
         {
           "title": "tutorial",
@@ -45152,7 +45081,7 @@
       "occurence": "24",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Tuesday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -45175,7 +45104,7 @@
       "occurence": "25",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -45198,7 +45127,7 @@
       "occurence": "26",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Tuesday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -45221,7 +45150,7 @@
       "occurence": "27",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -45244,7 +45173,7 @@
       "occurence": "28",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -48242,7 +48171,7 @@
       "occurence": "91",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -48265,7 +48194,7 @@
       "occurence": "92",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -48288,7 +48217,7 @@
       "occurence": "93",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -48311,7 +48240,7 @@
       "occurence": "94",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -48334,7 +48263,7 @@
       "occurence": "95",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -48357,7 +48286,7 @@
       "occurence": "96",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -48379,7 +48308,7 @@
       "occurence": "97",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -48835,7 +48764,7 @@
       "occurence": "4",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -48858,7 +48787,7 @@
       "occurence": "5",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -49347,7 +49276,8 @@
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "17:00",
-          "end_time": "19:00"
+          "end_time": "19:00",
+          "tutor": "ASSOCIATE PROF. DR. KEUM HYUN KIM"
         }
       ]
     },
@@ -49638,7 +49568,8 @@
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "17:00",
-          "end_time": "19:00"
+          "end_time": "19:00",
+          "tutor": "ASSOCIATE PROF. DR. KEUM HYUN KIM"
         }
       ]
     },
@@ -50636,7 +50567,7 @@
       "occurence": "1",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -50659,7 +50590,7 @@
       "occurence": "2",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Tuesday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -50682,7 +50613,7 @@
       "occurence": "3",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -50705,7 +50636,7 @@
       "occurence": "4",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -50728,7 +50659,7 @@
       "occurence": "5",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -50751,7 +50682,7 @@
       "occurence": "6",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -50774,7 +50705,7 @@
       "occurence": "7",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -50797,7 +50728,7 @@
       "occurence": "8",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -50820,7 +50751,7 @@
       "occurence": "10",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -50842,7 +50773,7 @@
       "occurence": "11",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Tuesday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -50864,7 +50795,7 @@
       "occurence": "12",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -50886,7 +50817,7 @@
       "occurence": "13",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -50908,7 +50839,7 @@
       "occurence": "14",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -50930,7 +50861,7 @@
       "occurence": "15",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -50952,7 +50883,7 @@
       "occurence": "16",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -50974,7 +50905,7 @@
       "occurence": "17",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -50996,7 +50927,7 @@
       "occurence": "18",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Tuesday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -51018,7 +50949,7 @@
       "occurence": "1M",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -51041,7 +50972,7 @@
       "occurence": "20",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -51063,7 +50994,7 @@
       "occurence": "21",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -51085,7 +51016,7 @@
       "occurence": "22",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -51108,7 +51039,7 @@
       "occurence": "23",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -51131,7 +51062,7 @@
       "occurence": "24",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -51154,7 +51085,7 @@
       "occurence": "25",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -51177,7 +51108,7 @@
       "occurence": "26",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Tuesday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -51200,7 +51131,7 @@
       "occurence": "27",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -51223,7 +51154,7 @@
       "occurence": "28",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -51246,7 +51177,7 @@
       "occurence": "29",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -51269,7 +51200,7 @@
       "occurence": "30",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -51292,7 +51223,7 @@
       "occurence": "32",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "17:00",
@@ -51314,7 +51245,7 @@
       "occurence": "34",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -51336,7 +51267,7 @@
       "occurence": "35",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Tuesday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -51358,7 +51289,7 @@
       "occurence": "36",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -51380,7 +51311,7 @@
       "occurence": "37",
       "activities": [
         {
-          "title": "tutorial",
+          "title": "online",
           "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "20:00",
@@ -53046,13 +52977,6 @@
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "ASSOCIATE PROF. DR. CHEN YENG"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "MDK3",
-          "begin_time": "08:00",
-          "end_time": "10:00"
         }
       ]
     },
@@ -53076,14 +53000,6 @@
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. MURALITHRAN A/L GOVINDAN KUTTY"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "MDK9",
-          "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "DR. HONG WEI-HAN"
         }
       ]
     },
@@ -53579,10 +53495,10 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "KAUDI2",
+          "room": "KDK5",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "DR. WAN ZURINA BINTI WAN JAAFAR"
+          "tutor": "DR. FATHIAH BINTI MOHAMED ZUKI"
         }
       ]
     },
@@ -53602,10 +53518,10 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "KDK2",
+          "room": "KDK8",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "ASSOCIATE PROF. IR. DR. LIEW YIH MIIN"
+          "tutor": "ASSOCIATE PROF. DR. RAJA ARIFFIN BIN RAJA GHAZILLA"
         }
       ]
     },
@@ -53625,10 +53541,10 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "KDK3",
-          "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "ASSOCIATE PROF. DR. RAJA ARIFFIN BIN RAJA GHAZILLA"
+          "room": "LMMA",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. CHEN YENG"
         }
       ]
     },
@@ -53648,10 +53564,10 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "MDK3",
+          "room": "CBSBLH1",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. CHEN YENG"
+          "tutor": "DR. MURALITHRAN A/L GOVINDAN KUTTY"
         }
       ]
     },
@@ -53671,30 +53587,7 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "MDK9",
-          "begin_time": "10:00",
-          "end_time": "12:00",
-          "tutor": "DR. MURALITHRAN A/L GOVINDAN KUTTY"
-        }
-      ]
-    },
-    {
-      "module": "EMBRACE@UMLEADER",
-      "course_id": "GUL1001",
-      "credits": 2,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": "BACHELOR",
-      "faculty": "UNIVERSITY",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": 3600,
-      "levelCode": 3,
-      "occurence": "30",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "CDK3",
+          "room": "AAUDIFSSS",
           "begin_time": "10:00",
           "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. DR. MOHAMAD NIZAM BIN AYUB"
@@ -53712,30 +53605,7 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": 3600,
       "levelCode": 3,
-      "occurence": "31",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "10:00",
-          "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. TS. DR. SRI DEVI A/P RAVANA"
-        }
-      ]
-    },
-    {
-      "module": "EMBRACE@UMLEADER",
-      "course_id": "GUL1001",
-      "credits": 2,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": "BACHELOR",
-      "faculty": "UNIVERSITY",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": 3600,
-      "levelCode": 3,
-      "occurence": "32",
+      "occurence": "30",
       "activities": [
         {
           "title": "lecture",
@@ -53757,8 +53627,61 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": 3600,
       "levelCode": 3,
+      "occurence": "31",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "LDK1",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHAMED NASHRUDIN BIN NAHARUDIN"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "32",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "CDK4",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
       "occurence": "33",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "CDK3",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "MISS TAMILHIILE MANGGAI A/P G MOHGAN"
+        },
         {
           "title": "lecture",
           "day": "Friday",
@@ -53784,7 +53707,7 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "ONLINE",
+          "room": "MDK3",
           "begin_time": "10:00",
           "end_time": "12:00"
         }
@@ -53803,6 +53726,13 @@
       "levelCode": 3,
       "occurence": "35",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "MDK3",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        },
         {
           "title": "lecture",
           "day": "Friday",
@@ -53874,10 +53804,10 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "LDK1",
+          "room": "CBSBLH4",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "DR. MOHAMED NASHRUDIN BIN NAHARUDIN"
+          "tutor": "DR. SONIA KUMARI A/P SELVARAJAN"
         }
       ]
     },
@@ -53894,6 +53824,14 @@
       "levelCode": 3,
       "occurence": "40",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "IDK2",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MADIHA BINTI BAHARUDDIN"
+        },
         {
           "title": "lecture",
           "day": "Friday",
@@ -53916,6 +53854,14 @@
       "levelCode": 3,
       "occurence": "41",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "CDK2",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MARLENNY BT DEENERWAN"
+        },
         {
           "title": "lecture",
           "day": "Friday",
@@ -53942,10 +53888,10 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "MDK5",
+          "room": "LAUDITORIUM",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. NAJIHAH BINTI MOHD HASHIM"
+          "tutor": "ASSOCIATE PROF. DR. NOOR FADIYA BINTI MOHD NOOR"
         }
       ]
     },
@@ -53965,9 +53911,10 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "MDK7",
+          "room": "KDK9",
           "begin_time": "10:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "DR. ONN CHIU CHUEN"
         }
       ]
     },
@@ -53987,9 +53934,10 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "MDK10",
+          "room": "KDK2",
           "begin_time": "10:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "MADAM NOOR ASYIKEEN MOHD SALLEH"
         }
       ]
     },
@@ -54009,10 +53957,10 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "CDK4",
+          "room": "KDK3",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "DR. SONIA KUMARI A/P SELVARAJAN"
+          "tutor": "ASSOCIATE PROF. DR. NADHRATUL WARDAH BINTI HJ. SALMAN"
         }
       ]
     },
@@ -54193,10 +54141,10 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "KDK2",
-          "begin_time": "10:00",
-          "end_time": "12:00",
-          "tutor": "DR. FATHIAH BINTI MOHAMED ZUKI"
+          "room": "CBSBLH2",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. NUR KHUZAIMAH FARHANA BINTI ABD AZIZ"
         }
       ]
     },
@@ -54375,10 +54323,9 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "LDK1",
+          "room": "BSKARYAWAN",
           "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "MADAM NOOR ASYIKEEN MOHD SALLEH"
+          "end_time": "17:00"
         }
       ]
     },
@@ -54438,7 +54385,7 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": 3600,
       "levelCode": 3,
-      "occurence": "69",
+      "occurence": "68",
       "activities": [
         {
           "title": "lecture",
@@ -54446,6 +54393,29 @@
           "room": "ONLINE",
           "begin_time": "15:00",
           "end_time": "17:00"
+        }
+      ]
+    },
+    {
+      "module": "EMBRACE@UMLEADER",
+      "course_id": "GUL1001",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": "BACHELOR",
+      "faculty": "UNIVERSITY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 3600,
+      "levelCode": 3,
+      "occurence": "69",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "DR. HONG WEI-HAN"
         }
       ]
     }
@@ -67809,10 +67779,10 @@
         },
         {
           "title": "tutorial",
-          "day": "Tuesday",
+          "day": "Wednesday",
           "room": "DSANGSANA",
-          "begin_time": "11:00",
-          "end_time": "12:00",
+          "begin_time": "14:00",
+          "end_time": "15:00",
           "tutor": "DR. NOOR HASNOOR BINTI MOHAMAD NOR"
         }
       ]
@@ -90674,6 +90644,227 @@
       ]
     }
   ],
+  "MQB7041": [
+    {
+      "module": "OCCUPATIONAL HEALTH",
+      "course_id": "MQB7041",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 155,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK8",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "DR. LIM YIN CHENG"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK8",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "PROF. DR. VICTOR HOE CHEE WAI BIN ABDULLAH"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK8",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "DR. RAMA KRISHNA A/L SUPRAMANIAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK8",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "DR. BALA MURALI A/L SUNDRAM"
+        }
+      ]
+    }
+  ],
+  "MQB7043": [
+    {
+      "module": "ETHICS, LAW AND HEALTH",
+      "course_id": "MQB7043",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 105,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "seminar",
+          "day": "Wednesday",
+          "room": "DK8",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. RUMANA AKHTER SAIFI"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK8",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "ASSOCIATE PROF. DR. THARANI LOGANATHAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK8",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. LIM SIN HOW"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK8",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "ASSOCIATE PROF. DR. FARIZAH BINTI MOHD HAIRI"
+        }
+      ]
+    }
+  ],
+  "MQB7044": [
+    {
+      "module": "DATA MANAGEMENT IN PUBLIC HEALTH",
+      "course_id": "MQB7044",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 105,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK8",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR.  ABQARIYAH BINTI YAHYA@AHMAD NOOR"
+        }
+      ]
+    }
+  ],
+  "MQB7049": [
+    {
+      "module": "PRINCIPLES OF BIOSTATISTIC",
+      "course_id": "MQB7049",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 105,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. NITHIAH A/P THANGIAH"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "12:00"
+        }
+      ]
+    }
+  ],
+  "MQB7050": [
+    {
+      "module": "RESEARCH PROJECT",
+      "course_id": "MQB7050",
+      "credits": 9,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 100,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "ASSOCIATE PROF. DR. MAS AYU BINTI SAID"
+        },
+        {
+          "title": "practical",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "ASSOCIATE PROF. DR. MAS AYU BINTI SAID"
+        }
+      ]
+    }
+  ],
+  "MQB7052": [
+    {
+      "module": "RESEARCH PROJECT",
+      "course_id": "MQB7052",
+      "credits": 9,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 100,
+      "level": "MASTER",
+      "faculty": "FACULTY OF MEDICINE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "ASSOCIATE PROF. DR. MAS AYU BINTI SAID"
+        },
+        {
+          "title": "practical",
+          "day": "Monday",
+          "room": "DK8",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "ASSOCIATE PROF. DR. MAS AYU BINTI SAID"
+        }
+      ]
+    }
+  ],
   "MQD7013": [
     {
       "module": "RESEARCH METHODOLOGY IN NURSING",
@@ -95455,6 +95646,14 @@
           "room": "CBE",
           "begin_time": "14:00",
           "end_time": "17:00",
+          "tutor": "DR. LEONG KOK HOONG"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CBE",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. CHIN SEK PENG"
         },
         {
@@ -95503,6 +95702,14 @@
       "levelCode": 4,
       "occurence": "1M",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CBE",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. LEONG KOK HOONG"
+        },
         {
           "title": "lecture",
           "day": "Tuesday",
@@ -115826,8 +116033,8 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "DR. ARINDAM CHAKRABORTY"
         },
         {
@@ -115842,8 +116049,8 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "ASSOCIATE PROF. DR. MEOR HAKIF BIN AMIR HASSAN"
         },
         {
@@ -115873,8 +116080,8 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "DR. ARINDAM CHAKRABORTY"
         },
         {
@@ -115889,8 +116096,8 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "ASSOCIATE PROF. DR. MEOR HAKIF BIN AMIR HASSAN"
         },
         {
@@ -117255,8 +117462,8 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "DR. ARINDAM CHAKRABORTY"
         },
         {
@@ -117271,8 +117478,8 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "ASSOCIATE PROF. DR. MEOR HAKIF BIN AMIR HASSAN"
         },
         {
@@ -117302,8 +117509,8 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "DR. ARINDAM CHAKRABORTY"
         },
         {
@@ -117318,8 +117525,8 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "ASSOCIATE PROF. DR. MEOR HAKIF BIN AMIR HASSAN"
         },
         {
@@ -129555,7 +129762,7 @@
           "room": "BTSA1ISB",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "DR. ARPAH BINTI ABU"
+          "tutor": "DR. POZI ANAK MILOW"
         }
       ]
     }
@@ -136760,7 +136967,8 @@
           "day": "Thursday",
           "room": "BSSELASIH",
           "begin_time": "14:00",
-          "end_time": "16:00"
+          "end_time": "16:00",
+          "tutor": "ASSOCIATE PROF. DR. KEUM HYUN KIM"
         }
       ]
     },
