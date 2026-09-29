@@ -41066,10 +41066,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Tuesday",
           "room": "ONLINE",
-          "begin_time": "20:00",
-          "end_time": "22:00",
+          "begin_time": "17:00",
+          "end_time": "19:00",
           "tutor": "DR. FAEZAH BINTI KASSIM"
         }
       ]
@@ -41112,10 +41112,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Tuesday",
           "room": "ONLINE",
-          "begin_time": "20:00",
-          "end_time": "22:00",
+          "begin_time": "17:00",
+          "end_time": "19:00",
           "tutor": "DR. FATIMI BINTI HANAFI"
         }
       ]
@@ -41158,10 +41158,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Tuesday",
           "room": "ONLINE",
-          "begin_time": "20:00",
-          "end_time": "22:00",
+          "begin_time": "17:00",
+          "end_time": "19:00",
           "tutor": "DR. FARIDAH BINTI CHE HUSAIN"
         }
       ]
@@ -41204,10 +41204,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Tuesday",
           "room": "ONLINE",
-          "begin_time": "20:00",
-          "end_time": "22:00"
+          "begin_time": "17:00",
+          "end_time": "19:00"
         }
       ]
     },
@@ -41248,10 +41248,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Tuesday",
           "room": "ONLINE",
-          "begin_time": "20:00",
-          "end_time": "22:00"
+          "begin_time": "17:00",
+          "end_time": "19:00"
         }
       ]
     },
@@ -41292,10 +41292,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Tuesday",
           "room": "ONLINE",
-          "begin_time": "20:00",
-          "end_time": "22:00",
+          "begin_time": "17:00",
+          "end_time": "19:00",
           "tutor": "MR. NIK MUHAMMAD ROZI BIN NIK YUSOFF"
         }
       ]
@@ -41338,7 +41338,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
+          "day": "Tuesday",
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "19:00"
@@ -123006,7 +123006,7 @@
           "day": "Tuesday",
           "room": "MBIO1",
           "begin_time": "11:00",
-          "end_time": "12:00",
+          "end_time": "13:00",
           "tutor": "DR. AHMAD FARIS BIN MOHD ADNAN"
         },
         {
@@ -123014,7 +123014,7 @@
           "day": "Tuesday",
           "room": "MBIO1",
           "begin_time": "11:00",
-          "end_time": "12:00"
+          "end_time": "13:00"
         },
         {
           "title": "lab",
@@ -123051,7 +123051,7 @@
           "day": "Tuesday",
           "room": "MBT1BIOISB",
           "begin_time": "11:00",
-          "end_time": "12:00"
+          "end_time": "13:00"
         },
         {
           "title": "lab",
