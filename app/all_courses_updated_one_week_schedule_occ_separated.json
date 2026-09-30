@@ -128002,8 +128002,16 @@
           "title": "lecture",
           "day": "Wednesday",
           "room": "BSPGISB",
-          "begin_time": "18:00",
-          "end_time": "21:00",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. CHONG WU YI"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BSPGISB",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DATUK PROF. ULUNG DR. HARITH BIN AHMAD"
         }
       ]
@@ -128025,8 +128033,16 @@
           "title": "lecture",
           "day": "Wednesday",
           "room": "BSPGISB",
-          "begin_time": "18:00",
-          "end_time": "21:00",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. CHONG WU YI"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BSPGISB",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DATUK PROF. ULUNG DR. HARITH BIN AHMAD"
         }
       ]
