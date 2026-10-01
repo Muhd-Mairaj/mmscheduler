@@ -10449,7 +10449,7 @@
           "room": "DKB",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "PROF. DR. HANAFI BIN HUSSIN"
+          "tutor": "DR. CHOONG PUI YEE"
         },
         {
           "title": "tutorial",
@@ -10457,7 +10457,7 @@
           "room": "JATI2",
           "begin_time": "16:00",
           "end_time": "17:00",
-          "tutor": "PROF. DR. HANAFI BIN HUSSIN"
+          "tutor": "DR. CHOONG PUI YEE"
         }
       ]
     },
@@ -10480,7 +10480,7 @@
           "room": "DKB",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "PROF. DR. HANAFI BIN HUSSIN"
+          "tutor": "DR. CHOONG PUI YEE"
         },
         {
           "title": "tutorial",
@@ -10488,7 +10488,7 @@
           "room": "JATI2",
           "begin_time": "15:00",
           "end_time": "16:00",
-          "tutor": "PROF. DR. HANAFI BIN HUSSIN"
+          "tutor": "DR. CHOONG PUI YEE"
         }
       ]
     },
@@ -10511,7 +10511,7 @@
           "room": "DKB",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "PROF. DR. HANAFI BIN HUSSIN"
+          "tutor": "DR. CHOONG PUI YEE"
         },
         {
           "title": "tutorial",
@@ -10519,7 +10519,7 @@
           "room": "JATI2",
           "begin_time": "10:00",
           "end_time": "11:00",
-          "tutor": "PROF. DR. HANAFI BIN HUSSIN"
+          "tutor": "DR. CHOONG PUI YEE"
         }
       ]
     }
@@ -16748,7 +16748,7 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "AUDIFSSS",
+          "room": "DKC",
           "begin_time": "08:00",
           "end_time": "10:00"
         },
@@ -16777,7 +16777,7 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "AUDIFSSS",
+          "room": "DKC",
           "begin_time": "08:00",
           "end_time": "10:00"
         }
@@ -27448,7 +27448,7 @@
           "room": "STEM",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "DR. AHMAD FAWWAZ BIN AHMAD SALEH"
+          "tutor": "SR DR. AINORIZA BINTI MOHD AINI"
         },
         {
           "title": "tutorial",
@@ -27456,7 +27456,7 @@
           "room": "BK3",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "DR. AHMAD FAWWAZ BIN AHMAD SALEH"
+          "tutor": "SR DR. AINORIZA BINTI MOHD AINI"
         }
       ]
     },
@@ -27479,7 +27479,7 @@
           "room": "STEM",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "DR. AHMAD FAWWAZ BIN AHMAD SALEH"
+          "tutor": "SR DR. AINORIZA BINTI MOHD AINI"
         },
         {
           "title": "tutorial",
@@ -27487,7 +27487,7 @@
           "room": "BK3",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "DR. AHMAD FAWWAZ BIN AHMAD SALEH"
+          "tutor": "SR DR. AINORIZA BINTI MOHD AINI"
         }
       ]
     }
@@ -51515,7 +51515,8 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. NUR MARDHIYAH BINTI AZIZ"
         }
       ]
     },
@@ -51537,7 +51538,8 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. NUR MARDHIYAH BINTI AZIZ"
         }
       ]
     }
@@ -52997,7 +52999,7 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "ONLINE",
+          "room": "AAUDIFSSS",
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "ASSOCIATE PROF. DR. MOHAMAD NIZAM BIN AYUB"
@@ -53201,7 +53203,7 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "LDK1",
+          "room": "MDK5",
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. MOHAMED NASHRUDIN BIN NAHARUDIN"
@@ -53718,14 +53720,6 @@
           "begin_time": "10:00",
           "end_time": "12:00",
           "tutor": "DR. HONG WEI-HAN"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "10:00",
-          "end_time": "12:00",
-          "tutor": "DR. AZLIN ZAITI BINTI ZAINAL"
         }
       ]
     },
@@ -53745,9 +53739,10 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BAUDIM",
+          "room": "MDK5",
           "begin_time": "10:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. NAJIHAH BINTI MOHD HASHIM"
         }
       ]
     },
@@ -54010,7 +54005,7 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "KAUDI1",
+          "room": "KAUDI2",
           "begin_time": "10:00",
           "end_time": "12:00"
         }
@@ -54504,10 +54499,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Saturday",
+          "day": "Friday",
           "room": "MDK9",
-          "begin_time": "10:00",
-          "end_time": "12:00",
+          "begin_time": "08:00",
+          "end_time": "10:00",
           "tutor": "DR. HONG WEI-HAN"
         }
       ]
@@ -65020,8 +65015,7 @@
           "day": "Monday",
           "room": "BS19",
           "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "MISS ZAZMIN BINTI ABU BAKAR"
+          "end_time": "13:00"
         }
       ]
     },
@@ -65341,7 +65335,7 @@
           "room": "BS30",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "MISS ZAZMIN BINTI ABU BAKAR"
+          "tutor": "MR. NIK MUHAMMAD ROZI BIN NIK YUSOFF"
         }
       ]
     }
@@ -66593,7 +66587,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "BS1TAMB",
+          "room": "BS15",
           "begin_time": "15:00",
           "end_time": "18:00",
           "tutor": "DR. ASYIQIN BINTI AB HALIM"
@@ -66616,7 +66610,7 @@
         {
           "title": "lecture",
           "day": "Saturday",
-          "room": "BS1TAMB",
+          "room": "BS21",
           "begin_time": "15:00",
           "end_time": "18:00",
           "tutor": "DR. MOHAMAD AZRIEN BIN MOHAMED ADNAN"
@@ -67621,7 +67615,7 @@
         {
           "title": "tutorial",
           "day": "Wednesday",
-          "room": "DKTANJUNG",
+          "room": "DSANGSANA",
           "begin_time": "12:00",
           "end_time": "13:00",
           "tutor": "DR. ROHAIDAH BINTI HARON"
@@ -67873,7 +67867,7 @@
         {
           "title": "tutorial",
           "day": "Wednesday",
-          "room": "TBPBAKAWALI",
+          "room": "DSANGSANA",
           "begin_time": "11:00",
           "end_time": "12:00",
           "tutor": "DR. NOOR HASNOOR BINTI MOHAMAD NOR"
@@ -68932,7 +68926,7 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "BSTERATAI",
+          "room": "BSBAKAWALI",
           "begin_time": "11:00",
           "end_time": "13:00"
         }
@@ -69395,7 +69389,7 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "DSANGSANA",
+          "room": "BSTERATAI",
           "begin_time": "11:00",
           "end_time": "13:00",
           "tutor": "DR. AHMAD ZAHIRUDDIN BIN MOHD ZABIDI"
@@ -85734,6 +85728,14 @@
         },
         {
           "title": "online",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. OH LIXIAN"
+        },
+        {
+          "title": "online",
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "09:00",
@@ -88849,14 +88851,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "DK9",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "DK9",
           "begin_time": "11:00",
@@ -88882,6 +88876,14 @@
         {
           "title": "lecture",
           "day": "Friday",
+          "room": "DK9",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
           "room": "DK9",
           "begin_time": "14:00",
           "end_time": "16:00",
@@ -88912,14 +88914,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "DK9",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "DK9",
           "begin_time": "11:00",
@@ -88945,6 +88939,14 @@
         {
           "title": "lecture",
           "day": "Friday",
+          "room": "DK9",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
           "room": "DK9",
           "begin_time": "14:00",
           "end_time": "16:00",
@@ -90462,6 +90464,37 @@
           "begin_time": "09:00",
           "end_time": "12:00",
           "tutor": "PROF. DR. WONG LI PING"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "PROF. DR. VICTOR HOE CHEE WAI BIN ABDULLAH"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR.  ABQARIYAH BINTI YAHYA@AHMAD NOOR"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK8",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. RUMANA AKHTER SAIFI"
         }
       ]
     }
@@ -92192,14 +92225,6 @@
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "DR. ARUTCHELVAN A/L RAJAMANIKAM"
-        },
-        {
-          "title": "tutorial",
-          "day": "Tuesday",
-          "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "PROF. HESHAM MAHYOUB SARHAN AL-MEKHLAFI"
         },
         {
           "title": "tutorial",
@@ -121831,16 +121856,16 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "BTSA1ISB",
+          "day": "Wednesday",
+          "room": "BSPGISB",
           "begin_time": "12:00",
           "end_time": "13:00",
           "tutor": "ASSOCIATE PROF. DR. NORHANIZA BINTI AMINUDIN"
         },
         {
           "title": "lecture",
-          "day": "Wednesday",
-          "room": "BSPGISB",
+          "day": "Monday",
+          "room": "BTSA1ISB",
           "begin_time": "12:00",
           "end_time": "13:00",
           "tutor": "ASSOCIATE PROF. DR. NORHANIZA BINTI AMINUDIN"
@@ -121862,16 +121887,16 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "BTSA1ISB",
+          "day": "Wednesday",
+          "room": "BSPGISB",
           "begin_time": "12:00",
           "end_time": "13:00",
           "tutor": "ASSOCIATE PROF. DR. NORHANIZA BINTI AMINUDIN"
         },
         {
           "title": "lecture",
-          "day": "Wednesday",
-          "room": "BSPGISB",
+          "day": "Monday",
+          "room": "BTSA1ISB",
           "begin_time": "12:00",
           "end_time": "13:00",
           "tutor": "ASSOCIATE PROF. DR. NORHANIZA BINTI AMINUDIN"
@@ -131737,7 +131762,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "DKVANDAKDK",
+          "room": "DKCEMPAKAKDK",
           "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "DR. NURULAINI BINTI ABU SHAMSI"
@@ -150824,7 +150849,7 @@
           "room": "ONLINE",
           "begin_time": "08:00",
           "end_time": "11:00",
-          "tutor": "PROF. TS. DR. RAFIDAH BINTI MD NOOR"
+          "tutor": "DR. SAAIDAL RAZALLI BIN AZZUHRI"
         }
       ]
     },
@@ -151683,7 +151708,7 @@
           "room": "ONLINE",
           "begin_time": "11:00",
           "end_time": "14:00",
-          "tutor": "DR. RIYAZ AHAMED ARIYALURAN HABEEB MOHAMED"
+          "tutor": "TS. DR. MOHD SHAHRUL NIZAM BIN MOHD DANURI"
         }
       ]
     },
@@ -151706,7 +151731,7 @@
           "room": "ONLINE",
           "begin_time": "11:00",
           "end_time": "14:00",
-          "tutor": "DR. RIYAZ AHAMED ARIYALURAN HABEEB MOHAMED"
+          "tutor": "TS. DR. MOHD SHAHRUL NIZAM BIN MOHD DANURI"
         }
       ]
     },
@@ -151729,7 +151754,7 @@
           "room": "ONLINE",
           "begin_time": "11:00",
           "end_time": "14:00",
-          "tutor": "DR. RIYAZ AHAMED ARIYALURAN HABEEB MOHAMED"
+          "tutor": "TS. DR. MOHD SHAHRUL NIZAM BIN MOHD DANURI"
         }
       ]
     }
@@ -152018,7 +152043,7 @@
           "room": "CCNALAB",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "DR. AHMAD SHAHRAFIDZ BIN KHALID"
+          "tutor": "PROF. TS. DR. NOR BADRUL ANUAR BIN JUMA AT"
         }
       ]
     },
@@ -152041,7 +152066,7 @@
           "room": "CCNALAB",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "DR. AHMAD SHAHRAFIDZ BIN KHALID"
+          "tutor": "PROF. TS. DR. NOR BADRUL ANUAR BIN JUMA AT"
         }
       ]
     },
@@ -152064,7 +152089,7 @@
           "room": "CCNALAB",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "DR. AHMAD SHAHRAFIDZ BIN KHALID"
+          "tutor": "PROF. TS. DR. NOR BADRUL ANUAR BIN JUMA AT"
         }
       ]
     },
@@ -152087,7 +152112,7 @@
           "room": "CCNALAB",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "DR. AHMAD SHAHRAFIDZ BIN KHALID"
+          "tutor": "PROF. TS. DR. NOR BADRUL ANUAR BIN JUMA AT"
         }
       ]
     }
@@ -152489,7 +152514,7 @@
           "room": "ONLINE",
           "begin_time": "08:00",
           "end_time": "11:00",
-          "tutor": "DR. UNAIZAH HANUM BINTI OBAIDELLAH"
+          "tutor": "ASSOCIATE PROF. TS. DR. AZNUL QALID BIN MD SABRI"
         }
       ]
     },
@@ -152512,7 +152537,7 @@
           "room": "ONLINE",
           "begin_time": "08:00",
           "end_time": "11:00",
-          "tutor": "DR. UNAIZAH HANUM BINTI OBAIDELLAH"
+          "tutor": "ASSOCIATE PROF. TS. DR. AZNUL QALID BIN MD SABRI"
         }
       ]
     }
