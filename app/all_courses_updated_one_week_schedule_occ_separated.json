@@ -85734,14 +85734,6 @@
         },
         {
           "title": "online",
-          "day": "Wednesday",
-          "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "10:00",
-          "tutor": "DR. OH LIXIAN"
-        },
-        {
-          "title": "online",
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "09:00",
@@ -124565,16 +124557,14 @@
           "day": "Tuesday",
           "room": "BS7BS8KDK",
           "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "ASSOCIATE PROF. DR. NOOR FADIYA BINTI MOHD NOOR"
+          "end_time": "16:00"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "BS7BS8KDK",
           "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "ASSOCIATE PROF. DR. NOOR FADIYA BINTI MOHD NOOR"
+          "end_time": "16:00"
         }
       ]
     },
@@ -124596,16 +124586,14 @@
           "day": "Tuesday",
           "room": "BS7BS8KDK",
           "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "ASSOCIATE PROF. DR. NOOR FADIYA BINTI MOHD NOOR"
+          "end_time": "16:00"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "BS7BS8KDK",
           "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "ASSOCIATE PROF. DR. NOOR FADIYA BINTI MOHD NOOR"
+          "end_time": "16:00"
         }
       ]
     }
@@ -126300,7 +126288,7 @@
           "room": "DKCEMPAKAKDK",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "MADAM NADIAH BINTI ZABRI"
+          "tutor": "MR. NORAZMIR BIN MOHD NORDIN"
         },
         {
           "title": "lecture",
@@ -126308,7 +126296,7 @@
           "room": "DKIXORAKDK",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "MADAM NADIAH BINTI ZABRI"
+          "tutor": "MR. NORAZMIR BIN MOHD NORDIN"
         }
       ]
     }
@@ -130620,7 +130608,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DK16ISB",
+          "room": "DKGEOLOGI",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "DR. NOOR MUNIRAH BINTI ISA"
@@ -131725,7 +131713,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "DK1",
+          "room": "DKCEMPAKAKDK",
           "begin_time": "18:00",
           "end_time": "21:00"
         }
@@ -131799,7 +131787,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DK1",
+          "room": "DKCEMPAKAKDK",
           "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "DR. FUNG HON NGEN"
