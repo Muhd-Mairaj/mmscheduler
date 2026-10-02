@@ -31371,7 +31371,7 @@
         {
           "title": "seminar",
           "day": "Tuesday",
-          "room": "EDK2",
+          "room": "CBSBLH5",
           "begin_time": "08:00",
           "end_time": "11:00",
           "tutor": "ASSOCIATE PROF. DR. MOHD EDIL BIN ABD SUKOR"
@@ -72620,6 +72620,28 @@
       "continuousAssessmentWeightage": "40~60",
       "examDuration": 7200,
       "levelCode": 3,
+      "occurence": "4",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CUBE2",
+          "begin_time": "09:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "PROGRAMMING I",
+      "course_id": "KIE1004",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 280,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
       "occurence": "1R",
       "activities": [
         {
@@ -75463,6 +75485,30 @@
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. IR. DR. MOHD SAYUTI BIN AB KARIM"
+        }
+      ]
+    }
+  ],
+  "KIG2018": [
+    {
+      "module": "ENGINEERING THERMODYNAMICS 2",
+      "course_id": "KIG2018",
+      "credits": 3,
+      "yearPeriod": "2025/S2",
+      "overallTargetStudent": 270,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DUMMY",
+          "begin_time": "15:00",
+          "end_time": "18:00"
         }
       ]
     }
@@ -87114,6 +87160,14 @@
           "day": "Tuesday",
           "room": "SROOM2BMED",
           "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. ANWAR BIN NORAZIT"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "SROOM2BMED",
+          "begin_time": "10:00",
           "end_time": "12:00",
           "tutor": "DR. TAN KIM KEE"
         },
@@ -87727,14 +87781,6 @@
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "PROF. DR. KIEW LIK VOON"
-        },
-        {
-          "title": "online",
-          "day": "Thursday",
-          "room": "ONLINE",
-          "begin_time": "10:00",
-          "end_time": "12:00",
-          "tutor": "DR. SHAMSUL BIN MOHD ZAIN"
         },
         {
           "title": "online",
@@ -89107,14 +89153,6 @@
           "title": "lecture",
           "day": "Friday",
           "room": "DK9",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK9",
           "begin_time": "11:00",
           "end_time": "13:00",
           "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
@@ -89122,6 +89160,14 @@
         {
           "title": "lecture",
           "day": "Friday",
+          "room": "DK9",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
           "room": "DK9",
           "begin_time": "11:00",
           "end_time": "13:00",
@@ -89170,14 +89216,6 @@
           "title": "lecture",
           "day": "Friday",
           "room": "DK9",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK9",
           "begin_time": "11:00",
           "end_time": "13:00",
           "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
@@ -89185,6 +89223,14 @@
         {
           "title": "lecture",
           "day": "Friday",
+          "room": "DK9",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
           "room": "DK9",
           "begin_time": "11:00",
           "end_time": "13:00",
@@ -98041,14 +98087,6 @@
           "room": "NLINE",
           "begin_time": "09:00",
           "end_time": "12:00",
-          "tutor": "DR. PHAN CHIA WEI"
-        },
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "NLINE",
-          "begin_time": "09:00",
-          "end_time": "12:00",
           "tutor": "DR. NOORASYIKIN BINTI SHAMSUDDIN"
         },
         {
@@ -98065,6 +98103,14 @@
           "begin_time": "09:00",
           "end_time": "12:00",
           "tutor": "DR. TANIA ISLAM"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. PHAN CHIA WEI"
         }
       ]
     }
@@ -107754,18 +107800,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "BS1BCL",
-          "begin_time": "12:00",
-          "end_time": "14:00",
-          "tutor": "MR. MOHD FAIS BIN ISMAIL"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "BS2BCL",
           "begin_time": "20:00",
           "end_time": "22:00",
+          "tutor": "MR. MOHD FAIS BIN ISMAIL"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS1BCL",
+          "begin_time": "12:00",
+          "end_time": "14:00",
           "tutor": "MR. MOHD FAIS BIN ISMAIL"
         }
       ]
@@ -115125,7 +115171,7 @@
         },
         {
           "title": "lab",
-          "day": "Wednesday",
+          "day": "Monday",
           "room": "MPEB1",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -131043,7 +131089,7 @@
           "day": "Thursday",
           "room": "DKCEMPAKAKDK",
           "begin_time": "11:00",
-          "end_time": "13:00",
+          "end_time": "14:00",
           "tutor": "ASSOCIATE PROF. DR. NG BOON KWEE"
         }
       ]
@@ -131066,7 +131112,7 @@
           "day": "Thursday",
           "room": "DKCEMPAKAKDK",
           "begin_time": "11:00",
-          "end_time": "13:00",
+          "end_time": "14:00",
           "tutor": "ASSOCIATE PROF. DR. NG BOON KWEE"
         }
       ]
@@ -135548,18 +135594,18 @@
         },
         {
           "title": "lecture",
+          "day": "Monday",
+          "room": "BSSEPANGGIL",
+          "begin_time": "13:00",
+          "end_time": "15:00"
+        },
+        {
+          "title": "lecture",
           "day": "Wednesday",
           "room": "BSMERLIMAU",
           "begin_time": "10:00",
           "end_time": "12:00",
           "tutor": "MISS KOH YI CHERN"
-        },
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "BSSEPANGGIL",
-          "begin_time": "13:00",
-          "end_time": "15:00"
         }
       ]
     }
@@ -137044,6 +137090,68 @@
           "room": "BSBEBARU",
           "begin_time": "10:00",
           "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO LINGUISTICS",
+      "course_id": "TIX1032",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 208,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "9",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "ASSOCIATE PROF. DR. ROSHIDAH BINTI HASSAN"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "BSMERLIMAU",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. CHEONG HUEY FEN"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO LINGUISTICS",
+      "course_id": "TIX1032",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 208,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "10",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "ASSOCIATE PROF. DR. ROSHIDAH BINTI HASSAN"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "BSMERLIMAU",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. CHEONG HUEY FEN"
         }
       ]
     }
@@ -145322,7 +145430,7 @@
         {
           "title": "tutorial",
           "day": "Thursday",
-          "room": "MM7",
+          "room": "DK2",
           "begin_time": "14:00",
           "end_time": "15:00",
           "tutor": "ASSOCIATE PROF. DR. SURAYA BINTI HAMID"
@@ -145343,9 +145451,17 @@
       "occurence": "2",
       "activities": [
         {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK1",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. SURAYA BINTI HAMID"
+        },
+        {
           "title": "tutorial",
           "day": "Thursday",
-          "room": "MM7",
+          "room": "DK2",
           "begin_time": "15:00",
           "end_time": "16:00",
           "tutor": "ASSOCIATE PROF. DR. SURAYA BINTI HAMID"
