@@ -2142,23 +2142,7 @@
           "room": "CPSR02",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "DR. MOHD HANIFF ZAINULDIN"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "CPSR02",
-          "begin_time": "18:00",
-          "end_time": "21:00",
           "tutor": "DR. OON YEN NEE"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "CPSR02",
-          "begin_time": "18:00",
-          "end_time": "21:00",
-          "tutor": "DR. KAMISAH BINTI ISMAIL"
         },
         {
           "title": "lecture",
@@ -36853,8 +36837,8 @@
           "title": "seminar",
           "day": "Thursday",
           "room": "EBSP11",
-          "begin_time": "18:00",
-          "end_time": "21:00",
+          "begin_time": "11:00",
+          "end_time": "14:00",
           "tutor": "DR. MARIA BINTI MOHD ISMAIL"
         }
       ]
@@ -36876,8 +36860,8 @@
           "title": "seminar",
           "day": "Thursday",
           "room": "EBSP11",
-          "begin_time": "18:00",
-          "end_time": "21:00",
+          "begin_time": "11:00",
+          "end_time": "14:00",
           "tutor": "DR. MARIA BINTI MOHD ISMAIL"
         }
       ]
@@ -87784,6 +87768,14 @@
         },
         {
           "title": "online",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. SHAMSUL BIN MOHD ZAIN"
+        },
+        {
+          "title": "online",
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "14:00",
@@ -96647,14 +96639,6 @@
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "DR. SHAIK NYAMATHULLA"
-        },
-        {
-          "title": "practical",
-          "day": "Tuesday",
-          "room": "MMD1",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "DR. SHAIK NYAMATHULLA"
         }
       ]
     },
@@ -96746,14 +96730,6 @@
         {
           "title": "practical",
           "day": "Wednesday",
-          "room": "MMD1",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "DR. SHAIK NYAMATHULLA"
-        },
-        {
-          "title": "practical",
-          "day": "Tuesday",
           "room": "MMD1",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -98087,6 +98063,14 @@
           "room": "NLINE",
           "begin_time": "09:00",
           "end_time": "12:00",
+          "tutor": "DR. PHAN CHIA WEI"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
           "tutor": "DR. NOORASYIKIN BINTI SHAMSUDDIN"
         },
         {
@@ -98103,14 +98087,6 @@
           "begin_time": "09:00",
           "end_time": "12:00",
           "tutor": "DR. TANIA ISLAM"
-        },
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "NLINE",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. PHAN CHIA WEI"
         }
       ]
     }
@@ -107800,18 +107776,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "BS2BCL",
-          "begin_time": "20:00",
-          "end_time": "22:00",
-          "tutor": "MR. MOHD FAIS BIN ISMAIL"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BS1BCL",
           "begin_time": "12:00",
           "end_time": "14:00",
+          "tutor": "MR. MOHD FAIS BIN ISMAIL"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BS2BCL",
+          "begin_time": "20:00",
+          "end_time": "22:00",
           "tutor": "MR. MOHD FAIS BIN ISMAIL"
         }
       ]
@@ -115294,7 +115270,7 @@
         },
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Wednesday",
           "room": "DKMELORKDK",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -115302,7 +115278,7 @@
         },
         {
           "title": "lecture",
-          "day": "Wednesday",
+          "day": "Monday",
           "room": "DKMELORKDK",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -115357,7 +115333,7 @@
         },
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Wednesday",
           "room": "DKMELORKDK",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -115365,7 +115341,7 @@
         },
         {
           "title": "lecture",
-          "day": "Wednesday",
+          "day": "Monday",
           "room": "DKMELORKDK",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -117404,17 +117380,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "BS1KDK",
-          "begin_time": "09:00",
+          "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "ASSOCIATE PROF. DR. CHONG WU YI"
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "BS1KDK",
-          "begin_time": "08:00",
+          "begin_time": "09:00",
           "end_time": "10:00",
           "tutor": "ASSOCIATE PROF. DR. CHONG WU YI"
         }
@@ -119599,7 +119575,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKGEOLOGI",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -119607,7 +119583,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKGEOLOGI",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -119646,7 +119622,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKGEOLOGI",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -119654,7 +119630,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKGEOLOGI",
           "begin_time": "08:00",
           "end_time": "09:00",
