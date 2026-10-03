@@ -13140,7 +13140,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "SAKURA",
           "begin_time": "11:00",
           "end_time": "13:00",
@@ -13148,7 +13148,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "SAKURA",
           "begin_time": "11:00",
           "end_time": "13:00",
@@ -33592,14 +33592,6 @@
       "levelCode": 4,
       "occurence": "2",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Saturday",
-          "room": "CBS1112",
-          "begin_time": "09:00",
-          "end_time": "18:00",
-          "tutor": "PROF. DR. NOOR ISMAWATI BINTI JAAFAR"
-        },
         {
           "title": "lecture",
           "day": "Sunday",
@@ -91753,7 +91745,7 @@
         },
         {
           "title": "lecture",
-          "day": "Friday",
+          "day": "Thursday",
           "room": "DK1",
           "begin_time": "08:00",
           "end_time": "17:00",
@@ -91761,7 +91753,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Friday",
           "room": "DK1",
           "begin_time": "08:00",
           "end_time": "17:00",
@@ -92484,14 +92476,6 @@
           "begin_time": "16:00",
           "end_time": "17:00",
           "tutor": "DR. ARUTCHELVAN A/L RAJAMANIKAM"
-        },
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "ONLINE",
-          "begin_time": "11:00",
-          "end_time": "12:00",
-          "tutor": "PROF. DR. LAU YEE LING"
         },
         {
           "title": "lecture",
@@ -97052,14 +97036,6 @@
           "room": "MDK5",
           "begin_time": "08:00",
           "end_time": "09:00",
-          "tutor": "DR. NUR AKMARINA BINTI MOHD SAID"
-        },
-        {
-          "title": "tutorial",
-          "day": "Wednesday",
-          "room": "MDK5",
-          "begin_time": "08:00",
-          "end_time": "09:00",
           "tutor": "DR. FATIHA HANA SHABARUDDIN"
         },
         {
@@ -97153,14 +97129,6 @@
           "room": "MDK5",
           "begin_time": "09:00",
           "end_time": "11:00"
-        },
-        {
-          "title": "tutorial",
-          "day": "Wednesday",
-          "room": "MDK5",
-          "begin_time": "08:00",
-          "end_time": "09:00",
-          "tutor": "DR. NUR AKMARINA BINTI MOHD SAID"
         },
         {
           "title": "tutorial",
@@ -116313,7 +116281,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Wednesday",
           "room": "BTSB4ISB",
           "begin_time": "10:00",
           "end_time": "11:00",
@@ -116321,7 +116289,7 @@
         },
         {
           "title": "lecture",
-          "day": "Wednesday",
+          "day": "Monday",
           "room": "BTSB4ISB",
           "begin_time": "10:00",
           "end_time": "11:00",
@@ -122787,18 +122755,18 @@
         },
         {
           "title": "lecture",
-          "day": "Wednesday",
-          "room": "IBS5",
-          "begin_time": "11:00",
-          "end_time": "12:00",
-          "tutor": "DR. FATIN NUR MAJDINA BINTI NORDIN"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "IBS5",
           "begin_time": "11:00",
           "end_time": "13:00",
+          "tutor": "DR. FATIN NUR MAJDINA BINTI NORDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "IBS5",
+          "begin_time": "11:00",
+          "end_time": "12:00",
           "tutor": "DR. FATIN NUR MAJDINA BINTI NORDIN"
         }
       ]
