@@ -37748,6 +37748,14 @@
           "begin_time": "15:00",
           "end_time": "17:00",
           "tutor": "DR. MADIHA BINTI BAHARUDDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. MADIHA BINTI BAHARUDDIN"
         }
       ]
     },
@@ -78038,18 +78046,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "09:00",
-          "tutor": "DR. FARAHIN BINTI MOHD JAIS"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK1",
           "begin_time": "09:00",
           "end_time": "11:00",
+          "tutor": "DR. FARAHIN BINTI MOHD JAIS"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "DR. FARAHIN BINTI MOHD JAIS"
         },
         {
@@ -78410,18 +78418,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Wednesday",
-          "room": "AUDI2",
-          "begin_time": "08:00",
-          "end_time": "09:00",
-          "tutor": "ASSOCIATE PROF. DR. NARENDRA KUMAR A/L ARIDAS"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "AUDI2",
           "begin_time": "09:00",
           "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. NARENDRA KUMAR A/L ARIDAS"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "AUDI2",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "ASSOCIATE PROF. DR. NARENDRA KUMAR A/L ARIDAS"
         }
       ]
@@ -85928,14 +85936,6 @@
           "room": "LT2",
           "begin_time": "09:00",
           "end_time": "10:00",
-          "tutor": "ASSOCIATE PROF. DR. SUZITA BINTI MOHD NOOR"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "LT2",
-          "begin_time": "09:00",
-          "end_time": "10:00",
           "tutor": "DR. OH LIXIAN"
         },
         {
@@ -85953,6 +85953,14 @@
           "begin_time": "09:00",
           "end_time": "10:00",
           "tutor": "DR. MOHAMAD SHAFIQ BIN AZANAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "LT2",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. SUZITA BINTI MOHD NOOR"
         },
         {
           "title": "online",
@@ -93250,14 +93258,6 @@
         },
         {
           "title": "lecture",
-          "day": "Wednesday",
-          "room": "DCP",
-          "begin_time": "11:00",
-          "end_time": "12:00",
-          "tutor": "DR. CHEONG FEI WEN"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
           "room": "DCP",
           "begin_time": "11:00",
@@ -93302,6 +93302,14 @@
           "room": "DCP",
           "begin_time": "12:00",
           "end_time": "13:00",
+          "tutor": "DR. CHEONG FEI WEN"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DCP",
+          "begin_time": "11:00",
+          "end_time": "12:00",
           "tutor": "DR. CHEONG FEI WEN"
         },
         {
@@ -98072,6 +98080,14 @@
           "begin_time": "09:00",
           "end_time": "12:00",
           "tutor": "DR. PHAN CHIA WEI"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. NOORASYIKIN BINTI SHAMSUDDIN"
         },
         {
           "title": "lecture",
@@ -116531,7 +116547,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Wednesday",
+          "day": "Monday",
           "room": "BKD320",
           "begin_time": "10:00",
           "end_time": "11:00",
@@ -116539,7 +116555,7 @@
         },
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Wednesday",
           "room": "BKD320",
           "begin_time": "10:00",
           "end_time": "11:00",
@@ -125660,7 +125676,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DK4",
           "begin_time": "12:00",
           "end_time": "13:00",
@@ -125668,7 +125684,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DK4",
           "begin_time": "12:00",
           "end_time": "13:00",
@@ -141801,13 +141817,6 @@
           "day": "Sunday",
           "room": "ONLINE",
           "begin_time": "12:00",
-          "end_time": "14:00"
-        },
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "12:00",
           "end_time": "14:00",
           "tutor": "DR. CHE ALEHA BINTI LADIN"
         }
@@ -141852,13 +141861,6 @@
       "levelCode": 2,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "11:00"
-        },
         {
           "title": "lecture",
           "day": "Sunday",
@@ -142113,14 +142115,6 @@
       "levelCode": 2,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "ASSOCIATE PROF. DR. RAFIDAH BINTI AGA MOHD JALADIN"
-        },
         {
           "title": "lecture",
           "day": "Sunday",
