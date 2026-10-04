@@ -13100,17 +13100,17 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BILIKSEP1",
-          "begin_time": "09:00",
-          "end_time": "11:00",
+          "room": "PUSTAKAY",
+          "begin_time": "15:00",
+          "end_time": "17:00",
           "tutor": "MISS CHIN SZE YUIN"
         },
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "PUSTAKAY",
-          "begin_time": "15:00",
-          "end_time": "17:00",
+          "room": "BILIKSEP1",
+          "begin_time": "09:00",
+          "end_time": "11:00",
           "tutor": "MISS CHIN SZE YUIN"
         }
       ]
@@ -33592,14 +33592,6 @@
       "levelCode": 4,
       "occurence": "2",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "CBS1112",
-          "begin_time": "09:00",
-          "end_time": "18:00",
-          "tutor": "PROF. DR. NOOR ISMAWATI BINTI JAAFAR"
-        },
         {
           "title": "lecture",
           "day": "Saturday",
@@ -75649,18 +75641,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "BK103",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "ASSOCIATE PROF. IR. DR. RAHIZAR BIN RAMLI"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "BK103",
           "begin_time": "14:00",
           "end_time": "15:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. RAHIZAR BIN RAMLI"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BK103",
+          "begin_time": "09:00",
+          "end_time": "11:00",
           "tutor": "ASSOCIATE PROF. IR. DR. RAHIZAR BIN RAMLI"
         }
       ]
@@ -85936,6 +85928,14 @@
           "room": "LT2",
           "begin_time": "09:00",
           "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. SUZITA BINTI MOHD NOOR"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "LT2",
+          "begin_time": "09:00",
+          "end_time": "10:00",
           "tutor": "DR. OH LIXIAN"
         },
         {
@@ -85953,14 +85953,6 @@
           "begin_time": "09:00",
           "end_time": "10:00",
           "tutor": "DR. MOHAMAD SHAFIQ BIN AZANAN"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "LT2",
-          "begin_time": "09:00",
-          "end_time": "10:00",
-          "tutor": "ASSOCIATE PROF. DR. SUZITA BINTI MOHD NOOR"
         },
         {
           "title": "online",
@@ -93258,6 +93250,14 @@
         },
         {
           "title": "lecture",
+          "day": "Wednesday",
+          "room": "DCP",
+          "begin_time": "11:00",
+          "end_time": "12:00",
+          "tutor": "DR. CHEONG FEI WEN"
+        },
+        {
+          "title": "lecture",
           "day": "Thursday",
           "room": "DCP",
           "begin_time": "11:00",
@@ -93302,14 +93302,6 @@
           "room": "DCP",
           "begin_time": "12:00",
           "end_time": "13:00",
-          "tutor": "DR. CHEONG FEI WEN"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DCP",
-          "begin_time": "11:00",
-          "end_time": "12:00",
           "tutor": "DR. CHEONG FEI WEN"
         },
         {
@@ -93583,14 +93575,6 @@
           "room": "ONLINE",
           "begin_time": "10:00",
           "end_time": "11:00",
-          "tutor": "DR. JUNAID OLAWALE QUAZIM"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "BLKSMENANTI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
           "tutor": "DR. JUNAID OLAWALE QUAZIM"
         },
         {
@@ -117956,7 +117940,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "DKFIZIK",
+          "room": "BS5BS6KDK",
           "begin_time": "11:00",
           "end_time": "12:00",
           "tutor": "DR. JUAN CARLOS ALGABA MARCOS"
@@ -119575,7 +119559,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKGEOLOGI",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -119583,7 +119567,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKGEOLOGI",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -119622,7 +119606,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKGEOLOGI",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -119630,7 +119614,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKGEOLOGI",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -125676,7 +125660,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DK4",
           "begin_time": "12:00",
           "end_time": "13:00",
@@ -125684,7 +125668,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DK4",
           "begin_time": "12:00",
           "end_time": "13:00",
@@ -129981,7 +129965,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "BTSE9ISB",
+          "room": "DKFIZIK",
           "begin_time": "10:00",
           "end_time": "12:00",
           "tutor": "PROF. DR. ZAMRI BIN ZAINAL ABIDIN"
@@ -142009,14 +141993,6 @@
       "levelCode": 2,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. MUHAMMED BIN YUSOF"
-        },
         {
           "title": "lecture",
           "day": "Sunday",
