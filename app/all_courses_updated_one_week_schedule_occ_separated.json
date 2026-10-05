@@ -13100,17 +13100,17 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "PUSTAKAY",
-          "begin_time": "15:00",
-          "end_time": "17:00",
+          "room": "BILIKSEP1",
+          "begin_time": "09:00",
+          "end_time": "11:00",
           "tutor": "MISS CHIN SZE YUIN"
         },
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BILIKSEP1",
-          "begin_time": "09:00",
-          "end_time": "11:00",
+          "room": "PUSTAKAY",
+          "begin_time": "15:00",
+          "end_time": "17:00",
           "tutor": "MISS CHIN SZE YUIN"
         }
       ]
@@ -29404,7 +29404,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Thursday",
           "room": "STSBT45",
           "begin_time": "09:00",
           "end_time": "16:00",
@@ -29412,7 +29412,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Monday",
           "room": "STSBT45",
           "begin_time": "09:00",
           "end_time": "16:00",
@@ -61657,6 +61657,14 @@
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "DR. MUHAMAD NASIR BIN MOHAMAD SALLEH"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS5",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. MOHD SYUKRI BIN ZAINAL ABIDIN"
         }
       ]
     },
@@ -75641,18 +75649,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "BK103",
-          "begin_time": "14:00",
-          "end_time": "15:00",
-          "tutor": "ASSOCIATE PROF. IR. DR. RAHIZAR BIN RAMLI"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BK103",
           "begin_time": "09:00",
           "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. IR. DR. RAHIZAR BIN RAMLI"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BK103",
+          "begin_time": "14:00",
+          "end_time": "15:00",
           "tutor": "ASSOCIATE PROF. IR. DR. RAHIZAR BIN RAMLI"
         }
       ]
@@ -87903,14 +87911,6 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "SROOM2BMED",
-          "begin_time": "09:00",
-          "end_time": "10:00",
-          "tutor": "DR. TAN TIONG KAI"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
           "room": "LT1",
           "begin_time": "09:00",
@@ -93121,14 +93121,6 @@
         },
         {
           "title": "tutorial",
-          "day": "Thursday",
-          "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "PROF. HESHAM MAHYOUB SARHAN AL-MEKHLAFI"
-        },
-        {
-          "title": "tutorial",
           "day": "Wednesday",
           "room": "BLKSMENANTI",
           "begin_time": "11:00",
@@ -93140,6 +93132,14 @@
           "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "15:00",
+          "end_time": "16:00",
+          "tutor": "PROF. HESHAM MAHYOUB SARHAN AL-MEKHLAFI"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "PROF. HESHAM MAHYOUB SARHAN AL-MEKHLAFI"
         },
@@ -93575,6 +93575,14 @@
           "room": "ONLINE",
           "begin_time": "10:00",
           "end_time": "11:00",
+          "tutor": "DR. JUNAID OLAWALE QUAZIM"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BLKSMENANTI",
+          "begin_time": "09:00",
+          "end_time": "10:00",
           "tutor": "DR. JUNAID OLAWALE QUAZIM"
         },
         {
@@ -94237,6 +94245,20 @@
           "day": "Wednesday",
           "room": "MDK3",
           "begin_time": "14:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MDK3",
+          "begin_time": "12:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "MDK3",
+          "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "DR. WAN SAFWANI BINTI WAN KAMARUL ZAMAN"
         },
@@ -94263,6 +94285,13 @@
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "MDK3",
+          "begin_time": "12:00",
+          "end_time": "13:00"
         },
         {
           "title": "tutorial",
@@ -94332,6 +94361,20 @@
           "day": "Wednesday",
           "room": "MDK3",
           "begin_time": "14:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MDK3",
+          "begin_time": "12:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "MDK3",
+          "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "DR. WAN SAFWANI BINTI WAN KAMARUL ZAMAN"
         },
@@ -94358,6 +94401,13 @@
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "MDK3",
+          "begin_time": "12:00",
+          "end_time": "13:00"
         },
         {
           "title": "tutorial",
@@ -94419,6 +94469,20 @@
           "day": "Wednesday",
           "room": "MDK3",
           "begin_time": "14:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MDK3",
+          "begin_time": "12:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "MDK3",
+          "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "DR. WAN SAFWANI BINTI WAN KAMARUL ZAMAN"
         },
@@ -94445,6 +94509,13 @@
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "MDK3",
+          "begin_time": "12:00",
+          "end_time": "13:00"
         },
         {
           "title": "tutorial",
@@ -114534,18 +114605,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "DKMELATIKDK",
-          "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "ASSOCIATE PROF. DR. NINIE SUHANA BINTI ABDUL MANAN"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
           "room": "DKMELATIKDK",
           "begin_time": "08:00",
           "end_time": "09:00",
+          "tutor": "ASSOCIATE PROF. DR. NINIE SUHANA BINTI ABDUL MANAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DKMELATIKDK",
+          "begin_time": "08:00",
+          "end_time": "10:00",
           "tutor": "ASSOCIATE PROF. DR. NINIE SUHANA BINTI ABDUL MANAN"
         }
       ]
@@ -119559,7 +119630,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKGEOLOGI",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -119567,7 +119638,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKGEOLOGI",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -119606,7 +119677,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKGEOLOGI",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -119614,7 +119685,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKGEOLOGI",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -124084,7 +124155,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "MMATE1ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -124092,7 +124163,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "MMATE1ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -125660,7 +125731,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DK4",
           "begin_time": "12:00",
           "end_time": "13:00",
@@ -125668,7 +125739,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DK4",
           "begin_time": "12:00",
           "end_time": "13:00",
@@ -131987,19 +132058,19 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DKMELATIKDK",
-          "begin_time": "11:00",
-          "end_time": "12:00",
-          "tutor": "DR. NUR AIRINA BINTI MUHAMAD"
-        },
-        {
-          "title": "lecture",
           "day": "Wednesday",
           "room": "DK1",
           "begin_time": "09:00",
           "end_time": "11:00",
-          "tutor": "DR. NIKMAN ADLI BIN NOR HASHIM"
+          "tutor": "DR. NUR AIRINA BINTI MUHAMAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK1",
+          "begin_time": "11:00",
+          "end_time": "12:00",
+          "tutor": "DR. NUR AIRINA BINTI MUHAMAD"
         }
       ]
     }
@@ -144726,18 +144797,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "DKB",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. YOUNGEUN NOH"
-        },
-        {
-          "title": "lecture",
           "day": "Wednesday",
           "room": "MPS",
           "begin_time": "10:00",
           "end_time": "11:00",
+          "tutor": "DR. YOUNGEUN NOH"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DKB",
+          "begin_time": "14:00",
+          "end_time": "16:00",
           "tutor": "DR. YOUNGEUN NOH"
         }
       ]
@@ -144757,18 +144828,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "DKB",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. YOUNGEUN NOH"
-        },
-        {
-          "title": "lecture",
           "day": "Wednesday",
           "room": "MPS",
           "begin_time": "10:00",
           "end_time": "11:00",
+          "tutor": "DR. YOUNGEUN NOH"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DKB",
+          "begin_time": "14:00",
+          "end_time": "16:00",
           "tutor": "DR. YOUNGEUN NOH"
         }
       ]
