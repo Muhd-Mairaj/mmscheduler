@@ -2638,8 +2638,7 @@
           "day": "Monday",
           "room": "CBSB07",
           "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. KOH HSIENG YANG ERIC"
+          "end_time": "17:00"
         }
       ]
     }
@@ -31605,8 +31604,7 @@
           "day": "Wednesday",
           "room": "CDK5",
           "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "MADAM W. AMINATUL AFNA BT W. MOHAMMAD RAWI"
+          "end_time": "17:00"
         }
       ]
     },
@@ -31628,8 +31626,7 @@
           "day": "Wednesday",
           "room": "CDK5",
           "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "MADAM W. AMINATUL AFNA BT W. MOHAMMAD RAWI"
+          "end_time": "17:00"
         }
       ]
     }
@@ -32873,8 +32870,7 @@
           "day": "Monday",
           "room": "CBSB07",
           "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. KOH HSIENG YANG ERIC"
+          "end_time": "17:00"
         }
       ]
     },
@@ -32896,8 +32892,7 @@
           "day": "Monday",
           "room": "CBSB07",
           "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. KOH HSIENG YANG ERIC"
+          "end_time": "17:00"
         }
       ]
     }
@@ -38597,7 +38592,7 @@
           "room": "ONLINE",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "MR. MOHD FIRDAUS BIN MAHZAN"
+          "tutor": "MADAM HARNANI BINTI MOHAMED"
         }
       ]
     },
@@ -38620,7 +38615,7 @@
           "room": "ONLINE",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "MR. MOHD FIRDAUS BIN MAHZAN"
+          "tutor": "MADAM HARNANI BINTI MOHAMED"
         }
       ]
     }
@@ -39219,8 +39214,7 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "MR. MOHD FIRDAUS BIN MAHZAN"
+          "end_time": "10:00"
         }
       ]
     },
@@ -39242,8 +39236,7 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "MR. MOHD FIRDAUS BIN MAHZAN"
+          "end_time": "10:00"
         }
       ]
     }
@@ -52857,7 +52850,7 @@
           "room": "ONLINE",
           "begin_time": "10:00",
           "end_time": "12:00",
-          "tutor": "MR. MOHD FIRDAUS BIN MAHZAN"
+          "tutor": "MR. MUHAMMAD FIRDAUS BIN ABU HASSAN"
         }
       ]
     }
@@ -56489,18 +56482,10 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "BS28",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "ASSOCIATE PROF. DR. NOR AZZAH BINTI KAMRI"
-        },
-        {
-          "title": "tutorial",
-          "day": "Tuesday",
-          "room": "BS14",
-          "begin_time": "15:00",
-          "end_time": "16:00",
+          "day": "Wednesday",
+          "room": "BS5",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. NOR AZZAH BINTI KAMRI"
         }
       ]
@@ -86097,6 +86082,14 @@
         },
         {
           "title": "lecture",
+          "day": "Thursday",
+          "room": "LT2",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. INTAN SUHANA BINTI ZULKAFLI"
+        },
+        {
+          "title": "lecture",
           "day": "Tuesday",
           "room": "LT2",
           "begin_time": "09:00",
@@ -88505,16 +88498,16 @@
           "title": "lecture",
           "day": "Monday",
           "room": "DK10",
-          "begin_time": "08:00",
-          "end_time": "10:00",
+          "begin_time": "11:00",
+          "end_time": "13:00",
           "tutor": "DR. CHUI PING LEI"
         },
         {
           "title": "lecture",
           "day": "Monday",
           "room": "DK10",
-          "begin_time": "11:00",
-          "end_time": "13:00",
+          "begin_time": "08:00",
+          "end_time": "10:00",
           "tutor": "DR. CHUI PING LEI"
         }
       ]
@@ -88552,16 +88545,16 @@
           "title": "lecture",
           "day": "Monday",
           "room": "DK10",
-          "begin_time": "08:00",
-          "end_time": "10:00",
+          "begin_time": "11:00",
+          "end_time": "13:00",
           "tutor": "DR. CHUI PING LEI"
         },
         {
           "title": "lecture",
           "day": "Monday",
           "room": "DK10",
-          "begin_time": "11:00",
-          "end_time": "13:00",
+          "begin_time": "08:00",
+          "end_time": "10:00",
           "tutor": "DR. CHUI PING LEI"
         }
       ]
@@ -95039,7 +95032,7 @@
           "room": "NLINE",
           "begin_time": "10:00",
           "end_time": "13:00",
-          "tutor": "DR. NOORASYIKIN BINTI SHAMSUDDIN"
+          "tutor": "DR. SYIREEN BINTI ALWI"
         },
         {
           "title": "lecture",
@@ -95047,7 +95040,7 @@
           "room": "NLINE",
           "begin_time": "10:00",
           "end_time": "13:00",
-          "tutor": "DR. SYIREEN BINTI ALWI"
+          "tutor": "DR. NOORASYIKIN BINTI SHAMSUDDIN"
         },
         {
           "title": "lecture",
@@ -95117,7 +95110,7 @@
           "room": "NLINE",
           "begin_time": "10:00",
           "end_time": "13:00",
-          "tutor": "DR. NOORASYIKIN BINTI SHAMSUDDIN"
+          "tutor": "DR. SYIREEN BINTI ALWI"
         },
         {
           "title": "lecture",
@@ -95125,7 +95118,7 @@
           "room": "NLINE",
           "begin_time": "10:00",
           "end_time": "13:00",
-          "tutor": "DR. SYIREEN BINTI ALWI"
+          "tutor": "DR. NOORASYIKIN BINTI SHAMSUDDIN"
         },
         {
           "title": "lecture",
@@ -97496,6 +97489,14 @@
         {
           "title": "lecture",
           "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. NAJIHAH BINTI MOHD HASHIM"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "NLINE",
           "begin_time": "09:00",
           "end_time": "12:00",
@@ -135294,18 +135295,18 @@
         },
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "BTSAC1",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "MADAM NAZURAH IZZATI BINTI HAJI YAZID"
-        },
-        {
-          "title": "lecture",
           "day": "Wednesday",
           "room": "BSMERLIMAU",
           "begin_time": "12:00",
           "end_time": "14:00",
+          "tutor": "MADAM NAZURAH IZZATI BINTI HAJI YAZID"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BTSAC1",
+          "begin_time": "14:00",
+          "end_time": "16:00",
           "tutor": "MADAM NAZURAH IZZATI BINTI HAJI YAZID"
         }
       ]
@@ -136155,13 +136156,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "MAKMALAV1",
-          "begin_time": "12:00",
-          "end_time": "14:00"
-        },
-        {
-          "title": "lecture",
           "day": "Wednesday",
           "room": "MAKMALAV1",
           "begin_time": "12:00",
@@ -136170,6 +136164,13 @@
         {
           "title": "lecture",
           "day": "Monday",
+          "room": "MAKMALAV1",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
           "room": "MAKMALAV1",
           "begin_time": "12:00",
           "end_time": "14:00"
