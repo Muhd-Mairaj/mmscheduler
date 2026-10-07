@@ -87877,7 +87877,7 @@
           "room": "MD2",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "PROF. DR. LAU YEE LING"
+          "tutor": "DR. CHEONG FEI WEN"
         },
         {
           "title": "practical",
@@ -87885,7 +87885,7 @@
           "room": "MD2",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "DR. CHEONG FEI WEN"
+          "tutor": "PROF. DR. LAU YEE LING"
         },
         {
           "title": "practical",
@@ -117742,18 +117742,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Wednesday",
-          "room": "DKVANDAKDK",
-          "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "ASSOCIATE PROF. DR. ZUL HAZRIN BIN ZAINAL ABIDIN"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DKVANDAKDK",
           "begin_time": "08:00",
           "end_time": "09:00",
+          "tutor": "ASSOCIATE PROF. DR. ZUL HAZRIN BIN ZAINAL ABIDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DKVANDAKDK",
+          "begin_time": "08:00",
+          "end_time": "10:00",
           "tutor": "ASSOCIATE PROF. DR. ZUL HAZRIN BIN ZAINAL ABIDIN"
         }
       ]
@@ -124455,7 +124455,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Wednesday",
           "room": "MMATE2ISM",
           "begin_time": "09:00",
           "end_time": "11:00",
@@ -124463,7 +124463,7 @@
         },
         {
           "title": "lecture",
-          "day": "Wednesday",
+          "day": "Monday",
           "room": "MMATE2ISM",
           "begin_time": "09:00",
           "end_time": "11:00",
@@ -124486,7 +124486,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Wednesday",
           "room": "MMATE2ISM",
           "begin_time": "09:00",
           "end_time": "11:00",
@@ -124494,7 +124494,7 @@
         },
         {
           "title": "lecture",
-          "day": "Wednesday",
+          "day": "Monday",
           "room": "MMATE2ISM",
           "begin_time": "09:00",
           "end_time": "11:00",
