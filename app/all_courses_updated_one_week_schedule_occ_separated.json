@@ -56196,9 +56196,9 @@
         {
           "title": "tutorial",
           "day": "Wednesday",
-          "room": "BS16",
-          "begin_time": "10:00",
-          "end_time": "11:00"
+          "room": "BS9",
+          "begin_time": "16:00",
+          "end_time": "17:00"
         }
       ]
     }
@@ -58602,17 +58602,17 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "BS13",
-          "begin_time": "09:00",
-          "end_time": "11:00",
+          "room": "BS18",
+          "begin_time": "11:00",
+          "end_time": "13:00",
           "tutor": "DR. HANIRA BINTI HANAFI"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "BS20",
-          "begin_time": "11:00",
-          "end_time": "12:00",
+          "begin_time": "12:00",
+          "end_time": "13:00",
           "tutor": "DR. HANIRA BINTI HANAFI"
         }
       ]
@@ -59778,7 +59778,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "BS31",
+          "room": "DK2",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. MUHAMMAD IKHLAS BIN ROSELE"
@@ -59991,7 +59991,7 @@
         {
           "title": "tutorial",
           "day": "Tuesday",
-          "room": "BS17",
+          "room": "BS16",
           "begin_time": "16:00",
           "end_time": "17:00",
           "tutor": "DR. BAHIYAH BINTI AHMAD"
@@ -65950,39 +65950,6 @@
           "begin_time": "10:00",
           "end_time": "13:00",
           "tutor": "MR. AZIZI BIN CHE SEMAN"
-        }
-      ]
-    }
-  ],
-  "IIX2037": [
-    {
-      "module": "ISLAMIC ECONOMIC THOUGHT",
-      "course_id": "IIX2037",
-      "credits": 3,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 100,
-      "level": "BACHELOR",
-      "faculty": "ACADEMY OF ISLAMIC STUDIES",
-      "continuousAssessmentWeightage": "50~50",
-      "examDuration": 7200,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "BS10",
-          "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "DR. NOR AINI BINTI ALI"
-        },
-        {
-          "title": "tutorial",
-          "day": "Tuesday",
-          "room": "BS10",
-          "begin_time": "11:00",
-          "end_time": "12:00",
-          "tutor": "DR. NOR AINI BINTI ALI"
         }
       ]
     }
@@ -90210,14 +90177,6 @@
         },
         {
           "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK8",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "DR. TAN LI KUO"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
           "room": "DK8",
           "begin_time": "12:00",
@@ -92196,6 +92155,14 @@
         },
         {
           "title": "online",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. WAHIB MOHAMMED MOHSEN ATROOSH"
+        },
+        {
+          "title": "online",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "11:00",
@@ -92322,14 +92289,6 @@
           "begin_time": "08:00",
           "end_time": "09:00",
           "tutor": "ASSOCIATE PROF. DR. CHANDRAMATHI A/P SAMUDI @ RAJU"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "10:00",
-          "tutor": "DR. KAYATRI A/P GOVINDARAJU"
         },
         {
           "title": "lecture",
@@ -97306,7 +97265,22 @@
           "room": "NLINE",
           "begin_time": "18:00",
           "end_time": "21:00",
+          "tutor": "DR. JANET TAN SUI LING"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "18:00",
+          "end_time": "21:00",
           "tutor": "DR. RIYANTO TEGUH WIDODO"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "18:00",
+          "end_time": "21:00"
         }
       ]
     }
@@ -97809,6 +97783,14 @@
         {
           "title": "lecture",
           "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. NAJIHAH BINTI MOHD HASHIM"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "NLINE",
           "begin_time": "09:00",
           "end_time": "12:00",
@@ -116878,18 +116860,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Wednesday",
-          "room": "BS1KDK",
-          "begin_time": "13:00",
-          "end_time": "14:00",
-          "tutor": "DR. MUHAMMAD IMRAN MUSTAFA BIN ABDUL KHUDUS"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BS1KDK",
           "begin_time": "12:00",
           "end_time": "13:00",
+          "tutor": "DR. MUHAMMAD IMRAN MUSTAFA BIN ABDUL KHUDUS"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BS1KDK",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. MUHAMMAD IMRAN MUSTAFA BIN ABDUL KHUDUS"
         }
       ]
@@ -127873,7 +127855,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "BKB6GENETIK",
           "begin_time": "11:00",
           "end_time": "12:00",
@@ -127881,7 +127863,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "BKB6GENETIK",
           "begin_time": "11:00",
           "end_time": "12:00",
