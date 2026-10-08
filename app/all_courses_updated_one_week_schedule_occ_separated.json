@@ -24243,7 +24243,7 @@
         },
         {
           "title": "tutorial",
-          "day": "Thursday",
+          "day": "Monday",
           "room": "ST BS BU(1)",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -24251,7 +24251,7 @@
         },
         {
           "title": "tutorial",
-          "day": "Monday",
+          "day": "Thursday",
           "room": "ST BS BU(1)",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -24292,7 +24292,7 @@
         },
         {
           "title": "tutorial",
-          "day": "Thursday",
+          "day": "Monday",
           "room": "STSBT1",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -24300,7 +24300,7 @@
         },
         {
           "title": "tutorial",
-          "day": "Monday",
+          "day": "Thursday",
           "room": "STSBT1",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -24438,7 +24438,7 @@
         },
         {
           "title": "tutorial",
-          "day": "Thursday",
+          "day": "Monday",
           "room": "STSBT3",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -24446,7 +24446,7 @@
         },
         {
           "title": "tutorial",
-          "day": "Monday",
+          "day": "Thursday",
           "room": "STSBT3",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -24644,16 +24644,16 @@
         },
         {
           "title": "tutorial",
-          "day": "Thursday",
-          "room": "STSBT1",
+          "day": "Monday",
+          "room": "STSB1",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. HAZREENA BINTI HUSSEIN"
         },
         {
           "title": "tutorial",
-          "day": "Monday",
-          "room": "STSB1",
+          "day": "Thursday",
+          "room": "STSBT1",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. HAZREENA BINTI HUSSEIN"
@@ -24751,16 +24751,16 @@
         },
         {
           "title": "tutorial",
-          "day": "Thursday",
-          "room": "STSBT1",
+          "day": "Monday",
+          "room": "STSB1",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. HAZREENA BINTI HUSSEIN"
         },
         {
           "title": "tutorial",
-          "day": "Monday",
-          "room": "STSB1",
+          "day": "Thursday",
+          "room": "STSBT1",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. HAZREENA BINTI HUSSEIN"
@@ -29418,7 +29418,7 @@
         },
         {
           "title": "tutorial",
-          "day": "Thursday",
+          "day": "Monday",
           "room": "STSBT45",
           "begin_time": "16:00",
           "end_time": "17:00",
@@ -29426,7 +29426,7 @@
         },
         {
           "title": "tutorial",
-          "day": "Monday",
+          "day": "Thursday",
           "room": "STSBT45",
           "begin_time": "16:00",
           "end_time": "17:00",
@@ -42569,6 +42569,28 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": 7200,
       "levelCode": 3,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "20:00"
+        }
+      ]
+    },
+    {
+      "module": "MASTERING ENGLISH VI",
+      "course_id": "GLT1009",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 62,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 7200,
+      "levelCode": 3,
       "occurence": "1M",
       "activities": [
         {
@@ -50186,7 +50208,7 @@
       "activities": [
         {
           "title": "online",
-          "day": "Thursday",
+          "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "19:00",
@@ -50194,7 +50216,7 @@
         },
         {
           "title": "online",
-          "day": "Wednesday",
+          "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "19:00",
@@ -53618,7 +53640,7 @@
           "room": "KDK8",
           "begin_time": "08:00",
           "end_time": "10:00",
-          "tutor": "ASSOCIATE PROF. DR. RAJA ARIFFIN BIN RAJA GHAZILLA"
+          "tutor": "PROFESSOR DATO   IR. DR. MOHD HAMDI BIN ABD SHUKOR"
         }
       ]
     },
@@ -70950,17 +70972,17 @@
         },
         {
           "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK1",
-          "begin_time": "11:00",
-          "end_time": "12:00"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK1",
           "begin_time": "14:00",
           "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK1",
+          "begin_time": "11:00",
+          "end_time": "12:00"
         }
       ]
     },
@@ -70995,17 +71017,17 @@
         },
         {
           "title": "lecture",
-          "day": "Wednesday",
-          "room": "DK1",
-          "begin_time": "11:00",
-          "end_time": "12:00"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK1",
           "begin_time": "14:00",
           "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK1",
+          "begin_time": "11:00",
+          "end_time": "12:00"
         }
       ]
     }
@@ -86859,6 +86881,14 @@
         },
         {
           "title": "lecture",
+          "day": "Friday",
+          "room": "LT1",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "PROF. UMAH RANI A/P KUPPUSAMY"
+        },
+        {
+          "title": "lecture",
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "09:00",
@@ -87877,18 +87907,18 @@
         },
         {
           "title": "lecture",
-          "day": "Monday",
-          "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. NGOI SOO TEIN"
-        },
-        {
-          "title": "lecture",
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "11:00",
           "end_time": "13:00",
+          "tutor": "DR. NGOI SOO TEIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "14:00",
+          "end_time": "16:00",
           "tutor": "DR. NGOI SOO TEIN"
         },
         {
@@ -88389,19 +88419,19 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "DK10",
-          "begin_time": "11:00",
-          "end_time": "12:00"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "DK10",
           "begin_time": "08:00",
           "end_time": "10:00"
         },
         {
           "title": "lecture",
           "day": "Tuesday",
+          "room": "DK10",
+          "begin_time": "11:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
           "room": "DK10",
           "begin_time": "08:00",
           "end_time": "10:00"
@@ -88425,19 +88455,19 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "DK10",
-          "begin_time": "11:00",
-          "end_time": "12:00"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "DK10",
           "begin_time": "08:00",
           "end_time": "10:00"
         },
         {
           "title": "lecture",
           "day": "Tuesday",
+          "room": "DK10",
+          "begin_time": "11:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
           "room": "DK10",
           "begin_time": "08:00",
           "end_time": "10:00"
@@ -88525,14 +88555,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "DK7",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "DR. CHUI PING LEI"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "DK7",
           "begin_time": "08:00",
@@ -88545,6 +88567,14 @@
           "room": "DK7",
           "begin_time": "11:00",
           "end_time": "13:00",
+          "tutor": "DR. CHUI PING LEI"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK7",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. CHUI PING LEI"
         }
       ]
@@ -88564,14 +88594,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "DK7",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "DR. CHUI PING LEI"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "DK7",
           "begin_time": "08:00",
@@ -88584,6 +88606,14 @@
           "room": "DK7",
           "begin_time": "11:00",
           "end_time": "13:00",
+          "tutor": "DR. CHUI PING LEI"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK7",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. CHUI PING LEI"
         }
       ]
@@ -88784,6 +88814,13 @@
           "title": "lecture",
           "day": "Monday",
           "room": "DK7",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK7",
           "begin_time": "14:00",
           "end_time": "17:00"
         },
@@ -88793,13 +88830,6 @@
           "room": "DK7",
           "begin_time": "08:00",
           "end_time": "10:00"
-        },
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "DK7",
-          "begin_time": "11:00",
-          "end_time": "13:00"
         }
       ]
     },
@@ -88827,6 +88857,13 @@
           "title": "lecture",
           "day": "Monday",
           "room": "DK7",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK7",
           "begin_time": "14:00",
           "end_time": "17:00"
         },
@@ -88836,13 +88873,6 @@
           "room": "DK7",
           "begin_time": "08:00",
           "end_time": "10:00"
-        },
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "DK7",
-          "begin_time": "11:00",
-          "end_time": "13:00"
         }
       ]
     }
@@ -91253,14 +91283,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "17:00",
-          "tutor": "DR. LEE WAN LING"
-        },
-        {
-          "title": "lecture",
           "day": "Friday",
           "room": "DK1",
           "begin_time": "08:00",
@@ -91286,6 +91308,14 @@
         {
           "title": "lecture",
           "day": "Wednesday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. LEE WAN LING"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
           "room": "DK1",
           "begin_time": "08:00",
           "end_time": "17:00",
@@ -91548,14 +91578,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "17:00",
-          "tutor": "DR. CHUI PING LEI"
-        },
-        {
-          "title": "lecture",
           "day": "Friday",
           "room": "DK1",
           "begin_time": "08:00",
@@ -91581,6 +91603,14 @@
         {
           "title": "lecture",
           "day": "Wednesday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. CHUI PING LEI"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
           "room": "DK1",
           "begin_time": "08:00",
           "end_time": "17:00",
@@ -92651,6 +92681,14 @@
         },
         {
           "title": "tutorial",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "14:00",
+          "end_time": "15:00",
+          "tutor": "DR. WAHIB MOHAMMED MOHSEN ATROOSH"
+        },
+        {
+          "title": "tutorial",
           "day": "Thursday",
           "room": "DCP",
           "begin_time": "11:00",
@@ -92784,6 +92822,14 @@
           "room": "DCP",
           "begin_time": "10:00",
           "end_time": "11:00",
+          "tutor": "PROF. HESHAM MAHYOUB SARHAN AL-MEKHLAFI"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "11:00",
+          "end_time": "12:00",
           "tutor": "PROF. HESHAM MAHYOUB SARHAN AL-MEKHLAFI"
         },
         {
@@ -93133,14 +93179,6 @@
         },
         {
           "title": "tutorial",
-          "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. CHEONG FEI WEN"
-        },
-        {
-          "title": "tutorial",
           "day": "Tuesday",
           "room": "DCP",
           "begin_time": "12:00",
@@ -93231,14 +93269,6 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "DCP",
-          "begin_time": "10:00",
-          "end_time": "11:00",
-          "tutor": "DR. JUNAID OLAWALE QUAZIM"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "09:00",
           "end_time": "10:00",
@@ -93290,6 +93320,14 @@
           "room": "DCP",
           "begin_time": "09:00",
           "end_time": "10:00",
+          "tutor": "DR. JUNAID OLAWALE QUAZIM"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DCP",
+          "begin_time": "10:00",
+          "end_time": "11:00",
           "tutor": "DR. JUNAID OLAWALE QUAZIM"
         },
         {
@@ -93982,15 +94020,15 @@
           "day": "Thursday",
           "room": "MDK3",
           "begin_time": "12:00",
-          "end_time": "13:00",
-          "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
+          "end_time": "13:00"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "MDK3",
           "begin_time": "12:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
         },
         {
           "title": "tutorial",
@@ -94082,15 +94120,15 @@
           "day": "Thursday",
           "room": "MDK3",
           "begin_time": "12:00",
-          "end_time": "13:00",
-          "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
+          "end_time": "13:00"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "MDK3",
           "begin_time": "12:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
         },
         {
           "title": "tutorial",
@@ -94174,15 +94212,15 @@
           "day": "Thursday",
           "room": "MDK3",
           "begin_time": "12:00",
-          "end_time": "13:00",
-          "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
+          "end_time": "13:00"
         },
         {
           "title": "tutorial",
           "day": "Thursday",
           "room": "MDK3",
           "begin_time": "12:00",
-          "end_time": "13:00"
+          "end_time": "13:00",
+          "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
         },
         {
           "title": "tutorial",
@@ -116971,16 +117009,16 @@
           "title": "lab",
           "day": "Thursday",
           "room": "MELEK",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. ZARINA BINTI ASPANUT"
         },
         {
           "title": "lab",
           "day": "Thursday",
           "room": "MELEK",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. ZARINA BINTI ASPANUT"
         }
       ]
@@ -117049,16 +117087,16 @@
           "title": "lab",
           "day": "Thursday",
           "room": "MASAS",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. NORAZRIENA BINTI YUSOFF"
         },
         {
           "title": "lab",
           "day": "Thursday",
           "room": "MASAS",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. NORAZRIENA BINTI YUSOFF"
         }
       ]
@@ -117080,14 +117118,6 @@
       "activities": [
         {
           "title": "lab",
-          "day": "Thursday",
-          "room": "MAK. PROJEK FIZ",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. RAMESH KASI"
-        },
-        {
-          "title": "lab",
           "day": "Tuesday",
           "room": "MAK. PROJEK FIZ",
           "begin_time": "10:00",
@@ -117108,6 +117138,14 @@
           "room": "MAK. PROJEK FIZ",
           "begin_time": "10:00",
           "end_time": "13:00",
+          "tutor": "ASSOCIATE PROF. DR. RAMESH KASI"
+        },
+        {
+          "title": "lab",
+          "day": "Thursday",
+          "room": "MAK. PROJEK FIZ",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. RAMESH KASI"
         }
       ]
@@ -117746,17 +117784,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "BKD321",
-          "begin_time": "15:00",
+          "begin_time": "16:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. AHMAD SHUHAIMI BIN ABU BAKAR"
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "BKD321",
-          "begin_time": "16:00",
+          "begin_time": "15:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. AHMAD SHUHAIMI BIN ABU BAKAR"
         }
@@ -118249,7 +118287,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "BTSB4ISB",
           "begin_time": "09:00",
           "end_time": "10:00",
@@ -118257,7 +118295,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "BTSB4ISB",
           "begin_time": "09:00",
           "end_time": "10:00",
@@ -118296,7 +118334,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "BTSB4ISB",
           "begin_time": "09:00",
           "end_time": "10:00",
@@ -118304,7 +118342,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "BTSB4ISB",
           "begin_time": "09:00",
           "end_time": "10:00",
@@ -119241,7 +119279,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKGEOLOGI",
           "begin_time": "17:00",
           "end_time": "18:00",
@@ -119249,7 +119287,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKGEOLOGI",
           "begin_time": "17:00",
           "end_time": "18:00",
@@ -119430,7 +119468,7 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "MPETA",
+          "room": "MMPGEO",
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "DR. HARRY TELAJAN ANAK LINANG"
@@ -119438,7 +119476,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "MPETA",
+          "room": "MMPGEO",
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "DR. HARRY TELAJAN ANAK LINANG"
@@ -119446,14 +119484,14 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "MPETA",
+          "room": "MMPGEO",
           "begin_time": "14:00",
           "end_time": "16:00"
         },
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "MPETA",
+          "room": "MMPGEO",
           "begin_time": "14:00",
           "end_time": "16:00"
         }
@@ -119829,7 +119867,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "MMPGEO",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -119837,7 +119875,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "MMPGEO",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -119860,7 +119898,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "MMPGEO",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -119868,7 +119906,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "MMPGEO",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -119966,7 +120004,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "MMPGEO",
+          "room": "MAKKOMPGEO",
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "DR. HIJAZ KAMAL BIN HASNAN"
@@ -120013,7 +120051,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "MMPGEO",
+          "room": "MAKKOMPGEO",
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "DR. HIJAZ KAMAL BIN HASNAN"
@@ -121259,14 +121297,6 @@
       "activities": [
         {
           "title": "lab",
-          "day": "Thursday",
-          "room": "MPBK1ISB",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. ADAWIYAH SURIZA BINTI SHUIB"
-        },
-        {
-          "title": "lab",
           "day": "Monday",
           "room": "MPBK1ISB",
           "begin_time": "14:00",
@@ -121276,6 +121306,14 @@
         {
           "title": "lab",
           "day": "Tuesday",
+          "room": "MPBK1ISB",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. ADAWIYAH SURIZA BINTI SHUIB"
+        },
+        {
+          "title": "lab",
+          "day": "Thursday",
           "room": "MPBK1ISB",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -121718,16 +121756,16 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "BSD35ISB",
-          "begin_time": "16:00",
+          "begin_time": "15:00",
           "end_time": "17:00"
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "BSD35ISB",
-          "begin_time": "15:00",
+          "begin_time": "16:00",
           "end_time": "17:00"
         }
       ]
@@ -121747,16 +121785,16 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "BSD35ISB",
-          "begin_time": "16:00",
+          "begin_time": "15:00",
           "end_time": "17:00"
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "BSD35ISB",
-          "begin_time": "15:00",
+          "begin_time": "16:00",
           "end_time": "17:00"
         }
       ]
@@ -123416,7 +123454,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKCEMPAKAKDK",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -123424,7 +123462,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKCEMPAKAKDK",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -123447,7 +123485,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKM2ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -123455,7 +123493,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKM2ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -123492,14 +123530,14 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKVANDAKDK",
           "begin_time": "16:00",
           "end_time": "18:00"
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKVANDAKDK",
           "begin_time": "16:00",
           "end_time": "18:00"
@@ -123537,7 +123575,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKCEMPAKAKDK",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -123545,7 +123583,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKCEMPAKAKDK",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -123568,7 +123606,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKCEMPAKAKDK",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -123576,7 +123614,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKCEMPAKAKDK",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -123872,7 +123910,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "MMATE1ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -123880,7 +123918,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "MMATE1ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -124060,14 +124098,14 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKIXORAKDK",
           "begin_time": "16:00",
           "end_time": "18:00"
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKIXORAKDK",
           "begin_time": "16:00",
           "end_time": "18:00"
@@ -124089,14 +124127,14 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKIXORAKDK",
           "begin_time": "16:00",
           "end_time": "18:00"
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKIXORAKDK",
           "begin_time": "16:00",
           "end_time": "18:00"
@@ -124118,14 +124156,14 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKIXORAKDK",
           "begin_time": "16:00",
           "end_time": "18:00"
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKIXORAKDK",
           "begin_time": "16:00",
           "end_time": "18:00"
@@ -124752,7 +124790,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "MMATE2ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -124760,7 +124798,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "MMATE2ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -124783,7 +124821,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "MMATE2ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -124791,7 +124829,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "MMATE2ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -126083,8 +126121,7 @@
           "day": "Monday",
           "room": "PMAKKIMIA",
           "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. NUR LISA BINTI ZAHARAN"
+          "end_time": "16:00"
         }
       ]
     }
@@ -126579,7 +126616,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKM1ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -126587,7 +126624,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKM1ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -126645,7 +126682,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKTERATAIKDK",
           "begin_time": "18:00",
           "end_time": "20:00",
@@ -126653,7 +126690,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKTERATAIKDK",
           "begin_time": "18:00",
           "end_time": "20:00",
@@ -128850,7 +128887,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKM4ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -128858,7 +128895,7 @@
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKM4ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -135759,14 +135796,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "ONLINE",
-          "begin_time": "16:00",
-          "end_time": "18:00",
-          "tutor": "DR. ROZITA BINTI CHE OMAR"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "15:00",
@@ -135779,6 +135808,14 @@
           "room": "ONLINE",
           "begin_time": "15:00",
           "end_time": "17:00",
+          "tutor": "DR. ROZITA BINTI CHE OMAR"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "16:00",
+          "end_time": "18:00",
           "tutor": "DR. ROZITA BINTI CHE OMAR"
         }
       ]
@@ -142243,17 +142280,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "DKA",
-          "begin_time": "16:00",
-          "end_time": "17:00"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "DKB",
           "begin_time": "11:00",
           "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DKA",
+          "begin_time": "16:00",
+          "end_time": "17:00"
         }
       ]
     },
@@ -142272,17 +142309,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "DKA",
-          "begin_time": "16:00",
-          "end_time": "17:00"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "DKB",
           "begin_time": "11:00",
           "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DKA",
+          "begin_time": "16:00",
+          "end_time": "17:00"
         }
       ]
     }
@@ -142547,17 +142584,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "MPS",
-          "begin_time": "16:00",
-          "end_time": "17:00"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "MPS",
           "begin_time": "14:00",
           "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MPS",
+          "begin_time": "16:00",
+          "end_time": "17:00"
         }
       ]
     },
@@ -142576,17 +142613,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "MPS",
-          "begin_time": "16:00",
-          "end_time": "17:00"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "MPS",
           "begin_time": "14:00",
           "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MPS",
+          "begin_time": "16:00",
+          "end_time": "17:00"
         }
       ]
     }
