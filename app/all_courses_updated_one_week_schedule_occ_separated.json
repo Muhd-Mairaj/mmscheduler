@@ -31163,7 +31163,7 @@
         {
           "title": "seminar",
           "day": "Wednesday",
-          "room": "EDK3",
+          "room": "CBSBLH5",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. MOHAMMAD NAZRI BIN MOHD NOR"
@@ -31186,7 +31186,7 @@
         {
           "title": "seminar",
           "day": "Wednesday",
-          "room": "EDK3",
+          "room": "CBSBLH5",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. MOHAMMAD NAZRI BIN MOHD NOR"
@@ -34541,7 +34541,8 @@
           "day": "Wednesday",
           "room": "EDK4",
           "begin_time": "11:00",
-          "end_time": "14:00"
+          "end_time": "14:00",
+          "tutor": "PROF. DR. EVELYN SHYAMALA A/P PAUL DEVADASON"
         }
       ]
     },
@@ -34563,7 +34564,8 @@
           "day": "Wednesday",
           "room": "EDK4",
           "begin_time": "11:00",
-          "end_time": "14:00"
+          "end_time": "14:00",
+          "tutor": "PROF. DR. EVELYN SHYAMALA A/P PAUL DEVADASON"
         }
       ]
     }
@@ -35198,7 +35200,7 @@
           "room": "EMAKG2G3",
           "begin_time": "08:00",
           "end_time": "11:00",
-          "tutor": "ASSOCIATE PROF. DR. LAU WEE YEAP"
+          "tutor": "DR. SOON SIEW VOON"
         }
       ]
     },
@@ -35221,7 +35223,7 @@
           "room": "EMKPASCA",
           "begin_time": "08:00",
           "end_time": "11:00",
-          "tutor": "DR. SOON SIEW VOON"
+          "tutor": "ASSOCIATE PROF. DR. LAU WEE YEAP"
         }
       ]
     },
@@ -57876,14 +57878,6 @@
           "day": "Monday",
           "room": "BS14",
           "begin_time": "10:00",
-          "end_time": "12:00",
-          "tutor": "DR. SELAMAT BIN AMIR"
-        },
-        {
-          "title": "tutorial",
-          "day": "Tuesday",
-          "room": "BS12",
-          "begin_time": "12:00",
           "end_time": "13:00",
           "tutor": "DR. SELAMAT BIN AMIR"
         }
@@ -58295,7 +58289,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "BS18",
+          "room": "BS1",
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "ASSOCIATE PROF. DR. ZALINA BINTI ZAKARIA"
@@ -58410,7 +58404,7 @@
         {
           "title": "lecture",
           "day": "Thursday",
-          "room": "BS19",
+          "room": "BS8",
           "begin_time": "09:00",
           "end_time": "11:00",
           "tutor": "ASSOCIATE PROF. DR. MOHD NORHUSAIRI BIN MAT HUSSIN"
@@ -62205,18 +62199,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "BS7",
-          "begin_time": "10:00",
-          "end_time": "12:00",
+          "day": "Thursday",
+          "room": "BS18",
+          "begin_time": "11:00",
+          "end_time": "13:00",
           "tutor": "DR. ASMAWATI BINTI MUHAMAD"
         },
         {
           "title": "tutorial",
-          "day": "Friday",
+          "day": "Thursday",
           "room": "BS7",
-          "begin_time": "12:00",
-          "end_time": "13:00",
+          "begin_time": "13:00",
+          "end_time": "14:00",
           "tutor": "DR. ASMAWATI BINTI MUHAMAD"
         }
       ]
@@ -87907,18 +87901,18 @@
         },
         {
           "title": "lecture",
-          "day": "Wednesday",
-          "room": "ONLINE",
-          "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "DR. NGOI SOO TEIN"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "14:00",
           "end_time": "16:00",
+          "tutor": "DR. NGOI SOO TEIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "11:00",
+          "end_time": "13:00",
           "tutor": "DR. NGOI SOO TEIN"
         },
         {
@@ -93179,6 +93173,14 @@
         },
         {
           "title": "tutorial",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. CHEONG FEI WEN"
+        },
+        {
+          "title": "tutorial",
           "day": "Tuesday",
           "room": "DCP",
           "begin_time": "12:00",
@@ -93269,6 +93271,14 @@
         {
           "title": "lecture",
           "day": "Wednesday",
+          "room": "DCP",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. JUNAID OLAWALE QUAZIM"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "09:00",
           "end_time": "10:00",
@@ -93320,14 +93330,6 @@
           "room": "DCP",
           "begin_time": "09:00",
           "end_time": "10:00",
-          "tutor": "DR. JUNAID OLAWALE QUAZIM"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DCP",
-          "begin_time": "10:00",
-          "end_time": "11:00",
           "tutor": "DR. JUNAID OLAWALE QUAZIM"
         },
         {
