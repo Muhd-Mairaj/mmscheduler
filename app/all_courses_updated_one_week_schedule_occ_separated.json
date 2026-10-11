@@ -2199,7 +2199,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Sunday",
+          "day": "Saturday",
           "room": "CBS7",
           "begin_time": "09:00",
           "end_time": "17:00",
@@ -2207,7 +2207,7 @@
         },
         {
           "title": "lecture",
-          "day": "Saturday",
+          "day": "Sunday",
           "room": "CBS7",
           "begin_time": "09:00",
           "end_time": "17:00",
@@ -33488,13 +33488,6 @@
       "levelCode": 4,
       "occurence": "2",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "CBS1112",
-          "begin_time": "09:00",
-          "end_time": "18:00"
-        },
         {
           "title": "lecture",
           "day": "Saturday",
