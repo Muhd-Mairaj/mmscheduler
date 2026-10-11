@@ -95733,8 +95733,7 @@
           "day": "Tuesday",
           "room": "MDK5",
           "begin_time": "08:00",
-          "end_time": "09:00",
-          "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
+          "end_time": "09:00"
         },
         {
           "title": "lecture",
@@ -95751,6 +95750,14 @@
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. SYIREEN BINTI ALWI"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "MDK5",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
         },
         {
           "title": "lecture",
@@ -95768,13 +95775,6 @@
           "end_time": "10:00"
         },
         {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "MDK5",
-          "begin_time": "08:00",
-          "end_time": "09:00"
-        },
-        {
           "title": "tutorial",
           "day": "Thursday",
           "room": "MDK5",
@@ -95787,8 +95787,7 @@
           "day": "Thursday",
           "room": "MDK5",
           "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
+          "end_time": "10:00"
         },
         {
           "title": "tutorial",
@@ -95804,6 +95803,14 @@
           "room": "MDK5",
           "begin_time": "08:00",
           "end_time": "09:00"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "MDK5",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
         },
         {
           "title": "tutorial",
@@ -95841,8 +95848,7 @@
           "day": "Tuesday",
           "room": "MDK5",
           "begin_time": "08:00",
-          "end_time": "09:00",
-          "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
+          "end_time": "09:00"
         },
         {
           "title": "lecture",
@@ -95859,6 +95865,14 @@
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. SYIREEN BINTI ALWI"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "MDK5",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
         },
         {
           "title": "lecture",
@@ -95876,13 +95890,6 @@
           "end_time": "10:00"
         },
         {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "MDK5",
-          "begin_time": "08:00",
-          "end_time": "09:00"
-        },
-        {
           "title": "tutorial",
           "day": "Thursday",
           "room": "MDK5",
@@ -95895,8 +95902,7 @@
           "day": "Thursday",
           "room": "MDK5",
           "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
+          "end_time": "10:00"
         },
         {
           "title": "tutorial",
@@ -95912,6 +95918,14 @@
           "room": "MDK5",
           "begin_time": "08:00",
           "end_time": "09:00"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "MDK5",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
         },
         {
           "title": "tutorial",
