@@ -326,7 +326,7 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "CBSBLH5",
+          "room": "CPSR31(1)",
           "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "DR. NURULHUDA BINTI MOHD SATAR"
@@ -349,7 +349,7 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "CBSBLH5",
+          "room": "CPSR31(1)",
           "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "DR. NURULHUDA BINTI MOHD SATAR"
@@ -1136,7 +1136,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "CBSBLH1",
+          "room": "CPSR11",
           "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "DR. MUHAMMAD ASRI BIN MOHD ALI"
@@ -1159,7 +1159,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "CBSBLH1",
+          "room": "CPSR11",
           "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "DR. MUHAMMAD ASRI BIN MOHD ALI"
@@ -1482,8 +1482,7 @@
           "day": "Thursday",
           "room": "CBSBLH4",
           "begin_time": "18:00",
-          "end_time": "21:00",
-          "tutor": "DR. SHARIFAH MUHAIRAH SHAHABUDIN"
+          "end_time": "21:00"
         }
       ]
     },
@@ -1505,8 +1504,7 @@
           "day": "Thursday",
           "room": "CBSBLH4",
           "begin_time": "18:00",
-          "end_time": "21:00",
-          "tutor": "DR. SHARIFAH MUHAIRAH SHAHABUDIN"
+          "end_time": "21:00"
         }
       ]
     }
@@ -1697,7 +1695,7 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "CPSR31(1)",
+          "room": "CPSR11",
           "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "DR. BASKARAN ANGATHEVAR"
@@ -1720,7 +1718,7 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "CPSR31(1)",
+          "room": "CPSR11",
           "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "DR. BASKARAN ANGATHEVAR"
@@ -1745,7 +1743,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "CBSBLH5",
+          "room": "CPSR31(1)",
           "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "PROF. DR. VGR CHANDRAN A/L GOVINDARAJU"
@@ -1768,7 +1766,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "CBSBLH5",
+          "room": "CPSR31(1)",
           "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "PROF. DR. VGR CHANDRAN A/L GOVINDARAJU"
@@ -2299,7 +2297,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "EDK3",
+          "room": "CBS45",
           "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "PROF. DR. NOOR ISMAWATI BINTI JAAFAR"
@@ -2739,6 +2737,22 @@
           "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "DR. AIDIL RIZAL BIN SHAHRIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CDK1",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "DR. ASYRAF BIN ABDUL HALIM"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CDK1",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "DR. MOHAMMAD ALI TAREQ"
         }
       ]
     }
@@ -33815,7 +33829,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "CBS45",
+          "room": "CBS2",
           "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "ASSOCIATE PROF. DR. NORIZAH BINTI MOHD MUSTAMIL"
@@ -33973,6 +33987,22 @@
           "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "DR. AIDIL RIZAL BIN SHAHRIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CDK1",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "DR. ASYRAF BIN ABDUL HALIM"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CDK1",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "DR. MOHAMMAD ALI TAREQ"
         }
       ]
     }
@@ -34340,7 +34370,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "EDK3",
+          "room": "CBS45",
           "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "PROF. DR. NOOR ISMAWATI BINTI JAAFAR"
