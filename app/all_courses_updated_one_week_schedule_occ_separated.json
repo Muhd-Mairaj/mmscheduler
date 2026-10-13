@@ -55783,39 +55783,6 @@
       ]
     }
   ],
-  "IID3012": [
-    {
-      "module": "FIQH AL-WAQF WA AL-HIBAH",
-      "course_id": "IID3012",
-      "credits": 3,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 50,
-      "level": "BACHELOR",
-      "faculty": "ACADEMY OF ISLAMIC STUDIES",
-      "continuousAssessmentWeightage": "40~60",
-      "examDuration": 7200,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "BS24",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "ASSOCIATE PROF. DR. NOR FAHIMAH BINTI MOHD RAZIF"
-        },
-        {
-          "title": "tutorial",
-          "day": "Thursday",
-          "room": "BS16",
-          "begin_time": "14:00",
-          "end_time": "15:00",
-          "tutor": "ASSOCIATE PROF. DR. NOR FAHIMAH BINTI MOHD RAZIF"
-        }
-      ]
-    }
-  ],
   "IIE1001": [
     {
       "module": "INTRODUCTION TO THE ISLAMIC BUSINESS ADMINISTRATION",
