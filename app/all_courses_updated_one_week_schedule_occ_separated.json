@@ -12918,14 +12918,6 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BILIKSEP1",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "MISS CHIN SZE YUIN"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
           "room": "PUSTAKAY",
           "begin_time": "15:00",
           "end_time": "17:00",
@@ -12935,6 +12927,14 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "HIMAWARI",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "MISS CHIN SZE YUIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BILIKSEP1",
           "begin_time": "09:00",
           "end_time": "11:00",
           "tutor": "MISS CHIN SZE YUIN"
@@ -41465,6 +41465,28 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": null,
       "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ]
+    },
+    {
+      "module": "BASIC JAPANESE LANGUAGE",
+      "course_id": "GIT1004",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 42,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
       "occurence": "1M",
       "activities": [
         {
@@ -49027,6 +49049,28 @@
       "examDuration": null,
       "levelCode": 3,
       "occurence": "1",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ]
+    },
+    {
+      "module": "BASIC JAPANESE LANGUAGE 1",
+      "course_id": "GLT1031",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 75,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "2",
       "activities": [
         {
           "title": "online",
@@ -71520,6 +71564,53 @@
           "tutor": "DR. NURUL ASYIKEEN BINTI AB.MUTALIB"
         }
       ]
+    },
+    {
+      "module": "BIOMEDICAL ENGINEERING DESIGN 1",
+      "course_id": "KIB2012",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 64,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ENGINEERING",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. NG SIEW CHEOK"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. NUR AFIQAH BINTI HASHIM"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. NOORANIDA BINTI ARIFIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. NURUL ASYIKEEN BINTI AB.MUTALIB"
+        }
+      ]
     }
   ],
   "KIB2013": [
@@ -72728,15 +72819,15 @@
           "title": "lecture",
           "day": "Friday",
           "room": "DK7",
-          "begin_time": "10:00",
-          "end_time": "12:00"
+          "begin_time": "17:00",
+          "end_time": "18:00"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "DK7",
-          "begin_time": "17:00",
-          "end_time": "18:00"
+          "begin_time": "10:00",
+          "end_time": "12:00"
         }
       ]
     },
@@ -86356,14 +86447,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "LT1",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "DR. ROZAIDA @ POH YUEN YING"
-        },
-        {
-          "title": "lecture",
           "day": "Wednesday",
           "room": "SROOM2BMED",
           "begin_time": "09:00",
@@ -86377,6 +86460,14 @@
           "begin_time": "09:00",
           "end_time": "11:00",
           "tutor": "PROF. UMAH RANI A/P KUPPUSAMY"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "LT1",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. ROZAIDA @ POH YUEN YING"
         },
         {
           "title": "lecture",
@@ -88078,14 +88169,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK7",
-          "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "MADAM NOOR HANITA BINTI ZAINI"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK7",
           "begin_time": "08:00",
@@ -88106,6 +88189,14 @@
           "room": "DK7",
           "begin_time": "14:00",
           "end_time": "17:00",
+          "tutor": "MADAM NOOR HANITA BINTI ZAINI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK7",
+          "begin_time": "08:00",
+          "end_time": "10:00",
           "tutor": "MADAM NOOR HANITA BINTI ZAINI"
         }
       ]
@@ -88125,14 +88216,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK7",
-          "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "MADAM NOOR HANITA BINTI ZAINI"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK7",
           "begin_time": "08:00",
@@ -88153,6 +88236,14 @@
           "room": "DK7",
           "begin_time": "14:00",
           "end_time": "17:00",
+          "tutor": "MADAM NOOR HANITA BINTI ZAINI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK7",
+          "begin_time": "08:00",
+          "end_time": "10:00",
           "tutor": "MADAM NOOR HANITA BINTI ZAINI"
         }
       ]
@@ -88248,13 +88339,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK7",
-          "begin_time": "11:00",
-          "end_time": "13:00"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK7",
           "begin_time": "11:00",
@@ -88273,6 +88357,13 @@
           "room": "DK7",
           "begin_time": "08:00",
           "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK7",
+          "begin_time": "11:00",
+          "end_time": "13:00"
         }
       ]
     },
@@ -88291,13 +88382,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK7",
-          "begin_time": "11:00",
-          "end_time": "13:00"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK7",
           "begin_time": "11:00",
@@ -88316,6 +88400,13 @@
           "room": "DK7",
           "begin_time": "08:00",
           "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK7",
+          "begin_time": "11:00",
+          "end_time": "13:00"
         }
       ]
     }
@@ -88336,22 +88427,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK9",
-          "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "DK9",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK9",
           "begin_time": "14:00",
@@ -88369,6 +88444,22 @@
         {
           "title": "lecture",
           "day": "Wednesday",
+          "room": "DK9",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK9",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "DK9",
           "begin_time": "14:00",
           "end_time": "16:00",
@@ -88399,22 +88490,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK9",
-          "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "DK9",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK9",
           "begin_time": "14:00",
@@ -88432,6 +88507,22 @@
         {
           "title": "lecture",
           "day": "Wednesday",
+          "room": "DK9",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK9",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "DK9",
           "begin_time": "14:00",
           "end_time": "16:00",
@@ -88538,14 +88629,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK9",
-          "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "MRS NOR ZEHAN BT AHMAD"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK9",
           "begin_time": "08:00",
@@ -88558,6 +88641,14 @@
           "room": "DK9",
           "begin_time": "11:00",
           "end_time": "13:00",
+          "tutor": "MRS NOR ZEHAN BT AHMAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK9",
+          "begin_time": "08:00",
+          "end_time": "10:00",
           "tutor": "MRS NOR ZEHAN BT AHMAD"
         },
         {
@@ -88585,14 +88676,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK9",
-          "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "MRS NOR ZEHAN BT AHMAD"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK9",
           "begin_time": "08:00",
@@ -88605,6 +88688,14 @@
           "room": "DK9",
           "begin_time": "11:00",
           "end_time": "13:00",
+          "tutor": "MRS NOR ZEHAN BT AHMAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK9",
+          "begin_time": "08:00",
+          "end_time": "10:00",
           "tutor": "MRS NOR ZEHAN BT AHMAD"
         },
         {
@@ -91427,14 +91518,6 @@
         },
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DCP",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. WAHIB MOHAMMED MOHSEN ATROOSH"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DCP",
           "begin_time": "11:00",
@@ -91601,14 +91684,6 @@
           "begin_time": "10:00",
           "end_time": "13:00",
           "tutor": "DR. ARUTCHELVAN A/L RAJAMANIKAM"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "15:00",
-          "end_time": "16:00",
-          "tutor": "DR. WAHIB MOHAMMED MOHSEN ATROOSH"
         },
         {
           "title": "lecture",
@@ -92275,7 +92350,7 @@
           "room": "DCP",
           "begin_time": "09:00",
           "end_time": "10:00",
-          "tutor": "DR. CHEONG FEI WEN"
+          "tutor": "DR. NURHAFIZA BINTI ZAINAL"
         },
         {
           "title": "lecture",
@@ -92283,7 +92358,7 @@
           "room": "DCP",
           "begin_time": "10:00",
           "end_time": "11:00",
-          "tutor": "DR. CHEONG FEI WEN"
+          "tutor": "DR. NURHAFIZA BINTI ZAINAL"
         },
         {
           "title": "lecture",
@@ -92427,7 +92502,7 @@
           "room": "ONLINE",
           "begin_time": "14:00",
           "end_time": "15:00",
-          "tutor": "DR. CHEONG FEI WEN"
+          "tutor": "DR. NURHAFIZA BINTI ZAINAL"
         },
         {
           "title": "tutorial",
@@ -106645,17 +106720,17 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS2BCL",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "room": "BS1BCL",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. WANG I TA"
         },
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS1BCL",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "room": "BS2BCL",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. WANG I TA"
         }
       ]
@@ -106797,17 +106872,17 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS2BCL",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "room": "BS1BCL",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. WANG I TA"
         },
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS1BCL",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "room": "BS2BCL",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. WANG I TA"
         }
       ]
@@ -106830,17 +106905,17 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS2BCL",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "room": "BS1BCL",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. WANG I TA"
         },
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS1BCL",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "room": "BS2BCL",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. WANG I TA"
         }
       ]
@@ -110969,14 +111044,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "BS5BS6KDK",
-          "begin_time": "08:00",
-          "end_time": "09:00",
-          "tutor": "PROF. DR. AZHAR BIN ARIFFIN"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BS5BS6KDK",
           "begin_time": "08:00",
@@ -110986,6 +111053,14 @@
         {
           "title": "lecture",
           "day": "Wednesday",
+          "room": "BS5BS6KDK",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "PROF. DR. AZHAR BIN ARIFFIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "BS5BS6KDK",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -111016,14 +111091,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "BS5BS6KDK",
-          "begin_time": "08:00",
-          "end_time": "09:00",
-          "tutor": "PROF. DR. AZHAR BIN ARIFFIN"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BS5BS6KDK",
           "begin_time": "08:00",
@@ -111033,6 +111100,14 @@
         {
           "title": "lecture",
           "day": "Wednesday",
+          "room": "BS5BS6KDK",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "PROF. DR. AZHAR BIN ARIFFIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "BS5BS6KDK",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -112082,14 +112157,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "BS2KDK",
-          "begin_time": "10:00",
-          "end_time": "11:00",
-          "tutor": "DR. NAZZATUSH SHIMAR JAMALUDIN"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BS2KDK",
           "begin_time": "10:00",
@@ -112099,6 +112166,14 @@
         {
           "title": "lecture",
           "day": "Wednesday",
+          "room": "BS2KDK",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. NAZZATUSH SHIMAR JAMALUDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "BS2KDK",
           "begin_time": "10:00",
           "end_time": "11:00",
@@ -112129,14 +112204,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "BS2KDK",
-          "begin_time": "10:00",
-          "end_time": "11:00",
-          "tutor": "DR. NAZZATUSH SHIMAR JAMALUDIN"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BS2KDK",
           "begin_time": "10:00",
@@ -112146,6 +112213,14 @@
         {
           "title": "lecture",
           "day": "Wednesday",
+          "room": "BS2KDK",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. NAZZATUSH SHIMAR JAMALUDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "BS2KDK",
           "begin_time": "10:00",
           "end_time": "11:00",
@@ -118200,14 +118275,6 @@
           "begin_time": "09:00",
           "end_time": "11:00",
           "tutor": "ASSOCIATE PROF. DR. GHUFRAN BIN REDZWAN"
-        },
-        {
-          "title": "lab",
-          "day": "Friday",
-          "room": "MSPAS2ISB",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. FIONA KENG SEH LIN"
         },
         {
           "title": "lab",
@@ -124868,18 +124935,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "BS7BS8KDK",
-          "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "PROF. DR. CHANDRAN A/L SOMASUNDRAM"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BS7BS8KDK",
           "begin_time": "08:00",
           "end_time": "09:00",
+          "tutor": "PROF. DR. CHANDRAN A/L SOMASUNDRAM"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BS7BS8KDK",
+          "begin_time": "11:00",
+          "end_time": "13:00",
           "tutor": "PROF. DR. CHANDRAN A/L SOMASUNDRAM"
         }
       ]
@@ -130955,18 +131022,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK1",
-          "begin_time": "11:00",
-          "end_time": "12:00",
-          "tutor": "DR. NUR AIRINA BINTI MUHAMAD"
-        },
-        {
-          "title": "lecture",
           "day": "Wednesday",
           "room": "DK1",
           "begin_time": "09:00",
           "end_time": "11:00",
+          "tutor": "DR. NUR AIRINA BINTI MUHAMAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK1",
+          "begin_time": "11:00",
+          "end_time": "12:00",
           "tutor": "DR. NUR AIRINA BINTI MUHAMAD"
         }
       ]
@@ -135400,13 +135467,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "BTSAC1",
-          "begin_time": "08:00",
-          "end_time": "10:00"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BTSAC1",
           "begin_time": "10:00",
@@ -135418,6 +135478,13 @@
           "room": "BSMERTAJAM",
           "begin_time": "14:00",
           "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BTSAC1",
+          "begin_time": "08:00",
+          "end_time": "10:00"
         }
       ]
     }
@@ -136147,6 +136214,13 @@
       "levelCode": 3,
       "occurence": "1",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        },
         {
           "title": "lecture",
           "day": "Tuesday",
