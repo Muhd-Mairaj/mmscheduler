@@ -2100,14 +2100,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Sunday",
-          "room": "CBS7",
-          "begin_time": "09:00",
-          "end_time": "17:00",
-          "tutor": "PROF. DR. MOHD ZULKHAIRI BIN MUSTAPHA"
-        },
-        {
-          "title": "lecture",
           "day": "Saturday",
           "room": "CBS7",
           "begin_time": "09:00",
