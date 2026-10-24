@@ -84931,15 +84931,15 @@
           "title": "lecture",
           "day": "Saturday",
           "room": "DK1",
-          "begin_time": "09:00",
-          "end_time": "12:00"
+          "begin_time": "14:00",
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
           "day": "Saturday",
           "room": "DK1",
-          "begin_time": "14:00",
-          "end_time": "17:00"
+          "begin_time": "09:00",
+          "end_time": "12:00"
         }
       ]
     },
@@ -84960,15 +84960,15 @@
           "title": "lecture",
           "day": "Saturday",
           "room": "DK1",
-          "begin_time": "09:00",
-          "end_time": "12:00"
+          "begin_time": "14:00",
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
           "day": "Saturday",
           "room": "DK1",
-          "begin_time": "14:00",
-          "end_time": "17:00"
+          "begin_time": "09:00",
+          "end_time": "12:00"
         }
       ]
     }
@@ -96914,9 +96914,9 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "BSEC306",
-          "begin_time": "09:00",
-          "end_time": "12:00",
+          "room": "MK3",
+          "begin_time": "08:00",
+          "end_time": "11:00",
           "tutor": "HAJI NORHASHIMI BIN SAAD"
         }
       ]
