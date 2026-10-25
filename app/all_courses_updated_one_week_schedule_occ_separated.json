@@ -61494,8 +61494,8 @@
           "title": "lecture",
           "day": "Wednesday",
           "room": "BS19",
-          "begin_time": "10:00",
-          "end_time": "12:00",
+          "begin_time": "15:00",
+          "end_time": "17:00",
           "tutor": "MR. NIK MUHAMMAD ROZI BIN NIK YUSOFF"
         }
       ]
@@ -64648,7 +64648,7 @@
           "room": "BS1TAMB",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "MISS ZAZMIN BINTI ABU BAKAR"
+          "tutor": "MR. MUHD SUFILLAH BIN MOHD SOYONG"
         }
       ]
     },
@@ -64669,29 +64669,6 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "BS6",
-          "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "MR. MUHD SUFILLAH BIN MOHD SOYONG"
-        }
-      ]
-    },
-    {
-      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 1",
-      "course_id": "IIX1006",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 370,
-      "level": "BACHELOR",
-      "faculty": "ACADEMY OF ISLAMIC STUDIES",
-      "continuousAssessmentWeightage": "60~40",
-      "examDuration": 7200,
-      "levelCode": 3,
-      "occurence": "5",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "BS1TAMB",
           "begin_time": "15:00",
           "end_time": "17:00",
           "tutor": "MR. MUHD SUFILLAH BIN MOHD SOYONG"
@@ -65152,7 +65129,7 @@
           "room": "BS13",
           "begin_time": "11:00",
           "end_time": "13:00",
-          "tutor": "MISS ZAZMIN BINTI ABU BAKAR"
+          "tutor": "MR. NIK MUHAMMAD ROZI BIN NIK YUSOFF"
         }
       ]
     },
@@ -65213,29 +65190,6 @@
       "continuousAssessmentWeightage": "60~40",
       "examDuration": 7200,
       "levelCode": 3,
-      "occurence": "28",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BS15",
-          "begin_time": "12:00",
-          "end_time": "14:00",
-          "tutor": "MISS ZAZMIN BINTI ABU BAKAR"
-        }
-      ]
-    },
-    {
-      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 1",
-      "course_id": "IIX1006",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 370,
-      "level": "BACHELOR",
-      "faculty": "ACADEMY OF ISLAMIC STUDIES",
-      "continuousAssessmentWeightage": "60~40",
-      "examDuration": 7200,
-      "levelCode": 3,
       "occurence": "29",
       "activities": [
         {
@@ -65244,29 +65198,6 @@
           "room": "BS7",
           "begin_time": "14:00",
           "end_time": "16:00"
-        }
-      ]
-    },
-    {
-      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 1",
-      "course_id": "IIX1006",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 370,
-      "level": "BACHELOR",
-      "faculty": "ACADEMY OF ISLAMIC STUDIES",
-      "continuousAssessmentWeightage": "60~40",
-      "examDuration": 7200,
-      "levelCode": 3,
-      "occurence": "30",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "BS30",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "MR. NIK MUHAMMAD ROZI BIN NIK YUSOFF"
         }
       ]
     }
