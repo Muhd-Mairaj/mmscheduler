@@ -1,343 +1,214 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
-
-/* ============================================
-    LIGHT THEME (default)
-   ============================================ */
+/* ============================================================
+   Design tokens
+   ============================================================ */
 :root {
-  /* General */
-  --primary-color: #7e569c;
-  --secondary-color: #8f6fa6;
-
-  /* Page backgrounds */
-  --background-primary-color: #ffffff;
-  --background-secondary-color: #f5f5f5;
-  --body-background-color: #f0f0f0;
-
-  /* Text colors */
-  --text-primary-color: #333333;
-  --text-secondary-color: #686868;
-  --text-muted-color: #777777;
-  --text-light-color: #666666;
-
-  /* occurrenceCard */
-  --selected-card-color: #a17bb6;
-  --selected-card-border-color: #c38ae4;
-  --disabled-card-color: rgb(160, 160, 160);
-  --card-text-color: black;
-  --card-border-color: rgb(171, 171, 171);
-  --card-color: rgb(205, 205, 205);
-
-  /* Timetable */
-  --lecture-event-color: #906da5;
-  --tutorial-event-color: #8dbfe1;
-  --lab-event-color: #e4d173;
-  --online-event-color: #c884d4;
-  --other-event-color: #898989;
-  --exam-event-color: #ef9089;
-
-  /* Timetable grid */
-  --grid-background-color: #f9f9f9;
-  --grid-header-color: #e7e7e7;
-  --grid-border-color: rgba(204, 204, 204, 0.5);
-  --grid-border-solid-color: #ccc;
-  --grid-day-text-color: #333;
-  --grid-settings-bg: #d4d4d4;
-  --grid-settings-icon-color: #646464;
-
-  /* Navbar */
-  --navbar-primary-color: #795196;
-  --navbar-bg-color: #ffffff;
-  --navbar-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
-  --navbar-logo-secondary-color: rgb(75, 75, 75);
-
-  /* Footer */
-  --footer-color: #443152;
-  --footer-text-color: #ffffff;
-
-  /* Search / Cards */
-  --searchbar-bg-color: #DEDEDE;
-  --search-button-color: grey;
-  --modal-card-bg: rgb(230, 230, 230);
-  --modal-card-hover-bg: rgb(221, 221, 221);
-  --modal-card-text-color: rgb(71, 71, 71);
-
-  /* Course header */
-  --course-header-text-color: #686868;
-  --course-header-border-color: rgb(216, 216, 216);
-  --expand-icon-color: #333;
-
-  /* Buttons / Controls */
-  --control-button-color: #666;
-  --control-button-hover-bg: rgba(0, 0, 0, 0.05);
-  --control-button-hover-color: #333;
-  --remove-button-color: rgb(99, 99, 99);
-  --accept-button-bg: #6e408f;
-
-  /* Dividers */
-  --divider-color: rgb(216, 216, 216);
-
-  /* Loading overlay */
-  --loading-overlay-bg: rgba(255, 255, 255, 0.7);
-  --loading-text-color: grey;
-
-  /* Toggle Switch */
-  --toggle-unchecked-bg: #ccc;
-  --toggle-knob-color: white;
-
-  /* Announcement Modal */
-  --announcement-border-color: rgb(224, 224, 224);
-
-  /* Bootstrap modal overrides */
-  --modal-bg: #ffffff;
-  --modal-header-border-color: #dee2e6;
-  --modal-footer-border-color: #dee2e6;
-  --modal-text-color: #212529;
-  --modal-close-color: #000000;
-
-  /* Scrollbar */
-  --scrollbar-track: #f1f1f1;
-  --scrollbar-thumb: #c1c1c1;
-  --scrollbar-thumb-hover: #a8a8a8;
+  color-scheme: light;
+  --bg: #f4f5f7;
+  --surface: #ffffff;
+  --surface-2: #f8f9fb;
+  --surface-3: #eef0f4;
+  --border: #e2e5ea;
+  --border-strong: #cdd2da;
+  --text: #14181f;
+  --text-2: #4a5362;
+  --text-3: #7a8494;
+  --accent: #2f5bea;
+  --accent-hover: #2449c7;
+  --accent-soft: #e8eefe;
+  --accent-text: #ffffff;
+  --danger: #d04141;
+  --danger-soft: #fdeceb;
+  --warn: #b45f00;
+  --warn-soft: #fff3de;
+  --ok: #1d8a54;
+  --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06);
+  --shadow-md: 0 6px 20px rgba(16, 24, 40, 0.1);
+  --shadow-lg: 0 20px 50px rgba(16, 24, 40, 0.22);
+  --radius: 10px;
+  --radius-sm: 7px;
+  --header-h: 56px;
+  --nav-h: 60px;
+  --row-alt: rgba(20, 24, 31, 0.025);
+  --grid-line-faint: rgba(20, 24, 31, 0.035);
+  --grid-line: #e8ebf0;
+  --grid-line-strong: #d9dde4;
+  --card-s: 92%;
+  --card-l: 94%;
+  --card-text-l: 24%;
+  --card-bar-l: 46%;
 }
 
-/* ============================================
-    DARK THEME
-   ============================================ */
-[data-theme="dark"] {
-  /* General */
-  --primary-color: #9b72b8;
-  --secondary-color: #a888bd;
-
-  /* Page backgrounds */
-  --background-primary-color: #1a1a2e;
-  --background-secondary-color: #232342;
-  --body-background-color: #12121f;
-
-  /* Text colors */
-  --text-primary-color: #e0e0e0;
-  --text-secondary-color: #b0b0c0;
-  --text-muted-color: #8888a0;
-  --text-light-color: #9999b0;
-
-  /* occurrenceCard */
-  --selected-card-color: #7a5a92;
-  --selected-card-border-color: #a06cc0;
-  --disabled-card-color: rgb(70, 70, 85);
-  --card-text-color: #d8d8e8;
-  --card-border-color: rgb(70, 70, 90);
-  --card-color: rgb(50, 50, 70);
-
-  /* Timetable */
-  --lecture-event-color: #7a5a90;
-  --tutorial-event-color: #5a95b8;
-  --lab-event-color: #b8a850;
-  --online-event-color: #9a60a8;
-  --other-event-color: #6a6a7a;
-  --exam-event-color: #c0605a;
-
-  /* Timetable grid */
-  --grid-background-color: #1e1e35;
-  --grid-header-color: #282845;
-  --grid-border-color: rgba(80, 80, 120, 0.4);
-  --grid-border-solid-color: #3a3a5a;
-  --grid-day-text-color: #c0c0d0;
-  --grid-settings-bg: #3a3a5a;
-  --grid-settings-icon-color: #a0a0b8;
-
-  /* Navbar */
-  --navbar-primary-color: #b088cc;
-  --navbar-bg-color: #1a1a2e;
-  --navbar-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
-  --navbar-logo-secondary-color: #b0b0c0;
-
-  /* Footer */
-  --footer-color: #12121f;
-  --footer-text-color: #c0c0d0;
-
-  /* Search / Cards */
-  --searchbar-bg-color: #2a2a45;
-  --search-button-color: #8888a0;
-  --modal-card-bg: rgb(42, 42, 65);
-  --modal-card-hover-bg: rgb(52, 52, 78);
-  --modal-card-text-color: rgb(180, 180, 200);
-
-  /* Course header */
-  --course-header-text-color: #b0b0c0;
-  --course-header-border-color: rgba(80, 80, 120, 0.4);
-  --expand-icon-color: #c0c0d0;
-
-  /* Buttons / Controls */
-  --control-button-color: #9999b0;
-  --control-button-hover-bg: rgba(255, 255, 255, 0.05);
-  --control-button-hover-color: #d0d0e0;
-  --remove-button-color: #9999b0;
-  --accept-button-bg: #7a50a8;
-
-  /* Dividers */
-  --divider-color: rgba(80, 80, 120, 0.4);
-
-  /* Loading overlay */
-  --loading-overlay-bg: rgba(26, 26, 46, 0.8);
-  --loading-text-color: #b0b0c0;
-
-  /* Toggle Switch */
-  --toggle-unchecked-bg: #3a3a5a;
-  --toggle-knob-color: #e0e0e0;
-
-  /* Announcement Modal */
-  --announcement-border-color: rgba(80, 80, 120, 0.4);
-
-  /* Bootstrap modal overrides */
-  --modal-bg: #232342;
-  --modal-header-border-color: rgba(80, 80, 120, 0.4);
-  --modal-footer-border-color: rgba(80, 80, 120, 0.4);
-  --modal-text-color: #e0e0e0;
-  --modal-close-color: #c0c0d0;
-
-  /* Scrollbar */
-  --scrollbar-track: #1a1a2e;
-  --scrollbar-thumb: #3a3a5a;
-  --scrollbar-thumb-hover: #4a4a6a;
+:root[data-theme="dark"] {
+  /* Dark mode swaps neutrals only: black/gray surfaces and white text.
+     Accent, status and module colours are deliberately identical to light. */
+  color-scheme: dark;
+  --bg: #0b0b0b;
+  --surface: #161616;
+  --surface-2: #1d1d1d;
+  --surface-3: #292929;
+  --border: #2c2c2c;
+  --border-strong: #3d3d3d;
+  --text: #ffffff;
+  --text-2: #d6d6d6;
+  --text-3: #a3a3a3;
+  --accent-soft: #292929;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.55);
+  --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.7);
+  --row-alt: rgba(255, 255, 255, 0.03);
+  --grid-line-faint: rgba(255, 255, 255, 0.022);
+  --grid-line: #262626;
+  --grid-line-strong: #353535;
 }
 
-/* ============================================
-    BASE STYLES
-   ============================================ */
-.body {
-  font-family: var(--font-fredoka), sans-serif !important;
+/* One hue per module; components read --card-bg / --card-fg / --card-bar. */
+.course-0 { --h: 218; }
+.course-1 { --h: 152; }
+.course-2 { --h: 28; }
+.course-3 { --h: 280; }
+.course-4 { --h: 340; }
+.course-5 { --h: 184; }
+.course-6 { --h: 48; }
+.course-7 { --h: 252; }
+.course-8 { --h: 100; }
+.course-9 { --h: 10; }
+[class*="course-"] {
+  --card-bg: hsl(var(--h) var(--card-s) var(--card-l));
+  --card-fg: hsl(var(--h) 45% var(--card-text-l));
+  --card-bar: hsl(var(--h) 62% var(--card-bar-l));
 }
 
-html {
-  background-color: var(--body-background-color);
-  transition: background-color 0.3s ease;
-}
+/* ============================================================
+   Base
+   ============================================================ */
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; overflow-x: clip; }
 
 body {
-  background-color: var(--body-background-color) !important;
-  color: var(--text-primary-color) !important;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans), system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-.acceptButton {
-  background-color: var(--accept-button-bg) !important;
-  color: white !important;
+h1, h2, h3, p { margin: 0; }
+button { font: inherit; color: inherit; cursor: pointer; }
+input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.theme-transition, .theme-transition *, .theme-transition *::before, .theme-transition *::after {
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease !important;
 }
 
-.magicButton {
-  background-image: linear-gradient(to right,
-      #4568dc 0%,
-      #b06ab3 51%,
-      #4568dc 100%);
-  background-size: 200% auto;
-  color: white;
-  box-shadow: 0 2px 5px 0 rgba(70, 104, 220, 0.75);
-}
-
-@media (max-width: 895px) {
-  .button {
-    width: 100%;
-    display: block !important;
-  }
-}
-
-/* ============================================
-    BOOTSTRAP UI THEME OVERRIDES
-   ============================================ */
-.dropdown-menu {
-  background-color: var(--background-secondary-color) !important;
-  border: 1px solid var(--grid-border-color) !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
-  padding: 8px 0 !important;
-}
-
-.dropdown-item {
-  color: var(--text-primary-color) !important;
-  padding: 8px 20px !important;
-}
-
-.dropdown-item:hover,
-.dropdown-item:focus {
-  background-color: var(--modal-card-hover-bg) !important;
-  color: var(--text-primary-color) !important;
-}
-
-.dropdown-item:active {
-  background-color: var(--selected-card-color) !important;
-}
-
-/* ============================================
-    BOOTSTRAP MODAL DARK THEME OVERRIDES
-   ============================================ */
-[data-theme="dark"] .modal-content {
-  background-color: var(--modal-bg) !important;
-  color: var(--modal-text-color) !important;
-  border-color: var(--modal-header-border-color) !important;
-}
-
-[data-theme="dark"] .modal-header {
-  border-bottom-color: var(--modal-header-border-color) !important;
-  color: var(--modal-text-color) !important;
-}
-
-[data-theme="dark"] .modal-header .btn-close {
-  filter: invert(1) grayscale(100%) brightness(200%);
-}
-
-[data-theme="dark"] .modal-footer {
-  border-top-color: var(--modal-footer-border-color) !important;
-}
-
-[data-theme="dark"] .modal-title {
-  color: var(--modal-text-color) !important;
-}
-
-[data-theme="dark"] .modal-body {
-  color: var(--modal-text-color) !important;
-}
-
-[data-theme="dark"] .modal-body h2 {
-  color: var(--text-primary-color) !important;
-}
-
-[data-theme="dark"] .modal-body small,
-[data-theme="dark"] .modal-body i {
-  color: var(--text-secondary-color) !important;
-}
-
-[data-theme="dark"] .modal-body hr {
-  border-color: var(--divider-color) !important;
-}
-
-/* ============================================
-    SCROLLBAR STYLING
-   ============================================ */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--scrollbar-track);
-}
-
+::-webkit-scrollbar { width: 10px; height: 10px; }
 ::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-thumb);
-  border-radius: 4px;
+  background: var(--border-strong);
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-track { background: transparent; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: var(--scrollbar-thumb-hover);
+/* ============================================================
+   Shared primitives
+   ============================================================ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  height: 36px;
+  padding: 0 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  color: var(--text);
+  font-weight: 500;
+  white-space: nowrap;
+  transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
+}
+.btn:hover:not(:disabled) { background: var(--surface-3); }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-text);
+}
+.btn-primary:hover:not(:disabled) { background: var(--accent-hover); border-color: var(--accent-hover); }
+.btn-ghost { border-color: transparent; background: transparent; color: var(--text-2); }
+.btn-sm { height: 30px; padding: 0 10px; font-size: 13px; }
+
+.icon-btn {
+  display: inline-grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-2);
+}
+.icon-btn:hover { background: var(--surface-3); color: var(--text); }
+.icon-btn-sm { width: 28px; height: 28px; }
+
+.toggle {
+  position: relative;
+  flex: none;
+  width: 38px;
+  height: 22px;
+  border-radius: 999px;
+  border: none;
+  background: var(--border-strong);
+  transition: background 0.18s;
+  padding: 0;
+}
+.toggle::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.18s;
+}
+.toggle[aria-checked="true"] { background: var(--accent); }
+.toggle[aria-checked="true"]::after { transform: translateX(16px); }
+
+.chip {
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--surface-3);
+  color: var(--text-2);
+  font-size: 12px;
+  font-weight: 500;
 }
 
-/* ============================================
-    GLOBAL TRANSITION FOR THEME SWITCH
-   ============================================ */
-/* Only applied briefly during theme toggle — avoids always-on transition overhead */
-html.theme-transition *,
-html.theme-transition *::before,
-html.theme-transition *::after {
-  transition-property: background-color, border-color, color, box-shadow, fill, stroke;
-  transition-duration: 0.3s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
+.field-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-2);
+  margin-bottom: 6px;
+}
+
+
+/* Landscape phones: very little height, so shrink chrome. */
+@media (max-height: 520px) {
+  :root { --header-h: 46px; }
 }

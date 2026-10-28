@@ -1,0 +1,28 @@
+.root { position: fixed; inset: 0; z-index: 300; }
+.shield { position: absolute; inset: 0; }
+.dim { position: absolute; inset: 0; background: rgba(8, 10, 16, 0.66); animation: fade 0.2s ease; }
+.spot {
+  position: absolute;
+  border-radius: 12px;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.95), 0 0 0 100vmax rgba(8, 10, 16, 0.66);
+  pointer-events: none;
+  transition: top 0.25s ease, left 0.25s ease, width 0.25s ease, height 0.25s ease;
+}
+.card {
+  position: absolute;
+  width: min(340px, calc(100vw - 24px));
+  padding: 16px 16px 14px;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: var(--shadow-lg);
+  animation: pop 0.2s ease;
+}
+.count { font-size: 11.5px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); margin-bottom: 4px; }
+.card h3 { font-size: 16.5px; letter-spacing: -0.01em; margin-bottom: 4px; }
+.text { font-size: 13.5px; line-height: 1.55; color: var(--text-2); }
+.actions { display: flex; align-items: center; gap: 8px; margin-top: 14px; }
+.spacer { flex: 1; }
+@keyframes fade { from { opacity: 0; } }
+@keyframes pop { from { opacity: 0; transform: translateY(6px); } }

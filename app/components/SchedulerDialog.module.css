@@ -1,0 +1,54 @@
+.intro { color: var(--text-2); margin-bottom: 18px; }
+.section { padding: 16px 0; border-top: 1px solid var(--border); }
+.section:first-of-type { border-top: none; padding-top: 0; }
+.section h3 { font-size: 13px; font-weight: 650; margin-bottom: 4px; }
+.help { display: block; font-size: 12.5px; color: var(--text-3); margin-bottom: 10px; }
+.help svg { vertical-align: -1px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px; }
+.select {
+  width: 100%;
+  height: 36px;
+  padding: 0 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+}
+.pill {
+  min-width: 52px;
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  font-weight: 550;
+}
+.pill:hover { background: var(--surface-3); }
+.pillOn { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+.pillOn:hover { background: var(--accent-hover); }
+.switchRow { display: flex; align-items: center; justify-content: space-between; gap: 16px; cursor: pointer; }
+.switchRow strong { display: block; font-weight: 600; margin-bottom: 1px; }
+.switchRow .help { margin-bottom: 0; }
+
+.courseTutors { display: flex; flex-direction: column; gap: 14px; }
+.courseTitle { font-weight: 550; margin-bottom: 6px; }
+.code { font-weight: 700; color: var(--text-2); }
+.tutor {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  font-size: 12.5px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+}
+.tutor:hover { background: var(--surface-3); }
+.like { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.avoid { background: var(--danger-soft); border-color: var(--danger); color: var(--danger); font-weight: 600; text-decoration: line-through; }
+
+.segmented { display: grid; grid-template-columns: repeat(3, 1fr); padding: 3px; gap: 3px; background: var(--surface-3); border-radius: var(--radius-sm); margin-bottom: 14px; }
+.segment { height: 32px; border: none; border-radius: 6px; background: transparent; font-weight: 550; color: var(--text-2); }
+.segmentOn { background: var(--surface); color: var(--text); box-shadow: var(--shadow-sm); }
+
+.error { margin-top: 8px; padding: 10px 12px; border-radius: var(--radius-sm); background: var(--danger-soft); color: var(--danger); font-weight: 500; }

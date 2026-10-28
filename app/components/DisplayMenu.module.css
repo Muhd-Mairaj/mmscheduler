@@ -1,0 +1,19 @@
+.wrap { position: relative; }
+.menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 20;
+  width: min(220px, calc(100vw - 24px));
+  padding: 6px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+}
+.row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 9px 10px; border-radius: var(--radius-sm); cursor: pointer; }
+.row:hover { background: var(--surface-2); }
+
+@media (max-width: 720px), (max-height: 520px) {
+  .label { display: none; }
+}
