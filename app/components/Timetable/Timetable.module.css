@@ -47,7 +47,7 @@
   min-width: 1150px;
   display: grid;
   /* 26 half-hour slots */
-  grid-template-columns: auto repeat(26, minmax(40px, 1fr));
+  grid-template-columns: auto repeat(var(--slots, 26), minmax(40px, 1fr));
   /* 5 days + header */
   grid-template-rows: auto repeat(5, minmax(100px, auto));
   border: 1px solid var(--grid-border-color);
@@ -127,19 +127,53 @@
 }
 
 .timetableHeader {
-  display: flex;
-  justify-content: center;
-  /* Align text at the bottom */
-  align-items: flex-end;
+  position: relative;
   font-size: clamp(10px, 1vw, 12px);
   font-weight: 600;
-  padding: 10px;
   background-color: var(--grid-header-color);
   color: var(--text-primary-color);
   border-bottom: 1px solid var(--grid-border-color);
-  border-right: 1px solid var(--grid-border-color);
   z-index: 2;
   min-height: 50px;
+}
+
+/* The tick on the line of the hour */
+.timetableHeader::before,
+.endTick {
+  content: "";
+  position: absolute;
+  left: -1px;
+  bottom: 0;
+  width: 1px;
+  height: 8px;
+  background-color: var(--grid-border-solid-color);
+}
+
+/* The labels are on the lines between the hours (not inside the cells), so a class
+   from 8 to 11 starts at the line of 8 AM and ends at the line of 11 AM */
+.timeLabel {
+  position: absolute;
+  left: 0;
+  bottom: 12px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.endTick {
+  left: auto;
+  right: 0;
+}
+
+/* The first label starts after its line to stay out of the corner and the last one ends at its line */
+.firstTimeLabel {
+  left: 6px;
+  transform: none;
+}
+
+.endTimeLabel {
+  left: auto;
+  right: 6px;
+  transform: none;
 }
 
 .daySlot {
@@ -167,47 +201,18 @@
   border-bottom: 1px solid var(--grid-border-color);
 }
 
-.lectureEvent,
-.tutorialEvent,
-.labEvent,
-.onlineEvent,
-.otherEvent {
-  /* Add margin to create space between events */
-  margin: 4px;
-  /* Maintain padding for internal content */
-  padding: 8px;
-  border-radius: 10px;
-  /* Ensure padding and margin stay within the grid cell */
-  box-sizing: border-box;
-}
-
-.lectureEvent {
-  background-color: var(--lecture-event-color, #4caf50);
-}
-
-.tutorialEvent {
-  background-color: var(--tutorial-event-color, #2196f3);
-}
-
-.labEvent {
-  background-color: var(--lab-event-color, #ff9800);
-}
-
-.onlineEvent {
-  background-color: var(--online-event-color, #9c27b0);
-}
-
-.otherEvent {
-  background-color: var(--other-event-color, #607d8b);
-}
-
 .eventCard {
   color: white;
+  /* The colour is set by the course-color classes in globals.css */
+  background-color: var(--event-bg);
+  /* Space above and below the events, the sides are on the lines of the hours */
+  margin: 4px 1px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   /* Subtract margin to keep it within the grid */
-  width: calc(100% - 8px);
+  width: calc(100% - 2px);
   /* Subtract margin to keep it within the grid */
   height: calc(100% - 8px);
   /* Ensure padding and margin stay within the grid cell */
@@ -215,9 +220,10 @@
   font-size: clamp(10px, 0.35vw, 6.5px);
   line-height: 1.15;
   overflow: hidden;
-  padding: 8px;
   z-index: 3;
+  container-type: inline-size;
 }
+
 
 .eventContent {
   display: flex;
@@ -226,6 +232,7 @@
   flex-grow: 1;
   min-height: 0;
   overflow: hidden;
+  padding: 8px;
 }
 
 .moduleTitle {
@@ -248,7 +255,9 @@
 }
 
 .timeInfo {
-  font-size: clamp(10px, 0.35vw, 6.5px);
+  font-size: 13px;
+  font-weight: 800;
+  margin-bottom: 3px;
   white-space: normal;
   word-break: break-word;
   overflow: hidden;
@@ -287,5 +296,37 @@
   margin: 0;
   font-size: clamp(10px, 0.35vw, 6.5px);
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: capitalize;
+}
+
+/* The timetable has less room next to the modules */
+@media (min-width: 1280px) {
+  .timetableGrid {
+    min-width: 840px;
+    grid-template-columns: auto repeat(var(--slots, 26), minmax(30px, 1fr));
+  }
+
+  .timetableHeader {
+    font-size: 11px;
+  }
+}
+
+/* Short classes are narrow, so everything gets a bit smaller to fit */
+@container (max-width: 95px) {
+  .eventContent {
+    font-size: 9px;
+    padding: 6px 4px;
+  }
+
+  .timeInfo {
+    font-size: 11px;
+  }
+
+  .moduleTitle,
+  .activityTitle p,
+  .room,
+  .tutor {
+    font-size: 9px !important;
+    hyphens: none;
+  }
 }

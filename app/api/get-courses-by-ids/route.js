@@ -1,20 +1,23 @@
-import data from '../../all_courses_updated_one_week_schedule_occ_separated.json';
+import data from '../../functions/Common/courses';
 
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
-  console.log(searchParams.get('query'));
+  const query = searchParams.get('query') || '';
   let results = {};
 
-  for (const courseCode of searchParams.get('query').split(",")) {
+  for (const courseCode of query.split(",")) {
     if (courseCode) {
       results[courseCode] = getCourseById(courseCode);
     }
   }
-  console.log(results);
 
   return new Response(JSON.stringify(results), {
     status: 200,
-    headers: { 'Content-Type': 'application/json' },
+    headers: {
+      'Content-Type': 'application/json',
+      // the data only changes once a day
+      'Cache-Control': 'public, max-age=300',
+    },
   });
 }
 

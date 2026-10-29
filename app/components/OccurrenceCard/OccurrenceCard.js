@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import classes from "./OccurrenceCard.module.css";
 
 const OccurrenceCard = ({ onClick, occurrence, isDisabled, isSelected }) => {
@@ -15,7 +16,7 @@ const OccurrenceCard = ({ onClick, occurrence, isDisabled, isSelected }) => {
         
         {occurrence.activities.map((activity, idx) => {
           return (
-            <>
+            <Fragment key={idx}>
               <div className={classes.activity}>
                 <div className={classes.activityTitle}>
                   <p>({activity.title})</p>
@@ -31,7 +32,7 @@ const OccurrenceCard = ({ onClick, occurrence, isDisabled, isSelected }) => {
                 </div>
               </div>
               <hr />
-            </>
+            </Fragment>
           )
         })}
         {/* {occurrence.lecture && (
