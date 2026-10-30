@@ -218,6 +218,20 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Every module gets its own colour on the timetable, the same in both themes.
+   The blocks have white text, so the colours are dark enough to be readable
+   (contrast of at least 5:1) */
+.course-color-0 { --event-bg: hsl(280 48% 52%); }
+.course-color-1 { --event-bg: hsl(214 48% 47%); }
+.course-color-2 { --event-bg: hsl(142 48% 33%); }
+.course-color-3 { --event-bg: hsl(24 48% 41%); }
+.course-color-4 { --event-bg: hsl(336 48% 50%); }
+.course-color-5 { --event-bg: hsl(180 48% 32%); }
+.course-color-6 { --event-bg: hsl(43 48% 35%); }
+.course-color-7 { --event-bg: hsl(246 48% 58%); }
+.course-color-8 { --event-bg: hsl(4 48% 49%); }
+.course-color-9 { --event-bg: hsl(90 48% 32%); }
+
 .acceptButton {
   background-color: var(--accept-button-bg) !important;
   color: white !important;

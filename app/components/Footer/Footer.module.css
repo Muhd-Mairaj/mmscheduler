@@ -1,10 +1,15 @@
 .footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 900;
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--footer-text-color);
   font-weight: bold;
-  height: 100px;
+  height: 56px;
   background-color: var(--footer-color);
 }
 
