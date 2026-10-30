@@ -13013,14 +13013,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "PUSTAKAY",
-          "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "MISS CHIN SZE YUIN"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "HIMAWARI",
           "begin_time": "09:00",
@@ -13033,6 +13025,14 @@
           "room": "BILIKSEP1",
           "begin_time": "09:00",
           "end_time": "11:00",
+          "tutor": "MISS CHIN SZE YUIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "PUSTAKAY",
+          "begin_time": "15:00",
+          "end_time": "17:00",
           "tutor": "MISS CHIN SZE YUIN"
         }
       ]
@@ -22099,15 +22099,23 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. FARID MOHAMMADI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
         },
         {
           "title": "tutorial",
@@ -22136,15 +22144,23 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. FARID MOHAMMADI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
         },
         {
           "title": "tutorial",
@@ -22173,15 +22189,23 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. FARID MOHAMMADI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
         },
         {
           "title": "tutorial",
@@ -22211,15 +22235,23 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. FARID MOHAMMADI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
         },
         {
           "title": "tutorial",
@@ -22248,15 +22280,23 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. FARID MOHAMMADI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
         },
         {
           "title": "tutorial",
@@ -22285,15 +22325,23 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. FARID MOHAMMADI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
         },
         {
           "title": "tutorial",
@@ -22323,15 +22371,23 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. FARID MOHAMMADI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
         },
         {
           "title": "tutorial",
@@ -22360,15 +22416,23 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. FARID MOHAMMADI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
         },
         {
           "title": "tutorial",
@@ -22397,15 +22461,23 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. FARID MOHAMMADI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
         },
         {
           "title": "tutorial",
@@ -22435,15 +22507,23 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. FARID MOHAMMADI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
         },
         {
           "title": "tutorial",
@@ -22472,15 +22552,23 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. FARID MOHAMMADI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
         },
         {
           "title": "tutorial",
@@ -22509,15 +22597,23 @@
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
+          "end_time": "17:00"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "15:00",
-          "end_time": "17:00"
+          "end_time": "17:00",
+          "tutor": "DR. FARID MOHAMMADI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
         },
         {
           "title": "tutorial",
@@ -22580,6 +22676,21 @@
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. FLORENCE KUEK CHEE WEE"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. ALI FAUZI BIN AHMAD KHAN"
         },
@@ -22605,6 +22716,21 @@
       "levelCode": 3,
       "occurence": "2",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. FLORENCE KUEK CHEE WEE"
+        },
         {
           "title": "lecture",
           "day": "Monday",
@@ -22640,6 +22766,21 @@
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. FLORENCE KUEK CHEE WEE"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. ALI FAUZI BIN AHMAD KHAN"
         },
@@ -22665,6 +22806,21 @@
       "levelCode": 3,
       "occurence": "4",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. FLORENCE KUEK CHEE WEE"
+        },
         {
           "title": "lecture",
           "day": "Monday",
@@ -22700,6 +22856,21 @@
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. FLORENCE KUEK CHEE WEE"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. ALI FAUZI BIN AHMAD KHAN"
         },
@@ -22725,6 +22896,21 @@
       "levelCode": 3,
       "occurence": "6",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. FLORENCE KUEK CHEE WEE"
+        },
         {
           "title": "lecture",
           "day": "Monday",
@@ -22761,6 +22947,21 @@
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. FLORENCE KUEK CHEE WEE"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. ALI FAUZI BIN AHMAD KHAN"
         },
@@ -22787,6 +22988,21 @@
       "levelCode": 3,
       "occurence": "8",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. FLORENCE KUEK CHEE WEE"
+        },
         {
           "title": "lecture",
           "day": "Monday",
@@ -22823,6 +23039,21 @@
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. FLORENCE KUEK CHEE WEE"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. ALI FAUZI BIN AHMAD KHAN"
         },
@@ -22848,6 +23079,21 @@
       "levelCode": 3,
       "occurence": "10",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. FLORENCE KUEK CHEE WEE"
+        },
         {
           "title": "lecture",
           "day": "Monday",
@@ -22879,6 +23125,21 @@
       "levelCode": 3,
       "occurence": "11",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. FLORENCE KUEK CHEE WEE"
+        },
         {
           "title": "lecture",
           "day": "Monday",
@@ -22919,6 +23180,21 @@
           "begin_time": "13:00",
           "end_time": "15:00",
           "tutor": "ASSOCIATE PROF. DR. HASLINA BINTI MUHAMAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "15:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "15:00",
+          "tutor": "ASSOCIATE PROF. DR. NOORHIDAWATI BINTI ABDULLAH"
         },
         {
           "title": "tutorial",
@@ -24403,6 +24679,29 @@
       "examDuration": 7200,
       "levelCode": 4,
       "occurence": "1M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DKD",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "DR. LAI SUAT YAN"
+        }
+      ]
+    },
+    {
+      "module": "FEMINIST AND GENDER THEORIES",
+      "course_id": "AQD7003",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 85,
+      "level": "MASTER",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "1R",
       "activities": [
         {
           "title": "lecture",
@@ -73473,15 +73772,15 @@
           "title": "lecture",
           "day": "Friday",
           "room": "BK102",
-          "begin_time": "17:00",
-          "end_time": "18:00"
+          "begin_time": "10:00",
+          "end_time": "12:00"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "BK102",
-          "begin_time": "10:00",
-          "end_time": "12:00"
+          "begin_time": "17:00",
+          "end_time": "18:00"
         }
       ]
     },
@@ -88143,14 +88442,6 @@
           "day": "Friday",
           "room": "MD2",
           "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "DR. CHEONG FEI WEN"
-        },
-        {
-          "title": "practical",
-          "day": "Friday",
-          "room": "MD2",
-          "begin_time": "15:00",
           "end_time": "17:00"
         },
         {
@@ -91339,14 +91630,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "17:00",
-          "tutor": "DR. LEE WAN LING"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK1",
           "begin_time": "08:00",
@@ -91372,6 +91655,14 @@
         {
           "title": "lecture",
           "day": "Thursday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. LEE WAN LING"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "DK1",
           "begin_time": "08:00",
           "end_time": "17:00",
@@ -91634,14 +91925,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "17:00",
-          "tutor": "DR. CHUI PING LEI"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK1",
           "begin_time": "08:00",
@@ -91667,6 +91950,14 @@
         {
           "title": "lecture",
           "day": "Thursday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. CHUI PING LEI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "DK1",
           "begin_time": "08:00",
           "end_time": "17:00",
@@ -103912,18 +104203,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "BSD",
-          "begin_time": "18:00",
-          "end_time": "21:00"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "BSEC306",
           "begin_time": "15:00",
           "end_time": "18:00",
           "tutor": "DR. NORFARIZA BINTI MOHD RADZI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BSD",
+          "begin_time": "18:00",
+          "end_time": "21:00"
         }
       ]
     },
@@ -106886,17 +107177,17 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS1BCL",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "room": "BS2BCL",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. WANG I TA"
         },
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS2BCL",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "room": "BS1BCL",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. WANG I TA"
         }
       ]
@@ -107038,17 +107329,17 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS1BCL",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "room": "BS2BCL",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. WANG I TA"
         },
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS2BCL",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "room": "BS1BCL",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. WANG I TA"
         }
       ]
@@ -107071,17 +107362,17 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS1BCL",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "room": "BS2BCL",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. WANG I TA"
         },
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS2BCL",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "room": "BS1BCL",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. WANG I TA"
         }
       ]
@@ -110164,13 +110455,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "STBPE",
-          "begin_time": "15:00",
-          "end_time": "17:00"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "BBOXPE",
           "begin_time": "13:00",
@@ -110191,6 +110475,13 @@
           "begin_time": "13:30",
           "end_time": "15:30",
           "tutor": "MR. MOHAMMAD KHAIRI MOKTHAR"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "STBPE",
+          "begin_time": "15:00",
+          "end_time": "17:00"
         }
       ]
     }
@@ -114198,7 +114489,7 @@
           "room": "DK1",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "DR. MOHD ZUWAIRI BIN SAIMAN"
+          "tutor": "ASSOCIATE PROF. DR. NOOR HASHIDA BINTI HASHIM"
         },
         {
           "title": "lecture",
@@ -114206,7 +114497,7 @@
           "room": "DK1",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. NOOR HASHIDA BINTI HASHIM"
+          "tutor": "DR. MOHD ZUWAIRI BIN SAIMAN"
         }
       ]
     }
