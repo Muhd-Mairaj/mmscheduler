@@ -2138,31 +2138,6 @@
       ]
     }
   ],
-  "AA078001": [
-    {
-      "module": "QUANTITATIVE RESEARCH METHODS",
-      "course_id": "AA078001",
-      "credits": 3,
-      "yearPeriod": "2026/R1",
-      "overallTargetStudent": 30,
-      "level": "PhD",
-      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
-      "continuousAssessmentWeightage": "70~30",
-      "examDuration": 7200,
-      "levelCode": 5,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Saturday",
-          "room": "CBS7",
-          "begin_time": "09:00",
-          "end_time": "17:00",
-          "tutor": "PROF. DR. MOHD ZULKHAIRI BIN MUSTAPHA"
-        }
-      ]
-    }
-  ],
   "AA078003": [
     {
       "module": "QUALITATIVE RESEARCH METHODS",
@@ -30826,44 +30801,11 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Saturday",
-          "room": "BK2",
-          "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "DR. YONG ADILAH BINTI SHAMSUL HARUMAIN"
-        },
-        {
-          "title": "tutorial",
-          "day": "Saturday",
-          "room": "BK2",
-          "begin_time": "19:00",
-          "end_time": "20:00",
-          "tutor": "DR. YONG ADILAH BINTI SHAMSUL HARUMAIN"
-        }
-      ]
-    }
-  ],
-  "BQE7010": [
-    {
-      "module": "THE ART OF DECISION MAKING",
-      "course_id": "BQE7010",
-      "credits": 3,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 53,
-      "level": "MASTER",
-      "faculty": "FACULTY OF BUILT ENVIRONMENT",
-      "continuousAssessmentWeightage": "70~30",
-      "examDuration": null,
-      "levelCode": 4,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Saturday",
-          "room": "BK5",
-          "begin_time": "20:00",
+          "day": "Friday",
+          "room": "STURP1",
+          "begin_time": "21:00",
           "end_time": "23:00",
-          "tutor": "PROFESOR TPR DR. GOH HONG CHING"
+          "tutor": "DR. YONG ADILAH BINTI SHAMSUL HARUMAIN"
         }
       ]
     }
@@ -34117,7 +34059,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Saturday",
+          "day": "Sunday",
           "room": "CBS1112",
           "begin_time": "09:00",
           "end_time": "18:00",
@@ -34125,7 +34067,7 @@
         },
         {
           "title": "lecture",
-          "day": "Sunday",
+          "day": "Saturday",
           "room": "CBS1112",
           "begin_time": "09:00",
           "end_time": "18:00",
