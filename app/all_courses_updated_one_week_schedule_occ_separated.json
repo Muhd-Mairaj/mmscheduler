@@ -34059,7 +34059,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Sunday",
+          "day": "Saturday",
           "room": "CBS1112",
           "begin_time": "09:00",
           "end_time": "18:00",
@@ -34067,7 +34067,7 @@
         },
         {
           "title": "lecture",
-          "day": "Saturday",
+          "day": "Sunday",
           "room": "CBS1112",
           "begin_time": "09:00",
           "end_time": "18:00",
