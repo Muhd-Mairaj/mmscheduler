@@ -47,3 +47,35 @@
   color: var(--text-muted-color);
   text-align: center;
 }
+
+.importRow {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.importButton {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  color: var(--control-button-color);
+  font-size: 0.85rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.importButton:hover {
+  background: var(--control-button-hover-bg);
+  color: var(--control-button-hover-color);
+}
+
+.importHint {
+  margin: 4px 0 0 0;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted-color);
+}

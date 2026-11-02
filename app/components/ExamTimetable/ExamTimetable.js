@@ -14,10 +14,12 @@ import {
 import { faCamera } from "@fortawesome/free-solid-svg-icons";
 import { saveTableImage } from "../../functions/Home/saveTableImage";
 import { toTitleCase } from "../../functions/Common/typography";
+import { formatTimeRange } from "../../functions/Common/time";
+import { getCourseColorClass } from "../../functions/Common/courseColor";
 
-const ExamTimetable = React.forwardRef(({ selectedOccurrences }, ref) => {
+const ExamTimetable = React.forwardRef(({ selectedOccurrences, courseCodes }, ref) => {
   const [settingsDropdownOpen, setSettingsDropdownOpen] = useState(false);
-  const [showActivity, setShowActivity] = useState(false);
+  const [showActivity, setShowActivity] = useState(true);
   const [showRoomAndTime, setShowRoomAndTime] = useState(true);
 
   const tableRef = useRef();
@@ -65,20 +67,12 @@ const ExamTimetable = React.forwardRef(({ selectedOccurrences }, ref) => {
   );
   uniqueDates.sort((a, b) => new Date(a).getTime() - new Date(b).getTime());
 
-  const times = [
-    "8:00 AM",
-    "9:00 AM",
-    "10:00 AM",
-    "11:00 AM",
-    "12:00 PM",
-    "1:00 PM",
-    "2:00 PM",
-    "3:00 PM",
-    "4:00 PM",
-    "5:00 PM",
-    "6:00 PM",
-    "7:00 PM",
-  ];
+  // the labels are on the lines between the hours, like in the timetable
+  const formatHour = (hour) =>
+    `${hour % 12 === 0 ? 12 : hour % 12} ${hour >= 12 ? "PM" : "AM"}`;
+
+  const times = Array.from({ length: 12 }, (_, index) => formatHour(8 + index));
+  const endTime = formatHour(20);
 
   const convertDateToRow = (date) => {
     return uniqueDates.indexOf(date) + 2;
@@ -89,16 +83,6 @@ const ExamTimetable = React.forwardRef(({ selectedOccurrences }, ref) => {
     const hourOffset = hour - 8; // Assuming timetable starts at 8 AM
     const halfHourOffset = minutes === 30 ? 1 : 0;
     return 2 + hourOffset * 2 + halfHourOffset; // Calculate grid column
-  };
-
-  const getEventClass = (title) => {
-    title = title.toLowerCase();
-    if (title === "lecture") return classes.lectureEvent;
-    if (title === "tutorial") return classes.tutorialEvent;
-    if (title === "lab") return classes.labEvent;
-    if (title === "online") return classes.onlineEvent;
-    if (title === "exam") return classes.examEvent;
-    return classes.otherEvent;
   };
 
   const handleSaveImage = () => {
@@ -171,7 +155,23 @@ const ExamTimetable = React.forwardRef(({ selectedOccurrences }, ref) => {
                 }}
                 className={classes.timetableHeader}
               >
-                {time}
+                <span
+                  className={`${classes.timeLabel} ${
+                    timeIdx === 0 ? classes.firstTimeLabel : ""
+                  }`}
+                >
+                  {time}
+                </span>
+                {timeIdx === times.length - 1 && (
+                  <>
+                    <span className={classes.endTick} />
+                    <span
+                      className={`${classes.timeLabel} ${classes.endTimeLabel}`}
+                    >
+                      {endTime}
+                    </span>
+                  </>
+                )}
               </div>
             ))}
             {uniqueDates.map((date, dateIdx) => (
@@ -211,27 +211,30 @@ const ExamTimetable = React.forwardRef(({ selectedOccurrences }, ref) => {
                     activity.begin_time
                   )} / ${convertTimeToColumn(activity.end_time)}`,
                 }}
-                className={`${classes.eventCard} ${getEventClass(
-                  activity.title
+                className={`${classes.eventCard} ${getCourseColorClass(
+                  courseCodes,
+                  activity.course_id
                 )}`}
               >
                 <div className={classes.eventContent}>
+                  {showRoomAndTime && (
+                    <div className={classes.timeInfo}>
+                      {formatTimeRange(activity.begin_time, activity.end_time)}
+                    </div>
+                  )}
                   <div className={classes.moduleTitle}>
-                    <span>#{activity.course_id} ({activity.occurrence})</span>
+                    <span>{activity.course_id}</span>
                     {activity.module}
                   </div>
                   {showActivity && (
                     <div className={classes.activityTitle}>
-                      <p>Activity: {activity.title.toUpperCase()}</p>
+                      <p>
+                        {activity.title} · Occ {activity.occurrence}
+                      </p>
                     </div>
                   )}
                   {showRoomAndTime && (
-                    <div className={classes.room}>
-                      {activity.room}
-                      <div className={classes.timeInfo}>
-                        ({activity.begin_time} - {activity.end_time})
-                      </div>
-                    </div>
+                    <div className={classes.room}>{activity.room}</div>
                   )}
                   {activity.tutor && (
                     <div className={classes.tutor}>

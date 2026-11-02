@@ -1,6 +1,7 @@
-import html2canvas from 'html2canvas';
+export const saveTableImage = async (tableRef, fileName = 'full_timetable.png') => {
+  // only loaded when an image is saved, it is big
+  const { default: html2canvas } = await import('html2canvas');
 
-export const saveTableImage = (tableRef, fileName = 'full_timetable.png') => {
   const table = tableRef.current;
 
   // Create a clone of the table

@@ -11,6 +11,7 @@ The latest data refresh targets **Semester 1, 2026/2027** (`2026/S1`). Some reco
 ## Features
 
 - Search for modules by code or name
+- Import your modules and occurrences from a screenshot of your enrollment (paste it or upload it)
 - Compare class times, rooms, and lecturers across occurrences
 - Automatically disable clashing occurrences
 - Generate a schedule with **AI Scheduling** based on lecturer and day-off preferences
@@ -24,6 +25,17 @@ The latest data refresh targets **Semester 1, 2026/2027** (`2026/S1`). Some reco
 AI Scheduling is a local heuristic, not an LLM. It tries every possible combination, removes clashes, scores the remaining schedules using your preferences, and picks the best result. It runs in a Web Worker in your browser and does not send your schedule to an external AI service.
 
 It may take longer when you add many modules with many occurrences.
+
+### About screenshot import
+
+Instead of searching for every module, you can paste (Ctrl+V / Cmd+V) or upload a screenshot of the Registered Modules table from the UM portal. MMScheduler reads it, adds the modules and selects the occurrences for you. You get to check what was found before anything is added. On phones you pick the screenshot from your gallery.
+
+Some tips:
+
+- Include the whole table with the module codes and the occurrence column. A full page screenshot works too, and dark mode screenshots are fine.
+- Very small or blurry screenshots can be read wrongly. If an occurrence could not be read, the module is still added and you can pick the occurrence yourself.
+
+The text is read in your browser with [tesseract.js](https://github.com/naptha/tesseract.js), so the image is never uploaded. The engine files (about 7 MB) are downloaded from a CDN the first time and your browser keeps them. They start loading when you press the import button, and the engine is reused for the next screenshots.
 
 ## Run locally
 

@@ -1,17 +1,20 @@
 .home {
   position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* room for the footer, which is always at the bottom of the screen */
+  padding-bottom: 56px;
 }
 
 .homeContainer {
   background-color: var(--background-primary-color);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  max-width: 1200px;
+  flex: 1;
   padding: 50px;
   padding-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
 }
 
 .topControls {
@@ -41,6 +44,8 @@
   justify-content: space-between;
   align-items: center;
   border: 1px solid var(--course-header-border-color);
+  /* the colour of the module on the timetable */
+  border-left: 6px solid var(--event-bg, var(--course-header-border-color));
   padding: 20px;
   margin-bottom: 5px;
   border-radius: 20px;
@@ -135,6 +140,25 @@
   text-align: center;
 }
 
+.noCoursesHint {
+  max-width: 400px;
+  margin-top: 20px;
+  color: var(--text-muted-color);
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.moduleSearch {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.noMatches {
+  margin: 20px 0 0 0;
+  color: var(--text-muted-color);
+  text-align: center;
+}
+
 .controls {
   display: flex;
   justify-content: space-between;
@@ -216,6 +240,65 @@
   width: 100%;
   gap: 50px;
   overflow-x: auto;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.modulesPane,
+.timetablePane {
+  width: 100%;
+  min-width: 0;
+}
+
+.modulesPane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* On wide screens the modules are on the left and the timetable on the right */
+@media (min-width: 1280px) {
+  .homeContainer {
+    /* keeps the content clear of the add module ribbon */
+    padding-right: 80px;
+  }
+
+  .layout {
+    max-width: 1800px;
+    display: grid;
+    grid-template-columns: minmax(360px, 30%) minmax(0, 1fr);
+    gap: 40px;
+    align-items: start;
+  }
+
+  .occurrenceContainer {
+    width: 100%;
+  }
+
+  .modulesPane .occurrences {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* The timetable stays in view while scrolling through the modules */
+  .timetablePane {
+    position: sticky;
+    top: 90px;
+    /* starts at the same height as the first module */
+    margin-top: 30px;
+    max-height: calc(100vh - 166px);
+    overflow-y: auto;
+  }
+
+  .timetablePane .tablesContainer {
+    border-top: none;
+    margin-top: 0;
+    padding: 0;
+  }
 }
 
 @media (min-width: 1051px) {
