@@ -12910,14 +12910,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "PUSTAKAY",
-          "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "MISS CHIN SZE YUIN"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "HIMAWARI",
           "begin_time": "09:00",
@@ -12930,6 +12922,14 @@
           "room": "BILIKSEP1",
           "begin_time": "09:00",
           "end_time": "11:00",
+          "tutor": "MISS CHIN SZE YUIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "PUSTAKAY",
+          "begin_time": "15:00",
+          "end_time": "17:00",
           "tutor": "MISS CHIN SZE YUIN"
         }
       ]
@@ -39136,10 +39136,76 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Wednesday",
           "room": "ABAUDI",
           "begin_time": "12:00",
           "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "INTEGRITY AND ANTI-CORRUPTION",
+      "course_id": "GDG1013",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 2,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBK 22",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        }
+      ]
+    },
+    {
+      "module": "INTEGRITY AND ANTI-CORRUPTION",
+      "course_id": "GDG1013",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 2,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBK 24",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        }
+      ]
+    },
+    {
+      "module": "INTEGRITY AND ANTI-CORRUPTION",
+      "course_id": "GDG1013",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 2,
+      "occurence": "5",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 19",
+          "begin_time": "10:00",
+          "end_time": "12:00"
         }
       ]
     },
@@ -39162,6 +39228,95 @@
           "room": "ABBK 18",
           "begin_time": "10:00",
           "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "INTEGRITY AND ANTI-CORRUPTION",
+      "course_id": "GDG1013",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 2,
+      "occurence": "7",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "GAUDI JHB",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        }
+      ]
+    },
+    {
+      "module": "INTEGRITY AND ANTI-CORRUPTION",
+      "course_id": "GDG1013",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 2,
+      "occurence": "8",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBK 24",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "INTEGRITY AND ANTI-CORRUPTION",
+      "course_id": "GDG1013",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 2,
+      "occurence": "9",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBL 1",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MRS CHE MASNIFA ATIKAH BINTI ABDUL MALIK"
+        }
+      ]
+    },
+    {
+      "module": "INTEGRITY AND ANTI-CORRUPTION",
+      "course_id": "GDG1013",
+      "credits": 2,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 2,
+      "occurence": "10",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBL 2",
+          "begin_time": "08:00",
+          "end_time": "10:00"
         }
       ]
     }
@@ -39273,7 +39428,7 @@
           "room": "NLINE",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "DR. NOORASYIKIN BINTI SHAMSUDDIN"
+          "tutor": "DR. SYIREEN BINTI ALWI"
         },
         {
           "title": "lecture",
@@ -39281,7 +39436,7 @@
           "room": "NLINE",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "DR. SYIREEN BINTI ALWI"
+          "tutor": "DR. NOORASYIKIN BINTI SHAMSUDDIN"
         },
         {
           "title": "tutorial",
@@ -39320,7 +39475,7 @@
           "room": "NLINE",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "DR. NOORASYIKIN BINTI SHAMSUDDIN"
+          "tutor": "DR. SYIREEN BINTI ALWI"
         },
         {
           "title": "lecture",
@@ -39328,7 +39483,7 @@
           "room": "NLINE",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "DR. SYIREEN BINTI ALWI"
+          "tutor": "DR. NOORASYIKIN BINTI SHAMSUDDIN"
         },
         {
           "title": "tutorial",
@@ -42784,6 +42939,29 @@
           "tutor": "MADAM NORLIZA BINTI AMIN"
         }
       ]
+    },
+    {
+      "module": "ELEMENTARY MALAY",
+      "course_id": "GLT1001",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 180,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "6M",
+      "activities": [
+        {
+          "title": "tutorial",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "20:00",
+          "tutor": "DR. NORFAIZAL BIN JAMAIN"
+        }
+      ]
     }
   ],
   "GLT1002": [
@@ -42942,6 +43120,29 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": null,
       "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "20:00",
+          "tutor": "MADAM SHARIJA BINTI SHAHRUDDIN"
+        }
+      ]
+    },
+    {
+      "module": "EFFECTIVE COMMUNICATION",
+      "course_id": "GLT1008",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 32,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
       "occurence": "1M",
       "activities": [
         {
@@ -42951,6 +43152,29 @@
           "begin_time": "17:00",
           "end_time": "20:00",
           "tutor": "MADAM AZRINA WATI BINTI MAZLAN"
+        }
+      ]
+    },
+    {
+      "module": "EFFECTIVE COMMUNICATION",
+      "course_id": "GLT1008",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 32,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "2M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "20:00",
+          "tutor": "MADAM SHARIJA BINTI SHAHRUDDIN"
         }
       ]
     }
@@ -43018,6 +43242,28 @@
         {
           "title": "online",
           "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "20:00"
+        }
+      ]
+    },
+    {
+      "module": "MASTERING ENGLISH VI",
+      "course_id": "GLT1009",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 62,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "4",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Tuesday",
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "20:00"
@@ -43183,6 +43429,28 @@
           "begin_time": "17:00",
           "end_time": "20:00",
           "tutor": "MISS CHIENG SHEA LEE"
+        }
+      ]
+    },
+    {
+      "module": "PRESENTATION SKILLS IN ENGLISH",
+      "course_id": "GLT1012",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 162,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "8",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "20:00"
         }
       ]
     },
@@ -43430,6 +43698,28 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": null,
       "levelCode": 3,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "20:00"
+        }
+      ]
+    },
+    {
+      "module": "ADVANCED PROFESSIONAL WRITING",
+      "course_id": "GLT1015",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 32,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
       "occurence": "1M",
       "activities": [
         {
@@ -43439,6 +43729,28 @@
           "begin_time": "17:00",
           "end_time": "20:00",
           "tutor": "MADAM J. YASODHARA A/P N.V.J. MENON"
+        }
+      ]
+    },
+    {
+      "module": "ADVANCED PROFESSIONAL WRITING",
+      "course_id": "GLT1015",
+      "credits": 3,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 32,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "2M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "20:00"
         }
       ]
     }
@@ -43853,6 +44165,51 @@
           "begin_time": "20:00",
           "end_time": "22:00",
           "tutor": "DR. NOR AZLINA BINTI MUHAMAD"
+        }
+      ]
+    },
+    {
+      "module": "PROFICIENCY IN ENGLISH II",
+      "course_id": "GLT1021",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 200,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "9",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00"
+        }
+      ]
+    },
+    {
+      "module": "PROFICIENCY IN ENGLISH II",
+      "course_id": "GLT1021",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 200,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "10",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MADAM SHARIJA BINTI SHAHRUDDIN"
         }
       ]
     },
@@ -45392,6 +45749,29 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": 7200,
       "levelCode": 3,
+      "occurence": "23",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MISS CHIENG SHEA LEE"
+        }
+      ]
+    },
+    {
+      "module": "PROFICIENCY IN ENGLISH III",
+      "course_id": "GLT1024",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 700,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 7200,
+      "levelCode": 3,
       "occurence": "24",
       "activities": [
         {
@@ -45401,6 +45781,75 @@
           "begin_time": "20:00",
           "end_time": "22:00",
           "tutor": "MISS SHARON PASION VINLUAN"
+        }
+      ]
+    },
+    {
+      "module": "PROFICIENCY IN ENGLISH III",
+      "course_id": "GLT1024",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 700,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "25",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MISS SHARON PASION VINLUAN"
+        }
+      ]
+    },
+    {
+      "module": "PROFICIENCY IN ENGLISH III",
+      "course_id": "GLT1024",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 700,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "26",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MADAM AZRINA WATI BINTI MAZLAN"
+        }
+      ]
+    },
+    {
+      "module": "PROFICIENCY IN ENGLISH III",
+      "course_id": "GLT1024",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 700,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "27",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "20:00",
+          "end_time": "22:00",
+          "tutor": "MR. KAMARAZAMAN BIN MD SAID"
         }
       ]
     },
@@ -47436,29 +47885,6 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": null,
       "levelCode": 3,
-      "occurence": "60",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Wednesday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "MR. MOHD NAZRIQ BIN NOOR AHMAD"
-        }
-      ]
-    },
-    {
-      "module": "EFFECTIVE ORAL COMMUNICATION",
-      "course_id": "GLT1025",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 2485,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
       "occurence": "61",
       "activities": [
         {
@@ -47533,29 +47959,6 @@
         {
           "title": "online",
           "day": "Tuesday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "MADAM KATHREINE A/P DEVA BABU"
-        }
-      ]
-    },
-    {
-      "module": "EFFECTIVE ORAL COMMUNICATION",
-      "course_id": "GLT1025",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 2485,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "65",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "19:00",
@@ -47823,29 +48226,6 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": null,
       "levelCode": 3,
-      "occurence": "76",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Tuesday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "MADAM AZRINA WATI BINTI MAZLAN"
-        }
-      ]
-    },
-    {
-      "module": "EFFECTIVE ORAL COMMUNICATION",
-      "course_id": "GLT1025",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 2485,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
       "occurence": "77",
       "activities": [
         {
@@ -47854,7 +48234,7 @@
           "room": "ONLINE",
           "begin_time": "20:00",
           "end_time": "22:00",
-          "tutor": "MADAM AZRINA WATI BINTI MAZLAN"
+          "tutor": "MR. MOHD NAZRIQ BIN NOOR AHMAD"
         }
       ]
     },
@@ -47942,28 +48322,6 @@
         {
           "title": "online",
           "day": "Tuesday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00"
-        }
-      ]
-    },
-    {
-      "module": "EFFECTIVE ORAL COMMUNICATION",
-      "course_id": "GLT1025",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 2485,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "81",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "19:00"
@@ -48148,7 +48506,7 @@
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "19:00",
-          "tutor": "MISS SHARON PASION VINLUAN"
+          "tutor": "MR. GABRIEL SAMSON A/L THAMIL SALVAN"
         }
       ]
     },
@@ -48527,6 +48885,73 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": null,
       "levelCode": 3,
+      "occurence": "4",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MADAM KATHREINE A/P DEVA BABU"
+        }
+      ]
+    },
+    {
+      "module": "WRITING AT THE WORKPLACE",
+      "course_id": "GLT1026",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 96,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "5",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ]
+    },
+    {
+      "module": "WRITING AT THE WORKPLACE",
+      "course_id": "GLT1026",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 96,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "6",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00"
+        }
+      ]
+    },
+    {
+      "module": "WRITING AT THE WORKPLACE",
+      "course_id": "GLT1026",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 96,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
       "occurence": "1M",
       "activities": [
         {
@@ -48652,6 +49077,75 @@
           "room": "ONLINE",
           "begin_time": "17:00",
           "end_time": "19:00"
+        }
+      ]
+    },
+    {
+      "module": "ADVANCED ORAL COMMUNICATION",
+      "course_id": "GLT1027",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 81,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "4",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MR. MOHD NAZRIQ BIN NOOR AHMAD"
+        }
+      ]
+    },
+    {
+      "module": "ADVANCED ORAL COMMUNICATION",
+      "course_id": "GLT1027",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 81,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "5",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MR. MOHD NAZRIQ BIN NOOR AHMAD"
+        }
+      ]
+    },
+    {
+      "module": "ADVANCED ORAL COMMUNICATION",
+      "course_id": "GLT1027",
+      "credits": 2,
+      "yearPeriod": "2026/S1",
+      "overallTargetStudent": 81,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "6",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "MR. MOHD NAZRIQ BIN NOOR AHMAD"
         }
       ]
     },
@@ -50485,14 +50979,6 @@
           "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "MISS SHARON PASION VINLUAN"
-        },
-        {
-          "title": "online",
-          "day": "Thursday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "MISS SHARON PASION VINLUAN"
         }
       ]
     },
@@ -50611,29 +51097,6 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": null,
       "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Thursday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "MADAM NORLIZA BINTI AMIN"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
       "occurence": "2",
       "activities": [
         {
@@ -50643,166 +51106,6 @@
           "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "DR. NORFAIZAL BIN JAMAIN"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "3",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Wednesday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "DR. NORFAIZAL BIN JAMAIN"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "4",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Thursday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "DR. NORFAIZAL BIN JAMAIN"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "5",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Wednesday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "MADAM NUR AFIFAH BINTI ABDUL RAHMAN HALAWA"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "6",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Thursday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "MADAM NUR AFIFAH BINTI ABDUL RAHMAN HALAWA"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "7",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Monday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "MADAM NORLIZA BINTI AMIN"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "8",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Wednesday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "MADAM NORLIZA BINTI AMIN"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "10",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Monday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00"
         }
       ]
     },
@@ -50883,28 +51186,6 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": null,
       "levelCode": 3,
-      "occurence": "14",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Monday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
       "occurence": "15",
       "activities": [
         {
@@ -50949,140 +51230,6 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": null,
       "levelCode": 3,
-      "occurence": "17",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Monday",
-          "room": "ONLINE",
-          "begin_time": "20:00",
-          "end_time": "22:00"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "18",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Tuesday",
-          "room": "ONLINE",
-          "begin_time": "20:00",
-          "end_time": "22:00"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "1M",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Thursday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "MADAM NORLIZA BINTI AMIN"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "20",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Thursday",
-          "room": "ONLINE",
-          "begin_time": "20:00",
-          "end_time": "22:00"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "21",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "22",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Monday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "MR. AHMAD SABRI B ABDUL SAMAT @ ABDUL SAMAD"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
       "occurence": "23",
       "activities": [
         {
@@ -51091,121 +51238,6 @@
           "room": "ONLINE",
           "begin_time": "20:00",
           "end_time": "22:00",
-          "tutor": "MR. AHMAD SABRI B ABDUL SAMAT @ ABDUL SAMAD"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "24",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Thursday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "MR. AHMAD SABRI B ABDUL SAMAT @ ABDUL SAMAD"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "25",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Monday",
-          "room": "ONLINE",
-          "begin_time": "20:00",
-          "end_time": "22:00",
-          "tutor": "MR. AHMAD SABRI B ABDUL SAMAT @ ABDUL SAMAD"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "26",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Tuesday",
-          "room": "ONLINE",
-          "begin_time": "20:00",
-          "end_time": "22:00",
-          "tutor": "MR. AHMAD SABRI B ABDUL SAMAT @ ABDUL SAMAD"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "27",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Wednesday",
-          "room": "ONLINE",
-          "begin_time": "20:00",
-          "end_time": "22:00",
-          "tutor": "MR. AHMAD SABRI B ABDUL SAMAT @ ABDUL SAMAD"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "28",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Wednesday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
           "tutor": "MR. AHMAD SABRI B ABDUL SAMAT @ ABDUL SAMAD"
         }
       ]
@@ -51230,29 +51262,6 @@
           "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "MR. AHMAD SABRI B ABDUL SAMAT @ ABDUL SAMAD"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "30",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Monday",
-          "room": "ONLINE",
-          "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "DR. NORFAIZAL BIN JAMAIN"
         }
       ]
     },
@@ -51316,50 +51325,6 @@
         {
           "title": "online",
           "day": "Tuesday",
-          "room": "ONLINE",
-          "begin_time": "20:00",
-          "end_time": "22:00"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "36",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Wednesday",
-          "room": "ONLINE",
-          "begin_time": "20:00",
-          "end_time": "22:00"
-        }
-      ]
-    },
-    {
-      "module": "MALAY LANGUAGE COMMUNICATION",
-      "course_id": "GLT1049",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 623,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "37",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "20:00",
           "end_time": "22:00"
@@ -72588,15 +72553,15 @@
           "title": "lecture",
           "day": "Friday",
           "room": "BK102",
-          "begin_time": "17:00",
-          "end_time": "18:00"
+          "begin_time": "10:00",
+          "end_time": "12:00"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "BK102",
-          "begin_time": "10:00",
-          "end_time": "12:00"
+          "begin_time": "17:00",
+          "end_time": "18:00"
         }
       ]
     },
@@ -87100,13 +87065,6 @@
           "day": "Friday",
           "room": "MD2",
           "begin_time": "15:00",
-          "end_time": "17:00"
-        },
-        {
-          "title": "practical",
-          "day": "Friday",
-          "room": "MD2",
-          "begin_time": "15:00",
           "end_time": "17:00",
           "tutor": "DR. LEE WENN CHYAU"
         },
@@ -90303,14 +90261,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "17:00",
-          "tutor": "DR. LEE WAN LING"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK1",
           "begin_time": "08:00",
@@ -90336,6 +90286,14 @@
         {
           "title": "lecture",
           "day": "Thursday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. LEE WAN LING"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "DK1",
           "begin_time": "08:00",
           "end_time": "17:00",
@@ -90598,14 +90556,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "17:00",
-          "tutor": "DR. CHUI PING LEI"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK1",
           "begin_time": "08:00",
@@ -90631,6 +90581,14 @@
         {
           "title": "lecture",
           "day": "Thursday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. CHUI PING LEI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "DK1",
           "begin_time": "08:00",
           "end_time": "17:00",
@@ -102559,18 +102517,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "BSD",
-          "begin_time": "18:00",
-          "end_time": "21:00"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "BSEC306",
           "begin_time": "15:00",
           "end_time": "18:00",
           "tutor": "DR. NORFARIZA BINTI MOHD RADZI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BSD",
+          "begin_time": "18:00",
+          "end_time": "21:00"
         }
       ]
     },
@@ -105532,17 +105490,17 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS1BCL",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "room": "BS2BCL",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. WANG I TA"
         },
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS2BCL",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "room": "BS1BCL",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. WANG I TA"
         }
       ]
@@ -105684,17 +105642,17 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS1BCL",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "room": "BS2BCL",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. WANG I TA"
         },
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS2BCL",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "room": "BS1BCL",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. WANG I TA"
         }
       ]
@@ -105717,17 +105675,17 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS1BCL",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "room": "BS2BCL",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. WANG I TA"
         },
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS2BCL",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "room": "BS1BCL",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. WANG I TA"
         }
       ]
@@ -108842,15 +108800,15 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "STBPE",
+          "day": "Tuesday",
+          "room": "BBOXPE",
           "begin_time": "15:00",
           "end_time": "17:00"
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "BBOXPE",
+          "day": "Friday",
+          "room": "STBPE",
           "begin_time": "15:00",
           "end_time": "17:00"
         }
@@ -110955,7 +110913,7 @@
           "room": "BS2KDK",
           "begin_time": "10:00",
           "end_time": "11:00",
-          "tutor": "DR. NAZZATUSH SHIMAR JAMALUDIN"
+          "tutor": "DR. ROZIE BINTI SARIP"
         },
         {
           "title": "lab",
@@ -111002,7 +110960,7 @@
           "room": "BS2KDK",
           "begin_time": "10:00",
           "end_time": "11:00",
-          "tutor": "DR. NAZZATUSH SHIMAR JAMALUDIN"
+          "tutor": "DR. ROZIE BINTI SARIP"
         },
         {
           "title": "lab",
@@ -123468,26 +123426,12 @@
           "tutor": "DR. AHMAD FARIS BIN MOHD ADNAN"
         },
         {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "MBIO1",
-          "begin_time": "11:00",
-          "end_time": "13:00"
-        },
-        {
           "title": "lab",
           "day": "Thursday",
           "room": "MBT1BIOISB",
           "begin_time": "08:00",
           "end_time": "17:00",
           "tutor": "DR. AHMAD FARIS BIN MOHD ADNAN"
-        },
-        {
-          "title": "lab",
-          "day": "Thursday",
-          "room": "MBT1BIOISB",
-          "begin_time": "08:00",
-          "end_time": "17:00"
         }
       ]
     },
@@ -140059,14 +140003,6 @@
           "room": "DMENGKULA",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "DR. ALI JALALIAN DAGHIGH"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "DMENGKULA",
-          "begin_time": "18:00",
-          "end_time": "21:00",
           "tutor": "PROF. DR. STEFANIE SHAMILA PILLAI"
         },
         {
@@ -140106,6 +140042,14 @@
           "room": "DMENGKULA",
           "begin_time": "18:00",
           "end_time": "21:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DMENGKULA",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "DR. ALI JALALIAN DAGHIGH"
         }
       ]
     }
@@ -140130,6 +140074,204 @@
           "room": "ABBL 1",
           "begin_time": "12:00",
           "end_time": "15:00"
+        }
+      ]
+    },
+    {
+      "module": "PERSONAL DEVELOPMENT PROGRAMME",
+      "course_id": "UDA1001",
+      "credits": 3,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 2,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "GAUDI JHB",
+          "begin_time": "13:00",
+          "end_time": "16:00"
+        }
+      ]
+    },
+    {
+      "module": "PERSONAL DEVELOPMENT PROGRAMME",
+      "course_id": "UDA1001",
+      "credits": 3,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 2,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "GAUDI JHB",
+          "begin_time": "13:00",
+          "end_time": "16:00"
+        }
+      ]
+    },
+    {
+      "module": "PERSONAL DEVELOPMENT PROGRAMME",
+      "course_id": "UDA1001",
+      "credits": 3,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 2,
+      "occurence": "5",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "GAUDI JHB",
+          "begin_time": "08:00",
+          "end_time": "11:00"
+        }
+      ]
+    },
+    {
+      "module": "PERSONAL DEVELOPMENT PROGRAMME",
+      "course_id": "UDA1001",
+      "credits": 3,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 2,
+      "occurence": "6",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABAUDI",
+          "begin_time": "08:00",
+          "end_time": "11:00"
+        }
+      ]
+    },
+    {
+      "module": "PERSONAL DEVELOPMENT PROGRAMME",
+      "course_id": "UDA1001",
+      "credits": 3,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 2,
+      "occurence": "7",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "GAUDI JHB",
+          "begin_time": "08:00",
+          "end_time": "11:00"
+        }
+      ]
+    },
+    {
+      "module": "PERSONAL DEVELOPMENT PROGRAMME",
+      "course_id": "UDA1001",
+      "credits": 3,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 2,
+      "occurence": "8",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABAUDI",
+          "begin_time": "12:00",
+          "end_time": "15:00"
+        }
+      ]
+    },
+    {
+      "module": "PERSONAL DEVELOPMENT PROGRAMME",
+      "course_id": "UDA1001",
+      "credits": 3,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 2,
+      "occurence": "9",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "GAUDI JHB",
+          "begin_time": "08:00",
+          "end_time": "11:00"
+        }
+      ]
+    },
+    {
+      "module": "PERSONAL DEVELOPMENT PROGRAMME",
+      "course_id": "UDA1001",
+      "credits": 3,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 2,
+      "occurence": "10",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "GAUDI JHB",
+          "begin_time": "08:00",
+          "end_time": "11:00"
+        }
+      ]
+    },
+    {
+      "module": "PERSONAL DEVELOPMENT PROGRAMME",
+      "course_id": "UDA1001",
+      "credits": 3,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 2,
+      "occurence": "11",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBL 4",
+          "begin_time": "14:00",
+          "end_time": "17:00"
         }
       ]
     },
@@ -140176,6 +140318,28 @@
           "end_time": "16:00"
         }
       ]
+    },
+    {
+      "module": "PERSONAL DEVELOPMENT PROGRAMME",
+      "course_id": "UDA1001",
+      "credits": 3,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 2,
+      "occurence": "14",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBK 18",
+          "begin_time": "14:00",
+          "end_time": "17:00"
+        }
+      ]
     }
   ],
   "UDA1002": [
@@ -140194,17 +140358,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Wednesday",
+          "day": "Thursday",
           "room": "ABBL 1",
           "begin_time": "12:00",
           "end_time": "14:00"
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Friday",
           "room": "ABBL 1",
-          "begin_time": "12:00",
-          "end_time": "14:00"
+          "begin_time": "22:00",
+          "end_time": "00:00"
         }
       ]
     },
@@ -140292,6 +140456,64 @@
           "room": "ABBK 17",
           "begin_time": "16:00",
           "end_time": "18:00"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO MANAGEMENT",
+      "course_id": "UDA1002",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "6",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBK 22",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBK 21",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO MANAGEMENT",
+      "course_id": "UDA1002",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "7",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBK 17",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBK 17",
+          "begin_time": "10:00",
+          "end_time": "12:00"
         }
       ]
     },
@@ -140499,7 +140721,390 @@
       ]
     }
   ],
+  "UDA2005": [
+    {
+      "module": "NEGOTIATIONS SKILLS",
+      "course_id": "UDA2005",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBS 2",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 26",
+          "begin_time": "16:00",
+          "end_time": "18:00"
+        }
+      ]
+    },
+    {
+      "module": "NEGOTIATIONS SKILLS",
+      "course_id": "UDA2005",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 18",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABAUDI",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        }
+      ]
+    },
+    {
+      "module": "NEGOTIATIONS SKILLS",
+      "course_id": "UDA2005",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 18",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABAUDI",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "NEGOTIATIONS SKILLS",
+      "course_id": "UDA2005",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "5",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBK 27",
+          "begin_time": "16:00",
+          "end_time": "18:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 27",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        }
+      ]
+    }
+  ],
+  "UDB2004": [
+    {
+      "module": "PSYCHOLOGY AT WORKPLACE",
+      "course_id": "UDB2004",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBS 2",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBK 26",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "PSYCHOLOGY AT WORKPLACE",
+      "course_id": "UDB2004",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBK 22",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBL 2",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        }
+      ]
+    },
+    {
+      "module": "PSYCHOLOGY AT WORKPLACE",
+      "course_id": "UDB2004",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 22",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBK 27",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "PSYCHOLOGY AT WORKPLACE",
+      "course_id": "UDB2004",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "5",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 22",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBL 2",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    }
+  ],
+  "UDB2007": [
+    {
+      "module": "PERFORMANCE MANAGEMENT",
+      "course_id": "UDB2007",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 22",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBK 22",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        }
+      ]
+    },
+    {
+      "module": "PERFORMANCE MANAGEMENT",
+      "course_id": "UDB2007",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBK 27",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBK 27",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "PERFORMANCE MANAGEMENT",
+      "course_id": "UDB2007",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 19",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBK 19",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        }
+      ]
+    }
+  ],
   "UDC1002": [
+    {
+      "module": "PRINCIPLES OF ECONOMICS",
+      "course_id": "UDC1002",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBL 1",
+          "begin_time": "15:00",
+          "end_time": "17:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBL 1",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        }
+      ]
+    },
+    {
+      "module": "PRINCIPLES OF ECONOMICS",
+      "course_id": "UDC1002",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBL 4",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBL 2",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
     {
       "module": "PRINCIPLES OF ECONOMICS",
       "course_id": "UDC1002",
@@ -140513,6 +141118,13 @@
       "levelCode": 2,
       "occurence": "3",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBK 26",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        },
         {
           "title": "lecture",
           "day": "Wednesday",
@@ -140537,8 +141149,189 @@
       "activities": [
         {
           "title": "lecture",
+          "day": "Monday",
+          "room": "ABBK 26",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
           "day": "Wednesday",
           "room": "ABBK 18",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "PRINCIPLES OF ECONOMICS",
+      "course_id": "UDC1002",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "6",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBK 23",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBK 23",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        }
+      ]
+    },
+    {
+      "module": "PRINCIPLES OF ECONOMICS",
+      "course_id": "UDC1002",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "7",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "GAUDI JHB",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBS 2",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "PRINCIPLES OF ECONOMICS",
+      "course_id": "UDC1002",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "8",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBK 18",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBK 18",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        }
+      ]
+    },
+    {
+      "module": "PRINCIPLES OF ECONOMICS",
+      "course_id": "UDC1002",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "9",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBS 2",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBK 18",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        }
+      ]
+    },
+    {
+      "module": "PRINCIPLES OF ECONOMICS",
+      "course_id": "UDC1002",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "10",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBS 2",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBK 18",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "PRINCIPLES OF ECONOMICS",
+      "course_id": "UDC1002",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "11",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBL 1",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBL 4",
           "begin_time": "12:00",
           "end_time": "14:00"
         }
@@ -140644,6 +141437,57 @@
       "continuousAssessmentWeightage": "50~50",
       "examDuration": 7200,
       "levelCode": 2,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBK 18",
+          "begin_time": "16:00",
+          "end_time": "17:00"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO ACCOUNTING",
+      "course_id": "UDC1003",
+      "credits": 3,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBL 1",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBS 2",
+          "begin_time": "11:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO ACCOUNTING",
+      "course_id": "UDC1003",
+      "credits": 3,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 2,
       "occurence": "3",
       "activities": [
         {
@@ -140677,6 +141521,13 @@
       "activities": [
         {
           "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 26",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
           "day": "Thursday",
           "room": "ABBS 2",
           "begin_time": "14:00",
@@ -140697,6 +141548,13 @@
       "levelCode": 2,
       "occurence": "6",
       "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 23",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
         {
           "title": "lecture",
           "day": "Thursday",
@@ -140751,7 +141609,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "ABBK 18",
+          "room": "ABBK 17",
           "begin_time": "12:00",
           "end_time": "14:00"
         },
@@ -140761,6 +141619,708 @@
           "room": "ABBK 17",
           "begin_time": "13:00",
           "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO ACCOUNTING",
+      "course_id": "UDC1003",
+      "credits": 3,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "9",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBK 26",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBK 18",
+          "begin_time": "17:00",
+          "end_time": "18:00"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO ACCOUNTING",
+      "course_id": "UDC1003",
+      "credits": 3,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "10",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 17",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBK 17",
+          "begin_time": "16:00",
+          "end_time": "17:00"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO ACCOUNTING",
+      "course_id": "UDC1003",
+      "credits": 3,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "11",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBL 2",
+          "begin_time": "14:00",
+          "end_time": "15:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBL 4",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        }
+      ]
+    }
+  ],
+  "UDC2004": [
+    {
+      "module": "INTRODUCTION TO STRATEGIC MANAGEMENT",
+      "course_id": "UDC2004",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 26",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBK 26",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO STRATEGIC MANAGEMENT",
+      "course_id": "UDC2004",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 27",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBK 22",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO STRATEGIC MANAGEMENT",
+      "course_id": "UDC2004",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 22",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBK 22",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO STRATEGIC MANAGEMENT",
+      "course_id": "UDC2004",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "5",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBK 19",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBK 20",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO STRATEGIC MANAGEMENT",
+      "course_id": "UDC2004",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "6",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBS 2",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABAUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO STRATEGIC MANAGEMENT",
+      "course_id": "UDC2004",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "7",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABAUDI",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBK 26",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO STRATEGIC MANAGEMENT",
+      "course_id": "UDC2004",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "8",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBK 24",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBK 23",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    }
+  ],
+  "UDC2007": [
+    {
+      "module": "ISLAMIC FINANCE",
+      "course_id": "UDC2007",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABAUDI",
+          "begin_time": "16:00",
+          "end_time": "18:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBK 26",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        }
+      ]
+    },
+    {
+      "module": "ISLAMIC FINANCE",
+      "course_id": "UDC2007",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABAUDI",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBK 26",
+          "begin_time": "16:00",
+          "end_time": "18:00"
+        }
+      ]
+    },
+    {
+      "module": "ISLAMIC FINANCE",
+      "course_id": "UDC2007",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBK 27",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBK 27",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "ISLAMIC FINANCE",
+      "course_id": "UDC2007",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "5",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBL 4",
+          "begin_time": "16:00",
+          "end_time": "18:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBL 2",
+          "begin_time": "16:00",
+          "end_time": "18:00"
+        }
+      ]
+    },
+    {
+      "module": "ISLAMIC FINANCE",
+      "course_id": "UDC2007",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "6",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBL 4",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBL 2",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        }
+      ]
+    }
+  ],
+  "UDC2008": [
+    {
+      "module": "BUSINESS MATHEMATICS",
+      "course_id": "UDC2008",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 26",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBK 26",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "BUSINESS MATHEMATICS",
+      "course_id": "UDC2008",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBL 2",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBK 22",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "BUSINESS MATHEMATICS",
+      "course_id": "UDC2008",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "3",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 27",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBK 27",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        }
+      ]
+    },
+    {
+      "module": "BUSINESS MATHEMATICS",
+      "course_id": "UDC2008",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "5",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBK 19",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBK 20",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "BUSINESS MATHEMATICS",
+      "course_id": "UDC2008",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "6",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBK 18",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBK 18",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        }
+      ]
+    },
+    {
+      "module": "BUSINESS MATHEMATICS",
+      "course_id": "UDC2008",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "7",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 18",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBK 18",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        }
+      ]
+    },
+    {
+      "module": "BUSINESS MATHEMATICS",
+      "course_id": "UDC2008",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "8",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 24",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBK 22",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "BUSINESS MATHEMATICS",
+      "course_id": "UDC2008",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "9",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBL 2",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBK 22",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "BUSINESS MATHEMATICS",
+      "course_id": "UDC2008",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 2,
+      "occurence": "10",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBL 2",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBL 4",
+          "begin_time": "14:00",
+          "end_time": "16:00"
         }
       ]
     }
@@ -140850,6 +142410,126 @@
           "room": "ABBS 2",
           "begin_time": "15:00",
           "end_time": "17:00"
+        }
+      ]
+    }
+  ],
+  "UDE2001": [
+    {
+      "module": "COST AND MANAGEMENT ACCOUNTING II",
+      "course_id": "UDE2001",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 9000,
+      "levelCode": 2,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBL 2",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBL 4",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "COST AND MANAGEMENT ACCOUNTING II",
+      "course_id": "UDE2001",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 9000,
+      "levelCode": 2,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ABBL 2",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "ABBL 4",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    }
+  ],
+  "UDE2002": [
+    {
+      "module": "FINANCIAL ACCOUNTING AND REPORTING IV",
+      "course_id": "UDE2002",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 9000,
+      "levelCode": 2,
+      "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBL 4",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBL 2",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "FINANCIAL ACCOUNTING AND REPORTING IV",
+      "course_id": "UDE2002",
+      "credits": 4,
+      "yearPeriod": null,
+      "overallTargetStudent": null,
+      "level": null,
+      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 9000,
+      "levelCode": 2,
+      "occurence": "2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ABBL 4",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBL 2",
+          "begin_time": "10:00",
+          "end_time": "12:00"
         }
       ]
     }
