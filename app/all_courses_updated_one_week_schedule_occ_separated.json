@@ -113306,6 +113306,14 @@
         },
         {
           "title": "lecture",
+          "day": "Wednesday",
+          "room": "DKCEMPAKAKDK",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. NURUL SHAMSINAH BINTI MOHD SUHAIMI"
+        },
+        {
+          "title": "lecture",
           "day": "Monday",
           "room": "DKCEMPAKAKDK",
           "begin_time": "10:00",
@@ -113319,29 +113327,6 @@
           "begin_time": "10:00",
           "end_time": "11:00",
           "tutor": "DR. SUJATHA A/P RAMASAMY"
-        }
-      ]
-    },
-    {
-      "module": "BIOLOGY OF ORGANISMS",
-      "course_id": "SIE1001",
-      "credits": 2,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 45,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF SCIENCE",
-      "continuousAssessmentWeightage": "50~50",
-      "examDuration": 7200,
-      "levelCode": 3,
-      "occurence": "1M",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "DKCEMPAKAKDK",
-          "begin_time": "10:00",
-          "end_time": "11:00",
-          "tutor": "DR. NURUL SHAMSINAH BINTI MOHD SUHAIMI"
         }
       ]
     }
@@ -114053,53 +114038,6 @@
           "room": "MKOMP",
           "begin_time": "15:00",
           "end_time": "18:00",
-          "tutor": "ASSOCIATE PROF. DR. AMY THEN YEE HUI"
-        }
-      ]
-    },
-    {
-      "module": "QUANTITATIVE ECOLOGY",
-      "course_id": "SIE3004",
-      "credits": 3,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 51,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF SCIENCE",
-      "continuousAssessmentWeightage": "60~40",
-      "examDuration": 7200,
-      "levelCode": 3,
-      "occurence": "1M",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BTSA1ISB",
-          "begin_time": "14:00",
-          "end_time": "15:00",
-          "tutor": "ASSOCIATE PROF. DR. MUHAMAD SHAKIRIN BIN MISPAN"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "BTSA1ISB",
-          "begin_time": "09:00",
-          "end_time": "10:00",
-          "tutor": "ASSOCIATE PROF. DR. MUHAMAD SHAKIRIN BIN MISPAN"
-        },
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BTSA1ISB",
-          "begin_time": "14:00",
-          "end_time": "15:00",
-          "tutor": "ASSOCIATE PROF. DR. AMY THEN YEE HUI"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "BTSA1ISB",
-          "begin_time": "09:00",
-          "end_time": "10:00",
           "tutor": "ASSOCIATE PROF. DR. AMY THEN YEE HUI"
         }
       ]
