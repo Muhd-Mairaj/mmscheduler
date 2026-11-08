@@ -2154,7 +2154,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Sunday",
+          "day": "Saturday",
           "room": "CBS7",
           "begin_time": "09:00",
           "end_time": "17:00",
@@ -2162,7 +2162,7 @@
         },
         {
           "title": "lecture",
-          "day": "Saturday",
+          "day": "Sunday",
           "room": "CBS7",
           "begin_time": "09:00",
           "end_time": "17:00",
@@ -125256,22 +125256,6 @@
           "room": "DKTERATAIKDK",
           "begin_time": "09:00",
           "end_time": "10:00",
-          "tutor": "DR. SYARIFAH AISYAFAZNIM BT SAYED ABDUL RAHMAN"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "DKTERATAIKDK",
-          "begin_time": "09:00",
-          "end_time": "10:00",
-          "tutor": "DR. SYARIFAH AISYAFAZNIM BT SAYED ABDUL RAHMAN"
-        },
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "DKTERATAIKDK",
-          "begin_time": "09:00",
-          "end_time": "10:00",
           "tutor": "PROF. DR. ZULQARNAIN BIN MOHAMED"
         },
         {
@@ -125297,22 +125281,6 @@
       "levelCode": 3,
       "occurence": "1M",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "DKTERATAIKDK",
-          "begin_time": "09:00",
-          "end_time": "10:00",
-          "tutor": "DR. SYARIFAH AISYAFAZNIM BT SAYED ABDUL RAHMAN"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "DKTERATAIKDK",
-          "begin_time": "09:00",
-          "end_time": "10:00",
-          "tutor": "DR. SYARIFAH AISYAFAZNIM BT SAYED ABDUL RAHMAN"
-        },
         {
           "title": "lecture",
           "day": "Tuesday",
