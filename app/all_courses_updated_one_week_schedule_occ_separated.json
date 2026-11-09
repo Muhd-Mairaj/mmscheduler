@@ -125773,7 +125773,7 @@
           "room": "BKBT17ISB",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "DR. NURUL SHAMSINAH BINTI MOHD SUHAIMI"
+          "tutor": "DR. LEE HAI YEN"
         },
         {
           "title": "lecture",
@@ -125781,7 +125781,7 @@
           "room": "BKBT17ISB",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "DR. LEE HAI YEN"
+          "tutor": "DR. NURUL SHAMSINAH BINTI MOHD SUHAIMI"
         }
       ]
     },
@@ -125804,7 +125804,7 @@
           "room": "BKBT17ISB",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "DR. NURUL SHAMSINAH BINTI MOHD SUHAIMI"
+          "tutor": "DR. LEE HAI YEN"
         },
         {
           "title": "lecture",
@@ -125812,7 +125812,7 @@
           "room": "BKBT17ISB",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "DR. LEE HAI YEN"
+          "tutor": "DR. NURUL SHAMSINAH BINTI MOHD SUHAIMI"
         }
       ]
     }
@@ -125981,7 +125981,7 @@
           "room": "BKB12MIKROBISB",
           "begin_time": "10:00",
           "end_time": "11:00",
-          "tutor": "PROF. DR. JENNIFER ANN HARIKRISHNA"
+          "tutor": "DR. JASMINE ELANIE BINTI KHAIRAT"
         },
         {
           "title": "lecture",
@@ -125989,7 +125989,7 @@
           "room": "BKB12MIKROBISB",
           "begin_time": "10:00",
           "end_time": "11:00",
-          "tutor": "PROF. DR. JENNIFER ANN HARIKRISHNA"
+          "tutor": "DR. JASMINE ELANIE BINTI KHAIRAT"
         },
         {
           "title": "lecture",
@@ -125997,7 +125997,7 @@
           "room": "BKB12MIKROBISB",
           "begin_time": "10:00",
           "end_time": "11:00",
-          "tutor": "DR. JASMINE ELANIE BINTI KHAIRAT"
+          "tutor": "PROF. DR. JENNIFER ANN HARIKRISHNA"
         },
         {
           "title": "lecture",
@@ -126005,7 +126005,7 @@
           "room": "BKB12MIKROBISB",
           "begin_time": "10:00",
           "end_time": "11:00",
-          "tutor": "DR. JASMINE ELANIE BINTI KHAIRAT"
+          "tutor": "PROF. DR. JENNIFER ANN HARIKRISHNA"
         },
         {
           "title": "lab",
@@ -126069,7 +126069,7 @@
           "room": "BKBT18ISB",
           "begin_time": "11:00",
           "end_time": "12:00",
-          "tutor": "DR. JASMINE ELANIE BINTI KHAIRAT"
+          "tutor": "PROF. DR. JENNIFER ANN HARIKRISHNA"
         },
         {
           "title": "lecture",
@@ -126077,7 +126077,7 @@
           "room": "BKBT18ISB",
           "begin_time": "11:00",
           "end_time": "12:00",
-          "tutor": "DR. JASMINE ELANIE BINTI KHAIRAT"
+          "tutor": "PROF. DR. JENNIFER ANN HARIKRISHNA"
         },
         {
           "title": "lecture",
@@ -126546,6 +126546,13 @@
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "DR. MUHAMAD AFIQ BIN AZIZ"
+        },
+        {
+          "title": "lab",
+          "day": "Tuesday",
+          "room": "MMIKBIOLOGI1",
+          "begin_time": "14:00",
+          "end_time": "17:00"
         }
       ]
     },
@@ -129894,36 +129901,6 @@
           "end_time": "20:00"
         }
       ]
-    },
-    {
-      "module": "APPLIED ENTOMOLOGY",
-      "course_id": "SQG7005",
-      "credits": 3,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 25,
-      "level": "MASTER",
-      "faculty": "FACULTY OF SCIENCE",
-      "continuousAssessmentWeightage": "60~40",
-      "examDuration": 7200,
-      "levelCode": 4,
-      "occurence": "1M",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "BTSA2ISB",
-          "begin_time": "17:00",
-          "end_time": "20:00",
-          "tutor": "DR. NURUL ASHIKIN BINTI ABDULLAH"
-        },
-        {
-          "title": "lecture",
-          "day": "Thursday",
-          "room": "BTSA2ISB",
-          "begin_time": "17:00",
-          "end_time": "20:00"
-        }
-      ]
     }
   ],
   "SQG7009": [
@@ -129993,15 +129970,15 @@
           "day": "Monday",
           "room": "BTSA2ISB",
           "begin_time": "17:00",
-          "end_time": "20:00"
+          "end_time": "20:00",
+          "tutor": "ASSOCIATE PROF. DR. MUHAMAD SHAKIRIN BIN MISPAN"
         },
         {
           "title": "lecture",
           "day": "Monday",
           "room": "BTSA2ISB",
           "begin_time": "17:00",
-          "end_time": "20:00",
-          "tutor": "ASSOCIATE PROF. DR. MUHAMAD SHAKIRIN BIN MISPAN"
+          "end_time": "20:00"
         }
       ]
     },
@@ -130023,15 +130000,15 @@
           "day": "Monday",
           "room": "BTSA2ISB",
           "begin_time": "17:00",
-          "end_time": "20:00"
+          "end_time": "20:00",
+          "tutor": "ASSOCIATE PROF. DR. MUHAMAD SHAKIRIN BIN MISPAN"
         },
         {
           "title": "lecture",
           "day": "Monday",
           "room": "BTSA2ISB",
           "begin_time": "17:00",
-          "end_time": "20:00",
-          "tutor": "ASSOCIATE PROF. DR. MUHAMAD SHAKIRIN BIN MISPAN"
+          "end_time": "20:00"
         }
       ]
     }
@@ -130049,37 +130026,6 @@
       "examDuration": 7200,
       "levelCode": 4,
       "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "BTSA2ISB",
-          "begin_time": "17:00",
-          "end_time": "20:00",
-          "tutor": "DR. NUR ARDIYANA BINTI REJAB"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "BTSA2ISB",
-          "begin_time": "17:00",
-          "end_time": "20:00",
-          "tutor": "DR. MOHD ZUWAIRI BIN SAIMAN"
-        }
-      ]
-    },
-    {
-      "module": "MOLECULAR TECHNIQUES IN CROP PROTECTION",
-      "course_id": "SQG7012",
-      "credits": 3,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 25,
-      "level": "MASTER",
-      "faculty": "FACULTY OF SCIENCE",
-      "continuousAssessmentWeightage": "60~40",
-      "examDuration": 7200,
-      "levelCode": 4,
-      "occurence": "1M",
       "activities": [
         {
           "title": "lecture",
