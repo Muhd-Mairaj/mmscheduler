@@ -134438,16 +134438,14 @@
           "day": "Tuesday",
           "room": "DKTERATAIKDK",
           "begin_time": "18:00",
-          "end_time": "20:00",
-          "tutor": "MADAM NADIAH BINTI ZABRI"
+          "end_time": "20:00"
         },
         {
           "title": "lecture",
           "day": "Thursday",
           "room": "DKTERATAIKDK",
           "begin_time": "18:00",
-          "end_time": "20:00",
-          "tutor": "MADAM NADIAH BINTI ZABRI"
+          "end_time": "20:00"
         }
       ]
     }
