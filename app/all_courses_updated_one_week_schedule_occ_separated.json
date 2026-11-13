@@ -17414,14 +17414,6 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BILIKSEP1",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "MISS CHIN SZE YUIN"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
           "room": "PUSTAKAY",
           "begin_time": "15:00",
           "end_time": "17:00",
@@ -17431,6 +17423,14 @@
           "title": "lecture",
           "day": "Tuesday",
           "room": "HIMAWARI",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "MISS CHIN SZE YUIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BILIKSEP1",
           "begin_time": "09:00",
           "end_time": "11:00",
           "tutor": "MISS CHIN SZE YUIN"
@@ -71237,6 +71237,29 @@
           "tutor": "MISS ZAZMIN BINTI ABU BAKAR"
         }
       ]
+    },
+    {
+      "module": "ARABIC LANGUAGE II",
+      "course_id": "IIX1002",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 150,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BS9",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MR. MUHD SUFILLAH BIN MOHD SOYONG"
+        }
+      ]
     }
   ],
   "IIX1003": [
@@ -71285,6 +71308,75 @@
           "tutor": "DR. SHAHIDRA BINTI ABDUL KHALIL"
         }
       ]
+    },
+    {
+      "module": "INTRODUCTION OF SHARIAH STUDIES",
+      "course_id": "IIX1003",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 360,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK1",
+          "begin_time": "13:00",
+          "end_time": "15:00",
+          "tutor": "DR. ARIYANTI BINTI MUSTAPHA"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK1",
+          "begin_time": "13:00",
+          "end_time": "15:00",
+          "tutor": "ASSOCIATE PROF. DR. MOHD ANUAR BIN RAMLI"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK1",
+          "begin_time": "13:00",
+          "end_time": "15:00",
+          "tutor": "ASSOCIATE PROF. DR. MUHAMMAD IKHLAS BIN ROSELE"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION OF SHARIAH STUDIES",
+      "course_id": "IIX1003",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 360,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "002",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK2",
+          "begin_time": "09:00",
+          "end_time": "11:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK2",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. SHAHIDRA BINTI ABDUL KHALIL"
+        }
+      ]
     }
   ],
   "IIX1004": [
@@ -71330,6 +71422,60 @@
           "room": "BS15",
           "begin_time": "14:00",
           "end_time": "16:00",
+          "tutor": "DR. ASMAWATI BINTI MUHAMAD"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO USULUDDIN STUDIES",
+      "course_id": "IIX1004",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 300,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "AUDI",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "AUDI",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. NUR SHAHIDAH BINTI PAAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "AUDI",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. MOHD SYUKRI BIN ZAINAL ABIDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "AUDI",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. KHADHER BIN AHMAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "AUDI",
+          "begin_time": "08:00",
+          "end_time": "10:00",
           "tutor": "DR. ASMAWATI BINTI MUHAMAD"
         }
       ]
@@ -71610,6 +71756,2195 @@
           "begin_time": "13:00",
           "end_time": "14:00",
           "tutor": "DR. ASMULIADI LUBIS"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. ABDOLLATIF AHMADI RAMCHAHI"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "002",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "003",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. AHMAD SUFIAN BIN CHE ABDULLAH"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "004",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "005",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "006",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. AMEEN AHMED ABDULLAH QASEM AL-NAHARI"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "007",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. AMER ABDULWAHAB MAHYOUB MURSHED"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "008",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. ARIYANTI BINTI MUSTAPHA"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "009",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. ASMULIADI LUBIS"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "010",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. ASYIQIN BINTI AB HALIM"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "011",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. ATIFAH BINTI AHMAD YUSOFF"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "012",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. AZMIL BIN ZAINAL ABIDIN"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "013",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. BAHIYAH BINTI AHMAD"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "014",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. FAISAL @ AHMAD FAISAL BIN ABDUL HAMID"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "015",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. FAIZURI BIN ABD. LATIF"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "016",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. FAKHRUL ADABI BIN ABDUL KADIR"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "017",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. FATIN NUR MAJDINA BINTI NORDIN"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "018",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. HANIRA BINTI HANAFI"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "019",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "PROF. DR. ISHAK BIN HJ SULIAMAN"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "020",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "MR. KHALID BIN ISA"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "021",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "MR. KHALID BIN ISA"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "022",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. MADIHA BINTI BAHARUDDIN"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "023",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. MADIHA BINTI BAHARUDDIN"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "024",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. MAHAMATAYUDING SAMAH"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "025",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "026",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "027",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "028",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. MOHAMAD KHALID BIN BAHRUDIN"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "029",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. MOHAMAD ZAIDI BIN ABDUL RAHMAN"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "030",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. MOHAMMAD ABDELHAMID SALEM QATAWNEH"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "031",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. MOHAMMAD TAQIUDDIN BIN MOHAMAD"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "032",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. MOHD ANUAR BIN RAMLI"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "033",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. MOHD HAFIZ BIN JAMALUDIN"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "034",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. MOHD KHAIRUL NAIM BIN CHE NORDIN"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "035",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. MOHD NORHUSAIRI BIN MAT HUSSIN"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "036",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. MOHD SAIFUL ANWAR BIN MOHD NAWAWI"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "037",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "038",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. MOHAMMADDIN BIN ABDUL NIRI"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "039",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. MOHD SYUKRI BIN ZAINAL ABIDIN"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "040",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. MOHD ZAIDI BIN DAUD"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "041",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. MONIKA @ MUNIRAH BINTI ABD RAZZAK"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "042",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "043",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "044",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. MUHAMMAD SAFWAN BIN HARUN"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "045",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "PROF. DR. MUSTAFFA BIN ABDULLAH"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "046",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. NOR AINI BINTI ALI"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "047",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. NOR FAHIMAH BINTI MOHD RAZIF"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "048",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "049",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. NORHIDAYAH BINTI PAUZI"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "050",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. NUR SHAHIDAH BINTI PAAD"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "051",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. NURUL HUSNA BINTI MANSOR"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "052",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. ASYIQIN BINTI AB HALIM"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "053",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. OSMAN BIN MD RASIP"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "054",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. RAIHANA BINTI ABDUL WAHAB"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "055",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "056",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. ASMAWATI BINTI MUHAMAD"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "057",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. SEDEK BIN ARIFFIN"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "058",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. SELAMAT BIN AMIR"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "059",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. SHAHIDRA BINTI ABDUL KHALIL"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "060",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "061",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. SITI AISYAH BINTI SAMUDIN"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "062",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "API BLOK A",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. SITI PATONAH BINTI MOHAMAD"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "063",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "064",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. SUHAILI BIN SARIF"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "065",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. SYED MOHAMMAD HILMI B SYED ABDUL RAHMAN"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "066",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. SYED MOHD JEFFRI BIN SYED JAAFAR"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "067",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. UMAR SHU AIBU GOKARU"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "068",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "069",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. YUSMINI BINTI MD YUSOFF"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "070",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "ASSOCIATE PROF. DR. ZALINA BINTI ZAKARIA"
+        }
+      ]
+    },
+    {
+      "module": "QURANIC RECITATION AND MEMORIZATION",
+      "course_id": "IIX1005",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 355,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "071",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHD SHAHID BIN MOHD NOH"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "ONLINE",
+          "begin_time": "13:00",
+          "end_time": "14:00"
         }
       ]
     },
@@ -74234,6 +76569,795 @@
           "room": "BS7",
           "begin_time": "14:00",
           "end_time": "16:00"
+        }
+      ]
+    }
+  ],
+  "IIX1007": [
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS18",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MR. MUHD SUFILLAH BIN MOHD SOYONG"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "002",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS23",
+          "begin_time": "12:00",
+          "end_time": "14:00",
+          "tutor": "MR. MOHD KHAIRUL AKHBAR BIN JAHIRUDDIN"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "003",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS18",
+          "begin_time": "12:00",
+          "end_time": "14:00",
+          "tutor": "MISS HANAN BT SALEH"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "004",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS17",
+          "begin_time": "12:00",
+          "end_time": "14:00",
+          "tutor": "MR. NIK MUHAMMAD ROZI BIN NIK YUSOFF"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "005",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS7",
+          "begin_time": "12:00",
+          "end_time": "14:00"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "006",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS6",
+          "begin_time": "12:00",
+          "end_time": "14:00",
+          "tutor": "MR. MUHAMMAD SALMAN @ ZALMAN BIN JONID"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "007",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS7",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MISS HANAN BT SALEH"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "008",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS6",
+          "begin_time": "15:00",
+          "end_time": "17:00"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "009",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS1",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MR. MUHAMMAD SALMAN @ ZALMAN BIN JONID"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "010",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BS18",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "MR. MUHD SUFILLAH BIN MOHD SOYONG"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "011",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BS32",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MR. MOHD KHAIRUL AKHBAR BIN JAHIRUDDIN"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "012",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BS31",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MISS HANAN BT SALEH"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "013",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BS32",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MR. MUHAMMAD SALMAN @ ZALMAN BIN JONID"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "014",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BS22",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MR. MUHAMMAD SALMAN @ ZALMAN BIN JONID"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "015",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS32",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MR. MOHD KHAIRUL AKHBAR BIN JAHIRUDDIN"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "016",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS31",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MISS HANAN BT SALEH"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "017",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS22",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "019",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BS31",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MR. MUHD SUFILLAH BIN MOHD SOYONG"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "020",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BS22",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MR. MOHD KHAIRUL AKHBAR BIN JAHIRUDDIN"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "021",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BS1",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MISS HANAN BT SALEH"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "022",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BS7",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "023",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BS26",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MR. MUHAMMAD SALMAN @ ZALMAN BIN JONID"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "024",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BS6",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MR. MUHD SUFILLAH BIN MOHD SOYONG"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "025",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BS15",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MR. MOHD KHAIRUL AKHBAR BIN JAHIRUDDIN"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "026",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BS16",
+          "begin_time": "15:00",
+          "end_time": "17:00"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "027",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BS23",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MR. MUHAMMAD SALMAN @ ZALMAN BIN JONID"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "028",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BS32",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "MR. MUHD SUFILLAH BIN MOHD SOYONG"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "029",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BS7",
+          "begin_time": "18:00",
+          "end_time": "20:00",
+          "tutor": "MR. MOHD KHAIRUL AKHBAR BIN JAHIRUDDIN"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "030",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BS32",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MR. MUHD SUFILLAH BIN MOHD SOYONG"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "031",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BS32",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MR. MUHD SUFILLAH BIN MOHD SOYONG"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "032",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BS31",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MR. MUHAMMAD SALMAN @ ZALMAN BIN JONID"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "033",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BS18",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "MR. MUHAMMAD SALMAN @ ZALMAN BIN JONID"
+        }
+      ]
+    },
+    {
+      "module": "AL-ARABIYAH LI AL-DIRASAT AL-ISLAMIYYAH 2",
+      "course_id": "IIX1007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 495,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "18",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BS31",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "MR. MUHAMMAD SALMAN @ ZALMAN BIN JONID"
+        }
+      ]
+    }
+  ],
+  "IIX2001": [
+    {
+      "module": "ISLAMIC RESEARCH METHODOLOGY",
+      "course_id": "IIX2001",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 400,
+      "level": "BACHELOR",
+      "faculty": "ACADEMY OF ISLAMIC STUDIES",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BS10",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. ASMAWATI BINTI MUHAMAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BS10",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. SITI PATONAH BINTI MOHAMAD"
         }
       ]
     }
@@ -82129,15 +85253,15 @@
           "title": "lecture",
           "day": "Friday",
           "room": "BK102",
-          "begin_time": "10:00",
-          "end_time": "12:00"
+          "begin_time": "17:00",
+          "end_time": "18:00"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "BK102",
-          "begin_time": "17:00",
-          "end_time": "18:00"
+          "begin_time": "10:00",
+          "end_time": "12:00"
         }
       ]
     },
@@ -96108,18 +99232,18 @@
         },
         {
           "title": "online",
-          "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "ASSOCIATE PROF. DR. SUZITA BINTI MOHD NOOR"
-        },
-        {
-          "title": "online",
           "day": "Tuesday",
           "room": "ONLINE",
           "begin_time": "09:00",
           "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. SUZITA BINTI MOHD NOOR"
+        },
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. DR. SUZITA BINTI MOHD NOOR"
         },
         {
@@ -96237,18 +99361,18 @@
         },
         {
           "title": "online",
-          "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "DR. ROZAIDA @ POH YUEN YING"
-        },
-        {
-          "title": "online",
           "day": "Tuesday",
           "room": "ONLINE",
           "begin_time": "14:00",
           "end_time": "17:00",
+          "tutor": "DR. ROZAIDA @ POH YUEN YING"
+        },
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "09:00",
+          "end_time": "11:00",
           "tutor": "DR. ROZAIDA @ POH YUEN YING"
         },
         {
@@ -97639,100 +100763,6 @@
       ]
     }
   ],
-  "MID3013": [
-    {
-      "module": "NURSING RESEARCH AND STATISTICS",
-      "course_id": "MID3013",
-      "credits": 4,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 57,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF MEDICINE",
-      "continuousAssessmentWeightage": "40~60",
-      "examDuration": 10800,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "DK7",
-          "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "MADAM NOOR HANITA BINTI ZAINI"
-        }
-      ]
-    },
-    {
-      "module": "NURSING RESEARCH AND STATISTICS",
-      "course_id": "MID3013",
-      "credits": 4,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 57,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF MEDICINE",
-      "continuousAssessmentWeightage": "40~60",
-      "examDuration": 10800,
-      "levelCode": 3,
-      "occurence": "1M",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "DK7",
-          "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "MADAM NOOR HANITA BINTI ZAINI"
-        }
-      ]
-    }
-  ],
-  "MID3021": [
-    {
-      "module": "OBSTETRIC AND GYNAECOLOGY NURSING",
-      "course_id": "MID3021",
-      "credits": 4,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 57,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF MEDICINE",
-      "continuousAssessmentWeightage": "40~60",
-      "examDuration": 10800,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "DK7",
-          "begin_time": "11:00",
-          "end_time": "13:00"
-        }
-      ]
-    },
-    {
-      "module": "OBSTETRIC AND GYNAECOLOGY NURSING",
-      "course_id": "MID3021",
-      "credits": 4,
-      "yearPeriod": "2026/S1",
-      "overallTargetStudent": 57,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF MEDICINE",
-      "continuousAssessmentWeightage": "40~60",
-      "examDuration": 10800,
-      "levelCode": 3,
-      "occurence": "1M",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "DK7",
-          "begin_time": "11:00",
-          "end_time": "13:00"
-        }
-      ]
-    }
-  ],
   "MID4003": [
     {
       "module": "NURSING RESEARCH PROJECT",
@@ -97749,22 +100779,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK9",
-          "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "DK9",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK9",
           "begin_time": "14:00",
@@ -97790,6 +100804,22 @@
         {
           "title": "lecture",
           "day": "Wednesday",
+          "room": "DK9",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK9",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "DK9",
           "begin_time": "14:00",
           "end_time": "16:00",
@@ -97812,22 +100842,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK9",
-          "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "DK9",
-          "begin_time": "14:00",
-          "end_time": "16:00",
-          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK9",
           "begin_time": "14:00",
@@ -97853,6 +100867,22 @@
         {
           "title": "lecture",
           "day": "Wednesday",
+          "room": "DK9",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK9",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. THALWATHTHE GEDARA NADEEKA SHAYAMALIE GUNARATHNE"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "DK9",
           "begin_time": "14:00",
           "end_time": "16:00",
@@ -97951,14 +100981,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK9",
-          "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "MRS NOR ZEHAN BT AHMAD"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK9",
           "begin_time": "08:00",
@@ -97976,6 +100998,14 @@
         {
           "title": "lecture",
           "day": "Wednesday",
+          "room": "DK9",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MRS NOR ZEHAN BT AHMAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "DK9",
           "begin_time": "08:00",
           "end_time": "10:00",
@@ -97998,14 +101028,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK9",
-          "begin_time": "08:00",
-          "end_time": "10:00",
-          "tutor": "MRS NOR ZEHAN BT AHMAD"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK9",
           "begin_time": "08:00",
@@ -98023,6 +101045,14 @@
         {
           "title": "lecture",
           "day": "Wednesday",
+          "room": "DK9",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "MRS NOR ZEHAN BT AHMAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "DK9",
           "begin_time": "08:00",
           "end_time": "10:00",
@@ -98869,14 +101899,6 @@
       "levelCode": 4,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "DK8",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "DR. ZULAIKHA BINTI JAMALLUDIN"
-        },
         {
           "title": "lecture",
           "day": "Tuesday",
@@ -101169,14 +104191,6 @@
           "title": "tutorial",
           "day": "Friday",
           "room": "ONLINE",
-          "begin_time": "11:00",
-          "end_time": "12:00",
-          "tutor": "DR. CHEONG FEI WEN"
-        },
-        {
-          "title": "tutorial",
-          "day": "Friday",
-          "room": "ONLINE",
           "begin_time": "09:00",
           "end_time": "12:00",
           "tutor": "DR. CHEONG FEI WEN"
@@ -101381,7 +104395,7 @@
           "room": "DPSPMFOM",
           "begin_time": "09:00",
           "end_time": "12:00",
-          "tutor": "PROF. DR. NORAN NAQIAH BINTI MOHD HAIRI"
+          "tutor": "PROF. DR. MOY FOONG MING"
         },
         {
           "title": "lecture",
@@ -101389,7 +104403,7 @@
           "room": "DPSPMFOM",
           "begin_time": "09:00",
           "end_time": "12:00",
-          "tutor": "PROF. DR. MOY FOONG MING"
+          "tutor": "PROF. DR. NORAN NAQIAH BINTI MOHD HAIRI"
         }
       ]
     }
@@ -114698,17 +117712,17 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS2BCL",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "room": "BS1BCL",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. WANG I TA"
         },
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS1BCL",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "room": "BS2BCL",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. WANG I TA"
         }
       ]
@@ -114850,17 +117864,17 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS2BCL",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "room": "BS1BCL",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. WANG I TA"
         },
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS1BCL",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "room": "BS2BCL",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. WANG I TA"
         }
       ]
@@ -114883,17 +117897,17 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS2BCL",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "room": "BS1BCL",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. WANG I TA"
         },
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS1BCL",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "room": "BS2BCL",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. WANG I TA"
         }
       ]
@@ -118959,14 +121973,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "BS5BS6KDK",
-          "begin_time": "08:00",
-          "end_time": "09:00",
-          "tutor": "PROF. DR. AZHAR BIN ARIFFIN"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BS5BS6KDK",
           "begin_time": "08:00",
@@ -118976,6 +121982,14 @@
         {
           "title": "lecture",
           "day": "Wednesday",
+          "room": "BS5BS6KDK",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "PROF. DR. AZHAR BIN ARIFFIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "BS5BS6KDK",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -119006,14 +122020,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "BS5BS6KDK",
-          "begin_time": "08:00",
-          "end_time": "09:00",
-          "tutor": "PROF. DR. AZHAR BIN ARIFFIN"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BS5BS6KDK",
           "begin_time": "08:00",
@@ -119023,6 +122029,14 @@
         {
           "title": "lecture",
           "day": "Wednesday",
+          "room": "BS5BS6KDK",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "PROF. DR. AZHAR BIN ARIFFIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "BS5BS6KDK",
           "begin_time": "08:00",
           "end_time": "09:00",
@@ -120093,14 +123107,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "BS2KDK",
-          "begin_time": "10:00",
-          "end_time": "11:00",
-          "tutor": "DR. ROZIE BINTI SARIP"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BS2KDK",
           "begin_time": "10:00",
@@ -120114,6 +123120,14 @@
           "begin_time": "10:00",
           "end_time": "11:00",
           "tutor": "DR. NAZZATUSH SHIMAR JAMALUDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BS2KDK",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. ROZIE BINTI SARIP"
         },
         {
           "title": "lab",
@@ -120140,14 +123154,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "BS2KDK",
-          "begin_time": "10:00",
-          "end_time": "11:00",
-          "tutor": "DR. ROZIE BINTI SARIP"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BS2KDK",
           "begin_time": "10:00",
@@ -120161,6 +123167,14 @@
           "begin_time": "10:00",
           "end_time": "11:00",
           "tutor": "DR. NAZZATUSH SHIMAR JAMALUDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BS2KDK",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. ROZIE BINTI SARIP"
         },
         {
           "title": "lab",
@@ -130916,14 +133930,6 @@
         },
         {
           "title": "tutorial",
-          "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "10:00",
-          "end_time": "11:00",
-          "tutor": "ASSOCIATE PROF. DR. CHOOI WAI LEONG"
-        },
-        {
-          "title": "tutorial",
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "14:00",
@@ -130944,6 +133950,14 @@
           "room": "ONLINE",
           "begin_time": "09:00",
           "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. CHOOI WAI LEONG"
+        },
+        {
+          "title": "tutorial",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "11:00",
           "tutor": "ASSOCIATE PROF. DR. CHOOI WAI LEONG"
         }
       ]
@@ -131568,22 +134582,6 @@
         },
         {
           "title": "tutorial",
-          "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "10:00",
-          "tutor": "DR. WANG KAH LUN"
-        },
-        {
-          "title": "tutorial",
-          "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "10:00",
-          "end_time": "11:00",
-          "tutor": "DR. WANG KAH LUN"
-        },
-        {
-          "title": "tutorial",
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "10:00",
@@ -131602,6 +134600,22 @@
           "room": "ONLINE",
           "begin_time": "13:00",
           "end_time": "14:00"
+        },
+        {
+          "title": "tutorial",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. WANG KAH LUN"
+        },
+        {
+          "title": "tutorial",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. WANG KAH LUN"
         }
       ]
     },
@@ -131634,22 +134648,6 @@
         },
         {
           "title": "tutorial",
-          "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "10:00",
-          "tutor": "DR. WANG KAH LUN"
-        },
-        {
-          "title": "tutorial",
-          "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "10:00",
-          "end_time": "11:00",
-          "tutor": "DR. WANG KAH LUN"
-        },
-        {
-          "title": "tutorial",
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "10:00",
@@ -131668,6 +134666,22 @@
           "room": "ONLINE",
           "begin_time": "13:00",
           "end_time": "14:00"
+        },
+        {
+          "title": "tutorial",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. WANG KAH LUN"
+        },
+        {
+          "title": "tutorial",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. WANG KAH LUN"
         }
       ]
     },
@@ -131700,22 +134714,6 @@
         },
         {
           "title": "tutorial",
-          "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "10:00",
-          "tutor": "DR. WANG KAH LUN"
-        },
-        {
-          "title": "tutorial",
-          "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "10:00",
-          "end_time": "11:00",
-          "tutor": "DR. WANG KAH LUN"
-        },
-        {
-          "title": "tutorial",
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "10:00",
@@ -131734,6 +134732,22 @@
           "room": "ONLINE",
           "begin_time": "13:00",
           "end_time": "14:00"
+        },
+        {
+          "title": "tutorial",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. WANG KAH LUN"
+        },
+        {
+          "title": "tutorial",
+          "day": "Friday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. WANG KAH LUN"
         }
       ]
     }
@@ -133455,18 +136469,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "BS7BS8KDK",
-          "begin_time": "11:00",
-          "end_time": "13:00",
-          "tutor": "PROF. DR. CHANDRAN A/L SOMASUNDRAM"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BS7BS8KDK",
           "begin_time": "08:00",
           "end_time": "09:00",
+          "tutor": "PROF. DR. CHANDRAN A/L SOMASUNDRAM"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BS7BS8KDK",
+          "begin_time": "11:00",
+          "end_time": "13:00",
           "tutor": "PROF. DR. CHANDRAN A/L SOMASUNDRAM"
         }
       ]
@@ -136220,42 +139234,42 @@
         },
         {
           "title": "tutorial",
-          "day": "Friday",
+          "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "09:00",
           "end_time": "10:00"
         },
         {
           "title": "tutorial",
-          "day": "Friday",
+          "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "10:00",
           "end_time": "11:00"
         },
         {
           "title": "tutorial",
-          "day": "Friday",
+          "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "11:00",
           "end_time": "12:00"
         },
         {
           "title": "tutorial",
-          "day": "Wednesday",
+          "day": "Friday",
           "room": "ONLINE",
           "begin_time": "09:00",
           "end_time": "10:00"
         },
         {
           "title": "tutorial",
-          "day": "Wednesday",
+          "day": "Friday",
           "room": "ONLINE",
           "begin_time": "10:00",
           "end_time": "11:00"
         },
         {
           "title": "tutorial",
-          "day": "Wednesday",
+          "day": "Friday",
           "room": "ONLINE",
           "begin_time": "11:00",
           "end_time": "12:00"
@@ -136330,42 +139344,42 @@
         },
         {
           "title": "tutorial",
-          "day": "Friday",
+          "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "09:00",
           "end_time": "10:00"
         },
         {
           "title": "tutorial",
-          "day": "Friday",
+          "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "10:00",
           "end_time": "11:00"
         },
         {
           "title": "tutorial",
-          "day": "Friday",
+          "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "11:00",
           "end_time": "12:00"
         },
         {
           "title": "tutorial",
-          "day": "Wednesday",
+          "day": "Friday",
           "room": "ONLINE",
           "begin_time": "09:00",
           "end_time": "10:00"
         },
         {
           "title": "tutorial",
-          "day": "Wednesday",
+          "day": "Friday",
           "room": "ONLINE",
           "begin_time": "10:00",
           "end_time": "11:00"
         },
         {
           "title": "tutorial",
-          "day": "Wednesday",
+          "day": "Friday",
           "room": "ONLINE",
           "begin_time": "11:00",
           "end_time": "12:00"
@@ -139764,18 +142778,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK1",
-          "begin_time": "11:00",
-          "end_time": "12:00",
-          "tutor": "DR. NUR AIRINA BINTI MUHAMAD"
-        },
-        {
-          "title": "lecture",
           "day": "Wednesday",
           "room": "DK1",
           "begin_time": "09:00",
           "end_time": "11:00",
+          "tutor": "DR. NUR AIRINA BINTI MUHAMAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DK1",
+          "begin_time": "11:00",
+          "end_time": "12:00",
           "tutor": "DR. NUR AIRINA BINTI MUHAMAD"
         }
       ]
@@ -144209,13 +147223,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "BTSAC1",
-          "begin_time": "08:00",
-          "end_time": "10:00"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BTSAC1",
           "begin_time": "10:00",
@@ -144227,6 +147234,13 @@
           "room": "BSMERTAJAM",
           "begin_time": "14:00",
           "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BTSAC1",
+          "begin_time": "08:00",
+          "end_time": "10:00"
         }
       ]
     }
