@@ -97770,15 +97770,15 @@
           "day": "Saturday",
           "room": "MMB",
           "begin_time": "09:00",
-          "end_time": "12:00"
+          "end_time": "12:00",
+          "tutor": "DR. MUHAMMAD HAMEEDULLAH BIN MD ASRI"
         },
         {
           "title": "lecture",
           "day": "Saturday",
           "room": "MMB",
           "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. MUHAMMAD HAMEEDULLAH BIN MD ASRI"
+          "end_time": "12:00"
         }
       ]
     }
