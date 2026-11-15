@@ -2146,14 +2146,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Sunday",
-          "room": "CBS7",
-          "begin_time": "09:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. NOOR ADWA BINTI SULAIMAN"
-        },
-        {
-          "title": "lecture",
           "day": "Saturday",
           "room": "CBS7",
           "begin_time": "09:00",
@@ -41473,14 +41465,6 @@
       "levelCode": 4,
       "occurence": "2",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "CBS1112",
-          "begin_time": "09:00",
-          "end_time": "18:00",
-          "tutor": "DR. LEE SU TENG"
-        },
         {
           "title": "lecture",
           "day": "Saturday",
@@ -131441,6 +131425,45 @@
           "tutor": "ASSOCIATE PROF. DR. SAHARUDDIN BIN MOHAMAD"
         }
       ]
+    },
+    {
+      "module": "INTRODUCTION TO COMPUTATIONAL BIOLOGY",
+      "course_id": "SIJ1004",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 75,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DKVANDAKDK",
+          "begin_time": "11:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. SAHARUDDIN BIN MOHAMAD"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DKVANDAKDK",
+          "begin_time": "11:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. SAHARUDDIN BIN MOHAMAD"
+        },
+        {
+          "title": "lab",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "11:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. SAHARUDDIN BIN MOHAMAD"
+        }
+      ]
     }
   ],
   "SIJ1005": [
@@ -136657,6 +136680,29 @@
           "tutor": "ASSOCIATE PROF. DR. TAN YEE SHIN"
         }
       ]
+    },
+    {
+      "module": "APPLIED MICROBIOLOGY",
+      "course_id": "SIO2001",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 50,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lab",
+          "day": "Monday",
+          "room": "MBT2BIOISB",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. TAN YEE SHIN"
+        }
+      ]
     }
   ],
   "SIO2002": [
@@ -136735,6 +136781,61 @@
           "begin_time": "15:00",
           "end_time": "18:00",
           "tutor": "DR. NURADILLA BINTI MOHAMAD FAUZI"
+        }
+      ]
+    },
+    {
+      "module": "ANIMAL BIOTECHNOLOGY",
+      "course_id": "SIO2002",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 50,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "MPBIOISB",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. SHAMSUL AZLIN B AHMAD SHAMSUDDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MPBIOISB",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. SHAMSUL AZLIN B AHMAD SHAMSUDDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "MPBIOISB",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. NURADILLA BINTI MOHAMAD FAUZI"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MPBIOISB",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. NURADILLA BINTI MOHAMAD FAUZI"
+        },
+        {
+          "title": "lab",
+          "day": "Wednesday",
+          "room": "LADANGISB",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. SHAMSUL AZLIN B AHMAD SHAMSUDDIN"
         }
       ]
     }
@@ -136996,6 +137097,39 @@
       ]
     }
   ],
+  "SIO3011": [
+    {
+      "module": "PLANT MORPHOGENESIS",
+      "course_id": "SIO3011",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 30,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "IBS30",
+          "begin_time": "14:00",
+          "end_time": "15:00",
+          "tutor": "DR. RAIHAN BINTI ISMIL"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "IBS30",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "DR. RAIHAN BINTI ISMIL"
+        }
+      ]
+    }
+  ],
   "SIO3016": [
     {
       "module": "BIOLOGICAL DATA ANALYTICS",
@@ -137071,6 +137205,47 @@
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "ASSOCIATE PROF. DR. SARINDER KAUR A/P KASHMIR SINGH"
+        }
+      ]
+    }
+  ],
+  "SIO3017": [
+    {
+      "module": "FOOD BIOTECHNOLOGY",
+      "course_id": "SIO3017",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 65,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DKTERATAIKDK",
+          "begin_time": "12:00",
+          "end_time": "13:00",
+          "tutor": "ASSOCIATE PROF. TS. DR. WAN ABD AL-QADR IMAD BIN WAN MOHTAR"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DKTERATAIKDK",
+          "begin_time": "12:00",
+          "end_time": "13:00",
+          "tutor": "ASSOCIATE PROF. TS. DR. WAN ABD AL-QADR IMAD BIN WAN MOHTAR"
+        },
+        {
+          "title": "lab",
+          "day": "Thursday",
+          "room": "MBT1BIOISB",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. TS. DR. WAN ABD AL-QADR IMAD BIN WAN MOHTAR"
         }
       ]
     }
@@ -155431,128 +155606,6 @@
           "room": "ABBL 2",
           "begin_time": "10:00",
           "end_time": "12:00"
-        }
-      ]
-    }
-  ],
-  "UFA2007": [
-    {
-      "module": "MANAGEMENT INFORMATION SYSTEMS",
-      "course_id": "UFA2007",
-      "credits": 4,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": null,
-      "faculty": null,
-      "continuousAssessmentWeightage": "60~40",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "15:00",
-          "end_time": "17:00"
-        }
-      ]
-    }
-  ],
-  "UFC1005": [
-    {
-      "module": "PRINCIPLES OF MARKETING",
-      "course_id": "UFC1005",
-      "credits": 4,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": "DIPLOMA",
-      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
-      "continuousAssessmentWeightage": "50~50",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "16:00",
-          "end_time": "18:00"
-        }
-      ]
-    }
-  ],
-  "UFD1011": [
-    {
-      "module": "ITECHNOLOGY USAGE IN EDUCATION OF EARLY CHILDHOOD",
-      "course_id": "UFD1011",
-      "credits": 4,
-      "yearPeriod": "2026H + H1",
-      "overallTargetStudent": null,
-      "level": null,
-      "faculty": null,
-      "continuousAssessmentWeightage": "70~30",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "15:00",
-          "end_time": "17:00"
-        }
-      ]
-    }
-  ],
-  "UFL1011": [
-    {
-      "module": "PROPHETIC HISTORY AND DA`WAH",
-      "course_id": "UFL1011",
-      "credits": 4,
-      "yearPeriod": "2026H + H1",
-      "overallTargetStudent": null,
-      "level": null,
-      "faculty": null,
-      "continuousAssessmentWeightage": "40~60",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. FAISAL @ AHMAD FAISAL BIN ABDUL HAMID"
-        }
-      ]
-    }
-  ],
-  "UFN1001": [
-    {
-      "module": "BASICS OF INFORMATION TECHNOLOGY AND SYSTEM",
-      "course_id": "UFN1001",
-      "credits": 4,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": "DIPLOMA",
-      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
-      "continuousAssessmentWeightage": "60~40",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "16:00",
-          "end_time": "18:00",
-          "tutor": "PROF. TS. DR. AINUDDIN WAHID BIN ABDUL WAHAB"
         }
       ]
     }
