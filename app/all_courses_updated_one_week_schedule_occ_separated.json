@@ -48233,103 +48233,6 @@
       ]
     }
   ],
-  "GFG1003": [
-    {
-      "module": "ENGLISH FOR COMMUNICATION",
-      "course_id": "GFG1003",
-      "credits": 3,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": "DIPLOMA",
-      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
-      "continuousAssessmentWeightage": "70~30",
-      "examDuration": 7200,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "16:00"
-        }
-      ]
-    }
-  ],
-  "GFG1004": [
-    {
-      "module": "EFFECTIVE PRESENTATION SKILLS",
-      "course_id": "GFG1004",
-      "credits": 3,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": null,
-      "faculty": null,
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "15:00",
-          "tutor": "MRS CHE MASNIFA ATIKAH BINTI ABDUL MALIK"
-        }
-      ]
-    }
-  ],
-  "GFG1009": [
-    {
-      "module": "MALAYSIAN LEGAL SYSTEM",
-      "course_id": "GFG1009",
-      "credits": 3,
-      "yearPeriod": "2026H + H1",
-      "overallTargetStudent": null,
-      "level": null,
-      "faculty": null,
-      "continuousAssessmentWeightage": "60~40",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "12:00",
-          "end_time": "13:00"
-        }
-      ]
-    }
-  ],
-  "GFG1012": [
-    {
-      "module": "APPRECIATION OF ETHICS AND CIVILISATIONS",
-      "course_id": "GFG1012",
-      "credits": 3,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": null,
-      "faculty": null,
-      "continuousAssessmentWeightage": "80~20",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "11:00",
-          "end_time": "12:00"
-        }
-      ]
-    }
-  ],
   "GFK0008": [
     {
       "module": "ELECTRICAL AND ELECTRONICS TECHNOLOGIES FOR THE NON-ENGINEER",
@@ -115999,6 +115902,148 @@
       ]
     }
   ],
+  "QQB7009": [
+    {
+      "module": "REGIONAL SECURITY IN EUROPE",
+      "course_id": "QQB7009",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 130,
+      "level": "MASTER",
+      "faculty": "ASIA EUROPE INSTITUTE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. KEVIN FERNANDEZ"
+        }
+      ]
+    },
+    {
+      "module": "REGIONAL SECURITY IN EUROPE",
+      "course_id": "QQB7009",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 130,
+      "level": "MASTER",
+      "faculty": "ASIA EUROPE INSTITUTE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. KEVIN FERNANDEZ"
+        }
+      ]
+    }
+  ],
+  "QQB7010": [
+    {
+      "module": "ECONOMIC INTEGRATION IN EUROPE",
+      "course_id": "QQB7010",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 130,
+      "level": "MASTER",
+      "faculty": "ASIA EUROPE INSTITUTE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "AUDI",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "DR. FUMITAKA FURUOKA"
+        }
+      ]
+    },
+    {
+      "module": "ECONOMIC INTEGRATION IN EUROPE",
+      "course_id": "QQB7010",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 130,
+      "level": "MASTER",
+      "faculty": "ASIA EUROPE INSTITUTE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "AUDI",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "DR. FUMITAKA FURUOKA"
+        }
+      ]
+    }
+  ],
+  "QQD7007": [
+    {
+      "module": "ASEAN REGIONALISM",
+      "course_id": "QQD7007",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 200,
+      "level": "MASTER",
+      "faculty": "ASIA EUROPE INSTITUTE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "AUDI",
+          "begin_time": "18:00",
+          "end_time": "21:00"
+        }
+      ]
+    },
+    {
+      "module": "ASEAN REGIONALISM",
+      "course_id": "QQD7007",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 200,
+      "level": "MASTER",
+      "faculty": "ASIA EUROPE INSTITUTE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "AUDI",
+          "begin_time": "18:00",
+          "end_time": "21:00"
+        }
+      ]
+    }
+  ],
   "QQD7008": [
     {
       "module": "THE MAKING OF MODERN SOUTHEAST ASIA",
@@ -116143,6 +116188,54 @@
       ]
     }
   ],
+  "QQD7012": [
+    {
+      "module": "DIGITAL ECONOMY IN ASEAN",
+      "course_id": "QQD7012",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 130,
+      "level": "MASTER",
+      "faculty": "ASIA EUROPE INSTITUTE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "AUDI",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. SAMEER KUMAR"
+        }
+      ]
+    },
+    {
+      "module": "DIGITAL ECONOMY IN ASEAN",
+      "course_id": "QQD7012",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 130,
+      "level": "MASTER",
+      "faculty": "ASIA EUROPE INSTITUTE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "AUDI",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. SAMEER KUMAR"
+        }
+      ]
+    }
+  ],
   "QQD7013": [
     {
       "module": "DEVELOPMENT AND GOVERNANCE OF SMALL AND MEDIUM-SIZED ENTERPRISES IN ASEAN",
@@ -116214,6 +116307,75 @@
           "tutor": "DR. FUMITAKA FURUOKA"
         }
       ]
+    },
+    {
+      "module": "RESEARCH METHODOLOGY",
+      "course_id": "QQX7001",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 100,
+      "level": "MASTER",
+      "faculty": "ASIA EUROPE INSTITUTE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "AUDI",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "DR. FUMITAKA FURUOKA"
+        }
+      ]
+    }
+  ],
+  "QQX7006": [
+    {
+      "module": "POLITICAL ECONOMY OF ASIA-EUROPE RELATIONS",
+      "course_id": "QQX7006",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 130,
+      "level": "MASTER",
+      "faculty": "ASIA EUROPE INSTITUTE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "18:00",
+          "end_time": "21:00"
+        }
+      ]
+    },
+    {
+      "module": "POLITICAL ECONOMY OF ASIA-EUROPE RELATIONS",
+      "course_id": "QQX7006",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 130,
+      "level": "MASTER",
+      "faculty": "ASIA EUROPE INSTITUTE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "AUDI",
+          "begin_time": "18:00",
+          "end_time": "21:00"
+        }
+      ]
     }
   ],
   "QQX7007": [
@@ -116262,6 +116424,54 @@
       ]
     }
   ],
+  "QQX7008": [
+    {
+      "module": "COMPARATIVE REGIONALISM",
+      "course_id": "QQX7008",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 130,
+      "level": "MASTER",
+      "faculty": "ASIA EUROPE INSTITUTE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "AUDI",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "ASSOCIATE PROF. DR. SAMEER KUMAR"
+        }
+      ]
+    },
+    {
+      "module": "COMPARATIVE REGIONALISM",
+      "course_id": "QQX7008",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 130,
+      "level": "MASTER",
+      "faculty": "ASIA EUROPE INSTITUTE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 4,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "AUDI",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "ASSOCIATE PROF. DR. SAMEER KUMAR"
+        }
+      ]
+    }
+  ],
   "QVX8001": [
     {
       "module": "ADVANCED RESEARCH METHODOLOGY",
@@ -116275,6 +116485,29 @@
       "examDuration": null,
       "levelCode": 5,
       "occurence": "1",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ASEANROOM",
+          "begin_time": "18:00",
+          "end_time": "21:00",
+          "tutor": "DATO  PROF. ULUNG DR. RAJAH A/L RASIAH"
+        }
+      ]
+    },
+    {
+      "module": "ADVANCED RESEARCH METHODOLOGY",
+      "course_id": "QVX8001",
+      "credits": 3,
+      "yearPeriod": "2026/R2",
+      "overallTargetStudent": 30,
+      "level": "PhD",
+      "faculty": "ASIA EUROPE INSTITUTE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 5,
+      "occurence": "001",
       "activities": [
         {
           "title": "lecture",
@@ -130950,6 +131183,47 @@
       ]
     }
   ],
+  "SIJ1002": [
+    {
+      "module": "FUNDAMENTALS OF CHEMISTRY",
+      "course_id": "SIJ1002",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 140,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DKMELORKDK",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "ASSOCIATE PROF. DR. ADAWIYAH SURIZA BINTI SHUIB"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DKMELORKDK",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "ASSOCIATE PROF. DR. ADAWIYAH SURIZA BINTI SHUIB"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DKMELORKDK",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "ASSOCIATE PROF. DR. ADAWIYAH SURIZA BINTI SHUIB"
+        }
+      ]
+    }
+  ],
   "SIJ1003": [
     {
       "module": "BIOCHEMISTRY OF CELLS",
@@ -131317,6 +131591,31 @@
           "room": "DKVANDAKDK",
           "begin_time": "09:00",
           "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. ZAZALI BIN ALIAS"
+        }
+      ]
+    }
+  ],
+  "SIJ2007": [
+    {
+      "module": "ENZYMES: MECHANISM AND CONTROL",
+      "course_id": "SIJ2007",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 140,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DKMELORKDK",
+          "begin_time": "10:00",
+          "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. DR. ZAZALI BIN ALIAS"
         }
       ]
@@ -132302,6 +132601,158 @@
       ]
     }
   ],
+  "SIK2001": [
+    {
+      "module": "HUMAN ANATOMY",
+      "course_id": "SIK2001",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 20,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BTSA2ISB",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "DR. YUSRIZAM BIN SHARIFUDDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BTSA2ISB",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "DR. YUSRIZAM BIN SHARIFUDDIN"
+        },
+        {
+          "title": "lab",
+          "day": "Thursday",
+          "room": "MBIOKESIHATAN1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. YUSRIZAM BIN SHARIFUDDIN"
+        }
+      ]
+    }
+  ],
+  "SIK2003": [
+    {
+      "module": "GENERAL BIOCHEMISTRY",
+      "course_id": "SIK2003",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 30,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BTSA1ISB",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. YUSMIN BINTI MOHD YUSUF"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BTSA1ISB",
+          "begin_time": "15:00",
+          "end_time": "16:00",
+          "tutor": "ASSOCIATE PROF. DR. YUSMIN BINTI MOHD YUSUF"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BTSA1ISB",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. YUSMIN BINTI MOHD YUSUF"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BTSA1ISB",
+          "begin_time": "09:00",
+          "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BTSA1ISB",
+          "begin_time": "15:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BTSA1ISB",
+          "begin_time": "10:00",
+          "end_time": "11:00"
+        }
+      ]
+    }
+  ],
+  "SIK2004": [
+    {
+      "module": "HUMAN AND ANIMAL PHYSIOLOGY",
+      "course_id": "SIK2004",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 30,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BTSA1ISB",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. SHAMSUL AZLIN B AHMAD SHAMSUDDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BTSA1ISB",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. SHAMSUL AZLIN B AHMAD SHAMSUDDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BTSA1ISB",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. NOOR HASHIDA BINTI HASHIM"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BTSA1ISB",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. NOOR HASHIDA BINTI HASHIM"
+        }
+      ]
+    }
+  ],
   "SIK2005": [
     {
       "module": "PHYTOCHEMISTRY",
@@ -132427,6 +132878,47 @@
           "begin_time": "15:00",
           "end_time": "17:00",
           "tutor": "DR. YUSRIZAM BIN SHARIFUDDIN"
+        }
+      ]
+    }
+  ],
+  "SIK2007": [
+    {
+      "module": "HISTOLOGY",
+      "course_id": "SIK2007",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 20,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BTSA1ISB",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. TIONG YIN XIN SHEENA"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BTSA1ISB",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. TIONG YIN XIN SHEENA"
+        },
+        {
+          "title": "lab",
+          "day": "Tuesday",
+          "room": "MBIOKESIHATAN1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. TIONG YIN XIN SHEENA"
         }
       ]
     }
@@ -132558,6 +133050,39 @@
           "begin_time": "11:00",
           "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. DR. NOOR HASHIDA BINTI HASHIM"
+        }
+      ]
+    }
+  ],
+  "SIK3006": [
+    {
+      "module": "NEUROBIOLOGY",
+      "course_id": "SIK3006",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 10,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "MBIOKESIHATAN1",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. TIONG YIN XIN SHEENA"
+        },
+        {
+          "title": "lab",
+          "day": "Wednesday",
+          "room": "MBIOKESIHATAN1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. TIONG YIN XIN SHEENA"
         }
       ]
     }
@@ -135858,6 +136383,31 @@
           "begin_time": "09:00",
           "end_time": "11:00",
           "tutor": "DR. AMIZAH BINTI MALIP"
+        }
+      ]
+    }
+  ],
+  "SIO1001": [
+    {
+      "module": "BASIC PHYSICS",
+      "course_id": "SIO1001",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 150,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DKMELORKDK",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. M VIJAYAN A/L MANICKAM ACHARI"
         }
       ]
     }
@@ -154885,54 +155435,6 @@
       ]
     }
   ],
-  "UFA1006": [
-    {
-      "module": "INTRODUCTION TO MANAGEMENT",
-      "course_id": "UFA1006",
-      "credits": 4,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": "DIPLOMA",
-      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
-      "continuousAssessmentWeightage": "60~40",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "11:00"
-        }
-      ]
-    }
-  ],
-  "UFA2006": [
-    {
-      "module": "OPERATIONS MANAGEMENT",
-      "course_id": "UFA2006",
-      "credits": 4,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": null,
-      "faculty": null,
-      "continuousAssessmentWeightage": "60~40",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "16:00"
-        }
-      ]
-    }
-  ],
   "UFA2007": [
     {
       "module": "MANAGEMENT INFORMATION SYSTEMS",
@@ -154981,55 +155483,6 @@
       ]
     }
   ],
-  "UFC1006": [
-    {
-      "module": "PRINCIPLES OF ECONOMICS",
-      "course_id": "UFC1006",
-      "credits": 4,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": "DIPLOMA",
-      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
-      "continuousAssessmentWeightage": "50~50",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "11:00",
-          "end_time": "13:00"
-        }
-      ]
-    }
-  ],
-  "UFD1001": [
-    {
-      "module": "BASIC EARLY CHILDHOOD DEVELOPMENT",
-      "course_id": "UFD1001",
-      "credits": 4,
-      "yearPeriod": "2026H + H1",
-      "overallTargetStudent": null,
-      "level": null,
-      "faculty": null,
-      "continuousAssessmentWeightage": "50~50",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "12:00",
-          "end_time": "14:00",
-          "tutor": "DR. CHE ALEHA BINTI LADIN"
-        }
-      ]
-    }
-  ],
   "UFD1011": [
     {
       "module": "ITECHNOLOGY USAGE IN EDUCATION OF EARLY CHILDHOOD",
@@ -155050,154 +155503,6 @@
           "room": "ONLINE",
           "begin_time": "15:00",
           "end_time": "17:00"
-        }
-      ]
-    }
-  ],
-  "UFD1015": [
-    {
-      "module": "INTRODUCTION TO EARLY CHILDHOOD EDUCATION",
-      "course_id": "UFD1015",
-      "credits": 4,
-      "yearPeriod": "2026H + H1",
-      "overallTargetStudent": null,
-      "level": null,
-      "faculty": null,
-      "continuousAssessmentWeightage": "50~50",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "DR. ANNISAA BINTI BASAR"
-        }
-      ]
-    }
-  ],
-  "UFF1001": [
-    {
-      "module": "INTRODUCTION TO ACCOUNTING",
-      "course_id": "UFF1001",
-      "credits": 4,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": "DIPLOMA",
-      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
-      "continuousAssessmentWeightage": "50~50",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "16:00"
-        }
-      ]
-    }
-  ],
-  "UFF1008": [
-    {
-      "module": "MANAGEMENT ACCOUNTING I",
-      "course_id": "UFF1008",
-      "credits": 4,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": "DIPLOMA",
-      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
-      "continuousAssessmentWeightage": "50~50",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "12:00",
-          "end_time": "14:00",
-          "tutor": "ASSOCIATE PROF. DR. NOOR SHAROJA BINTI SAPIEI"
-        }
-      ]
-    }
-  ],
-  "UFF2009": [
-    {
-      "module": "FINANCIAL MANAGEMENT",
-      "course_id": "UFF2009",
-      "credits": 4,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": null,
-      "faculty": null,
-      "continuousAssessmentWeightage": "60~40",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "11:00"
-        }
-      ]
-    }
-  ],
-  "UFL1009": [
-    {
-      "module": "ARABIC I",
-      "course_id": "UFL1009",
-      "credits": 4,
-      "yearPeriod": "2026H + H1",
-      "overallTargetStudent": null,
-      "level": null,
-      "faculty": null,
-      "continuousAssessmentWeightage": "50~50",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "MR. AB HALIM BIN AHMAD"
-        }
-      ]
-    }
-  ],
-  "UFL1010": [
-    {
-      "module": "ISLAMIC CREED AND ETHICS",
-      "course_id": "UFL1010",
-      "credits": 4,
-      "yearPeriod": "2026H + H1",
-      "overallTargetStudent": null,
-      "level": null,
-      "faculty": null,
-      "continuousAssessmentWeightage": "40~60",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "12:00",
-          "end_time": "14:00",
-          "tutor": "ASSOCIATE PROF. DR. FAIZURI BIN ABD. LATIF"
         }
       ]
     }
@@ -155248,79 +155553,6 @@
           "begin_time": "16:00",
           "end_time": "18:00",
           "tutor": "PROF. TS. DR. AINUDDIN WAHID BIN ABDUL WAHAB"
-        }
-      ]
-    }
-  ],
-  "UFN1002": [
-    {
-      "module": "LAW ENFORCEMENT AND SOCIETY",
-      "course_id": "UFN1002",
-      "credits": 4,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": "DIPLOMA",
-      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
-      "continuousAssessmentWeightage": "60~40",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "11:00"
-        }
-      ]
-    }
-  ],
-  "UFN1003": [
-    {
-      "module": "PRINCIPLES OF MANAGEMENT",
-      "course_id": "UFN1003",
-      "credits": 4,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": "DIPLOMA",
-      "faculty": "UNIVERSITI MALAYA CENTRE FOR CONTINUING EDUCATION (UMCCed)",
-      "continuousAssessmentWeightage": "60~40",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "11:00",
-          "end_time": "13:00"
-        }
-      ]
-    }
-  ],
-  "UFN2001": [
-    {
-      "module": "FUNDAMENTAL OF PSYCHOLOGY",
-      "course_id": "UFN2001",
-      "credits": 4,
-      "yearPeriod": null,
-      "overallTargetStudent": null,
-      "level": null,
-      "faculty": null,
-      "continuousAssessmentWeightage": "60~40",
-      "examDuration": null,
-      "levelCode": 2,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Sunday",
-          "room": "ONLINE",
-          "begin_time": "09:00",
-          "end_time": "11:00",
-          "tutor": "ASSOCIATE PROF. DR. FONNY DAMEATY HUTAGALUNG"
         }
       ]
     }
