@@ -125307,6 +125307,29 @@
           "tutor": "ASSOCIATE PROF. DR. NOOR HASHIDA BINTI HASHIM"
         }
       ]
+    },
+    {
+      "module": "BIOETHICS AND SAFETY",
+      "course_id": "SIE1002",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 100,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DKCEMPAKAKDK",
+          "begin_time": "17:00",
+          "end_time": "19:00",
+          "tutor": "DR. SARAH BINTI ABDUL RAZAK"
+        }
+      ]
     }
   ],
   "SIE1003": [
@@ -125354,6 +125377,71 @@
           "begin_time": "11:00",
           "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. DR. YUSMIN BINTI MOHD YUSUF"
+        }
+      ]
+    }
+  ],
+  "SIE2001": [
+    {
+      "module": "PRINCIPLES OF SYSTEMATICS",
+      "course_id": "SIE2001",
+      "credits": 4,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 45,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BS9BS10KDK",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. YONG KIEN THAI"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BS9BS10KDK",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. YONG KIEN THAI"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BS9BS10KDK",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. HASMAHZAITI BINTI OMAR"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BS9BS10KDK",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. HASMAHZAITI BINTI OMAR"
+        },
+        {
+          "title": "lab",
+          "day": "Tuesday",
+          "room": "MPEB1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. YONG KIEN THAI"
+        },
+        {
+          "title": "lab",
+          "day": "Tuesday",
+          "room": "MPEB1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. HASMAHZAITI BINTI OMAR"
         }
       ]
     }
@@ -125419,6 +125507,63 @@
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "DR. PURABI MAZUMDAR"
+        }
+      ]
+    }
+  ],
+  "SIE2004": [
+    {
+      "module": "MYCOLOGY",
+      "course_id": "SIE2004",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 80,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS9BS10KDK",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. YUSMIN BINTI MOHD YUSUF"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BS9BS10KDK",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. YUSMIN BINTI MOHD YUSUF"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS9BS10KDK",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. SUJATHA A/P RAMASAMY"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BS9BS10KDK",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. SUJATHA A/P RAMASAMY"
+        },
+        {
+          "title": "lab",
+          "day": "Friday",
+          "room": "MPEB1",
+          "begin_time": "15:00",
+          "end_time": "18:00",
+          "tutor": "ASSOCIATE PROF. DR. YUSMIN BINTI MOHD YUSUF"
         }
       ]
     }
@@ -126322,6 +126467,47 @@
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "DR. NURUL ASHIKIN BINTI ABDULLAH"
+        }
+      ]
+    }
+  ],
+  "SIE3018": [
+    {
+      "module": "MOLECULAR ECOLOGY AND APPLICATIONS",
+      "course_id": "SIE3018",
+      "credits": 4,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 45,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BSPGISB",
+          "begin_time": "12:00",
+          "end_time": "13:00",
+          "tutor": "ASSOCIATE PROF. DR. HASMAHZAITI BINTI OMAR"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "BSPGISB",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "ASSOCIATE PROF. DR. HASMAHZAITI BINTI OMAR"
+        },
+        {
+          "title": "lab",
+          "day": "Friday",
+          "room": "MKOMP",
+          "begin_time": "15:00",
+          "end_time": "18:00",
+          "tutor": "ASSOCIATE PROF. DR. HASMAHZAITI BINTI OMAR"
         }
       ]
     }
@@ -128681,6 +128867,71 @@
       ]
     }
   ],
+  "SIH1004": [
+    {
+      "module": "ENVIRONMENTAL SUSTAINABILITY",
+      "course_id": "SIH1004",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 110,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK1",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. POZI ANAK MILOW"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK1",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. POZI ANAK MILOW"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK1",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. LAU BENG FYE"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK1",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. LAU BENG FYE"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK1",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. ADI AINURZAMAN BIN JAMALUDIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DK1",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. ADI AINURZAMAN BIN JAMALUDIN"
+        }
+      ]
+    }
+  ],
   "SIH1005": [
     {
       "module": "ANALYTICAL ENVIRONMENTAL CHEMISTRY",
@@ -128809,6 +129060,47 @@
       ]
     }
   ],
+  "SIH2007": [
+    {
+      "module": "PRINCIPLES OF  WASTE MANAGEMENT",
+      "course_id": "SIH2007",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 40,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DKVANDAKDK",
+          "begin_time": "12:00",
+          "end_time": "13:00",
+          "tutor": "ASSOCIATE PROF. DR. FAUZIAH BINTI SHAHUL HAMID"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DKVANDAKDK",
+          "begin_time": "12:00",
+          "end_time": "13:00",
+          "tutor": "ASSOCIATE PROF. DR. FAUZIAH BINTI SHAHUL HAMID"
+        },
+        {
+          "title": "lab",
+          "day": "Wednesday",
+          "room": "BTSB4ISB",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. FAUZIAH BINTI SHAHUL HAMID"
+        }
+      ]
+    }
+  ],
   "SIH2008": [
     {
       "module": "ENVIRONMENTAL HEALTH AND SAFETY",
@@ -128853,6 +129145,39 @@
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "ASSOCIATE PROF. DR. GHUFRAN BIN REDZWAN"
+        }
+      ]
+    }
+  ],
+  "SIH2010": [
+    {
+      "module": "LIMNOLOGY",
+      "course_id": "SIH2010",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 30,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BS2KDK",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. NOORHIDAYAH BINTI MAMAT"
+        },
+        {
+          "title": "lab",
+          "day": "Monday",
+          "room": "MSPAS2ISB",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. POZI ANAK MILOW"
         }
       ]
     }
@@ -129353,6 +129678,31 @@
       ]
     }
   ],
+  "SIH3008": [
+    {
+      "module": "SUSTAINABLE DEVELOPMENT",
+      "course_id": "SIH3008",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 50,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DKVANDAKDK",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. ADI AINURZAMAN BIN JAMALUDIN"
+        }
+      ]
+    }
+  ],
   "SIH3009": [
     {
       "module": "SLOPE ECO-ENGINEERING TECHNIQUES",
@@ -129472,6 +129822,47 @@
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. ROZAINAH BINTI MOHAMAD ZAKARIA"
+        }
+      ]
+    }
+  ],
+  "SIH3027": [
+    {
+      "module": "GREEN AGRICULTURE",
+      "course_id": "SIH3027",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 60,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DK1",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. ROSAZLIN BINTI ABDULLAH"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DK1",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. ROSAZLIN BINTI ABDULLAH"
+        },
+        {
+          "title": "lab",
+          "day": "Wednesday",
+          "room": "MSPAS1ISB",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. ROSAZLIN BINTI ABDULLAH"
         }
       ]
     }
@@ -137188,6 +137579,29 @@
       "continuousAssessmentWeightage": "60~40",
       "examDuration": 7200,
       "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "MKOMP",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "ASSOCIATE PROF. DR. SARINDER KAUR A/P KASHMIR SINGH"
+        }
+      ]
+    },
+    {
+      "module": "BIOLOGICAL DATA ANALYTICS",
+      "course_id": "SIO3016",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 80,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
       "occurence": "1M",
       "activities": [
         {
@@ -138404,6 +138818,61 @@
           "tutor": "DR. MUHAMAD AFIQ BIN AZIZ"
         }
       ]
+    },
+    {
+      "module": "FUNDAMENTAL MICROBIOLOGY",
+      "course_id": "SIR1001",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 80,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DKMELATIKDK",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. BONG CHUI WEI"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DKMELATIKDK",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "ASSOCIATE PROF. DR. BONG CHUI WEI"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DKMELATIKDK",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. MUHAMAD AFIQ BIN AZIZ"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DKMELATIKDK",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. MUHAMAD AFIQ BIN AZIZ"
+        },
+        {
+          "title": "lab",
+          "day": "Wednesday",
+          "room": "MMIKBIOLOGI2",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. BONG CHUI WEI"
+        }
+      ]
     }
   ],
   "SIR1002": [
@@ -138470,6 +138939,39 @@
       ]
     }
   ],
+  "SIR1003": [
+    {
+      "module": "BIOCHEMISTRY",
+      "course_id": "SIR1003",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 80,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DKMELORKDK",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. TANG SWEE SEONG"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "DKMELORKDK",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. TANG SWEE SEONG"
+        }
+      ]
+    }
+  ],
   "SIR1004": [
     {
       "module": "CONCEPTS OF GENETIC ENGINEERING",
@@ -138512,6 +139014,53 @@
           "title": "lecture",
           "day": "Wednesday",
           "room": "DKCEMPAKAKDK",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "PROF. DR. CHAN KOK GAN"
+        }
+      ]
+    },
+    {
+      "module": "CONCEPTS OF GENETIC ENGINEERING",
+      "course_id": "SIR1004",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "50~50",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DKMELATIKDK",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "PROF. DR. NAZIA BINTI ABDUL MAJID"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DKMELATIKDK",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "PROF. DR. NAZIA BINTI ABDUL MAJID"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DKMELATIKDK",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "PROF. DR. CHAN KOK GAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "DKMELATIKDK",
           "begin_time": "08:00",
           "end_time": "09:00",
           "tutor": "PROF. DR. CHAN KOK GAN"
@@ -139852,6 +140401,47 @@
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "DR. SONG SZE LOOI"
+        }
+      ]
+    }
+  ],
+  "SIR3044": [
+    {
+      "module": "MOLECULAR EVOLUTION AND PHYLOGENETICS",
+      "course_id": "SIR3044",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 60,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BKB6GENETIK",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. SYARIFAH AISYAFAZNIM BT SAYED ABDUL RAHMAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BKB6GENETIK",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. SYARIFAH AISYAFAZNIM BT SAYED ABDUL RAHMAN"
+        },
+        {
+          "title": "lab",
+          "day": "Wednesday",
+          "room": "MKOMP",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. SYARIFAH AISYAFAZNIM BT SAYED ABDUL RAHMAN"
         }
       ]
     }
