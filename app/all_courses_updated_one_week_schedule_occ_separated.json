@@ -2018,14 +2018,6 @@
           "room": "CPSR02",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "ASSOCIATE PROF. DR. MAZNI BINTI ABDULLAH"
-        },
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "CPSR02",
-          "begin_time": "18:00",
-          "end_time": "21:00",
           "tutor": "ASSOCIATE PROF. DR. ZARINA BINTI ZAKARIA"
         }
       ]
@@ -2045,14 +2037,6 @@
       "levelCode": 4,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "CPSR04",
-          "begin_time": "18:00",
-          "end_time": "21:00",
-          "tutor": "DR. JEYA SANTHINI A/P APPANNAN"
-        },
         {
           "title": "lecture",
           "day": "Tuesday",
@@ -13343,6 +13327,196 @@
           "begin_time": "08:00",
           "end_time": "09:00",
           "tutor": "DR. SITI NAZZIERA BINTI MOKHTAR"
+        }
+      ]
+    }
+  ],
+  "AID3013": [
+    {
+      "module": "ENVIONMENTAL ETHICS",
+      "course_id": "AID3013",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 70,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DKE",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. JILLIAN OOI LEAN SIM"
+        },
+        {
+          "title": "tutorial",
+          "day": "Monday",
+          "room": "BS14",
+          "begin_time": "11:00",
+          "end_time": "12:00",
+          "tutor": "DR. JILLIAN OOI LEAN SIM"
+        }
+      ]
+    },
+    {
+      "module": "ENVIONMENTAL ETHICS",
+      "course_id": "AID3013",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 70,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "002",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DKE",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. JILLIAN OOI LEAN SIM"
+        },
+        {
+          "title": "tutorial",
+          "day": "Monday",
+          "room": "BS14",
+          "begin_time": "13:00",
+          "end_time": "14:00",
+          "tutor": "DR. JILLIAN OOI LEAN SIM"
+        }
+      ]
+    },
+    {
+      "module": "ENVIONMENTAL ETHICS",
+      "course_id": "AID3013",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 70,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "003",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DKE",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. JILLIAN OOI LEAN SIM"
+        },
+        {
+          "title": "tutorial",
+          "day": "Monday",
+          "room": "BS14",
+          "begin_time": "14:00",
+          "end_time": "15:00",
+          "tutor": "DR. JILLIAN OOI LEAN SIM"
+        }
+      ]
+    }
+  ],
+  "AID3015": [
+    {
+      "module": "GLOBAL ENVIRONMENTAL CHANGE",
+      "course_id": "AID3015",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 76,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DKF",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "DR. SHEEBA NETTUKANDY CHENOLI"
+        },
+        {
+          "title": "tutorial",
+          "day": "Tuesday",
+          "room": "BS15",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "DR. SHEEBA NETTUKANDY CHENOLI"
+        }
+      ]
+    },
+    {
+      "module": "GLOBAL ENVIRONMENTAL CHANGE",
+      "course_id": "AID3015",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 76,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "002",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DKF",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "DR. SHEEBA NETTUKANDY CHENOLI"
+        },
+        {
+          "title": "tutorial",
+          "day": "Tuesday",
+          "room": "BS15",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. SHEEBA NETTUKANDY CHENOLI"
+        }
+      ]
+    },
+    {
+      "module": "GLOBAL ENVIRONMENTAL CHANGE",
+      "course_id": "AID3015",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 76,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "003",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "DKF",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "DR. SHEEBA NETTUKANDY CHENOLI"
+        },
+        {
+          "title": "tutorial",
+          "day": "Tuesday",
+          "room": "BS15",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. SHEEBA NETTUKANDY CHENOLI"
         }
       ]
     }
@@ -35126,14 +35300,6 @@
           "room": "STQS1",
           "begin_time": "14:00",
           "end_time": "17:00",
-          "tutor": "PROF. SR DR. HAFEZ SALLEH"
-        },
-        {
-          "title": "tutorial",
-          "day": "Tuesday",
-          "room": "STQS1",
-          "begin_time": "14:00",
-          "end_time": "17:00",
           "tutor": "DR. MUHAMMAD HADI BIN MUSTAFA"
         }
       ]
@@ -37542,25 +37708,9 @@
         {
           "title": "lecture",
           "day": "Tuesday",
-          "room": "SKARYAWAN",
-          "begin_time": "18:00",
-          "end_time": "20:00",
-          "tutor": "TS. DR. ADAM ARULDEWAN BIN S.MUTHUVEERAN"
-        },
-        {
-          "title": "lecture",
-          "day": "Tuesday",
           "room": "BK1",
           "begin_time": "18:00",
           "end_time": "20:00",
-          "tutor": "TS. DR. ADAM ARULDEWAN BIN S.MUTHUVEERAN"
-        },
-        {
-          "title": "tutorial",
-          "day": "Tuesday",
-          "room": "SKARYAWAN",
-          "begin_time": "20:00",
-          "end_time": "21:00",
           "tutor": "TS. DR. ADAM ARULDEWAN BIN S.MUTHUVEERAN"
         },
         {
@@ -38193,14 +38343,6 @@
         {
           "title": "tutorial",
           "day": "Tuesday",
-          "room": "SKARYAWAN",
-          "begin_time": "16:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. AR WONG WAI CHOONG"
-        },
-        {
-          "title": "tutorial",
-          "day": "Tuesday",
           "room": "BKP2",
           "begin_time": "16:00",
           "end_time": "17:00",
@@ -38515,22 +38657,6 @@
       "levelCode": 4,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "STSBT5",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. NAZLI BIN CHE DIN"
-        },
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "STSBT5",
-          "begin_time": "17:00",
-          "end_time": "19:00",
-          "tutor": "ASSOCIATE PROF. DR. NAZLI BIN CHE DIN"
-        },
         {
           "title": "lecture",
           "day": "Tuesday",
@@ -41969,14 +42095,6 @@
       "levelCode": 4,
       "occurence": "2",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "CBS1112",
-          "begin_time": "18:00",
-          "end_time": "21:00",
-          "tutor": "DR. MUHUMMAD KHAIRUL ISLAM"
-        },
         {
           "title": "lecture",
           "day": "Tuesday",
@@ -61782,31 +61900,6 @@
       ]
     }
   ],
-  "GQS0061": [
-    {
-      "module": "WATER",
-      "course_id": "GQS0061",
-      "credits": 2,
-      "yearPeriod": "2024/S1",
-      "overallTargetStudent": 100,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF SCIENCE",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "ONLINE",
-          "begin_time": "16:00",
-          "end_time": "17:00",
-          "tutor": "DR. MOHD TALHA ANEES"
-        }
-      ]
-    }
-  ],
   "GQT0039": [
     {
       "module": "COMMUNICATION SKILLS FOR EMPLOYMENT PURPOSES",
@@ -78664,14 +78757,6 @@
           "room": "BSJQH",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "PROF. DR. ISHAK BIN HJ SULIAMAN"
-        },
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BSJQH",
-          "begin_time": "18:00",
-          "end_time": "21:00",
           "tutor": "PROF. DR. MUSTAFFA BIN ABDULLAH"
         }
       ]
@@ -78910,14 +78995,6 @@
           "room": "BS17",
           "begin_time": "15:00",
           "end_time": "18:00",
-          "tutor": "ASSOCIATE PROF. DR. MOHAMAD ZAIDI BIN ABDUL RAHMAN"
-        },
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BS17",
-          "begin_time": "15:00",
-          "end_time": "18:00",
           "tutor": "DR. RAJA HISYAMUDIN BIN RAJA SULONG"
         }
       ]
@@ -78962,14 +79039,6 @@
       "levelCode": 4,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BS28",
-          "begin_time": "15:00",
-          "end_time": "18:00",
-          "tutor": "DR. ARIYANTI BINTI MUSTAPHA"
-        },
         {
           "title": "lecture",
           "day": "Tuesday",
@@ -79547,14 +79616,6 @@
           "room": "BS6",
           "begin_time": "18:00",
           "end_time": "21:00",
-          "tutor": "DR. AZIAN BIN MADUN"
-        },
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BS6",
-          "begin_time": "18:00",
-          "end_time": "21:00",
           "tutor": "ASSOCIATE PROF. DR. ILHAAMIE BINTI ABDUL GHANI AZMI"
         }
       ]
@@ -79659,14 +79720,6 @@
           "day": "Tuesday",
           "room": "BSJSP",
           "begin_time": "18:00",
-          "end_time": "21:00",
-          "tutor": "ASSOCIATE PROF. DR. SUHAILI BIN SARIF"
-        },
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BSJSP",
-          "begin_time": "18:00",
           "end_time": "21:00"
         }
       ]
@@ -79686,14 +79739,6 @@
       "levelCode": 4,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BS5",
-          "begin_time": "18:00",
-          "end_time": "21:00",
-          "tutor": "DR. NORHIDAYAH BINTI PAUZI"
-        },
         {
           "title": "lecture",
           "day": "Tuesday",
@@ -79857,14 +79902,6 @@
       "levelCode": 4,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BSJQH",
-          "begin_time": "18:00",
-          "end_time": "21:00",
-          "tutor": "PROF. DR. ISHAK BIN HJ SULIAMAN"
-        },
         {
           "title": "lecture",
           "day": "Tuesday",
@@ -83866,13 +83903,6 @@
           "day": "Tuesday",
           "room": "BK201",
           "begin_time": "14:00",
-          "end_time": "17:00"
-        },
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BK201",
-          "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. NORAZURA BINTI MUHAMAD BUNNORI"
         }
@@ -83891,13 +83921,6 @@
       "levelCode": 3,
       "occurence": "1M",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BK201",
-          "begin_time": "14:00",
-          "end_time": "17:00"
-        },
         {
           "title": "lecture",
           "day": "Tuesday",
@@ -85945,18 +85968,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "DK2",
-          "begin_time": "16:00",
-          "end_time": "17:00",
-          "tutor": "PROFESSOR IR. DR. SUHANA BINTI MOHD SAID"
-        },
-        {
-          "title": "lecture",
           "day": "Wednesday",
           "room": "DK2",
           "begin_time": "11:00",
           "end_time": "13:00",
+          "tutor": "PROFESSOR IR. DR. SUHANA BINTI MOHD SAID"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DK2",
+          "begin_time": "16:00",
+          "end_time": "17:00",
           "tutor": "PROFESSOR IR. DR. SUHANA BINTI MOHD SAID"
         }
       ]
@@ -88758,18 +88781,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "GREENCUBE1",
-          "begin_time": "16:00",
-          "end_time": "17:00",
-          "tutor": "PROFESSOR IR. DR. YAU YAT HUANG"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
           "room": "GREENCUBE1",
           "begin_time": "09:00",
           "end_time": "11:00",
+          "tutor": "PROFESSOR IR. DR. YAU YAT HUANG"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "GREENCUBE1",
+          "begin_time": "16:00",
+          "end_time": "17:00",
           "tutor": "PROFESSOR IR. DR. YAU YAT HUANG"
         }
       ]
@@ -88816,18 +88839,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "GREENCUBE2",
-          "begin_time": "16:00",
-          "end_time": "17:00",
-          "tutor": "PROF. DR. ANDRI ANDRIYANA"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
           "room": "GREENCUBE2",
           "begin_time": "11:00",
           "end_time": "13:00",
+          "tutor": "PROF. DR. ANDRI ANDRIYANA"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "GREENCUBE2",
+          "begin_time": "16:00",
+          "end_time": "17:00",
           "tutor": "PROF. DR. ANDRI ANDRIYANA"
         }
       ]
@@ -98655,14 +98678,6 @@
         },
         {
           "title": "online",
-          "day": "Tuesday",
-          "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "DR. MOHAMAD SHAFIQ BIN AZANAN"
-        },
-        {
-          "title": "online",
           "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "09:00",
@@ -99164,14 +99179,6 @@
         },
         {
           "title": "online",
-          "day": "Tuesday",
-          "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "DR. KAMARIAH BINTI IBRAHIM"
-        },
-        {
-          "title": "online",
           "day": "Monday",
           "room": "ONLINE",
           "begin_time": "11:00",
@@ -99358,18 +99365,18 @@
         },
         {
           "title": "online",
-          "day": "Tuesday",
-          "room": "ONLINE",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "DR. ROZAIDA @ POH YUEN YING"
-        },
-        {
-          "title": "online",
           "day": "Friday",
           "room": "ONLINE",
           "begin_time": "09:00",
           "end_time": "11:00",
+          "tutor": "DR. ROZAIDA @ POH YUEN YING"
+        },
+        {
+          "title": "online",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. ROZAIDA @ POH YUEN YING"
         },
         {
@@ -102722,14 +102729,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "17:00",
-          "tutor": "DR. LEE WAN LING"
-        },
-        {
-          "title": "lecture",
           "day": "Wednesday",
           "room": "DK1",
           "begin_time": "08:00",
@@ -102755,6 +102754,14 @@
         {
           "title": "lecture",
           "day": "Monday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. LEE WAN LING"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
           "room": "DK1",
           "begin_time": "08:00",
           "end_time": "17:00",
@@ -103017,14 +103024,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "17:00",
-          "tutor": "DR. CHUI PING LEI"
-        },
-        {
-          "title": "lecture",
           "day": "Wednesday",
           "room": "DK1",
           "begin_time": "08:00",
@@ -103050,6 +103049,14 @@
         {
           "title": "lecture",
           "day": "Monday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. CHUI PING LEI"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
           "room": "DK1",
           "begin_time": "08:00",
           "end_time": "17:00",
@@ -104700,6 +104707,39 @@
       ]
     }
   ],
+  "OIA1003": [
+    {
+      "module": "BIOCHEMISTRY",
+      "course_id": "OIA1003",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "MDK3",
+          "begin_time": "12:00",
+          "end_time": "13:00",
+          "tutor": "DR. YVONNE LIEW JING MEI"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "MDK3",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. YVONNE LIEW JING MEI"
+        }
+      ]
+    }
+  ],
   "OIA1004": [
     {
       "module": "ANATOMY AND PHYSIOLOGY",
@@ -105657,6 +105697,206 @@
       ]
     }
   ],
+  "OIA1021": [
+    {
+      "module": "FUNDAMENTALS OF PHARMACY",
+      "course_id": "OIA1021",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "MDK3",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    }
+  ],
+  "OIA1022": [
+    {
+      "module": "CHEMISTRY OF DRUG DISCOVERY AND ACTION",
+      "course_id": "OIA1022",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "MDK3",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        }
+      ]
+    }
+  ],
+  "OIA1023": [
+    {
+      "module": "PHYSICAL PHARMACEUTICS",
+      "course_id": "OIA1023",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "MDK3",
+          "begin_time": "09:00",
+          "end_time": "11:00"
+        }
+      ]
+    },
+    {
+      "module": "PHYSICAL PHARMACEUTICS",
+      "course_id": "OIA1023",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "MDK3",
+          "begin_time": "09:00",
+          "end_time": "11:00"
+        }
+      ]
+    }
+  ],
+  "OIA1024": [
+    {
+      "module": "PHARMACOTHERAPY FOR GASTROINTESINAL DISORDERS",
+      "course_id": "OIA1024",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MDK3",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "PHARMACOTHERAPY FOR GASTROINTESINAL DISORDERS",
+      "course_id": "OIA1024",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MDK3",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    }
+  ],
+  "OIA1025": [
+    {
+      "module": "PHARMACOTHERAPY FOR RHEUMATIC AND IMMUNE DISORDERS",
+      "course_id": "OIA1025",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "MDK3",
+          "begin_time": "08:00",
+          "end_time": "09:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "MDK3",
+          "begin_time": "09:00",
+          "end_time": "10:00"
+        }
+      ]
+    },
+    {
+      "module": "PHARMACOTHERAPY FOR RHEUMATIC AND IMMUNE DISORDERS",
+      "course_id": "OIA1025",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "MDK3",
+          "begin_time": "08:00",
+          "end_time": "09:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "MDK3",
+          "begin_time": "09:00",
+          "end_time": "10:00"
+        }
+      ]
+    }
+  ],
   "OIA2002": [
     {
       "module": "PHARMACEUTICAL ANALYSIS",
@@ -105869,6 +106109,228 @@
           "begin_time": "10:00",
           "end_time": "13:00",
           "tutor": "DR. RIYANTO TEGUH WIDODO"
+        }
+      ]
+    }
+  ],
+  "OIA2006": [
+    {
+      "module": "CHROMATOGRAPHY, ELECTROCHEMISTRY AND RADIOCHEMISTRY",
+      "course_id": "OIA2006",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "CBE",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        }
+      ]
+    },
+    {
+      "module": "CHROMATOGRAPHY, ELECTROCHEMISTRY AND RADIOCHEMISTRY",
+      "course_id": "OIA2006",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "CBE",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        }
+      ]
+    }
+  ],
+  "OIA2008": [
+    {
+      "module": "STERILE PHARMACEUTICAL DOSAGE FORM DESIGN",
+      "course_id": "OIA2008",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "CBE",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. SHAIK NYAMATHULLA"
+        }
+      ]
+    },
+    {
+      "module": "STERILE PHARMACEUTICAL DOSAGE FORM DESIGN",
+      "course_id": "OIA2008",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "CBE",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. SHAIK NYAMATHULLA"
+        }
+      ]
+    }
+  ],
+  "OIA2011": [
+    {
+      "module": "PHARMACOTHERAPY FOR CARDIOVASCULAR DISORDERS",
+      "course_id": "OIA2011",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. SYIREEN BINTI ALWI"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "NLINE",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "DR. KAYATRI A/P GOVINDARAJU"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "CBE",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. KAYATRI A/P GOVINDARAJU"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "CBE",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "DR. SYIREEN BINTI ALWI"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "CBE",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. SYIREEN BINTI ALWI"
+        }
+      ]
+    },
+    {
+      "module": "PHARMACOTHERAPY FOR CARDIOVASCULAR DISORDERS",
+      "course_id": "OIA2011",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. SYIREEN BINTI ALWI"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. AMIRA HAJIRAH BT ABD JAMIL"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "NLINE",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "DR. KAYATRI A/P GOVINDARAJU"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "CBE",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. KAYATRI A/P GOVINDARAJU"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "CBE",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "DR. SYIREEN BINTI ALWI"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "CBE",
+          "begin_time": "09:00",
+          "end_time": "11:00",
+          "tutor": "DR. SYIREEN BINTI ALWI"
         }
       ]
     }
@@ -106139,6 +106601,118 @@
           "begin_time": "08:00",
           "end_time": "10:00",
           "tutor": "DR. IZYAN BINTI A WAHAB"
+        }
+      ]
+    }
+  ],
+  "OIA2015": [
+    {
+      "module": "PHARMACOTHERAPY FOR PSYCHIATRIC AND NEUROLOGICAL DISORDERS",
+      "course_id": "OIA2015",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "CBE",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. SIM MAW SHIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "CBE",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. SIM MAW SHIN"
+        }
+      ]
+    },
+    {
+      "module": "PHARMACOTHERAPY FOR PSYCHIATRIC AND NEUROLOGICAL DISORDERS",
+      "course_id": "OIA2015",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "CBE",
+          "begin_time": "09:00",
+          "end_time": "10:00",
+          "tutor": "DR. SIM MAW SHIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "CBE",
+          "begin_time": "11:00",
+          "end_time": "13:00",
+          "tutor": "DR. SIM MAW SHIN"
+        }
+      ]
+    }
+  ],
+  "OIA3001": [
+    {
+      "module": "SOLID PHARMACEUTICAL DOSAGE FORM DESIGN",
+      "course_id": "OIA3001",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CBE",
+          "begin_time": "10:00",
+          "end_time": "13:00",
+          "tutor": "DR. SYED MAHMOOD"
+        }
+      ]
+    },
+    {
+      "module": "SOLID PHARMACEUTICAL DOSAGE FORM DESIGN",
+      "course_id": "OIA3001",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CBE",
+          "begin_time": "10:00",
+          "end_time": "13:00",
+          "tutor": "DR. SYED MAHMOOD"
         }
       ]
     }
@@ -106595,6 +107169,54 @@
           "begin_time": "14:00",
           "end_time": "16:00",
           "tutor": "DR. SHARIFAH SHAKIRAH BINTI SYED OMAR"
+        }
+      ]
+    }
+  ],
+  "OIA3022": [
+    {
+      "module": "CLINICAL TOXICOLOGY",
+      "course_id": "OIA3022",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CBE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. NOORASYIKIN BINTI SHAMSUDDIN"
+        }
+      ]
+    },
+    {
+      "module": "CLINICAL TOXICOLOGY",
+      "course_id": "OIA3022",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CBE",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. NOORASYIKIN BINTI SHAMSUDDIN"
         }
       ]
     }
@@ -107163,6 +107785,453 @@
       ]
     }
   ],
+  "OIA3027": [
+    {
+      "module": "DRUG DISCOVERY AND DEVELOPMENT",
+      "course_id": "OIA3027",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "MDK5",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. SHARIFAH SHAKIRAH BINTI SYED OMAR"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MDK5",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. SHARIFAH SHAKIRAH BINTI SYED OMAR"
+        }
+      ]
+    },
+    {
+      "module": "DRUG DISCOVERY AND DEVELOPMENT",
+      "course_id": "OIA3027",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "MDK5",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. SHARIFAH SHAKIRAH BINTI SYED OMAR"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MDK5",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. SHARIFAH SHAKIRAH BINTI SYED OMAR"
+        }
+      ]
+    }
+  ],
+  "OIA3028": [
+    {
+      "module": "COMMUNITY PHARMACY PRACTICE",
+      "course_id": "OIA3028",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "MDK5",
+          "begin_time": "09:00",
+          "end_time": "12:00"
+        }
+      ]
+    },
+    {
+      "module": "COMMUNITY PHARMACY PRACTICE",
+      "course_id": "OIA3028",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "MDK5",
+          "begin_time": "09:00",
+          "end_time": "12:00"
+        }
+      ]
+    }
+  ],
+  "OIA3029": [
+    {
+      "module": "HOSPITAL PHARMACY PRACTICE",
+      "course_id": "OIA3029",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "MDK5",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. FATIHA HANA SHABARUDDIN"
+        }
+      ]
+    },
+    {
+      "module": "HOSPITAL PHARMACY PRACTICE",
+      "course_id": "OIA3029",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "MDK5",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. FATIHA HANA SHABARUDDIN"
+        }
+      ]
+    }
+  ],
+  "OIA3030": [
+    {
+      "module": "PRINCIPLES AND APPLICATIONS OF PHARMACOKINETICS",
+      "course_id": "OIA3030",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "MDK5",
+          "begin_time": "08:00",
+          "end_time": "11:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MDK5",
+          "begin_time": "08:00",
+          "end_time": "11:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MDK5",
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "DR. NUSAIBAH BINTI ABDUL RAHIM"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "MDK5",
+          "begin_time": "08:00",
+          "end_time": "11:00"
+        },
+        {
+          "title": "tutorial",
+          "day": "Tuesday",
+          "room": "MDK5",
+          "begin_time": "08:00",
+          "end_time": "11:00"
+        }
+      ]
+    },
+    {
+      "module": "PRINCIPLES AND APPLICATIONS OF PHARMACOKINETICS",
+      "course_id": "OIA3030",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "MDK5",
+          "begin_time": "08:00",
+          "end_time": "11:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MDK5",
+          "begin_time": "08:00",
+          "end_time": "11:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MDK5",
+          "begin_time": "08:00",
+          "end_time": "11:00",
+          "tutor": "DR. NUSAIBAH BINTI ABDUL RAHIM"
+        },
+        {
+          "title": "tutorial",
+          "day": "Thursday",
+          "room": "MDK5",
+          "begin_time": "08:00",
+          "end_time": "11:00"
+        },
+        {
+          "title": "tutorial",
+          "day": "Tuesday",
+          "room": "MDK5",
+          "begin_time": "08:00",
+          "end_time": "11:00"
+        }
+      ]
+    }
+  ],
+  "OIA3031": [
+    {
+      "module": "PHARMACOTHERAPY FOR SPECIFIC POPULATION",
+      "course_id": "OIA3031",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "MDK5",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MDK5",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        }
+      ]
+    },
+    {
+      "module": "PHARMACOTHERAPY FOR SPECIFIC POPULATION",
+      "course_id": "OIA3031",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "MDK5",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MDK5",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        }
+      ]
+    }
+  ],
+  "OIA3032": [
+    {
+      "module": "RESEARCH PROJECT I",
+      "course_id": "OIA3032",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 80,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "reproject",
+          "day": "Monday",
+          "room": "MDK5",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        },
+        {
+          "title": "reproject",
+          "day": "Wednesday",
+          "room": "MDK5",
+          "begin_time": "08:00",
+          "end_time": "10:00"
+        }
+      ]
+    }
+  ],
+  "OIA3033": [
+    {
+      "module": "COSMETIC PRODUCTS",
+      "course_id": "OIA3033",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "MDK5",
+          "begin_time": "10:00",
+          "end_time": "13:00",
+          "tutor": "DR. SHARIFAH SHAKIRAH BINTI SYED OMAR"
+        }
+      ]
+    },
+    {
+      "module": "COSMETIC PRODUCTS",
+      "course_id": "OIA3033",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "MDK5",
+          "begin_time": "10:00",
+          "end_time": "13:00",
+          "tutor": "DR. SHARIFAH SHAKIRAH BINTI SYED OMAR"
+        }
+      ]
+    }
+  ],
+  "OIA3034": [
+    {
+      "module": "EMERGING TOPICS IN PHARMACY",
+      "course_id": "OIA3034",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MDK3",
+          "begin_time": "14:00",
+          "end_time": "17:00"
+        }
+      ]
+    },
+    {
+      "module": "EMERGING TOPICS IN PHARMACY",
+      "course_id": "OIA3034",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 90,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MDK3",
+          "begin_time": "14:00",
+          "end_time": "17:00"
+        }
+      ]
+    }
+  ],
   "OIA4002": [
     {
       "module": "PHARMACOECONOMICS",
@@ -107354,6 +108423,63 @@
       ]
     }
   ],
+  "OIA4014": [
+    {
+      "module": "PHARMACEUTICAL INDUSTRY AND REGULATORY CONTROL",
+      "course_id": "OIA4014",
+      "credits": 6,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 80,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "MDK3",
+          "begin_time": "10:00",
+          "end_time": "12:00"
+        }
+      ]
+    }
+  ],
+  "OIA4015": [
+    {
+      "module": "CLINICAL CLERKSHIP II",
+      "course_id": "OIA4015",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 80,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CBE",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "DR. LEE HONG GEE"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MDK3",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "DR. LEE HONG GEE"
+        }
+      ]
+    }
+  ],
   "OMX7001": [
     {
       "module": "RESEARCH METHODOLOGY",
@@ -107422,6 +108548,124 @@
           "begin_time": "09:00",
           "end_time": "12:00",
           "tutor": "DR. TANIA ISLAM"
+        }
+      ]
+    },
+    {
+      "module": "RESEARCH METHODOLOGY",
+      "course_id": "OMX7001",
+      "credits": 3,
+      "yearPeriod": "2026/R2",
+      "overallTargetStudent": 100,
+      "level": "MASTER",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. CHIN SEK PENG"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. HEH CHOON HAN"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. NAJIHAH BINTI MOHD HASHIM"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "10:30",
+          "tutor": "ASSOCIATE PROF. DR. ROZANA BINTI OTHMAN"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "10:30",
+          "end_time": "12:00",
+          "tutor": "DR. PHAN CHIA WEI"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. WAN SAFWANI BINTI WAN KAMARUL ZAMAN"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "10:30",
+          "tutor": "DR. LIT LEI CHENG"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "10:30",
+          "end_time": "12:00",
+          "tutor": "DR. NUR AKMARINA BINTI MOHD SAID"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. PHAN CHIA WEI"
+        },
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. NOORASYIKIN BINTI SHAMSUDDIN"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. TANIA ISLAM"
+        },
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. PHAN CHIA WEI"
         }
       ]
     }
@@ -107623,7 +108867,91 @@
       ]
     }
   ],
+  "OQB7002": [
+    {
+      "module": "CLINICAL RESEARCH AND REGULATORY AFFAIRS",
+      "course_id": "OQB7002",
+      "credits": 4,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 55,
+      "level": "MASTER",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Thursday",
+          "room": "CBE",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "ASSOCIATE PROF. DR. NAJIHAH BINTI MOHD HASHIM"
+        },
+        {
+          "title": "online",
+          "day": "Thursday",
+          "room": "CBE",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        }
+      ]
+    },
+    {
+      "module": "CLINICAL RESEARCH AND REGULATORY AFFAIRS",
+      "course_id": "OQB7002",
+      "credits": 4,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 55,
+      "level": "MASTER",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Thursday",
+          "room": "CBE",
+          "begin_time": "14:00",
+          "end_time": "16:00",
+          "tutor": "ASSOCIATE PROF. DR. NAJIHAH BINTI MOHD HASHIM"
+        },
+        {
+          "title": "online",
+          "day": "Thursday",
+          "room": "CBE",
+          "begin_time": "14:00",
+          "end_time": "16:00"
+        }
+      ]
+    }
+  ],
   "OQB7004": [
+    {
+      "module": "RESEARCH PROJECT",
+      "course_id": "OQB7004",
+      "credits": 12,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 50,
+      "level": "MASTER",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 4,
+      "occurence": "P1",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "NLINE",
+          "begin_time": "08:00",
+          "end_time": "18:00"
+        }
+      ]
+    },
     {
       "module": "RESEARCH PROJECT",
       "course_id": "OQB7004",
@@ -107667,14 +108995,6 @@
           "room": "CBE",
           "begin_time": "14:00",
           "end_time": "17:00",
-          "tutor": "DR. CHIN SEK PENG"
-        },
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "CBE",
-          "begin_time": "14:00",
-          "end_time": "17:00",
           "tutor": "DR. HEH CHOON HAN"
         },
         {
@@ -107683,6 +109003,14 @@
           "room": "CBE",
           "begin_time": "14:00",
           "end_time": "17:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CBE",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. CHIN SEK PENG"
         },
         {
           "title": "practical",
@@ -107713,14 +109041,6 @@
           "room": "CBE",
           "begin_time": "14:00",
           "end_time": "17:00",
-          "tutor": "DR. CHIN SEK PENG"
-        },
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "CBE",
-          "begin_time": "14:00",
-          "end_time": "17:00",
           "tutor": "DR. HEH CHOON HAN"
         },
         {
@@ -107729,6 +109049,14 @@
           "room": "CBE",
           "begin_time": "14:00",
           "end_time": "17:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "CBE",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. CHIN SEK PENG"
         },
         {
           "title": "practical",
@@ -107951,6 +109279,124 @@
           "begin_time": "09:00",
           "end_time": "12:00",
           "tutor": "DR. TANIA ISLAM"
+        }
+      ]
+    },
+    {
+      "module": "RESEARCH METHODOLOGY",
+      "course_id": "OVA8001",
+      "credits": 3,
+      "yearPeriod": "2026/R2",
+      "overallTargetStudent": 100,
+      "level": "PhD",
+      "faculty": "FACULTY OF PHARMACY",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 5,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. CHIN SEK PENG"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. HEH CHOON HAN"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. NAJIHAH BINTI MOHD HASHIM"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "10:30",
+          "tutor": "ASSOCIATE PROF. DR. ROZANA BINTI OTHMAN"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "10:30",
+          "end_time": "12:00",
+          "tutor": "DR. PHAN CHIA WEI"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. WAN SAFWANI BINTI WAN KAMARUL ZAMAN"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "10:30",
+          "tutor": "DR. LIT LEI CHENG"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "10:30",
+          "end_time": "12:00",
+          "tutor": "DR. NUR AKMARINA BINTI MOHD SAID"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. PHAN CHIA WEI"
+        },
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. NOORASYIKIN BINTI SHAMSUDDIN"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00"
+        },
+        {
+          "title": "online",
+          "day": "Monday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. TANIA ISLAM"
+        },
+        {
+          "title": "online",
+          "day": "Friday",
+          "room": "NLINE",
+          "begin_time": "09:00",
+          "end_time": "12:00",
+          "tutor": "DR. PHAN CHIA WEI"
         }
       ]
     }
@@ -114549,18 +115995,18 @@
       "activities": [
         {
           "title": "lecture",
+          "day": "Friday",
+          "room": "BSD",
+          "begin_time": "18:00",
+          "end_time": "21:00"
+        },
+        {
+          "title": "lecture",
           "day": "Tuesday",
           "room": "BSEC306",
           "begin_time": "15:00",
           "end_time": "18:00",
           "tutor": "DR. NORFARIZA BINTI MOHD RADZI"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "BSD",
-          "begin_time": "18:00",
-          "end_time": "21:00"
         }
       ]
     },
@@ -116713,18 +118159,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "BS2BCL",
-          "begin_time": "20:00",
-          "end_time": "22:00",
-          "tutor": "MRS SAW SAN SAN"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BS1BCL",
           "begin_time": "12:00",
           "end_time": "14:00",
+          "tutor": "MRS SAW SAN SAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BS2BCL",
+          "begin_time": "20:00",
+          "end_time": "22:00",
           "tutor": "MRS SAW SAN SAN"
         }
       ]
@@ -116744,18 +118190,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "BS2BCL",
-          "begin_time": "20:00",
-          "end_time": "22:00",
-          "tutor": "MR. MOHD FAIS BIN ISMAIL"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BS1BCL",
           "begin_time": "12:00",
           "end_time": "14:00",
+          "tutor": "MR. MOHD FAIS BIN ISMAIL"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BS2BCL",
+          "begin_time": "20:00",
+          "end_time": "22:00",
           "tutor": "MR. MOHD FAIS BIN ISMAIL"
         }
       ]
@@ -116775,18 +118221,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "BS2BCL",
-          "begin_time": "20:00",
-          "end_time": "22:00",
-          "tutor": "MR. MOHD FAIS BIN ISMAIL"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BS1BCL",
           "begin_time": "12:00",
           "end_time": "14:00",
+          "tutor": "MR. MOHD FAIS BIN ISMAIL"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BS2BCL",
+          "begin_time": "20:00",
+          "end_time": "22:00",
           "tutor": "MR. MOHD FAIS BIN ISMAIL"
         }
       ]
@@ -119140,18 +120586,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "BS2BCL",
-          "begin_time": "20:00",
-          "end_time": "22:00",
-          "tutor": "MRS SAW SAN SAN"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BS1BCL",
           "begin_time": "12:00",
           "end_time": "14:00",
+          "tutor": "MRS SAW SAN SAN"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BS2BCL",
+          "begin_time": "20:00",
+          "end_time": "22:00",
           "tutor": "MRS SAW SAN SAN"
         }
       ]
@@ -119171,18 +120617,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "BS2BCL",
-          "begin_time": "20:00",
-          "end_time": "22:00",
-          "tutor": "MR. MOHD FAIS BIN ISMAIL"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BS1BCL",
           "begin_time": "12:00",
           "end_time": "14:00",
+          "tutor": "MR. MOHD FAIS BIN ISMAIL"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BS2BCL",
+          "begin_time": "20:00",
+          "end_time": "22:00",
           "tutor": "MR. MOHD FAIS BIN ISMAIL"
         }
       ]
@@ -119202,18 +120648,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "BS2BCL",
-          "begin_time": "20:00",
-          "end_time": "22:00",
-          "tutor": "MR. MOHD FAIS BIN ISMAIL"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "BS1BCL",
           "begin_time": "12:00",
           "end_time": "14:00",
+          "tutor": "MR. MOHD FAIS BIN ISMAIL"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "BS2BCL",
+          "begin_time": "20:00",
+          "end_time": "22:00",
           "tutor": "MR. MOHD FAIS BIN ISMAIL"
         }
       ]
@@ -123347,14 +124793,14 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Monday",
           "room": "STAPE",
           "begin_time": "15:30",
           "end_time": "17:00"
         },
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Tuesday",
           "room": "STAPE",
           "begin_time": "15:30",
           "end_time": "17:00"
@@ -123376,14 +124822,14 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Monday",
           "room": "STAPE",
           "begin_time": "15:30",
           "end_time": "17:00"
         },
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Tuesday",
           "room": "STAPE",
           "begin_time": "15:30",
           "end_time": "17:00"
@@ -123405,14 +124851,14 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Monday",
           "room": "STAPE",
           "begin_time": "15:30",
           "end_time": "17:00"
         },
         {
           "title": "lecture",
-          "day": "Monday",
+          "day": "Tuesday",
           "room": "STAPE",
           "begin_time": "15:30",
           "end_time": "17:00"
@@ -124777,15 +126223,15 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "BBOXPE",
+          "day": "Friday",
+          "room": "STBPE",
           "begin_time": "15:00",
           "end_time": "17:00"
         },
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "STBPE",
+          "day": "Tuesday",
+          "room": "BBOXPE",
           "begin_time": "15:00",
           "end_time": "17:00"
         }
@@ -126079,14 +127525,6 @@
           "begin_time": "08:00",
           "end_time": "09:00",
           "tutor": "PROF. DR. AZHAR BIN ARIFFIN"
-        },
-        {
-          "title": "lab",
-          "day": "Tuesday",
-          "room": "MKIMIAORII",
-          "begin_time": "11:00",
-          "end_time": "17:00",
-          "tutor": "DR. NURDIANA BINTI NORDIN"
         }
       ]
     },
@@ -127671,14 +129109,6 @@
           "begin_time": "10:00",
           "end_time": "11:00",
           "tutor": "DR. NAZZATUSH SHIMAR JAMALUDIN"
-        },
-        {
-          "title": "lab",
-          "day": "Tuesday",
-          "room": "MKIMIAINORIII",
-          "begin_time": "11:00",
-          "end_time": "17:00",
-          "tutor": "CHM. DR. MUHAMMAD AMEERULLAH BIN SAHUDIN"
         }
       ]
     },
@@ -127942,14 +129372,6 @@
           "begin_time": "08:00",
           "end_time": "09:00",
           "tutor": "ASSOCIATE PROF. DR. TEO YIN YIN"
-        },
-        {
-          "title": "lab",
-          "day": "Tuesday",
-          "room": "MKIMIAFIZIKIII",
-          "begin_time": "11:00",
-          "end_time": "17:00",
-          "tutor": "DR. RUSNAH SYAHILA BINTI DUALI HUSSEN"
         }
       ]
     }
@@ -128044,29 +129466,6 @@
     }
   ],
   "SIC3021": [
-    {
-      "module": "PRACTICAL OF INORGANIC CHEMISTRY III",
-      "course_id": "SIC3021",
-      "credits": 2,
-      "yearPeriod": "2026/S2",
-      "overallTargetStudent": 64,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF SCIENCE",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lab",
-          "day": "Tuesday",
-          "room": "MKIMIAINORIII",
-          "begin_time": "11:00",
-          "end_time": "17:00",
-          "tutor": "DR. NAZZATUSH SHIMAR JAMALUDIN"
-        }
-      ]
-    },
     {
       "module": "PRACTICAL OF INORGANIC CHEMISTRY III",
       "course_id": "SIC3021",
@@ -128213,29 +129612,6 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": null,
       "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lab",
-          "day": "Tuesday",
-          "room": "MKIMIAORIII",
-          "begin_time": "11:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. LOW YUN YEE"
-        }
-      ]
-    },
-    {
-      "module": "PRACTICAL OF ORGANIC CHEMISTRY III",
-      "course_id": "SIC3023",
-      "credits": 2,
-      "yearPeriod": "2026/S2",
-      "overallTargetStudent": 72,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF SCIENCE",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
       "occurence": "2",
       "activities": [
         {
@@ -128360,28 +129736,6 @@
     }
   ],
   "SIC3025": [
-    {
-      "module": "PRACTICAL OF PHYSICAL CHEMISTRY III",
-      "course_id": "SIC3025",
-      "credits": 2,
-      "yearPeriod": "2026/S2",
-      "overallTargetStudent": 68,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF SCIENCE",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
-      "occurence": "1",
-      "activities": [
-        {
-          "title": "lab",
-          "day": "Tuesday",
-          "room": "MKIMIAFIZIKIII",
-          "begin_time": "11:00",
-          "end_time": "17:00"
-        }
-      ]
-    },
     {
       "module": "PRACTICAL OF PHYSICAL CHEMISTRY III",
       "course_id": "SIC3025",
@@ -128528,14 +129882,6 @@
           "begin_time": "09:00",
           "end_time": "11:00",
           "tutor": "PROF. DR. SHARIFAH BINTI MOHAMAD"
-        },
-        {
-          "title": "lab",
-          "day": "Tuesday",
-          "room": "MKIMIAANAIII",
-          "begin_time": "11:00",
-          "end_time": "17:00",
-          "tutor": "DR. ARNIZA KHAIRANI BINTI MOHD JAMIL"
         }
       ]
     },
@@ -129540,14 +130886,6 @@
           "begin_time": "09:00",
           "end_time": "11:00",
           "tutor": "PROF. DR. SHARIFAH BINTI MOHAMAD"
-        },
-        {
-          "title": "lab",
-          "day": "Tuesday",
-          "room": "MKIMIAANAIII",
-          "begin_time": "11:00",
-          "end_time": "17:00",
-          "tutor": "DR. ARNIZA KHAIRANI BINTI MOHD JAMIL"
         }
       ]
     },
@@ -130140,13 +131478,6 @@
           "begin_time": "17:00",
           "end_time": "19:00",
           "tutor": "DR. SITI JARIANI BINTI MOHD JANI"
-        },
-        {
-          "title": "lab",
-          "day": "Tuesday",
-          "room": "MKIMIAANAIII",
-          "begin_time": "11:00",
-          "end_time": "17:00"
         }
       ]
     },
@@ -130495,14 +131826,6 @@
           "begin_time": "09:00",
           "end_time": "11:00",
           "tutor": "PROF. DR. SHARIFAH BINTI MOHAMAD"
-        },
-        {
-          "title": "lab",
-          "day": "Tuesday",
-          "room": "MKIMIAANAIII",
-          "begin_time": "11:00",
-          "end_time": "17:00",
-          "tutor": "DR. ARNIZA KHAIRANI BINTI MOHD JAMIL"
         }
       ]
     }
@@ -131428,14 +132751,6 @@
           "begin_time": "09:00",
           "end_time": "10:00",
           "tutor": "ASSOCIATE PROF. DR. AMY THEN YEE HUI"
-        },
-        {
-          "title": "lab",
-          "day": "Tuesday",
-          "room": "MKOMP",
-          "begin_time": "15:00",
-          "end_time": "18:00",
-          "tutor": "ASSOCIATE PROF. DR. MUHAMAD SHAKIRIN BIN MISPAN"
         },
         {
           "title": "lab",
@@ -132751,16 +134066,16 @@
           "title": "lab",
           "day": "Tuesday",
           "room": "MELEK",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. NAZHATULSHIMA BINTI AHMAD"
         },
         {
           "title": "lab",
           "day": "Tuesday",
           "room": "MELEK",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. NAZHATULSHIMA BINTI AHMAD"
         }
       ]
@@ -132815,16 +134130,16 @@
           "title": "lab",
           "day": "Tuesday",
           "room": "MASAS",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. AMIRUL SYAFIQ BIN ABDUL JAAFAR"
         },
         {
           "title": "lab",
           "day": "Tuesday",
           "room": "MASAS",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. AMIRUL SYAFIQ BIN ABDUL JAAFAR"
         }
       ]
@@ -132877,14 +134192,6 @@
       "activities": [
         {
           "title": "lab",
-          "day": "Tuesday",
-          "room": "MAK. PROJEK FIZ",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. RAMESH KASI"
-        },
-        {
-          "title": "lab",
           "day": "Thursday",
           "room": "MAK. PROJEK FIZ",
           "begin_time": "10:00",
@@ -132905,6 +134212,14 @@
           "room": "MAK. PROJEK FIZ",
           "begin_time": "10:00",
           "end_time": "13:00",
+          "tutor": "ASSOCIATE PROF. DR. RAMESH KASI"
+        },
+        {
+          "title": "lab",
+          "day": "Tuesday",
+          "room": "MAK. PROJEK FIZ",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. RAMESH KASI"
         }
       ]
@@ -133314,16 +134629,16 @@
           "title": "lab",
           "day": "Tuesday",
           "room": "MGUNAAN",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. CHIU WEE SIONG"
         },
         {
           "title": "lab",
           "day": "Tuesday",
           "room": "MGUNAAN",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. CHIU WEE SIONG"
         }
       ]
@@ -133543,17 +134858,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "BKD321",
-          "begin_time": "16:00",
+          "begin_time": "15:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. AHMAD SHUHAIMI BIN ABU BAKAR"
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "BKD321",
-          "begin_time": "15:00",
+          "begin_time": "16:00",
           "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. AHMAD SHUHAIMI BIN ABU BAKAR"
         }
@@ -135243,14 +136558,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "DKGEOLOGI",
-          "begin_time": "17:00",
-          "end_time": "18:00",
-          "tutor": "DR. MOHD TALHA ANEES"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
           "room": "DKGEOLOGI",
           "begin_time": "17:00",
@@ -135632,6 +136939,14 @@
         },
         {
           "title": "lecture",
+          "day": "Wednesday",
+          "room": "MMPGEO",
+          "begin_time": "16:00",
+          "end_time": "19:00",
+          "tutor": "DR. MUHAMMAD HATTA BIN ROSELEE"
+        },
+        {
+          "title": "lecture",
           "day": "Monday",
           "room": "MMPGEO",
           "begin_time": "16:00",
@@ -136006,7 +137321,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "MMPGEO",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -136014,7 +137329,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "MMPGEO",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -136037,7 +137352,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "MMPGEO",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -136045,7 +137360,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "MMPGEO",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -138140,14 +139455,6 @@
       "activities": [
         {
           "title": "lab",
-          "day": "Tuesday",
-          "room": "MPBK1ISB",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. ZAZALI BIN ALIAS"
-        },
-        {
-          "title": "lab",
           "day": "Thursday",
           "room": "MPBK1ISB",
           "begin_time": "14:00",
@@ -138181,6 +139488,14 @@
         {
           "title": "lab",
           "day": "Monday",
+          "room": "MPBK1ISB",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "ASSOCIATE PROF. DR. ZAZALI BIN ALIAS"
+        },
+        {
+          "title": "lab",
+          "day": "Tuesday",
           "room": "MPBK1ISB",
           "begin_time": "14:00",
           "end_time": "17:00",
@@ -138811,16 +140126,16 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "BSD35ISB",
-          "begin_time": "15:00",
+          "begin_time": "16:00",
           "end_time": "17:00"
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "BSD35ISB",
-          "begin_time": "16:00",
+          "begin_time": "15:00",
           "end_time": "17:00"
         }
       ]
@@ -138840,16 +140155,16 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "BSD35ISB",
-          "begin_time": "15:00",
+          "begin_time": "16:00",
           "end_time": "17:00"
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "BSD35ISB",
-          "begin_time": "16:00",
+          "begin_time": "15:00",
           "end_time": "17:00"
         }
       ]
@@ -140042,14 +141357,6 @@
       "occurence": "1",
       "activities": [
         {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BTSB4ISB",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "DR. SHAMSUL AZLIN B AHMAD SHAMSUDDIN"
-        },
-        {
           "title": "lab",
           "day": "Tuesday",
           "room": "MBIOKESIHATAN1",
@@ -141007,7 +142314,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKCEMPAKAKDK",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -141015,7 +142322,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKCEMPAKAKDK",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -141070,14 +142377,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "DKM2ISM",
-          "begin_time": "16:00",
-          "end_time": "18:00",
-          "tutor": "PROF. DR. WONG KOK BIN"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
           "room": "DKM2ISM",
           "begin_time": "16:00",
@@ -141117,13 +142416,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "DKVANDAKDK",
-          "begin_time": "16:00",
-          "end_time": "18:00"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
           "room": "DKVANDAKDK",
           "begin_time": "16:00",
@@ -141160,7 +142452,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKCEMPAKAKDK",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -141168,7 +142460,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKCEMPAKAKDK",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -141223,7 +142515,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKCEMPAKAKDK",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -141231,7 +142523,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKCEMPAKAKDK",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -141668,7 +142960,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "MMATE1ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -141676,7 +142968,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "MMATE1ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -141960,14 +143252,14 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKIXORAKDK",
           "begin_time": "16:00",
           "end_time": "18:00"
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKIXORAKDK",
           "begin_time": "16:00",
           "end_time": "18:00"
@@ -142026,14 +143318,14 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKIXORAKDK",
           "begin_time": "16:00",
           "end_time": "18:00"
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKIXORAKDK",
           "begin_time": "16:00",
           "end_time": "18:00"
@@ -142092,14 +143384,14 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKIXORAKDK",
           "begin_time": "16:00",
           "end_time": "18:00"
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKIXORAKDK",
           "begin_time": "16:00",
           "end_time": "18:00"
@@ -142875,7 +144167,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "MMATE2ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -142883,7 +144175,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "MMATE2ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -142906,7 +144198,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "MMATE2ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -142914,7 +144206,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "MMATE2ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -146183,7 +147475,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKM1ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -146191,7 +147483,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKM1ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -146265,14 +147557,14 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKTERATAIKDK",
           "begin_time": "18:00",
           "end_time": "20:00"
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKTERATAIKDK",
           "begin_time": "18:00",
           "end_time": "20:00"
@@ -147037,14 +148329,6 @@
           "room": "BKBT17ISB",
           "begin_time": "12:00",
           "end_time": "13:00",
-          "tutor": "DR. TANG SWEE SEONG"
-        },
-        {
-          "title": "lab",
-          "day": "Tuesday",
-          "room": "MMIKBIOLOGI2",
-          "begin_time": "14:00",
-          "end_time": "17:00",
           "tutor": "DR. TANG SWEE SEONG"
         }
       ]
@@ -148072,14 +149356,6 @@
           "begin_time": "11:00",
           "end_time": "12:00",
           "tutor": "DR. TAZNIM BEGAM BINTI MOHD MOHIDIN"
-        },
-        {
-          "title": "lab",
-          "day": "Tuesday",
-          "room": "MMIKBIOLOGI1",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "DR. TAZNIM BEGAM BINTI MOHD MOHIDIN"
         }
       ]
     },
@@ -148995,14 +150271,6 @@
           "begin_time": "12:00",
           "end_time": "13:00",
           "tutor": "DR. SONG SZE LOOI"
-        },
-        {
-          "title": "lab",
-          "day": "Tuesday",
-          "room": "MGBM22ISB",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "DR. SONG SZE LOOI"
         }
       ]
     }
@@ -149839,7 +151107,7 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Thursday",
           "room": "DKM4ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -149847,7 +151115,7 @@
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Tuesday",
           "room": "DKM4ISM",
           "begin_time": "16:00",
           "end_time": "18:00",
@@ -152550,14 +153818,6 @@
       "levelCode": 4,
       "occurence": "1",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Tuesday",
-          "room": "BTSA1ISB",
-          "begin_time": "18:00",
-          "end_time": "21:00",
-          "tutor": "DR. LAU BENG FYE"
-        },
         {
           "title": "lecture",
           "day": "Tuesday",
@@ -156694,14 +157954,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "ONLINE",
-          "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "DR. ROZITA BINTI CHE OMAR"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
           "room": "ONLINE",
           "begin_time": "16:00",
@@ -156711,6 +157963,14 @@
         {
           "title": "lecture",
           "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "15:00",
+          "end_time": "17:00",
+          "tutor": "DR. ROZITA BINTI CHE OMAR"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
           "room": "ONLINE",
           "begin_time": "15:00",
           "end_time": "17:00",
@@ -163022,17 +164282,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "ABBL 1",
-          "begin_time": "16:00",
-          "end_time": "18:00"
-        },
-        {
-          "title": "lecture",
           "day": "Friday",
           "room": "ABBL 1",
           "begin_time": "08:00",
           "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBL 1",
+          "begin_time": "16:00",
+          "end_time": "18:00"
         }
       ]
     }
@@ -163053,17 +164313,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "ABBK 26",
-          "begin_time": "16:00",
-          "end_time": "18:00"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "ABBS 2",
           "begin_time": "14:00",
           "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ABBK 26",
+          "begin_time": "16:00",
+          "end_time": "18:00"
         }
       ]
     },
@@ -164334,15 +165594,15 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "ABBL 4",
+          "day": "Thursday",
+          "room": "ABBL 2",
           "begin_time": "16:00",
           "end_time": "18:00"
         },
         {
           "title": "lecture",
-          "day": "Thursday",
-          "room": "ABBL 2",
+          "day": "Tuesday",
+          "room": "ABBL 4",
           "begin_time": "16:00",
           "end_time": "18:00"
         }
@@ -165778,17 +167038,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "MPS",
-          "begin_time": "16:00",
-          "end_time": "17:00"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
           "room": "BS2",
           "begin_time": "14:00",
           "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "MPS",
+          "begin_time": "16:00",
+          "end_time": "17:00"
         }
       ]
     },
@@ -165807,17 +167067,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "MPS",
-          "begin_time": "16:00",
-          "end_time": "17:00"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
           "room": "BS2",
           "begin_time": "14:00",
           "end_time": "16:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "MPS",
+          "begin_time": "16:00",
+          "end_time": "17:00"
         }
       ]
     }
@@ -168996,17 +170256,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "DKB",
-          "begin_time": "16:00",
-          "end_time": "17:00"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
           "room": "DKB",
           "begin_time": "08:00",
           "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DKB",
+          "begin_time": "16:00",
+          "end_time": "17:00"
         }
       ]
     },
@@ -169047,17 +170307,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "DKB",
-          "begin_time": "16:00",
-          "end_time": "17:00"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
           "room": "DKB",
           "begin_time": "08:00",
           "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DKB",
+          "begin_time": "16:00",
+          "end_time": "17:00"
         }
       ]
     }
@@ -169532,17 +170792,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "DKA",
-          "begin_time": "16:00",
-          "end_time": "17:00"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
           "room": "DKA",
           "begin_time": "08:00",
           "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DKA",
+          "begin_time": "16:00",
+          "end_time": "17:00"
         }
       ]
     },
@@ -169561,17 +170821,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "DKA",
-          "begin_time": "16:00",
-          "end_time": "17:00"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
           "room": "DKA",
           "begin_time": "08:00",
           "end_time": "10:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "DKA",
+          "begin_time": "16:00",
+          "end_time": "17:00"
         }
       ]
     }
