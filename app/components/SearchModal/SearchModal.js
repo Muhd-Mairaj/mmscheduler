@@ -6,8 +6,14 @@ import { Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import ModalCard from "../SearchModalCard/SearchModalCard";
 import RoundedButton from "../RoundedButton/RoundedButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBook, faSearch, faPlus } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBook,
+  faSearch,
+  faPlus,
+  faImage,
+} from "@fortawesome/free-solid-svg-icons";
 import RibbonButton from "../RibbonButton/RibbonButton";
+import { preloadEnrollmentReader } from "../../functions/ImportModal/readEnrollmentImage";
 
 const PAGE_SIZE = 20;
 const SCROLL_THRESHOLD_PX = 200;
@@ -18,6 +24,7 @@ const SearchModal = ({
   chosenCourses,
   handleSearch,
   handleModuleSelection,
+  handleImportImage,
   searchValue,
 }) => {
   const [data, setData] = useState({});
@@ -26,7 +33,9 @@ const SearchModal = ({
   const [hasMore, setHasMore] = useState(true);
   const [loading, setLoading] = useState(false);
   const [total, setTotal] = useState(0);
+  const [isTouchDevice, setIsTouchDevice] = useState(false);
 
+  const fileInputRef = useRef(null);
   const listRef = useRef(null);
   const sentinelRef = useRef(null);
   const observerRef = useRef(null);
@@ -187,6 +196,20 @@ const SearchModal = ({
     }
   };
 
+  // there is no pasting on phones, they pick the screenshot from the gallery
+  useEffect(() => {
+    setIsTouchDevice(window.matchMedia("(pointer: coarse)").matches);
+  }, []);
+
+  const handleFileChange = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      handleImportImage(file);
+    }
+    // so the same screenshot can be picked again
+    e.target.value = "";
+  };
+
   const resultCount = Object.keys(data).length;
   const showList = resultCount > 0 && searchValue.length > 0;
   const showEmpty =
@@ -201,8 +224,37 @@ const SearchModal = ({
           <Searchbar
             onChange={handleSearch}
             value={searchValue}
-            placeholder={"Search Module"}
+            placeholder={
+              isTouchDevice
+                ? "Search Module"
+                : "Search Module or paste enrollment screenshot"
+            }
           />
+          <div className={classes.importRow}>
+            <button
+              className={classes.importButton}
+              onClick={() => {
+                // the text reader loads while the screenshot is being picked
+                preloadEnrollmentReader();
+                fileInputRef.current.click();
+              }}
+            >
+              <FontAwesomeIcon icon={faImage} />
+              <span>Import from enrollment screenshot</span>
+            </button>
+            <input
+              type="file"
+              accept="image/*"
+              ref={fileInputRef}
+              onChange={handleFileChange}
+              hidden
+            />
+          </div>
+          <p className={classes.importHint}>
+            Adds your modules and their occurrences from a screenshot of your
+            registered modules. The image is read in your browser and is not
+            uploaded.
+          </p>
           <br />
           {showList ? (
             <>

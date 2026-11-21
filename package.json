@@ -21,7 +21,8 @@
     "react-dom": "^19.2.4",
     "react-select": "^5.10.2",
     "react-server-dom-webpack": "^19.2.1",
-    "reactstrap": "^9.2.3"
+    "reactstrap": "^9.2.3",
+    "tesseract.js": "^7.0.0"
   },
   "engines": {
     "node": ">=18.17.0"

@@ -1,0 +1,90 @@
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 30vh;
+  text-align: center;
+}
+
+.loadingText {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--loading-text-color);
+  animation: fadeInOut 2s infinite;
+}
+
+.noResultsIcon {
+  color: var(--text-muted-color);
+  font-size: 3rem !important;
+}
+
+.noResultsHeader {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  color: var(--text-muted-color);
+  text-align: center;
+}
+
+.note {
+  color: var(--text-muted-color);
+}
+
+.resultCount {
+  font-size: 0.85rem;
+  color: var(--text-muted-color);
+  margin-bottom: 8px;
+}
+
+.moduleList {
+  padding: 0;
+  margin: 0;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+.moduleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  background-color: var(--modal-card-bg);
+  padding: 9px 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.moduleName {
+  color: var(--modal-card-text-color);
+}
+
+.occurrence {
+  flex-shrink: 0;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 0.8rem;
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+
+.missingOccurrence {
+  flex-shrink: 0;
+  color: var(--text-muted-color);
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}

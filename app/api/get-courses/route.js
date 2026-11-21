@@ -1,4 +1,4 @@
-import data from '../../all_courses_updated_one_week_schedule_occ_separated.json';
+import data from '../../functions/Common/courses';
 
 const DEFAULT_LIMIT = 20;
 const MAX_LIMIT = 100;
@@ -20,7 +20,11 @@ export async function GET(request) {
     JSON.stringify({ results, total, page, limit, totalPages, hasMore }),
     {
       status: 200,
-      headers: { 'Content-Type': 'application/json' },
+      headers: {
+        'Content-Type': 'application/json',
+        // the data only changes once a day
+        'Cache-Control': 'public, max-age=300',
+      },
     }
   );
 }
