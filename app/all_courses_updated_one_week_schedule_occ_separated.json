@@ -45125,29 +45125,6 @@
           "tutor": "DR. ONG LIN DAR"
         }
       ]
-    },
-    {
-      "module": "HUMAN CAPITAL MANAGEMENT",
-      "course_id": "CQC7006",
-      "credits": 3,
-      "yearPeriod": "2026/S2",
-      "overallTargetStudent": 80,
-      "level": "MASTER",
-      "faculty": "FACULTY OF BUSINESS AND ECONOMICS",
-      "continuousAssessmentWeightage": "60~40",
-      "examDuration": 7200,
-      "levelCode": 4,
-      "occurence": "2",
-      "activities": [
-        {
-          "title": "lecture",
-          "day": "Saturday",
-          "room": "CBS1112",
-          "begin_time": "09:00",
-          "end_time": "18:00",
-          "tutor": "DR. LEE SU TENG"
-        }
-      ]
     }
   ],
   "CQC7007": [
@@ -109440,14 +109417,6 @@
           "day": "Saturday",
           "room": "MMB",
           "begin_time": "09:00",
-          "end_time": "12:00",
-          "tutor": "DR. MUHAMMAD HAMEEDULLAH BIN MD ASRI"
-        },
-        {
-          "title": "lecture",
-          "day": "Saturday",
-          "room": "MMB",
-          "begin_time": "09:00",
           "end_time": "12:00"
         }
       ]
@@ -146731,7 +146700,7 @@
           "room": "DKGEOLOGI",
           "begin_time": "09:00",
           "end_time": "10:00",
-          "tutor": "DR. MOHD TALHA ANEES"
+          "tutor": "DR. ELANNI BINTI MD AFFANDI"
         },
         {
           "title": "lecture",
@@ -146739,21 +146708,23 @@
           "room": "DKGEOLOGI",
           "begin_time": "09:00",
           "end_time": "10:00",
-          "tutor": "DR. MOHD TALHA ANEES"
+          "tutor": "DR. ELANNI BINTI MD AFFANDI"
         },
         {
           "title": "lecture",
           "day": "Monday",
           "room": "DKGEOLOGI",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. HARRY TELAJAN ANAK LINANG"
         },
         {
           "title": "lecture",
           "day": "Wednesday",
           "room": "DKGEOLOGI",
           "begin_time": "09:00",
-          "end_time": "10:00"
+          "end_time": "10:00",
+          "tutor": "DR. HARRY TELAJAN ANAK LINANG"
         }
       ]
     },
@@ -148660,34 +148631,34 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Monday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "DR. ARINDAM CHAKRABORTY"
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Wednesday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "DR. ARINDAM CHAKRABORTY"
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
+          "day": "Monday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "ASSOCIATE PROF. DR. MEOR HAKIF BIN AMIR HASSAN"
         },
         {
           "title": "lecture",
-          "day": "Thursday",
+          "day": "Wednesday",
           "room": "DKGEOLOGI",
-          "begin_time": "09:00",
-          "end_time": "10:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "ASSOCIATE PROF. DR. MEOR HAKIF BIN AMIR HASSAN"
         }
       ]
@@ -149400,8 +149371,7 @@
           "day": "Tuesday",
           "room": "DKGEOLOGI",
           "begin_time": "15:00",
-          "end_time": "18:00",
-          "tutor": "DR. MOHD TALHA ANEES"
+          "end_time": "18:00"
         }
       ]
     }
@@ -149621,7 +149591,7 @@
           "room": "DKGEOLOGI",
           "begin_time": "10:00",
           "end_time": "11:00",
-          "tutor": "DR. LIN CHIN YIK"
+          "tutor": "ASSOCIATE PROF. DR. AHMAD FARID BIN ABU BAKAR"
         },
         {
           "title": "lab",
@@ -149629,7 +149599,7 @@
           "room": "DKGEOLOGI",
           "begin_time": "10:00",
           "end_time": "11:00",
-          "tutor": "DR. LIN CHIN YIK"
+          "tutor": "ASSOCIATE PROF. DR. AHMAD FARID BIN ABU BAKAR"
         },
         {
           "title": "lab",
@@ -149676,37 +149646,6 @@
           "room": "MPETA",
           "begin_time": "09:00",
           "end_time": "10:00",
-          "tutor": "DR. ROS FATIHAH BINTI HAJI MUHAMMAD"
-        }
-      ]
-    },
-    {
-      "module": "KARST GEOMORPHOLOGY AND CONSERVATIONS",
-      "course_id": "SII2014",
-      "credits": 2,
-      "yearPeriod": "2026/S2",
-      "overallTargetStudent": 150,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF SCIENCE",
-      "continuousAssessmentWeightage": "40~60",
-      "examDuration": 7200,
-      "levelCode": 3,
-      "occurence": "001",
-      "activities": [
-        {
-          "title": "lab",
-          "day": "Tuesday",
-          "room": "MMPGEO",
-          "begin_time": "14:00",
-          "end_time": "15:00",
-          "tutor": "DR. ROS FATIHAH BINTI HAJI MUHAMMAD"
-        },
-        {
-          "title": "lab",
-          "day": "Thursday",
-          "room": "MMPGEO",
-          "begin_time": "14:00",
-          "end_time": "15:00",
           "tutor": "DR. ROS FATIHAH BINTI HAJI MUHAMMAD"
         }
       ]
@@ -150511,7 +150450,7 @@
           "title": "lab",
           "day": "Monday",
           "room": "MAKMINEROLOGI",
-          "begin_time": "08:00",
+          "begin_time": "09:00",
           "end_time": "11:00",
           "tutor": "ASSOCIATE PROF. DR. KHAIRUL AZLAN BIN MUSTAPHA"
         },
@@ -150519,7 +150458,7 @@
           "title": "lab",
           "day": "Wednesday",
           "room": "MAKMINEROLOGI",
-          "begin_time": "08:00",
+          "begin_time": "09:00",
           "end_time": "11:00",
           "tutor": "ASSOCIATE PROF. DR. KHAIRUL AZLAN BIN MUSTAPHA"
         }
@@ -150546,7 +150485,7 @@
           "room": "MAKMINEROLOGI",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "DR. JASMI HAFIZ BIN ABDUL AZIZ"
+          "tutor": "PROF. DR. AZMAN BIN ABD GHANI"
         },
         {
           "title": "lab",
@@ -150554,7 +150493,7 @@
           "room": "MAKMINEROLOGI",
           "begin_time": "14:00",
           "end_time": "16:00",
-          "tutor": "DR. JASMI HAFIZ BIN ABDUL AZIZ"
+          "tutor": "PROF. DR. AZMAN BIN ABD GHANI"
         }
       ]
     }
