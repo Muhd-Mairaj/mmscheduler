@@ -151291,7 +151291,7 @@
         {
           "title": "lecture",
           "day": "Monday",
-          "room": "DKVANDAKDK",
+          "room": "BS9BS10KDK",
           "begin_time": "12:00",
           "end_time": "13:00",
           "tutor": "ASSOCIATE PROF. DR. FAUZIAH BINTI SHAHUL HAMID"
@@ -151299,7 +151299,7 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "DKVANDAKDK",
+          "room": "BS9BS10KDK",
           "begin_time": "12:00",
           "end_time": "13:00",
           "tutor": "ASSOCIATE PROF. DR. FAUZIAH BINTI SHAHUL HAMID"
@@ -154745,7 +154745,7 @@
         {
           "title": "lecture",
           "day": "Wednesday",
-          "room": "DKVANDAKDK",
+          "room": "DKCEMPAKAKDK",
           "begin_time": "11:00",
           "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. DR. SAHARUDDIN BIN MOHAMAD"
@@ -154754,8 +154754,8 @@
           "title": "lab",
           "day": "Tuesday",
           "room": "ONLINE",
-          "begin_time": "11:00",
-          "end_time": "12:00",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "ASSOCIATE PROF. DR. SAHARUDDIN BIN MOHAMAD"
         }
       ]
@@ -162175,6 +162175,53 @@
           "tutor": "DR. M VIJAYAN A/L MANICKAM ACHARI"
         }
       ]
+    },
+    {
+      "module": "BIOINFORMATICS CONCEPTS",
+      "course_id": "SIO1003",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 80,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "12:00",
+          "end_time": "13:00",
+          "tutor": "DR. FARAHANIZA BINTI SUPANDI"
+        },
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "12:00",
+          "end_time": "13:00",
+          "tutor": "DR. M VIJAYAN A/L MANICKAM ACHARI"
+        },
+        {
+          "title": "lab",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. FARAHANIZA BINTI SUPANDI"
+        },
+        {
+          "title": "lab",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. M VIJAYAN A/L MANICKAM ACHARI"
+        }
+      ]
     }
   ],
   "SIO1004": [
@@ -162197,6 +162244,29 @@
           "room": "DKTERATAIKDK",
           "begin_time": "14:00",
           "end_time": "16:00",
+          "tutor": "ASSOCIATE PROF. DR. SORAYYA BIBI MALEK BINTI MALEK ABD RASHID"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO COMPUTER PROGRAMMING IN BIOINFORMATICS",
+      "course_id": "SIO1004",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 80,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "ONLINE",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "ASSOCIATE PROF. DR. SORAYYA BIBI MALEK BINTI MALEK ABD RASHID"
         }
       ]
@@ -162757,6 +162827,53 @@
           "title": "lab",
           "day": "Thursday",
           "room": "MBIM2",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. CHANG SIOW WEE"
+        }
+      ]
+    },
+    {
+      "module": "BIOINFORMATICS DATA MANAGEMENT",
+      "course_id": "SIO2012",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 50,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MBIM1",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. ARPAH BINTI ABU"
+        },
+        {
+          "title": "lecture",
+          "day": "Thursday",
+          "room": "MBIM1",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. CHANG SIOW WEE"
+        },
+        {
+          "title": "lab",
+          "day": "Thursday",
+          "room": "MBIM1",
+          "begin_time": "14:00",
+          "end_time": "17:00",
+          "tutor": "DR. ARPAH BINTI ABU"
+        },
+        {
+          "title": "lab",
+          "day": "Thursday",
+          "room": "MBIM1",
           "begin_time": "14:00",
           "end_time": "17:00",
           "tutor": "DR. CHANG SIOW WEE"
