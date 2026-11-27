@@ -157982,14 +157982,6 @@
           "begin_time": "10:00",
           "end_time": "13:00",
           "tutor": "DR. SYED BAHARI RAMADZAN SYED ADNAN"
-        },
-        {
-          "title": "lecture",
-          "day": "Monday",
-          "room": "MFT1FIZIK",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "DR. SYED BAHARI RAMADZAN SYED ADNAN"
         }
       ]
     },
@@ -158012,14 +158004,6 @@
           "room": "MFT1FIZIK",
           "begin_time": "10:00",
           "end_time": "13:00",
-          "tutor": "PROF. DR. ZURINA BINTI OSMAN"
-        },
-        {
-          "title": "lecture",
-          "day": "Wednesday",
-          "room": "MFT1FIZIK",
-          "begin_time": "14:00",
-          "end_time": "17:00",
           "tutor": "PROF. DR. ZURINA BINTI OSMAN"
         }
       ]
@@ -158148,6 +158132,68 @@
           "room": "BSFA",
           "begin_time": "16:00",
           "end_time": "17:00",
+          "tutor": "DR. MUHAMMAD IMRAN MUSTAFA BIN ABDUL KHUDUS"
+        }
+      ]
+    },
+    {
+      "module": "QUANTUM PHYSICS",
+      "course_id": "SIF1015",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 95,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BSFA",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. MUHAMMAD IMRAN MUSTAFA BIN ABDUL KHUDUS"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BSFA",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. MUHAMMAD IMRAN MUSTAFA BIN ABDUL KHUDUS"
+        }
+      ]
+    },
+    {
+      "module": "QUANTUM PHYSICS",
+      "course_id": "SIF1015",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 95,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BSFA",
+          "begin_time": "10:00",
+          "end_time": "11:00",
+          "tutor": "DR. MUHAMMAD IMRAN MUSTAFA BIN ABDUL KHUDUS"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BSFA",
+          "begin_time": "10:00",
+          "end_time": "11:00",
           "tutor": "DR. MUHAMMAD IMRAN MUSTAFA BIN ABDUL KHUDUS"
         }
       ]
@@ -158397,6 +158443,64 @@
           "end_time": "13:00"
         }
       ]
+    },
+    {
+      "module": "MATHEMATICAL METHODS II",
+      "course_id": "SIF1018",
+      "credits": 4,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 95,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 10800,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS1KDK",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BS1KDK",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        }
+      ]
+    },
+    {
+      "module": "MATHEMATICAL METHODS II",
+      "course_id": "SIF1018",
+      "credits": 4,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 95,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 10800,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS1KDK",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BS1KDK",
+          "begin_time": "11:00",
+          "end_time": "13:00"
+        }
+      ]
     }
   ],
   "SIF2001": [
@@ -158576,6 +158680,68 @@
           "room": "BS3BS4KDK",
           "begin_time": "09:00",
           "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. MOHD HAMDI BIN ALI @ BURAIDAH"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BS3BS4KDK",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. MOHD HAMDI BIN ALI @ BURAIDAH"
+        }
+      ]
+    },
+    {
+      "module": "ELECTROMAGNETISM II",
+      "course_id": "SIF2003",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 85,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS3BS4KDK",
+          "begin_time": "08:00",
+          "end_time": "09:00",
+          "tutor": "ASSOCIATE PROF. DR. MOHD HAMDI BIN ALI @ BURAIDAH"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BS3BS4KDK",
+          "begin_time": "08:00",
+          "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. MOHD HAMDI BIN ALI @ BURAIDAH"
+        }
+      ]
+    },
+    {
+      "module": "ELECTROMAGNETISM II",
+      "course_id": "SIF2003",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 85,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "40~60",
+      "examDuration": 7200,
+      "levelCode": 3,
+      "occurence": "001M",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Monday",
+          "room": "BS3BS4KDK",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "ASSOCIATE PROF. DR. MOHD HAMDI BIN ALI @ BURAIDAH"
         },
         {
