@@ -15414,10 +15414,10 @@
         },
         {
           "title": "tutorial",
-          "day": "Wednesday",
-          "room": "AUDIOIR",
-          "begin_time": "11:00",
-          "end_time": "12:00"
+          "day": "Tuesday",
+          "room": "BILIKSPM1",
+          "begin_time": "16:00",
+          "end_time": "17:00"
         }
       ]
     }
@@ -16866,6 +16866,37 @@
           "room": "DKB",
           "begin_time": "08:00",
           "end_time": "10:00",
+          "tutor": "ASSOCIATE PROF. DR. HELENA BINTI MUHAMAD VARKKEY"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DKA",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. HELENA BINTI MUHAMAD VARKKEY"
+        }
+      ]
+    },
+    {
+      "module": "RESEARCH PROJECT",
+      "course_id": "AIE3017",
+      "credits": 8,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 70,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF ARTS AND SOCIAL SCIENCES",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "P2",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "DKA",
+          "begin_time": "10:00",
+          "end_time": "12:00",
           "tutor": "ASSOCIATE PROF. DR. HELENA BINTI MUHAMAD VARKKEY"
         }
       ]
@@ -21423,14 +21454,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "PUSTAKAY",
-          "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "MISS CHIN SZE YUIN"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "HIMAWARI",
           "begin_time": "09:00",
@@ -21443,6 +21466,14 @@
           "room": "BILIKSEP1",
           "begin_time": "09:00",
           "end_time": "11:00",
+          "tutor": "MISS CHIN SZE YUIN"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "PUSTAKAY",
+          "begin_time": "15:00",
+          "end_time": "17:00",
           "tutor": "MISS CHIN SZE YUIN"
         }
       ]
@@ -56638,29 +56669,6 @@
       "continuousAssessmentWeightage": "100~0",
       "examDuration": null,
       "levelCode": 3,
-      "occurence": "003",
-      "activities": [
-        {
-          "title": "online",
-          "day": "Friday",
-          "room": "ONLINE",
-          "begin_time": "15:00",
-          "end_time": "17:00",
-          "tutor": "MISS BENJAPHRON ONTHONG"
-        }
-      ]
-    },
-    {
-      "module": "CRITICAL THINKING AND PROBLEM SOLVING SKILLS",
-      "course_id": "GBT0002",
-      "credits": 2,
-      "yearPeriod": "2026/S2",
-      "overallTargetStudent": 163,
-      "level": "BACHELOR",
-      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
-      "continuousAssessmentWeightage": "100~0",
-      "examDuration": null,
-      "levelCode": 3,
       "occurence": "004",
       "activities": [
         {
@@ -59013,7 +59021,46 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. TEOH TEOW CHONG"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHAMMED RIZMAN BIN IDID"
+        }
+      ]
+    },
+    {
+      "module": "INTRODUCTION TO BIOCOMPUTING",
+      "course_id": "GFS0013",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 150,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "002",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. TEOH TEOW CHONG"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
           "room": "ONLINE",
           "begin_time": "10:00",
           "end_time": "12:00",
@@ -92240,14 +92287,6 @@
           "room": "BSJSE",
           "begin_time": "15:00",
           "end_time": "18:00",
-          "tutor": "DR. MOHAMMAD ABDELHAMID SALEM QATAWNEH"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "BSJSE",
-          "begin_time": "15:00",
-          "end_time": "18:00",
           "tutor": "DR. MOHAMAD KHALID BIN BAHRUDIN"
         },
         {
@@ -94454,8 +94493,8 @@
           "title": "tutorial",
           "day": "Tuesday",
           "room": "BSTEMBUSU",
-          "begin_time": "11:00",
-          "end_time": "12:00",
+          "begin_time": "08:00",
+          "end_time": "09:00",
           "tutor": "DR. NUR AMIRAH BINTI CHE SOH"
         }
       ]
@@ -100616,15 +100655,15 @@
           "title": "lecture",
           "day": "Friday",
           "room": "BK102",
-          "begin_time": "17:00",
-          "end_time": "18:00"
+          "begin_time": "10:00",
+          "end_time": "12:00"
         },
         {
           "title": "lecture",
           "day": "Friday",
           "room": "BK102",
-          "begin_time": "10:00",
-          "end_time": "12:00"
+          "begin_time": "17:00",
+          "end_time": "18:00"
         }
       ]
     },
@@ -121597,14 +121636,6 @@
           "room": "MD2",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "DR. LEE WENN CHYAU"
-        },
-        {
-          "title": "practical",
-          "day": "Friday",
-          "room": "MD2",
-          "begin_time": "15:00",
-          "end_time": "17:00",
           "tutor": "DR. JUNAID OLAWALE QUAZIM"
         }
       ]
@@ -124552,14 +124583,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "17:00",
-          "tutor": "DR. LEE WAN LING"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK1",
           "begin_time": "08:00",
@@ -124585,6 +124608,14 @@
         {
           "title": "lecture",
           "day": "Thursday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. LEE WAN LING"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "DK1",
           "begin_time": "08:00",
           "end_time": "17:00",
@@ -124847,14 +124878,6 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "DK1",
-          "begin_time": "08:00",
-          "end_time": "17:00",
-          "tutor": "DR. CHUI PING LEI"
-        },
-        {
-          "title": "lecture",
           "day": "Monday",
           "room": "DK1",
           "begin_time": "08:00",
@@ -124880,6 +124903,14 @@
         {
           "title": "lecture",
           "day": "Thursday",
+          "room": "DK1",
+          "begin_time": "08:00",
+          "end_time": "17:00",
+          "tutor": "DR. CHUI PING LEI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
           "room": "DK1",
           "begin_time": "08:00",
           "end_time": "17:00",
@@ -140430,18 +140461,18 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "BSD",
-          "begin_time": "18:00",
-          "end_time": "21:00"
-        },
-        {
-          "title": "lecture",
           "day": "Tuesday",
           "room": "BSEC306",
           "begin_time": "15:00",
           "end_time": "18:00",
           "tutor": "DR. NORFARIZA BINTI MOHD RADZI"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "BSD",
+          "begin_time": "18:00",
+          "end_time": "21:00"
         }
       ]
     },
@@ -144957,17 +144988,17 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS1BCL",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "room": "BS2BCL",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. WANG I TA"
         },
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS2BCL",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "room": "BS1BCL",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. WANG I TA"
         }
       ]
@@ -145277,17 +145308,17 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS1BCL",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "room": "BS2BCL",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. WANG I TA"
         },
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS2BCL",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "room": "BS1BCL",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. WANG I TA"
         }
       ]
@@ -145333,17 +145364,17 @@
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS1BCL",
-          "begin_time": "14:00",
-          "end_time": "17:00",
+          "room": "BS2BCL",
+          "begin_time": "10:00",
+          "end_time": "13:00",
           "tutor": "DR. WANG I TA"
         },
         {
           "title": "lecture",
           "day": "Friday",
-          "room": "BS2BCL",
-          "begin_time": "10:00",
-          "end_time": "13:00",
+          "room": "BS1BCL",
+          "begin_time": "14:00",
+          "end_time": "17:00",
           "tutor": "DR. WANG I TA"
         }
       ]
@@ -150791,15 +150822,15 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "STBPE",
+          "day": "Tuesday",
+          "room": "BBOXPE",
           "begin_time": "15:00",
           "end_time": "17:00"
         },
         {
           "title": "lecture",
-          "day": "Tuesday",
-          "room": "BBOXPE",
+          "day": "Friday",
+          "room": "STBPE",
           "begin_time": "15:00",
           "end_time": "17:00"
         }
@@ -158209,7 +158240,7 @@
           "room": "DK1",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "DR. MOHD ZUWAIRI BIN SAIMAN"
+          "tutor": "ASSOCIATE PROF. DR. NOOR HASHIDA BINTI HASHIM"
         },
         {
           "title": "lecture",
@@ -158217,7 +158248,7 @@
           "room": "DK1",
           "begin_time": "15:00",
           "end_time": "17:00",
-          "tutor": "ASSOCIATE PROF. DR. NOOR HASHIDA BINTI HASHIM"
+          "tutor": "DR. MOHD ZUWAIRI BIN SAIMAN"
         }
       ]
     },
@@ -183263,6 +183294,68 @@
           "tutor": "DR. MOHAMMED RIZMAN BIN IDID"
         }
       ]
+    },
+    {
+      "module": "BIOCOMPUTING",
+      "course_id": "SIX1008",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 30,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "001",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. TEOH TEOW CHONG"
+        },
+        {
+          "title": "lecture",
+          "day": "Tuesday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHAMMED RIZMAN BIN IDID"
+        }
+      ]
+    },
+    {
+      "module": "BIOCOMPUTING",
+      "course_id": "SIX1008",
+      "credits": 2,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 30,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF SCIENCE",
+      "continuousAssessmentWeightage": "100~0",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "002",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "ASSOCIATE PROF. DR. TEOH TEOW CHONG"
+        },
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "ONLINE",
+          "begin_time": "10:00",
+          "end_time": "12:00",
+          "tutor": "DR. MOHAMMED RIZMAN BIN IDID"
+        }
+      ]
     }
   ],
   "SIX1009": [
@@ -186081,14 +186174,6 @@
           "room": "DK3",
           "begin_time": "14:00",
           "end_time": "17:00",
-          "tutor": "PROF. DR. NAZIA BINTI ABDUL MAJID"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "DK3",
-          "begin_time": "14:00",
-          "end_time": "17:00",
           "tutor": "DR. YUSRIZAM BIN SHARIFUDDIN"
         }
       ]
@@ -186106,14 +186191,6 @@
       "levelCode": 4,
       "occurence": "1M",
       "activities": [
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "DK3",
-          "begin_time": "14:00",
-          "end_time": "17:00",
-          "tutor": "PROF. DR. NAZIA BINTI ABDUL MAJID"
-        },
         {
           "title": "lecture",
           "day": "Friday",
@@ -190285,6 +190362,28 @@
           "title": "lecture",
           "day": "Wednesday",
           "room": "BSMERJAGUNG",
+          "begin_time": "10:00",
+          "end_time": "13:00"
+        }
+      ]
+    },
+    {
+      "module": "CRITICAL READING",
+      "course_id": "TIE1012",
+      "credits": 3,
+      "yearPeriod": "2026/S2",
+      "overallTargetStudent": 50,
+      "level": "BACHELOR",
+      "faculty": "FACULTY OF LANGUAGES AND LINGUISTICS",
+      "continuousAssessmentWeightage": "60~40",
+      "examDuration": null,
+      "levelCode": 3,
+      "occurence": "002",
+      "activities": [
+        {
+          "title": "lecture",
+          "day": "Wednesday",
+          "room": "BTSAC2",
           "begin_time": "10:00",
           "end_time": "13:00"
         }
@@ -196278,13 +196377,6 @@
           "begin_time": "08:00",
           "end_time": "09:00",
           "tutor": "ASSOCIATE PROF. DR. ROSHIDAH BINTI HASSAN"
-        },
-        {
-          "title": "tutorial",
-          "day": "Wednesday",
-          "room": "BTSAC4",
-          "begin_time": "10:00",
-          "end_time": "12:00"
         }
       ]
     },
@@ -200166,13 +200258,6 @@
           "day": "Friday",
           "room": "DMENGKULA",
           "begin_time": "18:00",
-          "end_time": "21:00"
-        },
-        {
-          "title": "lecture",
-          "day": "Friday",
-          "room": "DMENGKULA",
-          "begin_time": "18:00",
           "end_time": "21:00",
           "tutor": "DR. SELVAJOTHI @ PILLAI A/L RAMALINGAM"
         },
@@ -200514,17 +200599,17 @@
       "activities": [
         {
           "title": "lecture",
-          "day": "Friday",
-          "room": "ABBL 1",
-          "begin_time": "22:00",
-          "end_time": "00:00"
-        },
-        {
-          "title": "lecture",
           "day": "Thursday",
           "room": "ABBL 1",
           "begin_time": "12:00",
           "end_time": "14:00"
+        },
+        {
+          "title": "lecture",
+          "day": "Friday",
+          "room": "ABBL 1",
+          "begin_time": "22:00",
+          "end_time": "00:00"
         }
       ]
     },
